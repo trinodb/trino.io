@@ -9,5 +9,5 @@
 
 [[redirects]]
   from = "/blog/*"
-  to = "https://prestosql-blog.netlify.com/:splat"
+  to = "https://prestosql-blog.netlify.com/blog/:splat"
   status = 200
