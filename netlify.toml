@@ -2,3 +2,8 @@
   from = "/docs/*"
   to = "https://prestosql-docs.netlify.com/:splat"
   status = 200
+
+[[redirects]]
+  from = "/blog/*"
+  to = "https://prestosql-blog.netlify.com/:splat"
+  status = 200
