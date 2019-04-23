@@ -1,4 +1,8 @@
 [[redirects]]
+  from = "/docs"
+  to = "/docs/current/"
+
+[[redirects]]
   from = "/docs/*"
   to = "https://prestosql-docs.netlify.com/:splat"
   status = 200
