@@ -1,3 +1,10 @@
+[build]
+  command = "jekyll build"
+  publish = "_site"
+
+[context.production.environment]
+  JEKYLL_ENV = "production"
+
 [[redirects]]
   from = "/docs"
   to = "/docs/current/"
