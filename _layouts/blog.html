@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ '/assets/blog/main.css' | relative_url }}">
+  <link rel="alternate" href="{{ '/blog/feed.xml' | relative_url }}" type="application/atom+xml" title="Presto Blog">
+  {%- include google-analytics.html -%}
+</head>
+
+<body>
+  <header class="site-header" role="banner">
+    <div class="wrapper">
+      <a class="site-title" rel="author" href="{{ '/blog/' | relative_url }}">Presto Blog</a>
+      <nav class="site-nav">
+        <div class="trigger">
+          <a class="page-link" href="{{ '/' | relative_url }}">About Presto</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="site-footer h-card">
+    <data class="u-url" href="{{ '/blog/' | relative_url }}"></data>
+
+    <div class="wrapper">
+      <div class="footer-col-wrapper">
+        <div class="footer-col footer-col-1">
+          <ul class="contact-list">
+            <li class="p-name">Presto Blog</li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-col-2">
+          <ul class="social-media-list">
+            <li>
+              <a href="https://github.com/prestosql">
+                <svg class="svg-icon"><use xlink:href="{{ '/assets/blog/social-icons.svg#github' | relative_url }}"></use></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com/prestosql">
+                <svg class="svg-icon"><use xlink:href="{{ '/assets/blog/social-icons.svg#twitter' | relative_url }}"></use></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCpqxUwvIA6vaXW45KO1GMhA">
+                <svg class="svg-icon"><use xlink:href="{{ '/assets/blog/social-icons.svg#youtube' | relative_url }}"></use></svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-col-3">
+          <p>{{- site.description | escape -}}</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
