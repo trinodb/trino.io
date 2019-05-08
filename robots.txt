@@ -6,4 +6,4 @@ Allow: /docs/current/
 Disallow: /docs/{{ i }}*
 {% endfor %}
 
-Sitemap: /sitemap.xml
+Sitemap: {{ '/sitemap.xml' | absolute_url }}
