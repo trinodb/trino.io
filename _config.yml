@@ -4,6 +4,7 @@ google_analytics: UA-133457846-1
 
 slack_url: https://join.slack.com/t/prestosql/shared_invite/enQtNTMyNzU2NzQ1NzQ4LWRhMTE4ZTA4NjM0NDA1NmFkZjEyZDJmN2MxNGY1ZTk4NmM4MzMxZDk4OGQ0NjZhNmQxMWUyNGIxMDliODk0MmU
 
+url: "https://prestosql.io"
 description: >-
   Presto is a high performance, distributed SQL query engine for big data.
 
