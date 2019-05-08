@@ -6,6 +6,10 @@
   JEKYLL_ENV = "production"
 
 [[redirects]]
+  from = "/blog/assets/*"
+  to = "/assets/blog/:splat"
+
+[[redirects]]
   from = "/docs"
   to = "/docs/current/"
 
