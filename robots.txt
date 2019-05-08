@@ -7,3 +7,4 @@ Disallow: /docs/{{ i }}*
 {% endfor %}
 
 Sitemap: {{ '/sitemap.xml' | absolute_url }}
+Sitemap: {{ '/docs/current/sitemap.xml' | absolute_url }}
