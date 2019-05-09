@@ -2,6 +2,7 @@
 layout: post
 title:  "A review of the first international Presto Conference, Tel Aviv, April 2019"
 author: Ori Reshef, VP Product, Varada
+image: /assets/blog/Israel-2019/audience.jpg
 excerpt_separator: <!--more-->
 ---
 

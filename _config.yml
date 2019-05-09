@@ -12,6 +12,12 @@ twitter:
   username: prestosql
   card: summary
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/presto-og.png
+
 collections:
   posts:
     permalink: /blog/:year/:month/:day/:title.html
