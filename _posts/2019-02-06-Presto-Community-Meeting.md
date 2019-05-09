@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Presto Community Meeting 2019-02-06"
+excerpt_separator: <!--more-->
 ---
 
 {% youtube YfDe_YVzMyI %}
@@ -12,3 +13,4 @@ title:  "Presto Community Meeting 2019-02-06"
 * Top requested features
 * Release verification
 
+<!--more-->
