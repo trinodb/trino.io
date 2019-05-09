@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: default
+title: Paper
 ---
 
+<div markdown="1" class="content homecontent width clearfix">
 <div markdown="1" class="leftcol widecol">
 
 # Presto: SQL on Everything
@@ -30,4 +32,5 @@ main design decisions.
 
 [![download](assets/icon-download.png) Presto_SQL_on_Everything.pdf](Presto_SQL_on_Everything.pdf){:.button}
 
+</div>
 </div>
