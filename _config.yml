@@ -8,6 +8,10 @@ url: "https://prestosql.io"
 description: >-
   Presto is a high performance, distributed SQL query engine for big data.
 
+twitter:
+  username: prestosql
+  card: summary
+
 collections:
   posts:
     permalink: /blog/:year/:month/:day/:title.html
