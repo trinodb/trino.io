@@ -5,6 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
+  {% if page.video %}
+    <meta property="og:video:url" content="{{ page.video | relative_url }}" />
+    <meta property="og:video:secure_url" content="{{ page.video | relative_url }}" />
+    <meta property="og:video:width" content="720" />
+    <meta property="og:video:height" content="405" />
+        <meta name="twitter:player" content="{{ page.video | relative_url }}">
+        <meta name="twitter:player:width" content="720">
+        <meta name="twitter:player:height" content="405">
+  {% endif %}
   <link rel="stylesheet" href="{{ '/assets/blog/main.css' | relative_url }}">
   <link rel="alternate" href="{{ '/blog/feed.xml' | relative_url }}" type="application/atom+xml" title="Presto Blog">
   {%- include google-analytics.html -%}
