@@ -10,7 +10,9 @@ reading ORC or Parquet data.
 
 # The problem
 
-The improvement started with a question from [Brenton Zillins](https://github.com/bzillins)
+The improvement started with a question
+from [Brenton Zillins](https://github.com/bzillins)
+at [Stackpath](https://www.stackpath.com/)
 on our [Slack](https://prestosql.io/community.html) workspace. He noticed
 that the network traffic to Presto workers was many times larger than the
 amount of input data reported by Presto for the query.
