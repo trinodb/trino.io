@@ -264,6 +264,24 @@ Description
 
 <div markdown="1" class="item">
 
+#### Quix
+
+Project
+: [Quix](https://wix.github.io/quix/)
+
+Maintained by
+: [Wix](https://github.com/wix/quix/)
+
+Description
+: Quix is a multi-user, easy-to-use notebook manager. 
+By utilizing Presto it provides unified access to 
+multiple data sources and effectively acts as a shared 
+space for your company's BI insights and know-how.
+
+</div>
+
+<div markdown="1" class="item">
+
 #### Shib
 
 Project
