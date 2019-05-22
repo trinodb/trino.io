@@ -301,7 +301,7 @@ if(s IS null, null, true)
 ```
 
 The catch with that is that the optimizer does not understand the semantics of these `if` expressions and cannot 
-use them for deriving additional properties. In essence, it becomes and optimization barrier. On the other hand, 
+use them for deriving additional properties. In essence, it becomes an optimization barrier. On the other hand,
 the optimizer is pretty good at manipulating logical conjunctions (`AND`) and disjunctions (`OR`). So, let's see 
 how we can use boolean logic to obtain an equivalent formulation.
 
