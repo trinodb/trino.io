@@ -565,7 +565,7 @@ Produces the following query plan (`Values` is an empty inline table):
 #### Improved JOIN performance
 
 What's nice about this optimization is that it *enables* other optimizations to work better. We mentioned earlier
-that comparisons that are not simple expressions between columns or columns and constants make it harder for the
+that comparisons that are not simple expressions between columns, or between columns and constants, make it harder for the
 predicate pushdown optimization to infer predicates that can be propagated to the other branch of a join.
 
 Given two tables:
@@ -607,7 +607,8 @@ table. The query plan with the optimization enabled:
 #### Best bang for the buck
    
 Finally, if the condition absolutely needs to be evaluated, the transformed expression could be significantly
-more efficient, especially when the cast between the two types is expensive. To illustrate:
+more efficient, especially when the cast between the two types is expensive. To illustrate, given a table
+with 1 billion rows and a column `k :: bigint`:
 
 ```sql
 SELECT count_if(k > CAST(0 as decimal(19)) 
