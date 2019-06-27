@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Using Precomputed Hash in SemiJoin Operations"
-author: Shubham Tagra
+author: Shubham Tagra, Qubole
 excerpt_separator: <!--more-->
 ---
 
