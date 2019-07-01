@@ -18,6 +18,7 @@ See [Deploying Presto](docs/current/installation/deployment.html)
 for complete deployment instructions.
 
 {% download presto-server .tar.gz %}
+{% download presto-server-rpm .rpm %}
 </div>
 
 <div markdown="1">
