@@ -141,6 +141,21 @@ Description
 
 </div>
 
+<div markdown="1" class="item">
+
+#### lento
+
+Project
+: [GitHub](https://github.com/vweevers/lento)
+
+Maintained by
+: [Vincent Weevers](https://github.com/vweevers)
+
+Description
+: Streaming Node.js client for Presto.
+
+</div>
+
 ### Language: Python {#library-python}
 
 <div markdown="1" class="item">
