@@ -3,6 +3,7 @@ layout: post
 title:  "A Report of First Ever Presto Conference Tokyo"
 author: Kai Sasaki, Arm Treasure Data
 excerpt_separator: <!--more-->
+image: /assets/blog/presto-conference-tokyo/overall-view.jpg
 ---
 
 Nowadays, Presto is getting much attraction from the various kind of companies all around 
