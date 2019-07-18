@@ -111,8 +111,8 @@ Example
 : ```java
   String sql = "SELECT name FROM example";
   String url = "jdbc:presto://localhost:8080/catalog/schema";
-  try (Connection connection = DriverManager.getConnection(url, "abc", null)) {
-      try (Statement s = connection.createStatement()) {
+  try (Connection c = DriverManager.getConnection(url, "abc", null)) {
+      try (Statement s = c.createStatement()) {
           try (ResultSet rs = s.executeQuery(sql)) {
               while (rs.next()) {
                   System.out.println(rs.getString("name"));
