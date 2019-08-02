@@ -15,5 +15,5 @@
 
 [[redirects]]
   from = "/docs/*"
-  to = "https://prestosql-docs.netlify.com/:splat"
+  to = "https://prestosql.github.io/docs.prestosql.io/:splat"
   status = 200
