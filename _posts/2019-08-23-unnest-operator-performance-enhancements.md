@@ -167,4 +167,4 @@ Performance for the queries with `CROSS JOIN UNNEST` clause can be further impro
 
 LinkedIn’s data ecosystem makes heavy use of tables with deeply nested columns, and this change is beneficial for handling Presto queries on such tables. In our internal experiments with production data, we have seen queries perform up to ~9x faster with as much as ~13x less cpu usage. 
 
-We look forward to people in the community trying this out starting with the 316 release. We would love to hear others’ observations of performance after this change. Feel free to reach out to me over [slack](https://prestosql.slack.com) (handle @padesai)  or [LinkedIn](https://www.linkedin.com/in/pratham-desai/) with questions or feedback.
+We look forward to people in the community trying this out starting with the 316 release. We would love to hear others’ observations of performance after this change. Feel free to reach out to me over [slack](https://prestosql.io/community.html) (handle @padesai)  or [LinkedIn](https://www.linkedin.com/in/pratham-desai/) with questions or feedback.
