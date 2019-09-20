@@ -7,14 +7,14 @@ title: Community
 <div markdown="1" class="leftcol widecol">
 ## Community Resources
 
-* **User Mailing List:** [presto-users](https://groups.google.com/group/presto-users)
-* **Users & Development Slack:** [prestosql.slack.com]({{ site.slack_url }})
+* **Slack:** [prestosql.slack.com](slack.html)
 * **Issues:** [GitHub issues](https://github.com/prestosql/presto/issues)
 * **Twitter:**
   [@prestosql](https://twitter.com/prestosql)
   [#prestosql](https://twitter.com/search?q=%23prestosql)
   [#prestodb](https://twitter.com/search?q=%23prestodb)
 * **YouTube:** [Presto Channel](https://www.youtube.com/channel/UCpqxUwvIA6vaXW45KO1GMhA)
+* **Mailing List:** [presto-users](https://groups.google.com/group/presto-users) (legacy, Slack is preferred)
 
 ## Getting Help
 
@@ -24,6 +24,10 @@ mailing list.
 Please [report](https://github.com/prestosql/presto/issues/new)
 any issue you find with Presto.
 
+## Guidelines
+
+* [Code of Conduct](individual-code-of-conduct.html) for individuals 
+* [Guidelines](guidelines-corporate.html) for participants with corporate interests
 
 ## External Resources
 
