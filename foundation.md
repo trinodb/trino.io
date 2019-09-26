@@ -20,4 +20,6 @@ community of developers and users throughout the world. Everyone is welcome
 to participate, whether it be via code contributions, suggestions for
 improvements, or even bug reports.
 
+Everyone is invited to [join the community](community.html).
+
 </div>
