@@ -390,6 +390,23 @@ Examples
 
 </div>
 
+<div markdown="1" class="item">
+
+#### Presto-Gateway
+
+Project
+: [Presto-Gateway](https://github.com/lyft/presto-gateway)
+
+Maintained by
+: [Lyft](https://www.lyft.com/)
+
+Description
+: Presto-Gateway is a gateway/proxy/load-balancer for multiple presto clusters.
+Users can register/de-register presto clusters behind the gateway and connect to 
+it using standard presto-clients.
+
+</div>
+
 ## Enterprise Support for Presto {#support}
 
 <div markdown="1" class="item">
