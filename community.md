@@ -18,9 +18,8 @@ title: Community
 
 ## Getting Help
 
-If you need help using or running Presto, please ask a question on the
-[presto&#8209;users](https://groups.google.com/group/presto-users)
-mailing list.
+If you need help using or running Presto, please ask a question on
+[Slack](slack.html).
 Please [report](https://github.com/prestosql/presto/issues/new)
 any issue you find with Presto.
 
