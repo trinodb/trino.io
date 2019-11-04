@@ -1,10 +1,8 @@
 ---
 layout: blog
-title: "Presto Blog"
 ---
 
 <div class="home">
-  <h2 class="post-list-heading">Posts</h2>
   <ul class="post-list">
     {%- for post in site.posts -%}
     <li>
@@ -17,6 +15,6 @@ title: "Presto Blog"
 
   <p class="rss-subscribe">
     <a href="{{ '/blog/feed.xml' | relative_url }}">subscribe via RSS</a>
-    <svg class="svg-icon"><use xlink:href="{{ '/assets/blog/social-icons.svg#rss' | relative_url }}"></use></svg>    
+    <svg class="svg-icon"><use xlink:href="{{ '/assets/blog/social-icons.svg#rss' | relative_url }}"></use></svg>
   </p>
 </div>
