@@ -1,0 +1,13 @@
+<header class="topbar clearfix">
+    <nav class="width">
+        <a href="/"><h1>Presto</h1></a>
+        <ul class="nav">
+            <li><a href="/docs/current/">Docs</a></li>
+            <li><a href="/community.html"{%- if page.menu_id == 'community' -%} class="active"{% endif %}>Community</a></li>
+            <li><a href="/resources.html"{%- if page.menu_id == 'resources' -%} class="active"{% endif %}>Resources</a></li>
+            <li><a href="/development/"{%- if page.menu_id == 'development' -%} class="active"{% endif %}>Development</a></li>
+            <li><a href="/download.html"{%- if page.menu_id == 'download' -%} class="active"{% endif %}>Download</a></li>
+            <li><a href="/blog/" {% if page.url contains "blog" %} class="active"{% endif %}>Blog</a></li>
+        </ul>
+    </nav>
+</header>
