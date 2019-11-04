@@ -42,8 +42,8 @@ Slack channel.
 ## Features 
 
 We encourage everyone to work on improving Presto, even when it eliminates the competitive advantage of a vendor. When
-discussing these projects it is expected that everyone will operate in the best interests of the community, and will
-not block or even discourage work on such features for anti-competitive reasons. 
+discussing these projects it is expected that everyone operates in the best interests of the community, and does
+not block or even discourage work on such features for anti-competitive reasons.
 
 ## Questions
 

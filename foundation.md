@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Foundation
+title: Presto Software Foundation
 ---
 
 <div markdown="1" class="leftcol widecol">

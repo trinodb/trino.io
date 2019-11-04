@@ -4,10 +4,10 @@ menu_id: download
 title: Download
 ---
 
-## Current release
+## Current Release
 
 The current Presto release is version <b>{{ site.presto_version }}</b>.
-See <a href="docs/current/release/release-{{ site.presto_version }}.html">release notes</a>.
+Learn more details from the <a href="docs/current/release/release-{{ site.presto_version }}.html">release notes</a>.
 
 <div markdown="1" class="feature-grid">
 

@@ -19,6 +19,7 @@ title: Slack
 
 ## Guidelines
 
-* **Don't wake everyone up!** The `@all`, `@here` and `@channel` should be used rarely. Members will receive
- notifications from these commands.
-* Avoid posting the same question to multiple slack channels, GitHub issues, or mailing list. 
+* **Don't wake everyone up!** The `@all`, `@here` and `@channel` should be used
+  rarely. Members receive notifications from these commands.
+* Avoid posting the same question to multiple slack channels, GitHub issues, or
+  mailing list.
