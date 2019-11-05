@@ -78,7 +78,9 @@ figcaption {
  * Lists
  */
 ul, ol {
-  margin-left: $spacing-unit;
+//  margin-left: $spacing-unit;
+// deactivated to provide room in
+// https://prestosql.io/blog/2019/05/21/optimizing-the-casts-away.html
 }
 
 li {
