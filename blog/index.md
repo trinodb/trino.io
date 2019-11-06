@@ -3,15 +3,15 @@ layout: blog
 ---
 
 <div class="home">
-  <ul class="post-list">
-    {%- for post in site.posts -%}
-    <li>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-      {{ post.excerpt }}
-    </li>
-    {%- endfor -%}
-  </ul>
+  {%- for post in site.posts -%}
+    <h1><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h1>
+    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}
+    {% if post.author %}
+    &bull; {{ post.author}}
+    {% endif %}
+    </span>
+    {{ post.excerpt }}
+  {%- endfor -%}
 
   <p class="rss-subscribe">
     <a href="{{ '/blog/feed.xml' | relative_url }}">subscribe via RSS</a>
