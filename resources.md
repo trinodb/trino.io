@@ -442,8 +442,31 @@ Description
   integrations, and reliable support SLAs.
 
 </div>
+<div markdown="1" class="item">
 
-## Hosted Presto {#hosted}
+#### Qubole
+
+Website
+: [Presto on Qubole](https://www.qubole.com/developers/presto-on-qubole/)
+
+Scope
+: Enterprise 24/7 Support, HotFixes, Multiple Presto Versions, Backporting of critical 
+  open source fixes and enhancements, Configuration, Tuning
+
+Description
+: Qubole has been offering a managed Presto service since 2014.
+  Qubole offers multiple Presto versions across multiple clouds
+  (AWS, Azure and GCP) and maintains a regular upgrade process.
+  Qubole offers 24/7 support through its support and engineering
+  teams spread across the globe. Qubole hotfixes critical production
+  issues or major issues addressed in open source community. Qubole
+  also backports critical fixes and major enhancements from recent
+  versions of Presto to older versions. Qubole helps its users configure
+  their clusters, fine tune their workloads and get the best out of Presto.   
+
+</div>
+
+## Managed Presto Service {#managed}
 
 <div markdown="1" class="item">
 
@@ -451,19 +474,21 @@ Description
 
 Product
 : [Managed Presto
-  Service](https://www.qubole.com/product/architecture/best-of-breed-engines/)
+  Service](https://www.qubole.com/developers/presto-on-qubole/)
 
 Description
-: Qubole integrates an enhanced and cloud-optimized version of Presto.
-  Qubole’s Presto implementation is an enterprise-ready and secure
-  distributed SQL query engine, which allows analysts to quickly
-  derive business insights from data.
-
+: Qubole has been offering a managed Presto service since 2014.
   Qubole has optimized Presto for the cloud. Qubole’s enhancements
-  allow for dynamic cluster sizing, based on workload and termination
+  allow for cluster autoscaling based on workload and termination
   of idle clusters — ensuring high reliability while reducing compute
-  costs. Qubole’s Presto clusters support multi-tenancy and provide
-  logs and metrics to track performance of queries.
+  costs. 
+
+  Qubole offers multiple Presto versions across multiple clouds 
+  (AWS, Azure and GCP) and maintains a regular upgrade process. 
+  Qubole blends the latest features from the open source community 
+  with Qubole’s proprietary solutions that boost performance, 
+  lower cost, improve user experience, and provide smooth 
+  administration of Presto clusters. 
 
 </div>
 
@@ -525,6 +550,33 @@ Description
 
 <div markdown="1" class="item">
 
+
+#### Presto on Qubole 
+
+
+Website
+: [Presto on Qubole on AWS](https://us.qubole.com/)
+
+
+Maintainer
+: [Qubole](https://www.qubole.com/developers/presto-on-qubole/)
+
+Description
+: Qubole offers a managed Presto service on AWS that is optimized
+  for the cloud. Qubole supports cluster autoscaling based on
+  workload and termination of idle clusters — ensuring high
+  reliability while reducing compute costs. Qubole supports usage
+  of spot nodes on AWS with built in failure resilience around spot
+  termination notification handling and query retries. With Presto
+  on Qubole, users can create heterogenous clusters with spot nodes
+  from similar instance families that can further help reduce
+  compute costs.
+
+</div>
+
+<div markdown="1" class="item">
+
+
 #### Amazon EMR
 
 Website
@@ -550,7 +602,7 @@ Description
 
 </div>
 
-### Azure
+### Azure {#azure}
 
 <div markdown="1" class="item">
 
@@ -585,6 +637,57 @@ Description
 
 </div>
 
+<div markdown="1" class="item">
+
+
+#### Presto on Qubole 
+
+
+Website
+: [Presto on Qubole on Azure](https://azure.qubole.com/)
+
+
+Maintainer
+: [Qubole](https://www.qubole.com/developers/presto-on-qubole/)
+
+Description
+: Qubole offers a managed Presto service on Azure that is optimized
+  for the cloud. Qubole supports cluster autoscaling based on 
+  workload and termination of idle clusters — ensuring high 
+  reliability while reducing compute costs. Qubole supports 
+  both Gen1 and Gen2 of Azure Data Lake Storage (ADLS) as well as 
+  Azure Blob Storage.
+</div>
+
+
+### GCP {#gcp}
+
+<div markdown="1" class="item">
+
+
+#### Presto on Qubole 
+
+
+Website
+: [Presto on Qubole on GCP](https://console.cloud.google.com/marketplace/details/qubole-public/qubole-data-service)
+
+
+Maintainer
+: [Qubole](https://www.qubole.com/developers/presto-on-qubole/)
+
+Description
+: Qubole offers a managed Presto service on GCP that is optimized
+  for cloud and is integrated with 
+  [GCP marketplace](https://console.cloud.google.com/marketplace/details/qubole-public/qubole-data-service). 
+  Qubole supports cluster autoscaling based on workload and 
+  termination of idle clusters — ensuring high reliability while
+  reducing compute costs. Qubole supports use of preemptible VMs in 
+  its autoscaling to reduce costs. Qubole has also added support for 
+  faster detection of query failures in Presto caused by preemptible 
+  VM interruption. 
+
+</div>
+
 </div>
 
 <div markdown="1" class="rightcol">
@@ -603,9 +706,10 @@ Description
 * [GUIs](#guis)
 * [Management Tools](#tools)
 * [Enterprise Support](#support)
-* [Hosted Presto](#hosted)
+* [Managed Presto Service](#managed)
 * [Cloud](#cloud)
   * [AWS](#aws)
   * [Azure](#azure)
+  * [GCP](#gcp)
 
 </div>
