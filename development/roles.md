@@ -14,7 +14,7 @@ The various roles described here do not carry more weight in these discussions, 
 work towards consensus. The Presto project has a strong [vision and development philosophy](vision.html)
 which helps to guide discussions and normally allows us to reach consensus. When we can't come to consensus,
 we work to figure out what we agree on, and what we don't. Then we move forward by building what we agree on,
-which helps everyone better understand the parts we don't agree on (and hopefully builds empathy at the same time).
+which helps everyone better understand the parts we don't agree on, and hopefully builds empathy at the same time.
 
 The following describes the expectations and duties of the various roles.
 
@@ -47,8 +47,8 @@ A contributor submits changes to Presto. The full contribution process is descri
 **Expectations and duties:**
 
 * Be empathetic to the reviewers. Reviewing a change can be hard work and time consuming.
-* Keep commits small when possible and provide reasoning and context when submitting changes. Reviews
-  will go smoother if you make the reviewer’s job easier.
+* Keep commits small when possible and provide reasoning and context when
+  submitting changes. Reviews go smoother if you make the reviewer’s job easier.
 * Be responsive when changes are requested by the reviewer. It is easier to re-review the modified changes
   if they are completed shortly after original review.
 * Ask for clarification if you are confused by a suggested change.
@@ -104,10 +104,10 @@ on committers. [Read about it](https://cwiki.apache.org/confluence/display/Hive/
 
 1. **Read:** Understand the project values and scope, the development philosophy and guidelines, and the change
    process. These contain necessary background information to be successful in Presto.
-2. **Contribute:** This will help you learn the codebase, and understand the development process. Start with
+2. **Contribute:** This helps you learn the codebase, and understand the development process. Start with
    something small to become familiar with the process.
 3. **Review:** Once you become familiar with a part of Presto, start reviewing proposed changes to that part.
-   A committer will do an additional final review, and this will help you understand what you are missing in your
+   A committer does an additional final review, and this helps you understand what you are missing in your
    reviews. At some point, your first pass reviews will not require additional changes during the final review.
 4. **Committer:** The next step is to demonstrate an understanding of what you know and don’t know. It is common
    for changes to require reviews from multiple committers, since no one person is familiar with all of Presto. We

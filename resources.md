@@ -327,7 +327,7 @@ Description
 : Superset enables users to consume data in many different ways:
   writing SQL queries, creating new tables, creating a visualization
   (slice), adding that visualization to one or many dashboards and
-  downloading a CSV. SQL Lab is a a part of Superset and provides rich
+  downloading a CSV. SQL Lab is a a part of Superset and provides a rich
   SQL editor that enables users to both query and visualize data. You
   can explore and preview tables in Presto, effortlessly compose SQL
   queries to access data. From there, you can either export a CSV file
@@ -402,7 +402,7 @@ Maintained by
 
 Description
 : Presto-Gateway is a gateway/proxy/load-balancer for multiple presto clusters.
-Users can register/de-register presto clusters behind the gateway and connect to 
+Users can register/de-register Presto clusters behind the gateway and connect to 
 it using standard presto-clients.
 
 </div>
@@ -429,8 +429,8 @@ Description
   [Presto support](https://www.starburstdata.com/presto-enterprise/).
   Starburst's distribution of Presto consists of additional tooling
   and configurations to make it work well in the enterprise. Further,
-  it is rigorously tested at scale and patched as needed. And with our
-  wide range of services, support, and training we will help you be
+  it is rigorously tested at scale and patched as needed. With our
+  wide range of services, support, and training we help you be
   successful in this new world of open source technologies in the
   enterprise.
 
@@ -479,7 +479,7 @@ Product
 Description
 : Qubole has been offering a managed Presto service since 2014.
   Qubole has optimized Presto for the cloud. Qubole’s enhancements
-  allow for cluster autoscaling based on workload and termination
+  allow for dynamic cluster sizing, based on workload and termination
   of idle clusters — ensuring high reliability while reducing compute
   costs. 
 
@@ -519,7 +519,7 @@ Description
 
 ## Presto Cloud {#cloud}
 
-Presto is also readily available in [AWS](#aws) and [Azure](#azure)
+Presto is readily available in [AWS](#aws) and [Azure](#azure)
 cloud environments.
 
 ### AWS {#aws}

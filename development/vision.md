@@ -18,19 +18,19 @@ Secure
 Long Term
 : We expect that Presto will be used for at least the next 20 years.  We build for the long term.
 
-Standards Based
+Standards-Based
 : These can be formal standards like ANSI SQL, JDBC or ODBC, or implicit conventions of industry 
   standard databases. This makes it easier for users and integrators, because their existing 
   skills transfer.
 
 Just Works
 : Simple to get started.  Presto should just work out of the box and provide good performance with
-  minimal setup. (Presto is a large complex system, so simplification makes everything better).
+  minimal setup. Presto is a large complex system, so simplification makes everything better.
 
 Supported
 : Everything that ships with Presto is supported.  This means that features that cannot be tested 
-  and supported will not be added (e.g., PowerPC support is only being added now that test hardware
-  is available).
+  and supported are not added, e.g., PowerPC support is only being added now that test hardware
+  is available.
 
 Real World Uses
 : Presto is designed and tuned for real world workloads over synthetic benchmarks.
@@ -69,7 +69,7 @@ Trusted
 Opinionated Software
 : There are many ways to develop software; this is the way that works for this specific project.
 
-Guidelines, not rules
+Guidelines, Not Rules
 : We believe in having good programmers, who make high quality, thoughtful, decisions, not those 
   that just follow rules, because rules need to be broken from time to time.
 
@@ -83,8 +83,8 @@ High Quality
   productivity of the developer proposing the change.
 
 Meticulous
-: System-wide changes are carefully considered.  End user visible changes (e.g., functions, 
-  language changes, connectors, etc.) are carefully selected to provide a consistent user 
+: System-wide changes are carefully considered.  End user visible changes such as functions, 
+  language changes, connectors, etc., are carefully selected to provide a consistent user 
   experience over the long term.  Library dependencies are carefully chosen based on quality, 
   reliability, and impact on other dependencies. System wide abstractions are carefully designed 
   to ease the development of the entire system.  Expect any change of this type to be discussed 
