@@ -36,7 +36,7 @@ title: Distributed SQL Query Engine for Big Data
         <img src="/assets/icon-analytics.png" class="icon-image float-left" />
         <div class="feature-title">In-place analysis</div>
         <p>
-            Can natively query data in Hadoop, S3, Cassandra, MySQL, and
+            You can natively query data in Hadoop, S3, Cassandra, MySQL, and
             many others, without the need for complex and error-prone processes
             for copying the data to a proprietary storage system.
         </p>
@@ -62,7 +62,7 @@ title: Distributed SQL Query Engine for Big Data
         <img src="/assets/icon-trusted.png" class="icon-image float-left" />
         <div class="feature-title">Trusted</div>
         <p>
-            Presto is used for for critical business operations, including financial
+            Presto is used for critical business operations, including financial
             results for public markets, by some of the largest organizations in the world.
         </p>
       </div>
