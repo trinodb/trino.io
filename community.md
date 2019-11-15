@@ -30,6 +30,12 @@ any issue you find with Presto.
 
 ## External Resources
 
+### Research Papers
+
+* [Presto: SQL on Everything](./paper.html)
+* [Choosing A Cloud DBMS: Architectures and Tradeoffs](http://vldb.org/pvldb/vol12/p2170-tan.pdf)
+
+
 ### Starburst Newsletter
 
 Sign up for the monthly newsletter on Presto and surrounding technologies.
