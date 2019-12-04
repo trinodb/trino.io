@@ -11,7 +11,8 @@ title: Slack
 
 * [#general](https://prestosql.slack.com/messages/CFLB9AMBN) - discussions about using and developing Presto
 * [#troubleshooting](https://prestosql.slack.com/messages/CGB0QHWSW) - need help?
-* [#community-announcements](https://prestosql.slack.com/messages/CFQAMGRQE) - discussions for Presto content and events happening around the world.
+* [#dev](https://prestosql.slack.com/archives/CP1MUNEUX) - discussions about Presto codebase, development, and developing extensions
+* [#community-announcements](https://prestosql.slack.com/messages/CFQAMGRQE) - discussions for Presto content and events happening around the world
 * [#triage](https://prestosql.slack.com/messages/CFP4810CV) - discussions and coordination about new issues and PRs from the community
 * [#releases](https://prestosql.slack.com/messages/CFP480UKX) - notices about upcoming releases
 * [#infrastructure](https://prestosql.slack.com/messages/CFPVDC9JT) - discussions about project infrastructure (Travis, Github, Maven, etc.)
