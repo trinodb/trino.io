@@ -63,7 +63,7 @@ A contributor submits changes to Presto. The full contribution process is descri
 
 A reviewer reads a proposed change to Presto, and assesses how well the change aligns with the Presto vision
 and guidelines. This includes everything from high level project vision to low level code style. Everyone
-is invited and encouraged to review others' contributions -- you don't need to be a committer for that.
+is invited and encouraged to review others' contributions -- you don't need to be a maintainer for that.
 
 **Expectations and duties:**
 
@@ -77,15 +77,15 @@ is invited and encouraged to review others' contributions -- you don't need to b
 * Point out deviations from the code conventions and style guidelines.
 * Ask for help reviewing areas you don't understand.
 
-## Committers
+## Maintainer
 
-In Presto, committership is an active job. A committer is responsible for checking in code only after ensuring
+In Presto, maintainer is an active job. A maintainer is responsible for checking in code only after ensuring
 it has been reviewed thoroughly and aligns with the Presto vision and guidelines. In addition to merging code,
-a committer actively participates in discussions and reviews. Being a committer does not grant additional rights
+a maintainer actively participates in discussions and reviews. Being a maintainer does not grant additional rights
 in the project to make changes, set direction, or anything else that does not align with the direction of the
-project. Instead, a committer is expected to bring these to the project participants as needed to gain consensus.
-Committership is for an individual, so if a committer changes employers, the committership is retained. However,
-if a committer is no longer actively involved in the project, their committer status will be reviewed.
+project. Instead, a maintainer is expected to bring these to the project participants as needed to gain consensus.
+The maintainer role is for an individual, so if a maintainer changes employers, the role is retained. However,
+if a maintainer is no longer actively involved in the project, their maintainer status will be reviewed.
 
 **Expectations and duties:**
 
@@ -98,21 +98,21 @@ if a committer is no longer actively involved in the project, their committer st
 * Follow the CLA and IP policies.
 
 An Apache Hive committer did an excellent write up on their process and much of this aligns with our philosophy
-on committers. [Read about it](https://cwiki.apache.org/confluence/display/Hive/BecomingACommitter).
+on maintainers. [Read about it](https://cwiki.apache.org/confluence/display/Hive/BecomingACommitter).
 
-## Path to Becoming a Committer
+## Path to Becoming a Maintainer
 
 1. **Read:** Understand the project values and scope, the development philosophy and guidelines, and the change
    process. These contain necessary background information to be successful in Presto.
 2. **Contribute:** This helps you learn the codebase, and understand the development process. Start with
    something small to become familiar with the process.
 3. **Review:** Once you become familiar with a part of Presto, start reviewing proposed changes to that part.
-   A committer does an additional final review, and this helps you understand what you are missing in your
+   A maintainer does an additional final review, and this helps you understand what you are missing in your
    reviews. At some point, your first pass reviews will not require additional changes during the final review.
-4. **Committer:** The next step is to demonstrate an understanding of what you know and don’t know. It is common
-   for changes to require reviews from multiple committers, since no one person is familiar with all of Presto. We
-   are also looking for an understanding of the project values and technical vision. Being a committer means
-   reviewing and merging code in your areas of expertise from all contributors. Committership is retained while
+4. **Maintainer:** The next step is to demonstrate an understanding of what you know and don’t know. It is common
+   for changes to require reviews from multiple people, since no one person is familiar with all of Presto. We
+   are also looking for an understanding of the project values and technical vision. Being a maintainer means
+   reviewing and merging code in your areas of expertise from all contributors. The maintainer role is retained while
    being active in the project.
 
 </div>

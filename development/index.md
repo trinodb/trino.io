@@ -25,12 +25,12 @@ can be accepted into the repositories.
 
 [Read more about the contribution process...](process.html)
 
-## Path to Committership
+## How to Become a Maintainer
 
-Committers perform final reviews and merge the changes into the code base.  Committers are the most active
+Maintainers perform final reviews and merge the changes into the code base.  Maintainers are the most active
 members of the community, and spend a significant amount of time reviewing community contributions.
 
-[Read more about how to become a committer...](roles.html)
+[Read more about how to become a maintainer...](roles.html)
 
 ## Code Style
 

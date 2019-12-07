@@ -422,7 +422,7 @@ Scope
 
 Description
 : At Starburst, our team is a major contributor to the open source
-  Presto project. We consist of many of the **experts and committers**
+  Presto project. We consist of many of the **experts and maintainers**
   who have been contributing to and advancing the Presto product over
   the last few years. Starburst provides an [enterprise ready Presto
   distribution](https://www.starburstdata.com/our-offerings/) and
