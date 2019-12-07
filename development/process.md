@@ -46,7 +46,7 @@ reviews, impact on other contributors, and to keep the amount of rework from the
        for the code to be reviewed again.
     3. Go to step 5.
 
-7. Committer merges the pull request after final changes are accepted.
+7. Maintainer merges the pull request after final changes are accepted.
 
 8. Add release notes to the [issue](https://github.com/prestosql/presto/labels/release-notes) for the upcoming release.
 
