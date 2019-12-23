@@ -11,7 +11,7 @@ But is it true? Initially, we do not have a clear answer to how much effort we n
 
 This article is the report to clarify what we need to do to run Presto on the Arm-based platform and see how much benefit we can potentially obtain with Graviton Processor.
 
-As the Graviton 2 based instance types are preview state, We tried to run Presto on A1 instance that has the first generation of Graviton processor inside. It still would be a helpful anchor to understand the potential benefit of the Graviton 2 processor.
+As the Graviton 2 based instance types are preview state, we tried to run Presto on A1 instance that has the first generation of Graviton processor inside. It still would be a helpful anchor to understand the potential benefit of the Graviton 2 processor.
 
 <!--more-->
 
@@ -38,7 +38,7 @@ index 07b7d12c64..b6a1249681 100644
  }
 ```
 
-This patch is all we have to do to run Presto on the Arm platform. It should work for most cases.
+This patch is all we have to do to run Presto on the Arm platform. It should work for most cases except for the usage with [Hive connector](https://prestosql.io/docs/current/connector/hive.html) because it has a native code not yet available for Arm platform.
 
 # Prepare Docker Images
 
@@ -98,7 +98,7 @@ Here is our specification of the benchmark conditions.
 - We use the commit [`b0c07249de5c70a70b3037875df4fd0477dec9fc`](https://github.com/prestosql/presto/commit/b0c07249de5c70a70b3037875df4fd0477dec9fc) + the patch previously described.
 - 1 coordinator + 2 worker processes run by [docker-compose](https://docs.docker.com/compose/) on a single instance.
 - We use a1.4xlarge and c5.4xlarge, whose CPU core and memory are the same as a1.4xlarge. And we also compared with m5.2xlarge, whose on-demand instance cost is close to a1.4xlarge.
-- We use [q01, q10, q18, and q20](https://github.com/prestosql/presto/tree/master/presto-benchto-benchmarks/src/main/resources/sql/presto/tpch) run on the TPCH connector. Since the Presto TPCH connector does not access external storage, we can measure the pure CPU performance without influence the network variance.
+- We use [q01, q10, q18, and q20](https://github.com/prestosql/presto/tree/master/presto-benchto-benchmarks/src/main/resources/sql/presto/tpch) run on the TPCH connector. Since the Presto TPCH connector does not access external storage, we can measure pure CPU performance without worrying about network variance.
 - We choose `tiny` and `sf1` as the scaling factor of TPCH connector
 - Our experiment measures the average time of 5 query runtime after 5 times warmup for every query.
 
