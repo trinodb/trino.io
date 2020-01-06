@@ -35,6 +35,8 @@ You can run queries using the interactive
 
 Connect to Presto from Java using the
 [JDBC Driver](docs/current/installation/jdbc.html).
+The driver is available in
+[Maven Central](https://search.maven.org/artifact/io.prestosql/presto-jdbc/{{ site.presto_version }}/jar).
 
 {% download presto-jdbc .jar %}
 </div>
