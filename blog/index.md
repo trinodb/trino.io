@@ -11,6 +11,13 @@ layout: blog
     {% endif %}
     </span>
     {{ post.excerpt }}
+
+    {% assign excerpt = post.excerpt | strip %} 
+    {% assign content = post.content | remove_first: post.excerpt_separator | strip %} 
+    {% if content != excerpt %}
+        <a href="{{ site.baseurl }}{{ post.url }}">Read more...</a>
+    {% endif %}
+
   {%- endfor -%}
 
   <p class="rss-subscribe">
