@@ -4,6 +4,8 @@ layout: blog
 
 <div class="home">
   {% for post in site.posts %}
+  <div class="post-entry">
+
     <h1><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h1>
     <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}
     {%- if post.author -%}
@@ -18,6 +20,7 @@ layout: blog
       <a href="{{ site.baseurl }}{{ post.url }}">Read more...</a>
     {%- endif -%}
 
+  </div>
   {% endfor %}
 
   <p class="rss-subscribe">

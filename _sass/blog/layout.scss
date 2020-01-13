@@ -212,6 +212,10 @@
 /**
  * Posts
  */
+.post-entry {
+  margin-bottom: $spacing-unit * 1.5;
+}
+
 .post-header {
   margin-bottom: $spacing-unit;
 }
