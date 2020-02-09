@@ -14,7 +14,7 @@ reviews, impact on other contributors, and to keep the amount of rework from the
 1. Sign the [contributor license agreement](https://github.com/prestosql/cla).
 
 2. Start a discussion by creating a Github [issue](https://github.com/prestosql/presto/issues), or asking on
-   [Slack]({{ site.slack_url }}) (unless the change is trivial).
+   [Slack](/slack.html) (unless the change is trivial).
      
     1. This step helps you identify possible collaborators and reviewers.
     2. Does the change align with technical vision and project values?
@@ -30,7 +30,7 @@ reviews, impact on other contributors, and to keep the amount of rework from the
 4. Create a Github [pull request](https://github.com/prestosql/presto/pulls) (PR).
 
     1. Make sure the pull request passes the tests in Travis CI.
-    2. If known, request a review from an expert in the area changed.  If unknown, ask for help on Slack.
+    2. If known, request a review from an expert in the area changed.  If unknown, ask for help on [Slack](/slack.html).
 
 5. Review is performed by one or more reviewers.
 
