@@ -102,7 +102,7 @@ Project
 : [Presto](docs/current/installation/jdbc.html)
 
 Maintained by
-: [Presto Team](https://github.com/prestosql/presto)
+: [Presto Team](https://prestosql.io/community.html)
 
 Description
 : JDBC driver for Presto.
@@ -163,10 +163,10 @@ Description
 #### presto-python-client
 
 Project
-: [GitHub](https://github.com/prestodb/presto-python-client)
+: [GitHub](https://github.com/prestosql/presto-python-client)
 
 Maintained by
-: [Presto Python Client Team](https://github.com/prestodb/presto-python-client)
+: [Presto Team](https://prestosql.io/community.html)
 
 Description
 : Python client for Presto.
