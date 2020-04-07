@@ -126,8 +126,8 @@ SELECT *, row_number() OVER (ORDER BY name DESC)
 FROM nation
 ```
 
-In order to ease the transition, the new behavior can be turned off globally via the `optimizer.remove-redundant-sort`
-configuration option or on a per-session basis via the `remove_redundant_sort` session property. 
+In order to ease the transition, the new behavior can be turned off globally via the `optimizer.skip-redundant-sort`
+configuration option or on a per-session basis via the `skip_redundant_sort` session property. 
 These options will be removed in a future version.
 
 Additionally, any time Presto detects a redundant `ORDER BY` clause, it will warn users about it:
