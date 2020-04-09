@@ -30,6 +30,10 @@ any issue you find with Presto.
 
 ## External Resources
 
+### Books
+
+* [Presto: The Definitive Guide](./presto-the-definitive-guide.html)
+
 ### Research Papers
 
 * [Presto: SQL on Everything](./paper.html)
