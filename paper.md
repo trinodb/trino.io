@@ -30,7 +30,7 @@ use cases. Finally, we present performance results that demonstrate the impact o
 main design decisions.
 
 
-[![download](assets/icon-download.png) Presto_SQL_on_Everything.pdf](Presto_SQL_on_Everything.pdf){:.button}
+[![download](/assets/icon-download.png) Presto_SQL_on_Everything.pdf](/Presto_SQL_on_Everything.pdf){:.button}
 
 </div>
 </div>
