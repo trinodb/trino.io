@@ -32,11 +32,11 @@ any issue you find with Presto.
 
 ### Books
 
-* [Presto: The Definitive Guide](./presto-the-definitive-guide.html)
+* [Presto: The Definitive Guide](presto-the-definitive-guide.html)
 
 ### Research Papers
 
-* [Presto: SQL on Everything](./paper.html)
+* [Presto: SQL on Everything](paper.html)
 * [Choosing A Cloud DBMS: Architectures and Tradeoffs](http://vldb.org/pvldb/vol12/p2170-tan.pdf)
 
 

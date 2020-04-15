@@ -20,12 +20,12 @@ hopefully learn from.
 
 <!--more-->
 
-<img src="../../../../assets/ptdg-cover.jpg" align="right" width="400">
+<img src="/assets/ptdg-cover.jpg" align="right" width="400">
 
 With the help of O'Reilly, the book is now available in digital form, and paper
 copies are just around the corner as well. You can find more information about
 the book on [our permanent page about
-it](../../../../presto-the-definitive-guide.html).
+it](/presto-the-definitive-guide.html).
 
 It is based on the very recent 330 release of Presto, but applicable to any
 Presto version. The book is broken up into three separate parts. No matter, if
@@ -59,12 +59,10 @@ from [Starburst](https://www.starburstdata.com).
 
 So what are you waiting for? Go get a copy, check out the [code repository for
 the book](https://www.github.com/prestosql/presto-the-definitive-guide), provide
-feedback and contact us on the [chat](../../../../community.html).
+feedback and contact us on [Slack](/slack.html).
 
 Looking forward to it all!
 
 Matt, Manfred and Martin
 
 _Exhausted, but happy authors_
-
-
