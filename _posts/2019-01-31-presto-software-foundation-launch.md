@@ -5,7 +5,7 @@ author: Martin Traverso, Dain Sundstrom, David Phillips
 ---
 
 We are pleased to [announce](https://www.prweb.com/releases/prweb16070792.htm)
-the launch of the Presto Software Foundation,
+the launch of the [Presto Software Foundation](/foundation.html),
 a not-for-profit organization dedicated to the advancement of the Presto
 open source distributed SQL engine. The foundation is committed to ensuring
 the project remains open, collaborative and independent for decades to come.
