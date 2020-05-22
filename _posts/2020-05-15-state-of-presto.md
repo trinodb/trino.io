@@ -2,12 +2,20 @@
 layout: post
 title:  "State of Presto"
 author: Manfred Moser
+excerpt_separator: <!--more-->
 ---
 
 Presto is continuing to gain adoption across many industries and use cases. Our
 community is growing rapidly and there is a lot going on, so we are taking the
 Presto Summit online. And we are starting with a State of Presto webinar with
 the founders of the project.
+
+Update:
+
+We had a great event with lots of questions from the audience, taking us beyond
+the planned time frame. Check out the recording to learn more:
+
+{% youtube sbOHn_F2M0w %}
 
 <!--more-->
 
@@ -33,3 +41,5 @@ Time: 11am PDT (San Francisco), 2pm EDT (New York), 7pm BST (London), 6pm UTC
 > ## [Register now!](https://www.starburstdata.com/webinar-state-of-presto/?utm_campaign=Webinar%20-%20State%20of%20Presto%20-%202020%20-%20May&utm_source=prestosql&utm_medium=blog)
 
 We look forward to many questions and a lively webinar.
+
+
