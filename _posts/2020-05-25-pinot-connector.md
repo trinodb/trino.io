@@ -70,11 +70,15 @@ WHERE col3 IN ('FOO', 'BAR') AND col4 > 50
 LIMIT 30000
 ``` 
 
-The filter in the outer presto query will be pushed down into the Pinot query via Presto's [applyFilter()](https://github.com/prestosql/presto/blob/master/presto-spi/src/main/java/io/prestosql/spi/connector/ConnectorMetadata.java#L746). These queries are routed to the broker and
+The filter in the outer presto query will be pushed down into the Pinot query via Presto's
+[applyFilter()](https://github.com/prestosql/presto/blob/334/presto-spi/src/main/java/io/prestosql/spi/connector/ConnectorMetadata.java#L746).
+These queries are routed to the broker and
 should not return huge amounts of data as broker queries currently return a single response with all the results. This
 is more suited to aggregate queries.
 
-Limits are pushed into the "dynamic" Pinot query via Presto's [applyLimit()](https://github.com/prestosql/presto/blob/master/presto-spi/src/main/java/io/prestosql/spi/connector/ConnectorMetadata.java#L727). The above query would yield the following Pinot PQL query:
+Limits are pushed into the "dynamic" Pinot query via Presto's
+[applyLimit()](https://github.com/prestosql/presto/blob/334/presto-spi/src/main/java/io/prestosql/spi/connector/ConnectorMetadata.java#L727).
+The above query would yield the following Pinot PQL query:
 
 Pinot functions such as `PERCENTILEEST` can be used in the quoted sql.
 
