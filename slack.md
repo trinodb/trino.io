@@ -5,7 +5,7 @@ title: Slack
 
 # prestosql.slack.com
 
-[**Sign up**]({{ site.slack_url }})* for Slack or [**sign in**](https://prestosql.slack.com) if you already have an account.
+[**Sign up**]({{ site.slack_url }}) for Slack or [**sign in**](https://prestosql.slack.com) if you already have an account.
 
 ## Channels
 
