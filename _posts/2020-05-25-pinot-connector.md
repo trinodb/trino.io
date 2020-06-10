@@ -4,17 +4,15 @@ title:  "Apache Pinot Connector"
 author: Elon Azoulay
 ---
 
-# Coming In Release 334 of Presto
+Presto 334 introduces the new [Pinot Connector](https://prestosql.io/docs/current/connector/pinot.html)
+which allows Presto to query data stored in [Apache Pinot™](https://pinot.apache.org/).
+Not only does this allow access to Pinot tables but gives users the ability to do things they could not do with Pinot
+alone such as join Pinot tables to other tables and use Presto's scalar functions, window functions and complex aggregations.
 
-Introducing the new Apache Pinot™ Connector which allows Presto to query data stored in 
-[Apache Pinot™ Connector](https://pinot.apache.org/). 
-Not only does this allow access to pinot tables but gives users the ability to do things they could not do with pinot 
-alone such as join Pinot tables to other tables and use Presto's UDF's, window functions and complex aggregations.
-
-Pinot udf's can be directly used by including the pinot sql query in quotes, explained below in the "Pinot SQL Passthrough" section. 
+Pinot UDF's can be directly used by including the Pinot SQL query in quotes, explained below in the *Pinot SQL Passthrough* section.
 This enables aggregations and other complex query types to be done directly in Pinot.
 
-This connector supports pinot-0.3.0 and newer.
+This connector supports Pinot 0.3.0 and newer.
 
 # Setup
 
@@ -92,5 +90,5 @@ store the Pinot segments. Filters and Limits are pushed down to Pinot for regula
 
 # Future Work
 
-As Presto and Pinot continue to evolve the Pinot connector will levarage new features such as aggregation pushdown and more.
+As Presto and Pinot continue to evolve the Pinot connector will leverage new features such as aggregation pushdown and more.
 
