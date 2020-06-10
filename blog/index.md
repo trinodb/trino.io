@@ -1,5 +1,6 @@
 ---
 layout: blog
+title: Presto Blog
 ---
 
 <div class="home">
