@@ -369,4 +369,17 @@ It is no fun when a query fails like this. However -- what a joy and pride that 
 return incorrect query results. Rest assured, Presto will not return incorrect results, wherever you
 run it.
 
+# Credits
+
+Special thanks go to our customers, for your understanding and the trust you have in us.
+Without you, Starburst wouldn't be as fun place as it is!
+Thanks to [Łukasz Walkiewicz](https://github.com/lukasz-walkiewicz) and [Karol Sobczak](https://github.com/sopel39)
+for fantastic benchmark and experimentation automation and your help with running the experiments!
+Thanks to [Will Morrison](https://github.com/willmostly) for finding the Sender and Receiver machines
+that reproduced the problem so nicely!
+Thanks to [Martin Traverso](https://github.com/martint), [Dain Sundstrom](https://github.com/dain)
+and [David Phillips](https://github.com/electrum) for guidance, ideas, clever tips and code pointers!
+Thanks to [Łukasz Osipiuk](https://github.com/losipiuk) for running experiments, cross-checking
+the results and helping keep sanity. Shout out to the whole Starburst team -- it was truly a team's work!
+
 □
