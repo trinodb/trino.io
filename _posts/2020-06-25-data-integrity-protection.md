@@ -81,7 +81,7 @@ Except that it is *also* not possible to have a ``DECIMAL(7, 2)`` with such valu
 data. At that moment, we realized the problem was very serious, because data could become corrupted.
 This corrupted data could lead to a failure (like above), but it could also lead to incorrect query results,
 or incorrect data being persisted (in case of ``INSERT`` or ``CREATE TABLE AS`` queries). We created
-a virtual War Room (that is, a Slack channel), got together all Presto exports and our experienced field team
+a virtual War Room (that is, a Slack channel), got together all Presto experts and our experienced field team
 to discuss potential causes, further diagnostics and mitigation strategies.
 
 Since the problem was affecting data exchanges between Presto nodes, we listed the following strategies
