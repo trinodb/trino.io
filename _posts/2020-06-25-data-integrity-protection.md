@@ -133,7 +133,7 @@ to the exceptions being raised.
 
 ```
 java.sql.SQLException: Query failed (#20200401_113622_00676_p7qp7): Hash mismatch, read: 1251072184702746109, calculated: 7591448164918409110
-	Suppressed: java.lang.RuntimeException: Slice, first half: 040000000A0000004C4F4E475F415252.... (945 kilobytes)
+    Suppressed: java.lang.RuntimeException: Slice, first half: 040000000A0000004C4F4E475F415252.... (945 kilobytes)
     Suppressed: java.lang.RuntimeException: Slice, secnd half: 040000000A0000004C4F4E475F415252.... (945 kilobytes)
 ```
 
