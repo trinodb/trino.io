@@ -5,7 +5,7 @@ title: Slack
 
 # prestosql.slack.com
 
-[**Sign up**]({{ site.slack_url }}) for Slack or [**sign in**](https://prestosql.slack.com) if you already have an account.
+[![Join Slack](https://img.shields.io/badge/Join%20Slack-44af5c.svg?logo=slack){:.imglink}]({{ site.slack_url }})
 
 ## Channels
 
