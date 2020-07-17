@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 ---
 
 With the help of [David's training about advanced SQL]({% post_url
-2020-07-09-training-advanced-sql %}) you composed a number of useful queries.
+2020-07-15-training-advanced-sql %}) you composed a number of useful queries.
 You gain valuable insights from the resulting data. However these complex
 queries take time to run. If only you could make them run faster. I think we
 have just what you need coming up. 
