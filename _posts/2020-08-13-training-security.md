@@ -7,8 +7,8 @@ excerpt_separator: <!--more-->
 
 All the useful and fast running queries your created with the knowledge from
 [David's training about advanced SQL]({% post_url
-2020-07-09-training-advanced-sql %}) and [Martin's training about query
-tuning]({% post_url 2020-07-09-training-advanced-sql %}) created a problem. You
+2020-07-15-training-advanced-sql %}) and [Martin's training about query
+tuning]({% post_url 2020-07-30-training-query-tuning %}) created a problem. You
 now have lots of users on your Presto cluster that want to access all sorts of
 different data source, have different privileges and corporate security asked
 about your plans. How about you tap into some help from Dain:
