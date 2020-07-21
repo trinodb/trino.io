@@ -14,6 +14,14 @@ Data and is presented by Taro L. Saito:
 
 **Presto at Arm Treasure Data: A Journey of Migrating 1 Million Presto Queries**
 
+
+Update:
+
+We had a great event with some in-depth, detailed questions from the audience.
+Check out the recording to learn more:
+
+{% youtube N40joxgN2Ek %}
+
 <!--more-->
 
 Join us to discover how as part of their customer data platform, Arm Treasure
