@@ -13,6 +13,13 @@ Schmiedehausen:
 
 **Using Presto as Query Layer in a Distributed Microservices Architecture**
 
+Update:
+
+We had a great event with lots of questions from the audience, taking us beyond
+the planned time frame. Check out the recording to learn more:
+
+{% youtube rkBO_kciz-k %}
+
 <!--more-->
 
 Presto has found its place as a SQL-based query engine for big data in the new
