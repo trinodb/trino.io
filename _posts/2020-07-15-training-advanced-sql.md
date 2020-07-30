@@ -14,6 +14,16 @@ way.
 
 Join us for a free webinar **Advanced SQL in Presto** with David Phillips.
 
+Update:
+
+With nearly 200 live attendees and a two hour session we ended with lots of
+questions from the engaged audience. After 20 minutes overtime we wrapped up the
+successful event. Check out the presentation slides and the recording:
+
+[Download the slides](https://www.starburstdata.com/wp-content/uploads/2020/07/Presto-Training-Series-Advanced-SQL-Features-in-Presto.pdf)
+
+{% youtube HN_95ObHAiw %}
+
 <!--more-->
 
 In our new [Presto Training Series](https://bit.ly/2NO26Cm) we give Presto users
