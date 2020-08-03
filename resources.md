@@ -82,10 +82,10 @@ Maintained by
 #### presto-go-client
 
 Project
-: [GitHub](https://github.com/prestodb/presto-go-client)
+: [GitHub](https://github.com/prestosql/presto-go-client)
 
 Maintained by
-: [Presto Go Client Team](https://github.com/prestodb/presto-go-client)
+: [Presto Team](https://prestosql.io/community.html)
 
 Description
 : Go client for Presto.
