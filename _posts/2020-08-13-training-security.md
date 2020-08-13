@@ -13,8 +13,7 @@ now have lots of users on your Presto cluster that want to access all sorts of
 different data source, have different privileges and corporate security asked
 about your plans. How about you tap into some help from Dain:
 
-Join us for a free webinar **Understanding and Tuning Presto Query Processing**
-with Dain Sundstrom.
+Join us for a free webinar **Securing Presto** with Dain Sundstrom.
 
 <!--more-->
 
