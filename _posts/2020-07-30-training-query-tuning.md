@@ -14,6 +14,17 @@ have just what you need coming up.
 Join us for a free webinar **Understanding and Tuning Presto Query Processing**
 with Martin Traverso.
 
+Update:
+
+We are delighted that such an advanced topic attracted close to 150 attendees.
+Everyone learned a lot and many additional questions came up during class and in
+the Q&A overtime. Take advantage of the slides and recording to recapture, or if
+you could not attend:
+
+[Download the slides](https://www.starburstdata.com/wp-content/uploads/2020/08/Presto-Training-Understanding-and-Tuning-Presto-Query-Processing.pdf)
+
+{% youtube GcS02yTNwC0 %}
+
 <!--more-->
 
 In our new [Presto Training Series](https://bit.ly/2NO26Cm) we give Presto users
