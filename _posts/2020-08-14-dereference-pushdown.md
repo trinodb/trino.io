@@ -4,7 +4,8 @@ title:  "Faster Queries on Nested Data"
 author: Pratham Desai (LinkedIn), James Taylor (Lyft)
 ---
 
-Presto version 334 adds significant performance improvements for queries
+[Presto 334](https://prestosql.io/docs/current/release/release-334.html)
+adds significant performance improvements for queries
 accessing nested fields inside struct columns. They have been optimized through
 the pushdown of dereference expressions. With this feature, the query execution
 prunes structural data eagerly, extracting the necessary fields.
