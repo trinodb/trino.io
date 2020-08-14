@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Faster Queries on Nested Data"
-author: Pratham Desai, LinkedIn
+author: Pratham Desai (LinkedIn), James Taylor (Lyft)
 ---
 
 PrestoSQL version 334 adds significant performance improvements for queries 
@@ -34,10 +34,18 @@ and delayed data availability for analytics. It also caused ORC schemas to be
 inconsistent with the rest of the infrastructure, making it harder to migrate 
 from existing flows on row-oriented formats. 
 
-The dereference pushdown optimization in Presto is having a massive impact on 
-our ingestion story. Nested data is now being made available faster for 
-consumption, while maintaining performance parity for analytical queries.
+Similarly, Lyft’s schemas make heavy use of nested data to decompose a ride 
+into its routes, riders, segments, modes, and geo-coordinates. Prior to the 
+performance improvements, analytical queries would either need to be run on 
+clusters with very long timeouts, or the data would have to be flattened before 
+being analyzed, adding an extra ETL step. Not only would this be costly, it 
+would also cause the original schema to diverge in our data warehouse making it 
+more difficult for data scientists to understand.
 
+The dereference pushdown optimization in Presto is having a massive impact on 
+the ingestion story at both LinkedIn and Lyft. Nested data is now being made 
+available faster for consumption with a consistency of structure across all 
+stores, while maintaining performance parity for analytical queries.
 
 # Example
 
@@ -82,7 +90,7 @@ This optimization is achieved as a byproduct of the above two optimizations.
 
 With the dereference pushdown, queries observe significant performance gains in 
 terms of CPU/memory usage and query runtime, roughly proportional to the 
-relative size of nested columns compared to the accessed fields.
+relative size of nested columns compared to the accessed fields. 
 
 ## Pushdown in Query Plan
 
@@ -145,7 +153,8 @@ through the following example.
 
 Given an initial plan with a predicate on a dereferenced field (`x.f1 = 5`), a 
 chain of optimizers transform it to a more optimal plan with reader-level 
-predicates.
+predicates. In the future, the same optimization will be added to the Parquet 
+reader.
 
 ![](/assets/blog/dereference-pushdown/predicate_pushdown.png)
 
@@ -178,18 +187,35 @@ presence of dereference pushdown. Query wall times also reduce considerably,
 and this improvement is more drastic for the relatively complex `JOIN` query, 
 as expected. 
 
-Please note that these are not benchmarks! The gains depend on the plan 
-complexity and relative bulkiness of the structs.
+Please note that these are not benchmarks! The performance improvement you’ll 
+see will vary depending on how many columns are contained in your nested data 
+versus how many you’ve referenced. At Lyft we saw improvements of `50x` for some 
+queries!
 
 ## Future Work
 
 The pushdown of dereference expressions can be extended to arrays. i.e. 
 dereference operations applied after unnesting an array should also get pushed 
-down to the readers. This effort requires a framework for pushing down lambda 
-expressions. 
+down to the readers. For example, using our jobs table from before, our 
+`jobs.job_info` structure may contain a repeating structure such as 
+`required_skills`. With the following query, the entire required_skills 
+structure would be read even though only a small part of it is being referenced.
+
+```sql
+SELECT S.description
+FROM jobs J
+CROSS JOIN UNNEST (job_info.required_skills) S
+WHERE S.years_of_experience >= 2
+```
+
+The work for this improvement is being tracked in [this issue](https://github.com/prestosql/presto/issues/3925). 
 
 Similar to Hive Connector, connector-level dereference pushdown can be extended 
 to other connectors supporting nested types.
+
+Another future improvement will be the pushdown of predicates on subfields for 
+data stored in Parquet format. Although the pruning of nested fields occurs 
+with Parquet, the predicates are not yet pushed down into the reader.
 
 ## Conclusion
 
@@ -197,5 +223,7 @@ Pushing down dereference operations in the query provides massive performance
 gains, especially while operating on large structs. At LinkedIn and Lyft, this 
 feature has shown great impact for analytical queries on nested datasets. 
 
-We're excited for the community to try it out. Please feel free to reach out on 
-[Slack](/slack.html) for further discussions or reporting issues.
+We're excited for the Presto community to try it out. Feel free to dig into 
+[this github issue](https://github.com/prestosql/presto/issues/1953) for 
+technical details. Please reach out to us on [Slack](/slack.html) for further 
+disucssions or reporting issues.
