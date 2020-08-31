@@ -13,6 +13,15 @@ ecosystem -- [Pinterest](https://www.pinterest.com):
 
 **Presto: A key component for analytics at Pinterest**
 
+Update:
+
+Our webinar was well received and caused a whole bunch of questions. Check out
+the slides and video recording:
+
+[Download the slides](https://www.starburstdata.com/wp-content/uploads/2020/08/Presto-Summit-Webinar-Series-Presto-at-Pinterest.pdf)
+
+{% youtube fB1PNS5BefQ %}
+
 <!--more-->
 
 Join us to learn how Pinterest uses Presto to meet the company’s rapidly

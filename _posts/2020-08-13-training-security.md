@@ -15,6 +15,16 @@ about your plans. How about you tap into some help from Dain:
 
 Join us for a free webinar **Securing Presto** with Dain Sundstrom.
 
+Update:
+
+What a great training session! Dain captured the audience and lots of questions
+were covered beyond all the great material from the slides. Everything is now
+available for your convenience:
+
+[Download the slides](https://www.starburstdata.com/wp-content/uploads/2020/08/Presto-Training-Securing-Presto.pdf)
+
+{% youtube KiMyRc3PSh0 %}
+
 <!--more-->
 
 In our new [Presto Training Series](https://bit.ly/2NO26Cm) we give Presto users
