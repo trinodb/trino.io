@@ -188,21 +188,6 @@ Description
 
 </div>
 
-<div markdown="1" class="item">
-
-#### PrestoClient Python
-
-Project
-: [GitHub](https://github.com/easydatawarehousing/prestoclient/tree/master/python)
-
-Maintained by
-: [Ivo Herweijer](https://github.com/easydatawarehousing)
-
-Description
-: Python client for Presto.
-
-</div>
-
 ### Language: R {#library-r}
 
 <div markdown="1" class="item">
