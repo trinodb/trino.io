@@ -15,6 +15,18 @@ have just what you need:
 Join us for a free webinar **Understanding and Tuning Presto Query Processing**
 with Dain Sundstrom.
 
+Update:
+
+We did it again! Joined by over 120 eager students we discussed all sorts of
+aspects of sizing and tuning your Presto cluster. Yet again we received so many
+questions that we went over our planned time budget. The material covered is
+crucial to run a Presto deployment successfully in production, so make sure you
+check out the recording and the slide deck:
+
+[Download the slides]( https://www.starburstdata.com/wp-content/uploads/2020/09/Presto-Training-Series-Configuring-Tuning-Presto-Performance.pdf)
+
+{% youtube Pu80FkBRP-k %}
+
 <!--more-->
 
 In our new [Presto Training Series](https://bit.ly/2NO26Cm) we give Presto users
