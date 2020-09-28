@@ -9,7 +9,10 @@ Today, Presto turned eight years old! As Presto co-creator
 Dain Sundstrom points out, there’s a reason why the eighth birthday is a
 little special:
 
-https://twitter.com/daindumb/status/1292296395219595264
+<a href="https://twitter.com/daindumb/status/1292296395219595264" target="_blank">
+<img src="/assets/blog/presto-eighth-birthday/dain-tweet.png"/>
+</a>
+
 
 <!--more-->
 
@@ -18,7 +21,9 @@ developers, and business personnel have felt its impact. It’s pretty clear
 that there's a lot going on with this project since its inception eight years
 ago. Recently, the Presto project hit a stunning twenty thousand commits:
 
-https://twitter.com/mtraverso/status/1289036458670448641
+<a href="https://twitter.com/mtraverso/status/1289036458670448641" target="_blank">
+<img src="/assets/blog/presto-eighth-birthday/martin-tweet.png"/>
+</a>
 
 It makes you ponder how Presto became so successful in such a short amount of
 time. Should the credit be given to the four founders who brought Presto to
@@ -58,7 +63,9 @@ bug fixes or design changes, or sometimes just sharing great experiences or
 news related to presto. This slack channel has recently grown to 2300 users
 with around 500 active users at any given time.
 
-https://twitter.com/prestosql/status/1278393800092643328
+<a href="https://twitter.com/prestosql/status/1278393800092643328" target="_blank">
+<img src="/assets/blog/presto-eighth-birthday/presto-tweet.png"/>
+</a>
 
 To celebrate Presto really means to celebrate this community, and while we
 can’t thank every individual who has contributed, we want to thank just a
