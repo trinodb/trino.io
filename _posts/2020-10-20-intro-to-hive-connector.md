@@ -43,12 +43,13 @@ index structures to recall these files. The file formats can be anything as
 simple as JSON and CSV, to more complex files such as columnar formats like ORC
 and Parquet. Traditionally, Hive runs on top of the Hadoop Distributed
 Filesystem (HDFS). As cloud-based options became more prevalent, object storage
-like Amazon S3, Azure Blob Storage, Google Cloud Storage, and others. 
+like Amazon S3, Azure Blob Storage, Google Cloud Storage, and others needed
+to be leveraged as well and replaced HDFS as the storage component.
 
 In order for Hive to process these files, it must have a mapping
 from SQL tables in _the runtime_ to files and directories in _the storage_
 component. To accomplish this, Hive uses the Hive Metastore Service (HMS), 
-often stortened to _the metastore_ to manage the metadata about the files such
+often shortened to _the metastore_ to manage the metadata about the files such
 as table columns, file locations, file formats, etc... 
 
 The last component not included in the image is Hive's _data organization
@@ -87,7 +88,7 @@ Notice, that the only change in the Presto architecture is _the runtime_. The
 HMS still exists along with _the storage_. This is not by accident. This design
 exists to address a common problem faced by many companies. It simplifies the
 migration from using Hive to using Presto. Regardless of _the storage_ component
-used the metadata makes use of the HMS and that is the reason this connector is
+used _the runtime_ makes use of the HMS and that is the reason this connector is
 the Hive connector.
 
 Where the confusion tends to come from, is when you search for a connector
