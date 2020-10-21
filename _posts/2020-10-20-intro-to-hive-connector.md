@@ -43,7 +43,8 @@ index structures to recall these files. The file formats can be anything as
 simple as JSON and CSV, to more complex files such as columnar formats like ORC
 and Parquet. Traditionally, Hive runs on top of the Hadoop Distributed
 Filesystem (HDFS). As cloud-based options became more prevalent, object storage
-like Amazon S3, Azure Blob Storage, Google Cloud Storage, and others. 
+like Amazon S3, Azure Blob Storage, Google Cloud Storage, and others needed
+to be leveraged as well and replaced HDFS as the storage component.
 
 In order for Hive to process these files, it must have a mapping
 from SQL tables in _the runtime_ to files and directories in _the storage_
