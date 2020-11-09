@@ -21,6 +21,8 @@ defaults:
 collections:
   posts:
     permalink: /blog/:year/:month/:day/:title.html
+  episodes:
+    output: true
 
 exclude:
   - ".gitignore"
