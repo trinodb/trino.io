@@ -1,0 +1,38 @@
+---
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <generator uri="https://jekyllrb.com/" version="{{ jekyll.version }}">Jekyll</generator>
+  <link href="{{ page.url | absolute_url }}" rel="self" type="application/atom+xml" />
+  <link href="{{ '/broadcast/' | absolute_url }}" rel="alternate" type="text/html" />
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ page.url | absolute_url | xml_escape }}</id>
+
+  <title>Presto Blog</title>
+
+  <subtitle>{{ site.description | xml_escape }}</subtitle>
+
+  {% for episode in site.episodes reversed %}
+    <entry>
+      <title>{{ episode.title | strip_html | normalize_whitespace | xml_escape }}</title>
+      <link href="{{ episode.url | absolute_url }}" rel="alternate" type="text/html" title="{{ episode.title | xml_escape }}" />
+      <published>{{ episode.date | date_to_xmlschema }}</published>
+      <updated>{{ episode.last_modified_at | default: episode.date | date_to_xmlschema }}</updated>
+      <id>{{ episode.id | absolute_url | xml_escape }}</id>
+      <content type="html" xml:base="{{ episode.url | absolute_url | xml_escape }}">{{ episode.content | strip | xml_escape }}</content>
+
+      {% if episode.author %}
+        <author>
+          <name>{{ episode.author | xml_escape }}</name>
+        </author>
+      {% endif %}
+
+      <summary>{{ episode.excerpt | strip_html | normalize_whitespace | xml_escape }}</summary>
+
+      {% assign episode_image = episode.image.path | default: episode.image | absolute_url %}
+      {% if episode_image %}
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ episode_image | xml_escape }}" />
+      {% endif %}
+    </entry>
+  {% endfor %}
+</feed>

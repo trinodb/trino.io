@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+    <link rel="stylesheet" href="{{ '/assets/episode/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <link rel="alternate" href="{{ '/broadcast/feed.xml' | relative_url }}" type="application/atom+xml" title="Presto Community Broadcast Episode">
+  {%- include google-analytics.html -%}
+</head>
+
+<body>
+  {%- include header.html -%}
+  <header class="hero clearfix">
+      <div class="width">
+          <h1>Presto Community Broadcast</h1>
+      </div>
+  </header>
+
+  <div class="content width clearfix">
+      <h1>{{ page.title }}</h1>
+
+      <h2>Audio</h2>
+      <script
+              src="https://fast.wistia.com/embed/medias/{{ page.wistia_id }}.jsonp" async>
+      </script>
+      <script
+              src="https://fast.wistia.com/assets/external/E-v1.js" async>
+      </script>
+      <div class="wistia_embed wistia_async_{{ page.wistia_id }} seo=false"
+           style="width:100%;height:218px;position:relative">&nbsp;
+      </div>
+
+      <h2>Video</h2>
+      <div class="youtube-video-container">
+          <iframe width="720" height="405" src="https://www.youtube.com/embed/{{ page.youtube_id }}" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <h3>Video sections</h3>
+      <ul>
+          {% for section in page.sections %}
+          <li>
+              {{section.title}}:
+              <a href="https://www.youtube.com/watch?v={{ page.youtube_id }}&t={{ section.time }}s" target="_blank">
+               {{ section.desc }}
+              </a>
+          </li>
+          {% endfor %}
+      </ul>
+
+      <h2>Show notes</h2>
+      {{ content }}
+  </div>
+
+  {%- include footer.html -%}
+
+</body>
+</html>

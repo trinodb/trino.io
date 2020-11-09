@@ -13,6 +13,7 @@ title: Community
   [@prestosql](https://twitter.com/prestosql)
   [#prestosql](https://twitter.com/search?q=%23prestosql)
   [#prestodb](https://twitter.com/search?q=%23prestodb)
+* **Live Show and Podcast:** [Presto Community Broadcast](/broadcast/)
 * **YouTube:** [Presto Channel](https://www.youtube.com/channel/UCpqxUwvIA6vaXW45KO1GMhA)
 * **Mailing List:** [presto-users](https://groups.google.com/group/presto-users) (legacy, Slack is preferred)
 
