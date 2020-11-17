@@ -90,11 +90,9 @@ David Phillips mentions:
 
 My first goal is to create a larger set of free learning materials, that expand
 upon my initial goals when planning for my Udemy course. I recently started a
-show with Manfred Moser called the Presto Community Broadcast. We stream live
-every other Thursday on [Twitch](https://www.twitch.tv/prestosql). This show is
-available on [Twitch](https://www.twitch.tv/prestosql), [Youtube
-](https://www.youtube.com/playlist?list=PLFnr63che7war_NzC7CJQjFuUKLYC7nYh), and
-as an [audio-only podcast](https://presto.buzzsprout.com/). We can reference any
+show with Manfred Moser called the Presto Community Broadcast. The show landing 
+page is [here](/broadcast.html) and contains all the information about the show
+schedule and where to find new and old episodes. This helps as we can use any
 relevant material we create on this show for future teaching or blogs. We want
 these live sessions to be interactive, and look forward to your feedback to
 understand if our efforts are actually helping, or if you have ideas to improve
@@ -125,9 +123,9 @@ Bieber parody?
 While I have hopefully convinced you all of my mission here. I can’t accomplish
 any of this in a vacuum. The whole point of my work starts and ends with all of
 you. I look forward to speaking with and one day post COVID-19, meeting you all
-at meetups and conferences. For now virtual meetups and 
-[Twitch](https://www.twitch.tv/prestosql) are a great start. If you have ideas
-or want to reach out to introduce yourself, you can find me on 
+at meetups and conferences. For now virtual meetups and the Presto Community
+Broadcast are a great start. If you have ideas or want to reach out to introduce
+yourself, you can find me on 
 [Slack](/slack.html) or [Twitter](https://twitter.com/bitsondatadev).
  
 Thanks for reading this and being a part of this community. One last thing to
