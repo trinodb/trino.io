@@ -36,15 +36,19 @@ weeks!
  - Listen on <a href="https://open.spotify.com/show/53ZrVCCmZSsEmvlNfzpWSL" target="_blank">Spotify</a>.
 
 # Upcoming shows
- * Datetime: Thursday, December 3, 2020, at 1:00 pm -0500 <br/>
-   Topic(s): Query Planning, Remove duplicate predicates, and Memory settings
  * Datetime: Thursday, December 17, 2020, at 1:00 pm -0500 <br/>
    Topic(s): Cost-based optimizer  <br/>
-   Guest(s): Presto co-creator [Martin Traverso](https://twitter.com/mtraverso)
- * Datetime: Wednesday, December 30, 2020, at 1:00 pm -0500 <br/>
+   Guest(s): Presto Co-Creator and CTO,
+   [Martin Traverso](https://twitter.com/mtraverso)
+ * Datetime: Thursday, December 31, 2020, at 1:00 pm -0500 <br/>
+   Topic(s): N/A <br/>
+   Note: This show will be canceled due to the holiday, see you next year!
+ * Datetime: Wednesday, January 14, 2021, at 1:00 pm -0500 <br/>
    Topic(s): Distributed Hash-join 
- * Datetime: Thursday, January 14, 2021, at 1:00 pm -0500 <br/>
+ * Datetime: Thursday, January 28, 2021, at 1:00 pm -0500 <br/>
    Topic(s): Dynamic Filtering <br/>
-   Guest(s): [Karol Sobczak](https://twitter.com/sopel39) and Raunaq Morarka
+   Guest(s): Software Engineer and Starburst Co-Founder, 
+   [Karol Sobczak](https://twitter.com/sopel39) and Software Engineer, Raunaq
+   Morarka.
 
 </div>
