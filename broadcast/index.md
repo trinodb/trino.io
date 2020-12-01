@@ -36,11 +36,15 @@ weeks!
  - Listen on <a href="https://open.spotify.com/show/53ZrVCCmZSsEmvlNfzpWSL" target="_blank">Spotify</a>.
 
 # Upcoming shows
- <ul>
-    <li>
-        Datetime: Thursday, November 19, 2020, at 1:00 pm -0500 <br/>
-        Topic(s): Hive Partitions
-    </li>
- </ul>
+ * Datetime: Thursday, December 3, 2020, at 1:00 pm -0500 <br/>
+   Topic(s): Query Planning, Remove duplicate predicates, and Memory settings
+ * Datetime: Thursday, December 17, 2020, at 1:00 pm -0500 <br/>
+   Topic(s): Cost-based optimizer  <br/>
+   Guest(s): Presto co-creator [Martin Traverso](https://twitter.com/mtraverso)
+ * Datetime: Wednesday, December 30, 2020, at 1:00 pm -0500 <br/>
+   Topic(s): Distributed Hash-join 
+ * Datetime: Thursday, January 14, 2021, at 1:00 pm -0500 <br/>
+   Topic(s): Dynamic Filtering <br/>
+   Guest(s): [Karol Sobczak](https://twitter.com/sopel39) and Raunaq Morarka
 
 </div>
