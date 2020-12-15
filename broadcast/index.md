@@ -36,10 +36,6 @@ weeks!
  - Listen on <a href="https://open.spotify.com/show/53ZrVCCmZSsEmvlNfzpWSL" target="_blank">Spotify</a>.
 
 # Upcoming shows
- * Datetime: Thursday, December 17, 2020, at 1:00 pm -0500 <br/>
-   Topic(s): Cost-based optimizer  <br/>
-   Guest(s): Presto Co-Creator and CTO,
-   [Martin Traverso](https://twitter.com/mtraverso)
  * Datetime: Thursday, December 31, 2020, at 1:00 pm -0500 <br/>
    Topic(s): N/A <br/>
    Note: This show will be canceled due to the holiday, see you next year!
