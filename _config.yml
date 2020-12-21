@@ -1,6 +1,7 @@
 presto_version: 348
 
 google_analytics: UA-133457846-1
+google_audience: AW-1036784065
 
 slack_url: "https://join.slack.com/t/prestosql/shared_invite/zt-h88upx5f-gVb8XUu16W_jo4I2Cw8ijA"
 
