@@ -68,7 +68,7 @@ show_hero: true
   [#prestosql](https://twitter.com/search?q=%23prestosql)
   [#prestodb](https://twitter.com/search?q=%23prestodb)
 * **Live show and podcast:** [Trino Community Broadcast](/broadcast/)
-* **YouTube:** [Trino Channel](https://www.youtube.com/channel/UCpqxUwvIA6vaXW45KO1GMhA)
+* **YouTube:** [Trino Channel](https://www.youtube.com/c/{{site.youtube_channel}})
 * **Mailing list:** [presto-users](https://groups.google.com/group/presto-users) (legacy, Slack is preferred)
 
 
