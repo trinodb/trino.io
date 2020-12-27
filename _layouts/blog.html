@@ -1,30 +1,43 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  {%- seo -%}
-  <link rel="stylesheet" href="{{ '/assets/blog/main.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
-  <link rel="alternate" href="{{ '/blog/feed.xml' | relative_url }}" type="application/atom+xml" title="Presto Blog">
-  {%- include google-analytics.html -%}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Trino | {{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
+    {%- seo -%}
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Trino | {{ page.title }}">
+    <meta property="og:description" content="Distributed SQL Query Engine for Big Data">
+    <meta property="og:image" content="/assets/trino-og.png">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="/assets/css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <link rel="alternate" href="{{ '/blog/feed.xml' | relative_url }}" type="application/atom+xml" title="Trino Blog">
+    {%- include google-analytics.html -%}
 </head>
 
 <body>
   {%- include header.html -%}
 
-  <header class="hero clearfix">
-      <div class="width">
-          <h1>Blog</h1>
+  <div class="jumbotron card card-image" style="background-image: linear-gradient(to top, #001C93 0%, #000033 70%);background-size:cover;">
+    <div class="text-white text-center py-5 px-4">
+      <div>
+        <h1>Trino blog</h1>
+        <p class="lead">News from the community of users and contributors</p>
       </div>
-  </header>
-
-  <div class="content width clearfix">
-      {{ content }}
+    </div>
   </div>
+
+  {{ content }}
 
   {%- include footer.html -%}
 
-</body>
-</html>
+  {%- include html-body-end.html -%}

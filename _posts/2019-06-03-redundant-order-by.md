@@ -11,7 +11,7 @@ affect performance unless the optimizer is *smart enough* to remove them.
 Until very recently, Presto would insert a sorting step for each `ORDER BY` clause in a query. This, combined
 with users and tools inadvertently using `ORDER BY` in places that have no effect, could result in severe
 performance degradation and waste of resources. We finally fixed this in
-[Presto 312](https://prestosql.io/docs/current/release/release-312.html)!
+[Presto 312]({{site.url}}/docs/current/release/release-312.html)!
 
 Quoting from the SQL specification (ISO 9075 Part 2):
 

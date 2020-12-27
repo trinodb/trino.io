@@ -17,7 +17,7 @@ WHERE d_following_holiday='Y' AND d_year = 2000;
 Without dynamic filtering, Presto will push predicates for the dimension table to the table scan on `date_dim` but 
 it will scan all the data in the fact table since there are no filters on `store_sales` in the query.
 The join operator will end up throwing away most of the probe-side rows as the join criteria is highly selective. 
-The current implementation of [dynamic filtering](https://prestosql.io/blog/2019/06/30/dynamic-filtering.html) improves
+The current implementation of [dynamic filtering]({{site.url}}/blog/2019/06/30/dynamic-filtering.html) improves
 on this, however it is limited only to broadcast joins on tables stored in ORC or Parquet format. 
 Additionally, it does not take advantage of the layout of partitioned Hive tables.
 
@@ -35,7 +35,7 @@ This optimization requires dynamic filters collected by worker nodes to be commu
 We needed to ensure that this additional communication overhead does not overload the coordinator.
 This was achieved by packing dynamic filters into Presto's existing framework for sending status updates from worker to coordinator.
 
-[`DynamicFilterService`](https://github.com/prestosql/presto/blob/master/presto-main/src/main/java/io/prestosql/server/DynamicFilterService.java) 
+[`DynamicFilterService`]({{site.github_repo_url}}/blob/master/presto-main/src/main/java/io/prestosql/server/DynamicFilterService.java) 
 was added on the coordinator node to perform dynamic filter collection asynchronously.
 Queries registered with this service can request dynamic filters while scheduling splits without blocking any operations.
 This service is also responsible for ensuring that all the build-side tasks of a join stage have completed execution before 
@@ -44,23 +44,23 @@ constructing dynamic filters to be used in the scheduling of probe-side table sc
 # Implementation
 
 For identifying opportunities for dynamic filtering in the logical plan, we rely on the implementation added in
-[#91](https://github.com/prestosql/presto/pull/91). Dynamic filters are modeled as `FunctionCall` expressions which 
+[#91]({{site.github_repo_url}}/pull/91). Dynamic filters are modeled as `FunctionCall` expressions which 
 evaluate to a boolean value. They are created in the `PredicatePushDown` optimizer rule from the equi-join clauses of inner join 
 nodes and pushed down in the plan along with other predicates. Dynamic filters are added to the plan after the cost-based 
 optimization rules. This ensures that dynamic filters do not interfere with cost estimation and join reordering.
 The `PredicatePushDown` rule can end up pushing dynamic filters to unsupported places in the plan via inferencing. 
 This was solved by adding the 
-[`RemoveUnsupportedDynamicFilters`](https://github.com/prestosql/presto/blob/master/presto-main/src/main/java/io/prestosql/sql/planner/iterative/rule/RemoveUnsupportedDynamicFilters.java)
+[`RemoveUnsupportedDynamicFilters`]({{site.github_repo_url}}/blob/master/presto-main/src/main/java/io/prestosql/sql/planner/iterative/rule/RemoveUnsupportedDynamicFilters.java)
 optimizer rule which is responsible for ensuring that:
 * Dynamic filters are present only directly above a `TableScan` node and only if the subtree is on the probe side of some downstream `JoinNode`
 * Dynamic filters are removed from `JoinNode` if there is no consumer for it on its probe side subtree.
 
-We also run [`DynamicFiltersChecker`](https://github.com/prestosql/presto/blob/master/presto-main/src/main/java/io/prestosql/sql/planner/sanity/DynamicFiltersChecker.java)
+We also run [`DynamicFiltersChecker`]({{site.github_repo_url}}/blob/master/presto-main/src/main/java/io/prestosql/sql/planner/sanity/DynamicFiltersChecker.java)
 at the end of the planning phase to ensure that the above conditions have been satisfied by the optimized plan.
  
-We reuse the existing [`DynamicFilterSourceOperator`](https://github.com/prestosql/presto/blob/master/presto-main/src/main/java/io/prestosql/operator/DynamicFilterSourceOperator.java)
+We reuse the existing [`DynamicFilterSourceOperator`]({{site.github_repo_url}}/blob/master/presto-main/src/main/java/io/prestosql/operator/DynamicFilterSourceOperator.java)
 in `LocalExecutionPlanner` to collect build-side values from each inner join on each worker node. In addition to passing the collected `TupleDomain`
-to [`LocalDynamicFiltersCollector`](https://github.com/prestosql/presto/blob/master/presto-main/src/main/java/io/prestosql/sql/planner/LocalDynamicFiltersCollector.java) 
+to [`LocalDynamicFiltersCollector`]({{site.github_repo_url}}/blob/master/presto-main/src/main/java/io/prestosql/sql/planner/LocalDynamicFiltersCollector.java) 
 within the same worker node for use in broadcast join probe-side scans, we also pass them to `TaskContext` to populate task 
 status updates for the coordinator. 
 
@@ -137,7 +137,7 @@ The following queries ran faster by more than 20% with dynamic partition pruning
   Data read was decreased by 27%.
 
 Note that the baseline here includes the improvements from the existing 
-[node local dynamic filtering](https://github.com/prestosql/presto/pull/1686) implementation.
+[node local dynamic filtering]({{site.github_repo_url}}/pull/1686) implementation.
 
 # Discussion
 
@@ -155,11 +155,11 @@ by implementing the new `ConnectorSplitManager#getSplits` API which supplies dyn
 
 # Future work
 
-* Support for using [min-max range](https://github.com/prestosql/presto/pull/3871) in DynamicFilterSourceOperator when 
+* Support for using [min-max range]({{site.github_repo_url}}/pull/3871) in DynamicFilterSourceOperator when 
 the build-side contains too many values.
-* [Passing dynamic filters back to the worker nodes](https://github.com/prestosql/presto/issues/3972) from coordinator 
+* [Passing dynamic filters back to the worker nodes]({{site.github_repo_url}}/issues/3972) from coordinator 
 to allow ORC and Parquet readers to use dynamic filters with partitioned joins.
-* Allow connectors to [block probe-side scan](https://github.com/prestosql/presto/pull/3414) until dynamic filters are ready.
-* [Support dynamic filtering with inequality operators](https://github.com/prestosql/presto/pull/2674)
-* [Support for semi-joins](https://github.com/prestosql/presto/pull/2190)
+* Allow connectors to [block probe-side scan]({{site.github_repo_url}}/pull/3414) until dynamic filters are ready.
+* [Support dynamic filtering with inequality operators]({{site.github_repo_url}}/pull/2674)
+* [Support for semi-joins]({{site.github_repo_url}}/pull/2190)
 * Take advantage of dynamic filters in connectors other than Hive.

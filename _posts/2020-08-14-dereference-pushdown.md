@@ -4,7 +4,7 @@ title:  "Faster Queries on Nested Data"
 author: Pratham Desai (LinkedIn), James Taylor (Lyft)
 ---
 
-[Presto 334](https://prestosql.io/docs/current/release/release-334.html)
+[Presto 334]({{site.url}}/docs/current/release/release-334.html)
 adds significant performance improvements for queries
 accessing nested fields inside struct columns. They have been optimized through
 the pushdown of dereference expressions. With this feature, the query execution
@@ -209,7 +209,7 @@ CROSS JOIN UNNEST (job_info.required_skills) S
 WHERE S.years_of_experience >= 2
 ```
 
-The work for this improvement is being tracked in [this issue](https://github.com/prestosql/presto/issues/3925).
+The work for this improvement is being tracked in [this issue]({{site.github_repo_url}}/issues/3925).
 
 Similar to Hive Connector, connector-level dereference pushdown can be extended
 to other connectors supporting nested types.
@@ -225,6 +225,6 @@ gains, especially while operating on large structs. At LinkedIn and Lyft, this
 feature has shown great impact for analytical queries on nested datasets.
 
 We're excited for the Presto community to try it out. Feel free to dig into
-[this github issue](https://github.com/prestosql/presto/issues/1953) for
+[this github issue]({{site.github_repo_url}}/issues/1953) for
 technical details. Please reach out to us on [Slack](/slack.html) for further
 disucssions or reporting issues.

@@ -15,5 +15,5 @@
 
 [[redirects]]
   from = "/docs/*"
-  to = "https://prestosql.github.io/docs.prestosql.io/:splat"
+  to = "https://trinodb.github.io/docs.trino.io/:splat"
   status = 200

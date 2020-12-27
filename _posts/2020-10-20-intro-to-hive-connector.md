@@ -125,6 +125,8 @@ If you have any questions or run into any issues with the example, you can find
 us on [slack](/slack.html) on the #dev or #general channels.
 
 Have fun!
+
+
 <a href="https://www.katacoda.com/bitsondatadev/scenarios/presto-s3-hive-connector" target="_blank">
 <img src="/assets/katacoda-play.png"/>
 </a>

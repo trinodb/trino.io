@@ -1,31 +1,51 @@
 ---
 layout: blog
-title: Presto Blog
+title: Trino blog
 ---
 
-<div class="home">
-  {% for post in site.posts %}
-  <div class="post-entry">
+<div class="content container clearfix spacer-30">
 
-    <h1><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h1>
-    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}
-    {%- if post.author -%}
-    &nbsp;&bull; {{ post.author}}
-    {%- endif -%}
-    </span>
-    {{ post.excerpt }}
-
-    {%- assign excerpt = post.excerpt | strip -%}
-    {%- assign content = post.content | remove_first: post.excerpt_separator | strip -%}
-    {%- if content != excerpt -%}
-      <a href="{{ site.baseurl }}{{ post.url }}">Read more...</a>
-    {%- endif -%}
-
+<div class="row blog-page">
+  <div class="col-12">
+    {% for post in site.posts limit:1 %}
+      <div class="latest-blog card">
+        <div>
+          <p style="font-weight:600;">The Latest</p>
+          <h3 class="blog-title"><a href="{{ post.url }}">{{post.title}}</a></h3>
+          <p class="caption">{{ post.date | date_to_string }} | {{ post.author }}</p>
+          <p>{{ post.excerpt }}</p>
+          <div class="blog-readmore"><a href="{{ post.url }}">Read More &rarr;</a></div>
+        </div>
+        <div>
+          {% if post.image %}
+            <img src="{{ post.image }}">
+           {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+    <h3>Recent</h3>
+    <div class="blog-cards">
+      {% for post in site.posts offset:1 limit:6 %}
+        <div class="card post-card square">
+          <!-- Card content -->
+          <div class="card-body">
+            <!-- Title -->
+            <h4 class="card-title"><a href="{{ post.url }}">{{post.title}}</a></h4>
+            <p class="caption">{{ post.date | date_to_string }} | {{ post.author}}</p>
+            <!-- Text -->
+            <p class="card-text">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+            <div class="blog-readmore"><a href="{{ post.url }}">Read More &rarr;</a></div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <hr />
+    <h5>
+      Want more? Visit the <a href="./archive.html">archives</a>
+      or subscribe via <a href="{{ '/blog/feed.xml' | relative_url }}" target="_blank">RSS</a>.
+    </h5>
   </div>
-  {% endfor %}
+</div>
+<div class="spacer-60"></div>
 
-  <p class="rss-subscribe">
-    <a href="{{ '/blog/feed.xml' | relative_url }}">subscribe via RSS</a>
-    <svg class="svg-icon"><use xlink:href="{{ '/assets/blog/social-icons.svg#rss' | relative_url }}"></use></svg>
-  </p>
 </div>

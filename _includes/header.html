@@ -1,13 +1,55 @@
-<header class="topbar clearfix">
-    <nav class="width">
-        <a href="/"><h1>Presto</h1></a>
-        <ul class="nav">
-            <li><a href="/docs/current/">Docs</a></li>
-            <li><a href="/community.html"{%- if page.menu_id == 'community' -%} class="active"{% endif %}>Community</a></li>
-            <li><a href="/resources.html"{%- if page.menu_id == 'resources' -%} class="active"{% endif %}>Resources</a></li>
-            <li><a href="/development/"{%- if page.menu_id == 'development' -%} class="active"{% endif %}>Development</a></li>
-            <li><a href="/download.html"{%- if page.menu_id == 'download' -%} class="active"{% endif %}>Download</a></li>
-            <li><a href="/blog/" {% if page.url contains "blog" %} class="active"{% endif %}>Blog</a></li>
+<!--Main Navigation-->
+<header>
+    <div class="announcement">
+      <h2>Presto SQL is now Trino <a href="{% post_url
+        2020-12-27-announcing-trino %}">Read why &gt;</a></h2>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar" style="background: #000033;height:80px;">
+      <a class="navbar-brand" href="{{site.url}}" style="padding-top:0px;">
+        <img src="/assets/images/trino-logo/trino-ko_tiny-alt.svg" style="height:35px;vertical-align:top;padding-left:10px;" alt="Trino">
+        <img src="/assets/images/trino-logo/trino.svg" style="margin-left:5px;height:20px;margin-right:30px;margin-top:10px;" alt="Trino">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-top:10px;">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/docs/current/">Docs</a>
+          </li>
+          <li class="nav-item {% if page.url contains '/download' %}active{% endif %}">
+            <a class="nav-link"  href="/download.html">Get started</a>
+          </li>
+          <li class="nav-item {% if page.url contains '/resources' %}active{% endif %}">
+            <a class="nav-link" href="/resources.html">Resources</a>
+          </li>
+          <li class="nav-item {% if page.url contains '/development' %}active{% endif %}">
+            <a class="nav-link"  href="/development/">Development</a>
+          </li>
+          <li class="nav-item {% if page.url contains '/blog/' %}active{% endif %}">
+            <a class="nav-link"  href="/blog/">Blog</a>
+          </li>
         </ul>
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a class="nav-link" href="https://twitter.com/{{site.twitter_user}}" target="_blank"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{site.github_repo_url}}" target="_blank"><i class="fab fa-github"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.youtube.com/channel/UCpqxUwvIA6vaXW45KO1GMhA" target="_blank"><i class="fab fa-youtube"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{site.url}}/slack.html"><i class="fab fa-slack"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{site.url}}/broadcast/"><i class="fab fa-twitch"></i></a>
+          </li>
+        </ul>
+      </div>
     </nav>
-</header>
+  
+  </header>
+  <!--Main Navigation-->

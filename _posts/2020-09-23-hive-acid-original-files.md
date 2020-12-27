@@ -5,7 +5,7 @@ author: Harmandeep Singh, Qubole
 excerpt_separator: <!--more-->
 ---
 
-In [Presto 331](https://prestosql.io/docs/current/release/release-331.html),
+In [Presto 331]({{site.url}}/docs/current/release/release-331.html),
 read support for Hive transactional tables was introduced. It works well, if a
 user creates a new Hive transactional table and reads it from Presto. However,
 if an existing table is converted to a Hive transactional table, Presto would

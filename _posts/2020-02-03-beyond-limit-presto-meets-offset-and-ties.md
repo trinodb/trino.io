@@ -37,7 +37,7 @@ FETCH FIRST n ROWS ONLY
 If we look again at the database systems mentioned above, it turns out many of them support the standard
 syntax too: Oracle, DB2, SQL Server and PostgreSQL (although that's not documented currently).
 
-And Presto? Presto has `LIMIT n` support since 2012. In [Presto 310](https://prestosql.io/docs/current/release/release-310.html),
+And Presto? Presto has `LIMIT n` support since 2012. In [Presto 310]({{site.url}}/docs/current/release/release-310.html),
 we added also the `FETCH FIRST n ROWS ONLY` support.
 
 Let's have a look beyond the limits.

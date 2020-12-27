@@ -1,0 +1,9 @@
+<div class="row text-center spacer-60" style="align-items:center;">
+  {% for user in site.data.users %}
+  <div class="col-sm-6 col-md-3 col-lg-2 spacer-20">
+    <div>
+      <img src="{{user.logo}}" alt="{{user.name}}" class="img-thumbnail" style="width:200px;">
+    </div>
+  </div>
+  {% endfor %}
+</div>

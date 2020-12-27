@@ -17,9 +17,9 @@ As the Graviton 2 based instance types are preview state, we tried to run Presto
 
 # How to make Presto compatible with Arm
 
-We are going to build the binary of Presto supporting Arm platform first. From the results, there are not so many things to do so. As long as JVM supports the Arm platform, it should work without any modification in the application code. But Presto has some restrictions on the platform where it runs to protect the functionality, including plugins. For instance, the latest Presto supports only [x86 and PowerPC architectures](https://github.com/prestosql/presto/blob/ee05ee5221690d66598039c6e397f7c7cb4c202b/presto-main/src/main/java/io/prestosql/server/PrestoSystemRequirements.java#L69). This limitation prevents us from using Presto on the Arm platform.
+We are going to build the binary of Presto supporting Arm platform first. From the results, there are not so many things to do so. As long as JVM supports the Arm platform, it should work without any modification in the application code. But Presto has some restrictions on the platform where it runs to protect the functionality, including plugins. For instance, the latest Presto supports only [x86 and PowerPC architectures]({{site.github_repo_url}}/blob/ee05ee5221690d66598039c6e397f7c7cb4c202b/presto-main/src/main/java/io/prestosql/server/PrestoSystemRequirements.java#L69). This limitation prevents us from using Presto on the Arm platform.
 
-To make Presto runnable on Arm machine, we need to modify [PrestoSystemRequirements](https://github.com/prestosql/presto/blob/master/presto-main/src/main/java/io/prestosql/server/PrestoSystemRequirements.java) class to allow `aarch64` architecture and more. For experimental purposes, we can apply such a patch to remove the restriction altogether.
+To make Presto runnable on Arm machine, we need to modify [PrestoSystemRequirements]({{site.github_repo_url}}/blob/master/presto-main/src/main/java/io/prestosql/server/PrestoSystemRequirements.java) class to allow `aarch64` architecture and more. For experimental purposes, we can apply such a patch to remove the restriction altogether.
 
 ```
 diff --git a/presto-main/src/main/java/io/prestosql/server/PrestoSystemRequirements.java b/presto-main/src/main/java/io/prestosql/server/PrestoSystemRequirements.java
@@ -38,7 +38,7 @@ index 07b7d12c64..b6a1249681 100644
  }
 ```
 
-This patch is all we have to do to run Presto on the Arm platform. It should work for most cases except for the usage with [Hive connector](https://prestosql.io/docs/current/connector/hive.html) because it has a native code not yet available for Arm platform.
+This patch is all we have to do to run Presto on the Arm platform. It should work for most cases except for the usage with [Hive connector]({{site.url}}/docs/current/connector/hive.html) because it has a native code not yet available for Arm platform.
 
 # Prepare Docker Images
 
@@ -48,7 +48,7 @@ Docker container is a desirable option to run Presto experimentally due to its a
 
 ![Docker Daemon Experimental Feature](/assets/blog/presto-experiment-with-graviton-processor/docker-daemon.png)
 
-And make sure to restart the Docker daemon. We can build the Docker image for Presto supporting `aarch64` architecture with `buildx` command. We have used the source code of [`317-SNAPSHOT`](https://github.com/prestosql/presto/commit/b0c07249de5c70a70b3037875df4fd0477dec9fc) with the earlier patch in the `PrestoSystemRequirements`.
+And make sure to restart the Docker daemon. We can build the Docker image for Presto supporting `aarch64` architecture with `buildx` command. We have used the source code of [`317-SNAPSHOT`]({{site.github_repo_url}}/commit/b0c07249de5c70a70b3037875df4fd0477dec9fc) with the earlier patch in the `PrestoSystemRequirements`.
 
 ```
 $ docker buildx build \
@@ -95,10 +95,10 @@ Let's briefly take a look into how the performance provided by the Graviton proc
 
 Here is our specification of the benchmark conditions.
 
-- We use the commit [`b0c07249de5c70a70b3037875df4fd0477dec9fc`](https://github.com/prestosql/presto/commit/b0c07249de5c70a70b3037875df4fd0477dec9fc) + the patch previously described.
+- We use the commit [`b0c07249de5c70a70b3037875df4fd0477dec9fc`]({{site.github_repo_url}}/commit/b0c07249de5c70a70b3037875df4fd0477dec9fc) + the patch previously described.
 - 1 coordinator + 2 worker processes run by [docker-compose](https://docs.docker.com/compose/) on a single instance.
 - We use a1.4xlarge and c5.4xlarge, whose CPU core and memory are the same as a1.4xlarge. And we also compared with m5.2xlarge, whose on-demand instance cost is close to a1.4xlarge.
-- We use [q01, q10, q18, and q20](https://github.com/prestosql/presto/tree/master/presto-benchto-benchmarks/src/main/resources/sql/presto/tpch) run on the TPCH connector. Since the Presto TPCH connector does not access external storage, we can measure pure CPU performance without worrying about network variance.
+- We use [q01, q10, q18, and q20]({{site.github_repo_url}}/tree/master/presto-benchto-benchmarks/src/main/resources/sql/presto/tpch) run on the TPCH connector. Since the Presto TPCH connector does not access external storage, we can measure pure CPU performance without worrying about network variance.
 - We choose `tiny` and `sf1` as the scaling factor of TPCH connector
 - Our experiment measures the average time of 5 query runtime after 5 times warmup for every query.
 
@@ -157,6 +157,6 @@ $ docker pull lewuathe/presto-coordinator:327-SNAPSHOT-corretto
 $ docker pull lewuathe/presto-worker:327-SNAPSHOT-corretto
 ```
 
-And also, I have raised [an issue](https://github.com/prestosql/presto/issues/2262) to start the discussion of supporting Arm architecture in the community. It would be great if we could get any feedback from those who are interested in it.
+And also, I have raised [an issue]({{site.github_repo_url}}/issues/2262) to start the discussion of supporting Arm architecture in the community. It would be great if we could get any feedback from those who are interested in it.
 
 Thanks!

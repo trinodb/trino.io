@@ -30,7 +30,7 @@ The plots below compare the performance of Unnest Operator in the previous and t
 
 <!--more-->
 
-We used JMH [benchmark](https://github.com/prestosql/presto/blob/master/presto-main/src/test/java/io/prestosql/operator/BenchmarkUnnestOperator.java) to measure the performance of the queries in terms of CPU time and memory allocations per operation. An “operation” (for the purposes of this measurement) is defined as the processing of 10,000 rows by an unnest operator.
+We used JMH [benchmark]({{site.github_repo_url}}/blob/master/presto-main/src/test/java/io/prestosql/operator/BenchmarkUnnestOperator.java) to measure the performance of the queries in terms of CPU time and memory allocations per operation. An “operation” (for the purposes of this measurement) is defined as the processing of 10,000 rows by an unnest operator.
 These results reflect the speedup of the operator and may not extend to the overall query execution.
 
 ![](/assets/blog/unnest-operator-dictionary-block/unnest-blogpost-cpu.png)
@@ -167,4 +167,4 @@ Performance for the queries with `CROSS JOIN UNNEST` clause can be further impro
 
 LinkedIn’s data ecosystem makes heavy use of tables with deeply nested columns, and this change is beneficial for handling Presto queries on such tables. In our internal experiments with production data, we have seen queries perform up to ~9x faster with as much as ~13x less cpu usage. 
 
-We look forward to people in the community trying this out starting with the 316 release. We would love to hear others’ observations of performance after this change. Feel free to reach out to me over [slack](https://prestosql.io/community.html) (handle @padesai)  or [LinkedIn](https://www.linkedin.com/in/pratham-desai/) with questions or feedback.
+We look forward to people in the community trying this out starting with the 316 release. We would love to hear others’ observations of performance after this change. Feel free to reach out to me over [slack]({{site.url}}/slack.html) (handle @padesai)  or [LinkedIn](https://www.linkedin.com/in/pratham-desai/) with questions or feedback.

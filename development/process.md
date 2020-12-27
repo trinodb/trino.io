@@ -1,21 +1,27 @@
 ---
-layout: page
+layout: default
 menu_id: development
-title: Development - Process
+title: Contribution process
+pretitle: Development
+show_hero: true
 ---
 
+
+<div class="container container__development">
+
+  <div class="row spacer-60">
+  <div class="col-md-12">
 <div markdown="1" class="leftcol widecol process">
 
-## Contribution Process
 
 This is the process we suggest for contributions.  This process is designed to reduce the burden on project 
 reviews, impact on other contributors, and to keep the amount of rework from the contributor to a minimum.
 
-1. Sign the [contributor license agreement](https://github.com/prestosql/cla).
+1. Sign the [contributor license agreement]({{site.github_org_url}}/cla).
 
-2. Start a discussion by creating a Github [issue](https://github.com/prestosql/presto/issues), or asking on
+2. Start a discussion by creating a Github [issue]({{site.github_repo_url}}/issues), or asking on
    [Slack](/slack.html) (unless the change is trivial).
-     
+
     1. This step helps you identify possible collaborators and reviewers.
     2. Does the change align with technical vision and project values?
     3. Will the change conflict with another change in progress? If so, work with others to minimize impact.
@@ -23,22 +29,22 @@ reviews, impact on other contributors, and to keep the amount of rework from the
 
 3. Implement the change
 
-    1. If the change is large, post a preview Github [pull request](https://github.com/prestosql/presto/pulls) 
+    1. If the change is large, post a preview Github [pull request]({{site.github_repo_url}}/pulls)
        with the title prefixed with `[WIP]`, and share with collaborators.
     2. Include tests and documentation as necessary.
 
-4. Create a Github [pull request](https://github.com/prestosql/presto/pulls) (PR).
+4. Create a Github [pull request]({{site.github_repo_url}}/pulls) (PR).
 
     1. Make sure the pull request passes the tests in Travis CI.
     2. If known, request a review from an expert in the area changed.  If unknown, ask for help on [Slack](/slack.html).
 
 5. Review is performed by one or more reviewers.
 
-    1. This normally happens within a few days, but may take longer if the change is large, complex, or if a 
+    1. This normally happens within a few days, but may take longer if the change is large, complex, or if a
        critical reviewer is unavailable. (feel free to ping the pull request).
 
 6. Address concerns and update the pull request.
-    
+
     1. Comments are attached to each individual commit in the pull, and changes should be addressed in a
        new `Fixup!` commit placed after each commit.  This is to make it easier for the reviewer to see what was updated.
     2. After pushing the changes, add a comment to the pull-request, mentioning the reviewers by name, stating
@@ -48,6 +54,9 @@ reviews, impact on other contributors, and to keep the amount of rework from the
 
 7. Maintainer merges the pull request after final changes are accepted.
 
-8. Add release notes to the [issue](https://github.com/prestosql/presto/labels/release-notes) for the upcoming release.
+8. Add release notes to the [issue]({{site.github_repo_url}}/labels/release-notes) for the upcoming release.
 
+</div>
+</div>
+</div>
 </div>

@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 ---
 
 Queries involving `IN` and `NOT IN` over a subquery are much faster in 
-[Presto 312](https://prestosql.io/docs/current/release/release-312.html).
+[Presto 312]({{site.url}}/docs/current/release/release-312.html).
 
 
 ![](/assets/blog/semijoin-precomputed-hash/semijoin-precomputed-hash-gains.png)
@@ -40,7 +40,7 @@ We found that the optimization to use precomputed hashes, which is enabled by
 default, was missing in `SemiJoin` operator.  Hash values were precomputed at the leaf 
 stages but they were not being used in the `SemiJoin` operator leading to re-calculation 
 of the hash values at this operator. Since queries involving `IN` and `NOT IN` over a 
-subquery use `SemiJoin` operator, [the fix to use precomputed hash in SemiJoin operator](https://github.com/prestosql/presto/pull/767) 
+subquery use `SemiJoin` operator, [the fix to use precomputed hash in SemiJoin operator]({{site.github_repo_url}}/pull/767) 
 improves the performance of such queries significantly.
 
 # How does *optimize-hash-generation* optimization work

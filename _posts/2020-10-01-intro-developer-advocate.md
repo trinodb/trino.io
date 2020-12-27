@@ -28,8 +28,8 @@ without some modification to the Presto Elasticsearch connector.
 ## Joining the Presto community
 
 The first modification was [adding support for Elasticsearch array 
-types](https://github.com/prestosql/presto/issues/2441), and the second was, 
-[support for nested types](https://github.com/prestosql/presto/issues/754). My 
+types]({{site.github_repo_url}}/issues/2441), and the second was, 
+[support for nested types]({{site.github_repo_url}}/issues/754). My 
 first interaction with the Presto community was incredible! As a serial
 open-source attempter, I always wanted to get invested in an open-source
 project. I had started pull requests in various projects. Sometimes I ran into 
@@ -39,7 +39,7 @@ communication as to why it wasn't accepted or even looked at. However, when I
 first joined [Slack](/slack.html), I searched to see if there was already a
 discussion about array types in the history. I ran into [a discussion between 
 Dain and Martin about this 
-issue](https://prestosql.slack.com/archives/CP1MUNEUX/p1570064139005900). I
+issue](https://{{site.slack_fqdn}}/archives/CP1MUNEUX/p1570064139005900). I
 conversed with Martin, who was incredibly polite and willing to take time to 
 discuss how this should be implemented. 
 

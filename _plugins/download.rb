@@ -7,11 +7,11 @@ module Jekyll
     end
 
     def render(context)
-      version = context['site']['presto_version']
-      base = 'https://repo1.maven.org/maven2/io/prestosql'
+      version = context['site']['trino_version']
+      base = 'https://repo.maven.apache.org/maven2/io/prestosql'
       file = "#{@name}-#{version}#{@suffix}"
       url = "#{base}/#{@name}/#{version}/#{file}"
-      %Q[<a class="button" href="#{url}"><img src="/assets/icon-download.png" />#{file}</a>]
+      %Q[<a class="btn btn-pink btn-md" href="#{url}">#{file}</a>]
     end
   end
 end

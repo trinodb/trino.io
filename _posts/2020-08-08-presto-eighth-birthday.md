@@ -70,7 +70,7 @@ with around 500 active users at any given time.
 To celebrate Presto really means to celebrate this community, and while we
 can’t thank every individual who has contributed, we want to thank just a
 handful of you for your hard work. Thanks to these engineers for their
-contribtions to the Presto project!
+contributions to the Presto project!
 
  - [ebyhr](https://github.com/ebyhr)
  - [kasiafi](https://github.com/kasiafi)

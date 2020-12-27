@@ -20,8 +20,8 @@ or stability problems. Usually, the performance improvements are benchmarked sep
 are being added to the codebase. At Starburst, those benchmarks are even more important, especially
 for the Starburst Enterprise Presto LTS releases.
 
-On a side note, we use [Benchto](https://github.com/prestosql/benchto/) for organizing
-[Presto benchmark suites](https://github.com/prestosql/presto/tree/master/presto-benchto-benchmarks),
+On a side note, we use [Benchto]({{site.github_org_url}}/benchto) for organizing
+[Presto benchmark suites]({{site.github_repo_url}}/tree/master/presto-benchto-benchmarks),
 executing them and collecting the results. We use managed [Kubernetes](https://kubernetes.io/) in a public
 cloud for provisioning Presto clusters, along with [Starburst Enterprise Presto Kubernetes](https://www.starburstdata.com/presto-on-kubernetes/).
 We use [Jupyter](https://jupyter.org/) for producing result reports in HTML and PDF formats.

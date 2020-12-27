@@ -1,20 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Presto | {{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/main.css" type="text/css"/>
-
-    <meta name="viewport" content="width=device-width">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Presto | {{ page.title }}">
-    <meta property="og:description" content="Distributed SQL Query Engine for Big Data">
-    <meta property="og:image" content="/assets/presto-og.png">
-    {%- include google-analytics.html -%}
-</head>
-<body>
+{%- include html-header.html -%}
 
 {%- include header.html -%}
+
+{%- if page.show_hero -%}
+{%- include hero.html -%}
+{%- endif -%}
 
 {{ content }}
 
@@ -22,5 +12,4 @@
 
 {%- include footer.html -%}
 
-</body>
-</html>
+{%- include html-body-end.html -%}

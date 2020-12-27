@@ -5,7 +5,7 @@ author: Kamil Bajda-Pawlikowski
 ---
 
 Next month will mark the 2nd annual Presto Summit hosted by the
-[Presto Software Foundation](https://prestosql.io/foundation.html),
+[Presto Software Foundation]({{site.url}}/foundation.html),
 [Starburst Data](https://starburstdata.com), and [Twitter](https://twitter.com). Last year's event was
 a great success (see the
 [Presto Summit 2018 recap](https://www.starburstdata.com/technical-blog/presto-summit-2018-recap/)).

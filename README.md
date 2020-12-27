@@ -1,7 +1,7 @@
-# prestosql.io
+# trino.io
 
-The source for the Presto community website available at
-[https://prestosql.io/](https://prestosql.io/).
+The source for the Trino community website available at
+[https://trino.io/](https://trino.io/).
 
 The site uses [Jekyll](https://jekyllrb.com/) and markdown.
 
@@ -26,7 +26,6 @@ Add brew ruby in front of system ruby:
 
 ```bash
 PATH=/usr/local/opt/ruby/bin:$PATH
-PATH=/usr/local/lib/ruby/gems/2.6.0/bin:$PATH
 ```
 
 Install bundler:

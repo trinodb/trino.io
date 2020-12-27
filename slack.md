@@ -1,22 +1,41 @@
 ---
-layout: page
+layout: default
 title: Slack
 ---
 
-# prestosql.slack.com
+<div class="jumbotron card card-image" style="background-image: linear-gradient(to top, #001C93 0%, #000033 70%);background-size:cover;padding:6rem 2rem 0rem;">
+  <div class="text-white text-center py-5 px-4">
+    <div>
+        <h1>Trino community chat</h1>
+        <p class="lead">
+        The community is very active and helpful on Slack,
+        with users and developers from all around the world.<br/>
+        If you need help using or running Trino, this is the place to ask.</p>
+        <p>
+        <a class="btn btn-pink btn-lg" href="{{site.slack_join}}"><i class="fab fa-slack"></i>&nbsp;&nbsp;Join us on Slack</a>
+        </p>
+    </div>
+  </div>
+</div>
 
-[![Join Slack](https://img.shields.io/badge/Join%20Slack-44af5c.svg?logo=slack){:.imglink}]({{ site.slack_url }})
+<div class="container spacer-60">
+  <div class="col-md-12">
+
+  <div markdown="1" class="leftcol widecol">
+
+In addition, [numerous other community resources](./download.html) are
+available for help.
 
 ## Channels
 
-* [#general](https://prestosql.slack.com/messages/CFLB9AMBN) - discussions about using and developing Presto
-* [#troubleshooting](https://prestosql.slack.com/messages/CGB0QHWSW) - need help?
-* [#dev](https://prestosql.slack.com/archives/CP1MUNEUX) - discussions about Presto codebase, development, and developing extensions
-* [#community-announcements](https://prestosql.slack.com/messages/CFQAMGRQE) - discussions for Presto content and events happening around the world
-* [#triage](https://prestosql.slack.com/messages/CFP4810CV) - discussions and coordination about new issues and PRs from the community
-* [#releases](https://prestosql.slack.com/messages/CFP480UKX) - notices about upcoming releases
-* [#infrastructure](https://prestosql.slack.com/messages/CFPVDC9JT) - discussions about project infrastructure (Travis, Github, Maven, etc.)
-* [#github](https://prestosql.slack.com/messages/CFN644R4G) - feed of activity on [GitHub](https://github.com/prestosql)
+* [#general](https://{{site.slack_fqdn}}/messages/CFLB9AMBN) - discussions about using and developing Trino
+* [#troubleshooting](https://{{site.slack_fqdn}}/messages/CGB0QHWSW) - need help?
+* [#dev](https://{{site.slack_fqdn}}/archives/CP1MUNEUX) - discussions about Trino codebase, development, and developing extensions
+* [#community-announcements](https://{{site.slack_fqdn}}/messages/CFQAMGRQE) - discussions for Trino content and events happening around the world
+* [#triage](https://{{site.slack_fqdn}}/messages/CFP4810CV) - discussions and coordination about new issues and PRs from the community
+* [#releases](https://{{site.slack_fqdn}}/messages/CFP480UKX) - notices about upcoming releases
+* [#infrastructure](https://{{site.slack_fqdn}}/messages/CFPVDC9JT) - discussions about project infrastructure (Travis, Github, Maven, etc.)
+* [#github](https://{{site.slack_fqdn}}/messages/CFN644R4G) - feed of activity on [GitHub]({{site.github_org_url}})
 
 ## Guidelines
 
@@ -24,3 +43,7 @@ title: Slack
   rarely. Members receive notifications from these commands.
 * Avoid posting the same question to multiple slack channels, GitHub issues, or
   mailing list.
+
+
+</div>
+</div></div>

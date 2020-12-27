@@ -1,24 +1,19 @@
-presto_version: 348
+# Jekyll configuration
 
-google_analytics: UA-133457846-1
-google_audience: AW-1036784065
-linkedin_audience: 2842796
+url: "https://trino.io"
 
-slack_url: "https://join.slack.com/t/prestosql/shared_invite/zt-h88upx5f-gVb8XUu16W_jo4I2Cw8ijA"
-
-url: "https://prestosql.io"
 description: >-
-  Presto is a high performance, distributed SQL query engine for big data.
+  Trino is a high performance, distributed SQL query engine for big data.
 
 twitter:
-  username: prestosql
+  username: trinodb
   card: summary
 
 defaults:
   - scope:
       path: ""
     values:
-      image: /assets/presto-og.png
+      image: /assets/trino-og.png
 
 collections:
   posts:
@@ -30,3 +25,17 @@ exclude:
   - ".gitignore"
   - "Gemf*"
   - "README.md"
+
+# Custom variables
+
+trino_version: 348
+conduct_email: conduct@prestosql.io
+slack_join: "https://join.slack.com/t/prestosql/shared_invite/zt-h88upx5f-gVb8XUu16W_jo4I2Cw8ijA"
+slack_fqdn: prestosql.slack.com
+github_org_url: "https://github.com/trinodb"
+github_repo_url: "https://github.com/trinodb/trino"
+google_analytics: UA-133457846-1
+google_audience: AW-1036784065
+linkedin_audience: 2842796
+twitter_user: trinodb
+twitter_hashtag: trinodb

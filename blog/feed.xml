@@ -8,7 +8,7 @@
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>{{ page.url | absolute_url | xml_escape }}</id>
 
-  <title>Presto Blog</title>
+  <title>Trino Blog</title>
 
   <subtitle>{{ site.description | xml_escape }}</subtitle>
 

@@ -1,43 +1,52 @@
 ---
-layout: page
+layout: default
 menu_id: development
 title: Development
+show_hero: true
 ---
 
-<div markdown="1" class="leftcol widecol">
+<div class="container container__development">
 
-## Open Source
+  <div class="row spacer-60">
+  <div class="col-md-12">
+  <div markdown="1" class="leftcol widecol">
 
-Presto is an open source software project licensed under [Apache License v2](https://www.apache.org/licenses/LICENSE-2.0).
+### Open source license
 
-## Project Vision and Development Philosophy
+Trino is an open source software project licensed under [Apache License
+2.0]({{site.github_repo_url}}/blob/master/LICENSE).
 
-Over the years, the Presto project has developed an extensive vision of the software and a strong development philosophy.
+### Project vision and development philosophy
+
+Over the years, the Trino project has developed an extensive vision of the software and a strong development philosophy.
 Understanding these helps you get up to speed on the software and how the project works more quickly.
 
 [Read more about the project vision and development philosophy...](vision.html)
 
-## Contribution Process
+### Contribution process
 
-You can also contribute fixes and new features as [pull requests](https://github.com/prestosql/presto/pulls).
-You need to sign a [Contributor License Agreement](https://github.com/prestosql/cla) ("CLA") before it 
+You can also contribute fixes and new features as [pull requests]({{site.github_repo_url}}/pulls).
+You need to sign a [Contributor License Agreement]({{site.github_org_url}}/cla) ("CLA") before it
 can be accepted into the repositories.
 
 [Read more about the contribution process...](process.html)
 
-## How to Become a Maintainer
+### How to become a maintainer
 
 Maintainers perform final reviews and merge the changes into the code base.  Maintainers are the most active
 members of the community, and spend a significant amount of time reviewing community contributions.
 
 [Read more about how to become a maintainer...](roles.html)
 
-## Code Style
+### Code style
 
-The Presto code base has a consistent style throughout.  The style is documented for Java code in the
+The Trino code base has a consistent style throughout.  The style is documented for Java code in the
 [Airlift code style project](https://github.com/airlift/codestyle), which includes a configuration for IntelliJ.
 
 For all other languages, it is expected that new code matches the style used for
 existing code in that language.
 
+</div>
+  </div>
+</div>
 </div>

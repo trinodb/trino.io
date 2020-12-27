@@ -4,7 +4,7 @@ title:  "Apache Pinot Connector"
 author: Elon Azoulay
 ---
 
-Presto 334 introduces the new [Pinot Connector](https://prestosql.io/docs/current/connector/pinot.html)
+Presto 334 introduces the new [Pinot Connector]({{site.url}}/docs/current/connector/pinot.html)
 which allows Presto to query data stored in [Apache Pinot™](https://pinot.apache.org/).
 Not only does this allow access to Pinot tables but gives users the ability to do things they could not do with Pinot
 alone such as join Pinot tables to other tables and use Presto's scalar functions, window functions and complex aggregations.
@@ -71,13 +71,13 @@ LIMIT 30000
 ``` 
 
 The filter in the outer presto query will be pushed down into the Pinot query via Presto's
-[applyFilter()](https://github.com/prestosql/presto/blob/334/presto-spi/src/main/java/io/prestosql/spi/connector/ConnectorMetadata.java#L746).
+[applyFilter()]({{site.github_repo_url}}/blob/334/presto-spi/src/main/java/io/prestosql/spi/connector/ConnectorMetadata.java#L746).
 These queries are routed to the broker and
 should not return huge amounts of data as broker queries currently return a single response with all the results. This
 is more suited to aggregate queries.
 
 Limits are pushed into the "dynamic" Pinot query via Presto's
-[applyLimit()](https://github.com/prestosql/presto/blob/334/presto-spi/src/main/java/io/prestosql/spi/connector/ConnectorMetadata.java#L727).
+[applyLimit()]({{site.github_repo_url}}/blob/334/presto-spi/src/main/java/io/prestosql/spi/connector/ConnectorMetadata.java#L727).
 The above query would yield the following Pinot PQL query:
 
 Pinot functions such as `PERCENTILEEST` can be used in the quoted sql.

@@ -13,7 +13,7 @@ reading ORC or Parquet data.
 The improvement started with a question
 from [Brenton Zillins](https://github.com/bzillins)
 at [Stackpath](https://www.stackpath.com/)
-on our [Slack](https://prestosql.io/community.html) workspace. He noticed
+on our [Slack]({{site.url}}/slack.html) workspace. He noticed
 that the network traffic to Presto workers was many times larger than the
 amount of input data reported by Presto for the query.
 
@@ -50,5 +50,5 @@ Being observant and reporting an issue can have a huge win for everyone.
 
 # How to get it
 
-This improvement is in [Presto 302+](https://prestosql.io/download.html),
+This improvement is in [Presto 302+]({{site.url}}/download.html),
 so you will need to upgrade if you are using an earlier version.

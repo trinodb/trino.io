@@ -1,11 +1,12 @@
 ---
-layout: page
-title: Community
+layout: default
+title:  "Presto: The Definitive Guide"
+show_hero: true
 ---
 
-<div markdown="1" class="leftcol widecol">
-
-# Presto: The Definitive Guide
+<div class="container container__features" >
+  <div class="row">
+  <div  class="col-md-8">
 
 <div markdown="1" class="item">
 
@@ -15,18 +16,22 @@ Title:
 Subtitle:
 : SQL at Any Scale, on Any Storage, in Any Environment
 
+> The project has moved to the
+> [new name Trino]({% post_url 2020-12-27-announcing-trino %}), and the content
+> of this book continues to apply to Trino.
+
 Authors:
 : By [Matt Fuller](https://github.com/mattsfuller),
   [Martin Traverso](https://github.com/martint),
   [Manfred Moser](https://github.com/mosabua)
 
-Publisher: 
+Publisher:
 : [O'Reilly Media](https://www.oreilly.com/)
 
-Release Date: 
+Release Date:
 : April 2020
 
-Pages: 
+Pages:
 : 310
 
 Perform fast interactive analytics against different data sources using the
@@ -54,18 +59,17 @@ Put Presto in production: Use this query engine for security and monitoring and
 with other applications; learn how other organizations apply Presto
 
 * [O'Reilly Media book page](http://shop.oreilly.com/product/0636920206880.do)
-* [Example code repository](https://www.github.com/prestosql/presto-the-definitive-guide)
+* [Example code repository]({{site.github_org_url}}/presto-the-definitive-guide)
 * [Announcement blog post]({{ site.baseurl }}{% post_url 2020-04-11-the-definitive-guide %})
 
 </div>
-
 </div>
-
-<div markdown="1" class="rightcol">
-
+<div class="col-md-4">
 <img src="./assets/ptdg-cover.jpg" width="400">
-
 </div>
+
+
+</div></div>
 
 
 

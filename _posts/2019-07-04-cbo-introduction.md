@@ -73,9 +73,9 @@ table names. This is where table statistics kick in.
 ## Table statistics
 
 Presto has [connector-based
-architecture](https://prestosql.io/docs/current/develop/connectors.html). A
+architecture]({{site.url}}/docs/current/develop/connectors.html). A
 connector can provide [table and column
-statistics](https://prestosql.io/docs/current/optimizer/statistics.html):
+statistics]({{site.url}}/docs/current/optimizer/statistics.html):
 
 - number of rows in a table,
 - number of distinct values in a column,
@@ -93,7 +93,7 @@ following:
 ![](/assets/blog/cbo-introduction/presto-data-table-statistics.png)
 
 Having this knowledge, [Presto’s Cost-Based
-Optimizer](https://prestosql.io/docs/current/optimizer/cost-based-optimizations.html)
+Optimizer]({{site.url}}/docs/current/optimizer/cost-based-optimizations.html)
 will come up with completely different join ordering in the plan.
 
 ![](/assets/blog/cbo-introduction/presto-cbo-results.png)
@@ -261,16 +261,15 @@ filter condition or are returned from the join.
 Summing up, Presto’s Cost-Based Optimizer is conceptually a very simple thing.
 Alternative query plans are considered, the best plan is chosen and executed.
 Details are not so simple, though. Fortunately, to use
-[Presto](https://prestosql.io/), one doesn’t need to know all these details.
+[Presto]({{site.url}}/), one doesn’t need to know all these details.
 Of course, anyone with a technical inclination that like to wander in database
-internals is invited to study [the Presto
-code](https://github.com/prestosql/presto)!
+internals is invited to study [the Presto code]({{site.github_repo_url}})!
 
 Enabling Presto CBO is really simple:
 
 - set `optimizer.join-reordering-strategy=AUTOMATIC` and
   `join-distribution-type=AUTOMATIC` in your `config.properties`,
-- [analyze](https://prestosql.io/docs/current/sql/analyze.html) your tables,
+- [analyze]({{site.url}}/docs/current/sql/analyze.html) your tables,
 - no, there is no third step. That’s it!
 
 Take Presto CBO for a spin today and let us know what is *your* Presto

@@ -1,12 +1,15 @@
 ---
 layout: default
-title: Paper
+pretitle: Paper
+title: "Presto: SQL on Everything"
+show_hero: true
 ---
+<div class="container" >
+  <div class="row">
+    <div class="col-md-12">
 
 <div markdown="1" class="content homecontent width clearfix">
-<div markdown="1" class="leftcol widecol">
 
-# Presto: SQL on Everything
 
 **IEEE International Conference on Data Engineering (ICDE)**
 
@@ -14,7 +17,7 @@ title: Paper
 Raghav Sethi, Martin Traverso, Dain Sundstrom, David Phillips, Wenlei Xie, Yutian Sun,
 Nezih Yigitbasi, Haozhun Jin, Eric Hwang, Nileema Shingte, Christopher Berner
 
-# Abstract
+## Abstract
 
 Presto is an open source distributed query engine that supports much of the SQL
 analytics workload at Facebook. Presto is designed to be adaptive, flexible,
@@ -30,7 +33,8 @@ use cases. Finally, we present performance results that demonstrate the impact o
 main design decisions.
 
 
-[![download](/assets/icon-download.png) Presto_SQL_on_Everything.pdf](/Presto_SQL_on_Everything.pdf){:.button}
+ <a class="btn btn-pink btn-lg" href="/Presto_SQL_on_Everything.pdf"><i class="fas fa-file-download"></i> &nbsp;&nbsp;Presto_SQL_on_Everything.pdf </a>
 
 </div>
 </div>
+</div></div>

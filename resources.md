@@ -1,260 +1,72 @@
 ---
-layout: page
+layout: default
 menu_id: resources
 title: Resources
+show_hero: true
 ---
 
+<div class="container__resources">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-4 col-lg-3 spacer-20 order-md-2 resourcesAnchors toc-styles">
+      <div markdown="1" class="rightcol toc-sticky">
+
+### Resources
+
+
+* [Client libraries](#libraries)
+* [BI tools and notebooks](#ui)
+* [Management tools](#tools)
+* [Enterprise support](#support)
+* [Managed services](#managed)
+* [Cloud](#cloud)
+  * [AWS](#aws)
+  * [Azure](#azure)
+  * [GCP](#gcp)
+
+</div>
+    </div>
+    <div class="col-sm-12 col-md-8 col-lg-9 spacer-20">
+    <div class="resourcesMain">
 <div markdown="1" class="leftcol widecol faq">
 
-## Presto ODBC {#odbc}
-
-<div markdown="1" class="item">
-
-#### Prestogres
-
-Project
-: [GitHub](https://github.com/treasure-data/prestogres)
-
-Maintained by
-: [Furuhashi Sadayuki](https://github.com/frsyuki)
-
-Description
-: Prestogres is a gateway server that allows clients to use PostgreSQL
-  protocol and thus the PostgreSQL ODBC driver to run queries on Presto.
-
-</div>
-
-<div markdown="1" class="item">
-
-#### Starburst ODBC Driver
-
-Project
-: [Starburst Enterprise ODBC/JDBC Presto Drivers](https://www.starburstdata.com/our-offerings/#drivers-block)
-
-Maintained by
-: [Starburst, The Presto company](https://www.starburstdata.com/)
-
-Description
-: The Starburst Enterprise Client Drivers for Presto include
-  enterprise grade ODBC and JDBC drivers enabling you to use your
-  preferred Business Intelligence tools with Presto. The drivers fully
-  implement the ODBC and JDBC specifications and are compatible with the
-  [Enterprise Starburst Presto release](https://www.starburstdata.com/our-offerings/)
-  which is available for download. There are ODBC drivers for Windows, Mac,
-  and Linux platforms. Starburst additionally provides
-  [enterprise Presto support and services](https://www.starburstdata.com/presto-enterprise/).
-
-</div>
-
-## Presto Libraries {#libraries}
+## Client libraries {#libraries}
 
 The following client libraries can be used to run queries from several
-programming languages:
-[C](#library-c),
-[Go](#library-go),
-[Java](#library-java),
-[Node.js](#library-node),
-[Python](#library-python),
-[R](#library-r),
-[Ruby](#library-ruby).
+programming languages, and programs using the related platform:
 
-### Language: C {#library-c}
+* [Trino JDBC driver](docs/current/installation/jdbc.html) for Java/JVM
+* [Starburst ODBC driver](https://www.starburstdata.com/presto-enterprise/) for Windows
+* [presto-go-client]({{site.github_org_url}}/presto-go-client) for Go
+* [presto-client-node](https://github.com/tagomoris/presto-client-node) for Node.js
+* [lento](https://github.com/vweevers/lento) for Node.js
+* [presto-python-client]({{site.github_org_url}}/presto-python-client) for Python
+* [PyHive](https://github.com/dropbox/PyHive) for Python
+* [RPresto](https://github.com/prestodb/RPresto) for R
+* [presto-client-ruby](https://github.com/treasure-data/presto-client-ruby) for Ruby
+</div></div>
 
-<div markdown="1" class="item">
+<div class="resourcesMain">
+<div markdown="1" class="leftcol widecol faq">
 
-#### PrestoClient C
-
-Project
-: [GitHub](https://github.com/easydatawarehousing/prestoclient/tree/master/C)
-
-Maintained by
-: [Ivo Herweijer](https://github.com/easydatawarehousing)
-
-: Description
-  C client for Presto.
-
-</div>
-
-### Language: Go {#library-go}
+## BI tools and notebooks {#ui}
 
 <div markdown="1" class="item">
 
-#### presto-go-client
+#### [Quix](https://wix.github.io/quix/)
 
-Project
-: [GitHub](https://github.com/prestosql/presto-go-client)
-
-Maintained by
-: [Presto Team](https://prestosql.io/community.html)
-
-Description
-: Go client for Presto.
-
-</div>
-
-### Language: Java {#library-java}
-
-<div markdown="1" class="item">
-
-#### Presto JDBC Driver
-
-Project
-: [Presto](docs/current/installation/jdbc.html)
-
-Maintained by
-: [Presto Team](https://prestosql.io/community.html)
-
-Description
-: JDBC driver for Presto.
-
-Example
-: ```java
-  String sql = "SELECT name FROM example";
-  String url = "jdbc:presto://localhost:8080/catalog/schema";
-  try (Connection c = DriverManager.getConnection(url, "abc", null)) {
-      try (Statement s = c.createStatement()) {
-          try (ResultSet rs = s.executeQuery(sql)) {
-              while (rs.next()) {
-                  System.out.println(rs.getString("name"));
-              }
-          }
-      }
-  }
-```
-
-</div>
-
-### Language: Node.js {#library-node}
-
-<div markdown="1" class="item">
-
-#### presto-client-node
-
-Project
-: [GitHub](https://github.com/tagomoris/presto-client-node)
-
-Maintained by
-: [Satoshi Tagomori](https://github.com/tagomoris)
-
-Description
-: Node.js client for Presto.
+> Quix is a multi-user, easy-to-use notebook manager. 
+  By utilizing Presto it provides unified access to 
+  multiple data sources and effectively acts as a shared 
+  space for your company's BI insights and know-how.
 
 </div>
 
 <div markdown="1" class="item">
 
-#### lento
+#### [Redash](https://redash.io/)
 
-Project
-: [GitHub](https://github.com/vweevers/lento)
-
-Maintained by
-: [Vincent Weevers](https://github.com/vweevers)
-
-Description
-: Streaming Node.js client for Presto.
-
-</div>
-
-### Language: Python {#library-python}
-
-<div markdown="1" class="item">
-
-#### presto-python-client
-
-Project
-: [GitHub](https://github.com/prestosql/presto-python-client)
-
-Maintained by
-: [Presto Team](https://prestosql.io/community.html)
-
-Description
-: Python client for Presto.
-
-</div>
-
-<div markdown="1" class="item">
-
-#### PyHive
-
-Project
-: [GitHub](https://github.com/dropbox/PyHive)
-
-Maintained by
-: [Dropbox](https://github.com/dropbox)
-
-Description
-: PyHive is a collection of Python DB-API and SQLAlchemy interfaces for Presto and Hive.
-
-</div>
-
-### Language: R {#library-r}
-
-<div markdown="1" class="item">
-
-#### RPresto
-
-Project
-: [GitHub](https://github.com/prestodb/RPresto)
-
-Maintained by
-: [RPresto Team](https://github.com/prestodb/RPresto)
-
-Description
-: DBI-based adapter for Presto for R.
-
-</div>
-
-### Language: Ruby {#library-ruby}
-
-<div markdown="1" class="item">
-
-#### presto-client-ruby
-
-Project
-: [GitHub](https://github.com/treasure-data/presto-client-ruby)
-
-Maintained by
-: [Furuhashi Sadayuki](https://github.com/frsyuki)
-
-Description
-: Ruby client for Presto.
-
-</div>
-
-## Presto GUIs {#guis}
-
-<div markdown="1" class="item">
-
-#### Airpal
-
-Project
-: [Airpal](https://airbnb.github.io/airpal/)
-
-Maintained by
-: [Airbnb](https://github.com/airbnb)
-
-Description
-: Airpal is a web-based, query execution tool which leverages Presto
-  to make authoring queries and retrieving results simple for users.
-  Airpal provides the ability to find tables, see metadata, browse
-  sample rows, write and edit queries, then submit queries all in a
-  web interface.
-
-</div>
-
-<div markdown="1" class="item">
-
-#### Redash
-
-Project
-: [Redash](https://redash.io/)
-
-Maintained by
-: [Arik Fraimovich](https://github.com/getredash/)
-
-Description
-: Redash is a take on freeing the data within our company in a way
+> Redash is a take on freeing the data within our company in a way
   that will better fit our culture and usage patterns. It has Presto
   support as well as other backends, and offers a query editor with
   syntax highlighting and completion, and creating visualizations and
@@ -264,52 +76,9 @@ Description
 
 <div markdown="1" class="item">
 
-#### Quix
+#### [Apache Superset](https://superset.apache.org/)
 
-Project
-: [Quix](https://wix.github.io/quix/)
-
-Maintained by
-: [Wix](https://github.com/wix/quix/)
-
-Description
-: Quix is a multi-user, easy-to-use notebook manager. 
-By utilizing Presto it provides unified access to 
-multiple data sources and effectively acts as a shared 
-space for your company's BI insights and know-how.
-
-</div>
-
-<div markdown="1" class="item">
-
-#### Shib
-
-Project
-: [GitHub](https://github.com/tagomoris/shib)
-
-Maintained by
-: [Tagomori Satoshi](https://github.com/tagomoris)
-
-Description
-: Shib is a web-client written in Node.js designed to query Presto and
-  Hive. To run Shib install node.js, alter your config.js, and follow
-  the instructions on the shib project page. Shib can also be used as
-  an proxy server for query engines.
-
-</div>
-
-<div markdown="1" class="item">
-
-#### Superset
-
-Project
-: [Apache Superset](https://superset.incubator.apache.org/)
-
-Maintained by
-: [Apache Superset](https://github.com/apache/incubator-superset)
-
-Description
-: Superset enables users to consume data in many different ways:
+> Apache Superset enables users to consume data in many different ways:
   writing SQL queries, creating new tables, creating a visualization
   (slice), adding that visualization to one or many dashboards and
   downloading a CSV. SQL Lab is a a part of Superset and provides a rich
@@ -322,17 +91,9 @@ Description
 
 <div markdown="1" class="item">
 
-#### yanagishima
+#### [yanagishima](https://yanagishima.github.io/yanagishima/)
 
-Project
-: [GitHub](https://github.com/wyukawa/yanagishima)
-
-Maintained by
-:  [wyukawa](https://github.com/wyukawa),
-   [okazou](https://github.com/okazou)
-
-Description
-: yanagishima is a web application for Presto. yanagishima provides
+> yanagishima is a web application for Presto. yanagishima provides
   the ability to execute query, show query, kill query, bookmark
   query, search table, share query/query result, format query,
   download as CSV/TSV file, insert chart, substitute query parameter,
@@ -340,17 +101,22 @@ Description
 
 </div>
 
-## Presto Management Tools {#tools}
+</div></div>
+
+<div class="resourcesMain">
+<div markdown="1" class="leftcol widecol faq">
+
+## Management tools {#tools}
 
 <div markdown="1" class="item">
 
 #### Presto-Admin
 
 Project
-: [Presto-Admin](https://github.com/prestosql/presto-admin)
+: [Presto-Admin]({{site.github_org_url}}/presto-admin)
 
 Maintained by
-: [Starburst, The Presto company](https://www.starburstdata.com/)
+: [Starburst](https://www.starburstdata.com/)
 
 Description
 : Presto-Admin is a tool for installing and managing the Presto query
@@ -392,14 +158,19 @@ it using standard presto-clients.
 
 </div>
 
-## Enterprise Support for Presto {#support}
+</div></div>
+
+<div class="resourcesMain">
+<div markdown="1" class="leftcol widecol faq">
+
+## Enterprise support {#support}
 
 <div markdown="1" class="item">
 
-#### Starburst Data
+#### Starburst
 
 Website
-: [Starburst, The Presto company](https://www.starburstdata.com/)
+: [Starburst](https://www.starburstdata.com/)
 
 Scope
 : Enterprise 24/7 Support, Installation, Configuration, Training,
@@ -407,19 +178,19 @@ Scope
 
 Description
 : At Starburst, our team is a major contributor to the open source
-  Presto project. We consist of many of the **experts and maintainers**
-  who have been contributing to and advancing the Presto product over
-  the last few years. Starburst provides an [enterprise ready Presto
+  Trino project. We consist of many of the **experts and maintainers**
+  who have been contributing to and advancing the Trino product over
+  the last few years. Starburst provides an [enterprise ready Trino
   distribution](https://www.starburstdata.com/our-offerings/) and
-  [Presto support](https://www.starburstdata.com/presto-enterprise/).
-  Starburst's distribution of Presto consists of additional tooling
+  [Trino support](https://www.starburstdata.com/presto-enterprise/).
+  Starburst's distribution of Trino consists of additional tooling
   and configurations to make it work well in the enterprise. Further,
   it is rigorously tested at scale and patched as needed. With our
   wide range of services, support, and training we help you be
   successful in this new world of open source technologies in the
   enterprise.
 
-  In addition to implementing Presto internals to make it the most
+  In addition to implementing Trino internals to make it the most
   reliable, robust, and performant open source distributed query
   engine, our team at Starburst is dedicated to continually improve
   and add the needed features for the enterprise. Our major enterprise
@@ -451,7 +222,12 @@ Description
 
 </div>
 
-## Managed Presto Service {#managed}
+</div></div>
+
+<div class="resourcesMain">
+<div markdown="1" class="leftcol widecol faq">
+
+## Managed services {#managed}
 
 <div markdown="1" class="item">
 
@@ -502,7 +278,12 @@ Description
 
 </div>
 
-## Presto Cloud {#cloud}
+</div></div>
+
+<div class="resourcesMain">
+<div markdown="1" class="leftcol widecol faq">
+
+## Cloud {#cloud}
 
 Presto is readily available in [AWS](#aws) and [Azure](#azure)
 cloud environments.
@@ -511,24 +292,24 @@ cloud environments.
 
 <div markdown="1" class="item">
 
-#### Starburst Presto {#starburst-presto}
+#### Starburst Enterprise Presto {#starburst-presto}
 
 Website
-: [Presto on AWS](https://www.starburstdata.com/presto-aws-cloud/)
+: [Starburst Enterprise Presto on AWS](https://www.starburstdata.com/presto-aws-cloud/)
 
 Maintainer
-: [Starburst, The Presto company](https://www.starburstdata.com/)
+: [Starburst](https://www.starburstdata.com/)
 
 Description
-: Starburst Presto on AWS combines the reliable, scalable, and
+: Starburst Enterprise Presto on AWS combines the reliable, scalable, and
   cost-effective cloud computing services provided by Amazon Web
-  Services (AWS) with the power of Presto, the fastest growing
+  Services (AWS) with the power of Trino, the fastest growing
   distributed SQL query engine within the industry.
 
   Through the use of Starburst’s CloudFormation template and Starburst
-  Presto AMI, Starburst Presto on AWS enables you to run analytic SQL
+  Trino AMI, Starburst Enterprise Presto on AWS enables you to run analytic SQL
   queries across a wide variety of data sources with elastic scaling
-  and usage-based pricing. Read more how to use Presto on AWS on our
+  and usage-based pricing. Read more how to use Trino on AWS on our
   [AWS Documentation site](https://docs.starburstdata.com/latest/aws.html).
 
 </div>
@@ -591,34 +372,16 @@ Description
 
 <div markdown="1" class="item">
 
-#### Starburst Presto
+#### Starburst Enterprise Presto
 
 Website
-: [Presto on Azure](https://www.starburstdata.com/presto-azure/)
+: [Starburst Enterprise Presto on Azure](https://www.starburstdata.com/presto-azure/)
 
 Maintainer
-: [Starburst, The Presto company](https://www.starburstdata.com/)
+Starburst: [Starburst](https://www.starburstdata.com/)
 
 Description
-: Starburst Presto for HDInsight is a distributed SQL query engine that is
-  integrated into Azure HDInsight Platform and available via the Azure
-  Marketplace.
-
-  Azure HDInsight is a fully-managed cloud service that makes it easy,
-  fast, and cost-effective to process massive amounts of data. Presto and
-  HDInsight were both designed for the separation of storage and compute
-  which allows for flexible performance and cost. You pay only for what
-  you use by creating clusters on demand scaling them up and down. Read
-  more how to use Presto on Azure on our
-  [Azure Documentation site](https://docs.starburstdata.com/latest/azure.html).
-
-  Integrating Presto with HDInsight provides Azure users with two new
-  capabilities:
-
-  * A fast, scalable, interactive SQL interface to data in Azure Blob and
-    Azure Data Lake Storage.
-  * An easy way to integrate data with HDInsight by leveraging Presto’s
-    vast portfolio of data connectors.
+: Starburst Enterprise Presto is available via the Azure Marketplace.
 
 </div>
 
@@ -670,31 +433,9 @@ Description
   its autoscaling to reduce costs. Qubole has also added support for 
   faster detection of query failures in Presto caused by preemptible 
   VM interruption. 
-
 </div>
-
 </div>
-
-<div markdown="1" class="rightcol">
-
-### Presto Resources
-
-* [ODBC](#odbc)
-* [Libraries](#libraries)
-  * [C](#library-c)
-  * [Go](#library-go)
-  * [Java](#library-java)
-  * [Node.js](#library-node)
-  * [Python](#library-python)
-  * [R](#library-r)
-  * [Ruby](#library-ruby)
-* [GUIs](#guis)
-* [Management Tools](#tools)
-* [Enterprise Support](#support)
-* [Managed Presto Service](#managed)
-* [Cloud](#cloud)
-  * [AWS](#aws)
-  * [Azure](#azure)
-  * [GCP](#gcp)
-
+    </div>
+  </div>
+</div>
 </div>

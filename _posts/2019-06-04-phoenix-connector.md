@@ -4,8 +4,8 @@ title:  "Apache Phoenix Connector"
 author: Vincent Poon
 ---
 
-[Presto 312](https://prestosql.io/docs/current/release/release-312.html)
-introduces a new [Apache Phoenix Connector](https://prestosql.io/docs/current/connector/phoenix.html), 
+[Presto 312]({{site.url}}/docs/current/release/release-312.html)
+introduces a new [Apache Phoenix Connector]({{site.url}}/docs/current/connector/phoenix.html), 
 which allows Presto to query data stored in [HBase](https://hbase.apache.org/)
 using [Apache Phoenix](https://phoenix.apache.org/).  This unlocks new capabilities that previously
 weren't possible with Phoenix alone, such as federation (querying of multiple Phoenix clusters) and
@@ -29,7 +29,7 @@ The `phoenix.config.resources` is a comma separated list of configuration files,
 
 # Schema
 For the most part, data types in Phoenix match up with those in Presto, with a few
-[minor exceptions](https://prestosql.io/docs/current/connector/phoenix.html#data-types).  One thing
+[minor exceptions]({{site.url}}/docs/current/connector/phoenix.html#data-types).  One thing
 to note, however, is that tables in Phoenix require a primary key, whereas Presto has no concept of
 primary keys.  To handle this, the Phoenix connector uses a table property to specify the primary key. 
 For example, consider the following statement in Phoenix:
@@ -56,7 +56,7 @@ WITH (
 ```
 
 Additional Phoenix and HBase table properties can be specified in a 
-[similar way](https://prestosql.io/docs/current/connector/phoenix.html#table-properties-phoenix). 
+[similar way]({{site.url}}/docs/current/connector/phoenix.html#table-properties-phoenix). 
 Note also that the default (empty) schema in Phoenix will always map to a Presto schema named "default".
 
 # Beyond MapReduce
@@ -151,7 +151,7 @@ aggregation in the coprocessor of each table region, and the result for each reg
 back to the client for a final aggregation.  That way, the table data itself doesn't need to be
 sent from each region to the client - just the partial aggregation result.  However, currently only
 filters are pushed down to the Phoenix connector.  With the ongoing work in Presto to support more
-[complex pushdown](https://github.com/prestosql/presto/issues/18) to connectors, we will be able to
+[complex pushdown]({{site.github_repo_url}}/issues/18) to connectors, we will be able to
 pushdown operations like aggregations to the Phoenix connector, which in turn can push them further
 down to the HBase coprocessors.
 

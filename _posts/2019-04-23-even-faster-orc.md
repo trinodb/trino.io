@@ -57,7 +57,7 @@ return builder.build();
 
 This code does a few things well. First, for the _all values are null_ case, it
 returns a run length encoded block which has custom optimizations throughout
-Presto (this [optimization](https://github.com/prestosql/presto/pull/229) was
+Presto (this [optimization]({{site.github_repo_url}}/pull/229) was
 recently added by [Praveen Krishna](https://github.com/Praveen2112)). Secondly,
 it separates the unconditional _no nulls_ loop from the conditional _mixed nulls_
 loop. It is common to have a column without nulls, so it makes sense to split
@@ -88,7 +88,7 @@ boolean reader, which was changed from decoding a single bit at a time to
 decoding 8 bits at a time. This sounds simple, but in practice doing this
 efficiently is complex, since reads are not aligned to 8 bits, and there is the
 general problem of forming JVM friendly loops. For those interested, the code is
-[here](https://github.com/prestosql/presto/blob/308/presto-orc/src/main/java/io/prestosql/orc/stream/BooleanInputStream.java#L218).
+[here]({{site.github_repo_url}}/blob/308/presto-orc/src/main/java/io/prestosql/orc/stream/BooleanInputStream.java#L218).
 
 ### Avoid dynamic dispatch in loops
 
@@ -227,7 +227,7 @@ There are a number of reasons you may get a larger or smaller win:
 * The compression matters: In our tests we used zlib, which is the most expensive
   compression supported by ORC. Compression algorithms that use less CPU (e.g.,
   Zstd, LZ4, or Snappy) will generally see larger relative improvements.
-* This improvement is only in [Presto 309+](https://prestosql.io/download.html),
+* This improvement is only in [Presto 309+]({{site.url}}/download.html),
   so if you are using an earlier version you will need to upgrade. Also, if you are
   still using Facebook’s version of Presto, you can either upgrade to Presto 309+ or
   wait to see if they backport it.

@@ -1,0 +1,13 @@
+<div class="jumbotron card card-image" style="background-image: linear-gradient(to top, #001C93 0%, #000033 70%);background-size:cover;">
+    <div class="text-white text-center py-5 px-4">
+        <div>
+            {%- if page.pretitle -%}
+                <h4>{{ page.pretitle }}</h4>
+            {%- endif -%}
+            <h1>{{ page.title }}</h1>
+            {%- if page.subtitle -%}
+                <p class="lead">{{ page.subtitle }}</p>
+            {%- endif -%}
+        </div>
+    </div>
+</div>

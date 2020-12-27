@@ -641,7 +641,7 @@ Splits: 110 total, 110 done (100.00%)
 0:03 [1000M rows, 8.4GB] [335M rows/s, 2.81GB/s]        
 ```
 
-Thirsty for more? Here's the [code](https://github.com/prestosql/presto/blob/master/presto-main/src/main/java/io/prestosql/sql/planner/iterative/rule/UnwrapCastInComparison.java). 
+Thirsty for more? Here's the [code]({{site.github_repo_url}}/blob/master/presto-main/src/main/java/io/prestosql/sql/planner/iterative/rule/UnwrapCastInComparison.java). 
 Happy querying!
 
 *Many thanks to [kasiafi](https://github.com/kasiafi) for their thoughtful and thorough feedback on early

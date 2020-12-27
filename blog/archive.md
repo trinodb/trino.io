@@ -1,0 +1,40 @@
+---
+layout: blog
+title: Blog archives
+---
+
+<div class="content container clearfix spacer-30">
+
+<div class="row blog-page">
+  <div class="col-12 text-surface-medium">
+    <h2>{{ page.title}}</h2>
+    <p class="subtitle-1">The complete list of posts from the Trino team</p>
+  </div>
+</div>
+
+<div class="row blog-page">
+  <div class="col-12">
+    {% for post in site.posts %}
+      <hr />
+      <div class="archive-row">
+        <div>
+          <p class="overline">{{ post.date | date: "%-d %B %Y" }}</p>
+          <h4 class="archives-title-link"><a href="{{ post.url }}">{{ post.title}}</a></h4>
+          <p class="caption">{{ post.author }} </p>
+        </div>
+        <!-- {% if post.image %}
+          <div class="archive-post-img">
+            <img src="{{ post.image }}">
+          </div>
+        {% endif %} -->
+      </div>
+    {% endfor %}
+    <!--<hr />
+    <p class="overline">Want to stay up to date with the latest news from Strati? <a
+      href="#">Subscribe</a> to the blog!
+    </p>-->
+  </div>
+</div>
+<div class="spacer-60"></div>
+
+</div>

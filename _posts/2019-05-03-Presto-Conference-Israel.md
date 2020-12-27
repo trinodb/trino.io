@@ -28,7 +28,7 @@ the conference. Enjoy the read and the videos!
 The day started with [Dain Sundstrom](https://www.linkedin.com/in/dainsundstrom/),
 [Martin Traverso](https://www.linkedin.com/in/traversomartin/), and
 [David Phillips](https://www.linkedin.com/in/electrum/), Presto founders
-who gave us a great panoramic view on [Presto Software Foundation](https://prestosql.io/foundation.html),
+who gave us a great panoramic view on [Presto Software Foundation]({{site.url}}/foundation.html),
 past, present, and future roadmap.
 
 The Presto founders presented in their talk the following topics:

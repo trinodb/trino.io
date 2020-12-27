@@ -32,8 +32,3 @@ The foundation is dedicated to preserving the vision of high quality, performant
 and dependable software developed by an open, collaborative and independent
 community of developers throughout the world. Everyone is welcome to participate,
 whether it be via code contributions, suggestions for improvements, or bug reports.
-
-Development is now taking place in the
-[prestosql](https://github.com/prestosql/presto) GitHub repository.
-Follow [@prestosql](https://www.twitter.com/prestosql) on Twitter
-and join the [Presto community](https://prestosql.io/community.html) on Slack.

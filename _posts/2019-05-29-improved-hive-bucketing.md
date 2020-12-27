@@ -4,7 +4,7 @@ title:  "Improved Hive Bucketing"
 author: David Phillips
 ---
 
-[Presto 312](https://prestosql.io/docs/current/release/release-312.html)
+[Presto 312]({{site.url}}/docs/current/release/release-312.html)
 adds support for the more flexible bucketing introduced in recent
 versions of Hive. Specifically, it allows any number of files per bucket,
 including zero. This allows inserting data into an existing partition without
