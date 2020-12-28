@@ -15,7 +15,7 @@ This isn’t an exhaustive list of things that you can’t do. Rather, take it i
 guide to make communication easier and to benefit us all and the technical communities in which we participate.
 
 This code of conduct applies to all spaces managed by the Trino project or the Trino Software Foundation. This
-includes Slack, the mailing lists, the issue tracker, PSF events, and any other forums created by the project team,
+includes Slack, the mailing lists, the issue tracker, Trino events, and any other forums created by the project team,
 which the community uses for communication. In addition, violations of this code outside these spaces may affect a
 person's ability to participate within them.
 

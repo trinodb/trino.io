@@ -378,7 +378,7 @@ Website
 : [Starburst Enterprise Presto on Azure](https://www.starburstdata.com/presto-azure/)
 
 Maintainer
-Starburst: [Starburst](https://www.starburstdata.com/)
+: [Starburst](https://www.starburstdata.com/)
 
 Description
 : Starburst Enterprise Presto is available via the Azure Marketplace.
