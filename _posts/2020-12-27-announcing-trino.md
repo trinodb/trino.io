@@ -9,7 +9,7 @@ We’re rebranding PrestoSQL as Trino. The software and the community you have c
 going anywhere, we are simply renaming. **Trino is the new name for PrestoSQL**, the project supported by the founders 
 and creators of Presto® along with the major contributors -- just under a shiny new name. And now you can find us here:
 
-* GitHub: [https://github.com/trinodb/trino](https://github.com/trinodb/trino). Please give it a star!
+* GitHub: [https://github.com/trinodb/trino](https://github.com/trinodb/trino). Please give it a [star](https://github.com/trinodb/trino/blob/master/.github/star.png)!
 * Twitter: [@trinodb](https://twitter.com/trinodb) 
 * Slack: [https://trino.io/slack.html](https://trino.io/slack.html)
 
