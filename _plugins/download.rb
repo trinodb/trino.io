@@ -8,7 +8,7 @@ module Jekyll
 
     def render(context)
       version = context['site']['trino_version']
-      base = 'https://repo.maven.apache.org/maven2/io/prestosql'
+      base = 'https://repo1.maven.org/maven2/io/trino'
       file = "#{@name}-#{version}#{@suffix}"
       url = "#{base}/#{@name}/#{version}/#{file}"
       %Q[<a class="btn btn-pink btn-md" href="#{url}">#{file}</a>]

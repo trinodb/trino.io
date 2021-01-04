@@ -21,8 +21,8 @@ show_hero: true
             <p class="card-text">See <a href="docs/current/installation/deployment.html">Deploying 
             Trino</a> for complete deployment instructions.</p>
             <!-- Download button -->
-            {% download presto-server .tar.gz %}
-            {% download presto-server-rpm .rpm %}
+            {% download trino-server .tar.gz %}
+            {% download trino-server-rpm .rpm %}
         </div>
     </div>
     <div class="card mb-4">
@@ -31,7 +31,7 @@ show_hero: true
             <p class="card-text">You can run queries using the interactive <a href="docs/current/installation/cli.html">
             command line interface</a>.</p>
             <!-- Download button -->
-            {% download presto-cli -executable.jar %}
+            {% download trino-cli -executable.jar %}
         </div>
     </div>
     <div class="card mb-4">
@@ -39,9 +39,9 @@ show_hero: true
             <h3 class="card-header-title mb-3">JDBC driver</h3>
             <p class="card-text">Connect to Trino from Java using the <a href="docs/current/installation/jdbc.html">
             JDBC driver</a>, which is available in
-            <a href="https://search.maven.org/artifact/io.prestosql/presto-jdbc/{{ site.trino_version }}/jar">Maven Central</a>.</p>
+            <a href="https://search.maven.org/artifact/io.trino/trino-jdbc/{{ site.trino_version }}/jar">Maven Central</a>.</p>
             <!-- Download button -->
-            {% download presto-jdbc .jar %}
+            {% download trino-jdbc .jar %}
         </div>
     </div>
     <!-- Card -->
