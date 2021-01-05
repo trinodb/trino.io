@@ -31,7 +31,7 @@ title: Trino blog
             <h4 class="card-title"><a href="{{ post.url }}">{{post.title}}</a></h4>
             <p class="caption">{{ post.date | date_to_string }} | {{ post.author}}</p>
             <!-- Text -->
-            <p class="card-text">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+            <p class="card-text">{{ post.description | default: post.excerpt | strip_html | truncatewords: 30 }}</p>
             <div class="blog-readmore"><a href="{{ post.url }}">Read More &rarr;</a></div>
           </div>
         </div>
