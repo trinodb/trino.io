@@ -7,13 +7,6 @@ description: >-
 
 twitter:
   username: trinodb
-  card: summary
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      image: /assets/trino-og.png
 
 collections:
   posts:

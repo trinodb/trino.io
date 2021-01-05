@@ -17,9 +17,7 @@ title: Trino blog
           <div class="blog-readmore"><a href="{{ post.url }}">Read More &rarr;</a></div>
         </div>
         <div>
-          {% if post.image %}
-            <img src="{{ post.image }}">
-           {% endif %}
+          <img src="{{ post.image | default: '/assets/trino-og.png' }}">
         </div>
       </div>
     {% endfor %}

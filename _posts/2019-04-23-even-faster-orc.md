@@ -2,7 +2,7 @@
 layout: post
 title:  "Even Faster ORC"
 author: Dain Sundstrom, Martin Traverso
-image: /assets/blog/orc-speedup.svg
+image: /assets/blog/orc-speedup.png
 ---
 
 Presto is known for being the fastest SQL on Hadoop engine, and our custom ORC

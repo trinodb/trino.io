@@ -6,10 +6,11 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Trino |&nbsp;{%- if page.pretitle -%}{{ page.pretitle }}:&nbsp; {%- endif -%} {{ page.title }}  </title>
     <meta name="viewport" content="width=device-width">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Trino | {{ page.title }}">
-    <meta property="og:description" content="Distributed SQL Query Engine for Big Data">
-    <meta property="og:image" content="/assets/trino-og.png">
+    {%- seo -%}
+    {% unless page.image %}
+      <meta property="og:image" content="{{site.url}}/assets/trino-og.png" />
+      <meta property="twitter:image" content="{{site.url}}/assets/trino-twitter.png" />
+    {% endunless %}
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
