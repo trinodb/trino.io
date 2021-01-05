@@ -192,6 +192,7 @@ ul.blog-tags {margin:24px 0;}
 .post-meta {font-weight:600;margin-bottom: 2rem;}
 .archive-row .overline {margin-bottom:3px; margin-top: 4px;}
 
+.jumbotron .text-white h1 a { color: #fff; }
 
 .pink-gradient { background: linear-gradient(40deg, #F88600, #dd00a1) !important;}
 .orange-gradient { background: linear-gradient(40deg, #f8b600, #F88600) !important;} 
