@@ -2,6 +2,7 @@
 layout: post
 title:  "We’re rebranding PrestoSQL as Trino"
 author: Martin Traverso, Dain Sundstrom, David Phillips
+description: The software and the community you have come to love and depend on aren’t going anywhere, we are simply renaming.
 excerpt_separator: <!--more-->
 ---
 
