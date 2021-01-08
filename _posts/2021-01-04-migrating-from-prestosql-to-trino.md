@@ -65,7 +65,7 @@ version to support older servers.
 
 The URL prefix for the JDBC driver now starts with `jdbc:trino:` instead
 of `jdbc:presto:`. This means that any client applications using the
-JDBC driver needs to update their connection configuration. The old
+JDBC driver need to update their connection configuration. The old
 prefix is still supported, but will be removed in a future release.
 
 The class name of the driver is now `io.trino.jdbc.TrinoDriver`. This is
@@ -140,7 +140,7 @@ migration. The following is a rough plan for upgrading your environment.
 
 **Step 1: Prepare to deploy the new version**
 
-* Let users know name is changing, so they are not surprised by the logo changes in the UI.
+* Let users know the name is changing, so they are not surprised by the logo changes in the UI.
 * Make sure that users are using recent client versions. Ideally, upgrade them all to
   version 350, as mentioned above. You can check the HTTP request logs for the coordinator
   to see what client versions are in use.
@@ -173,5 +173,5 @@ migration. The following is a rough plan for upgrading your environment.
 
 # Getting help
 
-We're here to help! If run into any issues while upgrading, or having any
+We're here to help! If you run into any issues while upgrading, or having any
 questions or concerns, [ask on Slack](/slack.html).
