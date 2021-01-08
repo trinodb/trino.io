@@ -84,9 +84,8 @@ the config and log directories, then install the new RPM.
 # Docker image
 
 The [Trino Docker image](https://hub.docker.com/r/trinodb/trino) is now
-published as `trinodb/trino`. The supported configuration directories
-are now `/usr/lib/trino/etc` and `/etc/trino`. The CLI is now named
-`trino` instead of `presto`.
+published as `trinodb/trino`. The supported configuration directory is
+now `/etc/trino`. The CLI is now named `trino` instead of `presto`.
 
 # JMX MBean naming
 
