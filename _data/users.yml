@@ -1,0 +1,65 @@
+- name: Ampool
+  anchor: ampool
+  logo: /assets/images/logos/ampool.png
+  testimonial: |
+    Ampool is powered by Trino to provide SQL query federation across 200+ data
+    sources. Combined with Ampool’s high-performance in-memory distributed
+    caching engine, a turbocharged Trino query engine can speedup BI & ad-hoc
+    analytical workloads by an order of magnitude. Ampool is built from the
+    ground up to operate seamlessly in hybrid and multi-cloud environments.
+  urltext: Visit the Ampool website for more information!
+  url: https://www.ampool-inc.com/
+- name: Gett
+  anchor: gett
+  logo: /assets/images/logos/gett.png
+  testimonial: |
+    As the leading ground travel platform for businesses, Gett uses Trino as the
+    core SQL engine for all data pipelines. Extracting data from heterogeneous
+    sources, transforming it with the rich analytical functions and loading
+    results to the visualisation tools to get wiser business decisions.
+  urltext:
+  url: https://gett.com/intl/
+- name: Jampp
+  anchor: jampp
+  logo: /assets/images/logos/jampp.png
+  testimonial: |
+    Jampp employs Trino as the main interface between its Data Warehouse and the
+    rest of the company, using it to feed their predictive algorithms as well as
+    performing analytic queries, ETLs and monitoring data quality.
+  urltext:
+  url: https://jampp.com/
+- name: LINE
+  anchor: line
+  logo: /assets/images/logos/line.png
+  testimonial: |
+    Trino is a core piece of LINE’s BI tools and interactive analysis workflow.
+    It is being actively used in areas such as KPI and system metrics
+    monitoring, as well as data analytics for large datasets. Trino is the
+    preferred tool for our ML engineers and data scientists to better understand
+    the data on our datalake through fast, interactive queries.
+  urltext:
+  url: https://linecorp.com/en
+- name: Starburst
+  anchor: starburst
+  logo: /assets/images/logos/starburst.png
+  testimonial: |
+    Starburst allows you to perform analytics anywhere: in the cloud, on-prem,
+    or running hybrid. The Starburst platform is built on Trino to allow for
+    fast federated querying across a multitude of datasources. These features in
+    addition to Starburst's auto-scaling deployment solutions, enterprise
+    connectors, and trusted industry grade security around a single accesspoint
+    makes your data accessible without having to move it to another location. On
+    top of that, Starburst has the best enterprise support as our employees have
+    contributed the majority of the Trino opensource codebase.
+  urltext: Learn more about the Starburst products!
+  url: https://www.starburstdata.com/
+- name: Treasure Data
+  anchor: treasuredata
+  logo: /assets/images/logos/treasure-data.png
+  testimonial: |
+    Trino has been at the core of the Customer Data Platform (CDP) of Treasure
+    Data, and more than millions of SQL queries running every day with Trino are
+    helping our customers for analyzing their business-critical datasets and
+    making data-driven decisions.
+  urltext:
+  url: https://www.treasuredata.com/
