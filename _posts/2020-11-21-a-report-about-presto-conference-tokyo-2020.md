@@ -59,7 +59,7 @@ We could learn how to use Presto with AWS including Presto on EMR, Presto on EC2
 Noritaka Sekiyama, Sr. Big Data Architect at Amazon Web Service, Japan, also shares a comparison of Presto on AWS (EC2, EMR, Athena). 
 If you are a new to Presto, his talk gives you an insight to choose your first Presto environement.
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/GR6e3dfKKJ8w4c" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/SatoruKamikaseda/support-presto-as-a-feature-of-saas" title="Support Presto as a feature of SaaS" target="_blank">Support Presto as a feature of SaaS</a> </strong> from <strong><a href="https://www.slideshare.net/SatoruKamikaseda" target="_blank">SatoruKamikaseda</a></strong> </div>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/kWzJ1XqR96A9di" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/ssuserca76a5/aws-presto" title="AWS で Presto を徹底的に使いこなすワザ" target="_blank">AWS で Presto を徹底的に使いこなすワザ</a> </strong> from <strong><a href="https://www.slideshare.net/ssuserca76a5" target="_blank">Noritaka Sekiyama</a></strong> </div>
 
 # Presto @ LINE 2020
 
@@ -75,7 +75,7 @@ We could learn how to upgrade Presto from 314 to 339 and how they resolved issue
 Makoto Kawamura, Solution Architect at Amazon Web Service Japan, 
 introduces the latest features of AWS Athena and performance tuning tips. It must be helpful for developers who tied to AWS to explore Amazon Athena.
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/kWzJ1XqR96A9di" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/ssuserca76a5/aws-presto" title="AWS で Presto を徹底的に使いこなすワザ" target="_blank">AWS で Presto を徹底的に使いこなすワザ</a> </strong> from <strong><a href="https://www.slideshare.net/ssuserca76a5" target="_blank">Noritaka Sekiyama</a></strong> </div>
+<div style="width: 90%"><script async class="speakerdeck-embed" data-id="92a399aad5344df197279cd4195d9464" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script></div>
 
 # Presto Cassandra Connector Hack at Repro
 
