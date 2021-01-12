@@ -111,7 +111,7 @@ and so on.
 Hue is a mature open source SQL assistant for querying databases and data
 warehouses. It is used by Fortune 500 companies, and focused on smart query
 typing. Follow the [instructions to use the Trino
-connector](https://docs.gethue.com/administrator/configuration/connectors/#trino).
+connector](https://docs.gethue.com/administrator/configuration/connectors/#trino)
 to get started.
 
 </div>
