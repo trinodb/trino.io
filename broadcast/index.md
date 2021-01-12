@@ -45,8 +45,8 @@ See us live every two weeks!
 
 | Date / time  | Topic(s)  | Guest(s)  |
 |---|---|---|
-| Thursday, Jan 14, 2021 <br> at 1:00 pm -0500 | Distributed hash-join  |   |
-| Thursday, Jan 28, 2021 <br> at 1:00 pm -0500 |Dynamic filtering   | Software Engineer and Starburst Co-Founder, [Karol Sobczak](https://twitter.com/sopel39) and Software Engineer, Raunaq Morarka  |
+| Thursday, Jan 21, 2021 <br> at 1:00 pm -0500 | Distributed hash-join  |   |
+| Thursday, Feb 04, 2021 <br> at 1:00 pm -0500 |Dynamic filtering   | Software Engineer and Starburst Co-Founder, [Karol Sobczak](https://twitter.com/sopel39) and Software Engineer, Raunaq Morarka  |
 
 </div>
 </div>
