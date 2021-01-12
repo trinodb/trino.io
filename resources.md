@@ -106,9 +106,13 @@ and so on.
 
 <div markdown="1" class="item">
 
-#### [Hue Editor](http://gethue.com/)
+#### [Hue](http://gethue.com/)
 
-Hue Editor is a mature open source SQL Assistant for querying Databases & Data Warehouses. Used by Fortune 500s and focused on Smart Query typing. Here is how to configure the [Trino connector](https://docs.gethue.com/administrator/configuration/connectors/#trino).
+Hue is a mature open source SQL assistant for querying databases and data
+warehouses. It is used by Fortune 500 companies, and focused on smart query
+typing. Follow the [instructions to use the Trino
+connector](https://docs.gethue.com/administrator/configuration/connectors/#trino).
+to get started.
 
 </div>
 
