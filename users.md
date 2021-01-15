@@ -34,8 +34,8 @@ title: Users
   <div class="card">
     <div class="card-body">
       <div class="row">
-        <div class="col-md-3 col-s-12">
-          <img src="{{user.logo}}" alt="{{user.name}}" class="img-fluid" style="margin:auto;position:absolute;top:0;left:0;bottom:0;right:0;">
+        <div class="col-md-3 col-s-12 center-image">
+          <img src="{{user.logo}}" alt="{{user.name}}" class="img-fluid img-padding">
         </div>
         <div class="col-md-9 col-s-12">
           <h2>{{user.name}}</h2>
