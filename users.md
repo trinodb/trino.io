@@ -58,14 +58,12 @@ title: Users
 </div>
 {% endfor %}
 
-<div class="row spacer-30">
-  <div class="row">
-    <div class="col-md-12 col-s-12">
-    <h1>Are you a user too?</h1>
-    <p>We are happy to include your testimonial! Contact us on the
-      <a href="./slack.html">community chat</a>, and we will get you added.</p>
-    </div>
-  </div>
-</div>
+<div markdown="1" class="row spacer-60 col-md-12 leftcol widecol">
 
+# Are you a user too?
+
+We are happy to include your testimonial! Contact us on the
+[community chat](slack.html), and we will get you added.
+
+</div>
 </div>
