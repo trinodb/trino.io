@@ -77,6 +77,8 @@ p.lead {font-weight:400;}
     border-radius: .25rem;
     max-width: 100%;
     height: auto; }
+.center-image { display:flex;jusitfy-content:center;align-items: center; }
+.img-padding {padding:20px;}
 .homepage-gradient {
     background-image: linear-gradient(to top, #001C93 0%, #000033 60%);
     background-size:cover; }
