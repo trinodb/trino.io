@@ -20,13 +20,13 @@ title: Users
 </div>
 
 <div class="container">
-<div style="display:flex;">
-  {%- include users.html -%}
-</div>
-<hr class="spacer-30"/>
+  <div style="display:flex;">
+    {%- include users.html -%}
+  </div>
+  <div class="spacer-30">&nbsp;</div>
 </div>
 
-<div class="container">
+<div class="container spacer-30">
 
 {% for user in site.data.users %}
 <div class="row spacer-30">
