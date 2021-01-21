@@ -39,6 +39,18 @@
     the data on our datalake through fast, interactive queries.
   urltext:
   url: https://linecorp.com/en
+- name: Rapido
+  anchor: rapido
+  logo: /assets/images/logos/rapido.png
+  testimonial: |
+    As India’s largest bike taxi service, Rapido uses Trino to provide SQL query
+    federation across various data sources, and as SQL engine in various data
+    pipelines. It is being actively used in areas such as KPI and system metrics
+    monitoring, as well as data analytics for large datasets. Trino is a core
+    piece of Rapido’s data platform to provide interactive analysis workflow and
+    visualisation with Metabase and Superset.
+  urltext:
+  url: https://rapido.bike/
 - name: Starburst
   anchor: starburst
   logo: /assets/images/logos/starburst.png
