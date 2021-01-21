@@ -1,3 +1,19 @@
+- name: Amazon AWS
+  anchor: amazon
+  logo: /assets/images/logos/amazon-aws.png
+  testimonial: |
+    Amazon AWS is a widely used for deploying and running Trino. The Amazon EMR
+    product provides a managed Hadoop framework that makes it easy, fast, and
+    cost-effective to process vast amounts of data across dynamically scalable
+    Amazon EC2 instances. With EMR, you can launch a large Trino cluster in
+    minutes. You don’t need to worry about node provisioning, cluster setup or
+    tuning. Using Trino on EMR provides you cluster elasticity. You can
+    provision one, hundreds, or thousands of compute instances to process data
+    at any scale. The scaling can be manual or automatic, and you only pay for
+    what you use. Pricing is simple and predictable. You pay a per-second rate
+    for every second used, with a one-minute minimum charge.
+  urltext:
+  url: https://aws.amazon.com/
 - name: Ampool
   anchor: ampool
   logo: /assets/images/logos/ampool.png
