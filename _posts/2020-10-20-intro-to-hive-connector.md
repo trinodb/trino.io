@@ -5,18 +5,18 @@ author: Brian Olsen
 excerpt_separator: <!--more-->
 ---
 
-TL;DR: The Hive connector is what you use in Presto for reading data from object
+TL;DR: The Hive connector is what you use in Trino for reading data from object
 storage that is organized according to the rules laid out by Hive, without using
 the Hive runtime code.
 
-One of the most confusing aspects when starting Presto is the Hive connector. 
-Typically, you seek out the use of Presto when you experience an intensely slow
+One of the most confusing aspects when starting Trino is the Hive connector. 
+Typically, you seek out the use of Trino when you experience an intensely slow
 query turnaround from your existing Hadoop, Spark, or Hive infrastructure. In
-fact, the genesis of Presto came about due to these slow Hive query conditions
-at Facebook back in 2012. 
+fact, the genesis of Trino, formerly known as Presto, came about due to these 
+slow Hive query conditions at Facebook back in 2012. 
 
-So when you learn that Presto has a Hive connector,
-it can be rather confusing since you moved to Presto to circumvent the slowness
+So when you learn that Trino has a Hive connector,
+it can be rather confusing since you moved to Trino to circumvent the slowness
 of your current Hive cluster. Another common source of confusion is when you
 want to query your data from your cloud object storage, such as AWS S3, MinIO, 
 and Google Cloud Storage. This too uses the Hive connector. If that 
@@ -27,7 +27,7 @@ commonly confusing nomenclature.
 
 # Hive architecture
 
-To understand the origins and inner workings of Presto's Hive connector, you
+To understand the origins and inner workings of Trino's Hive connector, you
 first need to know a few high level components of the Hive architecture.
 
 ![](/assets/blog/intro-to-hive-connector/hive.png)
@@ -54,16 +54,16 @@ as table columns, file locations, file formats, etc...
 
 The last component not included in the image is Hive's _data organization
 specification_. The documentation of this element only exists in the code in
-Hive and has been reverse engineered to be used by other systems like Presto
+Hive and has been reverse engineered to be used by other systems like Trino 
 to remain compatible with other systems.
 
-Presto reuses all of these components except for _the runtime_. This is the same
-approach most compute engine takes when dealing with data in object stores, 
-specifically, Presto, Spark, Drill, and Impala. When you think of the Hive
+Trino reuses all of these components except for _the runtime_. This is the same
+approach most compute engines take when dealing with data in object stores, 
+specifically, Trino, Spark, Drill, and Impala. When you think of the Hive
 connector, you should think about a connector that is capable of reading data
 organized by the unwritten Hive specification.
 
-### Presto runtime replaces Hive runtime
+### Trino runtime replaces Hive runtime
 
 In the early days of big data systems, many expected query turnaround to take a 
 long time due to the high volume of unstructured data in ETL workloads. The
@@ -74,20 +74,20 @@ that take hours and produce possibly undesirable results. Many companies have
 petabytes of data and metadata in their data warehouse. Data in storage is
 cumbersome to move and the data in the metastore takes a long time to repopulate
 in other formats. Since only the runtime that executed Hive queries needs
-replacement, the Presto engine utilizes the existing metastore metadata and
-files residing in storage, and the Presto runtime effectively replaces the
+replacement, the Trino engine utilizes the existing metastore metadata and
+files residing in storage, and the Trino runtime effectively replaces the
 Hive runtime responsible for analyzing the data.
 
-# Presto Architecture
+# Trino Architecture
 
-![](/assets/blog/intro-to-hive-connector/presto.png)
+![](/assets/blog/intro-to-hive-connector/trino.png)
 
 ### The Hive connector nomenclature
 
-Notice, that the only change in the Presto architecture is _the runtime_. The
+Notice, that the only change in the Trino architecture is _the runtime_. The
 HMS still exists along with _the storage_. This is not by accident. This design
 exists to address a common problem faced by many companies. It simplifies the
-migration from using Hive to using Presto. Regardless of _the storage_ component
+migration from using Hive to using Trino. Regardless of _the storage_ component
 used _the runtime_ makes use of the HMS and that is the reason this connector is
 the Hive connector.
 
@@ -99,7 +99,7 @@ connector and the HMS to manage the metadata of the objects in your storage.
 
 ### The Hive Metastore Service
 
-The HMS is the only Hive process used in the entire Presto ecosystem when using
+The HMS is the only Hive process used in the entire Trino ecosystem when using
 the Hive connector. The HMS is actually a simple service with a binary API using
 [the Thrift protocol](https://thrift.apache.org/). This service makes updates to
 the metadata, stored in an RDBMS such as PostgreSQL, MySQL, or MariaDB. There
@@ -110,7 +110,7 @@ drop-in substitution for the HMS.
 
 To drive this point home, I created a Katacoda exercise. In the following
 scenario, the docker environment contains four docker containers: 
- - `presto` - _the runtime_ in this scenario that replaces Hive.
+ - `trino` - _the runtime_ in this scenario that replaces Hive.
  - `minio` - _the storage_ is an open-source cloud object storage.
  - `hive-metastore` -  _the metastore_ service instance.
  - `mariadb` - the database that _the metastore_ uses to store the metadata.
@@ -127,6 +127,6 @@ us on [slack](/slack.html) on the #dev or #general channels.
 Have fun!
 
 
-<a href="https://www.katacoda.com/bitsondatadev/scenarios/presto-s3-hive-connector" target="_blank">
+<a href="https://www.katacoda.com/starburst/scenarios/trino-hive-connector" target="_blank">
 <img src="/assets/katacoda-play.png"/>
 </a>
