@@ -81,6 +81,18 @@
     contributed the majority of the Trino opensource codebase.
   urltext: Learn more about the Starburst products!
   url: https://www.starburstdata.com/
+- name: Swrve
+  anchor: swrve
+  logo: /assets/images/logos/swrve.png
+  testimonial: |
+    Swrve uses Trino to power our behavioral insights system, allowing our
+    customers to capture detailed data about user behavior in real time, in
+    order to trigger personalized marketing campaigns. We needed a fast,
+    reliable, SQL-based system supporting the level of fine-grained discovery of
+    high-cardinality user behaviours that our customers demand, and Trino
+    provides exactly that.
+  urltext:
+  url: https://www.swrve.com/
 - name: Treasure Data
   anchor: treasuredata
   logo: /assets/images/logos/treasure-data.png
