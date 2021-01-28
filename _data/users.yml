@@ -2,7 +2,7 @@
   anchor: amazon
   logo: /assets/images/logos/amazon-aws.png
   testimonial: |
-    Amazon AWS is a widely used for deploying and running Trino. The Amazon EMR
+    Amazon AWS is widely used for deploying and running Trino. The Amazon EMR
     product provides a managed Hadoop framework that makes it easy, fast, and
     cost-effective to process vast amounts of data across dynamically scalable
     Amazon EC2 instances. With EMR, you can launch a large Trino cluster in
