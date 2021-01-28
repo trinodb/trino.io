@@ -67,6 +67,20 @@
     visualisation with Metabase and Superset.
   urltext:
   url: https://rapido.bike/
+- name: Resurface
+  anchor: resurface
+  logo: /assets/images/logos/resurface.png
+  testimonial: |
+    Resurface uses Trino to turn every API call into a durable, observable
+    transaction. Resurface makes it easy to create a complete system of record
+    for your API calls, to speed escalations, improve CX, and enable data
+    science, without any third-party data transfer. Trino gives us the
+    flexibility to support very small or very large installations, and integrate
+    with other customer systems, behind a consistent SQL interface. We’re proud
+    to be developing purpose-built connectors for Trino that deliver
+    consistently fast performance at any scale and budget.
+  urltext:
+  url: https://resurface.io/
 - name: Starburst
   anchor: starburst
   logo: /assets/images/logos/starburst.png
