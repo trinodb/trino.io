@@ -43,10 +43,7 @@ See us live every two weeks!
 
 # Upcoming shows
 
-| Date / time  | Topic(s)  | Guest(s)  |
-|---|---|---|
-| Thursday, Jan 21, 2021 <br> at 1:00 pm -0500 | Distributed hash-join  |   |
-| Thursday, Feb 04, 2021 <br> at 1:00 pm -0500 |Dynamic filtering   | Software Engineer and Starburst Co-Founder, [Karol Sobczak](https://twitter.com/sopel39) and Software Engineer, Raunaq Morarka  |
+<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23dd00a1&amp;ctz=America%2FDetroit&amp;src=NDhibXJvaXVpZmg2NWJsZWNhOGxzNGhyNTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23D81B60&amp;mode=MONTH&amp;showCalendars=0&amp;showTz=1&amp;showTabs=1&amp;showPrint=0" style="border:solid 1px #777" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
 
 </div>
 </div>
