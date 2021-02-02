@@ -19,7 +19,7 @@ title: Users
   </div>
 </div>
 
-<div class="container">
+<div class="container spacer-30">
   <div style="display:flex;">
     {%- include users.html -%}
   </div>
@@ -29,6 +29,9 @@ title: Users
 <div class="container spacer-30">
 
 {% for user in site.data.users %}
+
+{% if user.anchor == nil %}
+{% else %}
 <div class="row spacer-30">
 <a name={{user.anchor}}></a>
   <div class="card">
@@ -56,6 +59,7 @@ title: Users
     </div>
   </div>
 </div>
+{% endif %}
 {% endfor %}
 
 <div markdown="1" class="row spacer-60 col-md-12 leftcol widecol">
