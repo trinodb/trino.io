@@ -25,6 +25,9 @@
     ground up to operate seamlessly in hybrid and multi-cloud environments.
   urltext: Visit the Ampool website for more information!
   url: https://www.ampool-inc.com/
+- name: Eventbrite
+  logo: /assets/images/logos/eventbrite.png
+  # https://www.eventbrite.com/engineering/teaching-new-presto-performance-tricks-to-the-old-school-dba/
 - name: Gett
   anchor: gett
   logo: /assets/images/logos/gett.png
@@ -35,6 +38,9 @@
     results to the visualisation tools to get wiser business decisions.
   urltext:
   url: https://gett.com/intl/
+- name: Grab
+  logo: /assets/images/logos/grab.png
+  #  https://engineering.grab.com/scaling-like-a-boss-with-presto
 - name: Jampp
   anchor: jampp
   logo: /assets/images/logos/jampp.png
@@ -55,6 +61,21 @@
     the data on our datalake through fast, interactive queries.
   urltext:
   url: https://linecorp.com/en
+- name: Lyft
+  logo: /assets/images/logos/lyft.png
+  #   https://eng.lyft.com/presto-infrastructure-at-lyft-b10adb9db01
+- name: MoEngage
+  logo: /assets/images/logos/moengage.png
+#   https://moengage.recruiterbox.com/jobs/fk0uue1/
+- name: Netflix
+  logo: /assets/images/logos/netflix.png
+  #   https://netflixtechblog.com/using-presto-in-our-big-data-platform-on-aws-938035909fd4
+- name: Pinterest
+  logo: /assets/images/logos/pinterest.png
+  #   https://medium.com/pinterest-engineering/presto-at-pinterest-a8bda7515e52
+- name: QuintoAndar
+  logo: /assets/images/logos/quintoandar.png
+  #   https://medium.com/quintoandar-tech-blog/building-a-sql-engine-infrastructure-at-quintoandar-73540e136c4e
 - name: Rapido
   anchor: rapido
   logo: /assets/images/logos/rapido.png
@@ -81,6 +102,15 @@
     consistently fast performance at any scale and budget.
   urltext:
   url: https://resurface.io/
+- name: Salesforce
+  logo: /assets/images/logos/salesforce.jpg
+  # https://engineering.salesforce.com/big-data-big-decisions-690a00fad88d
+- name: Sentinel One
+  logo: /assets/images/logos/sentinelone.png
+  # https://sentinelone-tech.medium.com/how-sentinelone-optimizes-big-data-at-scale-b957b5fa7b8a
+- name: Shopify
+  logo: /assets/images/logos/shopify.png
+  # https://shopify.engineering/shopifys-data-science-engineering-foundations
 - name: Starburst
   anchor: starburst
   logo: /assets/images/logos/starburst.png
@@ -132,3 +162,6 @@
     contributor</a> to the Trino open-source community.
   urltext:
   url: https://varada.io/platform/
+- name: Zuora
+  logo: /assets/images/logos/zuora.png
+  # https://trino.io/blog/2020/06/16/presto-summit-zuora.html
