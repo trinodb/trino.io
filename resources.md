@@ -125,25 +125,6 @@ to get started.
 
 <div markdown="1" class="item">
 
-#### [Presto-Admin]({{site.github_org_url}}/presto-admin)
-
-Presto-Admin is a tool for installing and managing the Presto query
-engine on a cluster. It provides easy-to-use commands:
-
-* Install and uninstall Presto across your cluster
-* Configure your Presto cluster
-* Start and stop the Presto servers
-* Gather status and log information from your Presto cluster
-
-If you need any assistance with your Presto cluster management reach out
-to [Starburst](https://www.starburstdata.com) for their
-[Presto enterprise support](https://www.starburstdata.com/presto-enterprise/)
-offering and other Presto related services.
-
-</div>
-
-<div markdown="1" class="item">
-
 #### [Presto-Gateway](https://github.com/lyft/presto-gateway)
 
 Presto-Gateway is a gateway/proxy/load-balancer for multiple presto clusters.
