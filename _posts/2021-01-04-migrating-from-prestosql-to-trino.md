@@ -11,9 +11,9 @@ Now comes the hard part: migrating to the new version of the software.
 We just released the first version,
 [Trino 351](/docs/current/release/release-351.html),
 which uses the name Trino everywhere, both internally and externally.
-Unfortunately, there are some unvoidable compatibility aspects that
-administrators of Trino need to know about. We hope this post makes
-makes the transition as smooth as possible.
+Unfortunately, there are some unavoidable compatibility aspects that
+administrators of Trino need to know about. We hope this post makes the
+transition as smooth as possible.
 
 <!--more-->
 
