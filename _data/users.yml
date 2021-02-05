@@ -25,6 +25,8 @@
     ground up to operate seamlessly in hybrid and multi-cloud environments.
   urltext: Visit the Ampool website for more information!
   url: https://www.ampool-inc.com/
+- name: Cloud Kitchens
+  logo: /assets/images/logos/cloud-kitchens.png
 - name: Eventbrite
   logo: /assets/images/logos/eventbrite.png
   # https://www.eventbrite.com/engineering/teaching-new-presto-performance-tricks-to-the-old-school-dba/
