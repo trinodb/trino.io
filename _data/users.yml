@@ -25,6 +25,23 @@
     ground up to operate seamlessly in hybrid and multi-cloud environments.
   urltext: Visit the Ampool website for more information!
   url: https://www.ampool-inc.com/
+- name: Chasing Securities
+  anchor: chasing_securities
+  logo: /assets/images/logos/chasing-securities.png
+  testimonial: |
+    The Chasing Securities Data Center uses Trino as the crucial general data
+    query and data processing engine. Thousands of jobs per day use Trino to
+    complete data processing from the ODS layer to the EDW layer, and they use
+    Trino as their Ad-Hoc query service for the company. They also use Trino as
+    the backend query engine for the data service API provided to other
+    departments.
+
+    Chasing Securities also uses Trino to connect to nearly 100 data sources as
+    the federal query engine, including Oracle, SQL Server, MySQL, HBase, and
+    many more, and have developed hundreds of security industry-related UDF
+    functions on Trino, which are used to add to meet various business needs.
+  urltext:
+  url: https://www.cfzq.com/
 - name: Cloud Kitchens
   logo: /assets/images/logos/cloud-kitchens.png
 - name: Eventbrite
