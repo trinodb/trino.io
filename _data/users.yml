@@ -80,6 +80,8 @@
     the data on our datalake through fast, interactive queries.
   urltext:
   url: https://linecorp.com/en
+- name: LinkedIn
+  logo: /assets/images/logos/linkedin.png
 - name: Lyft
   logo: /assets/images/logos/lyft.png
   #   https://eng.lyft.com/presto-infrastructure-at-lyft-b10adb9db01
