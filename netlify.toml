@@ -17,3 +17,7 @@
   from = "/docs/*"
   to = "https://trinodb.github.io/docs.trino.io/:splat"
   status = 200
+
+[[redirects]]
+  from = "/star"
+  to = "https://github.com/trinodb/trino/blob/master/.github/star.png"
