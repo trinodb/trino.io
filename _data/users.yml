@@ -1,10 +1,12 @@
 - name: Alphaa AI
   logo: /assets/images/logos/alphaa-ai.png
+  logosmall: /assets/images/logos/alphaa-ai-small.png
   # https://www.linkedin.com/feed/update/urn:li:activity:6759582016972451840?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6759582016972451840%2C6760182639619002368%29
   url: https://www.alphaa.ai/
 - name: Amazon AWS
   anchor: amazon
   logo: /assets/images/logos/amazon-aws.png
+  logosmall: /assets/images/logos/amazon-aws-small.png
   testimonial: |
     Amazon AWS is widely used for deploying and running Trino. The Amazon EMR
     product provides a managed Hadoop framework that makes it easy, fast, and
@@ -21,6 +23,7 @@
 - name: Ampool
   anchor: ampool
   logo: /assets/images/logos/ampool.png
+  logosmall: /assets/images/logos/ampool-small.png
   testimonial: |
     Ampool is powered by Trino to provide SQL query federation across 200+ data
     sources. Combined with Ampool’s high-performance in-memory distributed
@@ -32,6 +35,7 @@
 - name: Chasing Securities
   anchor: chasing_securities
   logo: /assets/images/logos/chasing-securities.png
+  logosmall: /assets/images/logos/chasing-securities-small.png
   testimonial: |
     The Chasing Securities Data Center uses Trino as the crucial general data
     query and data processing engine. Thousands of jobs per day use Trino to
@@ -48,12 +52,15 @@
   url: https://www.cfzq.com/
 - name: Cloud Kitchens
   logo: /assets/images/logos/cloud-kitchens.png
+  logosmall: /assets/images/logos/cloud-kitchens-small.png
 - name: Eventbrite
   logo: /assets/images/logos/eventbrite.png
+  logosmall: /assets/images/logos/eventbrite-small.png
   # https://www.eventbrite.com/engineering/teaching-new-presto-performance-tricks-to-the-old-school-dba/
 - name: Gett
   anchor: gett
   logo: /assets/images/logos/gett.png
+  logosmall: /assets/images/logos/gett-small.png
   testimonial: |
     As the leading ground travel platform for businesses, Gett uses Trino as the
     core SQL engine for all data pipelines. Extracting data from heterogeneous
@@ -63,10 +70,12 @@
   url: https://gett.com/intl/
 - name: Grab
   logo: /assets/images/logos/grab.png
+  logosmall: /assets/images/logos/grab-small.png
   #  https://engineering.grab.com/scaling-like-a-boss-with-presto
 - name: Jampp
   anchor: jampp
   logo: /assets/images/logos/jampp.png
+  logosmall: /assets/images/logos/jampp-small.png
   testimonial: |
     Jampp employs Trino as the main interface between its Data Warehouse and the
     rest of the company, using it to feed their predictive algorithms as well as
@@ -76,6 +85,7 @@
 - name: LINE
   anchor: line
   logo: /assets/images/logos/line.png
+  logosmall: /assets/images/logos/line-small.png
   testimonial: |
     Trino is a core piece of LINE’s BI tools and interactive analysis workflow.
     It is being actively used in areas such as KPI and system metrics
@@ -86,24 +96,31 @@
   url: https://linecorp.com/en
 - name: LinkedIn
   logo: /assets/images/logos/linkedin.png
+  logosmall: /assets/images/logos/linkedin-small.png
 - name: Lyft
   logo: /assets/images/logos/lyft.png
+  logosmall: /assets/images/logos/lyft-small.png
   #   https://eng.lyft.com/presto-infrastructure-at-lyft-b10adb9db01
 - name: MoEngage
   logo: /assets/images/logos/moengage.png
+  logosmall: /assets/images/logos/moengage-small.png
 #   https://moengage.recruiterbox.com/jobs/fk0uue1/
 - name: Netflix
   logo: /assets/images/logos/netflix.png
+  logosmall: /assets/images/logos/netflix-small.png
   #   https://netflixtechblog.com/using-presto-in-our-big-data-platform-on-aws-938035909fd4
 - name: Pinterest
   logo: /assets/images/logos/pinterest.png
+  logosmall: /assets/images/logos/pinterest-small.png
   #   https://medium.com/pinterest-engineering/presto-at-pinterest-a8bda7515e52
 - name: QuintoAndar
   logo: /assets/images/logos/quintoandar.png
+  logosmall: /assets/images/logos/quintoandar-small.png
   #   https://medium.com/quintoandar-tech-blog/building-a-sql-engine-infrastructure-at-quintoandar-73540e136c4e
 - name: Rapido
   anchor: rapido
   logo: /assets/images/logos/rapido.png
+  logosmall: /assets/images/logos/rapido-small.png
   testimonial: |
     As India’s largest bike taxi service, Rapido uses Trino to provide SQL query
     federation across various data sources, and as SQL engine in various data
@@ -116,6 +133,7 @@
 - name: Resurface
   anchor: resurface
   logo: /assets/images/logos/resurface.png
+  logosmall: /assets/images/logos/resurface-small.png
   testimonial: |
     Resurface uses Trino to turn every API call into a durable, observable
     transaction. Resurface makes it easy to create a complete system of record
@@ -129,16 +147,20 @@
   url: https://resurface.io/
 - name: Salesforce
   logo: /assets/images/logos/salesforce.jpg
+  logosmall: /assets/images/logos/salesforce-small.png
   # https://engineering.salesforce.com/big-data-big-decisions-690a00fad88d
 - name: Sentinel One
   logo: /assets/images/logos/sentinelone.png
+  logosmall: /assets/images/logos/sentinelone-small.png
   # https://sentinelone-tech.medium.com/how-sentinelone-optimizes-big-data-at-scale-b957b5fa7b8a
 - name: Shopify
   logo: /assets/images/logos/shopify.png
+  logosmall: /assets/images/logos/shopify-small.png
   # https://shopify.engineering/shopifys-data-science-engineering-foundations
 - name: Starburst
   anchor: starburst
   logo: /assets/images/logos/starburst.png
+  logosmall: /assets/images/logos/starburst-small.png
   testimonial: |
     Starburst allows you to perform analytics anywhere: in the cloud, on-prem,
     or running hybrid. The Starburst platform is built on Trino to allow for
@@ -153,6 +175,7 @@
 - name: Swrve
   anchor: swrve
   logo: /assets/images/logos/swrve.png
+  logosmall: /assets/images/logos/swrve-small.png
   testimonial: |
     Swrve uses Trino to power our behavioral insights system, allowing our
     customers to capture detailed data about user behavior in real time, in
@@ -165,6 +188,7 @@
 - name: Treasure Data
   anchor: treasuredata
   logo: /assets/images/logos/treasure-data.png
+  logosmall: /assets/images/logos/treasure-data-small.png
   testimonial: |
     Trino has been at the core of the Customer Data Platform (CDP) of Treasure
     Data, and more than millions of SQL queries running every day with Trino are
@@ -175,6 +199,7 @@
 - name: Varada
   anchor: varada
   logo: /assets/images/logos/varada.png
+  logosmall: /assets/images/logos/varada-small.png
   testimonial: |
     Varada uses Trino as the distributed SQL query engine for its unique
     indexing-based query acceleration technology, supporting interactive queries
@@ -189,4 +214,5 @@
   url: https://varada.io/platform/
 - name: Zuora
   logo: /assets/images/logos/zuora.png
+  logosmall: /assets/images/logos/zuora-small.png
   # https://trino.io/blog/2020/06/16/presto-summit-zuora.html
