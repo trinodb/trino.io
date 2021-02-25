@@ -133,6 +133,17 @@ it using standard presto-clients.
 
 </div>
 
+<div markdown="1" class="item">
+
+#### [Workload Analyzer](https://github.com/varadaio/presto-workload-analyzer)
+
+The Workload Analyzer collects Trino workload statistics, and analyzes them.
+The resulting [report](https://varada.io/wa-sample-report) provides improved visibility
+into your analytical workloads, and enables cluster performance optimization.
+For installation, see [here](https://github.com/varadaio/presto-workload-analyzer/blob/main/INSTALL.md).
+
+</div>
+
 </div></div>
 
 <div class="resourcesMain">
