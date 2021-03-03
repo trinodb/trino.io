@@ -83,6 +83,17 @@ p.lead {font-weight:400;}
     background-image: linear-gradient(to top, #001C93 0%, #000033 60%);
     background-size:cover; }
 
+.why-trino-icon {
+  height: 90px;
+  margin-bottom: 2rem;
+}
+@media (max-width: 769px) {
+  .why-trino-icon {
+    height: 60px;
+    margin-bottom: 1rem;
+  }
+}
+
 footer.page-footer h6 a {
   font-size: 1rem;
   font-family: 'Roboto', sans-serif;
