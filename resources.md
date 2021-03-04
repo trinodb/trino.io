@@ -39,10 +39,10 @@ programming languages, and programs using the related platform:
 
 * [Trino JDBC driver](docs/current/installation/jdbc.html) for Java/JVM
 * [Starburst ODBC driver](https://www.starburstdata.com/presto-enterprise/) for Windows
-* [presto-go-client]({{site.github_org_url}}/presto-go-client) for Go
+* [trino-go-client]({{site.github_org_url}}/trino-go-client) for Go
 * [presto-client-node](https://github.com/tagomoris/presto-client-node) for Node.js
 * [lento](https://github.com/vweevers/lento) for Node.js
-* [presto-python-client]({{site.github_org_url}}/presto-python-client) for Python
+* [trino-python-client]({{site.github_org_url}}/trino-python-client) for Python
 * [PyHive](https://github.com/dropbox/PyHive) for Python
 * [RPresto](https://github.com/prestodb/RPresto) for R
 * [presto-client-ruby](https://github.com/treasure-data/presto-client-ruby) for Ruby
