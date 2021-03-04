@@ -38,7 +38,7 @@ The following client libraries can be used to run queries from several
 programming languages, and programs using the related platform:
 
 * [Trino JDBC driver](docs/current/installation/jdbc.html) for Java/JVM
-* [Starburst ODBC driver](https://www.starburstdata.com/presto-enterprise/) for Windows
+* [Starburst ODBC driver](https://www.starburst.io/platform/starburst-enterprise/) for Windows
 * [trino-go-client]({{site.github_org_url}}/trino-go-client) for Go
 * [presto-client-node](https://github.com/tagomoris/presto-client-node) for Node.js
 * [lento](https://github.com/vweevers/lento) for Node.js
@@ -153,17 +153,16 @@ For installation, see [here](https://github.com/varadaio/presto-workload-analyze
 
 <div markdown="1" class="item">
 
-#### [Starburst](https://www.starburstdata.com/)
+#### [Starburst](https://www.starburst.io/)
 
-Enterprise 24/7 Support, Installation, Configuration, Training,
-Custom Development, Tuning
+Enterprise 24/7 support, installation, configuration, training,
+custom development, tuning
 
 At Starburst, our team is a major contributor to the open source
 Trino project. We consist of many of the **experts and maintainers**
 who have been contributing to and advancing the Trino product over
-the last few years. Starburst provides an [enterprise ready Trino
-distribution](https://www.starburstdata.com/our-offerings/) and
-[Trino support](https://www.starburstdata.com/presto-enterprise/).
+the last few years. Starburst provides [Starburst Enterprise, a fully supported,
+enterprise ready Trino distribution](https://www.starburst.io/platform/starburst-enterprise/).
 Starburst's distribution of Trino consists of additional tooling
 and configurations to make it work well in the enterprise. Further,
 it is rigorously tested at scale and patched as needed. With our
@@ -256,18 +255,18 @@ cloud environments.
 
 <div markdown="1" class="item">
 
-#### [Starburst Enterprise Presto on AWS](https://www.starburstdata.com/presto-aws-cloud/)
+#### [Starburst Enterprise on AWS](https://www.starburst.io/platform/deployment-options/aws/)
 
-Starburst Enterprise Presto on AWS combines the reliable, scalable, and
+Starburst Enterprise on AWS combines the reliable, scalable, and
 cost-effective cloud computing services provided by Amazon Web
 Services (AWS) with the power of Trino, the fastest growing
 distributed SQL query engine within the industry.
 
 Through the use of Starburst’s CloudFormation template and Starburst
-Trino AMI, Starburst Enterprise Presto on AWS enables you to run analytic SQL
+Trino AMI, Starburst Enterprise on AWS enables you to run analytic SQL
 queries across a wide variety of data sources with elastic scaling
 and usage-based pricing. Read more how to use Trino on AWS on our
-[AWS Documentation site](https://docs.starburstdata.com/latest/aws.html).
+[AWS Documentation site](https://docs.starburst.io/latest/aws.html).
 
 </div>
 
@@ -311,9 +310,9 @@ Using Presto on EMR provides these benefits to customers:
 
 <div markdown="1" class="item">
 
-#### [Starburst Enterprise Presto on Azure](https://www.starburstdata.com/presto-azure/)
+#### [Starburst Enterprise on Azure](https://www.starburst.io/platform/deployment-options/starburst-on-azure/)
 
-Starburst Enterprise Presto is available via the Azure Marketplace.
+Starburst Enterprise is available via the Azure Marketplace.
 
 </div>
 
