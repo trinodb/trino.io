@@ -109,6 +109,9 @@
   logo: /assets/images/logos/netflix.png
   logosmall: /assets/images/logos/netflix-small.png
   #   https://netflixtechblog.com/using-presto-in-our-big-data-platform-on-aws-938035909fd4
+- name: Nielsen
+  logo: /assets/images/logos/nielsen.png
+  logosmall: /assets/images/logos/nielsen-small.png
 - name: Pinterest
   logo: /assets/images/logos/pinterest.png
   logosmall: /assets/images/logos/pinterest-small.png
