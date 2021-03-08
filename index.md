@@ -36,52 +36,70 @@ title: Distributed SQL query engine for big data
     <h2><strong>Why Trino?</strong></h2>
   </div>
   <div class="row spacer-60">
-    <div class="col-md-4 text-center spacer-30">
+    <div class="col-md-4 space-30 why-trino-block">
       <img src="/assets/images/icons/icon-speed.svg" alt="speed" class="why-trino-icon">
-      <h3 class="orange-text"><strong>Speed</strong></h3>
-      <p>Trino is a highly parallel and distributed query engine, that is built
-       from the ground up for efficient, low latency analytics.</p>
+      <div>
+        <h3 class="orange-text"><strong>Speed</strong></h3>
+        <p>Trino is a highly parallel and distributed query engine, that is built
+        from the ground up for efficient, low latency analytics.</p>
+      </div>
     </div>
-    <div class="col-md-4 text-center spacer-30">
+    <div class="col-md-4 space-30 why-trino-block">
       <img src="/assets/images/icons/icon-scale.svg" alt="scale" class="why-trino-icon">
-      <h3 class="orange-text"><strong>Scale</strong></h3>
-      <p>The largest organizations in the world use Trino to query exabyte scale data lakes and massive data warehouses alike.</p>
+      <div>
+        <h3 class="orange-text"><strong>Scale</strong></h3>
+        <p>The largest organizations in the world use Trino to query exabyte scale data lakes and massive data warehouses alike.</p>
+      </div>
     </div>
-    <div class="col-md-4 text-center spacer-30">
+    <div class="col-md-4 space-30 why-trino-block">
       <img src="/assets/images/icons/icon-simplicity.svg" alt="simple" class="why-trino-icon">
-      <h3 class="orange-text"><strong>Simplicity</strong></h3>
-      <p>Trino is an ANSI SQL compliant query engine, that works with BI tools such as R, Tableau, Power BI, Superset and many others.</p>
+      <div>
+        <h3 class="orange-text"><strong>Simplicity</strong></h3>
+        <p>Trino is an ANSI SQL compliant query engine, that works with BI tools such as R, Tableau, Power BI, Superset and many others.</p>
+      </div>
     </div>
-    <div class="col-md-4 text-center spacer-30">
+    <div class="col-md-4 space-30 why-trino-block">
       <img src="/assets/images/icons/icon-versatile.svg" alt="versatile" class="why-trino-icon">
-      <h3 class="orange-text"><strong>Versatile</strong></h3>
-      <p>Supports diverse use cases: ad-hoc analytics at interactive speeds, massive multi-hour batch queries, and high volume apps that perform sub-second queries.</p>
+      <div>
+        <h3 class="orange-text"><strong>Versatile</strong></h3>
+        <p>Supports diverse use cases: ad-hoc analytics at interactive speeds, massive multi-hour batch queries, and high volume apps that perform sub-second queries.</p>
+      </div>
     </div>
-    <div class="col-md-4 text-center spacer-30">
+    <div class="col-md-4 space-30 why-trino-block">
       <img src="/assets/images/icons/icon-analytics.svg" alt="analysis" class="why-trino-icon">
-      <h3 class="orange-text"><strong>In-place analysis</strong></h3>
-      <p>You can natively query data in Hadoop, S3, Cassandra, MySQL, and many others, without the need for complex, slow, and error-prone processes for copying the data.</p>
+      <div>
+        <h3 class="orange-text"><strong>In-place analysis</strong></h3>
+        <p>You can natively query data in Hadoop, S3, Cassandra, MySQL, and many others, without the need for complex, slow, and error-prone processes for copying the data.</p>
+      </div>
     </div>
-    <div class="col-md-4 text-center spacer-30">
+    <div class="col-md-4 space-30 why-trino-block">
       <img src="/assets/images/icons/icon-query.svg" alt="federation" class="why-trino-icon">
-      <h3 class="orange-text"><strong>Query federation</strong></h3>
-      <p>Access data from multiple systems within a single query. For example, join historic log data stored in an S3 object storage with customer data stored in a MySQL relational database.</p>
+      <div>
+        <h3 class="orange-text"><strong>Query federation</strong></h3>
+        <p>Access data from multiple systems within a single query. For example, join historic log data stored in an S3 object storage with customer data stored in a MySQL relational database.</p>
+      </div>
     </div>
-    <div class="col-md-4 text-center spacer-30">
+    <div class="col-md-4 space-30 why-trino-block">
       <img src="/assets/images/icons/icon-everywhere.svg" alt="everywhere" class="why-trino-icon">
-      <h3 class="orange-text"><strong>Runs everywhere</strong></h3>
-      <p>Trino is optimized for both on-premise and cloud environments such as Amazon, Azure, Google Cloud, and others.</p>
+      <div>
+        <h3 class="orange-text"><strong>Runs everywhere</strong></h3>
+        <p>Trino is optimized for both on-premise and cloud environments such as Amazon, Azure, Google Cloud, and others.</p>
+      </div>
     </div>
-    <div class="col-md-4 text-center spacer-30">
+    <div class="col-md-4 space-30 why-trino-block">
       <img src="/assets/images/icons/icon-trusted.svg" alt="trusted" class="why-trino-icon">
-      <h3 class="orange-text"><strong>Trusted</strong></h3>
-      <p>Trino is used for critical business operations, including financial results for public markets, by some of the largest organizations in the world.</p>
+      <div>
+        <h3 class="orange-text"><strong>Trusted</strong></h3>
+        <p>Trino is used for critical business operations, including financial results for public markets, by some of the largest organizations in the world.</p>
+      </div>
     </div>
-    <div class="col-md-4 text-center spacer-30">
+    <div class="col-md-4 space-30 why-trino-block">
       <img src="/assets/images/icons/icon-open.svg" alt="open" class="why-trino-icon">
-      <h3 class="orange-text"><strong>Open</strong></h3>
-      <p>The Trino project is community driven project under the non-profit
-       <a href="{{site.url}}/foundation.html">Trino Software Foundation.</a></p>
+      <div>
+        <h3 class="orange-text"><strong>Open</strong></h3>
+        <p>The Trino project is community driven project under the non-profit
+          <a href="{{site.url}}/foundation.html">Trino Software Foundation.</a></p>
+      </div>
     </div>
   </div>
    <hr class="spacer-60"/>
