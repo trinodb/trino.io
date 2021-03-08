@@ -67,7 +67,7 @@ See us live every two weeks!
 <div class="post-entry card latest-entry">
   <div class="d-flex flex-column-reverse flex-lg-row justify-content-between">
     <div class="latest-entry-text-container">
-      <h3><a class="post-link" href="{{ episode.url | relative_url }}">{{ latestEpisode.title | escape }}</a></h3>
+      <h3><a class="post-link" href="{{ latestEpisode.url | relative_url }}">{{ latestEpisode.title | escape }}</a></h3>
       <span class="post-meta">{{ latestEpisode.date | date: "%b %-d, %Y" }}</span>
       <ul>
         {% for section in latestEpisode.sections %}
@@ -96,7 +96,11 @@ See us live every two weeks!
 <a href="/broadcast/episodes.html">See all episodes</a>
 </div>
 <div class="episode-grid">
-{% for episode in site.episodes reversed offset:1 limit:9 %}
+{% assign offsetNumber = site.episodes.size | minus: 10 %}
+{% for episode in site.episodes reversed offset:offsetNumber %}
+{% if forloop.first == true %}
+ {% continue %}
+{% else %}
   <div class="post-entry card">
     <h5><a class="post-link" href="{{ episode.url | relative_url }}">{{ episode.title | escape }}</a></h5>
     <span class="post-meta">{{ episode.date | date: "%b %-d, %Y" }}</span>
@@ -112,6 +116,7 @@ See us live every two weeks!
     </ul>
     <a href="{{ site.baseurl }}{{ episode.url }}">Listen, watch, or read the show notes...</a>
   </div>
+{% endif %}
 {% endfor %}
 </div>
 
