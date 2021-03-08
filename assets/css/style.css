@@ -136,6 +136,11 @@ footer .footer-copyright {font-size: 0.7rem;}
     visibility: hidden;
     pointer-events: none;
   }
+
+  .outline-card h3::before {
+    padding-top: initial;
+    margin-top: initial;
+  }
 }
 
 /*----- TOC STYLES -----*/
