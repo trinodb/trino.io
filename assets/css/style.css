@@ -83,14 +83,40 @@ p.lead {font-weight:400;}
     background-image: linear-gradient(to top, #001C93 0%, #000033 60%);
     background-size:cover; }
 
+.why-trino-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .why-trino-block {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .why-trino-block > div {
+    flex: 1;
+  }
+}
+
 .why-trino-icon {
   height: 90px;
   margin-bottom: 2rem;
 }
-@media (max-width: 769px) {
+
+@media (max-width: 767px) {
   .why-trino-icon {
     height: 60px;
-    margin-bottom: 1rem;
+    flex-basis: 80px;
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .why-trino-icon {
+    height: 48px;
   }
 }
 
