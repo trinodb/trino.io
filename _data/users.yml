@@ -110,8 +110,17 @@
   logosmall: /assets/images/logos/netflix-small.png
   #   https://netflixtechblog.com/using-presto-in-our-big-data-platform-on-aws-938035909fd4
 - name: Nielsen
+  anchor: nielsen
   logo: /assets/images/logos/nielsen.png
   logosmall: /assets/images/logos/nielsen-small.png
+  testimonial: |
+    Nielsen Media is the market leader for measuring audiences, predicting
+    outcomes and powering contents. Nielsen uses Trino as a query engine over
+    its petabyte-scale data lake, serving batch and interactive use cases for
+    products, modelling, research and testing. Trino’s open source nature also
+    allows Nielsen to customize it to handle a wide spectrum of business needs.
+  urltext:
+  url: https://www.nielsen.com/
 - name: Pinterest
   logo: /assets/images/logos/pinterest.png
   logosmall: /assets/images/logos/pinterest-small.png
