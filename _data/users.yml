@@ -1,3 +1,17 @@
+- name: AdLibertas
+  anchor: adlibertas
+  logo: /assets/images/logos/adlibertas.png
+  logo-small: /assets/images/logos/adlibertas-small.png
+  testimonial: |
+    AdLibertas relies on Trino to power comprehensive user-level
+    <a href="https://www.adlibertas.com/audience-reporting/">Audience Reporting</a>
+    for app developers. Trino allows our customers to create easy-to-use and
+    visual user LTV reports across their large app user datasets. Since the
+    scale and scope of these reports can widely vary, Trino’s ability to quickly
+    scale on distributed systems and query across our data lake makes access fast
+    and affordable for all sizes of clients without messy and expensive ETL.
+  urltext:
+  url: https://www.adlibertas.com/
 - name: Alphaa AI
   logo: /assets/images/logos/alphaa-ai.png
   logosmall: /assets/images/logos/alphaa-ai-small.png
