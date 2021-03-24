@@ -135,6 +135,18 @@
     allows Nielsen to customize it to handle a wide spectrum of business needs.
   urltext:
   url: https://www.nielsen.com/
+- name: NTT Communications
+  anchor: nttcommunications
+  logo: /assets/images/logos/ntt-communications.png
+  logosmall: /assets/images/logos/ntt-communications-small.png
+  testimonial: |
+    NTT Communications' telecom and internet services are powered by analysis on
+    Trino. Trino enables interactive analytics over tables of terabytes in size
+    which drive BI dashboards. The seamless feature to connect multiple data
+    sources and query interactiveness are some of the driving factors that make
+    Trino a pivotal technology of data analysis at NTT Communications.
+  urltext:
+  url: https://www.ntt.com/en/index.html
 - name: Pinterest
   logo: /assets/images/logos/pinterest.png
   logosmall: /assets/images/logos/pinterest-small.png
