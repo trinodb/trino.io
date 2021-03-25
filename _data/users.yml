@@ -86,6 +86,9 @@
   logo: /assets/images/logos/grab.png
   logosmall: /assets/images/logos/grab-small.png
   #  https://engineering.grab.com/scaling-like-a-boss-with-presto
+- name: Hudson River Trading
+  logo: /assets/images/logos/hudson-river-trading.png
+  logosmall: /assets/images/logos/hudson-river-trading-small.png
 - name: Jampp
   anchor: jampp
   logo: /assets/images/logos/jampp.png
