@@ -257,7 +257,8 @@ pre {
   background: whitesmoke;
   outline: 1px solid lightgray;
   padding: 10px;
-  margin: 5px; }
+  margin: 1rem 0.5rem;
+}
 
 code.language-plaintext {
   background-color: whitesmoke;
