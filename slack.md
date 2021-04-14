@@ -36,6 +36,7 @@ available for help.
 * [#releases](https://{{site.slack_fqdn}}/messages/CFP480UKX) - notices about upcoming releases
 * [#infrastructure](https://{{site.slack_fqdn}}/messages/CFPVDC9JT) - discussions about project infrastructure (Travis, Github, Maven, etc.)
 * [#github](https://{{site.slack_fqdn}}/messages/CFN644R4G) - feed of activity on [GitHub]({{site.github_org_url}})
+* [#documentation](https://{{site.slack_fqdn}}/messages/C01TEP0HJTH) - discuss [Trino documentation](../docs/current/)
 
 ## Guidelines
 
