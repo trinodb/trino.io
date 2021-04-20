@@ -5,7 +5,7 @@ author: Manfred Moser
 excerpt_separator: <!--more-->
 ---
 
-You have read our book [Presto: The Definitive Guide]({% post_url
+You have read our book [Trino: The Definitive Guide]({% post_url
 2020-04-11-the-definitive-guide %}), practiced with various SQL examples, and
 consulted our [Presto documentation]({{site.url}}/docs). Great steps to
 become a Presto and SQL expert. However, learning efficient and advanced SQL can

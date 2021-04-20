@@ -21,3 +21,11 @@
 [[redirects]]
   from = "/star"
   to = "https://github.com/trinodb/trino/blob/master/.github/star.png"
+
+[[redirects]]
+  from = "/presto-the-definitive-guide"
+  to = "/trino-the-definitive-guide"
+
+[[redirects]]
+  from = "/presto-the-definitive-guide.html"
+  to = "/trino-the-definitive-guide.html"

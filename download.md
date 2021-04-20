@@ -106,7 +106,7 @@ any issue you find with Trino.
     <div class="card mb-4">
         <div class="card-body text-center">
           <h3 class="card-header-title mb-3">Books</h3>
-            <p class="card-text"><a href="/presto-the-definitive-guide.html">Presto: The Definitive Guide</a><br />
+            <p class="card-text"><a href="/trino-the-definitive-guide.html">Trino: The Definitive Guide</a><br />
             SQL at Any Scale, on Any Storage, in Any Environment</p>
         </div>
     </div>

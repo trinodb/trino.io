@@ -5,8 +5,8 @@ author: Manfred Moser
 excerpt_separator: <!--more-->
 ---
 
-Writing the book [Presto: The Definitive
-Guide](/presto-the-definitive-guide.html) with Matt and Martin earlier this
+Writing the book [Trino: The Definitive
+Guide](/trino-the-definitive-guide.html) with Matt and Martin earlier this
 year, and then publishing it with [O'Reilly](https://www.oreilly.com/) was a
 great experience and has been a great success. Lots of readers took advantage of
 getting a [free digital copy of the book from Starburst]({% post_url
