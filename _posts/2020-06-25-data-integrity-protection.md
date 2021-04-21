@@ -23,7 +23,7 @@ for the Starburst Enterprise Presto LTS releases.
 On a side note, we use [Benchto]({{site.github_org_url}}/benchto) for organizing
 [Presto benchmark suites]({{site.github_repo_url}}/tree/master/presto-benchto-benchmarks),
 executing them and collecting the results. We use managed [Kubernetes](https://kubernetes.io/) in a public
-cloud for provisioning Presto clusters, along with [Starburst Enterprise Presto Kubernetes](https://www.starburstdata.com/presto-on-kubernetes/).
+cloud for provisioning Presto clusters, along with [Starburst Enterprise Presto Kubernetes](https://www.starburst.io/platform/deployment-options/starburst-on-kubernetes/).
 We use [Jupyter](https://jupyter.org/) for producing result reports in HTML and PDF formats.
 
 # Alleged Regression
@@ -50,7 +50,7 @@ the receiver read the ``<encoding id length>`` as 9623 instead of 10! How could 
 Presto 332 brought a lot of good changes and upgrade to Java 11 was one of them.
 Therefore, Starburst Enterprise Presto 332-e was the first Starburst release using Java 11 by default.
 For earlier releases, we ran benchmarks using AWS EC2 machines orchestrated with [Starburst's Presto
-CloudFormation Template (CFT)](https://www.starburstdata.com/presto-aws-cloud/). This was also the first time we did
+CloudFormation Template (CFT)](https://www.starburst.io/platform/deployment-options/aws/). This was also the first time we did
 Presto release benchmarks running on Kubernetes clusters, with AWS EKS. We could suspect many different factors
 as being the cause. We started to sift through the code, search team's "collective brain" and
 the Internet for any ideas. One of the important sources was Vijay Pandurangan's writeup on [data
@@ -61,7 +61,7 @@ corruption bug discovered by Twitter in 2015](https://tech.vijayp.ca/linux-kerne
 On the next day, a customer reported similar problems with their Presto cluster. Of course, they
 were not running a yet-to-be-released version that we were still benchmarking. They run into what seemed to
 be a very serious regression in a Starburst Enterprise Presto 323-e release line. The customer was also using
-the AWS cloud, but not the Kubernetes deployment. They were using [CFT-based deployment](https://www.starburstdata.com/presto-aws-cloud/)
+the AWS cloud, but not the Kubernetes deployment. They were using [CFT-based deployment](https://www.starburst.io/platform/deployment-options/aws/)
 -- the same stack we were using for all our release benchmarks so far -- and we had never run into issues like this before.
 As the customer was using a fresh-off-press latest minor release, we decided (in spirit of global health care trend)
 to "quarantine" that release and roll back the customer installation to the previous version.

@@ -54,7 +54,7 @@ following trademark owners and names:
   <dt><a href="https://www.linuxfoundation.org/trademark-list/">The Linux Foundation</a></dt>
   <dd>Kubernetes, Linux, Presto, and other names</dd>
 
-  <dt><a href="https://www.starburstdata.com/">Starburst Data</a></dt>
+  <dt><a href="https://www.starburst.io/">Starburst Data</a></dt>
   <dd>Starburst, Starburst Data, and other names</dd>
 </dl>
 

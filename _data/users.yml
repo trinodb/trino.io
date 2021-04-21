@@ -212,7 +212,7 @@
     top of that, Starburst has the best enterprise support as our employees have
     contributed the majority of the Trino opensource codebase.
   urltext: Learn more about the Starburst products!
-  url: https://www.starburstdata.com/
+  url: https://www.starburst.io/
 - name: Swrve
   anchor: swrve
   logo: /assets/images/logos/swrve.png
