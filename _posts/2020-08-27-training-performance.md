@@ -23,7 +23,7 @@ questions that we went over our planned time budget. The material covered is
 crucial to run a Presto deployment successfully in production, so make sure you
 check out the recording and the slide deck:
 
-[Download the slides]( https://www.starburstdata.com/wp-content/uploads/2020/09/Presto-Training-Series-Configuring-Tuning-Presto-Performance.pdf)
+[Download the slides]( https://www.starburst.io/wp-content/uploads/2020/09/Presto-Training-Series-Configuring-Tuning-Presto-Performance.pdf)
 
 {% youtube Pu80FkBRP-k %}
 

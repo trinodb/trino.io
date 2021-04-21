@@ -121,7 +121,7 @@ any issue you find with Trino.
         <div class="card-body text-center">
           <h3 class="card-header-title mb-3">Starburst newsletter</h3>
             <p class="card-text">Monthly newsletter on Trino and surrounding technologies.</p>
-            <p class="card-text"><a href="https://www.starburstdata.com/presto-newsletter/">Subscribe</a></p>
+            <p class="card-text"><a href="https://www.starburst.io/learn/open-source-trino/newsletter/">Subscribe</a></p>
         </div>
     </div>
   </div>

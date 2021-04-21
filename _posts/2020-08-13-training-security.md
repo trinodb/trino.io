@@ -21,7 +21,7 @@ What a great training session! Dain captured the audience and lots of questions
 were covered beyond all the great material from the slides. Everything is now
 available for your convenience:
 
-[Download the slides](https://www.starburstdata.com/wp-content/uploads/2020/08/Presto-Training-Securing-Presto.pdf)
+[Download the slides](https://www.starburst.io/wp-content/uploads/2020/08/Presto-Training-Securing-Presto.pdf)
 
 {% youtube KiMyRc3PSh0 %}
 

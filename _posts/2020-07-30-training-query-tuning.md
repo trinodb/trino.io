@@ -21,7 +21,7 @@ Everyone learned a lot and many additional questions came up during class and in
 the Q&A overtime. Take advantage of the slides and recording to recapture, or if
 you could not attend:
 
-[Download the slides](https://www.starburstdata.com/wp-content/uploads/2020/08/Presto-Training-Understanding-and-Tuning-Presto-Query-Processing.pdf)
+[Download the slides](https://www.starburst.io/wp-content/uploads/2020/08/Presto-Training-Understanding-and-Tuning-Presto-Query-Processing.pdf)
 
 {% youtube GcS02yTNwC0 %}
 

@@ -34,7 +34,7 @@ filtering solution.
 
 # Design
 
-Our approach relies on the [cost-based optimizer](https://www.starburstdata.com/wp-content/uploads/2018/09/Presto-Cost-Based-Query-Optimizer-WP.pdf) 
+Our approach relies on the [cost-based optimizer](https://www.starburst.io/wp-content/uploads/2018/09/Presto-Cost-Based-Query-Optimizer-WP.pdf) 
 (CBO) that allows using "broadcast" join, since in our case the build-side is much smaller than the probe-side. In this case, 
 the probe-side scan and the inner-join operators are running in the same process - so the message passing between them becomes 
 much simpler.
