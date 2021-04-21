@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Trino: The Definitive Guide"
+title:  "Presto: The Definitive Guide"
 author: Matt Fuller, Manfred Moser and Martin Traverso
 excerpt_separator: <!--more-->
 ---
@@ -20,7 +20,9 @@ hopefully learn from.
 
 > **Update April 2021**: The project has moved to the
 > [new name Trino]({% post_url 2020-12-27-announcing-trino %}), and the content
-> of this book has been updated to [Trino: The Definitive Guide](/trino-the-definitive-guide.html).
+> of our book
+> [has been updated]({% post_url 2021-04-21-the-definitive-guide %}) to
+> [Trino: The Definitive Guide](/trino-the-definitive-guide.html).
 
 <!--more-->
 
@@ -39,7 +41,7 @@ can learn something from the book and encourage you to check it out.
 
 The first part of the book establishes what Presto is, and gets you quick wins
 to install a minimal setup, run it, connect to it with the CLI and an
-application using the JDBC driver and run some SQL queries. 
+application using the JDBC driver and run some SQL queries.
 
 The second part dives into the details of the Presto architecture, query
 planning, connectors for all sorts of data sources and SQL usage. There is a lot
