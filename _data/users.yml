@@ -67,6 +67,21 @@
 - name: Cloud Kitchens
   logo: /assets/images/logos/cloud-kitchens.png
   logosmall: /assets/images/logos/cloud-kitchens-small.png
+- name: Datappeal
+  anchor: datappeal
+  logo: /assets/images/logos/datappeal.png
+  logosmall: /assets/images/logos/datappeal-small.png
+  testimonial: |
+    The Data Appeal Company is a data provider that analyzes geospatial,
+    business information, and customer perception data
+    for any point of interest worldwide. Data Appeal leverages Trino
+    high-performance capabilities to power its data analysis platform,
+    providing an interactive location intelligence visualization for customers.
+    Trino also enables our data scientists to query our various datasources
+    with complete transparency, which in turn yields applicable,
+    data-driven insights.
+  urltext:
+  url: https://datappeal.io/
 - name: Eventbrite
   logo: /assets/images/logos/eventbrite.png
   logosmall: /assets/images/logos/eventbrite-small.png
