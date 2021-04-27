@@ -131,44 +131,6 @@ footer .footer-copyright {font-size: 0.7rem;}
   .jumbotron.homepage-bg {padding-bottom: 2rem;}
 }
 
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  _::-webkit-full-page-media, _:future, :root h1::before,
-  _::-webkit-full-page-media, _:future, :root h1 a::before,
-  _::-webkit-full-page-media, _:future, :root h2::before,
-  _::-webkit-full-page-media, _:future, :root h2 a::before,
-  _::-webkit-full-page-media, _:future, :root h3::before,
-  _::-webkit-full-page-media, _:future, :root h3 a::before,
-  _::-webkit-full-page-media, _:future, :root h4::before,
-  _::-webkit-full-page-media, _:future, :root h4 a::before,
-  _::-webkit-full-page-media, _:future, :root h5::before,
-  _::-webkit-full-page-media, _:future, :root h5 a::before,
-  _::-webkit-full-page-media, _:future, :root h6::before,
-  _::-webkit-full-page-media, _:future, :root h6 a::before {
-    display: block;
-    content: " ";
-    padding-top: 100px;
-    margin-top: -100px;
-    visibility: hidden;
-    pointer-events: none;
-  }
-
-  _::-webkit-full-page-media, _:future, :root a::before {
-    display: inline-block;
-    content: " ";
-    margin-left: 0px;
-    padding-top: 100px;
-    margin-top: -100px;
-    visibility: hidden;
-    pointer-events: none;
-  }
-
-  .outline-card h3::before {
-    padding-top: initial;
-    margin-top: initial;
-  }
-}
-
 /*----- TOC STYLES -----*/
 .toc-styles { padding: 0px 30px; }
 .toc-styles ul {font-size: 0.9rem;padding-inline-start: 1.2rem;border-left: 0.2rem solid var(--pink);}
