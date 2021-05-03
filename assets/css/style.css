@@ -315,6 +315,82 @@ table td {
   padding-bottom: 5rem;
 }
 
+/* Trino Summit Banner */
+
+.trino-summit-banner {
+  background-color: #000A2C;
+  box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.25), inset 0px 4px 8px rgba(0, 0, 0, 0.15);
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.trino-summit-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 2rem;
+  position: relative;
+}
+
+.trino-summit-content h3 {
+  color: #ffffff;
+  letter-spacing: 0.06rem;
+  margin-bottom: 1rem;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.trino-summit-content img {
+  filter: drop-shadow(0px 4px 2px rgba(0,0,0,0.1));
+}
+
+.trino-summit-logo {
+  margin-top: -1.5rem;
+  width: 100%;
+  max-width: 535px;
+}
+
+.trino-summit-peek {
+  position: absolute;
+  bottom: -200px;
+  width: 300px;
+  right: -260px;
+}
+
+.trino-summit-button {
+  background-color: var(--pink);
+  color: #ffffff;
+}
+
+.trino-summit-button:hover {
+  color: var(--orange);
+}
+
+@media screen and (max-width: 769px) {
+  .trino-summit-peek {
+    right: -200px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .trino-summit-content h3 {
+    font-size: 1.25rem;
+    letter-spacing: 0;
+  }
+  .trino-summit-content img:first-of-type {
+    width: 60%;
+  }
+  .trino-summit-logo {
+    margin-top: -1rem;
+  }
+  .trino-summit-peek {
+    display: none;
+  }
+}
+
 /* Community Page */
 .community-content-section {
   display: flex;
