@@ -268,9 +268,9 @@
     contributor</a> to the Trino open-source community.
   urltext:
   url: https://varada.io/platform/
-- name: Walmart
-  logo: /assets/images/logos/walmart.png
-  logosmall: /assets/images/logos/walmart-small.png
+#- name: Walmart
+#  logo: /assets/images/logos/walmart.png
+#  logosmall: /assets/images/logos/walmart-small.png
   # https://medium.com/walmartglobaltech/custom-downscaler-for-trino-cluster-on-google-cloud-243f64112b86
 - name: Zuora
   logo: /assets/images/logos/zuora.png
