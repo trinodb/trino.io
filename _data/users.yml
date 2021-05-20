@@ -228,6 +228,10 @@
     contributed the majority of the Trino opensource codebase.
   urltext: Learn more about the Starburst products!
   url: https://www.starburst.io/
+- name: Stripe
+  logo: /assets/images/logos/stripe-blue.png
+  logosmall: /assets/images/logos/stripe-small.png
+  # https://support.stripe.com/questions/why-has-the-format-of-object-value-in-my-sigma-query-result-changed
 - name: Swrve
   anchor: swrve
   logo: /assets/images/logos/swrve.png
