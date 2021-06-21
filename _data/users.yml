@@ -82,6 +82,20 @@
     data-driven insights.
   urltext:
   url: https://datappeal.io/
+- name: datasapiens
+  anchor: datasapiens
+  logo: /assets/images/logos/datasapiens.png
+  logosmall: /assets/images/logos/datasapiens-small.png
+  testimonial: |
+    At datasapiens, we help your company to become a data-driven organization.
+    Trino is at the core of that endeavour and is our primary data retrieval
+    engine. We use it on top of various data sources from diverse industries 
+    (i.e. retail, gastro, travel, etc.). Trino unifies a diverse set of data 
+    stores (i.e. Apache Hive, PostgreSQL, Apache Pinot, Redshift, etc.). It allows 
+    us to build a scalable lakehouse architecture providing insights to thousands 
+    of satisfied users.
+  urltext:
+  url: https://www.datasapiens.co.uk/
 - name: Eventbrite
   logo: /assets/images/logos/eventbrite.png
   logosmall: /assets/images/logos/eventbrite-small.png
