@@ -141,8 +141,17 @@
   urltext:
   url: https://linecorp.com/en
 - name: LinkedIn
+  anchor: linkedin
   logo: /assets/images/logos/linkedin.png
   logosmall: /assets/images/logos/linkedin-small.png
+  testimonial: |
+    Trino is the de-facto ad-hoc and interactive analytics engine at LinkedIn that
+    enables fast exploration and analysis of data stored in massive data lake.
+    Every month thousands of users from across the company issue millions of queries
+    scanning 100s of petabytes of data from a host of clients, including programmatic
+    access from internal applications.
+  urltext:
+  url: https://linkedin.com
 - name: Lyft
   logo: /assets/images/logos/lyft.png
   logosmall: /assets/images/logos/lyft-small.png
