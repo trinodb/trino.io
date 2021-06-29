@@ -23,7 +23,7 @@ title: Trino Community
         </div>
         <div class="slack-stats-container">
           <div class="community-stats">
-            <span>3933</span>
+            <span>4497</span>
             Slack members
           </div>
           <div class="community-stats">
