@@ -37,7 +37,7 @@ title: Trino Community
         </div>
       </div>
       <div class="slack-channels-top d-flex mb-3">
-        <a href="https://join.slack.com/t/trinodb/shared_invite/zt-h88upx5f-gVb8XUu16W_jo4I2Cw8ijA" class="slack-channel slack-blue-gradient">
+        <a href="{{site.slack_join}}" class="slack-channel slack-blue-gradient">
           <img src="../assets/images/graphics/community-general.svg">
           Join Trino Slack
         </a>
