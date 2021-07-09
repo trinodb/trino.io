@@ -45,7 +45,7 @@ programming languages, and programs using the related platform:
 * [trino-python-client]({{site.github_org_url}}/trino-python-client) for Python
 * [PyHive](https://github.com/dropbox/PyHive) for Python
 * [RPresto](https://github.com/prestodb/RPresto) for R
-* [presto-client-ruby](https://github.com/treasure-data/presto-client-ruby) for Ruby
+* [trino-client-ruby](https://github.com/treasure-data/trino-client-ruby) for Ruby
 
 </div></div>
 
