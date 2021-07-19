@@ -64,6 +64,18 @@
     functions on Trino, which are used to add to meet various business needs.
   urltext:
   url: https://www.cfzq.com/
+- name: Cloud Chef Labs
+  anchor: cloud_chef_labs
+  logo: /assets/images/logos/cloud-chef-labs.png
+  logosmall: /assets/images/logos/cloud-chef-labs-small.png
+  testimonial: |
+    Cloud Chef Labs's DataRoaster provides data platforms running on Kubernetes
+    to build a data lake and AI-based analytics platform. Trino is one of the
+    components provided by DataRoaster as an interactive query engine to query
+    the data lake. Users run Trino in DataRoaster as a cost-effective
+    alternative to serverless services provided by other cloud providers.
+  urltext:
+  url: http://www.cloudchef-labs.com/
 - name: Cloud Kitchens
   logo: /assets/images/logos/cloud-kitchens.png
   logosmall: /assets/images/logos/cloud-kitchens-small.png
