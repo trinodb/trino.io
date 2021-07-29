@@ -233,9 +233,17 @@
   logosmall: /assets/images/logos/sentinelone-small.png
   # https://sentinelone-tech.medium.com/how-sentinelone-optimizes-big-data-at-scale-b957b5fa7b8a
 - name: Shopify
+  anchor: shopify
   logo: /assets/images/logos/shopify.png
   logosmall: /assets/images/logos/shopify-small.png
-  # https://shopify.engineering/shopifys-data-science-engineering-foundations
+  testimonial: |
+    At Shopify, Trino provides their data scientists with quick access to their
+    data lake, via an industry standard SQL interface that joins and aggregates
+    data across heterogeneous data sources. Shopify Trino clusters handle 15
+    Gbps and over 300 million rows of data per second.
+  urltext:
+  url: https://shopify.engineering/topics/data-science-engineering
+  # https://shopify.engineering/faster-trino-query-execution-infrastructure
 - name: Starburst
   anchor: starburst
   logo: /assets/images/logos/starburst.png
