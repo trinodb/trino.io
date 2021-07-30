@@ -96,6 +96,16 @@
     to thousands of satisfied users.
   urltext:
   url: https://www.datasapiens.co.uk/
+- name: DiDi
+  anchor: didi
+  logo: /assets/images/logos/didi.png
+  logosmall: /assets/images/logos/didi-small.png
+  testimonial: |
+    With its excellent data processing capability and high performance, Trino
+    has a wide range of applications in DiDi. Currently, Trino processes over
+    one million queries every day.
+  urltext:
+  url: https://www.didiglobal.com/
 - name: Eventbrite
   logo: /assets/images/logos/eventbrite.png
   logosmall: /assets/images/logos/eventbrite-small.png
