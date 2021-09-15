@@ -46,6 +46,19 @@
     ground up to operate seamlessly in hybrid and multi-cloud environments.
   urltext: Visit the Ampool website for more information!
   url: https://www.ampool-inc.com/
+- name: Bazaar Technologies
+  anchor: bazaar_technologies
+  logo: /assets/images/logos/bazaar-technologies.png
+  logosmall: /assets/images/logos/bazaar-technologies-small.png
+  testimonial: |
+    At Bazaar, we are working to digitize Pakistan's retail sector. Trino is the
+    engine that powers the Bazaar Analytics Platform (aka Buraq). Buraq handles
+    petabytes of data from a diverse set of data stores from Hive, S3 Lakes, RDS
+    and Redshift. Trino allows us to build a scalable lake house architecture,
+    that drives real time insights and machine learning workloads helping us to
+    provide best in class customer experience.
+  urltext:
+  url: https://www.bazaar-tech.com/
 - name: Chasing Securities
   anchor: chasing_securities
   logo: /assets/images/logos/chasing-securities.png
