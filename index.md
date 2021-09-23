@@ -24,7 +24,7 @@ title: Distributed SQL query engine for big data
 <div class="trino-summit-banner">
   <div class="trino-summit-content">
     <img src="/assets/images/trino-summit-logo.png" class="trino-summit-logo" />
-    <h3>October 21st, 2021</h3>
+    <h3>October 21st & 22nd, 2021</h3>
     <a class="btn trino-summit-button" href="https://www.starburst.io/info/trinosummit/" target="_blank">Register</a>
     <img src="/assets/images/trino-summit-banner-peek.png" class="trino-summit-peek">
   </div>
