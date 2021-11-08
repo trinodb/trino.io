@@ -33,7 +33,7 @@ consistent. This ruled out a potential problem with HDFS.
 
 Next, we took a closer look  at the portion of the slow running queries
 involving table A, and came up with the simplest possible query that could
-demonstrate the problem. We discovered that the following query did exhibit
+demonstrate the problem. We discovered that the following query did not exhibit
 the performance problem:
 
 ```
@@ -180,7 +180,7 @@ jcmd <TRINO_PID> Compiler.CodeHeap_Analytics
 We ran this at various intervals so we could compare how the code cache changed
 over time.
 
-30 of the top 48 non-profiled nmethods were `PagesHashStrategy`, which are
+30 of the top 48 non-profiled methods were `PagesHashStrategy`, which are
 generated per-query. These can't be removed from the cache until the query is
 completed, so the amount of cache needed is going to be relative to the
 concurrency. We have a very busy cluster with significant concurrency at our
