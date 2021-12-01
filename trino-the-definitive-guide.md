@@ -55,6 +55,7 @@ Put Trino in production: Use this query engine for security and monitoring and
 with other applications; learn how other organizations apply Trino
 
 * [O'Reilly Media book page](https://learning.oreilly.com/library/view/trino-the-definitive/9781098107703/)
+* [Chinese translation available from JD](https://item.jd.com/10028492426649.html)
 * [Example code repository]({{site.github_org_url}}/trino-the-definitive-guide)
 * [Announcement blog post]({{ site.baseurl }}{% post_url 2020-04-11-the-definitive-guide %})
 * [Free digital copy from Starburst](https://www.starburst.io/info/oreilly-trino-guide/)
