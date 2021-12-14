@@ -14,7 +14,7 @@ title: Trino blog
           <h3 class="blog-title"><a href="{{ post.url }}">{{post.title}}</a></h3>
           <p class="caption">{{ post.date | date_to_string }} | {{ post.author }}</p>
           <p>{{ post.excerpt }}</p>
-          <div class="blog-readmore"><a href="{{ post.url }}">Read More &rarr;</a></div>
+          <div class="blog-readmore"><a href="{{ post.url }}">Read more &rarr;</a></div>
         </div>
         <div>
           <img src="{{ post.image | default: '/assets/trino-og.png' }}">
@@ -32,7 +32,7 @@ title: Trino blog
             <p class="caption">{{ post.date | date_to_string }} | {{ post.author}}</p>
             <!-- Text -->
             <p class="card-text">{{ post.description | default: post.excerpt | strip_html | truncatewords: 30 }}</p>
-            <div class="blog-readmore"><a href="{{ post.url }}">Read More &rarr;</a></div>
+            <div class="blog-readmore"><a href="{{ post.url }}">Read more &rarr;</a></div>
           </div>
         </div>
       {% endfor %}
