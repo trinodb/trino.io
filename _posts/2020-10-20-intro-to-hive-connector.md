@@ -106,10 +106,11 @@ the metadata, stored in an RDBMS such as PostgreSQL, MySQL, or MariaDB. There
 are other compatible replacements of the HMS such as AWS Glue, a
 drop-in substitution for the HMS.
 
-### Katacoda demo
+### Getting started with the Hive Connector on Trino
 
-To drive this point home, I created a Katacoda exercise. In the following
-scenario, the docker environment contains four docker containers: 
+To drive this point home, I created a tutorial that showcases using Trino and
+looking at the metadata it produces. In the following scenario, the docker 
+environment contains four docker containers: 
  - `trino` - _the runtime_ in this scenario that replaces Hive.
  - `minio` - _the storage_ is an open-source cloud object storage.
  - `hive-metastore` -  _the metastore_ service instance.
@@ -127,6 +128,6 @@ us on [slack](/slack.html) on the #dev or #general channels.
 Have fun!
 
 
-<a href="https://www.katacoda.com/starburst/scenarios/trino-hive-connector" target="_blank">
-<img src="/assets/katacoda-play.png"/>
+<a href="https://github.com/bitsondatadev/trino-getting-started/tree/main/hive/trino-minio" target="_blank">
+<img src="/assets/blog/intro-to-hive-connector/intro-to-hive.jpeg"/>
 </a>
