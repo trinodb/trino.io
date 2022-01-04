@@ -42,6 +42,7 @@ programming languages, and programs using the related platform:
 * [trino-go-client]({{site.github_org_url}}/trino-go-client) for Go
 * [presto-client-node](https://github.com/tagomoris/presto-client-node) for Node.js
 * [lento](https://github.com/vweevers/lento) for Node.js
+* [dbt adapter](https://github.com/starburstdata/dbt-trino)
 * [trino-python-client]({{site.github_org_url}}/trino-python-client) for Python
 * [PyHive](https://github.com/dropbox/PyHive) for Python
 * [RPresto](https://github.com/prestodb/RPresto) for R
