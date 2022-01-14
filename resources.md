@@ -60,7 +60,7 @@ programming languages, and programs using the related platform:
 #### [Quix](https://wix.github.io/quix/)
 
 Quix is a multi-user, easy-to-use notebook manager.
-By utilizing Presto it provides unified access to
+By utilizing Trino it provides unified access to
 multiple data sources and effectively acts as a shared
 space for your company's BI insights and know-how.
 
@@ -71,7 +71,7 @@ space for your company's BI insights and know-how.
 #### [Redash](https://redash.io/)
 
 Redash is a take on freeing the data within our company in a way
-that will better fit our culture and usage patterns. It has Presto
+that will better fit our culture and usage patterns. It has Trino
 support as well as other backends, and offers a query editor with
 syntax highlighting and completion, and creating visualizations and
 dashboards from query results.
@@ -87,7 +87,7 @@ writing SQL queries, creating new tables, creating a visualization
 (slice), adding that visualization to one or many dashboards and
 downloading a CSV. SQL Lab is a a part of Superset and provides a rich
 SQL editor that enables users to both query and visualize data. You
-can explore and preview tables in Presto, effortlessly compose SQL
+can explore and preview tables in Trino, effortlessly compose SQL
 queries to access data. From there, you can either export a CSV file
 or immediately visualize your data in the Superset "Explore" view.
 
@@ -97,7 +97,7 @@ or immediately visualize your data in the Superset "Explore" view.
 
 #### [yanagishima](https://yanagishima.github.io/yanagishima/)
 
-yanagishima is a web application for Presto. yanagishima provides
+yanagishima is a web application for Trino. yanagishima provides
 the ability to execute query, show query, kill query, bookmark
 query, search table, share query/query result, format query,
 download as CSV/TSV file, insert chart, substitute query parameter,
@@ -128,9 +128,9 @@ to get started.
 
 #### [Presto-Gateway](https://github.com/lyft/presto-gateway)
 
-Presto-Gateway is a gateway/proxy/load-balancer for multiple presto clusters.
-Users can register/de-register Presto clusters behind the gateway and connect to
-it using standard presto-clients.
+Presto-Gateway is a gateway/proxy/load-balancer for multiple Trino clusters.
+Users can register/de-register Trino clusters behind the gateway and connect to
+it using standard clients.
 
 </div>
 
@@ -183,18 +183,18 @@ integrations, and reliable support SLAs.
 
 #### [Qubole](https://www.qubole.com/developers/presto-on-qubole/)
 
-Enterprise 24/7 Support, HotFixes, Multiple Presto Versions, Backporting of critical
+Enterprise 24/7 Support, HotFixes, Multiple Trino Versions, Backporting of critical
 open source fixes and enhancements, Configuration, Tuning
 
-Qubole has been offering a managed Presto service since 2014.
-Qubole offers multiple Presto versions across multiple clouds
+Qubole has been offering a managed Trino service since 2014.
+Qubole offers multiple Trino versions across multiple clouds
 (AWS, Azure and GCP) and maintains a regular upgrade process.
 Qubole offers 24/7 support through its support and engineering
 teams spread across the globe. Qubole hotfixes critical production
 issues or major issues addressed in open source community. Qubole
 also backports critical fixes and major enhancements from recent
-versions of Presto to older versions. Qubole helps its users configure
-their clusters, fine tune their workloads and get the best out of Presto.  
+versions of Trino to older versions. Qubole helps its users configure
+their clusters, fine tune their workloads and get the best out of Trino.
 
 </div>
 
@@ -207,20 +207,20 @@ their clusters, fine tune their workloads and get the best out of Presto.
 
 <div markdown="1" class="item">
 
-#### [Presto on Qubole](https://www.qubole.com/developers/presto-on-qubole/)
+#### [Trino on Qubole](https://www.qubole.com/developers/presto-on-qubole/)
 
-Qubole has been offering a managed Presto service since 2014.
-Qubole has optimized Presto for the cloud. Qubole’s enhancements
+Qubole has been offering a managed Trino service since 2014.
+Qubole has optimized Trino for the cloud. Qubole’s enhancements
 allow for dynamic cluster sizing, based on workload and termination
 of idle clusters — ensuring high reliability while reducing compute
 costs.
 
-Qubole offers multiple Presto versions across multiple clouds
+Qubole offers multiple Trino versions across multiple clouds
 (AWS, Azure and GCP) and maintains a regular upgrade process.
 Qubole blends the latest features from the open source community
 with Qubole’s proprietary solutions that boost performance,
 lower cost, improve user experience, and provide smooth
-administration of Presto clusters.
+administration of Trino clusters.
 
 </div>
 
@@ -228,11 +228,11 @@ administration of Presto clusters.
 
 #### [Amazon Athena](https://aws.amazon.com/athena/)
 
-Amazon Athena is an interactive query service based on Presto that
-makes it easy to analyze data in Amazon S3 using standard SQL.
+Amazon Athena is an interactive query service based on an older version of Trino
+that makes it easy to analyze data in Amazon S3 using standard SQL.
 Athena is serverless, so there is no infrastructure to manage, and
 you pay only for the queries that you run.
-Amazon Athena uses Presto with full standard SQL support and works
+Amazon Athena uses Trino with full standard SQL support and works
 with a variety of standard data formats. Athena is out-of-the-box
 integrated with AWS Glue Data Catalog, allowing you to create a
 unified metadata repository across various services, crawl data
@@ -249,7 +249,7 @@ versioning.
 
 ## Cloud {#cloud}
 
-Presto is readily available in [AWS](#aws) and [Azure](#azure)
+Trino is readily available in [AWS](#aws) and [Azure](#azure)
 cloud environments.
 
 ### AWS {#aws}
@@ -273,14 +273,14 @@ and usage-based pricing. Read more how to use Trino on AWS on our
 
 <div markdown="1" class="item">
 
-#### [Presto on Qubole on AWS](https://us.qubole.com/)
+#### [Trino on Qubole on AWS](https://us.qubole.com/)
 
-Qubole offers a managed Presto service on AWS that is optimized
+Qubole offers a managed Trino service on AWS that is optimized
 for the cloud. Qubole supports cluster autoscaling based on
 workload and termination of idle clusters — ensuring high
 reliability while reducing compute costs. Qubole supports usage
 of spot nodes on AWS with built in failure resilience around spot
-termination notification handling and query retries. With Presto
+termination notification handling and query retries. With Trino
 on Qubole, users can create heterogenous clusters with spot nodes
 from similar instance families that can further help reduce
 compute costs.
@@ -294,10 +294,10 @@ compute costs.
 Amazon EMR provides a managed Hadoop framework that makes it easy,
 fast, and cost-effective to process vast amounts of data across
 dynamically scalable Amazon EC2 instances. With EMR, you can launch
-a large Presto cluster in minutes. You don't need to worry about
+a large Trino cluster in minutes. You don't need to worry about
 node provisioning, cluster setup or tuning.
 
-Using Presto on EMR provides these benefits to customers:
+Using Trino on EMR provides these benefits to customers:
 * Elasticity: With Amazon EMR, you can provision one, hundreds, or
   thousands of compute instances to process data at any scale. You
   can easily increase or decrease the number of instances manually
@@ -319,9 +319,9 @@ Starburst Enterprise is available via the Azure Marketplace.
 
 <div markdown="1" class="item">
 
-#### [Presto on Qubole on Azure](https://azure.qubole.com/)
+#### [Trino on Qubole on Azure](https://azure.qubole.com/)
 
-Qubole offers a managed Presto service on Azure that is optimized
+Qubole offers a managed Trino service on Azure that is optimized
 for the cloud. Qubole supports cluster autoscaling based on
 workload and termination of idle clusters — ensuring high
 reliability while reducing compute costs. Qubole supports
@@ -334,16 +334,16 @@ Azure Blob Storage.
 
 <div markdown="1" class="item">
 
-#### [Presto on Qubole on GCP](https://console.cloud.google.com/marketplace/details/qubole-public/qubole-data-service)
+#### [Trino on Qubole on GCP](https://console.cloud.google.com/marketplace/details/qubole-public/qubole-data-service)
 
-Qubole offers a managed Presto service on GCP that is optimized
+Qubole offers a managed Trino service on GCP that is optimized
 for cloud and is integrated with
 [GCP marketplace](https://console.cloud.google.com/marketplace/details/qubole-public/qubole-data-service).
 Qubole supports cluster autoscaling based on workload and
 termination of idle clusters — ensuring high reliability while
 reducing compute costs. Qubole supports use of preemptible VMs in
 its autoscaling to reduce costs. Qubole has also added support for
-faster detection of query failures in Presto caused by preemptible
+faster detection of query failures in Trino caused by preemptible
 VM interruption.
 
 </div>
