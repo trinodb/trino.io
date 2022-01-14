@@ -207,6 +207,20 @@ their clusters, fine tune their workloads and get the best out of Trino.
 
 <div markdown="1" class="item">
 
+#### [Starburst Galaxy](https://www.starburst.io/platform/starburst-galaxy/)
+
+Starburst Galaxy is the leading SaaS offering of Trino. It is capable of running
+clusters in all major clouds, and is fully managed for you by Starburst.
+
+It includes a rich user interface with query editor, query history, cluster
+management, security configuration, and much more. Watch one
+of the demo videos and find details in the [comprehensive user
+documentation](https://docs.starburst.io/starburst-galaxy/index.html).
+
+</div>
+
+<div markdown="1" class="item">
+
 #### [Trino on Qubole](https://www.qubole.com/developers/presto-on-qubole/)
 
 Qubole has been offering a managed Trino service since 2014.
