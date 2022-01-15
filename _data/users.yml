@@ -194,9 +194,10 @@
 - name: MoEngage
   logo: /assets/images/logos/moengage.png
   logosmall: /assets/images/logos/moengage-small.png
-- name: Myantra
-  logo: /assets/images/logos/myantra.png
-  logosmall: /assets/images/logos/myantra-small.png
+- name: Myntra
+  logo: /assets/images/logos/myntra.png
+  logosmall: /assets/images/logos/myntra-small.png
+  url: https://www.myntra.com/
 #   https://moengage.recruiterbox.com/jobs/fk0uue1/
 - name: Netflix
   logo: /assets/images/logos/netflix.png
