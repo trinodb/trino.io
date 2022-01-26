@@ -195,8 +195,20 @@
   logo: /assets/images/logos/moengage.png
   logosmall: /assets/images/logos/moengage-small.png
 - name: Myntra
+  anchor: myntra
   logo: /assets/images/logos/myntra.png
   logosmall: /assets/images/logos/myntra-small.png
+  testimonial: |
+    Myntra is among India's leading e-commerce platforms for fashion, beauty,
+    and lifestyle. An integral part of the Flipkart Group, Myntra brings
+    together btechnology and fashion to create the best experience for its
+    fashion-forward customers, helping them look good. In alignment with our
+    data-first organizational culture, Trino has been an incredible partner in
+    our efforts to democratize data. Our teams run thousands of queries every
+    day on petabytes of data right out of our in-house datalake. It has grown to
+    be a critical component within our Myntra Data Platform (MDP) powering a
+    wide array of workloads ranging from ad-hoc to batch queries.
+  urltext:
   url: https://www.myntra.com/
 #   https://moengage.recruiterbox.com/jobs/fk0uue1/
 - name: Netflix
