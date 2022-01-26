@@ -28,10 +28,10 @@ available for help.
 
 ## Channels
 
-* [#general](https://{{site.slack_fqdn}}/messages/CFLB9AMBN) - discussions about using and developing Trino
+* [#announcements](https://{{site.slack_fqdn}}/messages/CFLB9AMBN) - announcements about Trino
+* [#beginner](https://{{site.slack_fqdn}}/messages/C0305TQ05KL) - posts when you don't know where to ask a question
 * [#troubleshooting](https://{{site.slack_fqdn}}/messages/CGB0QHWSW) - need help?
 * [#dev](https://{{site.slack_fqdn}}/archives/CP1MUNEUX) - discussions about Trino codebase, development, and developing extensions
-* [#community-announcements](https://{{site.slack_fqdn}}/messages/CFQAMGRQE) - discussions for Trino content and events happening around the world
 * [#triage](https://{{site.slack_fqdn}}/messages/CFP4810CV) - discussions and coordination about new issues and PRs from the community
 * [#releases](https://{{site.slack_fqdn}}/messages/CFP480UKX) - notices about upcoming releases
 * [#infrastructure](https://{{site.slack_fqdn}}/messages/CFPVDC9JT) - discussions about project infrastructure (Travis, Github, Maven, etc.)
