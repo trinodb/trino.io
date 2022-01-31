@@ -163,6 +163,12 @@
     performing analytic queries, ETLs and monitoring data quality.
   urltext:
   url: https://jampp.com/
+- name: Instacart
+  # Orrin Naylor confirmed on slack
+  logo: /assets/images/logos/instacart.png
+  logosmall: /assets/images/logos/instacart-small.png
+  urltext:
+  url: https://www.instacart.com
 - name: LINE
   anchor: line
   logo: /assets/images/logos/line.png
