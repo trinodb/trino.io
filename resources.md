@@ -14,7 +14,6 @@ show_hero: true
 
 ### Resources
 
-
 * [Client libraries](#libraries)
 * [BI tools and notebooks](#ui)
 * [Management tools](#tools)
@@ -347,6 +346,10 @@ Azure Blob Storage.
 ### GCP {#gcp}
 
 <div markdown="1" class="item">
+
+#### [Starburst Enterprise on Google Cloud](https://www.starburst.io/platform/deployment-options/starburst-on-google-cloud/)
+
+Starburst Enterprise is available via the Google Cloud Marketplace.
 
 #### [Trino on Qubole on GCP](https://console.cloud.google.com/marketplace/details/qubole-public/qubole-data-service)
 
