@@ -347,6 +347,10 @@ Azure Blob Storage.
 
 <div markdown="1" class="item">
 
+#### [Starburst Enterprise on Google Cloud](https://www.starburst.io/platform/deployment-options/starburst-on-google-cloud/)
+
+Starburst Enterprise is available via the Google Cloud Marketplace.
+
 #### [Trino on Qubole on Google Cloud](https://console.cloud.google.com/marketplace/details/qubole-public/qubole-data-service)
 
 Qubole offers a managed Trino service on Google Cloud that is optimized
