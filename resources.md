@@ -20,9 +20,9 @@ show_hero: true
 * [Enterprise support](#support)
 * [Managed services](#managed)
 * [Cloud](#cloud)
-  * [AWS](#aws)
-  * [Azure](#azure)
-  * [GCP](#gcp)
+  * [Amazon Web Services](#aws)
+  * [Google Cloud](#gcp)
+  * [Microsoft Azure](#azure)
 
 </div></div>
 
@@ -187,7 +187,7 @@ open source fixes and enhancements, Configuration, Tuning
 
 Qubole has been offering a managed Trino service since 2014.
 Qubole offers multiple Trino versions across multiple clouds
-(AWS, Azure and GCP) and maintains a regular upgrade process.
+(AWS, Azure and Google Cloud) and maintains a regular upgrade process.
 Qubole offers 24/7 support through its support and engineering
 teams spread across the globe. Qubole hotfixes critical production
 issues or major issues addressed in open source community. Qubole
@@ -229,7 +229,7 @@ of idle clusters — ensuring high reliability while reducing compute
 costs.
 
 Qubole offers multiple Trino versions across multiple clouds
-(AWS, Azure and GCP) and maintains a regular upgrade process.
+(AWS, Azure and Google Cloud) and maintains a regular upgrade process.
 Qubole blends the latest features from the open source community
 with Qubole’s proprietary solutions that boost performance,
 lower cost, improve user experience, and provide smooth
@@ -343,7 +343,7 @@ Azure Blob Storage.
 
 </div>
 
-### GCP {#gcp}
+### Google Cloud {#gcp}
 
 <div markdown="1" class="item">
 
@@ -351,11 +351,11 @@ Azure Blob Storage.
 
 Starburst Enterprise is available via the Google Cloud Marketplace.
 
-#### [Trino on Qubole on GCP](https://console.cloud.google.com/marketplace/details/qubole-public/qubole-data-service)
+#### [Trino on Qubole on Google Cloud](https://console.cloud.google.com/marketplace/details/qubole-public/qubole-data-service)
 
-Qubole offers a managed Trino service on GCP that is optimized
+Qubole offers a managed Trino service on Google Cloud that is optimized
 for cloud and is integrated with
-[GCP marketplace](https://console.cloud.google.com/marketplace/details/qubole-public/qubole-data-service).
+[Google Cloud marketplace](https://console.cloud.google.com/marketplace/details/qubole-public/qubole-data-service).
 Qubole supports cluster autoscaling based on workload and
 termination of idle clusters — ensuring high reliability while
 reducing compute costs. Qubole supports use of preemptible VMs in
