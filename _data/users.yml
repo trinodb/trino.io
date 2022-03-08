@@ -163,6 +163,23 @@
     performing analytic queries, ETLs and monitoring data quality.
   urltext:
   url: https://jampp.com/
+
+- name: JioSaavn
+  anchor: jiosaavn
+  logo: /assets/images/logos/jiosaavn.png
+  logosmall: /assets/images/logos/jiosaavn-small.png
+  testimonial: |
+    At JioSaavn, Trino plays a pivotal role in the data engineering stack and is
+    the central integrated hub for all the data needs. It is used in ETL
+    processing since its performance is much better than Hive and Spark for
+    certain use cases. Trino analyzes billions of events logged everyday and
+    generates insights with adhoc analytical queries. It is also very useful to
+    query data from various databases like MongoDB, Cassandra, and MySQL. Trino
+    is also extensively used to power BI tools and dashboards from both ETL
+    pipeline data in ORC and Parquet files and real-time data using the Pinot
+    and Druid connector.
+  urltext:
+  url: https://www.jiosaavn.com
 - name: Instacart
   # Orrin Naylor confirmed on slack
   logo: /assets/images/logos/instacart.png
