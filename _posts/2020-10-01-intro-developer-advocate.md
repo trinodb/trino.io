@@ -111,7 +111,7 @@ in translation. This could be improving the Presto code itself, or it could be
 making the documentation better, or to address common confusion, even if the
 confusion comes from a force outside of the Presto community. 
 
-For instance, I recently [wrote a 
+For example, I recently [wrote a 
 blog](https://bitsondata.dev/what-is-benchmarketing-and-why-is-it-bad/) about
 some shady benchmarketing practices that were painting Presto in a bad light. 
 The goal here was to make fun of the wildly bogus claims brought against Presto 
