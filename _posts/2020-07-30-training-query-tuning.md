@@ -36,7 +36,7 @@ training sessions covers critical topics for scaling Presto to more users and
 use cases. 
 
 In this training session Martin helps to understand how Presto executes query.
-That knowledge can help you improve query performance. For instance, the explain
+That knowledge can help you improve query performance. For example, the explain
 plan is a powerful tool, but reading the plans and make sense of them can be
 overwhelming. We explore how to create an explain plan for you query and how to
 read it. We look at the work the cost-based optimizer performs and how you can

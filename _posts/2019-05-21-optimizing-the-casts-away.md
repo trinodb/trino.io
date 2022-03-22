@@ -219,7 +219,7 @@ We can tell whether a value `t` in `T` is representable in `S` by converting it 
 call this value `t'`. 
 
 If `t <> t'`, `t` is not representable in `S`, and similar rules as for out-of-range values apply when the 
-expression involves an equality. For instance, given `s :: tinyint`:
+expression involves an equality. For example, given `s :: tinyint`:
 
 ```
 CAST(s AS double) =  double '1.1'  ⟺  if(s is null, null, false)    

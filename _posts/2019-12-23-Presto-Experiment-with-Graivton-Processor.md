@@ -17,7 +17,7 @@ As the Graviton 2 based instance types are preview state, we tried to run Presto
 
 # How to make Presto compatible with Arm
 
-We are going to build the binary of Presto supporting Arm platform first. From the results, there are not so many things to do so. As long as JVM supports the Arm platform, it should work without any modification in the application code. But Presto has some restrictions on the platform where it runs to protect the functionality, including plugins. For instance, the latest Presto supports only [x86 and PowerPC architectures]({{site.github_repo_url}}/blob/ee05ee5221690d66598039c6e397f7c7cb4c202b/presto-main/src/main/java/io/prestosql/server/PrestoSystemRequirements.java#L69). This limitation prevents us from using Presto on the Arm platform.
+We are going to build the binary of Presto supporting Arm platform first. From the results, there are not so many things to do so. As long as JVM supports the Arm platform, it should work without any modification in the application code. But Presto has some restrictions on the platform where it runs to protect the functionality, including plugins. For example, the latest Presto supports only [x86 and PowerPC architectures]({{site.github_repo_url}}/blob/ee05ee5221690d66598039c6e397f7c7cb4c202b/presto-main/src/main/java/io/prestosql/server/PrestoSystemRequirements.java#L69). This limitation prevents us from using Presto on the Arm platform.
 
 To make Presto runnable on Arm machine, we need to modify [PrestoSystemRequirements]({{site.github_repo_url}}/blob/master/presto-main/src/main/java/io/prestosql/server/PrestoSystemRequirements.java) class to allow `aarch64` architecture and more. For experimental purposes, we can apply such a patch to remove the restriction altogether.
 
