@@ -220,6 +220,24 @@ documentation](https://docs.starburst.io/starburst-galaxy/index.html).
 
 <div markdown="1" class="item">
 
+#### [Varada Control Center](https://varada.io/vcc/)
+
+Varada is the only solution that provides dynamic big data indexing for Trino,
+delivering performance improvements and radically reducing costs. 
+It enables data teams to seamlessly accelerate and optimize Trino workloads
+to meet specific performance and cost requirements, with zero data-ops and effective resource utilization. 
+
+The Varada Control Center (VCC) is a central hub to deploy, manage, and monitor Varada clusters. 
+The VCC also gives full visibility of Trino cluster behavior and 
+allows for the first time to understand a cluster’s resource consumption. 
+Test drive the [Varada Control Center](https://varada.io/vcc/) for free to experience dramatic query acceleration and
+cost saving gains with Varada.
+
+
+</div>
+
+<div markdown="1" class="item">
+
 #### [Trino on Qubole](https://www.qubole.com/developers/presto-on-qubole/)
 
 Qubole has been offering a managed Trino service since 2014.
@@ -281,6 +299,26 @@ Trino AMI, Starburst Enterprise on AWS enables you to run analytic SQL
 queries across a wide variety of data sources with elastic scaling
 and usage-based pricing. Read more how to use Trino on AWS on our
 [AWS Documentation site](https://docs.starburst.io/latest/aws.html).
+
+</div>
+ 
+<div markdown="1" class="item">
+
+#### [Varada on AWS](https://varada.io/vcc/)
+
+Varada is the only solution that provides dynamic big data indexing for Trino, 
+delivering performance improvements and radically reducing costs. 
+It enables data teams to seamlessly accelerate and optimize Trino workloads on AWS to 
+meet specific performance and cost requirements, with zero data-ops and effective resource utilization. 
+
+Varada can be easily deployed as a [“Trino Connector”](https://varada.io/blog/announcing-trino-connector/) directly on existing clusters deployed on AWS 
+to instantly accelerate your workloads. 
+
+[The Varada Control Center (VCC)](https://varada.io/vcc/) is a central hub to deploy, 
+manage, and monitor Trino and Varada clusters. 
+The VCC gives full visibility of Trino cluster behavior 
+and allows for the first time to understand a cluster’s resource consumption. 
+Test drive the Varada Control Center for free to experience dramatic query acceleration and cost saving gains with Varada.
 
 </div>
 
@@ -350,7 +388,16 @@ Azure Blob Storage.
 #### [Starburst Enterprise on Google Cloud](https://www.starburst.io/platform/deployment-options/starburst-on-google-cloud/)
 
 Starburst Enterprise is available via the Google Cloud Marketplace.
+ 
+#### [Varada's Trino connector on Google Cloud](https://varada.io/blog/announcing-trino-connector/)
 
+Varada is the only solution that provides dynamic big data indexing for Trino, 
+delivering performance improvements and radically reducing costs. 
+It enables data teams to seamlessly accelerate and optimize Trino workloads on GCP to meet specific performance and 
+cost requirements,with zero data-ops and effective resource utilization. 
+Varada can be easily deployed as a [“Trino Connector”](https://varada.io/blog/announcing-trino-connector/) directly on existing clusters deployed on GCP
+to instantly accelerate your Trino clusters by leveraging existing investments.
+ 
 #### [Trino on Qubole on Google Cloud](https://console.cloud.google.com/marketplace/details/qubole-public/qubole-data-service)
 
 Qubole offers a managed Trino service on Google Cloud that is optimized
