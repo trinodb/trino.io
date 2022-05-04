@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Project Tardigrade delivers ETL at Trino speeds to early users"
-author: Andrii Rosa, Brian Zhan, Lukasz Osipiuk, Zebing Lin
+author: Andrii Rosa, Brian Olsen, Brian Zhan, Lukasz Osipiuk, Martin Traverso, Zebing Lin
 excerpt_separator: <!--more-->
 ---
 
@@ -12,6 +12,10 @@ batch processing space. It required some significant and fascinating
 engineering to get us to the current status. The latest Trino release includes
 all the work from Project Tardigrade. Read on to learn how it all works, and
 how to enable the fault-tolerant execution in Trino.
+
+<p align="center" width="100%">
+    <img width="50%" src="/assets/blog/tardigrade-launch/tardigrade-logo.png">
+</p>
 
 <!--more-->
 
@@ -102,9 +106,31 @@ due to the checkpoint mechanism.
 
 First you need to create an S3 bucket for spooling. We recommend configuring a
 bucket lifecycle rule to automatically expire abandoned objects in the event of
-a node crash:
+a node crash. You can configure these rules using the 
+[s3api](https://docs.aws.amazon.com/cli/latest/reference/s3api/put-bucket-lifecycle-configuration.html) 
+which is included in the tutorial below.
 
-<img src="/assets/blog/tardigrade-launch/bucket-lifecycle.png"/>
+
+```
+{
+    "Rules": [
+        {
+            "Expiration": {
+                "Days": 1
+            },
+            "ID": "Expire",
+            "Filter": {},
+            "Status": "Enabled",
+            "NoncurrentVersionExpiration": {
+                "NoncurrentDays": 1
+            },
+            "AbortIncompleteMultipartUpload": {
+                "DaysAfterInitiation": 1
+            }
+        }
+    ]
+}
+```
 
 ### 2. Configure the Trino exchange manager
 
@@ -176,172 +202,21 @@ recommend you take a look at the Trino Community Broadcast episodes covering
 [local Trino on Kubernetes](https://trino.io/episodes/24.html) and
 [deploying Trino on EKS](https://trino.io/episodes/31.html).
 
-### Requirements
+<iframe width="720" height="405" src="https://www.youtube.com/embed/4isawxYjDnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-* [eksctl](https://eksctl.io/)
-* [kubectl](https://kubernetes.io/docs/reference/kubectl/kubectl/)
-* [helm](https://helm.sh/)
-
-### Deployment
-
-1. Install the [Trino Helm charts](https://github.com/trinodb/charts/blob/main/README.md).
-2. Create a `values.yaml` file with:
-
-   ```yaml
-    image:
-      tag: "<trino-version>"
-    server:
-      workers: <number-of-workers>
-      config:
-        memory:
-          heapHeadroomPerNode: "30GB"
-        query:
-          maxMemory: "1TB"
-          maxMemoryPerNode: "70GB"
-      exchangeManager:
-        baseDir: "s3://<spool-bucket-name>"
-    coordinator:
-      jvm:
-        maxHeapSize: "100G"
-        gcMethod:
-          type: "UseG1GC"
-          g1:
-            heapRegionSize: "32M"
-      resources:
-        requests:
-          memory: "120Gi"
-          cpu: 31
-        limits:
-          memory: "120Gi"
-          cpu: 31
-    worker:
-      jvm:
-        maxHeapSize: "100G"
-        gcMethod:
-          type: "UseG1GC"
-          g1:
-            heapRegionSize: "32M"
-      resources:
-        requests:
-          memory: "120Gi"
-          cpu: 31
-        limits:
-          memory: "120Gi"
-          cpu: 31
-    additionalConfigProperties:
-      - "retry-policy=TASK"
-      - "query.hash-partition-count=50"
-      - "fault-tolerant-execution-target-task-input-size=4GB"
-      - "fault-tolerant-execution-target-task-split-count=64"
-      - "fault-tolerant-execution-task-memory=5GB"
-      - "task.writer-count=4"
-      - "task.concurrency=8"
-      - "scale-writers=true"
-      - "exchange.compression-enabled=true"
-      - "query.low-memory-killer.delay=0s"
-    additionalExchangeManagerProperties:
-      - "exchange.s3.region=<aws-region>"
-      - "exchange.s3.aws-access-key=<access-key>"
-      - "exchange.s3.aws-secret-key=<secret-key>"
-    additionalCatalogs:
-      hive: |-
-        connector.name=hive-hadoop2
-        hive.metastore=glue
-        hive.metastore.glue.region=<aws-region>
-        hive.metastore.glue.aws-access-key=<access-key>
-        hive.metastore.glue.aws-secret-key=<secret-key>
-        hive.s3.aws-access-key=<access-key>
-        hive.s3.aws-secret-key=<secret-key>
-        hive.metastore.glue.default-warehouse-dir=s3://<permanent-data-bucket>/
-   ```
-3. Update the placeholders in your `values.yaml`:
-   * `<trino-version>` - latest release of Trino, e.g.: `378`
-   * `<number-of-workers>` - desired number of workers, e.g.: `5`
-   * `<spool-bucket-name>` - name of a bucket to be used for spooling.
-     Multiple buckets can be specified using comma,
-     e.g.: `s3://bucket-1,s3://bucket-2`
-   * `<aws-region>` - aws region where the cluster is being deployed,
-     e.g.: `us-east-1`
-   * `<permanent-data-bucket>` - name of a bucket to be used for storing tables
-     created by Trino
-   * `<access-key>`, `<secret-key>` - AWS access credentials. The key must have
-     full access to S3 buckets specified for spooling and for permanent storage
-     as well as access to `Glue`
-4. Create a Kubernetes cluster based on the recommended hardware configuration
-   with `eksctl`:
-   ```bash
-    eksctl create cluster \
-      --name <cluster-name> \
-      --region <aws-region> \
-      --node-type m5.8xlarge \
-      --nodes <desired-number-of-workers + 1>
-   ```
-   For example:
-   ```bash
-    eksctl create cluster \
-      --name tardigrade-cluster \
-      --region us-east-1 \
-      --node-type m5.8xlarge \
-      --nodes 6
-   ```
-5. Deploy a Trino cluster:
-   ```bash
-   helm upgrade --install \
-     --values values.yaml \
-     tardigrade-kubernetes-cluster \
-     trino/trino \
-     --version 0.7.0
-
-   kubectl rollout restart deployment \
-     tardigrade-testing-batch-trino-coordinator \
-     tardigrade-testing-batch-trino-worker
-   ```
-6. Forward the Trino endpoint to your local machine:
-   ```bash
-   kubectl port-forward \
-   $(kubectl get pods --namespace default -l "app=trino,release=tardigrade-testing-batch,component=coordinator" -o jsonpath="{.items[0].metadata.name}") \
-   8080:8080
-   ```
-7. Run some queries with the [Trino CLI](https://trino.io/docs/current/installation/cli.html)
-   or any other client connected on `127.0.0.1:8080`.
-8. Terminate the Kubernetes cluster:
-   ```bash
-   eksctl delete cluster \
-     --name <cluster-name> \
-     --region <aws-region>
-   ```
-   For example:
-   ```bash
-   eksctl delete cluster \
-     --name tardigrade-cluster \
-     --region us-east-1
-   ```
-
-## Potential issues
-
-* Queries may start failing with
-  `software.amazon.awssdk.services.s3.model.S3Exception: Please reduce your request rate`:
-  * If your workload is I/O intensive it is possible that S3 starts throttling
-    some requests. The request limits are enforced per bucket. It is
-    recommended to create an another bucket for spooling to allow
-    Trino to balance the load
-    `exchange.base-directories=s3://<first-bucket>,s3://<second-bucket>`
-* Queries may fail with `Task descriptor storage capacity has been exceeded`:
-  * Trino has to maintain descriptors for each task in case it has to be
-    restarted in an event of a failure. This information is currently stored
-    in memory on the coordinator. We are planning to implement
-    adaptive spilling for task descriptors, but at the moment there is a
-    chance that queries may hit this limit. If this happens we recommend that
-    you run less queries concurrently or use a coordinator with more memory.
+<a class="btn btn-pink btn-md waves-effect waves-light" href="https://github.com/bitsondatadev/trino-getting-started/tree/main/kubernetes/tardigrade-eks">Try Project Tardigrade Yourself >></a>
 
 ## Closing notes
 
 Project Tardigrade has been a great success for us already. We learned a lot
 and significantly improved Trino. Now we are really ready to share this with
 you all, and look forward to fix anything you find. We really want you to push
-the limits, and let us know what you find.
+the limits, and let us know what you find. 
 
-Maybe you even want to write about your experience and results, or become a
-contributor. 
+If running fast batch jobs on the fastest state-of-the-art query engine 
+interests you, consider playing around with the tutorial above and giving us 
+your feedback. You can reach us on the `#project-tardigrade` channel in our 
+[Slack](https://trino.io/slack.html). Maybe you even want to write about your 
+experience and results, or become a contributor. 
 
-Reach us on `#project-tardigrade` channel in our [Slack](https://trino.io/slack.html).
+Thanks for reading and learning with us today. Happy Querying!
