@@ -223,3 +223,7 @@ contributor, also let us know on the [#project-tardigrade](https://bit.ly/3IFlNX
 channel. We are happy to send you Tardigrade swag as a thank you.
 
 Thanks for reading and learning with us today. Happy Querying!
+
+<a class="btn btn-pink btn-md waves-effect waves-light" href="https://www.reddit.com/r/dataengineering/comments/uj2aez/etl_at_trino_speeds_and_a_stepbystep_tutorial_on/">Discuss on Reddit</a>
+
+<a class="btn btn-pink btn-md waves-effect waves-light" href="https://news.ycombinator.com/item?id=31276058">Discuss On Hacker News</a>
