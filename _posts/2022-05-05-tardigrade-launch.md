@@ -215,8 +215,15 @@ the limits, and let us know what you find.
 
 If running fast batch jobs on the fastest state-of-the-art query engine 
 interests you, consider playing around with the tutorial above and giving us 
-your feedback. You can reach us on the `#project-tardigrade` channel in our 
-[Slack](https://trino.io/slack.html). Maybe you even want to write about your 
-experience and results, or become a contributor. 
+your feedback. You can reach us on the [#project-tardigrade](https://bit.ly/3IFlNXy) 
+channel in our [Slack](https://trino.io/slack.html).
+
+If you would like to write about your experience and results, or become a
+contributor, also let us know on the [#project-tardigrade](https://bit.ly/3IFlNXy)
+channel. We are happy to send you Tardigrade swag as a thank you.
 
 Thanks for reading and learning with us today. Happy Querying!
+
+<a class="btn btn-pink btn-md waves-effect waves-light" href="https://www.reddit.com/r/dataengineering/comments/uj2aez/etl_at_trino_speeds_and_a_stepbystep_tutorial_on/">Discuss on Reddit</a>
+
+<a class="btn btn-pink btn-md waves-effect waves-light" href="https://news.ycombinator.com/item?id=31276058">Discuss On Hacker News</a>
