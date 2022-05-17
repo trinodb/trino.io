@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cinco de Trino Recap: Learn how to build a efficient data lake"
+title:  "Cinco de Trino recap: Learn how to build an efficient data lake"
 author: Brian Olsen, Brian Zhan
 excerpt_separator: <!--more-->
 ---
