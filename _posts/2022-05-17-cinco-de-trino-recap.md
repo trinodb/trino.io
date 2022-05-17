@@ -27,18 +27,17 @@ miss.
 
 <!--more-->
 
-### Starburst Galaxy lab
+### Keynote: Trino as a data lakehouse
 
-Starburst Galaxy enables you to get Trino up and running rather than spending
-your time focusing on the setup, scaling, and maintaining the infrastructure.
-Trino co-creator, Dain Sundstrom, walks you through a fun-filled lab that
-demonstrates how to use Trino as a service solution, Starburst Galaxy, to
-generate [database rankings](https://db-engines.com/en/ranking) by ingesting,
-cleaning, and analyzing Twitter and Stack Overflow data.
+Trino co-creator, Martin Traverso, covers where Trino fits into the data lake 
+and brings you a sneak peak of the future of a Trino. Polymorphic Table 
+Functions, adaptive query planning, are some of the many exciting features 
+Martin walks us through.
 
-<iframe width="720" height="405" src="https://www.youtube.com/embed/WQNqqkBd_Jo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+<iframe width="720" height="405" src="https://www.youtube.com/embed/gwV3smFiGEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
 ### Project Tardigrade
+
 If you have one takeaway from the conference, let it be this: there’s a new way
 in town to get 60% cost savings on your Trino deployment. Cory Darby walks
 through how utilizing the fault-tolerant execution architecture has enabled
@@ -53,14 +52,16 @@ recovery delivered by the team behind Project Tardigrade.
 
 <a class="btn btn-pink btn-md waves-effect waves-light" href="https://github.com/bitsondatadev/trino-getting-started/tree/main/kubernetes/tardigrade-eks">Try Project Tardigrade Yourself >></a>
 
-### Trino as a data lakehouse
+### Starburst Galaxy lab
 
-Trino co-creator, Martin Traverso, covers where Trino fits into the data lake 
-and brings you a sneak peak of the future of a Trino. Polymorphic Table 
-Functions, adaptive query planning, are some of the many exciting features 
-Martin walks us through.
+Starburst Galaxy enables you to get Trino up and running rather than spending
+your time focusing on the setup, scaling, and maintaining the infrastructure.
+Trino co-creator, Dain Sundstrom, walks you through a fun-filled lab that
+demonstrates how to use Trino as a service solution, Starburst Galaxy, to
+generate [database rankings](https://db-engines.com/en/ranking) by ingesting,
+cleaning, and analyzing Twitter and Stack Overflow data.
 
-<iframe width="720" height="405" src="https://www.youtube.com/embed/gwV3smFiGEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+<iframe width="720" height="405" src="https://www.youtube.com/embed/WQNqqkBd_Jo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
 ### Engineering data reliability with Great Expectations
 
@@ -93,6 +94,7 @@ data from various places into your choice of data lake.
 <a class="btn btn-pink btn-md waves-effect waves-light" href="https://abhi-vaidyanatha.medium.com/an-opinionated-guide-to-consolidating-your-data-b09386b2b9b5">Read Abhi’s article about Airbyte + Trino >></a>
 
 ### Transforming your data with dbt
+
 Ever had 300 lines of SQL in front of you, and wasted lots of time sifting 
 through the code to find which part of the code to edit to check for duplicate 
 customers?
@@ -110,13 +112,6 @@ macros: a flexible alternative to SQL defined functions.
 <iframe width="720" height="405" src="https://www.youtube.com/embed/UYS75sjTziU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
 <a class="btn btn-pink btn-md waves-effect waves-light" href="https://github.com/dbt-labs/trino-dbt-tpch-demo">Check out Jeremy's demo repo >></a>
-
-### Touch, talk, and see your data with Tableau
-Tableau is our favorite data visualization tool, and in this session, Vlad 
-Usatin of Tableau shares how to use Tableau to directly visualize your Trino 
-data.
-
-<iframe width="720" height="405" src="https://www.youtube.com/embed/b6kKqNIMvuM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
 ## Choosing the best data lakehouse format for you
 
@@ -170,6 +165,14 @@ lakehouses are starting to merge and the implications this has on the open
 versus proprietary architectures.
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/r-fF9uqzUdE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
+### Touch, talk, and see your data with Tableau
+
+Tableau is our favorite data visualization tool, and in this session, Vlad 
+Usatin of Tableau shares how to use Tableau to directly visualize your Trino 
+data.
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/b6kKqNIMvuM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
 Thank you to all who attended or viewed, we hope to see you again at our
 upcoming events later this year. Continue the conversation in our 
