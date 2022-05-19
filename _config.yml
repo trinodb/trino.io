@@ -23,7 +23,7 @@ exclude:
 
 trino_version: 381
 conduct_email: conduct@trino.io
-slack_join: "https://join.slack.com/t/trinodb/shared_invite/zt-14ukl212d-98J09w~zC3vAQCgm6I2IxQ"
+slack_join: "https://join.slack.com/t/trinodb/shared_invite/zt-1966ver9i-IkfggJn86BXO3DH5SsR_dA"
 slack_fqdn: trinodb.slack.com
 github_org_url: "https://github.com/trinodb"
 github_repo_url: "https://github.com/trinodb/trino"
