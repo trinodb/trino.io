@@ -22,11 +22,13 @@ Install Ruby in Homebrew:
 brew install ruby
 ```
 
-Add Homebrew Ruby in front of system Ruby:
+Add Homebrew Ruby in front of system Ruby. Use this form of the command to
+accommodate both Intel and Apple M1 based Macs. The back quotes are important:
 
 ```bash
-PATH=/usr/local/opt/ruby/bin:$PATH
+PATH=`brew --prefix`/opt/ruby/bin:$PATH
 ```
+Run the next few commands from the root of your clone of this repo.
 
 Install bundler:
 
@@ -55,7 +57,7 @@ netlify dev
 ```
 
 With the server running you can access the site on
-[http://localhost:8888](http://localhost:8888).
+[http://localhost:4000](http://localhost:4000).
 
 ## Additional notes
 
@@ -66,7 +68,7 @@ correctly on a phone. There are two ways to do that:
 
 * Access the IP address of your computer on your local network from your phone.
 
-* Run `netlify dev --live` to create a publically accessible tunnel that can
+* Run `netlify dev --live` to create a publicly accessible tunnel that can
   be accessed from anywhere over the internet.
 
 ### View future posts
