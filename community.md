@@ -23,15 +23,15 @@ title: Trino Community
         </div>
         <div class="slack-stats-container">
           <div class="community-stats">
-            <span>4497</span>
+            <span>7035</span>
             Slack members
           </div>
           <div class="community-stats">
-            <span>507</span>
+            <span>618</span>
             Weekly active members
           </div>
           <div class="community-stats">
-            <span>454</span>
+            <span>586</span>
             Contributors
           </div>
         </div>
@@ -126,12 +126,17 @@ title: Trino Community
             </div>
             <div>
               <h3>Open a pull request</h3>
-              <p>Improve exisiting functionality or even add your own feature.</p>
+              <p>Improve existing functionality, or even add your own feature.</p>
               <p>Read about our <a href="../development/process.html">contribution process</a> or visit our <a href="../docs/current/develop.html">developer guide</a> to learn more.</p>
             </div>
           </div>
         </div>
       </div>
+    </div>
+    <div class="community-content-section">
+      <h2>Trino contributors</h2>
+      <p>A huge amount of gratitude goes out to all contributors. Without you, none of this is possible.</p>
+        <object type="image/svg+xml" data="../assets/images/community/contributors.svg"></object>
     </div>
   </div>
 </div>
