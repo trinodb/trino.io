@@ -347,4 +347,4 @@ interested in joining us at QazAI, feel free to reach out to me at Baurzhan Kusp
 
 <a class="btn btn-pink btn-md waves-effect waves-light" href="https://cutt.ly/qaz-ai-trino-reddit">Discuss on Reddit</a>
 
-<a class="btn btn-pink btn-md waves-effect waves-light" href="https://cutt.ly/qaz-ai-trino-hackernews">Discuss On Hacker News</a>
+<a class="btn btn-pink btn-md waves-effect waves-light" href="https://news.ycombinator.com/item?id=31672725">Discuss On Hacker News</a>
