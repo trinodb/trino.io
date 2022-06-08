@@ -12,7 +12,7 @@ delivered the data to business units via our datamart built on Clickhouse (for o
 <!--more-->
 
 <p align="center">
-   <img align="center" width="50%" src="/assets/blog/qaz-ai-modern-data-stack/old-architecture.png"/>
+   <img align="center" width="100%" src="/assets/blog/qaz-ai-modern-data-stack/old-architecture.png"/>
 </p>
 
 This diagram shows our existing stack. The big problem to solve was that the
@@ -75,7 +75,7 @@ of Sqoop, HDFS, Hive, and custom Python scripts.
 Let’s play a bit with the rental database called DVD.
 
 <p align="center">
-   <img align="center" width="50%" src="/assets/blog/qaz-ai-modern-data-stack/rentaldb-schema.png"/>
+   <img align="center" width="75%" src="/assets/blog/qaz-ai-modern-data-stack/rentaldb-schema.png"/>
 </p>
 
 For instance, we create the database shown above in PostgreSQL and work with the _rental_ table.
@@ -260,7 +260,7 @@ billions of rows.  Let’s test. We work with the _tpch_ database with the scali
 factor 3000.
 
 <p align="center">
-   <img align="center" width="50%" src="/assets/blog/qaz-ai-modern-data-stack/tpch-schema.png"/>
+   <img align="center" width="75%" src="/assets/blog/qaz-ai-modern-data-stack/tpch-schema.png"/>
 </p>
 
 For testing, we consider three tables: _lineitem_ (18 billion rows),
@@ -323,11 +323,7 @@ LEFT JOIN iceberg2.ice.tpch_sf100000_orders ord ON litem.orderkey = ord.orderkey
 The query has been completed in 4 hours. Also, at query processing, worker 22
 has been turned off. The query has been automatically started over and completed
 successfully. At the query processing, three tables have been joined (_the
-triple join_): 18 billion rows x 2,4 billion rows x 450 million rows. 
-
-<p align="center">
-   <img align="center" width="50%" src="/assets/blog/qaz-ai-modern-data-stack/trino-query-details.png"/>
-</p>
+triple join_): 18 billion rows x 2.4 billion rows x 450 million rows. 
 
 This experiment gave us the confidence to move forward in our plans to rebuild
 our architecture with Trino in order to perform analytical and transformational
@@ -335,7 +331,7 @@ manipulations upon data directly in S3, which will allow us to exclude HDFS and
 Hive interference in these processes. 
 
 <p align="center">
-   <img align="center" width="50%" src="/assets/blog/qaz-ai-modern-data-stack/new-architecture.png"/>
+   <img align="center" width="100%" src="/assets/blog/qaz-ai-modern-data-stack/new-architecture.png"/>
 </p>
 
 As a result we will achieve faster pipelines. 
