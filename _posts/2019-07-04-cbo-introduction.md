@@ -1,14 +1,16 @@
 ---
 layout: post
-title:  "Introduction to Presto Cost-Based Optimizer"
+title:  "Introduction to Trino Cost-Based Optimizer"
 author: Piotr Findeisen, Starburst Data
 excerpt_separator: <!--more-->
 ---
 
-The Cost-Based Optimizer (CBO) in Presto achieves stunning results in industry
+Last edited 15 June 2022: Update to use the Trino project name.
+
+The Cost-Based Optimizer (CBO) in Trino achieves stunning results in industry
 standard benchmarks (and not only in benchmarks)! The CBO makes decisions based
 on several factors, including shape of the query, filters and table statistics.
-I would like to tell you more about what the table statistics are in Presto and
+I would like to tell you more about what the table statistics are in Trino and
 what information can be derived from them.
 
 <!--more-->
@@ -18,7 +20,7 @@ Blog](https://www.starburstdata.com/technical-blog/introduction-to-presto-cost-b
 
 # Background
 
-Before diving deep into how Presto analyzes statistics, let’s set up a stage so
+Before diving deep into how Trino analyzes statistics, let’s set up a stage so
 that our considerations are framed in some context. Let’s consider a Data
 Scientist who wants to know which customers spend most dollars with the
 company, based on history of orders (probably to offer them some discounts).
@@ -31,18 +33,18 @@ WHERE c.custkey = o.custkey AND l.orderkey = o.orderkey
 GROUP BY c.custkey ORDER BY sum(l.price) DESC;
 ```
 
-Now, Presto needs to create an execution plan for this query. It does so by
+Now, Trino needs to create an execution plan for this query. It does so by
 first transforming a query to a plan in the simplest possible way — here it
 will create CROSS JOINS for `FROM customer c, orders o, lineitem l` part of the
 query and FILTER for `WHERE c.custkey = o.custkey AND l.orderkey = o.orderkey`.
 The initial plan is very naïve — CROSS JOINS will produce humongous amounts of
 intermediate data. There is no point in even trying to execute such a plan and
-Presto won’t do that. Instead, it applies transformation to make the plan more
+Trino won’t do that. Instead, it applies transformation to make the plan more
 what user probably wanted, as shown below. Note: for succinctness, only part of
 the query plan is drawn, without aggregation (`GROUP BY`) and sorting (`ORDER
 BY`).
 
-![](/assets/blog/cbo-introduction/presto-eliminate-cross-join.png)
+![](/assets/blog/cbo-introduction/trino-eliminate-cross-join.png)
 
 Indeed, this is much better than the CROSS JOINS. But we can do even better, if
 we consider _cost_.
@@ -56,11 +58,11 @@ basically needs to be kept in the memory while JOIN result is calculated).
 Because of that, the following plans produce same result, but may have
 different execution time or memory requirements.
 
-![](/assets/blog/cbo-introduction/presto-join-flip.png)
+![](/assets/blog/cbo-introduction/trino-join-flip.png)
 
 CPU time, memory requirements and network bandwidth usage are the three
 dimensions that contribute to query execution time, both in single query and
-concurrent workloads. These dimensions are captured as the _cost_ in Presto.
+concurrent workloads. These dimensions are captured as the _cost_ in Trino.
 
 Our Data Scientist knows that most of the customers made at least one order and
 every order had at least one item (and many orders had many items), so
@@ -72,7 +74,7 @@ table names. This is where table statistics kick in.
 
 ## Table statistics
 
-Presto has [connector-based
+Trino has [connector-based
 architecture]({{site.url}}/docs/current/develop/connectors.html). A
 connector can provide [table and column
 statistics]({{site.url}}/docs/current/optimizer/statistics.html):
@@ -90,13 +92,13 @@ Cost-Based Optimizer will be able to use that.
 In our Data Scientist’s example, data sizes can look something like the
 following:
 
-![](/assets/blog/cbo-introduction/presto-data-table-statistics.png)
+![](/assets/blog/cbo-introduction/trino-data-table-statistics.png)
 
-Having this knowledge, [Presto’s Cost-Based
+Having this knowledge, [Trino’s Cost-Based
 Optimizer]({{site.url}}/docs/current/optimizer/cost-based-optimizations.html)
 will come up with completely different join ordering in the plan.
 
-![](/assets/blog/cbo-introduction/presto-cbo-results.png)
+![](/assets/blog/cbo-introduction/trino-cbo-results.png)
 
 ## Filter statistics
 
@@ -121,7 +123,7 @@ filtering as early as possible is the best strategy, but this also means the
 actual size of the data involved in the JOIN will be different now. In our Data
 Scientist’s example, the join order will indeed be different.
 
-![](/assets/blog/cbo-introduction/presto-cbo-results-with-filter.png)
+![](/assets/blog/cbo-introduction/trino-cbo-results-with-filter.png)
 
 # Under the Hood
 
@@ -154,7 +156,7 @@ goes bankrupt. Ultimately, however, we need to balance these trade-offs, which
 basically means that queries need to be executed as fast as possible, with as
 little resources as possible.
 
-In Presto, this is modeled with the concept of the cost, which captures
+In Trino, this is modeled with the concept of the cost, which captures
 properties like CPU cost, memory requirements and network bandwidth usage.
 Different variants of a query execution plan are explored, assigned a cost and
 compared. The variant with the least overall cost is selected for execution.
@@ -258,21 +260,21 @@ filter condition or are returned from the join.
 
 # Conclusion
 
-Summing up, Presto’s Cost-Based Optimizer is conceptually a very simple thing.
+Summing up, Trino’s Cost-Based Optimizer is conceptually a very simple thing.
 Alternative query plans are considered, the best plan is chosen and executed.
 Details are not so simple, though. Fortunately, to use
-[Presto]({{site.url}}/), one doesn’t need to know all these details.
+[Trino]({{site.url}}/), one doesn’t need to know all these details.
 Of course, anyone with a technical inclination that like to wander in database
-internals is invited to study [the Presto code]({{site.github_repo_url}})!
+internals is invited to study [the Trino code]({{site.github_repo_url}})!
 
-Enabling Presto CBO is really simple:
+Enabling Trino CBO is really simple:
 
 - set `optimizer.join-reordering-strategy=AUTOMATIC` and
   `join-distribution-type=AUTOMATIC` in your `config.properties`,
 - [analyze]({{site.url}}/docs/current/sql/analyze.html) your tables,
 - no, there is no third step. That’s it!
 
-Take Presto CBO for a spin today and let us know what is *your* Presto
+Take Trino CBO for a spin today and let us know about *your* Trino
 experience!
 
 □
