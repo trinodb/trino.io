@@ -178,24 +178,6 @@ focus areas are ease-of-use, security, robustness, wide range of
 integrations, and reliable support SLAs.
 
 </div>
-<div markdown="1" class="item">
-
-#### [Qubole](https://www.qubole.com/developers/presto-on-qubole/)
-
-Enterprise 24/7 Support, HotFixes, Multiple Trino Versions, Backporting of critical
-open source fixes and enhancements, Configuration, Tuning
-
-Qubole has been offering a managed Trino service since 2014.
-Qubole offers multiple Trino versions across multiple clouds
-(AWS, Azure and Google Cloud) and maintains a regular upgrade process.
-Qubole offers 24/7 support through its support and engineering
-teams spread across the globe. Qubole hotfixes critical production
-issues or major issues addressed in open source community. Qubole
-also backports critical fixes and major enhancements from recent
-versions of Trino to older versions. Qubole helps its users configure
-their clusters, fine tune their workloads and get the best out of Trino.
-
-</div>
 
 </div></div>
 
