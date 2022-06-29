@@ -471,22 +471,6 @@
     making data-driven decisions.
   urltext:
   url: https://www.treasuredata.com/
-- name: Varada
-  anchor: varada
-  logo: /assets/images/logos/varada.png
-  logosmall: /assets/images/logos/varada-small.png
-  testimonial: |
-    Varada uses Trino as the distributed SQL query engine for its unique
-    indexing-based query acceleration technology, supporting interactive queries
-    directly on the customer data lake and in the customer VPC. Varada indexes
-    any column in any table so data is fetched extremely fast. The indexing is
-    adaptive to the type of data, and Varada automatically indexes data based on
-    a smart observability layer that continuously monitors demand, business
-    requirements, priorities and budget. Varada is proud to be an
-    <a href="https://varada.io/blog/presto/dynamic-filtering-for-highly-selective-join-optimization/">active
-    contributor</a> to the Trino open-source community.
-  urltext:
-  url: https://varada.io/platform/
 #- name: Walmart
 #  logo: /assets/images/logos/walmart.png
 #  logosmall: /assets/images/logos/walmart-small.png
