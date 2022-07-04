@@ -125,6 +125,17 @@ to get started.
 
 <div markdown="1" class="item">
 
+#### [Datadog integration](https://docs.datadoghq.com/integrations/trino/)
+
+The Datadog integration allows the observability service for cloud-scale
+applications to monitor your Trino cluster. It accesses the [JMX metrics
+provided by Trino](/docs/current/admin/jmx.html), and exposes them in Datadog
+for monitoring, inspection, and troubleshooting purposes.
+
+</div>
+
+<div markdown="1" class="item">
+
 #### [Presto-Gateway](https://github.com/lyft/presto-gateway)
 
 Presto-Gateway is a gateway/proxy/load-balancer for multiple Trino clusters.
