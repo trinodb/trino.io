@@ -213,25 +213,6 @@ documentation](https://docs.starburst.io/starburst-galaxy/index.html).
 
 <div markdown="1" class="item">
 
-#### [Trino on Qubole](https://www.qubole.com/developers/presto-on-qubole/)
-
-Qubole has been offering a managed Trino service since 2014.
-Qubole has optimized Trino for the cloud. Qubole’s enhancements
-allow for dynamic cluster sizing, based on workload and termination
-of idle clusters — ensuring high reliability while reducing compute
-costs.
-
-Qubole offers multiple Trino versions across multiple clouds
-(AWS, Azure and Google Cloud) and maintains a regular upgrade process.
-Qubole blends the latest features from the open source community
-with Qubole’s proprietary solutions that boost performance,
-lower cost, improve user experience, and provide smooth
-administration of Trino clusters.
-
-</div>
-
-<div markdown="1" class="item">
-
 #### [Amazon Athena](https://aws.amazon.com/athena/)
 
 Amazon Athena is an interactive query service based on an older version of Trino
@@ -279,22 +260,6 @@ and usage-based pricing. Read more how to use Trino on AWS on our
 
 <div markdown="1" class="item">
 
-#### [Trino on Qubole on AWS](https://us.qubole.com/)
-
-Qubole offers a managed Trino service on AWS that is optimized
-for the cloud. Qubole supports cluster autoscaling based on
-workload and termination of idle clusters — ensuring high
-reliability while reducing compute costs. Qubole supports usage
-of spot nodes on AWS with built in failure resilience around spot
-termination notification handling and query retries. With Trino
-on Qubole, users can create heterogenous clusters with spot nodes
-from similar instance families that can further help reduce
-compute costs.
-
-</div>
-
-<div markdown="1" class="item">
-
 #### [Amazon EMR](https://aws.amazon.com/emr/)
 
 Amazon EMR provides a managed Hadoop framework that makes it easy,
@@ -323,19 +288,6 @@ Starburst Enterprise is available via the Azure Marketplace.
 
 </div>
 
-<div markdown="1" class="item">
-
-#### [Trino on Qubole on Azure](https://azure.qubole.com/)
-
-Qubole offers a managed Trino service on Azure that is optimized
-for the cloud. Qubole supports cluster autoscaling based on
-workload and termination of idle clusters — ensuring high
-reliability while reducing compute costs. Qubole supports
-both Gen1 and Gen2 of Azure Data Lake Storage (ADLS) as well as
-Azure Blob Storage.
-
-</div>
-
 ### Google Cloud {#gcp}
 
 <div markdown="1" class="item">
@@ -343,18 +295,6 @@ Azure Blob Storage.
 #### [Starburst Enterprise on Google Cloud](https://www.starburst.io/platform/deployment-options/starburst-on-google-cloud/)
 
 Starburst Enterprise is available via the Google Cloud Marketplace.
-
-#### [Trino on Qubole on Google Cloud](https://console.cloud.google.com/marketplace/details/qubole-public/qubole-data-service)
-
-Qubole offers a managed Trino service on Google Cloud that is optimized
-for cloud and is integrated with
-[Google Cloud marketplace](https://console.cloud.google.com/marketplace/details/qubole-public/qubole-data-service).
-Qubole supports cluster autoscaling based on workload and
-termination of idle clusters — ensuring high reliability while
-reducing compute costs. Qubole supports use of preemptible VMs in
-its autoscaling to reduce costs. Qubole has also added support for
-faster detection of query failures in Trino caused by preemptible
-VM interruption.
 
 </div>
 
