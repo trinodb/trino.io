@@ -76,7 +76,7 @@ title: Trino Community
           </div>
         </a>
         <div class="events-thirds-container">
-          <a href="https://www.meetup.com/topics/trino/" class="event-third-block"></a>
+          <a href="https://www.meetup.com/pro/trino-community/" class="event-third-block"></a>
           <a href="https://twitter.com/trinodb" class="event-third-block">
             <div>Follow us<h2>@trinodb</h2></div>
             <img src="../assets/images/community/twitter.png" alt="@trinodb on Twitter" />
