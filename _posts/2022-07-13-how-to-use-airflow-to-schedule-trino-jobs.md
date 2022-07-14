@@ -370,6 +370,6 @@ and join the conversation in the #project-tardigrade
 [channel](https://join.slack.com/share/enQtMzc3OTczMzkxNDU0OC1mNzEyOWUzNjUyMTgyNDU3ZGJlYTZjYTllYTI1ZmFhMDBlMzYwZWQzOGVkMjhhOGNlMmQ5MWIxM2RmNzZjNWY0). 
 
 
-<a class="btn btn-pink btn-md waves-effect waves-light" href="https://cutt.ly/airflow-reddit">Discuss on Reddit</a>
+<a class="btn btn-pink btn-md waves-effect waves-light" href="https://cutt.ly/airflow-reddit" target="_blank">Discuss on Reddit</a>
 
-<a class="btn btn-pink btn-md waves-effect waves-light" href="https://cutt.ly/airflow-hackernews">Discuss On Hacker News</a>
+<a class="btn btn-pink btn-md waves-effect waves-light" href="https://news.ycombinator.com/item?id=32102516" target="_blank">Discuss On Hacker News</a>
