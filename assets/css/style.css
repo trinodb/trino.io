@@ -59,6 +59,7 @@ p.lead {font-weight:400;}
 .btn {font-weight: 500; text-transform:none; font-size: 0.925rem; letter-spacing: 0.5px;}
 .nav-item {font-family: 'Roboto', sans-serif;font-weight:400;}
 .navbar {z-index: 2}
+.navbar .dropdown-menu a {padding: 10px 20px;}
 .navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link, .navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link {background-color:rgba(255,255,255,0) !important;border-bottom:solid 2px #dd00a1;}
 @media (max-width: 992px) {
   .navbar {padding-left: 0; padding-right: 0; padding-top:8px;}
@@ -70,6 +71,26 @@ p.lead {font-weight:400;}
   .navbar.navbar-dark .navbar-collapse .navbar-nav .nav-item.active>.nav-link {border-bottom: none;}
   .navbar-collapse .navbar-nav .nav-item.active>.nav-link {border-left: solid 4px #dd00a1; padding-left: 12px;}
 }
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: -5px;
+}
+
+.dropdown-block {
+  left: 0;
+  top: 100%;
+  z-index: 3;
+  background: white;
+  border-radius: 5px;
+  border: none;
+  margin: 10px 0;
+  overflow: hidden;
+  -webkit-box-shadow: 0 2px 5px rgb(0 10 44 / 56%), 0 2px 10px rgb(0 10 44 / 12%);
+  box-shadow: 0 2px 5px rgb(0 10 44 / 56%), 0 2px 10px rgb(0 10 44 / 12%);
+  font-family: sans-serif;
+}
+
 .img-thumbnail {
     padding: .5rem;
     background-color: #fff;

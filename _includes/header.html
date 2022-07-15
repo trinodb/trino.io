@@ -24,11 +24,28 @@
           <li class="nav-item {% if page.url contains '/resources' %}active{% endif %}">
             <a class="nav-link" href="/resources.html">Resources</a>
           </li>
-          <li class="nav-item {% if page.url contains '/community' %}active{% endif %}">
-            <a class="nav-link" href="/community.html">Community</a>
+          <li class="nav-item dropdown
+            {% if page.url contains '/community'
+              or page.url contains '/slack.html'
+              or page.url contains '/broadcast'
+              or page.url contains '/individual-code-of-conduct.html'
+              or page.url contains '/guidelines-corporate.html' %}active{% endif %}">
+            <a class="nav-link dropdown-toggle" href="/community.html">Community</a>
+            <div class="dropdown-menu dropdown-block">
+              <a class="dropdown-item" href="/slack.html">Slack</a>
+              <a class="dropdown-item" href="/broadcast">Community broadcast</a>
+              <a class="dropdown-item" href="/individual-code-of-conduct.html">Code of conduct</a>
+              <a class="dropdown-item" href="/guidelines-corporate.html">Corporate guidelines</a>
+            </div>
           </li>
-          <li class="nav-item {% if page.url contains '/development' %}active{% endif %}">
-            <a class="nav-link"  href="/development/">Development</a>
+          <li class="nav-item dropdown {% if page.url contains '/development' %}active{% endif %}">
+            <a class="nav-link dropdown-toggle" href="/development/">Development</a>
+            <div class="dropdown-menu dropdown-block">
+              <a class="dropdown-item" href="/development/vision.html">Vision</a>
+              <a class="dropdown-item" href="/development/process.html">Contribution process</a>
+              <a class="dropdown-item" href="/development/roles.html">Development roles</a>
+              <a class="dropdown-item" href="/docs/current/develop.html">Developer guide</a>
+            </div>
           </li>
           <li class="nav-item {% if page.url contains '/blog/' %}active{% endif %}">
             <a class="nav-link"  href="/blog/">Blog</a>
