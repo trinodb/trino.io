@@ -372,4 +372,4 @@ and join the conversation in the #project-tardigrade
 
 <a class="btn btn-pink btn-md waves-effect waves-light" href="https://cutt.ly/airflow-reddit">Discuss on Reddit</a>
 
-<a class="btn btn-pink btn-md waves-effect waves-light" href="https://cutt.ly/airflow-hackernews">Discuss On Hacker News</a>
+<a class="btn btn-pink btn-md waves-effect waves-light" href="https://news.ycombinator.com/item?id=32100426">Discuss On Hacker News</a>
