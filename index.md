@@ -21,6 +21,14 @@ title: Distributed SQL query engine for big data
   </div>
 </div>
 
+<div class="trino-birthday-banner">
+  <div class="trino-birthday-content">
+    <h1>Trino is celebrating its 10th Birthday!</h1>
+    <a class="btn trino-birthday-button" href="{{ site.url }}{% post_url 2022-08-08-trino-tenth-birthday %}">Learn more</a>
+    <img src="./assets/images/trino-birthday-banner-peek.png" class="trino-birthday-peek">
+  </div>
+</div>
+
 <div class="container">
   <div class="col-md-12 text-center spacer-60">
     <h2><strong>Join the fastest growing open-source analytics project</strong></h2>
