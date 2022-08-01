@@ -412,6 +412,74 @@ table td {
   }
 }
 
+/* Trino Birthday Banner */
+
+.trino-birthday-banner {
+  background-color: #000A2C;
+  box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.25), inset 0px 4px 8px rgba(0, 0, 0, 0.15);
+  position: relative;
+  width: 100%;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.trino-birthday-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 2rem;
+  position: relative;
+}
+
+.trino-birthday-content h1 {
+  color: #ffffff;
+  letter-spacing: 0.06rem;
+  margin-bottom: 1rem;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.trino-birthday-content img {
+  filter: drop-shadow(0px 4px 2px rgba(0,0,0,0.1));
+}
+
+.trino-birthday-peek {
+  position: absolute;
+  bottom: -10px;
+  width: 200px;
+  right: -200px;
+}
+
+.trino-birthday-button {
+  background-color: var(--pink);
+  color: #ffffff;
+}
+
+.trino-birthday-button:hover {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 769px) {
+  .trino-birthday-peek {
+    right: -200px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .trino-birthday-content h1 {
+    font-size: 1.25rem;
+    letter-spacing: 0;
+  }
+  .trino-birthday-content img:first-of-type {
+    width: 60%;
+  }
+  .trino-birthday-peek {
+    display: none;
+  }
+}
+
 /* Community Page */
 .community-content-section {
   display: flex;
