@@ -36,7 +36,7 @@ show_hero: true
 The following client libraries can be used to run queries from several
 programming languages, and programs using the related platform:
 
-* [Trino JDBC driver](docs/current/installation/jdbc.html) for Java/JVM
+* [Trino JDBC driver](docs/current/client/jdbc.html) for Java/JVM
 * [Starburst ODBC driver](https://www.starburst.io/platform/starburst-enterprise/) for Windows
 * [trino-go-client]({{site.github_org_url}}/trino-go-client) for Go
 * [presto-client-node](https://github.com/tagomoris/presto-client-node) for Node.js
