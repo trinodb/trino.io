@@ -35,8 +35,8 @@ all the configuration properties are the same.
 # Client protocol compatiblity
 
 The client protocol is how clients, such as the
-[CLI](docs/current/installation/cli.html) or
-[JDBC driver](/docs/current/installation/jdbc.html),
+[CLI](docs/current/client/cli.html) or
+[JDBC driver](/docs/current/client/jdbc.html),
 talk to Trino. It uses standard HTTP as the underlying communications
 protocol, with some custom HTTP headers to communicate values
 to and from Trino. Unfortunately, those header names started with

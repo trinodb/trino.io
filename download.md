@@ -28,7 +28,7 @@ show_hero: true
     <div class="card mb-4">
         <div class="card-body text-center">
             <h3 class="card-header-title mb-3">Command line client</h3>
-            <p class="card-text">You can run queries using the interactive <a href="docs/current/installation/cli.html">
+            <p class="card-text">You can run queries using the interactive <a href="docs/current/client/cli.html">
             command line interface</a>.</p>
             <!-- Download button -->
             {% download trino-cli -executable.jar %}
@@ -37,7 +37,7 @@ show_hero: true
     <div class="card mb-4">
         <div class="card-body text-center">
             <h3 class="card-header-title mb-3">JDBC driver</h3>
-            <p class="card-text">Connect to Trino from Java using the <a href="docs/current/installation/jdbc.html">
+            <p class="card-text">Connect to Trino from Java using the <a href="docs/current/client/jdbc.html">
             JDBC driver</a>, which is available in
             <a href="https://search.maven.org/artifact/io.trino/trino-jdbc/{{ site.trino_version }}/jar">Maven Central</a>.</p>
             <!-- Download button -->
