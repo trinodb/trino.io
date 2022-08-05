@@ -45,7 +45,7 @@ See us live every two weeks!
 <a href="https://podcasts.apple.com/us/podcast/trino-community-broadcast/id1533484786" target="_blank">
   <i class="fab fa-apple watch-listen-icon" title="Apple"></i>
 </a>
-<a href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8xMzc0NTMyLnJzcw==" target="_blank">
+<a href="https://podcasts.google.com/feed/aHR0cHM6Ly9mYXN0Lndpc3RpYS5jb20vY2hhbm5lbHMvN2Z1dzA0czd2Yy9yc3M" target="_blank">
   <i class="fab fa-google watch-listen-icon" title="Google"></i>
 </a>
 <a href="https://open.spotify.com/show/53ZrVCCmZSsEmvlNfzpWSL" target="_blank">
