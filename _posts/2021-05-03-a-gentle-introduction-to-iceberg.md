@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Trino On Ice I: A Gentle Introduction To Iceberg"
+title:  "Trino on ice I: A gentle introduction To Iceberg"
 author: Brian Olsen
 excerpt_separator: <!--more-->
 canonical_url: https://blog.starburstdata.com/trino-on-ice-i-a-gentle-introduction-to-iceberg
@@ -10,9 +10,17 @@ canonical_url: https://blog.starburstdata.com/trino-on-ice-i-a-gentle-introducti
  <img align="center" width="100%" height="100%" src="/assets/blog/trino-on-ice/trino-iceberg.png"/>
 </p>
 
-Originally published on [the Starburst engineering blog](https://blog.starburstdata.com/trino-on-ice-i-a-gentle-introduction-to-iceberg).
+Welcome to the Trino on ice series, covering the details around how the Iceberg
+table format works with the Trino query engine. The examples build on each
+previous post, so it's recommended to read the posts sequentially and reference
+them as needed later. Here are links to the posts in this series:
 
-Back in the [Gentle introduction to the Hive connector]({{ site.url }}{% post_url 2020-10-20-intro-to-hive-connector %}) 
+* [Trino on ice I: A gentle introduction to Iceberg]({% post_url 2021-05-03-a-gentle-introduction-to-iceberg %})
+* [Trino on ice II: In-place table evolution and cloud compatibility with Iceberg]({% post_url 2021-07-12-in-place-table-evolution-and-cloud-compatibility-with-iceberg %})
+* [Trino on ice III: Iceberg concurrency model, snapshots, and the Iceberg spec]({% post_url 2021-07-30-iceberg-concurrency-snapshots-spec %})
+* [Trino on ice IV: Deep dive into Iceberg internals]({% post_url 2021-08-12-deep-dive-into-iceberg-internals %})
+
+Back in the [Gentle introduction to the Hive connector]({% post_url 2020-10-20-intro-to-hive-connector %}) 
 blog post, I discussed a commonly misunderstood architecture and uses of the 
 Trino Hive connector. In short, while some may think the name indicates Trino 
 makes a call to a running Hive instance, the Hive connector does not use the 
@@ -62,7 +70,7 @@ Hive. This post is the first in a series of blog posts discussing Apache Iceberg
 great detail, through the lens of the Trino query engine user. If you’re not 
 aware of Trino (formerly PrestoSQL) yet, it is the project that houses the 
 founding Presto community after the 
-[founders of Presto left Facebook](https://trino.io/blog/2020/12/27/announcing-trino.html).
+[founders of Presto left Facebook]({{ site.url }}/blog/2020/12/27/announcing-trino.html).
 This and the next couple of posts discuss the Iceberg specification and all
 the features Iceberg has to offer, many times in comparison with Hive. 
 
@@ -183,11 +191,25 @@ VALUES
 Notice that the last partition value `'2021-04-01'` has to match the `TIMESTAMP` 
 date during insertion. There is no validation in Hive to make sure this is 
 happening because it only requires a `VARCHAR` and knows to partition based on 
-different values. Likewise, if a user runs this DML statement, they get the
-correct results back, but have to scan all the data in the process as they
-forgot to include the `event_time_day < '2021-04-02'` predicate in the `WHERE` 
+different values. 
+
+On the other hand, If a user runs the following query:
+
+```
+SELECT *
+FROM hive.logging.events
+WHERE event_time < timestamp '2021-04-02';
+```
+they get the correct results back, but have to scan all the data in the table:
+
+| level | event_time | message | call_stack |
+| --- | --- | --- | --- |
+|ERROR|2021-04-01 12:00:00|Oh noes|Exception in thread "main" java.lang.NullPointerException| 
+
+This happens because the user forgot to include the 
+`event_time_day < '2021-04-02'` predicate in the `WHERE` 
 clause. This eliminates all the benefits that led us to create the partition in
-the first place.
+the first place and yet frequently this is missed by the users of these tables.
 
 ```
 SELECT *
@@ -196,16 +218,11 @@ WHERE event_time < timestamp '2021-04-02'
 AND event_time_day < '2021-04-02';
 ```
 
-```
-SELECT *
-FROM hive.logging.events
-WHERE event_time < timestamp '2021-04-02';
-```
-
 Result:
-```
+
+| level | event_time | message | call_stack |
+| --- | --- | --- | --- |
 |ERROR|2021-04-01 12:00:00|Oh noes|Exception in thread "main" java.lang.NullPointerException|
-```
 
 ### Iceberg Partitions 
 
@@ -268,9 +285,10 @@ WHERE event_time < timestamp '2021-04-02';
 ```
 
 Result:
-```
+
+| level | event_time | message | call_stack |
+| --- | --- | --- | --- |
 |ERROR|2021-04-01 12:00:00|Oh noes|Exception in thread "main" java.lang.NullPointerException|
-```
 
 So hopefully that gives you a glimpse into what a table format and specification
 are, and why Iceberg is such a wonderful improvement over the existing and 
@@ -282,6 +300,6 @@ a lot of aspects of Iceberg’s capabilities, this is just the tip of the Iceber
 </p>
 
 If you want to play around with Iceberg using Trino, check out the 
-[Trino Iceberg docs](https://trino.io/docs/current/connector/iceberg.html).
+[Trino Iceberg docs]({{ site.url }}/docs/current/connector/iceberg.html).
 The next post covers how table evolution works in Iceberg, as well as, how 
 Iceberg is an improved storage format for cloud storage. 

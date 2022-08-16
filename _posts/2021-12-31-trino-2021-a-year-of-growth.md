@@ -43,7 +43,7 @@ Let's take a look at the Trino project growth by the numbers:
 * 491 new subscribers 📺 in YouTube
 * 23 Trino Community Broadcast ▶️ episodes
 * 17 Trino 🚀 releases
-* 11 blog ✍️ posts
+* 13 blog ✍️ posts
 * 10 Trino 🍕 meetups
 * 1 Trino ⛰️ Summit
 

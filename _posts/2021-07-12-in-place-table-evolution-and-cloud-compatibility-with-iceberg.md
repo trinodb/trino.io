@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Trino On Ice II: In-Place Table Evolution and Cloud Compatibility with Iceberg"
+title:  "Trino on ice II: In-place table evolution and cloud compatibility with Iceberg"
 author: Brian Olsen
 excerpt_separator: <!--more-->
 canonical_url: https://blog.starburst.io/trino-on-ice-ii-in-place-table-evolution-and-cloud-compatibility-with-iceberg
@@ -10,10 +10,17 @@ canonical_url: https://blog.starburst.io/trino-on-ice-ii-in-place-table-evolutio
  <img align="center" width="100%" height="100%" src="/assets/blog/trino-on-ice/trino-iceberg.png"/>
 </p>
 
-Originally published on [the Starburst blog](https://blog.starburst.io/trino-on-ice-ii-in-place-table-evolution-and-cloud-compatibility-with-iceberg).
+Welcome to the Trino on ice series, covering the details around how the Iceberg
+table format works with the Trino query engine. The examples build on each
+previous post, so it's recommended to read the posts sequentially and reference
+them as needed later. Here are links to the posts in this series:
 
-Welcome back to this blog post series discussing the awesome features of Apache 
-Iceberg. [The first post]({{ site.url }}{% post_url 2021-05-03-a-gentle-introduction-to-iceberg %}) 
+* [Trino on ice I: A gentle introduction to Iceberg]({% post_url 2021-05-03-a-gentle-introduction-to-iceberg %})
+* [Trino on ice II: In-place table evolution and cloud compatibility with Iceberg]({% post_url 2021-07-12-in-place-table-evolution-and-cloud-compatibility-with-iceberg %})
+* [Trino on ice III: Iceberg concurrency model, snapshots, and the Iceberg spec]({% post_url 2021-07-30-iceberg-concurrency-snapshots-spec %})
+* [Trino on ice IV: Deep dive into Iceberg internals]({% post_url 2021-08-12-deep-dive-into-iceberg-internals %})
+
+[The first post]({% post_url 2021-05-03-a-gentle-introduction-to-iceberg %}) 
 covered how Iceberg is a table format and not a file format It demonstrated the
 benefits of hidden partitioning in Iceberg in contrast to exposed partitioning 
 in Hive. There really is no such thing as “exposed partitioning.” I just thought
@@ -190,14 +197,14 @@ SELECT level, message, priority
 FROM iceberg.logging.events;
 ```
 
-Result
+Result:
 
-```
-ERROR	Double oh noes  NULL
-WARN	Maybeh oh noes? NULL
-ERROR	Oh noes         NULL
-INFO  es muy bueno    1
-```
+| level |  message | priority |
+| --- | --- | --- |
+| ERROR | Double oh noes | NULL |
+| WARN | Maybeh oh noes? | NULL |
+| ERROR | Oh noes | NULL |
+| INFO | es muy bueno | 1 |
 
 ```
 ALTER TABLE iceberg.logging.events 
@@ -277,8 +284,8 @@ This is especially true on cloud object stores.
 
 
 If you want to play around with Iceberg using Trino, check out the 
-[Trino Iceberg docs](https://trino.io/docs/current/connector/iceberg.html) or if
-you use Starburst Enterprise, the [Starburst Iceberg docs](https://docs.starburst.io/latest/connector/iceberg.html). 
+[Trino Iceberg docs]({{site.url}}/docs/current/connector/iceberg.html). 
 To avoid issues like the eventual consistency issue, as well as other problems 
 of trying to sync operations across systems, Iceberg provides optimistic 
-concurrency support, which is covered in more detail in the next post. 
+concurrency support, which is covered in more detail in
+[the next post]({% post_url 2021-07-30-iceberg-concurrency-snapshots-spec %}). 
