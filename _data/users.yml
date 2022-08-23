@@ -270,6 +270,20 @@
   logo: /assets/images/logos/quintoandar.png
   logosmall: /assets/images/logos/quintoandar-small.png
   #   https://medium.com/quintoandar-tech-blog/building-a-sql-engine-infrastructure-at-quintoandar-73540e136c4e
+- name: Raft
+  anchor: raft
+  logo: /assets/images/logos/raft.png
+  logosmall: /assets/images/logos/raft-small.png
+  testimonial: |
+    Trino provides Raft with a distributed query engine that can be deployed to
+    the most secure networks of the Department of Defense. We work in an
+    environment which data is highly siloed by nature. Trino provides a scalable
+    solution to drive decisions from data coming from the edge which can connect
+    to virtually any source. It is key to our strategy of deploying a Data
+    Fabric, reducing the time to insights for our customers, and in return lower
+    their operating costs.
+  urltext:
+  url: https://goraft.tech
 - name: Rapido
   anchor: rapido
   logo: /assets/images/logos/rapido.png
