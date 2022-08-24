@@ -297,6 +297,20 @@
     visualisation with Metabase and Superset.
   urltext:
   url: https://rapido.bike/
+- name: Razorpay
+  anchor: razorpay
+  logo: /assets/images/logos/razorpay.png
+  logosmall: /assets/images/logos/razorpay-small.png
+  testimonial: |
+    We chose Trino because it is fast, scalable, and integrates well within our
+    ecosystem. We use Apache Spark and Hudi to replicate data from OLTP
+    databases and ingest events emitted by microservices in our AWS S3 data lake
+    while using Hive Metastore to store table definitions and metadata. Trino
+    made it easy to query these raw tables and derive insights from them as our
+    users were already comfortable with SQL.
+  urltext:
+  url: https://razorpay.com/
+  #   https://engineering.razorpay.com/how-trino-and-alluxio-power-analytics-at-razorpay-803d3386daaf
 - name: Resurface
   anchor: resurface
   logo: /assets/images/logos/resurface.png
