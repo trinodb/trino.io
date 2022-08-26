@@ -17,6 +17,14 @@
   logosmall: /assets/images/logos/alphaa-ai-small.png
   # https://www.linkedin.com/feed/update/urn:li:activity:6759582016972451840?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6759582016972451840%2C6760182639619002368%29
   url: https://www.alphaa.ai/
+- name: Airbnb
+  #anchor: airbnb
+  logo: /assets/images/logos/airbnb.png
+  logosmall: /assets/images/logos/airbnb-small.png
+  urltext:
+  url: https://airbnb.io/
+  # https://careers.airbnb.com/positions/4445171/
+  # https://web.archive.org/web/20220729070012/https://startup.jobs/senior-software-engineer-interactive-compute-engine-airbnb-3528132
 - name: Amazon AWS
   anchor: amazon
   logo: /assets/images/logos/amazon-aws.png
@@ -46,6 +54,13 @@
     ground up to operate seamlessly in hybrid and multi-cloud environments.
   urltext: Visit the Ampool website for more information!
   url: https://www.ampool-inc.com/
+- name: Backblaze
+  #anchor: backblaze
+  logo: /assets/images/logos/backblaze.png
+  logosmall: /assets/images/logos/backblaze-small.png
+  urltext:
+  url: https://www.backblaze.com/
+  # https://www.backblaze.com/blog/storing-and-querying-analytical-data-in-backblaze-b2/
 - name: Bazaar Technologies
   anchor: bazaar_technologies
   logo: /assets/images/logos/bazaar-technologies.png
@@ -59,6 +74,13 @@
     provide best in class customer experience.
   urltext:
   url: https://www.bazaar-tech.com/
+- name: BlueCat
+  #anchor: bluecat
+  logo: /assets/images/logos/bluecat.png
+  logosmall: /assets/images/logos/bluecat-small.png
+  urltext:
+  url: https://bluecatnetworks.com/
+  # https://youtu.be/7P1qqhgzNbA
 - name: Chasing Securities
   anchor: chasing_securities
   logo: /assets/images/logos/chasing-securities.png
@@ -135,6 +157,13 @@
   logo: /assets/images/logos/eventbrite.png
   logosmall: /assets/images/logos/eventbrite-small.png
   # https://www.eventbrite.com/engineering/teaching-new-presto-performance-tricks-to-the-old-school-dba/
+- name: Electronic Arts
+  #anchor: electronic_arts
+  logo: /assets/images/logos/electronic-arts.png
+  logosmall: /assets/images/logos/electronic-arts-small.png
+  urltext:
+  url: https://www.ea.com/
+  # https://www.youtube.com/watch?v=KY5DhWSqjGg
 - name: Gett
   anchor: gett
   logo: /assets/images/logos/gett.png
@@ -146,6 +175,13 @@
     results to the visualisation tools to get wiser business decisions.
   urltext:
   url: https://gett.com/intl/
+- name: Goldman Sachs
+  #anchor: goldman_sachs
+  logo: /assets/images/logos/goldman-sachs.png
+  logosmall: /assets/images/logos/goldman-sachs-small.png
+  urltext:
+  url: https://developer.gs.com/
+  # https://developer.gs.com/blog/posts/enabling-highly-available-trino-clusters-at-goldman-sachs
 - name: Grab
   logo: /assets/images/logos/grab.png
   logosmall: /assets/images/logos/grab-small.png
@@ -217,6 +253,7 @@
 - name: MoEngage
   logo: /assets/images/logos/moengage.png
   logosmall: /assets/images/logos/moengage-small.png
+  #   https://moengage.recruiterbox.com/jobs/fk0uue1/
 - name: Myntra
   anchor: myntra
   logo: /assets/images/logos/myntra.png
@@ -233,7 +270,6 @@
     wide array of workloads ranging from ad-hoc to batch queries.
   urltext:
   url: https://www.myntra.com/
-#   https://moengage.recruiterbox.com/jobs/fk0uue1/
 - name: Netflix
   logo: /assets/images/logos/netflix.png
   logosmall: /assets/images/logos/netflix-small.png
@@ -311,6 +347,13 @@
   urltext:
   url: https://razorpay.com/
   #   https://engineering.razorpay.com/how-trino-and-alluxio-power-analytics-at-razorpay-803d3386daaf
+- name: Red Hat
+  #anchor: redhat
+  logo: /assets/images/logos/redhat.png
+  logosmall: /assets/images/logos/redhat-small.png
+  urltext:
+  url: https://redhat.com/
+  # https://www.youtube.com/watch?v=M_1A-MEwi6Y
 - name: Resurface
   anchor: resurface
   logo: /assets/images/logos/resurface.png
@@ -326,6 +369,13 @@
     consistently fast performance at any scale and budget.
   urltext:
   url: https://resurface.io/
+- name: Robinhood
+  #anchor: robinhood
+  logo: /assets/images/logos/robinhood.png
+  logosmall: /assets/images/logos/robinhood-small.png
+  urltext:
+  url: https://robinhood.com/
+  # https://robinhood.engineering/author-balaji-varadarajan-e3f496815ebf
 - name: Salesforce
   logo: /assets/images/logos/salesforce.jpg
   logosmall: /assets/images/logos/salesforce-small.png
@@ -378,6 +428,13 @@
     provides exactly that.
   urltext:
   url: https://www.swrve.com/
+- name: Talkdesk
+  #anchor: talkdesk
+  logo: /assets/images/logos/talkdesk.png
+  logosmall: /assets/images/logos/talkdesk-small.png
+  urltext:
+  url: https://www.talkdesk.com/
+  # https://www.youtube.com/watch?v=qCOnWzOS84Y
 - name: Treasure Data
   anchor: treasuredata
   logo: /assets/images/logos/treasure-data.png
