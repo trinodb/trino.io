@@ -17,14 +17,6 @@
   logosmall: /assets/images/logos/alphaa-ai-small.png
   # https://www.linkedin.com/feed/update/urn:li:activity:6759582016972451840?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6759582016972451840%2C6760182639619002368%29
   url: https://www.alphaa.ai/
-- name: Airbnb
-  #anchor: airbnb
-  logo: /assets/images/logos/airbnb.png
-  logosmall: /assets/images/logos/airbnb-small.png
-  urltext:
-  url: https://airbnb.io/
-  # https://careers.airbnb.com/positions/4445171/
-  # https://web.archive.org/web/20220729070012/https://startup.jobs/senior-software-engineer-interactive-compute-engine-airbnb-3528132
 - name: Amazon AWS
   anchor: amazon
   logo: /assets/images/logos/amazon-aws.png
