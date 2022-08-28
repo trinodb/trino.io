@@ -37,7 +37,7 @@ believed that the most successful projects are open source.
 Getting other people and companies involved makes for a healthier project. You
 end up not just building something that satisfies your needs, but needs from
 everyone else, and in turn, you benefit. We reached out personally to
-people from companies like Airbnb, Dropbox, Netflix, and LinkedIn to get them
+people from companies like Dropbox, Netflix, and LinkedIn to get them
 involved because we wanted to bootstrap a real community. Five people at
 Facebook hacking away was not enough. We actually had these companies beta test
 Presto, so that when we launched, the problems that they had found were fixed.
