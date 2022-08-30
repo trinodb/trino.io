@@ -1,3 +1,14 @@
+################################################################################
+# Data for the users display on the home page and the detailed users page:
+#
+# * https://trino.io
+# * https://trino.io/users.html
+#
+# The following companies are listed for their usage of Trino. Inclusion of a
+# marquee on the Trino site does not imply an endorsement of that company from
+# the Trino Software Foundation.
+#
+################################################################################
 - name: AdLibertas
   anchor: adlibertas
   logo: /assets/images/logos/adlibertas.png
