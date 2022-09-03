@@ -92,6 +92,19 @@
   urltext:
   url: https://bluecatnetworks.com/
   # https://youtu.be/7P1qqhgzNbA
+- name: Careem
+  anchor: Careem
+  logo: /assets/images/logos/careem.png
+  logosmall: /assets/images/logos/careem-small.png
+  testimonial: |
+    Trino, the distributed query engine for big data that uses the SQL query language,
+    became the tool of choice for ad hoc data analysis at Careem. Paired with dashboarding tools,
+    Presto is a valuable platform to quickly analyze data. Many data analysts and data scientists 
+    use Jupyter Notebooks consistently to write automated reports and schedule queries. 
+    This makes Presto one of the most critical services to serve as a backbone of data access 
+    for the majority of our colleagues.
+  urltext:
+  url: https://careem.com/
 - name: Chasing Securities
   anchor: chasing_securities
   logo: /assets/images/logos/chasing-securities.png
