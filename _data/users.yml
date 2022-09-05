@@ -99,9 +99,9 @@
   testimonial: |
     Trino, the distributed query engine for big data that uses the SQL query language,
     became the tool of choice for ad hoc data analysis at Careem. Paired with dashboarding tools,
-    Presto is a valuable platform to quickly analyze data. Many data analysts and data scientists 
+    Trino is a valuable platform to quickly analyze data. Many data analysts and data scientists 
     use Jupyter Notebooks consistently to write automated reports and schedule queries. 
-    This makes Presto one of the most critical services to serve as a backbone of data access 
+    This makes Trino one of the most critical services to serve as a backbone of data access 
     for the majority of our colleagues.
   urltext:
   url: https://careem.com/
