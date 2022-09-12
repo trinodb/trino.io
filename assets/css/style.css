@@ -1010,3 +1010,33 @@ table td {
     flex: 33.33%;
   }
 }
+
+/**
+ * Three Column Grid
+ */
+
+.three-column-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.three-column-grid > .three-column-grid-item {
+  display: flex;
+  flex-direction: column;
+  word-break: break-word;
+}
+
+.three-column-grid > .three-column-grid-item > iframe {
+  flex: 0;
+  aspect-ratio: 16 / 9;
+	height: 100%;
+	width: 100%;
+}
+
+@media screen and (max-width:768px) {
+  .three-column-grid {
+    grid-template-columns: 1fr;
+  }
+}
