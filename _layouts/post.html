@@ -21,6 +21,11 @@ layout: blog
   </header>
 
   <div class="content width clearfix" itemprop="articleBody">
+    {%- if page.image -%}
+    <div>
+      <img src="{{ page.image }}">
+    </div>
+    {%- endif -%}
     {{ content }}
   </div>
 
