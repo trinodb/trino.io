@@ -3,9 +3,8 @@ layout: post
 title: "Happy tenth birthday Trino!"
 author: "Brian Olsen, Martin Traverso, Dain Sundstrom, David Phillips, Eric Hwang"
 excerpt_separator: <!--more-->
+image: /assets/blog/trino-tenth-birthday/how-it-started-going.png
 ---
-
-![](/assets/blog/trino-tenth-birthday/how-it-started-going.png)
 
 It’s inspiring and mindblowing to reflect on the ten year journey that has
 produced the community around Trino. Trino is the community-driven fork from

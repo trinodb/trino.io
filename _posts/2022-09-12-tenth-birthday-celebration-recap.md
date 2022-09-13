@@ -3,13 +3,12 @@ layout: post
 title: "Trino's tenth birthday celebration recap"
 author: "Brian Olsen"
 excerpt_separator: <!--more-->
+image: /assets/blog/trino-tenth-birthday/creators.jpeg
 ---
 
 What an exciting month we had in August! August marked the ten-year birthday of
 the Trino project. Don't worry if you missed all the excitment as we've
 condensed it all in this post.
-
-![](/assets/blog/trino-tenth-birthday/creators.jpeg)
 
 <!--more-->
 
