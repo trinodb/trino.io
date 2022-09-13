@@ -10,7 +10,6 @@ title: Trino blog
     {% for post in site.posts limit:3 %}
       <div class="latest-blog card">
         <div>
-          <p style="font-weight:600;">The Latest</p>
           <h3 class="blog-title"><a href="{{ post.url }}">{{post.title}}</a></h3>
           <p class="caption">{{ post.date | date_to_string }} | {{ post.author }}</p>
           <p>{{ post.excerpt }}</p>
