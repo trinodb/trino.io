@@ -7,10 +7,9 @@ title: Trino blog
 
 <div class="row blog-page">
   <div class="col-12">
-    {% for post in site.posts limit:1 %}
+    {% for post in site.posts limit:3 %}
       <div class="latest-blog card">
         <div>
-          <p style="font-weight:600;">The Latest</p>
           <h3 class="blog-title"><a href="{{ post.url }}">{{post.title}}</a></h3>
           <p class="caption">{{ post.date | date_to_string }} | {{ post.author }}</p>
           <p>{{ post.excerpt }}</p>
@@ -23,7 +22,7 @@ title: Trino blog
     {% endfor %}
     <h3>Recent</h3>
     <div class="blog-cards">
-      {% for post in site.posts offset:1 limit:6 %}
+      {% for post in site.posts offset:3 limit:9 %}
         <div class="card post-card square">
           <!-- Card content -->
           <div class="card-body">

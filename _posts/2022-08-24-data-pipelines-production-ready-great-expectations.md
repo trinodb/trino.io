@@ -3,6 +3,7 @@ layout: post
 title: "Make your Trino data pipelines production ready with Great Expectations"
 author: "Brian Olsen, Brian Zhan"
 excerpt_separator: <!--more-->
+image: /assets/blog/data-pipelines-production-ready-great-expectations/trino-ge.png
 ---
 
 An important aspect of a good data pipeline is ensuring data quality. 
@@ -17,9 +18,6 @@ is the human readable documentation that results from these tests. As you roll
 out different versions of the code, you get alerted to any unexpected changes
 and have version-specific generated documentation for what changed. Let's learn
 how to write expectations on tables in Trino!
-
-![](/assets/blog/data-pipelines-production-ready-great-expectations/trino-ge.png)
-
 
 <!--more-->
 
