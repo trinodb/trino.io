@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Trino charms Python"
-author: "Manfred Moser, Brian Zhan, Dain Sunstrom"
+author: "Manfred Moser, Brian Zhan, Dain Sundstrom"
 excerpt_separator: <!--more-->
 image: /assets/images/logos/python.png
 survey_url: https://forms.gle/4bzMPZxby6E4xKm98
