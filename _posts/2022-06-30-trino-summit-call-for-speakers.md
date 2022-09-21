@@ -17,9 +17,6 @@ whether you'll be joining us in-person or online.
     <a class="btn btn-pink" href="https://www.starburst.io/info/trinosummit/">
         Register to attend
     </a>
-    <a class="btn btn-orange" href="https://sessionize.com/trino-summit-2022/">
-        Sign up to speak
-    </a>
 </div>
 <div class="spacer-30"></div>
 
@@ -43,3 +40,6 @@ can check out the speaker registration page for more information.
 
 And of course, we're looking forward to seeing you there, whether in-person or
 online!
+
+*Update from 15th September 2022:* The call for speakers is closed. Thank you
+for all your submissions.
