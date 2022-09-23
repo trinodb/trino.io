@@ -35,7 +35,7 @@ reviews, impact on other contributors, and to keep the amount of rework from the
 
 4. Create a Github [pull request]({{site.github_repo_url}}/pulls) (PR).
 
-    1. Make sure the pull request passes the tests in Travis CI.
+    1. Make sure the pull request passes the tests in CI.
     2. If known, request a review from an expert in the area changed.  If unknown, ask for help on [Slack](/slack.html).
 
 5. Review is performed by one or more reviewers.
