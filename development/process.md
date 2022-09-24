@@ -46,7 +46,7 @@ reviewers, impact on other contributors, and to keep the amount of rework from t
 6. Address concerns and update the pull request.
 
     1. Comments are attached to each individual commit in the pull, and changes should be addressed in a
-       new `Fixup!` commit placed after each commit.  This is to make it easier for the reviewer to see what was updated.
+       new [`fixup!` commit](https://git-scm.com/docs/git-commit#Documentation/git-commit.txt---fixupamendrewordltcommitgt) placed after each commit.  This is to make it easier for the reviewer to see what was updated.
     2. After pushing the changes, add a comment to the pull-request, mentioning the reviewers by name, stating
        the change have been addressed.  This is the only way that a reviewer is notified that you are ready
        for the code to be reviewed again.
