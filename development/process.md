@@ -15,7 +15,7 @@ show_hero: true
 
 
 This is the process we suggest for contributions.  This process is designed to reduce the burden on project 
-reviews, impact on other contributors, and to keep the amount of rework from the contributor to a minimum.
+reviewers, impact on other contributors, and to keep the amount of rework from the contributor to a minimum.
 
 1. Sign the [contributor license agreement]({{site.github_org_url}}/cla).
 
@@ -41,7 +41,7 @@ reviews, impact on other contributors, and to keep the amount of rework from the
 5. Review is performed by one or more reviewers.
 
     1. This normally happens within a few days, but may take longer if the change is large, complex, or if a
-       critical reviewer is unavailable. (feel free to ping the pull request).
+       critical reviewer is unavailable. (feel free to ping the reviewer on the pull request).
 
 6. Address concerns and update the pull request.
 
