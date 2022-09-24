@@ -91,7 +91,7 @@ migration strategy, how we optimized Trino’s write performance and how to
 recover from corrupt table states. Finally, I will compare the query performance
 of old and migrated datasets using Shopify’s datasets as benchmarks.
 
-Mark Laforet, Senior Data Engineer at Shopify
+Marc Laforet, Senior Data Engineer at Shopify
 
 ### Federating them all on Starburst Galaxy!
 
