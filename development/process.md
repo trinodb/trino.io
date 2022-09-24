@@ -55,8 +55,6 @@ reviewers, impact on other contributors, and to keep the amount of rework from t
 
 7. Maintainer merges the pull request after final changes are accepted.
 
-8. Add release notes to the [issue]({{site.github_repo_url}}/labels/release-notes) for the upcoming release.
-
 </div>
 </div>
 </div>
