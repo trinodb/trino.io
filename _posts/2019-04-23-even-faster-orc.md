@@ -5,7 +5,7 @@ author: Dain Sundstrom, Martin Traverso
 image: /assets/blog/orc-speedup.png
 ---
 
-Presto is known for being the fastest SQL on Hadoop engine, and our custom ORC
+Trino is known for being the fastest SQL on Hadoop engine, and our custom ORC
 reader implementation is a big reason for this speed -- now it is even faster!
 
 ## Why is this important?
@@ -57,7 +57,7 @@ return builder.build();
 
 This code does a few things well. First, for the _all values are null_ case, it
 returns a run length encoded block which has custom optimizations throughout
-Presto (this [optimization]({{site.github_repo_url}}/pull/229) was
+Trino (this [optimization]({{site.github_repo_url}}/pull/229) was
 recently added by [Praveen Krishna](https://github.com/Praveen2112)). Secondly,
 it separates the unconditional _no nulls_ loop from the conditional _mixed nulls_
 loop. It is common to have a column without nulls, so it makes sense to split
@@ -72,7 +72,7 @@ On the downside, this code has several performance issues:
 
 ### Optimize for bulk reads
 
-As you can see from the code above, Presto is always loading values in batches
+As you can see from the code above, Trino is always loading values in batches
 (typically 1024). This makes the reader and the downstream code more efficient as
 the overhead of processing data is amortized over the batch, and in some cases
 data can be processed in parallel. ORC has a small number of low level decoders
@@ -227,8 +227,8 @@ There are a number of reasons you may get a larger or smaller win:
 * The compression matters: In our tests we used zlib, which is the most expensive
   compression supported by ORC. Compression algorithms that use less CPU (e.g.,
   Zstd, LZ4, or Snappy) will generally see larger relative improvements.
-* This improvement is only in [Presto 309+]({{site.url}}/download.html),
+* This improvement is only in [Trino 309+]({{site.url}}/download.html),
   so if you are using an earlier version you will need to upgrade. Also, if you are
-  still using Facebook’s version of Presto, you can either upgrade to Presto 309+ or
+  still using Facebook’s version of Presto, you can either upgrade to Trino 309+ or
   wait to see if they backport it.
 
