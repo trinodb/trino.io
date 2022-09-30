@@ -45,7 +45,7 @@ Authors Matt Fuller, Manfred Moser, and Martin Traverso show you how a single
 Trino query can combine data from multiple sources to allow for analytics across
 your entire organization.
 
-Get started: Explore Trino's use cases, and learn about tools that help you
+Get started: Explore Trino's use cases and learn about tools that help you
 connect to Trino for querying and processing huge amounts of data
 
 Go deeper: Learn Trino's internal workings, including how to connect to and
@@ -56,7 +56,7 @@ Put Trino in production: Deploy and secure Trino at scale, monitor workloads,
 tune queries, and connect more applications; Learn how other organizations apply
 Trino successfully
 
-* [O'Reilly Media book page](https://learning.oreilly.com/library/view/trino-the-definitive/9781098107703/)
+* [O'Reilly Media book page](https://www.oreilly.com/library/view/trino-the-definitive/9781098137229/)
 * [Chinese translation available from JD](https://item.jd.com/10028492426649.html)
 * [Example code repository]({{site.github_org_url}}/trino-the-definitive-guide)
 * [Free digital copy from Starburst](https://www.starburst.io/info/oreilly-trino-guide/)
