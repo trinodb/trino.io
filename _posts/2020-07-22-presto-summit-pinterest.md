@@ -20,7 +20,7 @@ the slides and video recording:
 
 [Download the slides](https://www.starburst.io/wp-content/uploads/2020/08/Presto-Summit-Webinar-Series-Presto-at-Pinterest.pdf)
 
-{% youtube fB1PNS5BefQ %}
+{% youtube mZ59CTOPkl8 %}
 
 <!--more-->
 

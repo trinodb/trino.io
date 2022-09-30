@@ -20,7 +20,7 @@ Update:
 We had a great event with some in-depth, detailed questions from the audience.
 Check out the recording to learn more:
 
-{% youtube N40joxgN2Ek %}
+{% youtube NGMugRsNraE %}
 
 <!--more-->
 

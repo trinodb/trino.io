@@ -15,7 +15,7 @@ Update:
 We had a great event with lots of questions from the audience, taking us beyond
 the planned time frame. Check out the recording to learn more:
 
-{% youtube sbOHn_F2M0w %}
+{% youtube epdgIsAT3EA %}
 
 <!--more-->
 
