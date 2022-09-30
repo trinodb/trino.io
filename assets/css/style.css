@@ -197,7 +197,7 @@ footer .footer-copyright {font-size: 0.7rem;}
 }
 .announcement {background: #dd00a1;  padding: 1rem; text-align: center;}
 .announcement h2 {font-size: 1.125rem; margin-bottom: 0; color: white;}
-.announcement h2 a {text-decoration: underline; margin-left: 2rem; color: white;}
+.announcement h2 a {color: white;}
 .announcement.subtle {background:#001b8d; padding: 0.75rem;}
 .announcement.subtle h2 {font-size:1rem; font-weight: normal;}
 .square {border-radius:0;}
