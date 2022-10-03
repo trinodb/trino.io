@@ -37,12 +37,14 @@ The following client libraries can be used to run queries from several
 programming languages, and programs using the related platform:
 
 * [Trino JDBC driver](docs/current/client/jdbc.html) for Java/JVM
-* [Starburst ODBC driver](https://docs.starburst.io/data-consumer/clients/odbc.html) for Windows
+* [Magnitude ODBC driver](https://www.magnitude.com/drivers/trino-odbc-jdbc)
 * [trino-go-client]({{site.github_org_url}}/trino-go-client) for Go
 * [presto-client-node](https://github.com/tagomoris/presto-client-node) for Node.js
 * [lento](https://github.com/vweevers/lento) for Node.js
 * [dbt adapter](https://github.com/starburstdata/dbt-trino)
 * [trino-python-client]({{site.github_org_url}}/trino-python-client) for Python
+* [airflow-trino](https://airflow.apache.org/docs/apache-airflow-providers-trino/stable/index.html)
+* [great-expectations-trino](https://docs.greatexpectations.io/docs/guides/connecting_to_your_data/database/trino/)
 * [RPresto](https://github.com/prestodb/RPresto) for R
 * [trino-client-ruby](https://github.com/treasure-data/trino-client-ruby) for Ruby
 
@@ -112,6 +114,18 @@ warehouses. It is used by Fortune 500 companies, and focused on smart query
 typing. Follow the [instructions to use the Trino
 connector](https://docs.gethue.com/administrator/configuration/connectors/#trino)
 to get started.
+
+</div>
+
+<div markdown="1" class="item">
+
+#### [Metabase](https://www.metabase.com/)
+
+Metabase is an open-source web based business intelligence platform. You can use Metabase 
+to ask questions about your data, or embed Metabase in your app to let your 
+customers explore their data on their own. More information is available in the [driver 
+project repository](https://github.com/starburstdata/metabase-driver) and the [user 
+guide](https://docs.starburst.io/data-consumer/clients/metabase.html).
 
 </div>
 
