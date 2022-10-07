@@ -158,7 +158,7 @@ change to the Trino name, the community numbers skyrocketed and we saw
 [unprecedented growth in metrics like GitHub stars, YouTube subscribers, and Slack members]({% post_url 2021-12-31-trino-2021-a-year-of-growth %}). 
 We have many new community-driven features released in Trino that we will be
 discussing in more detail in another blog post coming soon. To name a few, Trino now 
-[supports fault-tolerant execution mode](h{% post_url 2022-05-05-tardigrade-launch %}),
+[supports fault-tolerant execution mode]({% post_url 2022-05-05-tardigrade-launch %}),
 [revamped its timestamp support](https://github.com/trinodb/trino/issues/37), 
 [dynamic partition pruning]({% post_url 2020-06-14-dynamic-partition-pruning %}),
 [polymorphic table functions]({% post_url 2022-07-22-polymorphic-table-functions %}),
