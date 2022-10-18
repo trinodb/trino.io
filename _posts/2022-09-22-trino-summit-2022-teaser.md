@@ -16,7 +16,7 @@ event for in-person and virtual attendance. Find out more details below!
 
 ## Register for the summit
 
-This years Trino Summit will be hosted at the Commonwealth Club in San 
+This year's Trino Summit will be hosted at the Commonwealth Club in San 
 Francisco, CA. In-person registration is limited to 250 seats so make sure you
 register quickly before spots run out!
 
@@ -52,11 +52,11 @@ is the award-winning MPP SQL query engine. In this session, Trino creators
 discuss the latest features that have landed in the last year, the roadmap for
 the year ahead, and community growth highlights.
 
-* Martin Traverso, Co-Creator of Trino and CTO, Starburst
+* *Martin Traverso, Co-Creator of Trino and CTO, Starburst*
         
-* Dain Sundstrom, Co-Creator of Trino and CTO, Starburst
+* *Dain Sundstrom, Co-Creator of Trino and CTO, Starburst*
         
-* David Phillips, Co-Creator of Trino and CTO, Starburst
+* *David Phillips, Co-Creator of Trino and CTO, Starburst*
 
 ### Trino for large scale ETL at Lyft
 
@@ -73,7 +73,7 @@ identifications, autoscaling and fault tolerant features to execute Trino at
 such a scale. We'll also share our upcoming challenges and plans to move steps
 further with Trino adoption across the company.
 
-Charles Song, Senior Software Engineer at Lyft
+* *Charles Song, Senior Software Engineer at Lyft*
     
 ### Rewriting history: Migrating petabytes of data to Apache Iceberg using Trino
 
@@ -91,7 +91,7 @@ migration strategy, how we optimized Trino’s write performance and how to
 recover from corrupt table states. Finally, I will compare the query performance
 of old and migrated datasets using Shopify’s datasets as benchmarks.
 
-Marc Laforet, Senior Data Engineer at Shopify
+* *Marc Laforet, Senior Data Engineer at Shopify*
 
 ### Federating them all on Starburst Galaxy!
 
@@ -102,7 +102,7 @@ trainers can follow later. We'll also cover cool features like schema discovery
 and fault-tolerance execution. The queries we'll run will be with Pokémon data
 so that you don't have to witness yet another taxi cab or iris data set.
 
-Monica Miller, Developer Advocate at Starburst
+* Monica Miller, Developer Advocate at Starburst* 
         
 ### Using Trino with Apache Airflow for (almost) all your data problems
 
@@ -117,10 +117,10 @@ can leverage Apache Airflow to orchestrate Trino queries into complex workflows
 that solve practical batch processing problems, all the while avoiding the use
 of repetitive, redundant data movement.
 
-Philippe Gagnon, Solutions Architect at Astronomer
+* *Philippe Gagnon, Solutions Architect at Astronomer* 
 
 ## Conclusion
 
 Stay tuned for new developments in upcoming blog posts, don't forget to
-[register](https://www.starburst.io/info/trinosummit/), and always federate them
+[register](https://www.starburst.io/info/trinosummit/), and always, federate them
 all!
