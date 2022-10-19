@@ -36,6 +36,22 @@ Make sure you register quickly for in-person registration, as it is limited to
 </div>
 <div class="spacer-30"></div>
 
+### Get an autographed copy of Trino: The Definitive Guide, 2nd ed.
+
+Want to meet the authors who literally wrote the book on Trino? Visit 
+[Manfred Moser](https://twitter.com/simpligility),
+[Matt Fuller](https://twitter.com/mfullertweets), and
+[Martin Traverso](https://twitter.com/mtraverso) at the Trino booth during the
+conference. Bring your hard copy of [__Trino: The Definitive Guide__](
+{% post_url 2022-10-03-the-definitive-guide-2 %}) to get it signed by the authors!
+
+<p align="center">
+<img align="center" width="50%" height="100%" src="/assets/ttdg2-cover.png"/><br/>
+</p>
+
+Don't have a book? We'll be giving away autographed copied of the book
+throughout the conference!
+
 ### Trino Summit 2022 teaser
 
 Check out the teaser for this year's Trino Summit and get ready to ***Federate 'em
