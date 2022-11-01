@@ -19,11 +19,12 @@ title: Trino Community
       <div class="community-content-container slack-content-container">
         <div class="slack-text-container">
           <h2>Join the discussion</h2>
-          <p>The Trino community is very active and helpful on Slack, with users and developers from all around the world. If you need help using or running Trino, this is the place to ask.</p>
+          <p>The Trino community is very active and helpful on Slack, with users and developers from all around the world. If you need help using or running Trino, this is the place to ask. Check out the following channels,
+          and find <a href="./slack.html">many more for specific topics</a>.</p>
         </div>
         <div class="slack-stats-container">
           <div class="community-stats">
-            <span>7035</span>
+            <span>8126</span>
             Slack members
           </div>
           <div class="community-stats">
@@ -43,7 +44,7 @@ title: Trino Community
         </a>
         <a href="https://trinodb.slack.com/archives/CFLB9AMBN" class="slack-channel slack-pink-gradient">
           <i class="fa fa-home fa-lg"></i>
-          #general
+          #announcements
         </a>
         <a href="https://trinodb.slack.com/archives/CGB0QHWSW" class="slack-channel slack-orange-gradient">
           <i class="fa fa-tools fa-lg"></i>
@@ -62,7 +63,7 @@ title: Trino Community
         <a href="https://trinodb.slack.com/archives/CFQAMGRQE" class="slack-channel slack-pinkorange-gradient">
           <img src="../assets/images/graphics/community-announcements.svg">
           <i class="fa fa-bullhorn fa-lg"></i>
-          #community-announcements
+          #beginner
         </a>
       </div>
     </div>
