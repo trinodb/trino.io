@@ -161,7 +161,7 @@ areas we would like to collaborate on with the community.
 
 * *Yathindranath Peddyshetty, Software engineer at Apple*
 
-### Enterprise ready Trino at Bloomberg: One Giant Leap Toward Data Mesh!
+### Enterprise-ready Trino at Bloomberg: One Giant Leap Toward Data Mesh!
 
 Enterprises like Bloomberg love Trino. It allows us to embrace the data mesh
 with ease. Providing Trino as a service in a highly available, configurable, and
@@ -193,7 +193,7 @@ analytics.
 
 * *Suman Baliganahalli Narayan Murthy, Vice President at Goldman Sachs*
 
-### Scaling Trino at Zillow
+### Optimizing Trino using spot instances
 
 Trino is a critical tool used at Zillow for doing analytics on datalake. In this
 talk we aim to give a general overview of how we leverage Trino and dive deeper
