@@ -57,6 +57,20 @@ programming languages, and programs using the related platform:
 
 <div markdown="1" class="item">
 
+#### [Cube](https://cube.dev)
+
+Cube is headless BI for building data apps.
+You can use Cube to create an additional semantic layer
+or a last-mile caching layer on top of Trino. More importantly,
+you can use the set of APIs that Cube provides, including REST API,
+GraphQL API, and SQL API, to deliver the data directly to custom-built
+front-end applications as well as BI tools and notebooks, retaining
+low latency and high concurrency.
+
+</div>
+
+<div markdown="1" class="item">
+
 #### [Quix](https://wix.github.io/quix/)
 
 Quix is a multi-user, easy-to-use notebook manager.
