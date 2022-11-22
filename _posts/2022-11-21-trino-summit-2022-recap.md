@@ -53,6 +53,7 @@ the summit. I highly recommend you watch the full videos on the Trino YouTube
 which are linked in the titles:
 
 [<i class="fab fa-youtube" style="color: red;"/> Keynote: State of Trino](https://www.youtube.com/watch?v=mUq_h3oArp4)
+([Read more]({% post_url 2022-11-22-trino-summit-2022-state-of-trino-keynote-recap %}))
 * Trino co-creator, Martin, covers recently developed features, community 
   statistics, and discusses roadmap features like Project Hummingbird.
 * Dain and David join Martin on the stage to answer audience questions.
