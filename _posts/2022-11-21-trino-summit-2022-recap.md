@@ -80,6 +80,7 @@ which are linked in the titles:
   <a href="https://www.youtube.com/watch?v=ePr-iVQ5ri4"><img width="40%" src="/assets/blog/trino-summit-2022/bloomberg.jpg"/></a>
   
 [<i class="fab fa-youtube" style="color: red;"/> Optimizing Trino using spot instances](https://www.youtube.com/watch?v=vz9reBUgQTE)
+([Read more]({% post_url 2022-12-01-trino-summit-2022-zillow-recap %}))
 * In an attempt to minimize costs, Zillow is measuring the efficacy of running
   Trino ETL jobs on spot instances.
 * This currently runs the risk of retries for failure but future work will look
