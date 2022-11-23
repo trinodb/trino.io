@@ -71,11 +71,13 @@ which are linked in the titles:
   <a href="https://www.youtube.com/watch?v=3afcRK6Yvio"><img width="40%" src="/assets/blog/trino-summit-2022/apple.jpg"/></a>
   
 [<i class="fab fa-youtube" style="color: red;"/> Enterprise-ready Trino at Bloomberg: One Giant Leap Toward Data Mesh!](https://www.youtube.com/watch?v=ePr-iVQ5ri4)
+([Read more]({% post_url 2022-11-30-trino-summit-2022-bloomberg-recap %}))
 * Bloomberg uses Trino to centralize access to their massive amounts of catalogs
   under many different departments.
 * To offer Trino-as-a-Service for varying workloads, they use a Trino Load
-  Balancer which forks from the popular presto-gateway project at Lyft. This
-  adds new functionality and Bloomberg wants to open source this work to the
+  Balancer (a fork of the popular presto-gateway project at Lyft) to add new
+  functionality. In talking with them after their presentation, the Bloomberg
+  team expressed an interest in wanting to open source this work to the
   community as a more generalized solution than the gateway project.
 
   <a href="https://www.youtube.com/watch?v=ePr-iVQ5ri4"><img width="40%" src="/assets/blog/trino-summit-2022/bloomberg.jpg"/></a>
