@@ -61,6 +61,7 @@ which are linked in the titles:
   <a href="https://www.youtube.com/watch?v=mUq_h3oArp4"><img width="40%" src="/assets/blog/trino-summit-2022/keynote.jpg"/></a>
 
 [<i class="fab fa-youtube" style="color: red;"/> Trino at Apple](https://www.youtube.com/watch?v=3afcRK6Yvio)
+([Read more]({% post_url 2022-11-28-trino-summit-2022-apple-recap %}))
 * Apple has an in-house k8s operator to manage Trino cluster lifecycles, and an
   orchestrator to provision and simplify cluster creation and management.
 * Apple has a heavy focus on Apache Iceberg as their table format and has
