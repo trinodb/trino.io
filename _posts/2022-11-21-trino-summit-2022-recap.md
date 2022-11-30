@@ -93,10 +93,14 @@ which are linked in the titles:
   <a href="https://www.youtube.com/watch?v=vz9reBUgQTE"><img width="40%" src="/assets/blog/trino-summit-2022/zillow.jpg"/></a>
   
 [<i class="fab fa-youtube" style="color: red;"/> Leveraging Trino to Power Data at Goldman Sachs](https://www.youtube.com/watch?v=g9fLA3tFG-Q)
+([Read more]({% post_url 2022-12-05-trino-summit-2022-goldman-sachs-recap %}))
 * Goldman Sachs uses Trino to power their data quality service, taking advantage
   of the fact that Trino centralizes all visibility across their platform.
+
+<a href="https://www.youtube.com/watch?v=g9fLA3tFG-Q"><img width="40%" src="/assets/blog/trino-summit-2022/goldman-sachs.png"/></a>
   
-[<i class="fab fa-youtube" style="color: red;"/> Elevating Data Fabric to Data Mesh: Solving Data Needs in Hybrid Datalakes](https://www.youtube.com/watch?v=sSWBi7bBotQ)
+[<i class="fab fa-youtube" style="color: red;"/> Elevating data fabric to data mesh: Solving data needs in hybrid datalakes](https://www.youtube.com/watch?v=sSWBi7bBotQ)
+([Read more]({% post_url 2022-12-07-trino-summit-2022-comcast-recap %}))
 * Comcast takes us through their Trino architecture journey by providing the
   history of their Data Fabric service, and now discusses the data governance
   and culture changes required to realize a Data Mesh with Trino.

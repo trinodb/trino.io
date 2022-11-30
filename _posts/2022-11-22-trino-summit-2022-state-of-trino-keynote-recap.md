@@ -21,7 +21,7 @@ of the talk, or read on if you're only interested in the highlights.
   Check out the slides here!
 </a>
 
-## Recapping
+## Recap
 
 So what *has* happened in Trino over the last year?
 

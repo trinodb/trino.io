@@ -23,7 +23,7 @@ they have planned to contribute to Trino.
   Check out the slides here!
 </a>
 
-## Recapping
+## Recap
 
 > Trino is deployed at scale in Apple, and it continues to see tremendous
 > adoption across multiple teams at Apple. *Yathi Peddyshetty, Software Engineer @ Apple*
