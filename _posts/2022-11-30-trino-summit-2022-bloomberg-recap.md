@@ -9,7 +9,7 @@ image: /assets/blog/trino-summit-2022/bloomberg.jpg
 This post continues [a larger series of posts]({% post_url
 2022-11-21-trino-summit-2022-recap %}) on the Trino Summit 2022 sessions.
 Following the [Trino at Apple talk]({% post_url
-2022-11-22-trino-summit-2022-apple-recap %}), engineers from Bloomberg shared
+2022-11-28-trino-summit-2022-apple-recap %}), engineers from Bloomberg shared
 the latest about their additions to Trino. Bloomberg uses Trino to federate huge
 amounts of disparate financial data together. When you have many users with
 different use cases and resource needs, you need something to ensure that the
