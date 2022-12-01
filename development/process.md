@@ -38,6 +38,22 @@ reviewers, impact on other contributors, and to keep the amount of rework from t
     1. Make sure the pull request passes the tests in CI.
     2. If known, request a review from an expert in the area changed.  If unknown, ask for help on [Slack](/slack.html).
 
+    There are some tests that use external services, like Google BigQuery, and require
+    additional credentials. The Trino project cannot share these credentials with
+    contributors, so it runs these tests in its CI workflows only on branches in the
+    Trino repository, not in contributor forks.
+
+    Trino maintainers, so project members with write access to the repository, can
+    schedule additional workflow runs after reviewing a PR by adding a comment
+    starting with this line:
+
+    ```
+    /test-with-secrets sha=<all-40-characters>
+    ```
+
+    The SHA value should be the full 40 character git SHA of a commit
+    of the feature branch, usually the head commit.
+
 5. Review is performed by one or more reviewers.
 
     1. This normally happens within a few days, but may take longer if the change is large, complex, or if a
