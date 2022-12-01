@@ -121,6 +121,7 @@ which are linked in the titles:
   <a href="https://www.youtube.com/watch?v=nJBBw-xnLU8"><img width="40%" src="/assets/blog/trino-summit-2022/shopify.jpg"/></a>
   
 [<i class="fab fa-youtube" style="color: red;"/> Trino for Large Scale ETL at Lyft](https://www.youtube.com/watch?v=FL3c1Ue7YWM)
+([Read more]({% post_url 2022-12-12-trino-summit-2022-lyft-recap %}))
 * Lyft is using Trino to perform ETL jobs scanning 10PB of data per day, and
   writing 100TB per day. They are not using fault-tolerant execution.
 * In the last year, Lyft cut their number of Trino nodes in half, while
