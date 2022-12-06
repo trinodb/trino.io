@@ -153,6 +153,7 @@ which are linked in the titles:
   <a href="https://www.youtube.com/watch?v=Q03DzL_fm-I"><img width="40%" src="/assets/blog/trino-summit-2022/quora.jpg"/></a>
   
 [<i class="fab fa-youtube" style="color: red;"/> Journey to Iceberg with SK Telecom](https://www.youtube.com/watch?v=V9_aPLXATh8)
+([Read more]({% post_url 2022-12-19-trino-summit-2022-sk-telecom-recap %}))
 * The speakers travelled all the way from South Korea to join us in person.
 * SK Telecom had a multitude of performance issues that all stemmed from the
   lack of flexibility in the Hive model and metastore.
