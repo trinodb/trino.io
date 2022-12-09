@@ -108,6 +108,7 @@ which are linked in the titles:
   <a href="https://www.youtube.com/watch?v=sSWBi7bBotQ"><img width="40%" src="/assets/blog/trino-summit-2022/comcast.jpg"/></a>
   
 [<i class="fab fa-youtube" style="color: red;"/> Rewriting History: Migrating petabytes of data to Apache Iceberg using Trino](https://www.youtube.com/watch?v=nJBBw-xnLU8)
+([Read more]({% post_url 2022-12-09-trino-summit-2022-shopify-recap %}))
 * Shopify has recently migrates of its workloads to Trino. One of the first
   hurdles was dealing with many issues in the Hive table format, so they quickly
   upgraded to the Iceberg table format.

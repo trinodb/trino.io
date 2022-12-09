@@ -17,7 +17,7 @@ solid overview of why Comcast is taking data mesh to heart.
 {% youtube sSWBi7bBotQ %}
 
 <a class="btn btn-pink btn-md" target="_blank" href="/assets/blog/trino-summit-2022/Trino@Comcast.pdf">
-  Check out the slides here!
+  Check out the slides!
 </a>
 
 ## Recap

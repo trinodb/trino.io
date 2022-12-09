@@ -20,7 +20,7 @@ they have planned to contribute to Trino.
 {% youtube 3afcRK6Yvio %}
 
 <a class="btn btn-pink btn-md" target="_blank" href="/assets/blog/trino-summit-2022/Trino@Apple.pdf">
-  Check out the slides here!
+  Check out the slides!
 </a>
 
 ## Recap

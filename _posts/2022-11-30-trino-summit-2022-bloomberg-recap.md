@@ -22,7 +22,7 @@ data security as the first-class citizen that it should be.
 {% youtube ePr-iVQ5ri4 %}
 
 <a class="btn btn-pink btn-md" target="_blank" href="/assets/blog/trino-summit-2022/Trino-at-Bloomberg.pdf">
-  Check out the slides here!
+  Check out the slides!
 </a>
 
 ## Recap
