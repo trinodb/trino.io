@@ -18,7 +18,7 @@ of the talk, or read on if you're only interested in the highlights.
 
 
 <a class="btn btn-pink btn-md" target="_blank" href="/assets/blog/trino-summit-2022/State-of-Trino-Nov-2022.pdf">
-  Check out the slides here!
+  Check out the slides!
 </a>
 
 ## Recap

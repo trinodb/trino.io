@@ -21,7 +21,7 @@ advantage of the cost savings while handling the transitory nature of spots.
 {% youtube vz9reBUgQTE %}
 
 <a class="btn btn-pink btn-md" target="_blank" href="/assets/blog/trino-summit-2022/Trino@Zillow.pdf">
-  Check out the slides here!
+  Check out the slides!
 </a>
 
 ## Recap
