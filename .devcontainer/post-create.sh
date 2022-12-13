@@ -10,3 +10,5 @@ fi
 if [ -f Gemfile ]; then
     bundle install
 fi
+
+npm install netlify-cli -g
