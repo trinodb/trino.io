@@ -133,7 +133,7 @@ which are linked in the titles:
   <a href="https://www.youtube.com/watch?v=FL3c1Ue7YWM"><img width="40%" src="/assets/blog/trino-summit-2022/lyft.jpg"/></a>
   
 [<i class="fab fa-youtube" style="color: red;"/> Federating them all on Starburst Galaxy](https://www.youtube.com/watch?v=Zfmxwu0m98k)
-([Read more]({% post_url 2022-12-12-trino-summit-2022-starburst-recap %}))
+([Read more]({% post_url 2022-12-14-trino-summit-2022-starburst-recap %}))
 * Running and scaling Trino is difficult. Starburst showcases Starburst Galaxy,
   a SaaS data platform built around the Trino query engine.
 * This demoes running federated queries over Pokémon data scattered across
