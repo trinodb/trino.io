@@ -142,6 +142,7 @@ which are linked in the titles:
   <a href="https://www.youtube.com/watch?v=Zfmxwu0m98k"><img width="40%" src="/assets/blog/trino-summit-2022/starburst.jpg"/></a>
   
 [<i class="fab fa-youtube" style="color: red;"/> Trino at Quora: Speed, Cost, Reliability Challenges and Tips](https://www.youtube.com/watch?v=Q03DzL_fm-I)
+([Read more]({% post_url 2022-12-16-trino-summit-2022-quora-recap %}))
 * Quora uses a large number of Trino clusters for ad-hoc, ETL, time series, A/B
   testing, and backfill data.
 * Quora faced some initially high costs on Trino due to inefficient uses of
