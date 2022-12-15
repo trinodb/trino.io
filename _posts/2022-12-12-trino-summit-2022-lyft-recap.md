@@ -19,7 +19,7 @@ Trino.
 {% youtube FL3c1Ue7YWM %}
 
 <a class="btn btn-pink btn-md" target="_blank" href="/assets/blog/trino-summit-2022/Trino@Lyft.pdf">
-  Check out the slides here!
+  Check out the slides!
 </a>
 
 ## Recap
