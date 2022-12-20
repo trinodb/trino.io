@@ -166,6 +166,7 @@ which are linked in the titles:
   <a href="https://www.youtube.com/watch?v=V9_aPLXATh8"><img width="40%" src="/assets/blog/trino-summit-2022/sk-telecom.jpg"/></a>
   
 [<i class="fab fa-youtube" style="color: red;"/> Using Trino with Apache Airflow for (almost) all your data problems](https://www.youtube.com/watch?v=xKDN7RUJ5i4)
+([Read more]({% post_url 2022-12-21-trino-summit-2022-astronomer-recap %}))
 * Airflow is a highly functional and well-adopted workflow management platform
   to schedule jobs on your data platform.
 * The Trino integration for Airflow recently landed and this coincided with the
