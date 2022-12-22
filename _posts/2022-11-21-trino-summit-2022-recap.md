@@ -175,6 +175,7 @@ which are linked in the titles:
   <a href="https://www.youtube.com/watch?v=xKDN7RUJ5i4"><img width="40%" src="/assets/blog/trino-summit-2022/astronomer.jpg"/></a>
   
 [<i class="fab fa-youtube" style="color: red;"/> How we use Trino to analyze our Product-led Growth (PLG) user activation funnel](https://www.youtube.com/watch?v=MCB_1furnAo)
+([Read more]({% post_url 2022-12-23-trino-summit-2022-upsolver-recap %}))
 * Upsolver solves a lot of common data problems on their platform.
 * One such problem is measuring activation rates in a product-led growthteam. This requires taking action on many sources of data.
 * Trino makes a natural fit to address the issues of joining this data together.
