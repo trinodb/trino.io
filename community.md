@@ -68,6 +68,7 @@ title: Trino Community
       </div>
     </div>
     <div class="community-content-section">
+      <a name="events"></a>
       <h2>Events that don’t suck</h2>
       <div class="community-content-container">
         <a href="./broadcast" class="community-broadcast-block">
@@ -88,9 +89,7 @@ title: Trino Community
           </a>
         </div>
       </div>
-    </div>
-    <div class="community-content-section">
-      <h2>Calendar</h2>
+      <h2>Upcoming events</h2>
       Community events such as Trino Meetups, Trino Community Broadcasts, and other Trino
       gatherings you don't want to miss. To follow along, add this calendar by
       clicking on the "+ Google Calendar" icon at the bottom right.
@@ -142,6 +141,7 @@ title: Trino Community
       </div>
     </div>
     <div class="community-content-section">
+      <a name="contributors"></a>
       <h2>Trino contributors</h2>
       <p>A huge amount of gratitude goes out to all contributors. Without you, none of this is possible.</p>
         <object type="image/svg+xml" data="../assets/images/community/contributors.svg"></object>

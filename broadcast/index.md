@@ -16,13 +16,13 @@ Community Broadcast is a show where we cover events and happenings within the
 open-source Trino community and show off some cool stuff about
 Trino.
 
-Trino nation, We want to hear from you! If you have a question or pull request
-that you would like us to feature on the show please join the [Trino
-slack]({{site.url}}/slack) and go to the `#trino-community-broadcast` channel
-and let us know there. Otherwise, you can message Manfred Moser or Brian Olsen
-directly on Slack or Twitter.
+Trino nation, we want to hear from you! If you have a topic, question or pull
+request that you would like us to feature on the show join the [Trino
+slack]({{site.url}}/slack) and contact us there.
 
-See us live every two weeks!
+<a class="btn btn-pink" href="../community.html#events">
+Learn about upcoming episodes in our event calendar.
+</a>
 
 </div>
 <div markdown="1" class="col-lg-3">
