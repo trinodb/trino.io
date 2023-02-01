@@ -33,3 +33,6 @@ linkedin_audience: 2842796
 twitter_user: trinodb
 twitter_hashtag: trinodb
 youtube_channel: trinodb
+
+paginate: 12 # Number of blog posts per page
+paginate_path: "/blog/:num"
