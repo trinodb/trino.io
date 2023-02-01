@@ -1,5 +1,7 @@
 # trino.io
 
+Not Found
+
 <img alt="Trino Logo" src="./assets/images/trino-logo/trino-ko_tiny-alt.svg" width="15%" align="right" />
 
 The source for the Trino community website available at
