@@ -36,7 +36,25 @@
     </div>
   </div>
 
-  {% include anchor_headings.html html=content anchorBody="#" %}
+  <!-- Avoids showing table of contents on blog index page -->
+  {% if content contains '<!-- Blog Index -->' %}
+    {{ content }}
+  {% else %}
+    <div class="row">
+      <div class="col-md-8 col-sm-12">
+        <div class="mx-2">
+          {% include anchor_headings.html html=content anchorBody="#" %}
+        </div>
+      </div>
+      <div class="col-md-4 d-md-block d-none">
+        <div style="position: sticky; position:-webkit-sticky; top:10px; max-height:100vh; overflow-y:auto;" class="outline-card">
+          <u>Table of contents</u>
+          {% include toc.html html=content h_min=2 %}
+          <br style="clear:both;"/>
+        </div>
+      </div>
+    </div>
+  {% endif %}
 
   {%- include footer.html -%}
 
