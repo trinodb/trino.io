@@ -40,7 +40,7 @@
   {% if content contains '<!-- Blog Index -->' %}
     {{ content }}
   {% else %}
-    <div class="row">
+    <div class="row" style="margin-left:0; margin-right:0;">
       <div class="col-md-8 col-sm-12">
         <div class="mx-2">
           {% include anchor_headings.html html=content anchorBody="#" %}
