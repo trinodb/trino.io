@@ -36,8 +36,8 @@
     </div>
   </div>
 
-  <!-- Avoids showing table of contents on blog index page -->
-  {% if content contains '<!-- Blog Index -->' %}
+  <!-- Comment to remove TOC from a page -->
+  {% if content contains '<!-- No TOC -->' %}
     {{ content }}
   {% else %}
     <div class="row" style="margin-left:0; margin-right:0;">
