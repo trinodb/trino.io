@@ -48,6 +48,7 @@ respective language, or to discuss regional topics around Trino.
 * [#general-cn](https://{{site.slack_fqdn}}/messages/CKS1YGP27) - Chinese
 * [#general-de](https://{{site.slack_fqdn}}/messages/C047U4F5D7F) - German
 * [#general-jp](https://{{site.slack_fqdn}}/messages/CLEDR9V7G) - Japanese
+* [#general-ko](https://{{site.slack_fqdn}}/messages/C04QZG9RD41) - Korean
 
 ## Trino development channels
 
