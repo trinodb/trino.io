@@ -5,10 +5,10 @@ title: Guidelines for participants with corporate interests
 
 The goal of the Trino community is to help all participants be successful in
 using Trino in their environment, and is specifically not for the promotion of
-any corporate interests including marketing, sales, recruiting, etc. There are
-cases where the goal of supporting the Trino community and promotion of
-corporate interests can overlap, and these guidelines are designed to help
-understand the line between the two.
+any corporate interests including marketing, sales, recruiting, and other
+activities. There are cases where the goal of supporting the Trino community and
+promotion of corporate interests can overlap or even contradict each other, and
+these guidelines are designed to help understand the line between the two.
 
 ## Technical support
 
@@ -19,7 +19,7 @@ to an external forum dedicated to the product. If product support is commonly
 needed, we may create a separate group (e.g., Slack channel) to assist the
 community with the integration.
 
-Additionally, please restrict your responses to the questions being asked.
+Additionally, restrict your responses to the questions being asked.
 Representatives from other vendors, while responding to a question, should not
 use that opportunity to nudge users to use a specific vendor’s offerings, unless
 the question relates specifically to a feature available in their product
@@ -42,7 +42,7 @@ avoided when there is a conflict of interest.
 
 ## Recruiting
 
-We encourage everyone to post information about Trino specific jobs, contracts,
+We encourage everyone to post information about Trino-specific jobs, contracts,
 and internships to the `#jobs` Slack channel.
 
 ## Features
@@ -54,5 +54,5 @@ block or even discourage work on such features for anti-competitive reasons.
 
 ## Questions
 
-If you have any questions about the above guidelines, please email
+If you have any questions about the above guidelines, email
 `{{site.conduct_email}}`.

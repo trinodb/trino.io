@@ -14,13 +14,13 @@ show_hero: true
 
 ## Overview
 
-Everyone is encouraged to participate in the Trino project. Anyone can influence 
+Everyone is encouraged to participate in the Trino project. Anyone can influence
 the project by simply being involved in the discussions about new features, the
-roadmap, architecture, and even problems they are facing. The various roles
+roadmap, architecture, and problems they are facing. The various roles
 described here do not carry more weight in these discussions, and instead we try
 to always work towards consensus. The Trino project has a strong
-[vision and development philosophy](vision.html) which helps to guide
-discussions and normally allows us to reach consensus. When we can't come to
+[vision and development philosophy](/development/vision.html) that helps to
+guide discussions and allows us to reach consensus. When we can't come to
 consensus, we work to figure out what we agree on, and what we don't. Then we
 move forward by building what we agree on, which helps everyone better
 understand the parts we don't agree on, and hopefully builds empathy at the same
@@ -43,7 +43,7 @@ They work to make Trino better for everyone.
   long-term plans.
 * Help other users on the mailing list, on GitHub issues, and on Slack.
 * Propose and discuss new features and improvements.
-* Help raise the project's quality bar.
+* Help raise the project's quality.
 * Let everyone else know what isn't working or is confusing.
 * Report bugs and performance regressions.
 * Suggest improvements to infrastructure and testing.
@@ -56,13 +56,13 @@ They work to make Trino better for everyone.
 
 ## Contributors
 
-A contributor submits changes to Trino. The full contribution process is 
-described [here](process.html).
+A contributor submits changes to Trino. [The full contribution process is
+described here](/development/process.html).
 
 **Expectations and duties:**
 
-* Be empathetic to the reviewers. Reviewing a change can be hard work and time
-  consuming.
+* Be empathetic to the reviewers. Reviewing a change can be hard work and
+  time-consuming.
 * Keep commits small when possible and provide reasoning and context when
   submitting changes. Reviews go smoother if you make the reviewer’s job easier.
 * Be responsive when changes are requested by the reviewer. It is easier to
@@ -70,12 +70,15 @@ described [here](process.html).
   review.
 * Ask for clarification if you are confused by a suggested change.
 * Speak up if your contribution appears to be stuck.
-* Read the project vision and development philosophy.
+* Read the [project vision](/development/vision.html) and development
+  philosophy.
 * Follow the style guidelines and more importantly, follow the Trino coding
   conventions by matching your code to the existing code. Keep in mind the Trino
   development philosophy is to have all code appear as if it were written by a
   single person.
-* Sign the contributor license agreement (CLA).
+* Sign the [contributor license agreement (CLA)](https://github.com/trinodb/trino/blob/master/LICENSE).
+
+[You can view all contributors on GitHub.](https://github.com/orgs/trinodb/teams/contributors/members)
 
 ## Reviewers
 
@@ -100,10 +103,10 @@ to review others' contributions -- you don't need to be a maintainer for that.
 * Point out deviations from the code conventions and style guidelines.
 * Ask for help reviewing areas you don't understand.
 
-## Maintainer
+## Maintainers
 
-In Trino, maintainer is an active job. A maintainer is responsible for checking 
-in code only after ensuring it has been reviewed thoroughly and aligns with the
+In Trino, maintainer is an active role. A maintainer is responsible for merging
+code only after ensuring it has been reviewed thoroughly and aligns with the
 Trino vision and guidelines. In addition to merging code, a maintainer actively
 participates in discussions and reviews. Being a maintainer does not grant
 additional rights in the project to make changes, set direction, or anything
@@ -119,16 +122,19 @@ actively involved in the project, their maintainer status will be reviewed.
 * Know which changes are likely to be controversial, and work to resolve the
   controversy as early as possible.
 * Know when a change needs more reviewers involved.
+* Add the language lead to reviews when appropriate.
 * Ensure the review of a proposed change is thorough.
 * Point out when a contribution appears to be stuck.
-* Update release notes when committing changes.
+* Assist with the authoring of release notes.
 * Follow the CLA and IP policies.
 
 An Apache Hive committer did an excellent write up on their process and much of
 this aligns with our philosophy on maintainers.
 [Read about it](https://cwiki.apache.org/confluence/display/Hive/BecomingACommitter).
 
-## Path to becoming a maintainer
+[You can view all maintainers on GitHub.](https://github.com/orgs/trinodb/teams/maintainers/members)
+
+### Path to becoming a maintainer
 
 1. **Read:** Understand the project values and scope, the development philosophy
    and guidelines, and the change process. These contain necessary background
@@ -148,6 +154,47 @@ this aligns with our philosophy on maintainers.
    Being a maintainer means reviewing and merging code in your areas of
    expertise from all contributors. The maintainer role is retained while being
    active in the project.
+
+## Language Lead
+
+The language lead is the maintainer specifically responsible for maintaining the
+SQL language implementation in Trino. Trino attempts to adhere to the ANSI SQL
+specification and related extensions and conventions as closely as possible.
+Because SQL is the primary interface for Trino users, the language lead serves
+as the sole decision maker regarding SQL language decisions. The primary
+objective for this role is to maintain compatibility between versions and ensure
+adherence to the SQL standard. All pull requests making changes or additions to
+Trino SQL syntax, types, and function library must have the `syntax-needs-review`
+label and be reviewed by the language lead.
+
+Martin Traverso is the language lead.
+
+## Benevolent dictators for life
+
+Common [among other open source projects](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life),
+the role of benevolent dictator for life (BDFL) empowers particularly esteemed
+maintainers to act as the ultimate authority for technical decisions. In
+circumstances where the maintainers are divided or uncertain about how to
+proceed on a given issue, final say will defer to the benevolent dictators.
+
+**Expectations and duties:**
+
+* Lead the maintainer team, including upholding policies and appointing new
+  maintainers.
+* Resolve disputes and provide rulings on technical matters to move the project
+  forward.
+* Listen and answer to the community. The benevolent dictators *are benevolent*,
+  and their goal is to act in the best interests of Trino, its contributors, and
+  its users.
+
+Dain Sundstrom, David Phillips, and Martin Traverso are the BDFLs.
+
+## Trino Software Foundation
+
+The Trino Software Foundation is the governing authority of the entire Trino
+project. Though it does not get involved in day-to-day discussions or technical
+decisions, it maintains oversight of the project and intellectual property.
+[You can read more about the Trino Software Foundation here.](/foundation.html)
 
 </div>
 </div>

@@ -20,9 +20,10 @@ keep the amount of rework from the contributor to a minimum.
 
 1. Sign the [contributor license agreement]({{site.github_org_url}}/cla).
 
-2. Start a discussion by creating a Github
+2. Start a discussion by creating a GitHub
    [issue]({{site.github_repo_url}}/issues), or asking on [Slack](/slack.html)
-   (unless the change is trivial).
+   (unless the change is trivial, for example a spelling fix in the
+   documentation).
 
     1. This step helps you identify possible collaborators and reviewers.
     2. Does the change align with technical vision and project values?
@@ -31,42 +32,42 @@ keep the amount of rework from the contributor to a minimum.
     4. Is this change large?  If so, work with others to break into smaller
        steps.
 
-3. Implement the change
+4. Implement the change
 
-    1. If the change is large, post a preview Github
+    1. If the change is large, post a draft GitHub
        [pull request]({{site.github_repo_url}}/pulls) with the title prefixed
        with `[WIP]`, and share with collaborators.
     2. Include tests and documentation as necessary.
 
-4. Create a Github [pull request]({{site.github_repo_url}}/pulls) (PR).
+5. Create a GitHub [pull request]({{site.github_repo_url}}/pulls) (PR).
 
     1. Make sure the pull request passes the tests in CI.
     2. If known, request a review from an expert in the area changed. If
        unknown, ask for help on [Slack](/slack.html).
 
-    There are some tests that use external services, like Google BigQuery, and 
-    require additional credentials. The Trino project cannot share these
-    credentials with contributors, so it runs these tests in its CI workflows
-    only on branches in the Trino repository, not in contributor forks.
+   There are some tests that use external services, like Google BigQuery, and
+   require additional credentials. The Trino project cannot share these
+   credentials with contributors, so it runs these tests in its CI workflows
+   only on branches in the Trino repository, not in contributor forks.
 
-    Trino maintainers, so project members with write access to the repository,
-    can schedule additional workflow runs after reviewing a PR by adding a
-    comment starting with this line:
+   Trino maintainers can schedule additional workflow runs after reviewing a PR
+   by adding a comment starting with this line:
 
     ```
     /test-with-secrets sha=<all-40-characters>
     ```
 
-    The SHA value should be the full 40 character git SHA of a commit
-    of the feature branch, usually the head commit.
+   The SHA value should be the full 40 character git SHA of a commit
+   of the feature branch, usually the head commit.
 
-5. Review is performed by one or more reviewers.
+6. Review is performed by one or more reviewers.
 
     1. This normally happens within a few days, but may take longer if the
        change is large, complex, or if a critical reviewer is unavailable. (feel
-       free to ping the reviewer on the pull request).
+       free to ping the reviewer or [DevRel team](https://github.com/orgs/trinodb/teams/devrel/members)
+       on the pull request).
 
-6. Address concerns and update the pull request.
+7. Address concerns and update the pull request.
 
     1. Comments are addressed to each individual commit in the pull request, and
        changes should be addressed in a new
@@ -79,7 +80,10 @@ keep the amount of rework from the contributor to a minimum.
        ready for the code to be reviewed again.
     3. Go to step 5.
 
-7. Maintainer merges the pull request after final changes are accepted.
+8. Maintainer merges the pull request after final changes are accepted.
+    * In the event that the maintainer team is divided on whether a particular
+      contribution should be merged, final say will defer to the [BDFLs](/development/roles.html)
+      of the project.
 
 </div>
 </div>
