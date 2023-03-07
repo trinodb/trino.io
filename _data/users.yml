@@ -281,6 +281,14 @@
     wide array of workloads ranging from ad-hoc to batch queries.
   urltext:
   url: https://www.myntra.com/
+- name: Naver
+  anchor: naver
+  logo: /assets/images/logos/naver.png
+  logosmall: /assets/images/logos/naver-small.png
+  testimonial: |
+    TBD
+  urltext:
+  url: https://www.navercorp.com/en
 - name: Netflix
   logo: /assets/images/logos/netflix.png
   logosmall: /assets/images/logos/netflix-small.png
@@ -407,6 +415,14 @@
   urltext:
   url: https://shopify.engineering/topics/data-science-engineering
   # https://shopify.engineering/faster-trino-query-execution-infrastructure
+- name: SK Telecom
+  anchor: sk_telecom
+  logo: /assets/images/logos/sk-telecom.png
+  logosmall: /assets/images/logos/sk-telecom-small.png
+  testimonial: |
+    TBD
+  urltext:
+  url: https://www.sktelecom.com/
 - name: Starburst
   anchor: starburst
   logo: /assets/images/logos/starburst.png
