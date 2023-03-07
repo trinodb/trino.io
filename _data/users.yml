@@ -175,6 +175,20 @@
   urltext:
   url: https://www.ea.com/
   # https://www.youtube.com/watch?v=KY5DhWSqjGg
+- name: ForePaaS
+  anchor: forepass
+  logo: /assets/images/logos/forepass.png
+  logosmall: /assets/images/logos/forepass-small.png
+  urltext:
+  url: https://www.forepaas.com/
+  testimonial: |
+    ForePaaS leverages Trino as its main query engine technology. ForePaaS
+    provides a lakehouse platform that can run on multiple open-source storage 
+    engines. The Trino-powered query engine allows users to run unified
+    analytics and BI at petabyte scale on their lakehouse and directly-queryable
+    data sources at lightning speeds. Trino also enforces the automated data
+    access control so that analytics end-users only see the data relevant to
+    them.
 - name: Gett
   anchor: gett
   logo: /assets/images/logos/gett.png
