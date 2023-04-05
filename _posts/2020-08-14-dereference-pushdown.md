@@ -51,7 +51,7 @@ stores, while maintaining performance parity for analytical queries.
 # Example
 
 Say we have a Hive table `jobs`, with a struct-typed column `job_info` in the
-schema. The column `jobs` is wide and deeply nested, i.e. `ROW(company
+schema. The column `job_info` is wide and deeply nested, i.e. `ROW(company
 varchar, requirements ROW(skills array(...), education ROW(...), salary ...) ,
 ...)`. Most queries would access a small percentage of data from this struct
 using the dereference projection (the `.` operation). Consider such a query `Q`
