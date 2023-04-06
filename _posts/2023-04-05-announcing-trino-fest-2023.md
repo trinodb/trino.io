@@ -7,10 +7,10 @@ image: /assets/blog/trino-fest-2023/trino-fest.png
 ---
 
 Get ready to kick off your summer with Commander Bun Bun at Trino Fest 2023!
-This year's event is going virtual and will take place over two days, 14th
-and 15th of June. The focus of the event will be on Trino as a data lakehouse query
-engine, with discussions on new features and the ecosystem around Trino to
-support better data lakehouse management.
+This year's event is going virtual and will take place over two days, the 14th
+and 15th of June. The focus of the event will be on Trino as a data lakehouse
+query engine, with discussions on how new features and the ecosystem around
+Trino can support better data lakehouse management.
 
 Trino Fest 2023 is the new annual summer event dedicated to all things Trino.
 Building on the success of last year’s [Cinco de
