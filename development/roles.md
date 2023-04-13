@@ -132,7 +132,78 @@ An Apache Hive committer did an excellent write up on their process and much of
 this aligns with our philosophy on maintainers.
 [Read about it](https://cwiki.apache.org/confluence/display/Hive/BecomingACommitter).
 
-[You can view all maintainers on GitHub.](https://github.com/orgs/trinodb/teams/maintainers/members)
+The following community members are Trino maintainers:
+
+<table style="width: 30%">
+  <thead>
+    <tr>
+      <th><i class="fab fa-github"></i></th>
+      <th>Full name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/arhimondr">arhimondr</a></td>
+      <td>Andrii Rosa</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/dain">dain</a></td>
+      <td>Dain Sundstrom</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/ebyhr">ebyhr</a></td>
+      <td>Yuya Ebihara</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/electrum">electrum</a></td>
+      <td>David Phillips</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/findepi">findepi</a></td>
+      <td>Piotr Findeisen</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/hashhar">hashhar</a></td>
+      <td>Ashhar Hasan</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/kasiafi">kasiafi</a></td>
+      <td>Kasia Findeisen</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/kokosing">kokosing</a></td>
+      <td>Grzegorz Kokosiński</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/losipiuk">losipiuk</a></td>
+      <td>Łukasz Osipiuk</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/martint">martint</a></td>
+      <td>Martin Traverso</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/phd3">phd3</a></td>
+      <td>Pratham Desai</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Praveen2112">Praveen2112</a></td>
+      <td>Praveen Krishna</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/raghavsethi">raghavsethi</a></td>
+      <td>Raghav Sethi</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/raunaqmorarka">raunaqmorarka</a></td>
+      <td>Raunaq Morarka</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/sopel39">sopel39</a></td>
+      <td>Karol Sobczak</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Path to becoming a maintainer
 
@@ -167,7 +238,7 @@ adherence to the SQL standard. All pull requests making changes or additions to
 Trino SQL syntax, types, and function library must have the `syntax-needs-review`
 label and be reviewed by the language lead.
 
-Martin Traverso is the language lead.
+Martin Traverso [<i class="fab fa-github"></i> martint](https://github.com/martint)	is the language lead.
 
 ## Benevolent dictators for life
 
@@ -187,7 +258,10 @@ proceed on a given issue, final say will defer to the benevolent dictators.
   and their goal is to act in the best interests of Trino, its contributors, and
   its users.
 
-Dain Sundstrom, David Phillips, and Martin Traverso are the BDFLs.
+Dain Sundstrom [<i class="fab fa-github"></i> dain](https://github.com/dain),
+David Phillips [<i class="fab fa-github"></i>
+electrum](https://github.com/electrum), and Martin Traverso [<i class="fab
+fa-github"></i> martint](https://github.com/martint) are the BDFLs.
 
 ## Trino Software Foundation
 
