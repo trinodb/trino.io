@@ -4,6 +4,7 @@ menu_id: development
 title: Vision and philosophy
 pretitle: Development
 show_hero: true
+show_pagenav: true
 ---
 
 

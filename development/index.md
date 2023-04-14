@@ -3,6 +3,7 @@ layout: default
 menu_id: development
 title: Development
 show_hero: true
+show_pagenav: true
 ---
 
 <div class="container container__development">
