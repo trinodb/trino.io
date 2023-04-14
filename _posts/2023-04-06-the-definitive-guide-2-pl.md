@@ -4,6 +4,7 @@ title:  "Polish edition of Trino: The Definitive Guide"
 author: Manfred Moser, Martin Traverso, Matt Fuller
 image: /assets/ttdg2-pl-cover.png
 excerpt_separator: <!--more-->
+show_pagenav: false
 ---
 
 At this stage Trino is used all around the globe as we know from the [community

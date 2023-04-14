@@ -37,16 +37,18 @@
   </div>
 
   <!-- Comment to remove TOC from a page -->
-  {% if content contains '<!-- No TOC -->' %}
+  {% if content contains '<!-- No TOC -->' or page.show_pagenav==false %}
     {{ content }}
   {% else %}
     <div class="row" style="margin-left:0; margin-right:0;">
-      <div class="col-md-8 col-sm-12">
+      <div class="col-lg-3 d-lg-block d-none">
+      </div>
+      <div class="col-lg-6 col-sm-12">
         <div class="mx-2">
           {% include anchor_headings.html html=content anchorBody="#" %}
         </div>
       </div>
-      <div class="col-md-4 d-md-block d-none">
+      <div class="col-lg-3 d-lg-block d-none">
         <div style="position: sticky; position:-webkit-sticky; top:10px; max-height:100vh; overflow-y:auto;" class="outline-card">
           <u>Table of contents</u>
           {% include toc.html html=content h_min=2 %}
