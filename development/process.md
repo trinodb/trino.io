@@ -4,6 +4,7 @@ menu_id: development
 title: Contribution process
 pretitle: Development
 show_hero: true
+show_pagenav: false
 ---
 
 
