@@ -178,7 +178,7 @@
 - name: ForePaaS
   anchor: forepass
   logo: /assets/images/logos/forepass.png
-  logosmall: /assets/images/logos/forepass-small.png
+  logosmall: /assets/images/logos/forepaas-small.png
   urltext:
   url: https://www.forepaas.com/
   testimonial: |
