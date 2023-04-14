@@ -12,8 +12,8 @@ title: Users
                 Trino users
             </strong>
         </h1>
-        <p class="mr-5 mb-5 lead">Learn about who uses Trino, helps with
-        development, and is generally part of our community!</p>
+        <p class="mr-5 mb-5 lead">Learn about organizations who use Trino, help with
+        development, and are generally part of our community!</p>
         </div>
     </div>
   </div>

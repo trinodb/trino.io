@@ -1,0 +1,18 @@
+<div class="user-logos-container">
+{%- assign selection = site.data.users | sample: 16 -%}
+{%- for user in selection -%}
+  <div class="user-logo-item">
+  {%- if user.anchor == nil -%}
+    <a href="/users.html">
+  {%- else -%}
+    <a href="/users.html#{{user.anchor}}">
+  {%- endif -%}
+      <picture>
+        <source srcset="{{user.logo}}" media="(min-width: 769px)" />
+        <source srcset="{{user.logosmall}}" media="(max-width: 768px)" />
+        <img src="{{user.logosmall}}" alt="{{user.name}}" class="img-thumbnail">
+      </picture>
+    </a>
+  </div>
+{%- endfor -%}
+</div>

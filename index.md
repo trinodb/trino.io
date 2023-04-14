@@ -26,10 +26,10 @@ title: Distributed SQL query engine for big data
     <h2><strong>Join the fastest growing open-source analytics project</strong></h2>
   </div>
   <div style="display:flex;">
-    {%- include users.html -%}
+    {%- include users-summary.html -%}
   </div>
   <div class="col-md-12 text-center spacer-30">
-    <a class="btn btn-orange" href="/users.html">Find out more how they all use Trino!</a>
+    <a class="btn btn-orange" href="/users.html">Learn how these and many other organizations use Trino</a>
   </div>
   <hr class="spacer-30"/>
   <div class="col-md-12 text-center spacer-60">
