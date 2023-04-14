@@ -176,9 +176,9 @@
   url: https://www.ea.com/
   # https://www.youtube.com/watch?v=KY5DhWSqjGg
 - name: ForePaaS
-  anchor: forepass
-  logo: /assets/images/logos/forepass.png
-  logosmall: /assets/images/logos/forepass-small.png
+  anchor: forepaas
+  logo: /assets/images/logos/forepaas.png
+  logosmall: /assets/images/logos/forepaas-small.png
   urltext:
   url: https://www.forepaas.com/
   testimonial: |
