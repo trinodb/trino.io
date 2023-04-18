@@ -281,14 +281,6 @@
     wide array of workloads ranging from ad-hoc to batch queries.
   urltext:
   url: https://www.myntra.com/
-- name: Naver
-  anchor: naver
-  logo: /assets/images/logos/naver.png
-  logosmall: /assets/images/logos/naver-small.png
-  testimonial: |
-    TBD
-  urltext:
-  url: https://www.navercorp.com/en
 - name: Netflix
   logo: /assets/images/logos/netflix.png
   logosmall: /assets/images/logos/netflix-small.png
@@ -422,7 +414,7 @@
   testimonial: |
     TBD
   urltext:
-  url: https://www.sktelecom.com/
+  url: https://www.sktelecom.com/index_en.html
 - name: Starburst
   anchor: starburst
   logo: /assets/images/logos/starburst.png
