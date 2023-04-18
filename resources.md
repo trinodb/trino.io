@@ -242,6 +242,22 @@ versioning.
 
 </div>
 
+<div markdown="1" class="item">
+
+#### [Plural](https://www.plural.sh/)
+
+Plural is an open-source, self-hosting framework that allows you to deploy Trino
+on your own cloud infrastructure. It provides automated upgrade delivery,
+Terraform/Helm management, interactive runbooks, autoscaling, and all the
+features you’d expect out of a managed service for free. Additionally, Plural
+manages all the complexities with deployment on Kubernetes, providing sane
+defaults and interfaces for first-time K8s users and experienced users alike.
+Your access to your infrastructure as code is completely transparent, so all
+your configuration is fully ejectable from the Plural platform.
+
+</div>
+
+
 </div></div>
 
 <div class="resourcesMain">

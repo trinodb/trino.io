@@ -331,6 +331,18 @@
   logo: /assets/images/logos/quintoandar.png
   logosmall: /assets/images/logos/quintoandar-small.png
   #   https://medium.com/quintoandar-tech-blog/building-a-sql-engine-infrastructure-at-quintoandar-73540e136c4e
+- name: Plural
+  anchor: plural
+  logo: /assets/images/logos/plural.png
+  logosmall: /assets/images/logos/plural-small.png
+  testimonial: |
+    Plural creates the future of open-source infrastructure. We are building a
+    flexible, scalable solution to application delivery that gives you the
+    autonomy you need to build and reconfigure the software you use freely. Our
+    offering includes support for Trino.
+  urltext:
+  url: https://www.plural.sh/
+  # supplied by developer advocate https://github.com/avaidyanatha
 - name: Raft
   anchor: raft
   logo: /assets/images/logos/raft.png
