@@ -1,12 +1,10 @@
 ---
 layout: blog
 title: Blog archives
+show_pagenav: false
 ---
 
 <div class="content container clearfix spacer-30">
-
-<!-- Ensures table of contents isn't displayed on this page, don't remove. -->
-<!-- No TOC -->
 
 <div class="row blog-page">
   <div class="col-12 text-surface-medium">

@@ -35,9 +35,8 @@
       </div>
     </div>
   </div>
-
-  <!-- Comment to remove TOC from a page -->
-  {% if content contains '<!-- No TOC -->' or page.show_pagenav==false %}
+  
+  {% if page.show_pagenav==false %}
     {{ content }}
   {% else %}
     <div class="row" style="margin-left:0; margin-right:0;">
