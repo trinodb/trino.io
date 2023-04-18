@@ -184,6 +184,10 @@ The following community members are Trino maintainers:
       <td>Martin Traverso</td>
     </tr>
     <tr>
+      <td><a href="https://github.com/pettyjamesm">pettyjamesm</a></td>
+      <td>James Petty</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/phd3">phd3</a></td>
       <td>Pratham Desai</td>
     </tr>
