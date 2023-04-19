@@ -295,6 +295,21 @@
     wide array of workloads ranging from ad-hoc to batch queries.
   urltext:
   url: https://www.myntra.com/
+- name: Naver
+  anchor: naver
+  logo: /assets/images/logos/naver.png
+  logosmall: /assets/images/logos/naver-small.png
+  testimonial: |
+    Naver Corporation is a global ICT company, providing South Korea’s number
+    one search portal "NAVER". Naver uses Trino for data analytics and business
+    intelligence (BI) purposes. Trino provides data scientists with quick access
+    to their data lake, via a standard SQL interface. Trino process massive
+    amounts of data from different sources, such as user logs and clickstream
+    data, in real-time.
+  urltext:
+  url: https://www.navercorp.com/en
+  # https://github.com/trinodb/trino.io/pull/413#discussion_r1142903151
+  # GitHub for approving user: Chaho12
 - name: Netflix
   logo: /assets/images/logos/netflix.png
   logosmall: /assets/images/logos/netflix-small.png
