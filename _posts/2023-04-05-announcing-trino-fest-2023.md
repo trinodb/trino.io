@@ -7,8 +7,8 @@ image: /assets/blog/trino-fest-2023/trino-fest.png
 ---
 
 Get ready to kick off your summer with Commander Bun Bun at Trino Fest 2023!
-This year's event is going virtual and will take place over two days, the 14th
-and 15th of June. The focus of the event will be on Trino as a data lakehouse
+This year's event is going virtual and will take place over two days, **the 14th
+and 15th of June**. The focus of the event will be on Trino as a data lakehouse
 query engine, with discussions on how new features and the ecosystem around
 Trino can support better data lakehouse management.
 
@@ -77,7 +77,8 @@ learn more about sponsoring Trino Fest 2023, reach out to
 
 ## See you there
 
-Mark your calendar for Trino Fest 2023: Lakehouse Summer Camp, and get ready
+Mark your calendar to save **the 14th
+and 15th of June** for Trino Fest 2023: Lakehouse Summer Camp. Get ready
 for a two-day event that will get you diving into the deep end of the data lake.
 [Registration is open now](https://www.starburst.io/info/trinofest), and [the
 call for speakers](https://sessionize.com/trino-fest-2023) closes on April 28th,
