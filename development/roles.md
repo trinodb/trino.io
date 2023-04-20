@@ -184,6 +184,10 @@ The following community members are Trino maintainers:
       <td>Martin Traverso</td>
     </tr>
     <tr>
+      <td><a href="https://github.com/mosabua">mosabua</a></td>
+      <td>Manfred Moser</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/pettyjamesm">pettyjamesm</a></td>
       <td>James Petty</td>
     </tr>
