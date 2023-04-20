@@ -71,7 +71,7 @@ low latency and high concurrency.
 
 <div markdown="1" class="item">
 
-#### [Quix](https://wix.github.io/quix/)
+#### [Quix](https://wix-incubator.github.io/quix/)
 
 Quix is a multi-user, easy-to-use notebook manager.
 By utilizing Trino it provides unified access to
