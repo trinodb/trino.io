@@ -82,8 +82,14 @@ keep the amount of rework from the contributor to a minimum.
     3. Go to step 5.
 
 8. Maintainer merges the pull request after final changes are accepted.
+
+    * Approval of one maintainer is required for merge. This includes cases when
+      the author of the PR is a maintainer, and a second maintainer reviews, and
+      approves the PR. In these cases either maintainer can merge the PR.
+    * Approvals and input from other reviewers are helpful for the decision of
+      the maintainers, but not required.
     * In the event that the maintainer team is divided on whether a particular
-      contribution should be merged, final say will defer to the [BDFLs](/development/roles.html)
+      contribution should be merged, the final decision is made by the [BDFLs](/development/roles.html)
       of the project.
 
 </div>
