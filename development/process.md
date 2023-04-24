@@ -83,14 +83,26 @@ keep the amount of rework from the contributor to a minimum.
 
 8. Maintainer merges the pull request after final changes are accepted.
 
-    * Approval of one maintainer is required for merge. This includes cases when
-      the author of the PR is a maintainer, and a second maintainer reviews, and
-      approves the PR. In these cases either maintainer can merge the PR.
+    * Approval of a reviewing maintainer is required before a pull request can
+      be merged. If a maintainer authors a pull request, another maintainer must
+      approve it.
     * Approvals and input from other reviewers are helpful for the decision of
       the maintainers, but not required.
     * In the event that the maintainer team is divided on whether a particular
       contribution should be merged, the final decision is made by the [BDFLs](/development/roles.html)
       of the project.
+
+9. Maintainers organize a release to ship the next Trino version with your
+   improvements.
+
+    * All maintainers and the DevRel team collaborate to include your change in
+      the release notes.
+    * Roughly every week, the maintainers initiate a new release build. Exact
+      timing depends on any release blocker issues and availability to run the
+      release build.
+    * After the release all binaries are available and the documentation and the
+      website are updated.
+    * Finally the release is announced.
 
 </div>
 </div>
