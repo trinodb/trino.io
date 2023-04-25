@@ -21,6 +21,15 @@ title: Distributed SQL query engine for big data
   </div>
 </div>
 
+<div class="trino-summit-banner">
+  <div class="trino-summit-content">
+      <img src="/assets/images/trino-fest-banner.png" width="200%" class="position-absolute" style="right: 350px;">
+      <h1 style="color: #FFFFFF;">Trino Fest</h1>
+      <h3>June 14-15, 2023</h3>
+      <a class="btn trino-summit-button" href="https://www.starburst.io/info/trinofest/" target="_blank">Register</a>
+  </div>
+</div>
+
 <div class="container">
   <div class="col-md-12 text-center spacer-60">
     <h2><strong>Join the fastest growing open-source analytics project</strong></h2>
