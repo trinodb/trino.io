@@ -22,11 +22,22 @@ title: Distributed SQL query engine for big data
 </div>
 
 <div class="trino-summit-banner">
-  <div class="trino-summit-content">
-      <img src="/assets/images/trino-fest-banner.png" width="200%" class="position-absolute" style="right: 350px;">
-      <h1 style="color: #FFFFFF;">Trino Fest</h1>
-      <h3>June 14-15, 2023</h3>
-      <a class="btn trino-summit-button" href="https://www.starburst.io/info/trinofest/" target="_blank">Register</a>
+  <div class="row">
+    <div class="col-1"></div>
+    <div class="col-5" style="display: flex; align-items: center;">
+      <img src="/assets/images/trino-fest-banner.png" width="100%">
+    </div>
+    <div class="col-5" style="text-align: center;">
+      <p>
+        <h1 style="color: #FFFFFF;">Trino Fest</h1>
+        <h3 style="color: #FFFFFF; padding-bottom: 1rem;">June 14-15, 2023</h3>
+        <div style="padding-bottom: 1rem">
+          <a class="btn btn-orange" style="display: inline-grid;" href="https://www.starburst.io/info/trinofest/" target="_blank">Register</a>
+          <a class="btn btn-pink" style="display: inline-grid;" href="https://sessionize.com/trino-fest-2023" target="_blank">Submit a talk</a>
+        </div>
+      </p>
+    </div>
+    <div class="col-1"></div>
   </div>
 </div>
 
