@@ -10,6 +10,7 @@
 #
 ################################################################################
 - name: AdLibertas
+  highlight: false
   anchor: adlibertas
   logo: /assets/images/logos/adlibertas.png
   logosmall: /assets/images/logos/adlibertas-small.png
@@ -24,11 +25,13 @@
   urltext:
   url: https://www.adlibertas.com/
 - name: Alphaa AI
+  highlight: false
   logo: /assets/images/logos/alphaa-ai.png
   logosmall: /assets/images/logos/alphaa-ai-small.png
   # https://www.linkedin.com/feed/update/urn:li:activity:6759582016972451840?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6759582016972451840%2C6760182639619002368%29
   url: https://www.alphaa.ai/
 #- name: Airbnb
+#  highlight: false
 #  #anchor: airbnb
 #  logo: /assets/images/logos/airbnb.png
 #  logosmall: /assets/images/logos/airbnb-small.png
@@ -37,6 +40,7 @@
   # https://careers.airbnb.com/positions/4445171/
   # https://web.archive.org/web/20220729070012/https://startup.jobs/senior-software-engineer-interactive-compute-engine-airbnb-3528132
 - name: Amazon AWS
+  highlight: true
   anchor: amazon
   logo: /assets/images/logos/amazon-aws.png
   logosmall: /assets/images/logos/amazon-aws-small.png
@@ -54,6 +58,7 @@
   urltext:
   url: https://aws.amazon.com/
 - name: Ampool
+  highlight: false
   anchor: ampool
   logo: /assets/images/logos/ampool.png
   logosmall: /assets/images/logos/ampool-small.png
@@ -66,6 +71,7 @@
   urltext: Visit the Ampool website for more information!
   url: https://www.ampool-inc.com/
 - name: Backblaze
+  highlight: false
   #anchor: backblaze
   logo: /assets/images/logos/backblaze.png
   logosmall: /assets/images/logos/backblaze-small.png
@@ -73,6 +79,7 @@
   url: https://www.backblaze.com/
   # https://www.backblaze.com/blog/storing-and-querying-analytical-data-in-backblaze-b2/
 - name: Bazaar Technologies
+  highlight: false
   anchor: bazaar_technologies
   logo: /assets/images/logos/bazaar-technologies.png
   logosmall: /assets/images/logos/bazaar-technologies-small.png
@@ -86,6 +93,7 @@
   urltext:
   url: https://www.bazaar-tech.com/
 - name: BlueCat
+  highlight: false
   #anchor: bluecat
   logo: /assets/images/logos/bluecat.png
   logosmall: /assets/images/logos/bluecat-small.png
@@ -93,6 +101,7 @@
   url: https://bluecatnetworks.com/
   # https://youtu.be/7P1qqhgzNbA
 - name: Chasing Securities
+  highlight: false
   anchor: chasing_securities
   logo: /assets/images/logos/chasing-securities.png
   logosmall: /assets/images/logos/chasing-securities-small.png
@@ -111,6 +120,7 @@
   urltext:
   url: https://www.cfzq.com/
 - name: Cloud Chef Labs
+  highlight: false
   anchor: cloud_chef_labs
   logo: /assets/images/logos/cloud-chef-labs.png
   logosmall: /assets/images/logos/cloud-chef-labs-small.png
@@ -123,9 +133,11 @@
   urltext:
   url: http://www.cloudchef-labs.com/
 - name: Cloud Kitchens
+  highlight: false
   logo: /assets/images/logos/cloud-kitchens.png
   logosmall: /assets/images/logos/cloud-kitchens-small.png
 - name: Datappeal
+  highlight: false
   anchor: datappeal
   logo: /assets/images/logos/datappeal.png
   logosmall: /assets/images/logos/datappeal-small.png
@@ -141,6 +153,7 @@
   urltext:
   url: https://datappeal.io/
 - name: datasapiens
+  highlight: false
   anchor: datasapiens
   logo: /assets/images/logos/datasapiens.png
   logosmall: /assets/images/logos/datasapiens-small.png
@@ -155,6 +168,7 @@
   urltext:
   url: https://www.datasapiens.co.uk/
 - name: DiDi
+  highlight: true
   anchor: didi
   logo: /assets/images/logos/didi.png
   logosmall: /assets/images/logos/didi-small.png
@@ -165,10 +179,12 @@
   urltext:
   url: https://www.didiglobal.com/
 - name: Eventbrite
+  highlight: false
   logo: /assets/images/logos/eventbrite.png
   logosmall: /assets/images/logos/eventbrite-small.png
   # https://www.eventbrite.com/engineering/teaching-new-presto-performance-tricks-to-the-old-school-dba/
 - name: Electronic Arts
+  highlight: true
   #anchor: electronic_arts
   logo: /assets/images/logos/electronic-arts.png
   logosmall: /assets/images/logos/electronic-arts-small.png
@@ -176,6 +192,7 @@
   url: https://www.ea.com/
   # https://www.youtube.com/watch?v=KY5DhWSqjGg
 - name: ForePaaS
+  highlight: false
   anchor: forepaas
   logo: /assets/images/logos/forepaas.png
   logosmall: /assets/images/logos/forepaas-small.png
@@ -190,6 +207,7 @@
     access control so that analytics end-users only see the data relevant to
     them.
 - name: Gett
+  highlight: true
   anchor: gett
   logo: /assets/images/logos/gett.png
   logosmall: /assets/images/logos/gett-small.png
@@ -201,6 +219,7 @@
   urltext:
   url: https://gett.com/intl/
 - name: Goldman Sachs
+  highlight: true
   #anchor: goldman_sachs
   logo: /assets/images/logos/goldman-sachs.png
   logosmall: /assets/images/logos/goldman-sachs-small.png
@@ -208,13 +227,16 @@
   url: https://developer.gs.com/
   # https://developer.gs.com/blog/posts/enabling-highly-available-trino-clusters-at-goldman-sachs
 - name: Grab
+  highlight: true
   logo: /assets/images/logos/grab.png
   logosmall: /assets/images/logos/grab-small.png
   #  https://engineering.grab.com/scaling-like-a-boss-with-presto
 - name: Hudson River Trading
+  highlight: false
   logo: /assets/images/logos/hudson-river-trading.png
   logosmall: /assets/images/logos/hudson-river-trading-small.png
 - name: Jampp
+  highlight: false
   anchor: jampp
   logo: /assets/images/logos/jampp.png
   logosmall: /assets/images/logos/jampp-small.png
@@ -224,8 +246,8 @@
     performing analytic queries, ETLs and monitoring data quality.
   urltext:
   url: https://jampp.com/
-
 - name: JioSaavn
+  highlight: false
   anchor: jiosaavn
   logo: /assets/images/logos/jiosaavn.png
   logosmall: /assets/images/logos/jiosaavn-small.png
@@ -242,12 +264,14 @@
   urltext:
   url: https://www.jiosaavn.com
 - name: Instacart
+  highlight: true
   # Orrin Naylor confirmed on slack
   logo: /assets/images/logos/instacart.png
   logosmall: /assets/images/logos/instacart-small.png
   urltext:
   url: https://www.instacart.com
 - name: LINE
+  highlight: false
   anchor: line
   logo: /assets/images/logos/line.png
   logosmall: /assets/images/logos/line-small.png
@@ -260,6 +284,7 @@
   urltext:
   url: https://linecorp.com/en
 - name: LinkedIn
+  highlight: true
   anchor: linkedin
   logo: /assets/images/logos/linkedin.png
   logosmall: /assets/images/logos/linkedin-small.png
@@ -272,14 +297,17 @@
   urltext:
   url: https://linkedin.com
 - name: Lyft
+  highlight: true
   logo: /assets/images/logos/lyft.png
   logosmall: /assets/images/logos/lyft-small.png
   #   https://eng.lyft.com/presto-infrastructure-at-lyft-b10adb9db01
 - name: MoEngage
+  highlight: false
   logo: /assets/images/logos/moengage.png
   logosmall: /assets/images/logos/moengage-small.png
   #   https://moengage.recruiterbox.com/jobs/fk0uue1/
 - name: Myntra
+  highlight: false
   anchor: myntra
   logo: /assets/images/logos/myntra.png
   logosmall: /assets/images/logos/myntra-small.png
@@ -296,6 +324,7 @@
   urltext:
   url: https://www.myntra.com/
 - name: Naver
+  highlight: true
   anchor: naver
   logo: /assets/images/logos/naver.png
   logosmall: /assets/images/logos/naver-small.png
@@ -311,10 +340,12 @@
   # https://github.com/trinodb/trino.io/pull/413#discussion_r1142903151
   # GitHub for approving user: Chaho12
 - name: Netflix
+  highlight: true
   logo: /assets/images/logos/netflix.png
   logosmall: /assets/images/logos/netflix-small.png
   #   https://netflixtechblog.com/using-presto-in-our-big-data-platform-on-aws-938035909fd4
 - name: Nielsen
+  highlight: true
   anchor: nielsen
   logo: /assets/images/logos/nielsen.png
   logosmall: /assets/images/logos/nielsen-small.png
@@ -327,6 +358,7 @@
   urltext:
   url: https://www.nielsen.com/
 - name: NTT Communications
+  highlight: true
   anchor: nttcommunications
   logo: /assets/images/logos/ntt-communications.png
   logosmall: /assets/images/logos/ntt-communications-small.png
@@ -339,14 +371,17 @@
   urltext:
   url: https://www.ntt.com/en/index.html
 - name: Pinterest
+  highlight: true
   logo: /assets/images/logos/pinterest.png
   logosmall: /assets/images/logos/pinterest-small.png
   #   https://medium.com/pinterest-engineering/presto-at-pinterest-a8bda7515e52
 - name: QuintoAndar
+  highlight: true
   logo: /assets/images/logos/quintoandar.png
   logosmall: /assets/images/logos/quintoandar-small.png
   #   https://medium.com/quintoandar-tech-blog/building-a-sql-engine-infrastructure-at-quintoandar-73540e136c4e
 - name: Plural
+  highlight: false
   anchor: plural
   logo: /assets/images/logos/plural.png
   logosmall: /assets/images/logos/plural-small.png
@@ -359,6 +394,7 @@
   url: https://www.plural.sh/
   # supplied by developer advocate https://github.com/avaidyanatha
 - name: Raft
+  highlight: false
   anchor: raft
   logo: /assets/images/logos/raft.png
   logosmall: /assets/images/logos/raft-small.png
@@ -373,6 +409,7 @@
   urltext:
   url: https://goraft.tech
 - name: Rapido
+  highlight: false
   anchor: rapido
   logo: /assets/images/logos/rapido.png
   logosmall: /assets/images/logos/rapido-small.png
@@ -386,6 +423,7 @@
   urltext:
   url: https://rapido.bike/
 - name: Razorpay
+  highlight: true
   anchor: razorpay
   logo: /assets/images/logos/razorpay.png
   logosmall: /assets/images/logos/razorpay-small.png
@@ -400,6 +438,7 @@
   url: https://razorpay.com/
   #   https://engineering.razorpay.com/how-trino-and-alluxio-power-analytics-at-razorpay-803d3386daaf
 - name: Red Hat
+  highlight: true
   #anchor: redhat
   logo: /assets/images/logos/redhat.png
   logosmall: /assets/images/logos/redhat-small.png
@@ -407,6 +446,7 @@
   url: https://redhat.com/
   # https://www.youtube.com/watch?v=M_1A-MEwi6Y
 - name: Resurface
+  highlight: false
   anchor: resurface
   logo: /assets/images/logos/resurface.png
   logosmall: /assets/images/logos/resurface-small.png
@@ -422,6 +462,7 @@
   urltext:
   url: https://resurface.io/
 - name: Robinhood
+  highlight: false
   #anchor: robinhood
   logo: /assets/images/logos/robinhood.png
   logosmall: /assets/images/logos/robinhood-small.png
@@ -429,14 +470,17 @@
   url: https://robinhood.com/
   # https://robinhood.engineering/author-balaji-varadarajan-e3f496815ebf
 - name: Salesforce
+  highlight: true
   logo: /assets/images/logos/salesforce.jpg
   logosmall: /assets/images/logos/salesforce-small.png
   # https://engineering.salesforce.com/big-data-big-decisions-690a00fad88d
 - name: Sentinel One
+  highlight: false
   logo: /assets/images/logos/sentinelone.png
   logosmall: /assets/images/logos/sentinelone-small.png
   # https://sentinelone-tech.medium.com/how-sentinelone-optimizes-big-data-at-scale-b957b5fa7b8a
 - name: Shopify
+  highlight: true
   anchor: shopify
   logo: /assets/images/logos/shopify.png
   logosmall: /assets/images/logos/shopify-small.png
@@ -449,6 +493,7 @@
   url: https://shopify.engineering/topics/data-science-engineering
   # https://shopify.engineering/faster-trino-query-execution-infrastructure
 - name: Starburst
+  highlight: false
   anchor: starburst
   logo: /assets/images/logos/starburst.png
   logosmall: /assets/images/logos/starburst-small.png
@@ -464,10 +509,12 @@
   urltext: Learn more about the Starburst products!
   url: https://www.starburst.io/
 - name: Stripe
+  highlight: true
   logo: /assets/images/logos/stripe-blue.png
   logosmall: /assets/images/logos/stripe-small.png
   # https://support.stripe.com/questions/why-has-the-format-of-object-value-in-my-sigma-query-result-changed
 - name: Swrve
+  highlight: false
   anchor: swrve
   logo: /assets/images/logos/swrve.png
   logosmall: /assets/images/logos/swrve-small.png
@@ -481,6 +528,7 @@
   urltext:
   url: https://www.swrve.com/
 - name: Talkdesk
+  highlight: false
   #anchor: talkdesk
   logo: /assets/images/logos/talkdesk.png
   logosmall: /assets/images/logos/talkdesk-small.png
@@ -488,6 +536,7 @@
   url: https://www.talkdesk.com/
   # https://www.youtube.com/watch?v=qCOnWzOS84Y
 - name: Treasure Data
+  highlight: false
   anchor: treasuredata
   logo: /assets/images/logos/treasure-data.png
   logosmall: /assets/images/logos/treasure-data-small.png
@@ -499,10 +548,12 @@
   urltext:
   url: https://www.treasuredata.com/
 #- name: Walmart
+#  highlight: false
 #  logo: /assets/images/logos/walmart.png
 #  logosmall: /assets/images/logos/walmart-small.png
   # https://medium.com/walmartglobaltech/custom-downscaler-for-trino-cluster-on-google-cloud-243f64112b86
 - name: Zuora
+  highlight: false
   logo: /assets/images/logos/zuora.png
   logosmall: /assets/images/logos/zuora-small.png
   # https://trino.io/blog/2020/06/16/presto-summit-zuora.html
