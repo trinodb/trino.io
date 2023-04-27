@@ -989,24 +989,16 @@ table td {
 }
 
 .user-logo-item {
-  max-width: 12.5%; /* 8 Column */
-  -ms-flex: 0 0 12.5%;
-  flex: 0 0 12.5%;
+  max-width: 10%; /* 10 Column */
+  -ms-flex: 0 0 10%;
+  flex: 0 0 10%;
 }
 
 @media (max-width: 769px) {
   .user-logo-item {
-    max-width: 16.666667%; /* 6 Column */
-    -ms-flex: 16.666667%;
-    flex: 16.666667%;
-  }
-}
-
-@media (max-width: 414px) {
-  .user-logo-item {
-    max-width: 33.33%; /* 3 Column */
-    -ms-flex: 33.33%;
-    flex: 33.33%;
+    max-width: 20%; /* 5 Column */
+    -ms-flex: 20%;
+    flex: 20%;
   }
 }
 
