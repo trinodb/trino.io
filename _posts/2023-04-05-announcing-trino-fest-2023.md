@@ -41,7 +41,7 @@ We're particularly interested in talks related to:
 * ETL/ELT/batch query processing
 * Other tools and integrations in the Trino ecosystem
 
-The call for speakers closes on April 28th, so be sure to submit your talk soon!
+The call for speakers closes on May 19th, so be sure to submit your talk soon!
 
 ## What's new this year?
 
