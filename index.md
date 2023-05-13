@@ -33,7 +33,6 @@ title: Distributed SQL query engine for big data
         <h3 style="color: #FFFFFF; padding-bottom: 1rem;">June 14-15, 2023</h3>
         <div style="padding-bottom: 1rem">
           <a class="btn btn-orange" style="display: inline-grid;" href="https://www.starburst.io/info/trinofest/" target="_blank">Register</a>
-          <a class="btn btn-pink" style="display: inline-grid;" href="https://sessionize.com/trino-fest-2023" target="_blank">Submit a talk</a>
         </div>
       </p>
     </div>
