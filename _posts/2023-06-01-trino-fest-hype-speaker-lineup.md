@@ -12,9 +12,15 @@ excited to share that we've got an incredible speaker lineup with a wide variety
 of talks about all things Trino. If you're out of the loop,
 [we announced Trino Fest](/2023-04-05-announcing-trino-fest-2023.html) back in
 April as a two-day, free, virtual event. If you want to attend, see talks live,
-and engage with our speakers in Q&As at the end of each session,
-[go register now](https://www.starburst.io/info/trinofest/)! You do need to
-register to view the event, so don't delay.
+engage with our speakers in Q&As at the end of each session, you'll need to
+register, so don't delay, and...
+
+<div class="card-deck spacer-30">
+    <a class="btn btn-orange" href="https://www.starburst.io/info/trinofest/">
+        Register to attend!
+    </a>
+</div>
+<div class="spacer-30"></div>
 
 With that said, we're also excited to bring you a preview of our exciting
 speaker lineup. Read on if you'd like to learn more.
@@ -46,11 +52,11 @@ may not even need to know much SQL to get the insights they're looking for.
 
 ## Data lakes
 
-Ryan Blue, the co-founder of Iceberg founder of Tabular, will be exploring how
-to best write CDC (change data capture) streams into Iceberg tables. A talk from
-Kevin Liu at Stripe will explore how a data engineer can monitor queries being
-run on Iceberg to catch performance outliers and understand usage rates. A talk
-from Alluxio highlights caching optimizations with Trino and data lakes.
+Ryan Blue, the co-founder of Iceberg and founder of Tabular, will be exploring
+how to best write CDC (change data capture) streams into Iceberg tables. A talk
+from Kevin Liu at Stripe will explore how a data engineer can monitor queries
+being run on Iceberg to catch performance outliers and understand usage rates. A
+talk from Alluxio highlights caching optimizations with Trino and data lakes.
 OneHouse is giving a talk about using Trino with Hudi, exploring how to get
 query latency down, how multi-modal indexing works in Hudi, and how Trino can
 utilize that indexing to execute queries at astonishing speeds. A lightning talk
