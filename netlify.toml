@@ -14,10 +14,6 @@
   to = "/docs/current/"
 
 [[redirects]]
-  from = "/docs/current"
-  to = "/docs/current/"
-
-[[redirects]]
   from = "/docs/*"
   to = "https://trinodb.github.io/docs.trino.io/:splat"
   status = 200
