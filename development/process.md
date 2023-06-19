@@ -1,10 +1,10 @@
 ---
 layout: default
 menu_id: development
-title: Contribution process
+title: Contribute
 pretitle: Development
 show_hero: true
-show_pagenav: false
+show_pagenav: true
 ---
 
 
@@ -14,6 +14,11 @@ show_pagenav: false
   <div class="col-md-12">
 <div markdown="1" class="leftcol widecol process">
 
+The Trino project succeeds with your help and contributions. Find details on how
+to contribute, how maintainers assist, and more related information in the
+following sections:
+
+## Contribution process
 
 This is the process we suggest for contributions.  This process is designed to
 reduce the burden on project reviewers, impact on other contributors, and to
@@ -50,16 +55,8 @@ keep the amount of rework from the contributor to a minimum.
    require additional credentials. The Trino project cannot share these
    credentials with contributors, so it runs these tests in its CI workflows
    only on branches in the Trino repository, not in contributor forks.
-
-   Trino maintainers can schedule additional workflow runs after reviewing a PR
-   by adding a comment starting with this line:
-
-    ```
-    /test-with-secrets sha=<all-40-characters>
-    ```
-
-   The SHA value should be the full 40 character git SHA of a commit
-   of the feature branch, usually the head commit.
+   Maintainers trigger these test runs for other pull requests as part of their
+   review.
 
 6. Review is performed by one or more reviewers.
 
@@ -83,15 +80,6 @@ keep the amount of rework from the contributor to a minimum.
 
 8. Maintainer merges the pull request after final changes are accepted.
 
-    * Approval of a reviewing maintainer is required before a pull request can
-      be merged. If a maintainer authors a pull request, another maintainer must
-      approve it.
-    * Approvals and input from other reviewers are helpful for the decision of
-      the maintainers, but not required.
-    * In the event that the maintainer team is divided on whether a particular
-      contribution should be merged, the final decision is made by the [BDFLs](/development/roles.html)
-      of the project.
-
 9. Maintainers organize a release to ship the next Trino version with your
    improvements.
 
@@ -103,6 +91,65 @@ keep the amount of rework from the contributor to a minimum.
     * After the release all binaries are available and the documentation and the
       website are updated.
     * Finally the release is announced.
+
+
+## Maintainer processes
+
+[Maintainers](./roles.html#maintainer) support the contributions from the
+community and other maintainers by participating in the contribution process.
+The following additional processes and steps apply for their work.
+
+### Pull request review
+
+The following aspects apply for reviewing pull requests.
+
+* Code and tests should be part of the pull requests and review.
+* Commit content, sequencing, and messages must be reviewed.
+* Documentation should be part of the PR or available in a separate PR, that is
+  ideally merged and managed together with the code contribution.
+* Maintainers can schedule additional workflow runs with tests that use external
+  services when reviewing a PR by adding a comment:
+
+  ```
+  /test-with-secrets sha=<all-40-characters>
+  ```
+  The SHA value should be the full 40 character git SHA of a commit of the
+  feature branch, usually the head commit. This allows runs with the full test
+  suite, including third party integrations and infrastructure for branches that
+  are not in the core repository. Maintainers must review the pull request to
+  understand and assess the security implications of running the test suite on
+  the external service and ensure that no malicious code is run.
+
+### Pull request review and  merge
+
+The following criteria and aspects apply for merging pull requests.
+
+* CLA check must pass to confirm that a CLA was submitted and filed.
+* CI test suite must pass, or significant evidence must be available that
+  failures are unrelated. This can include local test runs by the maintainer.
+* Approval of a reviewing maintainer is required before a pull request can be
+  merged. If a maintainer authors a pull request, another maintainer must
+  approve it.
+* Approvals and input from other reviewers are helpful for the decision of the
+  maintainers, but not required.
+* In the event that the maintainer team is divided on whether a particular
+  contribution should be merged, the final decision is made by the
+  [BDFLs](./roles.html#bdfl) of the project.
+* By default, merging should be done as a **Rebase and merge**. Maintainers can
+  also use **Squash and merge** at their discretion. This is suitable for small
+  fixes on commit messages, or if PR is ready but the contributor is
+  unresponsive. When using squash and merge, ensure to remove the PR number that
+  is automatically inserted by the GitHub interface as part of the suggested new
+  commit message.
+* The merging maintainer must assist the release team with release notes entries
+  creation and any necessary clarification. If necessary, the merging maintainer
+  collaborates with the contributors and reviewers on details.
+
+### CLA management
+
+Reviews and assistance for the contributor on a pull request can proceed as soon
+as a PR is filed and set as ready for review. A signed CLA is required for
+merging a PR. Submitted CLAs are managed by the [BDFLs](./roles.html#bdfl).
 
 </div>
 </div>
