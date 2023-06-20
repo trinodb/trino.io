@@ -235,6 +235,41 @@ The following community members are Trino maintainers:
    expertise from all contributors. The maintainer role is retained while being
    active in the project.
 
+## Subproject maintainers
+
+A subproject maintainer on the Trino project is a maintainer with limited scope
+in terms of access to specific repositories within the [trinodb GitHub
+organization]({{site.github_repo_url}}). The scope is also limited in terms of
+the used technologies.
+
+Subproject maintainers only have merge access on a specific subproject
+repository. Subproject repositories cover a subset of the overall scope of the
+Trino project. They are often associated to a specific aspect of running the
+project or a technology stack and integration for Trino.
+
+Examples for subproject repositories are the
+[trino.io]({{site.github_repo_url}}/grafana-trino) website source or the
+[grafana-trino]({{site.github_repo_url}}/grafana-trino) repository for the Trino
+Grafana data source plugin. Other potential subprojects are
+[trino-python-client]({{site.github_repo_url}}/trino-python-client),
+[trino-go-client]({{site.github_repo_url}}/trino-go-client), and
+[charts]({{site.github_repo_url}}/charts).
+
+**Expectations and duties:**
+
+The expectations and duties of a subproject maintainer are identical to those of
+a maintainer, but limited to the subproject repository and the related
+technologies.
+
+### Subprojects
+
+The following subproject repositories and subproject maintainers are configured:
+
+* [grafana-trino]({{site.github_repo_url}}/grafana-trino)
+  * Jan Waś [<i class="fab fa-github"></i> nineinchnick](https://github.com/nineinchnick)
+* [trino.io]({{site.github_repo_url}}/trino.io)
+  * Brian Olsen [<i class="fab fa-github"></i> bitsondatadev](https://github.com/bitsondatadev)
+
 ## Language Lead
 
 The language lead is the maintainer specifically responsible for maintaining the
