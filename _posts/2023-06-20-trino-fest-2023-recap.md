@@ -48,9 +48,8 @@ If you could not attend every session, or if you missed out on attending
 completely, then we've got great news for you! You still  have a chance to learn
 from the presentations and the experience and knowledge of our speakers.
 
-* [<i class="fab fa-youtube" style="color:red;padding-right:0.5em;"/>Trino for
-  lakehouses, data oceans, and beyond](https://youtu.be/SJ1h-I7HoII) presented
-  by Martin Traverso, co-creator of Trino and CTO at
+* [Trino for lakehouses, data oceans, and beyond]({% post_url 2023-06-22-trino-fest-2023-keynote-recap %})
+  presented by Martin Traverso, co-creator of Trino and CTO at
   [Starburst](https://www.starburst.io/).
 * [<i class="fab fa-youtube" style="color:red;padding-right:0.5em;"/>Anomaly
   detection for Salesforce’s production data using
