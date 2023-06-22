@@ -29,3 +29,7 @@
 [[redirects]]
   from = "/presto-the-definitive-guide.html"
   to = "/trino-the-definitive-guide.html"
+
+[[redirects]]
+  from = "/resource*"
+  to = "/ecosystem/index.html"

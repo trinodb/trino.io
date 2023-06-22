@@ -1,0 +1,23 @@
+<div class="tool-logos-container spacer-50">
+  {% for tool in site.data.tools %}
+    {% if tool.category == category %}
+    <div class="tool-logo-item">
+      {% if tool.anchor == nil %}
+        <a href="./{{tool.category}}.html">
+      {% else %}
+        <a href="./{{tool.category}}.html#{{tool.anchor}}">
+      {% endif %}
+      {% if tool.logo == nil %}
+          {{tool.name}}
+      {% else %}
+        <picture title="{{tool.name}}">
+          <source srcset="{{tool.logo}}" media="(min-width: 769px)" />
+          <source srcset="{{tool.logosmall}}" media="(max-width: 768px)" />
+          <img src="{{tool.logosmall}}" alt="{{tool.name}}" class="img-thumbnail">
+        </picture>
+      {% endif %}
+      </a>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
