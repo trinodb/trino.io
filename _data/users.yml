@@ -53,18 +53,36 @@
   logosmall: /assets/images/logos/aws-small.png
   testimonial: |
     Amazon Web Services (AWS) is widely used for deploying and running Trino.
-    The Amazon EMR product provides a managed Hadoop framework that makes it
-    easy, fast, and cost-effective to process vast amounts of data across
-    dynamically scalable Amazon EC2 instances. With EMR, you can launch a large
-    Trino cluster in minutes. You don’t need to worry about node provisioning,
-    cluster setup or tuning. Using Trino on EMR provides you cluster elasticity.
-    You can provision one, hundreds, or thousands of compute instances to
-    process data at any scale. The scaling can be manual or automatic, and you
-    only pay for what you use. Pricing is simple and predictable. You pay a
-    per-second rate for every second used, with a one-minute minimum charge.
+    Amazon Athena or Amazon EMR embed Trino for your usage.
+
+    **Amazon Athena** is a serverless, interactive analytics service built on
+    open-source frameworks, supporting open-table and file formats. Athena
+    provides a simplified, flexible way to analyze petabytes of data where it
+    lives. Analyze data or build applications from an Amazon Simple Storage
+    Service (S3) data lake and 30 data sources, including on-premises data
+    sources or other cloud systems using SQL or Python. Athena is built on
+    open-source Trino and Presto engines and Apache Spark frameworks, with no
+    provisioning or configuration effort required.
+
+    **Amazon EMR** provides a managed Hadoop framework that makes it easy, fast,
+    and cost-effective to process vast amounts of data across dynamically
+    scalable Amazon EC2 instances. With EMR, you can launch a large Trino
+    cluster in minutes. You don't need to worry about node provisioning, cluster
+    setup or tuning. Using Trino on EMR provides these benefits to customers:
+
+    * Elasticity: With Amazon EMR, you can provision one, hundreds, or
+    thousands of compute instances to process data at any scale. You can easily
+    increase or decrease the number of instances manually or with auto scaling,
+    and you only pay for what you use.
+    * Simple and predictable pricing: You pay a per-second rate for every second
+    used, with a one-minute minimum charge.
   links:
     - urltext: View the Amazon AWS website
       url: https://aws.amazon.com/
+    - urltext: Amazon Athena
+      url: https://aws.amazon.com/athena/
+    - urltext: Amazon EMR
+      url: https://aws.amazon.com/emr/
 - name: Ampool
   highlight: false
   anchor: ampool
@@ -204,6 +222,23 @@
   links:
     - urltext: View the DiDi website
       url: https://www.didiglobal.com/
+- name: Dune
+  highlight: false
+  anchor: dune
+  logo: /assets/images/logos/dune.png
+  logosmall: /assets/images/logos/dune-small.png
+  testimonial: |
+    Dune is a web-based platform that allows you to query public blockchain data
+    and aggregate it into beautiful dashboards. DuneSQL, based on the
+    open-source Trino engine, is the custom-built query engine for efficient
+    analysis of blockchain data.
+  links:
+    - urltext: Dune
+      url: https://dune.com/
+    - urltext: Dune SQL
+      url: https://dune.com/docs/query/DuneSQL-reference/
+    - urltext: Dune SQL presentation at Trino Fest 2023
+      url: https://youtu.be/sCJncarnGdU
 - name: Eventbrite
   highlight: false
   logo: /assets/images/logos/eventbrite.png
@@ -478,13 +513,25 @@
   logo: /assets/images/logos/plural.png
   logosmall: /assets/images/logos/plural-small.png
   testimonial: |
-    Plural creates the future of open-source infrastructure. We are building a
-    flexible, scalable solution to application delivery that gives you the
-    autonomy you need to build and reconfigure the software you use freely. Our
-    offering includes support for Trino.
+    Plural creates the future of open-source infrastructure. Plural is an
+    open-source, self-hosting framework that allows you to deploy Trino on your
+    own cloud infrastructure.
+
+    Plural provides a flexible, scalable solution to application delivery that
+    gives you the autonomy you need to build and reconfigure the software you
+    use freely. Plural includes support for Trino. It provides automated upgrade
+    delivery, Terraform/Helm management, interactive runbooks, autoscaling, and
+    all the features you’d expect out of a managed service for free.
+    Additionally, Plural manages all the complexities with deployment on
+    Kubernetes, providing sane defaults and interfaces for first-time K8s users
+    and experienced users alike. Your access to your infrastructure as code is
+    completely transparent, so all your configuration is fully ejectable from
+    the Plural platform.
   links:
     - urltext: View the Plural website
       url: https://www.plural.sh/
+    - urltext: Installing Trino with Plural
+      url: https://docs.plural.sh/applications/trino
   # supplied by developer advocate https://github.com/avaidyanatha
 - name: Raft
   highlight: false
@@ -621,17 +668,55 @@
   logo: /assets/images/logos/starburst.png
   logosmall: /assets/images/logos/starburst-small.png
   testimonial: |
-    Starburst allows you to perform analytics anywhere: in the cloud, on-prem,
-    or running hybrid. The Starburst platform is built on Trino to allow for
-    fast federated querying across a multitude of datasources. These features in
-    addition to Starburst's auto-scaling deployment solutions, enterprise
-    connectors, and trusted industry grade security around a single accesspoint
-    makes your data accessible without having to move it to another location. On
-    top of that, Starburst has the best enterprise support as our employees have
-    contributed the majority of the Trino opensource codebase.
+    Starburst offers a full-featured data lake analytics platform, built on open
+    source Trino. The platform includes the capabilities needed to discover,
+    organize, and consume data without the need for time-consuming and costly
+    migrations. It supports the lake as the center of gravity, and additionally
+    accesses data outside the lake when needed. Starburst founders and employess
+    include the Trino co-creators, numerous maintainers, contributors and other
+    experts, ready to support you.
+
+    **Starburst Galaxy** is a fully managed data lake analytics platform
+    designed for large and complex data sets in and around your cloud data lake.
+    It is the easiest and fastest way for you to start running queries at
+    interactive speeds across data sources using the business intelligence and
+    analytics tools you already know.
+
+    Starburst Galaxy takes just minutes to set up and takes care of the heavy
+    lifting of designing, provisioning, maintaining, and securing your Trino
+    infrastructure.  In addition, Galaxy offers proprietary features such as
+    fully managed connectors, global search, schema discovery, monitoring and
+    metrics, and data sharing with Data Products that allow your data teams to
+    focus on generating unique insights from your data – not managing and
+    building analytics infrastructure.
+
+    **Starburst Enterprise** is a data lake analytics platform that allows
+    organizations to access and analyze data on the lake and additional
+    connected sources, including cloud data warehouses, legacy and on-premise
+    databases, and modern streaming and NoSQL sources, all through a single,
+    unified interface.
+
+    It is a fully supported, production-tested and enterprise-grade distribution
+    of the popular open-source project Trino. Starburst Enterprise adds
+    additional features, such as enterprise-grade security, access controls, a
+    variety of supported connectors, improved performance, and a user-friendly
+    interface.
+
+    With Starburst Enterprise, users can run ad-hoc and batch queries, build
+    interactive dashboards, and perform data exploration on a variety of data
+    sources. The platform is designed to be scalable and can handle large and
+    complex data sets that are distributed across multiple systems.
   links:
     - urltext: View the Starburst website
       url: https://www.starburst.io/
+    - urltext: Starburst Galaxy
+      url: https://www.starburst.io/platform/starburst-galaxy/
+    - urltext: Starburst Galaxy Documentation
+      url: https://docs.starburst.io/starburst-galaxy/index.html
+    - urltext: Starburst Enterprise
+      url: https://www.starburst.io/platform/starburst-enterprise/
+    - urltext: Starburst Enterprise Documentation
+      url: https://docs.starburst.io/starburst-enterprise/index.html
 - name: Stripe
   highlight: true
   anchor: stripe

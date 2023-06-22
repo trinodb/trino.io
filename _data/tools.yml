@@ -1,0 +1,402 @@
+################################################################################
+# Data for the display on the detailed ecosystem pages
+################################################################################
+- name: Apache Airflow
+  anchor: apache-airflow
+  category: client
+  logo: /assets/images/logos/airflow.png
+  logosmall: /assets/images/logos/airflow-small.png
+  description: |
+    Airflow™ is a platform created by the community to programmatically author,
+    schedule, and monitor workflows.
+  links:
+    - urltext: Apache Airflow
+      url: https://airflow.apache.org/
+    - urltext: Trino provider for Apache Airflow
+      url: https://airflow.apache.org/docs/apache-airflow-providers-trino/stable/index.html
+    - urltext: Trino Summit 2022 presentation
+      url: /blog/2022/12/21/trino-summit-2022-astronomer-recap.html
+- name: Apache Superset
+  anchor: apache-superset
+  category: client
+  logo: /assets/images/logos/superset.png
+  logosmall: /assets/images/logos/superset-small.png
+  description: |
+    Apache Superset enables users to consume data in many different ways:
+    writing SQL queries, creating new tables, creating a visualization
+    (slice), adding that visualization to one or many dashboards and
+    downloading a CSV. SQL Lab is a a part of Superset and provides a rich
+    SQL editor that enables users to both query and visualize data. You
+    can explore and preview tables in Trino, effortlessly compose SQL
+    queries to access data. From there, you can either export a CSV file
+    or immediately visualize your data in the Superset "Explore" view.
+  links:
+    - urltext: Apache Superset
+      url: https://superset.apache.org/
+    - urltext: Apache Superset - Trino configuration
+      url: https://superset.apache.org/docs/databases/trino
+    - urltext: Tutorial
+      url: https://docs.starburst.io/data-consumer/clients/superset.html
+    - urltext: Trino Community Broadcast 21 from March 2021
+      url: https://docs.starburst.io/data-consumer/clients/superset.html
+- name: CLI
+  anchor: cli
+  category: client
+  logo: /assets/images/logos/cli.png
+  logosmall: /assets/images/logos/cli-small.png
+  description: |
+    The Trino CLI is a feature-rich command line interface tool for interactive
+    query processing with Trino. The batch mode allows you to integrate the CLI
+    with any other processing and automation that supports command line
+    interactions.
+  links:
+    - urltext: Trino CLI documentation and download
+      url: https://trino.io/docs/current/client/cli.html
+    - urltext: User guide
+      url: https://docs.starburst.io/data-consumer/clients/cli.html
+- name: Cube
+  anchor: cube
+  category: client
+  logo: /assets/images/logos/cube.png
+  logosmall: /assets/images/logos/cube-small.png
+  description: |
+    Cube is headless BI for building data apps. You can use Cube to create an
+    additional semantic layer or a last-mile caching layer on top of Trino. More
+    importantly, you can use the set of APIs that Cube provides, including REST
+    API, GraphQL API, and SQL API, to deliver the data directly to custom-built
+    front-end applications as well as BI tools and notebooks, retaining low
+    latency and high concurrency.
+  links:
+    - urltext: Cube
+      url: https://cube.dev/
+    - urltext: Trino as data source with Cube
+      url: https://cube.dev/integrations/Trino-Data-API
+    - urltext: Announcement blog post
+      url: https://cube.dev/blog/cube-integration-with-trino-sql-query-engine-for-big-data
+- name: Datadog
+  anchor: datadog
+  category: add-on
+  logo: /assets/images/logos/datadog.png
+  logosmall: /assets/images/logos/datadog-small.png
+  description: |
+    The Datadog integration allows the observability service for cloud-scale
+    applications to monitor your Trino cluster. It accesses the [JMX metrics
+    provided by Trino](/docs/current/admin/jmx.html), and exposes them in
+    Datadog for monitoring, inspection, and troubleshooting purposes.
+  links:
+    - urltext: Datadog
+      url: https://www.datadoghq.com/
+    - urltext: Documentation for Trino integration
+      url: https://docs.datadoghq.com/integrations/trino/
+- name: dbt
+  anchor: dbt
+  category: client
+  logo: /assets/images/logos/dbt.png
+  logosmall: /assets/images/logos/dbt-small.png
+  description: |
+    dbt is a transformation workflow that helps you get more work done while
+    producing higher quality results. You can use dbt to modularize and
+    centralize your analytics code, while also providing your data team with
+    guardrails typically found in software engineering workflows. Collaborate on
+    data models, version them, and test and document your queries before safely
+    deploying them to production, with monitoring and visibility.
+  links:
+    - urltext: dbt
+      url: https://www.getdbt.com/
+    - urltext: dbt documentation
+      url: https://docs.getdbt.com/
+    - urltext: dbt configuration for Trino
+      url: https://docs.getdbt.com/reference/resource-configs/trino-configs
+    - urltext: dbt-trino plugin
+      url: https://github.com/starburstdata/dbt-trino
+- name: Great Expectations
+  anchor: great-expectations
+  category: client
+  logo: /assets/images/logos/great-expectations.png
+  logosmall: /assets/images/logos/great-expectations-small.png
+  description: |
+    Great Expectations is the leading tool for validating, documenting, and
+    profiling your data to maintain quality and improve communication between
+    teams.
+  links:
+    - urltext: Great Expectations
+      url: https://greatexpectations.io
+    - urltext: Great Expectations documentation
+      url: https://docs.greatexpectations.io/
+    - urltext: Trino guide
+      url: https://docs.greatexpectations.io/docs/guides/connecting_to_your_data/database/trino/
+    - urltext: Make your Trino data pipelines production ready with Great Expectations
+      url: https://trino.io/blog/2022/08/24/data-pipelines-production-ready-great-expectations.html
+- name: Go
+  anchor: go
+  category: client
+  logo: /assets/images/logos/go.png
+  logosmall: /assets/images/logos/go-small.png
+  description: |
+    Go is a statically typed, compiled high-level programming language. Use the
+    Trino Go client to connect a Go applications to a Trino cluster and receive
+    the results of the submitted SQL queries.
+  links:
+    - urltext: Go
+      url: https://go.dev/
+    - urltext: Trino Go client source code and documentation
+      url: https://github.com/trinodb/trino-go-client
+- name: Grafana
+  anchor: grafana
+  category: client
+  logo: /assets/images/logos/grafana.png
+  logosmall: /assets/images/logos/grafana-small.png
+  description: |
+    Grafana is a multi-platform open source analytics and interactive
+    visualization web application. It provides charts, graphs, and alerts for
+    the web when connected to supported data sources.
+
+    The Trino Grafana Data Source Plugin allows you to connect your Grafana dashboards to Trino and use the configured catalogs as data source.
+  links:
+    - urltext: Grafana
+      url: https://grafana.com/
+    - urltext: Trino Grafana Data Source Plugin
+      url: https://github.com/trinodb/grafana-trino
+- name: Hue
+  anchor: hue
+  category: client
+  logo: /assets/images/logos/hue.png
+  logosmall: /assets/images/logos/hue-small.png
+  description: |
+    Hue is a mature open source SQL assistant for querying databases and data
+    warehouses. It is used by Fortune 500 companies, and focused on smart query
+    typing.
+  links:
+    - urltext: Hue
+      url: http://gethue.com/
+    - urltext: Instructions to use the Trino connector
+      url: https://docs.gethue.com/administrator/configuration/connectors/#trino
+- name: JDBC
+  anchor: jdbc
+  category: client
+  logo: /assets/images/logos/jdbc.png
+  logosmall: /assets/images/logos/jdbc-small.png
+  description: |
+    Java Database Connectivity (JDBC) enables applications running on the JVM to
+    connect and query databases. Use the Trino JDBC driver with your application
+    for the JVM, written in Java, Kotlin, or any other JVM language, or provided
+    by your tool vendor.
+  links:
+    - urltext: Trino JDBC Driver documentation
+      url: https://trino.io/docs/current/client/jdbc.html
+- name: Jupy SQL
+  anchor: jupy-sql
+  category: client
+  logo: /assets/images/logos/jupy-sql.png
+  logosmall: /assets/images/logos/jupy-sql-small.png
+  description: |
+    JupySQL allows you to run SQL and plot large datasets in Jupyter a `%sql`,
+    %%sql, and %sqlplot magics. JupySQL is compatible with all major databases,
+    data warehouses, embedded engines, and of course also Trino.
+  links:
+    - urltext: Jupy SQL
+      url: https://jupysql.ploomber.io/
+    - urltext: Trino tutorial
+      url: https://jupysql.ploomber.io/en/latest/integrations/trinodb.html
+- name: Kubernetes
+  anchor: kubernetes
+  category: add-on
+  logo: /assets/images/logos/kubernetes.png
+  logosmall: /assets/images/logos/kubernetes-small.png
+  description: |
+    Trino is commonly deployed on the Kubernetes platform. Use the Docker
+    container directly or with the Helm chart for your deployment.
+  links:
+    - urltext: Kubernetes
+      url: https://kubernetes.io/
+    - urltext: Trino Docker container documentation
+      url: https://trino.io/docs/current/installation/containers.html
+    - urltext: Trino Helm charts documentation
+      url: https://trino.io/docs/current/installation/kubernetes.html
+- name: Metabase
+  anchor: metabase
+  category: client
+  logo: /assets/images/logos/metabase.png
+  logosmall: /assets/images/logos/metabase.small
+  description: |
+    Metabase is an open-source web based business intelligence platform. You can
+    use Metabase to ask questions about your data, or embed Metabase in your app
+    to let your customers explore their data on their own. More information is
+    available in the driver project repository and the user guide.
+  links:
+    - urltext: Metabase
+      url: https://www.metabase.com/
+    - urltext: Metabase driver user guide
+      url: https://docs.starburst.io/data-consumer/clients/metabase.html
+    - urltext: Metabase driver
+      url: https://github.com/starburstdata/metabase-driver
+- name: Node.js
+  anchor: node_js
+  category: client
+  logo: /assets/images/logos/nodejs.png
+  logosmall: /assets/images/logos/nodejs-small.png
+  description: |
+    Use the presto-client-node project or the lento project to connect a Node.js
+    application to Trino cluster and receive the results of the submitted
+    queries.
+  links:
+    - urltext: presto-client-node
+      url: https://github.com/tagomoris/presto-client-node
+    - urltext: lento
+      url: https://github.com/vweevers/lento
+- name: ODBC
+  anchor: Odbc
+  category: client
+  logo: /assets/images/logos/odbc.png
+  logosmall: /assets/images/logos/odbc-small.png
+  description: |
+    Open Database Connectivity (JDBC) enables applications to connect and query
+    databases. Use an ODBC driver with your application own custom appication,
+    or with any other application that supports ODBC. ODBC drivers for Trino are
+    available from Magnitude. Starburst customers receive an ODBC driver
+    suitable for Starburst Enterprise and Starburst Galaxy.
+  links:
+    - urltext: Magnitiude ODBC driver
+      url: https://www.magnitude.com/drivers/trino-odbc-jdbc
+    - urltext: Starburst ODBC driver
+      url: https://docs.starburst.io/data-consumer/clients/odbc.html
+- name: PopSQL
+  anchor: popsql
+  category: client
+  logo: /assets/images/logos/popsql.png
+  logosmall: /assets/images/logos/popsql-small.png
+  description: |
+    PopSQL is a collaborative SQL editor for your team to write queries,
+    visualize data, and share your results.
+  links:
+    - urltext: PopSQL
+      url: https://popsql.com/
+    - urltext: Connecting to Trino
+      url: https://docs.popsql.com/docs/connecting-to-trino
+- name: Presto-Gateway
+  anchor: presto-gateway
+  category: add-on
+  logo:
+  logosmall:
+  description: |
+    Presto-Gateway is a gateway/proxy/load-balancer for multiple Trino clusters.
+    Users can register/de-register Trino clusters behind the gateway and connect
+    to it using standard clients.
+  links:
+    - urltext: Presto-Gateway
+      url: https://github.com/lyft/presto-gateway
+- name: Python
+  anchor: python
+  category: client
+  logo: /assets/images/logos/python.png
+  logosmall: /assets/images/logos/python-small.png
+  description: |
+    Python is a programming language that lets you work quickly and integrate
+    systems more effectively. Use the Trino Python Client to connect a Python
+    script or application to a Trino cluster and receive the results of the
+    submitted queries.
+  links:
+    - urltext: Python
+      url: https://www.python.org/
+    - urltext: trino-python-client
+      url: https://github.com/trinodb/trino-python-client
+- name: Quix
+  anchor: quix
+  category: client
+  logo: /assets/images/logos/quix.png
+  logosmall: /assets/images/logos/quix-small.png
+  description: |
+    Quix is a multi-user, easy-to-use notebook manager.By utilizing Trino it
+    provides unified access to multiple data sources and effectively acts as a
+    shared space for your company's BI insights and know-how.
+  links:
+    - urltext: Quix
+      url: https://wix-incubator.github.io/quix/
+    - urltext: Documentation for Trino users
+      url: https://wix-incubator.github.io/quix/docs/presto
+- name: R
+  anchor: r
+  category: client
+  logo: /assets/images/logos/r.png
+  logosmall: /assets/images/logos/r-small.png
+  description: |
+    R is a free software environment for statistical computing and graphics.
+    RPresto is a DBI-based adapter for the open source distributed SQL query
+    engines Presto and Trino for running interactive analytic queries.
+  links:
+    - urltext: R
+      url: https://www.r-project.org/
+    - urltext: RPresto
+      url: https://github.com/prestodb/RPresto
+- name: Redash
+  anchor: redash
+  category: client
+  logo: /assets/images/logos/redash.png
+  logosmall: /assets/images/logos/redash-small.png
+  description: |
+    Redash is a take on freeing the data within our company in a way that will
+    better fit our culture and usage patterns. It has Trino support as well as
+    other backends, and offers a query editor with syntax highlighting and
+    completion, and creating visualizations and dashboards from query results.
+  links:
+    - urltext: Redash
+      url: https://redash.io/
+- name: Ruby
+  anchor: ruby
+  category: client
+  logo: /assets/images/logos/ruby.png
+  logosmall: /assets/images/logos/ruby-small.png
+  description: |
+    Ruby is a dynamic, open source programming language with a focus on
+    simplicity and productivity. Use the Trino Ruby client library to connect a
+    Ruby script or application to a Trino cluster and receive the results of the
+    submitted queries.
+  links:
+    - urltext: Ruby
+      url: https://www.ruby-lang.org/en/
+    - urltext: trino-client-ruby
+      url: https://github.com/treasure-data/trino-client-ruby
+- name: SQL Formatter
+  anchor: workload-analyzer
+  category: add-on
+  logo: /assets/images/logos/sql-formatter.png
+  logosmall: /assets/images/logos/sql-formatter-small.png
+  description: |
+    SQL Formatter is a JavaScript library for pretty-printing SQL queries. It
+    supports Trino and can be used as library for web applications, as command
+    line tool, and with the live demo deployment. The project is also used for
+    VS Code and vim extensions.
+  links:
+    - urltext: SQL Formatter documentation
+      url: https://github.com/sql-formatter-org/sql-formatter/blob/master/README.md
+    - urltext: SQL Formatter live demo
+      url: https://sql-formatter-org.github.io/sql-formatter/
+    - urltext: Documentation for supported languages including Trino
+      url: https://github.com/sql-formatter-org/sql-formatter/blob/master/docs/language.md
+- name: Workload Analyzer
+  anchor: workload-analyzer
+  category: add-on
+  logo: /assets/images/logos/workload-analyzer.png
+  logosmall: /assets/images/logos/workload-analyzer-small.png
+  description: |
+    The Workload Analyzer collects Trino workload statistics, and analyzes them.
+    The resulting report provides improved visibility into your analytical
+    workloads, and enables cluster performance optimization.
+  links:
+    - urltext: Workload analyzer
+      url: https://github.com/varadaio/presto-workload-analyzer
+    - urltext: Installation instructions
+      url: https://github.com/varadaio/presto-workload-analyzer/blob/main/INSTALL.md
+- name: yanagishima
+  anchor: yanagishima
+  category: client
+  logo: /assets/images/logos/yanagishima.png
+  logosmall: /assets/images/logos/yanagishima-small.png
+  description: |
+    yanagishima is a web application for Trino. yanagishima provides the ability
+    to execute query, show query, kill query, bookmark query, search table,
+    share query/query result, format query, download as CSV/TSV file, insert
+    chart, substitute query parameter, and so on.
+  links:
+    - urltext: yanagishima
+      url: https://yanagishima.github.io/yanagishima/

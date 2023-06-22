@@ -22,8 +22,12 @@
           <li class="nav-item {% if page.url contains '/download' %}active{% endif %}">
             <a class="nav-link"  href="/download.html">Get started</a>
           </li>
-          <li class="nav-item {% if page.url contains '/resources' %}active{% endif %}">
-            <a class="nav-link" href="/resources.html">Resources</a>
+          <li class="nav-item dropdown {% if page.url contains '/ecosystem' %}active{% endif %}">
+            <a class="nav-link dropdown-toggle" href="/ecosystem/index.html">Ecosystem</a>
+            <div class="dropdown-menu dropdown-block">
+              <a class="dropdown-item" href="/ecosystem/client.html">Clients</a>
+              <a class="dropdown-item" href="/ecosystem/add-on.html">Add-ons</a>
+            </div>
           </li>
           <li class="nav-item dropdown
             {% if page.url contains '/community'

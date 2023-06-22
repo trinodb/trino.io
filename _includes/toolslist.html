@@ -1,0 +1,33 @@
+
+<div class="container spacer-30">
+{% for tool in site.data.tools %}
+{% if tool.category == category %}
+<div class="row spacer-30">
+<a name="{{tool.anchor}}"></a>
+  <div class="card">
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-3 col-s-12 center-image">
+          {% if tool.logo == nil %}
+          {{tool.name}}
+          {% else %}
+          <img src="{{tool.logo}}" alt="{{tool.name}}" title="{{tool.name}}" class="img-fluid img-padding">
+          {% endif %}
+        </div>
+        <div class="col-md-9 col-s-12">
+<div markdown="1">### {{tool.name}}
+</div>
+<div markdown="1">{{tool.description}}</div>
+<ul>
+{% for link in tool.links %}
+  <li><a href="{{link.url}}" target="_blank">{{link.urltext}}</a></li>
+{% endfor %}
+</ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+</div>

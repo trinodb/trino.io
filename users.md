@@ -42,7 +42,7 @@ title: Users
         </div>
         <div class="col-md-9 col-s-12">
           <h2>{{user.name}}</h2>
-          <p>{{user.testimonial}}</p>
+          <div markdown="1">{{user.testimonial}}</div>
           <ul>
           {% for link in user.links %}
           <li><a href="{{link.url}}" target="_blank">{{link.urltext}}</a></li>
