@@ -20,6 +20,10 @@ You definitely don't want to miss it.
 
 {% youtube nFuqpb2GjVI %}
 
+<a class="btn btn-pink btn-md" target="_blank" href="/assets/blog/trino-fest-2023/TrinoFest2023Salesforce.pdf">
+  Check out the slides!
+</a>
+
 ## Recap
 
 Salesforce provides customer relationship management software and applications
