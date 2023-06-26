@@ -51,9 +51,8 @@ from the presentations and the experience and knowledge of our speakers.
 * [Trino for lakehouses, data oceans, and beyond]({% post_url 2023-06-22-trino-fest-2023-keynote-recap %})
   presented by Martin Traverso, co-creator of Trino and CTO at
   [Starburst](https://www.starburst.io/).
-* [<i class="fab fa-youtube" style="color:red;padding-right:0.5em;"/>Anomaly
-  detection for Salesforce’s production data using
-  Trino](https://youtu.be/nFuqpb2GjVI) presented by Geeta Shankar and Tuli Nivas
+* [Anomaly detection for Salesforce’s production data using
+  Trino]({% post_url 2023-06-26-trino-fest-2023-salesforce %}) presented by Geeta Shankar and Tuli Nivas
   from [Salesforce](https://www.salesforce.com/).
 * [<i class="fab fa-youtube" style="color:red;padding-right:0.5em;"/>Zero-cost
   reporting](https://youtu.be/586qvEyuO_U) presented by Jan Waś from
