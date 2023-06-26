@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Trino Fest 2023 recap: Trino for lakehouses, data oceans, and beyond"
+title: "Trino for lakehouses, data oceans, and beyond"
 author: "Martin Traverso, Cole Bowden"
 excerpt_separator: <!--more-->
 image: /assets/blog/trino-fest-2023/Keynote.png
