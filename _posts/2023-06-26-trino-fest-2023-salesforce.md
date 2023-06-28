@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Anomaly detection for Salesforce’s production data using Trino"
-author: "Tuli Nivas, Geeta Shankar, and Ryan Duan"
+author: "Tuli Nivas, Geeta Shankar, Ryan Duan"
 excerpt_separator: <!--more-->
 image: /assets/blog/trino-fest-2023/Salesforce.png
 show_pagenav: false
