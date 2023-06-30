@@ -57,6 +57,10 @@ may give you what you want from both patterns. With Iceberg, you have the choice
 different CDC patterns can be supported for you to adjust your usage to your
 specific needs. Check out the video and review the slides for more details!
 
+Want to read more about CDC? Check out some of Ryan Blue's blog posts:
+[Hello, World of CDC!](https://tabular.io/blog/hello-world-of-cdc/) and [CDC
+Data Gremlins](https://tabular.io/blog/cdc-data-gremlins/)!
+
 ## Share this session
 
 If you thought this talk was interesting, consider sharing this on Twitter,
