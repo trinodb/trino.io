@@ -54,11 +54,11 @@ from the presentations and the experience and knowledge of our speakers.
 * [Anomaly detection for Salesforce’s production data using
   Trino]({% post_url 2023-06-26-trino-fest-2023-salesforce %}) presented by Geeta Shankar and Tuli Nivas
   from [Salesforce](https://www.salesforce.com/).
-* [<i class="fab fa-youtube" style="color:red;padding-right:0.5em;"/>Zero-cost
-  reporting](https://youtu.be/586qvEyuO_U) presented by Jan Waś from
+* [Zero-cost reporting]({% post_url 2023-06-28-trino-fest-2023-starburst-recap
+  %}) presented by Jan Waś from
   [Starburst](https://www.starburst.io/).
-* [<i class="fab fa-youtube" style="color:red;padding-right:0.5em;"/>CDC
-  patterns in Apache Iceberg](https://youtu.be/GM7EvRc7_is) presented by Ryan
+* [CDC patterns in Apache Iceberg]({% post_url 2023-06-30-trino-fest-2023-apacheiceberg
+  %}) presented by Ryan
   Blue from [Tabular](https://tabular.io/).
 * [<i class="fab fa-youtube" style="color:red;padding-right:0.5em;"/>Ibis:
   Because SQL is everywhere and so is Python](https://youtu.be/JMUtPl-cMRc)
