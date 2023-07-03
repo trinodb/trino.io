@@ -15,48 +15,56 @@
   logo: /assets/images/logos/adlibertas.png
   logosmall: /assets/images/logos/adlibertas-small.png
   testimonial: |
-    AdLibertas relies on Trino to power comprehensive user-level
-    <a href="https://www.adlibertas.com/audience-reporting/">Audience Reporting</a>
-    for app developers. Trino allows our customers to create easy-to-use and
-    visual user LTV reports across their large app user datasets. Since the
-    scale and scope of these reports can widely vary, Trino’s ability to quickly
-    scale on distributed systems and query across our data lake makes access fast
-    and affordable for all sizes of clients without messy and expensive ETL.
-  urltext:
-  url: https://www.adlibertas.com/
+    AdLibertas relies on Trino to power comprehensive user-level Audience
+    Reporting for app developers. Trino allows our customers to create
+    easy-to-use and visual user LTV reports across their large app user
+    datasets. Since the scale and scope of these reports can widely vary,
+    Trino’s ability to quickly scale on distributed systems and query across our
+    data lake makes access fast and affordable for all sizes of clients without
+    messy and expensive ETL.
+  links:
+    - urltext: View the AdLibertas website
+      url: https://www.adlibertas.com/
+    - urltext: More about audience reporting
+      url: https://www.adlibertas.com/audience-reporting/
 - name: Alphaa AI
   highlight: false
+  anchor: alphaa-ai
   logo: /assets/images/logos/alphaa-ai.png
   logosmall: /assets/images/logos/alphaa-ai-small.png
   # https://www.linkedin.com/feed/update/urn:li:activity:6759582016972451840?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6759582016972451840%2C6760182639619002368%29
-  url: https://www.alphaa.ai/
+  links:
+    - urltext: View the Alphaa AI website
+      url: https://www.alphaa.ai/
 #- name: Airbnb
 #  highlight: false
 #  #anchor: airbnb
 #  logo: /assets/images/logos/airbnb.png
 #  logosmall: /assets/images/logos/airbnb-small.png
-#  urltext:
-#  url: https://airbnb.io/
+#  links:
+#    - urltext:
+#      url: https://airbnb.io/
   # https://careers.airbnb.com/positions/4445171/
   # https://web.archive.org/web/20220729070012/https://startup.jobs/senior-software-engineer-interactive-compute-engine-airbnb-3528132
-- name: Amazon AWS
+- name:  AWS
   highlight: true
-  anchor: amazon
-  logo: /assets/images/logos/amazon-aws.png
-  logosmall: /assets/images/logos/amazon-aws-small.png
+  anchor: aws
+  logo: /assets/images/logos/aws.png
+  logosmall: /assets/images/logos/aws-small.png
   testimonial: |
-    Amazon AWS is widely used for deploying and running Trino. The Amazon EMR
-    product provides a managed Hadoop framework that makes it easy, fast, and
-    cost-effective to process vast amounts of data across dynamically scalable
-    Amazon EC2 instances. With EMR, you can launch a large Trino cluster in
-    minutes. You don’t need to worry about node provisioning, cluster setup or
-    tuning. Using Trino on EMR provides you cluster elasticity. You can
-    provision one, hundreds, or thousands of compute instances to process data
-    at any scale. The scaling can be manual or automatic, and you only pay for
-    what you use. Pricing is simple and predictable. You pay a per-second rate
-    for every second used, with a one-minute minimum charge.
-  urltext:
-  url: https://aws.amazon.com/
+    Amazon Web Services (AWS) is widely used for deploying and running Trino.
+    The Amazon EMR product provides a managed Hadoop framework that makes it
+    easy, fast, and cost-effective to process vast amounts of data across
+    dynamically scalable Amazon EC2 instances. With EMR, you can launch a large
+    Trino cluster in minutes. You don’t need to worry about node provisioning,
+    cluster setup or tuning. Using Trino on EMR provides you cluster elasticity.
+    You can provision one, hundreds, or thousands of compute instances to
+    process data at any scale. The scaling can be manual or automatic, and you
+    only pay for what you use. Pricing is simple and predictable. You pay a
+    per-second rate for every second used, with a one-minute minimum charge.
+  links:
+    - urltext: View the Amazon AWS website
+      url: https://aws.amazon.com/
 - name: Ampool
   highlight: false
   anchor: ampool
@@ -68,16 +76,19 @@
     caching engine, a turbocharged Trino query engine can speedup BI & ad-hoc
     analytical workloads by an order of magnitude. Ampool is built from the
     ground up to operate seamlessly in hybrid and multi-cloud environments.
-  urltext: Visit the Ampool website for more information!
-  url: https://www.ampool-inc.com/
+  links:
+    - urltext: View the Ampool website
+      url: https://www.ampool-inc.com/
 - name: Backblaze
   highlight: false
-  #anchor: backblaze
+  anchor: backblaze
   logo: /assets/images/logos/backblaze.png
   logosmall: /assets/images/logos/backblaze-small.png
-  urltext:
-  url: https://www.backblaze.com/
-  # https://www.backblaze.com/blog/storing-and-querying-analytical-data-in-backblaze-b2/
+  links:
+    - urltext: View the Backblaze website
+      url: https://www.backblaze.com/
+    - urltext: Storing and Querying Analytical Data in Backblaze B2 and Trino
+      url: https://www.backblaze.com/blog/storing-and-querying-analytical-data-in-backblaze-b2/
 - name: Bazaar Technologies
   highlight: false
   anchor: bazaar_technologies
@@ -90,16 +101,22 @@
     and Redshift. Trino allows us to build a scalable lake house architecture,
     that drives real time insights and machine learning workloads helping us to
     provide best in class customer experience.
-  urltext:
-  url: https://www.bazaar-tech.com/
+  links:
+    - urltext: View the Bazaar Technologies website
+      url: https://www.bazaar-tech.com/
 - name: BlueCat
   highlight: false
-  #anchor: bluecat
+  anchor: bluecat
   logo: /assets/images/logos/bluecat.png
   logosmall: /assets/images/logos/bluecat-small.png
-  urltext:
-  url: https://bluecatnetworks.com/
-  # https://youtu.be/7P1qqhgzNbA
+  links:
+    - urltext: View the BlueCat website
+      url: https://bluecatnetworks.com/
+    - urltext: Interview with Cory Darby from BlueCat as guest on Trino Comunity
+        Broadcast 19
+      url: https://trino.io/episodes/19.html
+    - urltext: BlueCat interview at Trino meetup
+      url: https://youtu.be/7P1qqhgzNbA
 - name: Chasing Securities
   highlight: false
   anchor: chasing_securities
@@ -117,8 +134,9 @@
     the federal query engine, including Oracle, SQL Server, MySQL, HBase, and
     many more, and have developed hundreds of security industry-related UDF
     functions on Trino, which are used to add to meet various business needs.
-  urltext:
-  url: https://www.cfzq.com/
+  links:
+    - urltext: View the Chasing Securities website
+      url: https://www.cfzq.com/
 - name: Cloud Chef Labs
   highlight: false
   anchor: cloud_chef_labs
@@ -130,12 +148,17 @@
     components provided by DataRoaster as an interactive query engine to query
     the data lake. Users run Trino in DataRoaster as a cost-effective
     alternative to serverless services provided by other cloud providers.
-  urltext:
-  url: http://www.cloudchef-labs.com/
+  links:
+    - urltext: View the Cloud Chef Labs website
+      url: http://www.cloudchef-labs.com/
 - name: Cloud Kitchens
   highlight: false
+  anchor: cloud-kitchens
   logo: /assets/images/logos/cloud-kitchens.png
   logosmall: /assets/images/logos/cloud-kitchens-small.png
+  links:
+    - urltext: View the Cloud Kitchens website
+      url: https://cloudkitchens.com/
 - name: Datappeal
   highlight: false
   anchor: datappeal
@@ -150,8 +173,9 @@
     Trino also enables our data scientists to query our various datasources
     with complete transparency, which in turn yields applicable,
     data-driven insights.
-  urltext:
-  url: https://datappeal.io/
+  links:
+    - urltext: View the Datappeal website
+      url: https://datappeal.io/
 - name: datasapiens
   highlight: false
   anchor: datasapiens
@@ -165,8 +189,9 @@
     of data stores such as Apache Hive, PostgreSQL, Apache Pinot, and Redshift.
     It allows us to build a scalable lakehouse architecture providing insights
     to thousands of satisfied users.
-  urltext:
-  url: https://www.datasapiens.co.uk/
+  links:
+    - urltext: View the datasapiens website
+      url: https://www.datasapiens.co.uk/
 - name: DiDi
   highlight: true
   anchor: didi
@@ -176,28 +201,40 @@
     With its excellent data processing capability and high performance, Trino
     has a wide range of applications in DiDi. Currently, Trino processes over
     one million queries every day.
-  urltext:
-  url: https://www.didiglobal.com/
+  links:
+    - urltext: View the DiDi website
+      url: https://www.didiglobal.com/
 - name: Eventbrite
   highlight: false
   logo: /assets/images/logos/eventbrite.png
   logosmall: /assets/images/logos/eventbrite-small.png
-  # https://www.eventbrite.com/engineering/teaching-new-presto-performance-tricks-to-the-old-school-dba/
+  links:
+    - urltext: View the Eventbrite website
+      url: https://www.eventbrite.com/
+    - urltext: Teaching new Presto performance tricks to the Old-School DBA
+      url: https://www.eventbrite.com/engineering/teaching-new-presto-performance-tricks-to-the-old-school-dba/
+    - urltext: More related blog posts
+      url: https://www.eventbrite.com/engineering/?s=presto
 - name: Electronic Arts
   highlight: true
-  #anchor: electronic_arts
+  anchor: electronic_arts
   logo: /assets/images/logos/electronic-arts.png
   logosmall: /assets/images/logos/electronic-arts-small.png
-  urltext:
-  url: https://www.ea.com/
-  # https://www.youtube.com/watch?v=KY5DhWSqjGg
+  links:
+    - urltext: View the Electronic Arts website
+      url: https://www.ea.com/
+    - urltext: Electronic Arts interview at Trino meetup
+      url: https://www.youtube.com/watch?v=KY5DhWSqjGg
 - name: ForePaaS
   highlight: false
   anchor: forepaas
   logo: /assets/images/logos/forepaas.png
   logosmall: /assets/images/logos/forepaas-small.png
-  urltext:
-  url: https://www.forepaas.com/
+  links:
+    - urltext: View the ForePaaS website
+      url: https://www.forepaas.com/
+    - urltext: Yu Teng from ForePaaS presenting at Trino Fest 2023
+      url: https://youtu.be/kmpO_yM8OAs
   testimonial: |
     ForePaaS leverages Trino as its main query engine technology. ForePaaS
     provides a lakehouse platform that can run on multiple open-source storage 
@@ -216,25 +253,39 @@
     core SQL engine for all data pipelines. Extracting data from heterogeneous
     sources, transforming it with the rich analytical functions and loading
     results to the visualisation tools to get wiser business decisions.
-  urltext:
-  url: https://gett.com/intl/
+  links:
+    - urltext: View the Gett website
+      url: https://gett.com/intl/
 - name: Goldman Sachs
   highlight: true
-  #anchor: goldman_sachs
+  anchor: goldman_sachs
   logo: /assets/images/logos/goldman-sachs.png
   logosmall: /assets/images/logos/goldman-sachs-small.png
-  urltext:
-  url: https://developer.gs.com/
-  # https://developer.gs.com/blog/posts/enabling-highly-available-trino-clusters-at-goldman-sachs
+  links:
+    - urltext: View the Goldman Sachs website
+      url: https://developer.gs.com/
+    - urltext: Goldman Sachs blog post about Trino usage
+      url: https://developer.gs.com/blog/posts/enabling-highly-available-trino-clusters-at-goldman-sachs
+    - urltext: Leveraging Trino to power data at Goldman Sachs at Trino Summit 2022
+      url: https://trino.io/blog/2022/12/05/trino-summit-2022-goldman-sachs-recap.html
 - name: Grab
   highlight: true
+  anchor: grab
   logo: /assets/images/logos/grab.png
   logosmall: /assets/images/logos/grab-small.png
-  #  https://engineering.grab.com/scaling-like-a-boss-with-presto
+  links:
+    - urltext: View the Grab website
+      url: https://www.grab.com/
+    - urltext: Grab engineering blog post
+      url: https://engineering.grab.com/scaling-like-a-boss-with-presto
 - name: Hudson River Trading
   highlight: false
+  anchor: hrt
   logo: /assets/images/logos/hudson-river-trading.png
   logosmall: /assets/images/logos/hudson-river-trading-small.png
+  links:
+    - urltext: View the Hudson River Trading website
+      url: https://www.hudsonrivertrading.com/
 - name: Jampp
   highlight: false
   anchor: jampp
@@ -244,8 +295,9 @@
     Jampp employs Trino as the main interface between its Data Warehouse and the
     rest of the company, using it to feed their predictive algorithms as well as
     performing analytic queries, ETLs and monitoring data quality.
-  urltext:
-  url: https://jampp.com/
+  links:
+    - urltext: View the Jampp website
+      url: https://jampp.com/
 - name: JioSaavn
   highlight: false
   anchor: jiosaavn
@@ -261,15 +313,17 @@
     is also extensively used to power BI tools and dashboards from both ETL
     pipeline data in ORC and Parquet files and real-time data using the Pinot
     and Druid connector.
-  urltext:
-  url: https://www.jiosaavn.com
+  links:
+    - urltext: View the JioSaavn website
+      url: https://www.jiosaavn.com
 - name: Instacart
   highlight: true
   # Orrin Naylor confirmed on slack
   logo: /assets/images/logos/instacart.png
   logosmall: /assets/images/logos/instacart-small.png
-  urltext:
-  url: https://www.instacart.com
+  links:
+    - urltext: View the Instacart website
+      url: https://www.instacart.com
 - name: LINE
   highlight: false
   anchor: line
@@ -281,31 +335,44 @@
     monitoring, as well as data analytics for large datasets. Trino is the
     preferred tool for our ML engineers and data scientists to better understand
     the data on our datalake through fast, interactive queries.
-  urltext:
-  url: https://linecorp.com/en
+  links:
+    - urltext: View the LINE website
+      url: https://linecorp.com/en
 - name: LinkedIn
   highlight: true
   anchor: linkedin
   logo: /assets/images/logos/linkedin.png
   logosmall: /assets/images/logos/linkedin-small.png
   testimonial: |
-    Trino is the de-facto ad-hoc and interactive analytics engine at LinkedIn that
-    enables fast exploration and analysis of data stored in massive data lake.
-    Every month thousands of users from across the company issue millions of queries
-    scanning 100s of petabytes of data from a host of clients, including programmatic
-    access from internal applications.
-  urltext:
-  url: https://linkedin.com
+    Trino is the de-facto ad-hoc and interactive analytics engine at LinkedIn
+    that enables fast exploration and analysis of data stored in massive data
+    lake. Every month thousands of users from across the company issue millions
+    of queries scanning 100s of petabytes of data from a host of clients,
+    including programmatic access from internal applications.
+  links:
+    - urltext: View the LinkedIn website
+      url: https://linkedin.com
+    - urltext: Interview with LinkedIn engineers at Trino Community Broadcast 22
+      url: https://trino.io/episodes/22.html
 - name: Lyft
   highlight: true
+  anchor: lyft
   logo: /assets/images/logos/lyft.png
   logosmall: /assets/images/logos/lyft-small.png
   #   https://eng.lyft.com/presto-infrastructure-at-lyft-b10adb9db01
+  links:
+    - urltext: View the Lyft website
+      url: https://lyft.com
+    - urltext: Trino for large scale ETL at Lyft from Trino Summit 2022
+      url: https://trino.io/blog/2022/12/12/trino-summit-2022-lyft-recap.html
 - name: MoEngage
   highlight: false
   logo: /assets/images/logos/moengage.png
   logosmall: /assets/images/logos/moengage-small.png
   #   https://moengage.recruiterbox.com/jobs/fk0uue1/
+  links:
+    - urltext: View the MoEngage website
+      url: https://www.moengage.com/
 - name: Myntra
   highlight: false
   anchor: myntra
@@ -321,8 +388,9 @@
     day on petabytes of data right out of our in-house datalake. It has grown to
     be a critical component within our Myntra Data Platform (MDP) powering a
     wide array of workloads ranging from ad-hoc to batch queries.
-  urltext:
-  url: https://www.myntra.com/
+  links:
+    - urltext: View the Myntra website
+      url: https://www.myntra.com/
 - name: Naver
   highlight: true
   anchor: naver
@@ -335,14 +403,24 @@
     to their data lake, via a standard SQL interface. Trino process massive
     amounts of data from different sources, such as user logs and clickstream
     data, in real-time.
-  urltext:
-  url: https://www.navercorp.com/en
+  links:
+    - urltext: View the Naver website
+      url: https://www.navercorp.com/en
   # https://github.com/trinodb/trino.io/pull/413#discussion_r1142903151
   # GitHub for approving user: Chaho12
 - name: Netflix
   highlight: true
   logo: /assets/images/logos/netflix.png
   logosmall: /assets/images/logos/netflix-small.png
+  links:
+    - urltext: View the Neflix website
+      url: https://www.netflix.com
+    - urltext: Interview with Netflix engineer about views at Trino Community
+        Broadcast 18
+      url: https://trino.io/episodes/18.html
+    - urltext: Interview with Netflix engineers about Apache Druid at Trino
+        Community Broadcast 16
+      url: https://trino.io/episodes/16.html
   #   https://netflixtechblog.com/using-presto-in-our-big-data-platform-on-aws-938035909fd4
 - name: Nielsen
   highlight: true
@@ -355,8 +433,9 @@
     its petabyte-scale data lake, serving batch and interactive use cases for
     products, modelling, research and testing. Trino’s open source nature also
     allows Nielsen to customize it to handle a wide spectrum of business needs.
-  urltext:
-  url: https://www.nielsen.com/
+  links:
+    - urltext: View the Nielsen website
+      url: https://www.nielsen.com/
 - name: NTT Communications
   highlight: true
   anchor: nttcommunications
@@ -368,18 +447,31 @@
     which drive BI dashboards. The seamless feature to connect multiple data
     sources and query interactiveness are some of the driving factors that make
     Trino a pivotal technology of data analysis at NTT Communications.
-  urltext:
-  url: https://www.ntt.com/en/index.html
+  links:
+    - urltext: View the NTT Communications website
+      url: https://www.ntt.com/en/index.html
 - name: Pinterest
   highlight: true
+  anchor: pinterest
   logo: /assets/images/logos/pinterest.png
   logosmall: /assets/images/logos/pinterest-small.png
-  #   https://medium.com/pinterest-engineering/presto-at-pinterest-a8bda7515e52
+  links:
+    - urltext: View the Pinterest website
+      url: https://www.pinterest.com/
+    - urltext: Pinterest presentation at Trino Summit 2020
+      url: https://trino.io/blog/2020/07/22/presto-summit-pinterest.html
+    - urltext: Presto at Pinterest
+      url: https://medium.com/pinterest-engineering/presto-at-pinterest-a8bda7515e52
 - name: QuintoAndar
   highlight: true
+  anchor: quintoandar
   logo: /assets/images/logos/quintoandar.png
   logosmall: /assets/images/logos/quintoandar-small.png
-  #   https://medium.com/quintoandar-tech-blog/building-a-sql-engine-infrastructure-at-quintoandar-73540e136c4e
+  links:
+    - urltext: View the QuintoAndar website
+      url: https://www.quintoandar.com.br/
+    - urltext: Building a SQL Engine Infrastructure at QuintoAndar
+      url: https://medium.com/quintoandar-tech-blog/building-a-sql-engine-infrastructure-at-quintoandar-73540e136c4e
 - name: Plural
   highlight: false
   anchor: plural
@@ -390,8 +482,9 @@
     flexible, scalable solution to application delivery that gives you the
     autonomy you need to build and reconfigure the software you use freely. Our
     offering includes support for Trino.
-  urltext:
-  url: https://www.plural.sh/
+  links:
+    - urltext: View the Plural website
+      url: https://www.plural.sh/
   # supplied by developer advocate https://github.com/avaidyanatha
 - name: Raft
   highlight: false
@@ -406,8 +499,11 @@
     to virtually any source. It is key to our strategy of deploying a Data
     Fabric, reducing the time to insights for our customers, and in return lower
     their operating costs.
-  urltext:
-  url: https://goraft.tech
+  links:
+    - urltext: View the Raft website
+      url: https://goraft.tech
+    - urltext: Interview with Raft engineers at Trino Community Broadcast 39
+      url: https://trino.io/episodes/39.html
 - name: Rapido
   highlight: false
   anchor: rapido
@@ -420,8 +516,9 @@
     monitoring, as well as data analytics for large datasets. Trino is a core
     piece of Rapido’s data platform to provide interactive analysis workflow and
     visualisation with Metabase and Superset.
-  urltext:
-  url: https://rapido.bike/
+  links:
+    - urltext: View the Rapido website
+      url: https://rapido.bike/
 - name: Razorpay
   highlight: true
   anchor: razorpay
@@ -434,17 +531,21 @@
     while using Hive Metastore to store table definitions and metadata. Trino
     made it easy to query these raw tables and derive insights from them as our
     users were already comfortable with SQL.
-  urltext:
-  url: https://razorpay.com/
-  #   https://engineering.razorpay.com/how-trino-and-alluxio-power-analytics-at-razorpay-803d3386daaf
+  links:
+    - urltext: View the Razorpay website
+      url: https://razorpay.com/
+    - urltext: Razorpay blog post about Trino usage
+      url: https://engineering.razorpay.com/how-trino-and-alluxio-power-analytics-at-razorpay-803d3386daaf
 - name: Red Hat
   highlight: true
-  #anchor: redhat
+  anchor: redhat
   logo: /assets/images/logos/redhat.png
   logosmall: /assets/images/logos/redhat-small.png
-  urltext:
-  url: https://redhat.com/
-  # https://www.youtube.com/watch?v=M_1A-MEwi6Y
+  links:
+    - urltext: View the Red Hat website
+      url: https://redhat.com/
+    - urltext: Fix your data bottlenecks with Trino, Hive, and S3
+      url: https://www.youtube.com/watch?v=M_1A-MEwi6Y
 - name: Resurface
   highlight: false
   anchor: resurface
@@ -459,26 +560,44 @@
     with other customer systems, behind a consistent SQL interface. We’re proud
     to be developing purpose-built connectors for Trino that deliver
     consistently fast performance at any scale and budget.
-  urltext:
-  url: https://resurface.io/
+  links:
+    - urltext: View the Resurface website
+      url: https://resurface.io/
+    - urltext: Interview with Resurface engineers at Trino Community Broadcast 39
+      url: https://trino.io/episodes/17.html
 - name: Robinhood
   highlight: false
-  #anchor: robinhood
+  anchor: robinhood
   logo: /assets/images/logos/robinhood.png
   logosmall: /assets/images/logos/robinhood-small.png
-  urltext:
-  url: https://robinhood.com/
-  # https://robinhood.engineering/author-balaji-varadarajan-e3f496815ebf
+  links:
+    - urltext: View the Robinhood website
+      url: https://robinhood.com/
+    - urltext: Interview with Robinhood engineer at Trino Community Broadcast 41
+      url: https://trino.io/episodes/41.html
+    - urltext: Robinhood engineering blog post
+      url: https://robinhood.engineering/author-balaji-varadarajan-e3f496815ebf
 - name: Salesforce
   highlight: true
-  logo: /assets/images/logos/salesforce.jpg
+  anchor: salesforce
+  logo: /assets/images/logos/salesforce.png
   logosmall: /assets/images/logos/salesforce-small.png
-  # https://engineering.salesforce.com/big-data-big-decisions-690a00fad88d
+  links:
+    - urltext: View the Salesforce website
+      url: https://salesforce.com/
+    - urltext: Anomaly detection for Salesforce’s production data using Trino from Trino Fest 2023
+      url: https://trino.io/blog/2023/06/26/trino-fest-2023-salesforce.html
+    - urltext: Salesforce enginering blog post
+      url: https://engineering.salesforce.com/big-data-big-decisions-690a00fad88d
 - name: Sentinel One
   highlight: false
   logo: /assets/images/logos/sentinelone.png
   logosmall: /assets/images/logos/sentinelone-small.png
-  # https://sentinelone-tech.medium.com/how-sentinelone-optimizes-big-data-at-scale-b957b5fa7b8a
+  links:
+    - urltext: View the Sentinel One website
+      url: https://www.sentinelone.com/
+    - urltext: Sentinel One engineering blog post
+      url: https://sentinelone-tech.medium.com/how-sentinelone-optimizes-big-data-at-scale-b957b5fa7b8a
 - name: Shopify
   highlight: true
   anchor: shopify
@@ -489,9 +608,13 @@
     data lake, via an industry standard SQL interface that joins and aggregates
     data across heterogeneous data sources. Shopify Trino clusters handle 15
     Gbps and over 300 million rows of data per second.
-  urltext:
-  url: https://shopify.engineering/topics/data-science-engineering
-  # https://shopify.engineering/faster-trino-query-execution-infrastructure
+  links:
+    - urltext: View the Shopify engineering website
+      url: https://shopify.engineering/topics/data-science-engineering
+    - urltext: Presentation from Shopify engineer at Trino Summit 2022
+      url: https://trino.io/blog/2022/12/09/trino-summit-2022-shopify-recap.html
+    - urltext: Shopify's Path to a Faster Trino Query Execution - Infrastructure
+      url: https://shopify.engineering/faster-trino-query-execution-infrastructure
 - name: Starburst
   highlight: false
   anchor: starburst
@@ -506,13 +629,20 @@
     makes your data accessible without having to move it to another location. On
     top of that, Starburst has the best enterprise support as our employees have
     contributed the majority of the Trino opensource codebase.
-  urltext: Learn more about the Starburst products!
-  url: https://www.starburst.io/
+  links:
+    - urltext: View the Starburst website
+      url: https://www.starburst.io/
 - name: Stripe
   highlight: true
-  logo: /assets/images/logos/stripe-blue.png
+  anchor: stripe
+  logo: /assets/images/logos/stripe.png
   logosmall: /assets/images/logos/stripe-small.png
   # https://support.stripe.com/questions/why-has-the-format-of-object-value-in-my-sigma-query-result-changed
+  links:
+    - urltext: View the Stripe website
+      url: https://stripe.com/
+    - urltext: Inspecting Trino on Ice from Stripe engineer at Trino Fest 2023
+      url: https://youtu.be/PSGuAMVc6-w
 - name: Swrve
   highlight: false
   anchor: swrve
@@ -525,16 +655,19 @@
     reliable, SQL-based system supporting the level of fine-grained discovery of
     high-cardinality user behaviours that our customers demand, and Trino
     provides exactly that.
-  urltext:
-  url: https://www.swrve.com/
+  links:
+    - urltext: View the Swrve website
+      url: https://www.swrve.com/
 - name: Talkdesk
   highlight: false
   #anchor: talkdesk
   logo: /assets/images/logos/talkdesk.png
   logosmall: /assets/images/logos/talkdesk-small.png
-  urltext:
-  url: https://www.talkdesk.com/
-  # https://www.youtube.com/watch?v=qCOnWzOS84Y
+  links:
+    - urltext: View the Talkdesk website
+      url: https://www.talkdesk.com/
+    - urltext: dbt and Trino in a data mesh world
+      url: https://www.youtube.com/watch?v=qCOnWzOS84Y
 - name: Treasure Data
   highlight: false
   anchor: treasuredata
@@ -545,8 +678,11 @@
     Data, and more than millions of SQL queries running every day with Trino are
     helping our customers for analyzing their business-critical datasets and
     making data-driven decisions.
-  urltext:
-  url: https://www.treasuredata.com/
+  links:
+    - urltext: View the Treasure Data website
+      url: https://www.treasuredata.com/
+    - urltext: Arm Treasure Data presentation at Trino Summit 2020
+      url: https://trino.io/blog/2020/07/06/presto-summit-arm-td.html
 #- name: Walmart
 #  highlight: false
 #  logo: /assets/images/logos/walmart.png
@@ -556,4 +692,8 @@
   highlight: false
   logo: /assets/images/logos/zuora.png
   logosmall: /assets/images/logos/zuora-small.png
-  # https://trino.io/blog/2020/06/16/presto-summit-zuora.html
+  links:
+    - urltext: View the Zuora website
+      url: https://zuora.com/
+    - urltext: Presentation at Trino Summit 2020
+      url: https://trino.io/blog/2020/06/16/presto-summit-zuora.html

@@ -33,8 +33,8 @@ title: Users
 {% if user.anchor == nil %}
 {% else %}
 <div class="row spacer-30">
-<a name={{user.anchor}}></a>
-  <div class="card">
+<a name="{{user.anchor}}"></a>
+  <div class="card" style="width: 100%">
     <div class="card-body">
       <div class="row">
         <div class="col-md-3 col-s-12 center-image">
@@ -43,17 +43,11 @@ title: Users
         <div class="col-md-9 col-s-12">
           <h2>{{user.name}}</h2>
           <p>{{user.testimonial}}</p>
-          {% if user.urltext == nil %}
-            {% capture linktext %}
-            View the {{user.name}} website
-            {% endcapture %}
-          {% else %}
-            {% assign linktext = user.urltext %}
-          {% endif %}
-          {% if user.url == nil %}
-          {% else %}
-          <p><a href="{{user.url}}" target="_blank">{{linktext}}</a></p>
-          {% endif %}
+          <ul>
+          {% for link in user.links %}
+          <li><a href="{{link.url}}" target="_blank">{{link.urltext}}</a></li>
+          {% endfor %}
+          </ul>
         </div>
       </div>
     </div>
