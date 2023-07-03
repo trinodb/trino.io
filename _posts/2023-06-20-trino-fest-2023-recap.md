@@ -60,8 +60,7 @@ from the presentations and the experience and knowledge of our speakers.
 * [CDC patterns in Apache Iceberg]({% post_url 2023-06-30-trino-fest-2023-apacheiceberg
   %}) presented by Ryan
   Blue from [Tabular](https://tabular.io/).
-* [<i class="fab fa-youtube" style="color:red;padding-right:0.5em;"/>Ibis:
-  Because SQL is everywhere and so is Python](https://youtu.be/JMUtPl-cMRc)
+* [Ibis: Because SQL is everywhere and so is Python]({% post_url 2023-07-03-trino-fest-2023-ibis%})
   presented by Phillip Cloud from [Voltron Data](https://voltrondata.com/).
 * [<i class="fab fa-youtube" style="color:red;padding-right:0.5em;"/>AWS Athena
   (Trino) in the cybersecurity space](https://youtu.be/WCuJaW7zC8k) presented by
