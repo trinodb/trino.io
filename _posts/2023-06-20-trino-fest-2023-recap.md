@@ -62,8 +62,9 @@ from the presentations and the experience and knowledge of our speakers.
   Blue from [Tabular](https://tabular.io/).
 * [Ibis: Because SQL is everywhere and so is Python]({% post_url 2023-07-03-trino-fest-2023-ibis%})
   presented by Phillip Cloud from [Voltron Data](https://voltrondata.com/).
-* [AWS Athena (Trino) in the cybersecurity space]({% post_url 2023-07-05-trino-fest-2023-arcticwolf%})
-  presented by Anas Shakra from [Artic Wolf](https://arcticwolf.com/).
+* [<i class="fab fa-youtube" style="color:red;padding-right:0.5em;"/>AWS Athena
+  (Trino) in the cybersecurity space](https://youtu.be/WCuJaW7zC8k) presented by
+  Anas Shakra from [Artic Wolf](https://arcticwolf.com/).
 * [<i class="fab fa-youtube" style="color:red;padding-right:0.5em;"/>Skip rocks
   and files: Turbocharge Trino queries with Hudi’s multi-modal indexing
   subsystem](https://youtu.be/IiDOmAEOXUM) presented by Nadine Farah and  Sagar

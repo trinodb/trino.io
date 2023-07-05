@@ -20,6 +20,10 @@ better: Ibis.
 
 {% youtube JMUtPl-cMRc %}
 
+<a class="btn btn-pink btn-md" target="_blank" href="/assets/blog/trino-fest-2023/TrinoFest2023Ibis.pdf">
+  Check out the slides!
+</a>
+
 A major problem with bridging the gap between Python and SQL engines has been
 the lack of standardization in SQL. Though Trino prides itself on being
 ANSI-compliant and many other SQL dialects strive to be similar, the reality is
