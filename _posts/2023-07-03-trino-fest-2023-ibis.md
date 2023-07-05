@@ -8,7 +8,7 @@ show_pagenav: false
 ---
 
 The PyData stack has been described as "unreasonably effective," empowering its
-users to glean insights and analyze moderate amounts of data with a high level 
+users to glean insights and analyze moderate amounts of data with a high level
 of flexibility and excellent visualization. The large-scale, production data
 stack using a query engine like Trino sits on the other side of the world,
 capable of handling petabytes and exabytes, but perhaps not integrating as
@@ -20,7 +20,7 @@ better: Ibis.
 
 {% youtube JMUtPl-cMRc %}
 
-A major problem with bridging the gap between Python and SQL engines has been 
+A major problem with bridging the gap between Python and SQL engines has been
 the lack of standardization in SQL. Though Trino prides itself on being
 ANSI-compliant and many other SQL dialects strive to be similar, the reality is
 that every SQL engine is different, and a complicated SQL query will error out
