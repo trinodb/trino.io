@@ -211,6 +211,10 @@ The following community members are Trino maintainers:
       <td><a href="https://github.com/sopel39">sopel39</a></td>
       <td>Karol Sobczak</td>
     </tr>
+    <tr>
+      <td><a href="https://github.com/wendigo">wendigo</a></td>
+      <td>Mateusz Gajewski</td>
+    </tr>
   </tbody>
 </table>
 
