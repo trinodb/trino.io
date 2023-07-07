@@ -67,9 +67,8 @@ from the presentations and the experience and knowledge of our speakers.
 * [Skip rocks and files: Turbocharge Trino queries with Hudi’s multi-modal
   indexing subsystem]({% post_url 2023-07-07-trino-fest-2023-onehouse-recap %})
   presented by Nadine Farah and  Sagar Sumit from [OneHouse](https://www.onehouse.ai/).
-* [<i class="fab fa-youtube" style="color:red;padding-right:0.5em;"/>Redis &
-  Trino - Real-time indexed SQL queries (new
-  connector)](https://youtu.be/JjBtZ26IHYk) presented by Allen Terleto and
+* [Redis & Trino - Real-time indexed SQL queries (new
+  connector)]({% post_url 2023-07-10-trino-fest-2023-redis %}) presented by Allen Terleto and
   Julien Ruaux from [Redis](https://redis.com/).
 * [<i class="fab fa-youtube" style="color:red;padding-right:0.5em;"/>Let it SNOW
   for Trino](https://youtu.be/kmpO_yM8OAs) presented by Erik Anderson from
