@@ -4,7 +4,8 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', '{{ site.google_analytics }}');
+    gtag('config', '{{ site.google_ga4 }}');
+    gtag('config', '{{ site.google_ua }}');
     gtag('config', '{{ site.google_audience }}');
     window._linkedin_data_partner_ids = ['{{ site.linkedin_audience }}'];
 </script>
