@@ -70,9 +70,8 @@ from the presentations and the experience and knowledge of our speakers.
 * [Redis & Trino - Real-time indexed SQL queries (new
   connector)]({% post_url 2023-07-10-trino-fest-2023-redis %}) presented by Allen Terleto and
   Julien Ruaux from [Redis](https://redis.com/).
-* [<i class="fab fa-youtube" style="color:red;padding-right:0.5em;"/>Let it SNOW
-  for Trino](https://youtu.be/kmpO_yM8OAs) presented by Erik Anderson from
-  [Bloomberg](https://www.bloomberg.com/company/values/tech-at-bloomberg/open-source/projects/)
+* [Let it SNOW for Trino]({% post_url 2023-07-12-trino-fest-2023-let-it-snow-recap %})
+  presented by Erik Anderson from [Bloomberg](https://www.bloomberg.com/company/values/tech-at-bloomberg/open-source/projects/)
   and Yu Teng from [ForePaaS](https://www.forepaas.com/).
 * [<i class="fab fa-youtube" style="color:red;padding-right:0.5em;"/>DuneSQL, a
   query engine for blockchain data](https://youtu.be/sCJncarnGdU) presented by
