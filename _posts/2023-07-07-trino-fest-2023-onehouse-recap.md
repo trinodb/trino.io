@@ -19,6 +19,10 @@ unlock queries faster than ever before.
 
 {% youtube IiDOmAEOXUM %}
 
+<a class="btn btn-pink btn-md" target="_blank" href="/assets/blog/trino-fest-2023/TrinoFest2023Onehouse.pdf">
+  Check out the slides!
+</a>
+
 ## Recap
 
 When you're building large-scale data-based applications, bottlenecks are
