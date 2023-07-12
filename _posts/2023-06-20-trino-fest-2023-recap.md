@@ -73,9 +73,9 @@ from the presentations and the experience and knowledge of our speakers.
 * [Let it SNOW for Trino]({% post_url 2023-07-12-trino-fest-2023-let-it-snow-recap %})
   presented by Erik Anderson from [Bloomberg](https://www.bloomberg.com/company/values/tech-at-bloomberg/open-source/projects/)
   and Yu Teng from [ForePaaS](https://www.forepaas.com/).
-* [<i class="fab fa-youtube" style="color:red;padding-right:0.5em;"/>DuneSQL, a
-  query engine for blockchain data](https://youtu.be/sCJncarnGdU) presented by
-  Miguel Filipe and Jonas Irgens Kylling from [Dune](https://dune.com/).
+* [DuneSQL, a query engine for blockchain data]({% post_url
+  2023-07-14-trino-fest-2023-dune %}) presented by Miguel Filipe and Jonas
+  Irgens Kylling from [Dune](https://dune.com/).
 * [<i class="fab fa-youtube" style="color:red;padding-right:0.5em;"/>Data Mesh
   implementation using Hive views](https://youtu.be/ZgcVtPFkKHM) presented by
   Alejandro Rojas from [Comcast](https://comcast.github.io/).
