@@ -727,11 +727,11 @@
       url: https://www.starburst.io/
     - urltext: Starburst Galaxy
       url: https://www.starburst.io/platform/starburst-galaxy/
-    - urltext: Starburst Galaxy Documentation
+    - urltext: Starburst Galaxy documentation
       url: https://docs.starburst.io/starburst-galaxy/index.html
     - urltext: Starburst Enterprise
       url: https://www.starburst.io/platform/starburst-enterprise/
-    - urltext: Starburst Enterprise Documentation
+    - urltext: Starburst Enterprise documentation
       url: https://docs.starburst.io/starburst-enterprise/index.html
 - name: Stripe
   highlight: true
