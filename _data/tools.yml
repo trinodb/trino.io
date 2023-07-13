@@ -151,7 +151,8 @@
     visualization web application. It provides charts, graphs, and alerts for
     the web when connected to supported data sources.
 
-    The Trino Grafana Data Source Plugin allows you to connect your Grafana dashboards to Trino and use the configured catalogs as data source.
+    The Trino Grafana Data Source Plugin allows you to connect your Grafana
+    dashboards to Trino and use the configured catalogs as data source.
   links:
     - urltext: Grafana
       url: https://grafana.com/
@@ -217,7 +218,7 @@
   anchor: metabase
   category: client
   logo: /assets/images/logos/metabase.png
-  logosmall: /assets/images/logos/metabase.small
+  logosmall: /assets/images/logos/metabase-small.png
   description: |
     Metabase is an open-source web based business intelligence platform. You can
     use Metabase to ask questions about your data, or embed Metabase in your app
@@ -251,10 +252,10 @@
   logosmall: /assets/images/logos/odbc-small.png
   description: |
     Open Database Connectivity (JDBC) enables applications to connect and query
-    databases. Use an ODBC driver with your application own custom appication,
-    or with any other application that supports ODBC. ODBC drivers for Trino are
-    available from Magnitude. Starburst customers receive an ODBC driver
-    suitable for Starburst Enterprise and Starburst Galaxy.
+    databases. Use an ODBC driver with your own custom application, or with any
+    other application that supports ODBC. ODBC drivers for Trino are available
+    from Magnitude. Starburst customers receive an ODBC driver suitable for
+    Starburst Enterprise and Starburst Galaxy.
   links:
     - urltext: Magnitiude ODBC driver
       url: https://www.magnitude.com/drivers/trino-odbc-jdbc
