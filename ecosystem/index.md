@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Clients and add-ons for Trino
+title: Clients, data sources, and add-ons for Trino
 show_hero: true
 show_pagenav: true
 ---
@@ -10,6 +10,15 @@ show_pagenav: true
 {% include_relative clients-intro.md %}
 
 {% assign category="client" %}
+{% include toolsgrid.html %}
+
+<br>
+
+## Data sources
+
+{% include_relative data-sources-intro.md %}
+
+{% assign category="data-source" %}
 {% include toolsgrid.html %}
 
 <br>
