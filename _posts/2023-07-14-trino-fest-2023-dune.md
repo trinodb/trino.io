@@ -21,6 +21,10 @@ recording of the session or keep reading for a recap.
 
 {% youtube sCJncarnGdU %}
 
+<a class="btn btn-pink btn-md" target="_blank" href="/assets/blog/trino-fest-2023/TrinoFest2023Dune.pdf">
+  Check out the slides!
+</a>
+
 ## Recap
 
 The Dune community data platform is a serverless, open access, community-wide
