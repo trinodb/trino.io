@@ -1,6 +1,59 @@
 ################################################################################
 # Data for the display on the detailed ecosystem pages
 ################################################################################
+- name: Amazon Kinesis
+  anchor: amazon-kinesis
+  category: data-source
+  logo: /assets/images/logos/amazon-kinesis.png
+  logosmall: /assets/images/logos/amazon-kinesis-small.png
+  description: |
+    Amazon Kinesis cost-effectively processes and analyzes streaming data at any
+    scale as a fully managed service. With Kinesis, you can ingest real-time
+    data, such as video, audio, application logs, website clickstreams, and IoT
+    telemetry data, for machine learning (ML), analytics, and other
+    applications.
+
+    Use an Amazon Kinesis stream as a data source in Trino by configuring a
+    catalog with the Kinesis connector.
+  links:
+    - urltext: Amazon Kinesis
+      url: https://aws.amazon.com/kinesis/
+    - urltext: Kinesis connector documentation
+      url: https://trino.io/docs/current/connector/kinesis.html
+- name: Amazon Redshift
+  anchor: amazon-redshift
+  category: data-source
+  logo: /assets/images/logos/amazon-redshift.png
+  logosmall: /assets/images/logos/amazon-redshift-small.png
+  description: |
+    Amazon Redshift uses SQL to analyze structured and semi-structured data
+    across data warehouses, operational databases, and data lakes, using
+    AWS-designed hardware and machine learning to deliver the best price
+    performance at any scale.
+
+    Use an Amazon Redshift data warehouse as a data source in Trino by
+    configuring a catalog with the Redshift connector.
+  links:
+    - urltext: Amazon Redshift
+      url: https://aws.amazon.com/redshift/
+    - urltext: Redshift connector documentation
+      url: https://trino.io/docs/current/connector/redshift.html
+- name: Apache Accumulo
+  anchor: apache-accumulo
+  category: data-source
+  logo: /assets/images/logos/apache-accumulo.png
+  logosmall: /assets/images/logos/apache-accumulo-small.png
+  description: |
+    Apache Accumulo® is a sorted, distributed key-value store that provides
+    robust, scalable data storage and retrieval.
+
+    Use an Apache Accumulo key-value store as a data source in Trino by
+    configuring a catalog with the Accumulo connector.
+  links:
+    - urltext: Apache Accumulo
+      url: https://accumulo.apache.org/
+    - urltext: Accumulo connector documentation
+      url: https://trino.io/docs/current/connector/accumulo.html
 - name: Apache Airflow
   anchor: apache-airflow
   category: client
@@ -14,8 +67,202 @@
       url: https://airflow.apache.org/
     - urltext: Trino provider for Apache Airflow
       url: https://airflow.apache.org/docs/apache-airflow-providers-trino/stable/index.html
-    - urltext: Trino Summit 2022 presentation
+    - urltext: Using Trino with Apache Airflow for (almost) all your data
+        problems from Trino Summit 2022
       url: /blog/2022/12/21/trino-summit-2022-astronomer-recap.html
+- name: Apache Cassandra
+  anchor: apache-cassandra
+  category: data-source
+  logo: /assets/images/logos/apache-cassandra.png
+  logosmall: /assets/images/logos/apache-cassandra-small.png
+  description: |
+    Apache Cassandra is an open source NoSQL distributed database trusted by
+    thousands of companies for scalability and high availability without
+    compromising performance. Linear scalability and proven fault-tolerance on
+    commodity hardware or cloud infrastructure make it the perfect platform for
+    mission-critical data.
+
+    Use an Apache Cassandra database as a data source in Trino by configuring a
+    catalog with the Cassandra connector.
+  links:
+    - urltext: Apache Cassandra
+      url: https://cassandra.apache.org/
+    - urltext: Cassandra connector documentation
+      url: https://trino.io/docs/current/connector/cassandra.html
+- name: Apache Druid
+  anchor: apache-druid
+  category: data-source
+  logo: /assets/images/logos/apache-druid.png
+  logosmall: /assets/images/logos/apache-druid-small.png
+  description: |
+    Druid is a high performance, in-memory, real-time analytics database that
+    delivers sub-second queries on streaming and batch data at scale and under
+    load.
+
+    Use an Apache Druid database as a data source in Trino by configuring a
+    catalog with the Druid connector.
+  links:
+    - urltext: Apache Druid
+      url: https://druid.apache.org/
+    - urltext: Druid connector documentation
+      url: https://trino.io/docs/current/connector/druid.html
+    - urltext: Make data fluid with Apache Druid from Trino Community Broadcast
+        16
+      url: https://trino.io/episodes/16.html
+- name: Apache Hive
+  anchor: apache-hive
+  category: data-source
+  logo: /assets/images/logos/apache-hive.png
+  logosmall: /assets/images/logos/apache-hive-small.png
+  description: |
+    Apache Hive is a distributed, fault-tolerant data warehouse system that
+    enables analytics at a massive scale and facilitates reading, writing, and
+    managing petabytes of data residing in distributed storage using SQL.
+
+    Use an Apache Hive data warehouse as a data source in Trino by configuring a
+    catalog with the Hive connector.
+  links:
+    - urltext: Apache Hive
+      url: https://hive.apache.org/
+    - urltext: Hive connector documentation
+      url: https://trino.io/docs/current/connector/hive.html
+    - urltext: What is Trino and the Hive connector from Trino Community
+        Broadcast 29
+      url: https://trino.io/episodes/29.html
+- name: Apache Hudi
+  anchor: apache-hudi
+  category: data-source
+  logo: /assets/images/logos/apache-hudi.png
+  logosmall: /assets/images/logos/apache-hudi-small.png
+  description: |
+    Apache Hudi is a transactional data lake platform that brings database and
+    data warehouse capabilities to the data lake. Hudi reimagines slow
+    old-school batch data processing with a powerful new incremental processing
+    framework for low latency minute-level analytics.
+
+    Use an Apache Hudi data lake as a data source in Trino by configuring a
+    catalog with the Hudi connector.
+  links:
+    - urltext: Apache Hudi
+      url: https://hudi.apache.org/
+    - urltext: Hudi connector documentation
+      url: https://trino.io/docs/current/connector/hudi.html
+    - urltext: Interview with Hudi contributors from Trino Community Broadcast 
+        41
+      url: https://trino.io/episodes/41.html
+- name: Apache Iceberg
+  anchor: apache-iceberg
+  category: data-source
+  logo: /assets/images/logos/apache-iceberg.png
+  logosmall: /assets/images/logos/apache-iceberg-small.png
+  description: |
+    Apache Iceberg is a high-performance format for huge analytic tables.
+    Iceberg brings the reliability and simplicity of SQL tables to big data,
+    while making it possible for engines like Spark, Trino, Flink, Presto, Hive
+    and Impala to safely work with the same tables, at the same time.
+
+    Use an Apache Iceberg data lakehouse as a data source in Trino by
+    configuring a catalog with the Iceberg connector.
+  links:
+    - urltext: Apache Iceberg
+      url: https://iceberg.apache.org/
+    - urltext: Iceberg connector documentation
+      url: https://trino.io/docs/current/connector/iceberg.html
+    - urltext: Interview with Iceberg creator from Trino Community Broadcast 40
+      url: https://trino.io/episodes/40.html
+# there are lots more from Trino Fest, Trino Summot .. need to figure out how many we are happy to have.. 
+- name: Apache Ignite
+  anchor: apache-ignite
+  category: data-source
+  logo: /assets/images/logos/apache-ignite.png
+  logosmall: /assets/images/logos/apache-ignite-small.png
+  description: |
+    Apache Ignite is a distributed in‑memory database for high‑performance
+    applications. It scales across memory, disk, and multiple machines without
+    compromise.
+
+    Use an Apache Ignite database as a data source in Trino by configuring a
+    catalog with the Apache Ignite connector.
+  links:
+    - urltext: Apache Ignite
+      url: https://ignite.apache.org/
+    - urltext: Ignite connector documentation
+      url: https://trino.io/docs/current/connector/ignite.html
+    - urltext: Interview about the Ignite connector from Trino Community
+        Broadcast 46
+      url: https://trino.io/episodes/46.html
+- name: Apache Kafka
+  anchor: apache-kafka
+  category: data-source
+  logo: /assets/images/logos/apache-kafka.png
+  logosmall: /assets/images/logos/apache-kafka-small.png
+  description: |
+    Apache Kafka is an open source distributed event streaming platform used by
+    thousands of companies for high-performance data pipelines, streaming
+    analytics, data integration, and mission-critical applications.
+
+    Use an Apache Kafka event stream as a data source in Trino by configuring a
+    catalog with the Kafka connector.
+  links:
+    - urltext: Apache Kafka
+      url: https://kafka.apache.org/
+    - urltext: Kafka connector documentation
+      url: https://trino.io/docs/current/connector/kafka.html
+- name: Apache Kudu
+  anchor: apache-kudu
+  category: data-source
+  logo: /assets/images/logos/apache-kudu.png
+  logosmall: /assets/images/logos/apache-kudu-small.png
+  description: |
+    Apache Kudu is an open source distributed data storage engine that makes
+    fast analytics on fast and changing data easy.
+
+    Use an Apache Kudu data storage as a data source in Trino by configuring a
+    catalog with the Kudu connector.
+  links:
+    - urltext: Apache Kudu
+      url: https://kudu.apache.org/
+    - urltext: Kudu connector documentation
+      url: https://trino.io/docs/current/connector/kudu.html
+- name: Apache Phoenix
+  anchor: apache-phoenix
+  category: data-source
+  logo: /assets/images/logos/apache-phoenix.png
+  logosmall: /assets/images/logos/apache-phoenix-small.png
+  description: |
+    Apache Phoenix enables OLTP and operational analytics in Hadoop for low
+    latency applications by combining the best of both worlds:
+
+    * The power of standard SQL and JDBC APIs with full ACID transaction
+      capabilities and
+    * The flexibility of late-bound, schema-on-read
+      capabilities from the NoSQL world by leveraging HBase as its backing store
+
+    Use a Apache Phoenix key value store as a data source in Trino by
+    configuring a catalog with the Phoenix connector.
+  links:
+    - urltext: Apache Phoenix
+      url: https://phoenix.apache.org/
+    - urltext: Phoenix connector documentation
+      url: https://trino.io/docs/current/connector/phoenix.html
+- name: Apache Pinot
+  anchor: apache-pinot
+  category: data-source
+  logo: /assets/images/logos/apache-pinot.png
+  logosmall: /assets/images/logos/apache-pinot-small.png
+  description: |
+    Apache Pinot is a real-time distributed OLAP datastore, designed to answer
+    OLAP queries with low latency
+
+    Use an Apache Pinot datastore as a data source in Trino by configuring a
+    catalog with the Pinot connector.
+  links:
+    - urltext: Apache Pinot
+      url: https://pinot.apache.org/
+    - urltext: Pinot connector documentation
+      url: https://trino.io/docs/current/connector/pinot.html
+    - urltext: Trino takes a sip of Pinot! from Trino Community Broadcast 13
+      url: https://trino.io/episodes/13.html
 - name: Apache Superset
   anchor: apache-superset
   category: client
@@ -37,8 +284,9 @@
       url: https://superset.apache.org/docs/databases/trino
     - urltext: Tutorial
       url: https://docs.starburst.io/data-consumer/clients/superset.html
-    - urltext: Trino Community Broadcast 21 from March 2021
-      url: https://docs.starburst.io/data-consumer/clients/superset.html
+    - urltext: Trino gets super visual with Apache Superset! from Trino
+        Community Broadcast 12
+      url: https://trino.io/episodes/12.html
 - name: CLI
   anchor: cli
   category: client
@@ -54,6 +302,22 @@
       url: https://trino.io/docs/current/client/cli.html
     - urltext: User guide
       url: https://docs.starburst.io/data-consumer/clients/cli.html
+- name: Clickhouse
+  anchor: clickhouse
+  category: data-source
+  logo: /assets/images/logos/clickhouse.png
+  logosmall: /assets/images/logos/clickhouse-small.png
+  description: |
+    ClickHouse is the fastest and most resource efficient open source real-time
+    database for applications and analytics.
+
+    Use a Clickhouse database as a data source in Trino by configuring a catalog
+    with the Clickhouse connector.
+  links:
+    - urltext: Clickhouse
+      url: https://clickhouse.com/
+    - urltext: Clickhouse connector documentation
+      url: https://trino.io/docs/current/connector/clickhouse.html
 - name: Cube
   anchor: cube
   category: client
@@ -109,6 +373,81 @@
       url: https://docs.getdbt.com/reference/resource-configs/trino-configs
     - urltext: dbt-trino plugin
       url: https://github.com/starburstdata/dbt-trino
+    - urltext: Interview with dbt developers from Trino Community Broadcast 30
+      url: https://trino.io/episodes/30.html
+    - urltext: Introduction to dbt and Trino from Trino Community Broadcast 21
+      url: https://trino.io/episodes/21.html
+- name: Delta Lake
+  anchor: delta-lake
+  category: data-source
+  logo: /assets/images/logos/delta-lake.png
+  logosmall: /assets/images/logos/delta-lake-small.png
+  description: |
+    Delta Lake is an open source storage framework that enables building a
+    Lakehouse architecture with compute engines including Spark, PrestoDB,
+    Flink, Trino, and Hive and APIs for Scala, Java, Rust, Ruby, and Python.
+
+    Use a Delta Lake data lakehouse as a data source in Trino by configuring a
+    catalog with the Delta Lake connector.
+  links:
+    - urltext: Delta Lake
+      url: https://delta.io/
+    - urltext: Delta Lake connector documentation
+      url: https://trino.io/docs/current/connector/delta-lake.html
+    - urltext: Interview about new Delta Lake connector from Trino Community
+        Broadcast 34
+      url: https://trino.io/episodes/34.html
+- name: Elasticssearch
+  anchor: elasticssearch
+  category: data-source
+  logo: /assets/images/logos/elasticsearch.png
+  logosmall: /assets/images/logos/elasticsearch-small.png
+  description: |
+    Elasticsearch is a distributed, RESTful search and analytics engine capable
+    of addressing a growing number of use cases. As the heart of the Elastic
+    Stack, it centrally stores your data for lightning fast search, fine‑tuned
+    relevancy, and powerful analytics that scale with ease.
+
+    Use an Elasticssearch index as a data source in Trino by configuring a
+    catalog with the Elasticssearch connector.
+  links:
+    - urltext: Elasticssearch
+      url: https://www.elastic.co/elasticsearch/
+    - urltext: Elasticssearch connector documentation
+      url: https://trino.io/docs/current/connector/elasticsearch.html
+- name: Google BigQuery
+  anchor: google-bigquery
+  category: data-source
+  logo: /assets/images/logos/google-bigquery.png
+  logosmall: /assets/images/logos/google-bigquerye-small.png
+  description: |
+    BigQuery is a serverless and cost-effective enterprise data warehouse that
+    works across clouds and scales with your data. Use built-in ML/AI and BI for
+    insights at scale.
+
+    Use a Google BigQuery data warehouse as a data source in Trino by
+    configuring a catalog with the BigQuery connector.
+  links:
+    - urltext: Google BigQuery
+      url: https://cloud.google.com/bigquery/
+    - urltext: BigQuery connector documentation
+      url: https://trino.io/docs/current/connector/bigquery.html
+- name: Google Sheets
+  anchor: google-sheets
+  category: data-source
+  logo: /assets/images/logos/google-sheets.png
+  logosmall: /assets/images/logos/google-sheets-small.png
+  description: |
+    Google Sheets enables you to ceate and collaborate on online spreadsheets
+    in real-time and from any device.
+
+    Use a Google Sheets spreadsheet as a data source in Trino by configuring a
+    catalog with the Google Sheets connector.
+  links:
+    - urltext: Google Sheets
+      url: https://www.google.com/sheets/about/
+    - urltext: Google Sheets connector documentation
+      url: https://trino.io/docs/current/connector/googlesheets.html
 - name: Great Expectations
   anchor: great-expectations
   category: client
@@ -125,7 +464,8 @@
       url: https://docs.greatexpectations.io/
     - urltext: Trino guide
       url: https://docs.greatexpectations.io/docs/guides/connecting_to_your_data/database/trino/
-    - urltext: Make your Trino data pipelines production ready with Great Expectations
+    - urltext: Make your Trino data pipelines production ready with Great 
+        Expectations
       url: https://trino.io/blog/2022/08/24/data-pipelines-production-ready-great-expectations.html
 - name: Go
   anchor: go
@@ -220,7 +560,7 @@
   logo: /assets/images/logos/metabase.png
   logosmall: /assets/images/logos/metabase-small.png
   description: |
-    Metabase is an open-source web based business intelligence platform. You can
+    Metabase is an open source web based business intelligence platform. You can
     use Metabase to ask questions about your data, or embed Metabase in your app
     to let your customers explore their data on their own. More information is
     available in the driver project repository and the user guide.
@@ -231,6 +571,78 @@
       url: https://docs.starburst.io/data-consumer/clients/metabase.html
     - urltext: Metabase driver
       url: https://github.com/starburstdata/metabase-driver
+    - urltext: Interview about Metabase from Trino Community Broadcast 44
+      url: https://trino.io/episodes/44.html
+- name: MariaDB
+  anchor: mariadb
+  category: data-source
+  logo: /assets/images/logos/mariadb.png
+  logosmall: /assets/images/logos/mariadb-small.png
+  description: |
+    MariaDB Server is one of the most popular open source relational databases.
+    It’s made by the original developers of MySQL and guaranteed to stay open
+    source. It is part of most cloud offerings and the default in most Linux
+    distributions.
+
+    Use a MariaDB database as a data source in Trino by configuring a catalog
+    with the MariaDB connector.
+  links:
+    - urltext: MariaDB
+      url: https://mariadb.org/
+    - urltext: MariaDB connector documentation
+      url: https://trino.io/docs/current/connector/mariadb.html
+- name: Microsoft SQL Server
+  anchor: sql-server
+  category: data-source
+  logo: /assets/images/logos/microsoft-sql-server.png
+  logosmall: /assets/images/logos/microsoft-sql-server-small.png
+  description: |
+    Microsoft SQL Server is a proprietary relational database management system
+    developed by Microsoft. Microsoft provides different editions of Microsoft
+    SQL Server, aimed at different audiences and for workloads ranging from
+    small single-machine applications to large Internet-facing applications with
+    many concurrent users.
+
+    Use a Microsoft SQL Server database as a data source in Trino by configuring
+    a catalog with the SQL Server connector.
+  links:
+    - urltext: Microsoft SQL Server
+      url: https://www.microsoft.com/sql-server
+    - urltext: SQL Server connector documentation
+      url: https://trino.io/docs/current/connector/sqlserver.html
+- name: MongoDB
+  anchor: mongodb
+  category: data-source
+  logo: /assets/images/logos/mongodb.png
+  logosmall: /assets/images/logos/mongodb-small.png
+  description: |
+    MongoDB is a source-available cross-platform document-oriented database
+    program. Classified as a NoSQL database program, MongoDB uses JSON-like
+    documents with optional schemas.
+
+    Use a MongoDB database as a data source in Trino by configuring a catalog
+    with the MongoDB connector.
+  links:
+    - urltext: MongoDB
+      url: https://www.mongodb.com/
+    - urltext: MongoDB connector documentation
+      url: https://trino.io/docs/current/connector/mongodb.html
+- name: MySQL
+  anchor: mysql
+  category: data-source
+  logo: /assets/images/logos/mysql.png
+  logosmall: /assets/images/logos/mysql-small.png
+  description: |
+    MySQL is the world's most popular open source relational database management
+    system (RDBMS).
+
+    Use a MySQL database as a data source in Trino by configuring a catalog with
+    the MySQL connector.
+  links:
+    - urltext: MySQL
+      url: https://www.mysql.com/
+    - urltext: MySQL connector documentation
+      url: https://trino.io/docs/current/connector/mysql.html
 - name: Node.js
   anchor: node_js
   category: client
@@ -261,6 +673,23 @@
       url: https://www.magnitude.com/drivers/trino-odbc-jdbc
     - urltext: Starburst ODBC driver
       url: https://docs.starburst.io/data-consumer/clients/odbc.html
+- name: Oracle
+  anchor: oracle
+  category: data-source
+  logo: /assets/images/logos/oracle.png
+  logosmall: /assets/images/logos/oracle-small.png
+  description: |
+    Oracle database services and products offer customers cost-optimized and
+    high-performance versions of Oracle Database, the world's leading converged,
+    multi-model database management system.
+
+    Use an Oracle database as a data source in Trino by configuring a catalog
+    with the Oracle connector.
+  links:
+    - urltext: Oracle
+      url: https://www.oracle.com/database/
+    - urltext: Oracle connector documentation
+      url: https://trino.io/docs/current/connector/oracle.html
 - name: PopSQL
   anchor: popsql
   category: client
@@ -274,6 +703,24 @@
       url: https://popsql.com/
     - urltext: Connecting to Trino
       url: https://docs.popsql.com/docs/connecting-to-trino
+- name: PostgreSQL
+  anchor: postgresql
+  category: data-source
+  logo: /assets/images/logos/postgresql.png
+  logosmall: /assets/images/logos/postgresql-small.png
+  description: |
+    PostgreSQL is the world's most advanced open source relational database.
+    PostgreSQL is a powerful system with over 35 years of active development
+    that has earned it a strong reputation for reliability, feature robustness,
+    and performance.
+
+    Use a PostgreSQL database as a data source in Trino by configuring a catalog
+    with the PostgreSQL connector.
+  links:
+    - urltext: PostgreSQL
+      url: https://postgresql.org/
+    - urltext: PostgreSQL connector documentation
+      url: https://trino.io/docs/current/connector/postgresql.html
 - name: Presto-Gateway
   anchor: presto-gateway
   category: add-on
@@ -286,6 +733,25 @@
   links:
     - urltext: Presto-Gateway
       url: https://github.com/lyft/presto-gateway
+- name: Prometheus
+  anchor: prometheus
+  category: data-source
+  logo: /assets/images/logos/prometheus.png
+  logosmall: /assets/images/logos/prometheus-small.png
+  description: |
+    Prometheus is an open source systems monitoring and alerting toolkit with a
+    very active developer and user community. Prometheus collects and stores its
+    metrics as time series data, i.e. metrics information is stored with the
+    timestamp at which it was recorded, alongside optional key-value pairs
+    called labels.
+
+    Use a Prometheus database as a data source in Trino by configuring a catalog
+    with the Prometheus connector.
+  links:
+    - urltext: Prometheus
+      url: https://prometheus.io/docs/introduction/overview/
+    - urltext: Prometheus connector documentation
+      url: https://trino.io/docs/current/connector/prometheus.html
 - name: Python
   anchor: python
   category: client
@@ -342,6 +808,22 @@
   links:
     - urltext: Redash
       url: https://redash.io/
+- name: Redis
+  anchor: redis
+  category: data-source
+  logo: /assets/images/logos/redis.png
+  logosmall: /assets/images/logos/redis-small.png
+  description: |
+    Redis is an open source, in-memory data store used by millions of developers
+    as a database, cache, streaming engine, and message broker.
+
+    Use a Redis data store as a data source in Trino by configuring a catalog
+    with the Redis connector.
+  links:
+    - urltext: Redis
+      url: https://redis.io/
+    - urltext: MySQL connector documentation
+      url: https://trino.io/docs/current/connector/redis.html
 - name: Ruby
   anchor: ruby
   category: client
@@ -357,6 +839,22 @@
       url: https://www.ruby-lang.org/en/
     - urltext: trino-client-ruby
       url: https://github.com/treasure-data/trino-client-ruby
+- name: SingleStore
+  anchor: singlestore
+  category: data-source
+  logo: /assets/images/logos/singlestore.png
+  logosmall: /assets/images/logos/singlestore-small.png
+  description: |
+    SingleStoreDB is a unified data engine for transactional and analytical
+    workloads, used to power fast, real-time analytics and applications.
+
+    Use a SingleStore database as a data source in Trino by configuring a
+    catalog with the SingleStore connector.
+  links:
+    - urltext: SingleStore
+      url: https://www.singlestore.com/
+    - urltext: SingleStore connector documentation
+      url: https://trino.io/docs/current/connector/singlestore.html
 - name: SQL Formatter
   anchor: workload-analyzer
   category: add-on
@@ -374,6 +872,25 @@
       url: https://sql-formatter-org.github.io/sql-formatter/
     - urltext: Documentation for supported languages including Trino
       url: https://github.com/sql-formatter-org/sql-formatter/blob/master/docs/language.md
+- name: TPC
+  anchor: tpc
+  category: data-source
+  logo: /assets/images/logos/tpc.png
+  logosmall: /assets/images/logos/tpc-small.png
+  description: |
+    TPC is a non-profit corporation focused on developing data-centric benchmark
+    standards and disseminating objective, verifiable data to the industry.
+
+    The Trino TPC-H and TPC-DS connectors are data generators that provide the
+    benchmark data sets for direct querying or copying into other data sources
+    for testing and benchmarking.
+  links:
+    - urltext: TPC
+      url: https://tpc.org/
+    - urltext: TPC-DS connector documentation
+      url: https://trino.io/docs/current/connector/tpcds.html
+    - urltext: TPC-H connector documentation
+      url: https://trino.io/docs/current/connector/tpch.html
 - name: Workload Analyzer
   anchor: workload-analyzer
   category: add-on
