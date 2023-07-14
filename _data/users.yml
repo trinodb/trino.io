@@ -353,6 +353,7 @@
       url: https://www.jiosaavn.com
 - name: Instacart
   highlight: true
+  anchor: instacart
   # Orrin Naylor confirmed on slack
   logo: /assets/images/logos/instacart.png
   logosmall: /assets/images/logos/instacart-small.png
@@ -445,6 +446,7 @@
   # GitHub for approving user: Chaho12
 - name: Netflix
   highlight: true
+  anchor: netflix
   logo: /assets/images/logos/netflix.png
   logosmall: /assets/images/logos/netflix-small.png
   links:
