@@ -1,0 +1,7 @@
+{% assign sponsors_ordered = site.data.sponsors | sort: "position" %}
+<div class="d-flex justify-content-center sponsorsline">
+  <div class="col-sm"><p>Sponsored by</p></div>
+  {% for sponsor in sponsors_ordered %}
+    <div class="col-sm"><img src="{{sponsor.logobalanced}}" alt="{{sponsor.name}}"></div>
+  {% endfor %}
+</div>

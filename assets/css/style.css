@@ -1025,3 +1025,20 @@ table td {
     padding: 5px;
   }
 }
+
+/* Sponsors */
+.sponsorsline p {
+  color: black;
+  font-size: 1.125rem;
+  margin-top: 50%;
+}
+
+.sponsorsline .col-sm{
+  max-width: 200px;
+}
+
+.sponsorsline img {
+  width: 100%;
+  max-width: 200px;
+  margin-top: 30px;
+}
