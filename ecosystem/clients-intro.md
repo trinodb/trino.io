@@ -1,7 +1,9 @@
 Clients allow you to connect to Trino, submit SQL queries, and receive the
-results. Clients are full-featured applications or libraries and drivers that
-allow you to connect to any applications supporting that driver or even your own
-custom application or script.
+results. Clients can access all [configured data sources in
+catalogs]({{site_url}}/ecosystem/index.html#data-sources). Clients are
+full-featured applications or libraries and drivers that allow you to connect to
+any applications supporting that driver or even your own custom application or
+script.
 
 Clients include command line tools, desktop applications, web-based
 applications, and software-as-a-service solutions with features such as
