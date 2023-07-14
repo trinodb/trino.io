@@ -1,0 +1,36 @@
+#
+# Data for the sponsors display on the home page.
+# Additional data like description can be used on a dedicated sponsors page in # the future
+#
+# Bloomberg is commented out until we get approval sorted.
+# - name: Bloomberg
+#   anchor: bloomberg
+#   position: 3
+#   logo: /assets/images/logos/bloomberg.png
+#   logosmall: /assets/images/logos/bloomberg-small.png
+#   logobalanced: /assets/images/logos/bloomberg-balanced.png
+#   description:
+#   links:
+#     - urltext: View the Bloomberg website
+#       url: https://www.bloomberg.com/
+- name: GitHub
+  highlight: false
+  position: 2
+  anchor: github
+  logo: /assets/images/logos/github.png
+  logosmall: /assets/images/logos/github-small.png
+  logobalanced: /assets/images/logos/github-balanced.png
+  description:
+  links:
+    - urltext: View the GitHub website
+      url: https://www.github.com
+- name: Starburst
+  anchor: starburst
+  position: 1
+  logo: /assets/images/logos/starburst.png
+  logosmall: /assets/images/logos/starburst-small.png
+  logobalanced: /assets/images/logos/starburst-balanced.png
+  description:
+  links:
+    - urltext: View the Starburst website
+      url: https://www.starburst.io/
