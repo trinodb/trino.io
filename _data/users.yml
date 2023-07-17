@@ -122,20 +122,20 @@
   links:
     - urltext: View the Bazaar Technologies website
       url: https://www.bazaar-tech.com/
-#- name: Bloomberg
-#  highlight: false
-#  anchor: bloomberg
-#  logo: /assets/images/logos/bloomberg.png
-#  logosmall: /assets/images/logos/bloomberg-small.png
-#  testimonial: |
-#    Trino is a critical piece of the data platform infrastructure at Bloomberg.
-#  links:
-#    - urltext: View the Bloomberg open source website
-#      url: https://www.bloomberg.com/company/values/tech-at-bloomberg/open-source/projects/
-#    - urltext: Let it snow for Trino from Trino Fest 2023
-#      url: https://trino.io/blog/2023/07/12/trino-fest-2023-let-it-snow-recap.html
-#    - urltext: Enterprise-ready Trino at Bloomberg - One Giant Leap Toward Data Mesh! from Trino Summit 2022
-#     url: https://trino.io/blog/2022/11/30/trino-summit-2022-bloomberg-recap.html
+- name: Bloomberg
+  highlight: false
+  anchor: bloomberg
+  logo: /assets/images/logos/bloomberg.png
+  logosmall: /assets/images/logos/bloomberg-small.png
+  testimonial: |
+    Trino is a critical piece of the data platform infrastructure at Bloomberg. More to be added here ... 
+  links:
+    - urltext: View the Bloomberg open source website
+      url: https://www.bloomberg.com/company/values/tech-at-bloomberg/open-source/projects/
+    - urltext: Let it snow for Trino from Trino Fest 2023
+      url: https://trino.io/blog/2023/07/12/trino-fest-2023-let-it-snow-recap.html
+    - urltext: Enterprise-ready Trino at Bloomberg - One Giant Leap Toward Data Mesh! from Trino Summit 2022
+      url: https://trino.io/blog/2022/11/30/trino-summit-2022-bloomberg-recap.html
 - name: BlueCat
   highlight: false
   anchor: bluecat
