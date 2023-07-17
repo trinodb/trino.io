@@ -76,9 +76,8 @@ from the presentations and the experience and knowledge of our speakers.
 * [DuneSQL, a query engine for blockchain data]({% post_url
   2023-07-14-trino-fest-2023-dune %}) presented by Miguel Filipe and Jonas
   Irgens Kylling from [Dune](https://dune.com/).
-* [<i class="fab fa-youtube" style="color:red;padding-right:0.5em;"/>Data Mesh
-  implementation using Hive views](https://youtu.be/ZgcVtPFkKHM) presented by
-  Alejandro Rojas from [Comcast](https://comcast.github.io/).
+* [Data Mesh implementation using Hive views]({% post_url 2023-07-17-trino-fest-2023-comcast-recap %})
+  presented by Alejandro Rojas from [Comcast](https://comcast.github.io/).
 * [<i class="fab fa-youtube" style="color:red;padding-right:0.5em;"/>Inspecting
   Trino on ice](https://youtu.be/PSGuAMVc6-w) presented by Kevin Liu from
   [Stripe](https://stripe.com/).
