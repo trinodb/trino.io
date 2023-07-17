@@ -23,7 +23,7 @@ recording of the session or keep reading for a recap.
 
 <a class="btn btn-pink btn-md" target="_blank" href="/assets/blog/trino-fest-2023/TrinoFest2023Dune.pdf">
   Check out the slides!
-</a>
+</a> 
 
 ## Recap
 
