@@ -989,9 +989,9 @@ table td {
 }
 
 .user-logo-item {
-  max-width: 10%; /* 10 Column */
-  -ms-flex: 0 0 10%;
-  flex: 0 0 10%;
+  max-width: 9%; /* 10 Column */
+  -ms-flex: 0 0 9%;
+  flex: 0 0 9%;
 }
 
 @media (max-width: 769px) {

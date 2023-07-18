@@ -348,7 +348,7 @@
     - urltext: View the Jampp website
       url: https://jampp.com/
 - name: JioSaavn
-  highlight: false
+  highlight: true
   anchor: jiosaavn
   logo: /assets/images/logos/jiosaavn.png
   logosmall: /assets/images/logos/jiosaavn-small.png
@@ -679,7 +679,7 @@
     - urltext: Shopify's Path to a Faster Trino Query Execution - Infrastructure
       url: https://shopify.engineering/faster-trino-query-execution-infrastructure
 - name: Starburst
-  highlight: false
+  highlight: true
   anchor: starburst
   logo: /assets/images/logos/starburst.png
   logosmall: /assets/images/logos/starburst-small.png
