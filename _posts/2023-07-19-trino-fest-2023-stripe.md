@@ -19,6 +19,10 @@ He also discusses how Trino is a core part of operations at Stripe.
 
 {% youtube PSGuAMVc6-w %}
 
+<a class="btn btn-pink btn-md" target="_blank" href="/assets/blog/trino-fest-2023/TrinoFest2023Stripe.pdf">
+  Check out the slides!
+</a>
+
 ## Recap
 
 Trino is the foundational infrastructure on which other data apps and services are
