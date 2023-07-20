@@ -743,7 +743,7 @@
     - urltext: View the Stripe website
       url: https://stripe.com/
     - urltext: Inspecting Trino on Ice from Stripe engineer at Trino Fest 2023
-      url: https://youtu.be/PSGuAMVc6-w
+      url: https://trino.io/blog/2023/07/19/trino-fest-2023-stripe.html
 - name: Swrve
   highlight: false
   anchor: swrve
