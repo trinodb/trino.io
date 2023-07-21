@@ -88,6 +88,31 @@
       url: https://www.datadoghq.com/
     - urltext: Documentation for Trino integration
       url: https://docs.datadoghq.com/integrations/trino/
+- name: DBeaver
+  anchor: DBeaver
+  category: client
+  logo: /assets/images/logos/dbeaver.png
+  logosmall: /assets/images/logos/dbeaver-small.png
+  description: |
+      DBeaver is a cross-platform database tool for developers, database
+      administrators, analysts, and everyone working with data. With DBeaver you
+      are able to manipulate with your data like in a regular spreadsheet,
+      create analytical reports based on records from different data storages,
+      export information in an appropriate format. For advanced database users
+      DBeaver suggests a powerful SQL-editor, plenty of administration features,
+      abilities of data and schema migration, monitoring database connection
+      sessions, and a lot more.
+
+      It is avaiable as free open source DBeaver Community and as various
+      commercially supported DBeaver PRO editions. All editions support many
+      databases, including Trino.
+  links:
+    - urltext: DBeaver Community
+      url: https://dbeaver.io/
+    - urltext: DBeaver PRO
+      url: https://dbeaver.com/
+    - urltext: DBeaver and Trino guide
+      url: https://docs.starburst.io/data-consumer/clients/dbeaver.html
 - name: dbt
   anchor: dbt
   category: client
