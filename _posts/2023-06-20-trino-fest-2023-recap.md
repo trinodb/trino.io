@@ -82,9 +82,9 @@ from the presentations and the experience and knowledge of our speakers.
   from [Stripe](https://stripe.com/).
 * [Trino optimization with distributed caching on Data Lake]({% post_url 2023-07-21-trino-fest-2023-alluxio-recap %})
   presented by Hope Wang and Beinan Wang from [Alluxio](https://www.alluxio.io/).
-* [<i class="fab fa-youtube" style="color:red;padding-right:0.5em;"/>Starburst
-  Galaxy: A romance of many architectures](https://youtu.be/K3AlAWB-Gmg)
-  presented by Benjamin Jeter from [Datto](https://www.datto.com/).
+* [Starburst Galaxy: A romance of many architectures]({% post_url
+  2023-07-25-trino-fest-2023-datto %}) presented by Benjamin Jeter from
+  [Datto](https://www.datto.com/).
 * [<i class="fab fa-youtube" style="color:red;padding-right:0.5em;"/>FugueSQL,
   Interoperable Python and Trino for interactive
   workloads](https://youtu.be/aKhI1Phfn-o) presented by [Kevin
