@@ -23,7 +23,7 @@ Because [data caching with Alluxio is coming to Trino](https://github.com/trinod
 
 <!--more-->
 
-{% youtube ZgcVtPFkKHM %}
+{% youtube oK1A5U1WzFc %}
 
 <a class="btn btn-pink btn-md" target="_blank" href="/assets/blog/trino-fest-2023/TrinoFest2023Alluxio.pdf">
   Check out the slides!
