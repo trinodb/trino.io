@@ -80,10 +80,8 @@ from the presentations and the experience and knowledge of our speakers.
   presented by Alejandro Rojas from [Comcast](https://comcast.github.io/).
 * [Inspecting Trino on ice]({% post_url 2023-07-19-trino-fest-2023-stripe %}) presented by Kevin Liu
   from [Stripe](https://stripe.com/).
-* [<i class="fab fa-youtube" style="color:red;padding-right:0.5em;"/>Trino
-  optimization with distributed caching on Data
-  Lake](https://youtu.be/oK1A5U1WzFc) presented by Hope Wang and Beinan Wang
-  from [Alluxio](https://www.alluxio.io/).
+* [Trino optimization with distributed caching on Data Lake]({% post_url 2023-07-21-trino-fest-2023-alluxio-recap %})
+  presented by Hope Wang and Beinan Wang from [Alluxio](https://www.alluxio.io/).
 * [<i class="fab fa-youtube" style="color:red;padding-right:0.5em;"/>Starburst
   Galaxy: A romance of many architectures](https://youtu.be/K3AlAWB-Gmg)
   presented by Benjamin Jeter from [Datto](https://www.datto.com/).
