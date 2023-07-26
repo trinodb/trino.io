@@ -37,8 +37,8 @@
       url: https://superset.apache.org/docs/databases/trino
     - urltext: Tutorial
       url: https://docs.starburst.io/data-consumer/clients/superset.html
-    - urltext: Trino Community Broadcast 21 from March 2021
-      url: https://docs.starburst.io/data-consumer/clients/superset.html
+    - urltext: Trino Community Broadcast 12
+      url: https://trino.io/episodes/12.html
 - name: CLI
   anchor: cli
   category: client
