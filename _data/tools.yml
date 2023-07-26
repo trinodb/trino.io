@@ -554,6 +554,26 @@
       url: http://gethue.com/
     - urltext: Instructions to use the Trino connector
       url: https://docs.gethue.com/administrator/configuration/connectors/#trino
+- name: Ibis
+  anchor: ibis
+  category: client
+  logo: /assets/images/logos/ibis.png
+  logosmall: /assets/images/logos/ibis-small.png
+  description: |
+    Ibis is a dataframe interface to execution engines with support for 15+
+    backends, including Trino. Ibis doesn’t replace your existing execution
+    engine, it extends it with powerful abstractions and intuitive syntax. For
+    those who love doing all their data-related work in Python, this allows you
+    to write Python code that leverages the speed and power of Trino without
+    needing to become a SQL master.
+  links:
+    - urltext: Ibis Project
+      url: https://ibis-project.org/
+    - urltext: Because SQL is everywhere and so is Python from TrinoFest 2023
+      url: https://trino.io/blog/2023/07/03/trino-fest-2023-ibis.html
+    - urltext: Trino, Ibis, and wrangling Python in the SQL ecosystem from Trino
+    Community Broadcast 49
+      url: https://trino.io/episodes/49.html
 - name: JDBC
   anchor: jdbc
   category: client
