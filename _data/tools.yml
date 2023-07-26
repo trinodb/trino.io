@@ -422,6 +422,23 @@
     - urltext: Interview about new Delta Lake connector from Trino Community
         Broadcast 34
       url: https://trino.io/episodes/34.html
+- name: Apache DolphinScheduler
+  anchor: dolphinscheduler
+  category: client
+  logo: /assets/images/logos/apache-dolphinscheduler.png
+  logosmall: /assets/images/logos/apache-dolphinscheduler-small.png
+  description: |
+    Apache DolphinScheduler is an open-source, distributed workflow scheduling
+    platform designed to manage and execute batch jobs, data pipelines, and ETL
+    processes. DolphinScheduler enables users to create and manage consecutive
+    jobs run easily, including support for different types of tasks, such as SQL
+    statements, shell scripts, Spark jobs, Kubernetes deployments, and many
+    others.
+  links:
+    - urltext: Apache DolphinScheduler
+      url: https://dolphinscheduler.apache.org/
+    - urltext: Trino swimming with the DolphinScheduler from Trino Community Broadcast 45
+      url: https://trino.io/episodes/45.html
 - name: Elasticssearch
   anchor: elasticssearch
   category: data-source
