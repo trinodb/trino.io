@@ -440,8 +440,8 @@
     - urltext: Interview about new Delta Lake connector from Trino Community
         Broadcast 34
       url: https://trino.io/episodes/34.html
-- name: Elasticssearch
-  anchor: elasticssearch
+- name: Elasticsearch
+  anchor: elasticsearch
   category: data-source
   logo: /assets/images/logos/elasticsearch.png
   logosmall: /assets/images/logos/elasticsearch-small.png
@@ -451,12 +451,12 @@
     Stack, it centrally stores your data for lightning fast search, fine‑tuned
     relevancy, and powerful analytics that scale with ease.
 
-    Use an Elasticssearch index as a data source in Trino by configuring a
-    catalog with the Elasticssearch connector.
+    Use an Elasticsearch index as a data source in Trino by configuring a
+    catalog with the Elasticsearch connector.
   links:
-    - urltext: Elasticssearch
+    - urltext: Elasticsearch
       url: https://www.elastic.co/elasticsearch/
-    - urltext: Elasticssearch connector documentation
+    - urltext: Elasticsearch connector documentation
       url: https://trino.io/docs/current/connector/elasticsearch.html
 - name: Google BigQuery
   anchor: google-bigquery
