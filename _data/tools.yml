@@ -736,6 +736,26 @@
       url: https://www.magnitude.com/drivers/trino-odbc-jdbc
     - urltext: Starburst ODBC driver
       url: https://docs.starburst.io/data-consumer/clients/odbc.html
+- name: OpenSearch
+  anchor: opensearch
+  category: data-source
+  logo: /assets/images/logos/opensearch.png
+  logosmall: /assets/images/logos/opensearch-small.png
+  description: |
+    OpenSearch is a scalable, flexible, and extensible open-source software
+    suite for search, analytics, and observability applications. OpenSearch
+    offers a vendor-agnostic toolset you can use to build secure,
+    high-performance, cost-efficient applications. OpenSearch includes a data
+    store and search engine, a visualization and user interface, and a library
+    of plugins you can use to tailor your tools to your requirements.
+
+    Use an OpenSearch index as a data source in Trino by configuring a
+    catalog with the Elasticsearch connector.
+  links:
+    - urltext: OpenSearch
+      url: https://opensearch.org/
+    - urltext: Elasticsearch connector documentation
+      url: https://trino.io/docs/current/connector/elasticsearch.html
 - name: Oracle
   anchor: oracle
   category: data-source
