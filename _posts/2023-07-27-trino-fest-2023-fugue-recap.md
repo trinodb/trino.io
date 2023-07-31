@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Trino optimization with distributed caching on data lakes"
+title: "FugueSQL: Interoperable Python and Trino for interactive workloads"
 author: "Kevin Kho and Cole Bowden"
 excerpt_separator: <!--more-->
 image: /assets/blog/trino-fest-2023/Fugue.png
