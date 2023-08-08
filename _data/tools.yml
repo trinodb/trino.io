@@ -458,6 +458,26 @@
       url: https://www.elastic.co/elasticsearch/
     - urltext: Elasticsearch connector documentation
       url: https://trino.io/docs/current/connector/elasticsearch.html
+- name: FugueSQL
+  anchor: fugue-sql
+  category: client
+  logo: /assets/images/logos/fuguesql.png
+  logosmall: /assets/images/logos/fuguesql-small.png
+  description: |
+    Fugue provides an easier interface to using distributed compute effectively
+    and accelerates big data projects. It does this by minimizing the amount of
+    code you need to write, in addition to taking care of tricks and
+    optimizations that lead to more efficient execution on distrubted compute.
+    Fugue ports Python, Pandas, and SQL code to Spark, Dask, and Ray, and
+    supports Trino.
+  links:
+    - urltext: FugueSQL
+      url: https://fugue-tutorials.readthedocs.io/index.html
+    - urltext: Fugue with Trino documentation
+      url: https://fugue-tutorials.readthedocs.io/tutorials/integrations/warehouses/trino.html
+    - urltext: Interoperable Python and Trino for interactive workloads
+        from TrinoFest 2023
+      url: https://trino.io/blog/2023/07/27/trino-fest-2023-fugue-recap
 - name: Google BigQuery
   anchor: google-bigquery
   category: data-source
