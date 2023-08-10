@@ -478,6 +478,23 @@
     - urltext: Interoperable Python and Trino for interactive workloads
         from TrinoFest 2023
       url: https://trino.io/blog/2023/07/27/trino-fest-2023-fugue-recap
+- name:  Git
+  anchor: git
+  category: data-source
+  logo: /assets/images/logos/git.png
+  logosmall: /assets/images/logos/git-small.png
+  description: |
+    Git is a free and open source distributed version control system designed to
+    handle everything from small to very large projects with speed and
+    efficiency.
+
+    Use a git repository as a data source in Trino by configuring a catalog with
+    the git connector.
+  links:
+    - urltext: Git
+      url: https://git-scm.com/
+    - urltext: Trino git connector
+      url: https://github.com/nineinchnick/trino-git
 - name: Google BigQuery
   anchor: google-bigquery
   category: data-source
