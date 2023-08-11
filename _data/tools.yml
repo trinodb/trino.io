@@ -756,6 +756,23 @@
       url: https://www.magnitude.com/drivers/trino-odbc-jdbc
     - urltext: Starburst ODBC driver
       url: https://docs.starburst.io/data-consumer/clients/odbc.html
+- name: OpenAPI
+  anchor: openapi
+  category: data-source
+  logo: /assets/images/logos/openapi.png
+  logosmall: /assets/images/logos/openapi-small.png
+  description: |
+    OpenAPI is a specification language for REST APIs that provides a
+    standardized means to define your API.
+
+    Use any REST API that publishes an OpenAPI specification as a data source in
+    Trino by configuring a catalog with the OpenAPI connector, and avoid having
+    to generate a client.
+  links:
+    - urltext: OpenAPI
+      url: https://www.openapis.org/
+    - urltext: Trino OpenAPI connector
+      url: https://github.com/nineinchnick/trino-openapi
 - name: OpenSearch
   anchor: opensearch
   category: data-source
