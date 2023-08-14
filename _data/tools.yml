@@ -495,6 +495,20 @@
       url: https://git-scm.com/
     - urltext: Trino git connector
       url: https://github.com/nineinchnick/trino-git
+- name: Go
+  anchor: go
+  category: client
+  logo: /assets/images/logos/go.png
+  logosmall: /assets/images/logos/go-small.png
+  description: |
+    Go is a statically typed, compiled high-level programming language. Use the
+    Trino Go client to connect a Go applications to a Trino cluster and receive
+    the results of the submitted SQL queries.
+  links:
+    - urltext: Go
+      url: https://go.dev/
+    - urltext: Trino Go client source code and documentation
+      url: https://github.com/trinodb/trino-go-client
 - name: Google BigQuery
   anchor: google-bigquery
   category: data-source
@@ -547,20 +561,6 @@
     - urltext: Make your Trino data pipelines production ready with Great 
         Expectations
       url: https://trino.io/blog/2022/08/24/data-pipelines-production-ready-great-expectations.html
-- name: Go
-  anchor: go
-  category: client
-  logo: /assets/images/logos/go.png
-  logosmall: /assets/images/logos/go-small.png
-  description: |
-    Go is a statically typed, compiled high-level programming language. Use the
-    Trino Go client to connect a Go applications to a Trino cluster and receive
-    the results of the submitted SQL queries.
-  links:
-    - urltext: Go
-      url: https://go.dev/
-    - urltext: Trino Go client source code and documentation
-      url: https://github.com/trinodb/trino-go-client
 - name: Grafana
   anchor: grafana
   category: client
@@ -654,6 +654,24 @@
       url: https://trino.io/docs/current/installation/containers.html
     - urltext: Trino Helm charts documentation
       url: https://trino.io/docs/current/installation/kubernetes.html
+- name: MariaDB
+  anchor: mariadb
+  category: data-source
+  logo: /assets/images/logos/mariadb.png
+  logosmall: /assets/images/logos/mariadb-small.png
+  description: |
+    MariaDB Server is one of the most popular open source relational databases.
+    It’s made by the original developers of MySQL and guaranteed to stay open
+    source. It is part of most cloud offerings and the default in most Linux
+    distributions.
+
+    Use a MariaDB database as a data source in Trino by configuring a catalog
+    with the MariaDB connector.
+  links:
+    - urltext: MariaDB
+      url: https://mariadb.org/
+    - urltext: MariaDB connector documentation
+      url: https://trino.io/docs/current/connector/mariadb.html
 - name: Metabase
   anchor: metabase
   category: client
@@ -673,24 +691,6 @@
       url: https://github.com/starburstdata/metabase-driver
     - urltext: Interview about Metabase from Trino Community Broadcast 44
       url: https://trino.io/episodes/44.html
-- name: MariaDB
-  anchor: mariadb
-  category: data-source
-  logo: /assets/images/logos/mariadb.png
-  logosmall: /assets/images/logos/mariadb-small.png
-  description: |
-    MariaDB Server is one of the most popular open source relational databases.
-    It’s made by the original developers of MySQL and guaranteed to stay open
-    source. It is part of most cloud offerings and the default in most Linux
-    distributions.
-
-    Use a MariaDB database as a data source in Trino by configuring a catalog
-    with the MariaDB connector.
-  links:
-    - urltext: MariaDB
-      url: https://mariadb.org/
-    - urltext: MariaDB connector documentation
-      url: https://trino.io/docs/current/connector/mariadb.html
 - name: Microsoft SQL Server
   anchor: sql-server
   category: data-source
