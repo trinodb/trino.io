@@ -625,6 +625,21 @@
   links:
     - urltext: Trino JDBC Driver documentation
       url: https://trino.io/docs/current/client/jdbc.html
+- name: JetBrains Datagrip
+  anchor: jetbrains-datagriop
+  category: client
+  logo: /assets/images/logos/datagrip.png
+  logosmall: /assets/images/logos/datagrip-small.png
+  description: |
+    DataGrip by JetBrains is an IDE for databases that is tailored to suit the
+    specific needs of professional SQL developers. It is designed to work with
+    databases installed locally, on a server, or in the cloud. It is installed
+    as a local application on your workstation.
+  links:
+    - urltext: JetBrains Datagrip
+      url: https://www.jetbrains.com/datagrip/
+    - urltext: Datagrip with Trino tutorial
+      url: https://docs.starburst.io/data-consumer/clients/datagrip.html
 - name: Jupy SQL
   anchor: jupy-sql
   category: client
