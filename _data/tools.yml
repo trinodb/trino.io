@@ -778,7 +778,7 @@
   logo: /assets/images/logos/odbc.png
   logosmall: /assets/images/logos/odbc-small.png
   description: |
-    Open Database Connectivity (JDBC) enables applications to connect and query
+    Open Database Connectivity (ODBC) enables applications to connect and query
     databases. Use an ODBC driver with your own custom application, or with any
     other application that supports ODBC. ODBC drivers for Trino are available
     from Magnitude. Starburst customers receive an ODBC driver suitable for
