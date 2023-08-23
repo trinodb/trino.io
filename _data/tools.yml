@@ -1070,3 +1070,20 @@
   links:
     - urltext: yanagishima
       url: https://yanagishima.github.io/yanagishima/
+- name: Zing Data
+  anchor: zing-data
+  category: client
+  logo: /assets/images/logos/zing-data.png
+  logosmall: /assets/images/logos/zing-data-small.png
+  description: |
+    Zing Data is a data analysis and collaboration platform with native apps on
+    iOS, Android, and the web. Zing makes asking questions of data and
+    visualizing answers easy for everybody in your organization. Free for small
+    teams, and super-affordable for bigger ones, Zing requires no SQL, no
+    desktop, and no instruction manual. Collaborate as easily as chatting, and
+    integrate seamlessly with all the data sources you already have.
+  links:
+    - urltext: Zing Data
+      url: https://getzingdata.com/
+    - urltext: Zing Data with Trino tutorial
+      url: https://docs.starburst.io/data-consumer/clients/zingdata.html
