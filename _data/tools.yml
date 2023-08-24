@@ -919,6 +919,21 @@
       url: https://www.python.org/
     - urltext: trino-python-client
       url: https://github.com/trinodb/trino-python-client
+- name: Querybook
+  anchor: querybook
+  category: client
+  logo: /assets/images/logos/querybook.png
+  logosmall: /assets/images/logos/querybook-small.png
+  description: |
+    Querybook is a browser-based data analysis tool that turns SQL queries into
+    natural language reports and graphs called DataDocs. Querybook’s core focus
+    is to make composing queries, creating analyses, and collaborating with
+    others as simple as possible.
+  links:
+    - urltext: Querybook
+      url: https://www.querybook.org/
+    - urltext: Querybook with Trino tutorial
+      url: https://docs.starburst.io/data-consumer/clients/querybook.html
 - name: Quix
   anchor: quix
   category: client
