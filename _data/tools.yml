@@ -725,6 +725,23 @@
       url: https://www.microsoft.com/sql-server
     - urltext: SQL Server connector documentation
       url: https://trino.io/docs/current/connector/sqlserver.html
+- name: Microstrategy
+  anchor: microstrategy
+  category: client
+  logo: /assets/images/logos/microstrategy.png
+  logosmall: /assets/images/logos/microstrategy-small.png
+  description: |
+    MicroStrategy is a business intelligence tool that enables you to build up
+    platforms that provide real-time data monitoring and can be accessed and
+    controlled over any mobile device upon creation. It provides modern
+    analytics on an open, comprehensive enterprise platform, and allows users to
+    overlay actionable enterprise data on popular business applications to help
+    users make smarter, faster decisions.
+  links:
+    - urltext: Microstrategy
+      url: https://www.microstrategy.com/en
+    - urltext: Microstrategy with Trino tutorial
+      url: https://docs.starburst.io/data-consumer/clients/microstrategy.html
 - name: MongoDB
   anchor: mongodb
   category: data-source
