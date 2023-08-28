@@ -1024,6 +1024,22 @@
       url: https://sql-formatter-org.github.io/sql-formatter/
     - urltext: Documentation for supported languages including Trino
       url: https://github.com/sql-formatter-org/sql-formatter/blob/master/docs/language.md
+- name: SQuirrel SQL
+  anchor: squirrel-sql
+  category: client
+  logo: /assets/images/logos/squirrel-sql.png
+  logosmall: /assets/images/logos/squirrel-sql-small.png
+  description: |
+    SQuirrel SQL is a Java-based graphical database client that allows you to
+    view the structure of your database, browse the data in tables, and issue
+    SQL commands. It uses JDBC to allow users to explore and interact with
+    databases via a JDBC driver. In addition, it provides an editor that offers
+    code completion and syntax highlighting for standard SQL.
+  links:
+    - urltext: SQuirrel SQL
+      url: http://www.squirrelsql.org/
+    - urltext: SQuirrel SQL with Trino tutorial
+      url: https://docs.starburst.io/data-consumer/clients/squirrel-sql.html
 - name: TPC
   anchor: tpc
   category: data-source
