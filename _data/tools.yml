@@ -640,6 +640,29 @@
       url: https://www.jetbrains.com/datagrip/
     - urltext: Datagrip with Trino tutorial
       url: https://docs.starburst.io/data-consumer/clients/datagrip.html
+- name: JMX
+  anchor: jmx
+  category: add-on
+  logo: /assets/images/logos/jmx.png
+  logosmall: /assets/images/logos/jmx-small.png
+  description: |
+    Java Management Extensions (JMX) is a Java technology that supplies tools
+    for managing and monitoring applications, system objects, devices (such as
+    printers) and service-oriented networks. It defines a management
+    architecture, design patterns, APIs, and services for building web-based,
+    distributed, dynamic, and modular solutions to manage Java-enabled
+    resources.
+
+    Trino exposes numerous metrics for JMX. The metrics can be
+    inspected and monitored with external JMX application, and in Trino itself
+    with SQL statements and the included JMX connector.
+  links:
+    - urltext: JMX
+      url: https://www.oracle.com/technical-resources/articles/javase/jmx.html
+    - urltext: Monitoring with JMX
+      url: https://trino.io/docs/current/admin/jmx.html
+    - urltext: JMX connector
+      url: https://trino.io/docs/current/connector/jmx.html
 - name: Jupy SQL
   anchor: jupy-sql
   category: client
