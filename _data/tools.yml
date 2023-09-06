@@ -607,6 +607,8 @@
   links:
     - urltext: Ibis Project
       url: https://ibis-project.org/
+    - urltext: Trino as Ibis backend
+      url: https://ibis-project.org/backends/trino/
     - urltext: Because SQL is everywhere and so is Python from TrinoFest 2023
       url: https://trino.io/blog/2023/07/03/trino-fest-2023-ibis.html
     - urltext: Trino, Ibis, and wrangling Python in the SQL ecosystem from Trino
