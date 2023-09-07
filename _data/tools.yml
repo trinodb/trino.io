@@ -1158,5 +1158,7 @@
   links:
     - urltext: Zing Data
       url: https://getzingdata.com/
+    - urltext: Set up Trino as a data source
+      url: https://docs.getzingdata.com/docs/setting-up-a-data-source/trino_setup/
     - urltext: Zing Data with Trino tutorial
       url: https://docs.starburst.io/data-consumer/clients/zingdata.html
