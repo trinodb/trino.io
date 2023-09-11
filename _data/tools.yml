@@ -1129,6 +1129,21 @@
       url: https://trino.io/docs/current/connector/tpcds.html
     - urltext: TPC-H connector documentation
       url: https://trino.io/docs/current/connector/tpch.html
+- name: VAST
+  anchor: vast
+  category: data-source
+  logo: /assets/images/logos/vast-data.png
+  logosmall: /assets/images/logos/vast-small.png
+  description: |
+    VAST is a data platform that includes storage and database services.
+
+    Use a VAST data store as a data source in Trino by configuring a
+    catalog with the VAST Trino connector.
+  links:
+    - urltext: VAST
+      url: https://vastdata.com/
+    - urltext: VAST Trino connector
+      url: https://github.com/vast-data/vast-trino-connector
 - name: Workload Analyzer
   anchor: workload-analyzer
   category: add-on
