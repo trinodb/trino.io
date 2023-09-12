@@ -767,6 +767,19 @@
       url: https://www.microstrategy.com/en
     - urltext: Microstrategy with Trino tutorial
       url: https://docs.starburst.io/data-consumer/clients/microstrategy.html
+- name: Minitrino
+  anchor: minitrino
+  category: add-on
+  logo:
+  logosmall:
+  description: |
+    Minitrino is a command line tool that makes it easy to run modular Trino
+    environments locally. It uses a collection of Docker images to deploy
+    various containers alongside Trino, including data sources, security
+    integrations, and administration tools.
+  links:
+    - urltext: Minitrino
+      url: https://github.com/jefflester/minitrino
 - name: MongoDB
   anchor: mongodb
   category: data-source
