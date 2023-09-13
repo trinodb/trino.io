@@ -770,8 +770,8 @@
 - name: Minitrino
   anchor: minitrino
   category: add-on
-  logo:
-  logosmall:
+  logo: /assets/images/logos/minitrino.png
+  logosmall: /assets/images/logos/minitrino-small.png
   description: |
     Minitrino is a command line tool that makes it easy to run modular Trino
     environments locally. It uses a collection of Docker images to deploy
