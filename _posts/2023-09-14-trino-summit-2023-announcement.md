@@ -32,7 +32,7 @@ broader Trino community. Find more information about duration, technical
 details, and more suggestions when you submit your talk.
 
 <div class="card-deck spacer-30">
-    <a class="btn btn-pink" href="https://www.starburst.io/info/trinosummit2023/">
+    <a class="btn btn-pink" href="https://www.starburst.io/info/trinosummit2023/?utm_source=trino&utm_medium=website&utm_campaign=NORAM-FY24-Q4-EV-Trino-Summit-2023&utm_content=blog-1">
         Register to attend
     </a>
     <a class="btn btn-pink" href="https://sessionize.com/trino-summit-2023/">
