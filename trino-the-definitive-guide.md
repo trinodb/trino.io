@@ -57,14 +57,15 @@ tune queries, and connect more applications; Learn how other organizations apply
 Trino successfully
 
 * [O'Reilly Media book page](https://www.oreilly.com/library/view/trino-the-definitive/9781098137229/)
-* [Chinese edition available from JD](https://item.jd.com/10028492426649.html)
-* [Polish edition available from Promise](https://ksiazki.promise.pl/produkt/trino-profesjonalny-przewodnik-sql-w-dowolnej-skali-w-dowolnym-magazynie-i-w-dowolnym-srodowisku/)
+* [Trino Profesjonalny Przewodnik (Polish edition available from Promise)](https://ksiazki.promise.pl/produkt/trino-profesjonalny-przewodnik-sql-w-dowolnej-skali-w-dowolnym-magazynie-i-w-dowolnym-srodowisku/)
+* [Trino权威指南(原书第2版) 机械工业出版社 (Chinese edition available from dangdang)](https://product.dangdang.com/11487789827.html)
 * [Example code repository]({{site.github_org_url}}/trino-the-definitive-guide)
 * [Free digital copy from Starburst](https://www.starburst.io/info/oreilly-trino-guide/)
 * [Announcement blog post]({{ site.baseurl }}{% post_url 2020-04-11-the-definitive-guide %})
 * [Announcement blog post for first Trino version]({{ site.baseurl }}{% post_url 2021-04-21-the-definitive-guide %})
 * [Announcement blog post for second edition]({{ site.baseurl }}{% post_url 2022-10-03-the-definitive-guide-2 %})
 * [Announcement blog post for Polish edition]({{ site.baseurl }}{% post_url 2023-04-06-the-definitive-guide-2-pl %})
+* [Announcement blog post for Chinese edition]({{ site.baseurl }}{% post_url 2023-09-21-the-definitive-guide-2-cn %})
 
 
 </div>
