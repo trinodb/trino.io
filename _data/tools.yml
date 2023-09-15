@@ -1132,7 +1132,7 @@
 - name: VAST
   anchor: vast
   category: data-source
-  logo: /assets/images/logos/vast-data.png
+  logo: /assets/images/logos/vast.png
   logosmall: /assets/images/logos/vast-small.png
   description: |
     VAST is a data platform that includes storage and database services.
