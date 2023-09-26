@@ -928,18 +928,18 @@
       url: https://postgresql.org/
     - urltext: PostgreSQL connector documentation
       url: https://trino.io/docs/current/connector/postgresql.html
-- name: Presto-Gateway
-  anchor: presto-gateway
+- name: Trino Gateway
+  anchor: trino-gateway
   category: add-on
   logo:
   logosmall:
   description: |
-    Presto-Gateway is a gateway/proxy/load-balancer for multiple Trino clusters.
-    Users can register/de-register Trino clusters behind the gateway and connect
-    to it using standard clients.
+    Trino Gateway is a load balancer, proxy server, and configurable routing
+    gateway for multiple Trino clusters. Users can register/de-register
+    Trino clusters behind the gateway and connect to it using standard clients.
   links:
-    - urltext: Presto-Gateway
-      url: https://github.com/lyft/presto-gateway
+    - urltext: Trino Gateway
+      url: https://github.com/trinodb/trino-gateway
 - name: Prometheus
   anchor: prometheus
   category: data-source
