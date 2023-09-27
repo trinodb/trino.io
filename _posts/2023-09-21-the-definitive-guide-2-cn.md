@@ -40,6 +40,6 @@ Slack to be a guest in [Trino Community
 Broadcast]({{site.baseurl}}/broadcast/index.html) or [submit a talk for Trino
 Summit 2023](https://sessionize.com/trino-summit-2023/). And if you just want
 to learn and listen to others, [register as
-attendee](https://www.starburst.io/info/trinosummit2023/) for Trino Summit 2023.
+attendee](https://www.starburst.io/info/trinosummit2023/?utm_source=trino&utm_medium=website&utm_campaign=NORAM-FY24-Q4-EV-Trino-Summit-2023&utm_content=blog-1) for Trino Summit 2023.
 
 *Manfred, Martin, and Matt*
