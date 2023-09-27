@@ -58,7 +58,7 @@ Interested now? No matter how great your SQL knowledge or Trino expertise is,
 you will learn something new in this series.  So what are you waiting for?
 
 <div class="card-deck spacer-30">
-    <a class="btn btn-pink" href="https://www.starburst.io/info/trino-training-series/">
+    <a class="btn btn-pink" href="https://www.starburst.io/info/trino-training-series/?utm_source=trino&utm_medium=website&utm_campaign=Global-FY24-Trino-Training-Series&utm_content=1">
         Register now
     </a>
 </div>
