@@ -931,8 +931,8 @@
 - name: Trino Gateway
   anchor: trino-gateway
   category: add-on
-  logo:
-  logosmall:
+  logo: /assets/images/logos/trino-gateway.png
+  logosmall: /assets/images/logos/trino-gateway-small.png
   description: |
     Trino Gateway is a load balancer, proxy server, and configurable routing
     gateway for multiple Trino clusters. Users can register/de-register
