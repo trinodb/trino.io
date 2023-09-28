@@ -13,7 +13,7 @@ Then you needed to upgrade and got a cluster for testing going. That was a while
 ago, and now you run a separate cluster configured for ETL workloads with
 fault-tolerant execution, and some others with different configurations.
 
-With Trino Gateway we now have an answer to your users request to provide on URL
+With Trino Gateway we now have an answer to your users request to provide one URL
 for all the clusters. Trino Gateway has arrived!
 
 <!--more-->
