@@ -26,8 +26,8 @@ that despite the fact that there is leopard frog on the cover of [Trino: The
 Definitive Guide]({{site.baserurl}}/trino-the-definitive-guide.html), SQL does
 not stand for Silly Quacking Leopardfrogs. Instead SQL stands for Structured
 Query Language, and you will learn about the benefits of connecting [many
-data sources]({{site_url}}/ecosystem.html#data-sources) to Trino, and using
-[different clients]({{site_url}}/ecosystem.html#clients). And you can always use
+data sources]({{site_url}}/ecosystem/index.html#data-sources) to Trino, and using
+[different clients]({{site_url}}/ecosystem/index.html#clients). And you can always use
 the same powerful SQL. And for the SQL pros, you learn about catalogs and
 queries that go across data sources.
 
