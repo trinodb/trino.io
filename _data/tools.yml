@@ -336,6 +336,26 @@
       url: https://clickhouse.com/
     - urltext: Clickhouse connector documentation
       url: https://trino.io/docs/current/connector/clickhouse.html
+- name: Coginiti
+  anchor: coginiti
+  category: client
+  logo: /assets/images/logos/coginiti.png
+  logosmall: /assets/images/logos/coginiti-small.png
+  description: |
+    Coginiti offers a comprehensive solution for data professionals, integrating
+    essential functionalities such as modular development, version control,
+    feedback mechanisms, testing capabilities, and documentation tools. By
+    leveraging these features, analysts and data engineers can improve analytic
+    consistency, increase productivity, and expedite the delivery of valuable
+    insights.
+
+    Unlock a new data analytics paradigm with Coginiti’s full support for Trino,
+    a game-changer in large-scale data querying.
+  links:
+    - urltext: Coginiti
+      url: https://www.coginiti.co
+    - urltext: Coginiti as enterprise SQL workspace for Trino
+      url: https://www.coginiti.co/databases/trino/
 - name: Cube
   anchor: cube
   category: client
