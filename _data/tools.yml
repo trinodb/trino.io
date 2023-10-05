@@ -940,6 +940,10 @@
   links:
     - urltext: Trino Gateway
       url: https://github.com/trinodb/trino-gateway
+    - urltext: Trino Gateway documentation
+      url: https://github.com/trinodb/trino-gateway/blob/main/README.md
+    - urltext: Announcement blog post
+      url: https://trino.io/blog/2023/09/28/trino-gateway
 - name: Prometheus
   anchor: prometheus
   category: data-source
