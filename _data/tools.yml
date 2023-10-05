@@ -634,6 +634,22 @@
     - urltext: Trino, Ibis, and wrangling Python in the SQL ecosystem from Trino
         Community Broadcast 49
       url: https://trino.io/episodes/49.html
+- name: IBM Cognos Analytics
+  anchor: ibm-cognos-analytics
+  category: client
+  logo: /assets/images/logos/ibm-cognos-analytics.png
+  logosmall: /assets/images/logos/ibm-cognos-analytics-small.png
+  description: |
+    Cognos Analytics is a comprehensive business intelligence and performance
+    management suite providing robust reporting, dashboards, data modeling and
+    real-time monitoring, score carding, and predictive analytics. Cognos
+    Analytics aims to empower users to collaborate, plan, and make smart
+    decisions for better business results.
+  links:
+    - urltext: IBM Cognos Analytics
+      url: https://www.ibm.com/products/cognos-analytics
+    - urltext: List of supported software, including Trino versions
+      url: https://www.ibm.com/support/pages/node/6966712
 - name: JDBC
   anchor: jdbc
   category: client
