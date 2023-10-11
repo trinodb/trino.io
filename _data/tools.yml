@@ -1221,7 +1221,7 @@
   description: |
     Visual Studio Code (VSCode) is a free, open-source editor by Microsoft
     with features such as syntax highlighting, IntelliSense, code navigation,
-    and built-in debugging for developers. Through extensions can also work as
+    and built-in debugging for developers. With extensions it can also work as
     a SQL client.
   links:
     - urltext: sqltools-trino-driver
