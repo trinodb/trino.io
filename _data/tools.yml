@@ -868,16 +868,16 @@
   logo: /assets/images/logos/nodejs.png
   logosmall: /assets/images/logos/nodejs-small.png
   description: |
-    Use the presto-client-node, lento or trino-js-client projects to connect a Node.js
+    Use the trino-js-client, presto-client-node or lento projects to connect a Node.js
     application to Trino cluster and receive the results of the submitted
     queries.
   links:
+    - urltext: trino-js-client
+      url: https://github.com/regadas/trino-js-client
     - urltext: presto-client-node
       url: https://github.com/tagomoris/presto-client-node
     - urltext: lento
       url: https://github.com/vweevers/lento
-    - urltext: trino-js-client
-      url: https://github.com/regadas/trino-js-client
 - name: ODBC
   anchor: Odbc
   category: client
