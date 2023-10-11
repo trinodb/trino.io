@@ -478,6 +478,19 @@
       url: https://www.elastic.co/elasticsearch/
     - urltext: Elasticsearch connector documentation
       url: https://trino.io/docs/current/connector/elasticsearch.html
+- name: Emacs
+  anchor: emacs
+  category: client
+  logo: /assets/images/logos/emacs.png
+  logosmall: /assets/images/logos/emacs-small.png
+  description: |
+    Emacs, a versatile and extensible text editor, offers support for numerous
+    programming languages and tools, including SQL. If you're interested in using
+    Emacs to work with SQL databases, the built-in sql-mode and sql-interactive-mode
+    are your friends. To use it with Trino include the sql-trino.el mode.
+  links:
+    - urltext: sql-trino.el
+      url: https://github.com/regadas/sql-trino
 - name: FugueSQL
   anchor: fugue-sql
   category: client
@@ -855,7 +868,7 @@
   logo: /assets/images/logos/nodejs.png
   logosmall: /assets/images/logos/nodejs-small.png
   description: |
-    Use the presto-client-node project or the lento project to connect a Node.js
+    Use the presto-client-node, lento or trino-js-client projects to connect a Node.js
     application to Trino cluster and receive the results of the submitted
     queries.
   links:
@@ -863,6 +876,8 @@
       url: https://github.com/tagomoris/presto-client-node
     - urltext: lento
       url: https://github.com/vweevers/lento
+    - urltext: trino-js-client
+      url: https://github.com/regadas/trino-js-client
 - name: ODBC
   anchor: Odbc
   category: client
@@ -1198,6 +1213,19 @@
       url: https://github.com/varadaio/presto-workload-analyzer
     - urltext: Installation instructions
       url: https://github.com/varadaio/presto-workload-analyzer/blob/main/INSTALL.md
+- name: VSCode
+  anchor: vscode
+  category: client
+  logo: /assets/images/logos/vscode.png
+  logosmall: /assets/images/logos/vscode-small.png
+  description: |
+    Visual Studio Code (VSCode) is a free, open-source editor by Microsoft
+    with features such as syntax highlighting, IntelliSense, code navigation,
+    and built-in debugging for developers. Through extensions can also work as
+    a SQL client.
+  links:
+    - urltext: sqltools-trino-driver
+      url: https://github.com/regadas/sqltools-trino-driver
 - name: yanagishima
   anchor: yanagishima
   category: client
