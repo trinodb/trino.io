@@ -484,11 +484,14 @@
   logo: /assets/images/logos/emacs.png
   logosmall: /assets/images/logos/emacs-small.png
   description: |
-    Emacs, a versatile and extensible text editor, offers support for numerous
-    programming languages and tools, including SQL. If you're interested in using
-    Emacs to work with SQL databases, the built-in sql-mode and sql-interactive-mode
-    are your friends. To use it with Trino include the sql-trino.el mode.
+    GNU Emacs, a versatile and extensible text editor, offers support for
+    numerous programming languages and tools, including SQL. If you're
+    interested in using Emacs to work with SQL databases, the built-in sql-mode
+    and sql-interactive-mode are your friends. To use it with Trino include the
+    sql-trino.el mode.
   links:
+    - urltext: GNU Emacs
+      url: https://www.gnu.org/software/emacs/
     - urltext: sql-trino.el
       url: https://github.com/regadas/sql-trino
 - name: FugueSQL
@@ -1224,6 +1227,8 @@
     and built-in debugging for developers. With extensions it can also work as
     a SQL client.
   links:
+    - urltext: Visual Studio Code
+      url:  https://code.visualstudio.com/
     - urltext: sqltools-trino-driver
       url: https://github.com/regadas/sqltools-trino-driver
 - name: yanagishima
