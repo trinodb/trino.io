@@ -1,7 +1,12 @@
+<hr class="spacer-30"/>
+<div class="row text-center spacer-60">
+  <div class="col-md-12"><h2><strong>Sponsored by</strong></h2></div>
+</div>
 {% assign sponsors_ordered = site.data.sponsors | sort: "position" %}
-<div class="d-flex justify-content-center sponsorsline">
-  <div class="col-sm"><p>Sponsored by</p></div>
-  {% for sponsor in sponsors_ordered %}
-    <div class="col-sm"><img src="{{sponsor.logobalanced}}" alt="{{sponsor.name}}"></div>
-  {% endfor %}
+<div class="row sponsorsline">
+  <div class="col-md-2"></div>
+{% for sponsor in sponsors_ordered %}
+  <div class="col-md-4"><img src="{{sponsor.logobalanced}}" alt="{{sponsor.name}}"></div>
+{% endfor %}
+  <div class="col-md-2"></div>
 </div>
