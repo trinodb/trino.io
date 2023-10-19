@@ -746,6 +746,20 @@
       url: https://trino.io/docs/current/installation/containers.html
     - urltext: Trino Helm charts documentation
       url: https://trino.io/docs/current/installation/kubernetes.html
+- name: Looker
+  anchor: looker
+  category: client
+  logo: /assets/images/logos/looker.png
+  logosmall: /assets/images/logos/looker-small.png
+  description: |
+    Looker offers a unified business intelligence platform on Google Cloud. It
+    is self-service and governance enabled, and can be embedded in your
+    solution.
+  links:
+    - urltext: Looker
+      url: https://cloud.google.com/looker
+    - urltext: Looker and Trino user guide
+      url: https://cloud.google.com/looker/docs/db-config-prestodb-and-trino
 - name: MariaDB
   anchor: mariadb
   category: data-source
