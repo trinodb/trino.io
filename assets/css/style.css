@@ -1026,19 +1026,9 @@ table td {
   }
 }
 
-/* Sponsors */
-.sponsorsline p {
-  color: black;
-  font-size: 1.125rem;
-  margin-top: 50%;
-}
-
-.sponsorsline .col-sm{
-  max-width: 200px;
-}
-
 .sponsorsline img {
   width: 100%;
-  max-width: 200px;
-  margin-top: 30px;
+  max-width: 300px;
+  display: block;
+  margin: auto;
 }

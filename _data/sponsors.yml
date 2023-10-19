@@ -19,7 +19,7 @@
   anchor: github
   logo: /assets/images/logos/github.png
   logosmall: /assets/images/logos/github-small.png
-  logobalanced: /assets/images/logos/github-balanced.png
+  logobalanced: /assets/images/logos/github-sponsor.png
   description:
   links:
     - urltext: View the GitHub website
@@ -29,7 +29,7 @@
   position: 1
   logo: /assets/images/logos/starburst.png
   logosmall: /assets/images/logos/starburst-small.png
-  logobalanced: /assets/images/logos/starburst-balanced.png
+  logobalanced: /assets/images/logos/starburst-sponsor.png
   description:
   links:
     - urltext: View the Starburst website
