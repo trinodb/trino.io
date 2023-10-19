@@ -832,6 +832,19 @@
   links:
     - urltext: Minitrino
       url: https://github.com/jefflester/minitrino
+- name: Mode
+  anchor: mode
+  category: client
+  logo: /assets/images/logos/mode.png
+  logosmall: /assets/images/logos/mode-small.png
+  description: |
+    Mode is the modern business intelligence platform that unites data teams
+    with business teams to build analytics that drive business outcomes.
+  links:
+    - urltext: Mode
+      url: https://www.mode.com/
+    - urltext: Mode and Trino integration guide
+      url: https://mode.com/integrations/trino/
 - name: MongoDB
   anchor: mongodb
   category: data-source
