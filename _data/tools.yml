@@ -38,6 +38,20 @@
       url: https://aws.amazon.com/redshift/
     - urltext: Redshift connector documentation
       url: https://trino.io/docs/current/connector/redshift.html
+- name: Alation
+  anchor: alation
+  category: client
+  logo: /assets/images/logos/alation.png
+  logosmall: /assets/images/logos/alation-small.png
+  description: |
+    Alation’s data intelligence platform is used across industries - from the
+    world’s largest banks, retailers and government agencies - to provide
+    search, governance and analytics across tens of millions of data assets.
+  links:
+    - urltext: Alation
+      url: https://www.alation.com/
+    - urltext: Alation and Trino guide
+      url: https://docs2.alationdata.com/en/latest/datasources/CustomDB/StarburstEnterpriseTrino.html
 - name: Apache Accumulo
   anchor: apache-accumulo
   category: data-source
