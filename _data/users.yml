@@ -415,6 +415,20 @@
       url: https://lyft.com
     - urltext: Trino for large scale ETL at Lyft from Trino Summit 2022
       url: https://trino.io/blog/2022/12/12/trino-summit-2022-lyft-recap.html
+- name:  Microsoft Azure
+  highlight: false
+  anchor: microsoft-azure
+  logo: /assets/images/logos/microsoft-azure.png
+  logosmall: /assets/images/logos/microsoft-azure-small.png
+  testimonial: |
+    Microsoft Azure is widely used for deploying and running Trino. Azure
+    HDInsights on AKS embeds Trino for your usage in combination with other
+    systems on Azure. Trino also supports connecting to numerous data sources on Azure.
+  links:
+    - urltext: View the Microsoft Azure website
+      url: https://azure.microsoft.com/
+    - urltext: Azure HDInsights on AKS announcement
+      url: https://azure.microsoft.com/en-us/blog/manage-your-big-data-needs-with-hdinsight-on-aks/
 - name: MoEngage
   highlight: false
   logo: /assets/images/logos/moengage.png
