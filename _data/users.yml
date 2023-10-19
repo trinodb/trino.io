@@ -317,6 +317,21 @@
       url: https://developer.gs.com/blog/posts/enabling-highly-available-trino-clusters-at-goldman-sachs
     - urltext: Leveraging Trino to power data at Goldman Sachs at Trino Summit 2022
       url: https://trino.io/blog/2022/12/05/trino-summit-2022-goldman-sachs-recap.html
+- name: Google Cloud
+  highlight: false
+  anchor: google-cloud
+  logo: /assets/images/logos/google-cloud.png
+  logosmall: /assets/images/logos/google-cloud-small.png
+  testimonial: |
+    Google Cloud is widely used for deploying and running Trino. Dataproc
+    supports embedding Trino for your usage in combination with other systems on
+    Google Cloud. Trino also supports connecting to numerous data sources on
+    Google Cloud including Google BigQuery.
+  links:
+    - urltext: View the Google Cloud website
+      url: https://cloud.google.com/
+    - urltext: Dataproc and Trino tutorial
+      url: https://cloud.google.com/dataproc/docs/tutorials/trino-dataproc
 - name: Grab
   highlight: true
   anchor: grab
