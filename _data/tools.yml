@@ -1195,6 +1195,18 @@
       url: http://www.squirrelsql.org/
     - urltext: SQuirrel SQL with Trino tutorial
       url: https://docs.starburst.io/data-consumer/clients/squirrel-sql.html
+- name: Tableau
+  anchor: tableau
+  category: client
+  logo: /assets/images/logos/tableau.png
+  logosmall: /assets/images/logos/tableau-small.png
+  description: |
+    Tableau is a visual analytics platform transforming the way we use data to solve problems—empowering people and organizations to make the most of their data.
+  links:
+    - urltext: Tableau
+      url: http://www.tableau.com/
+    - urltext: How to connect Tableau to Trino
+      url: https://help.tableau.com/current/pro/desktop/en-us/examples_presto.htm
 - name: TPC
   anchor: tpc
   category: data-source
