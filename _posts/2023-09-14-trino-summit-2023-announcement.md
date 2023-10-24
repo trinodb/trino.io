@@ -15,13 +15,14 @@ attend now.
 <!--more-->
 
 We are pleased to announce the upcoming Trino Summit 2023. The summit is
-scheduled as a virtual event on the 13th and 14th of December 2023, and 
+scheduled as a virtual event on the **13th and 14th of December 2023**, and
 attendance is free!
 
 If you'd like to share your knowledge and information about Trino usage and give
 a talk at this year's Trino Summit, we're putting out a call for speakers. We
-are accepting submissions from now until the 22nd of October, but we recommend
-submitting as soon as possible, because we expect slots to fill up fast.
+are accepting submissions from now until the **12th of November**, but we
+recommend submitting as soon as possible, because we expect slots to fill up
+fast.
 
 We're looking for intermediate to advanced-level talks on a variety of themes.
 If you have an interesting story about how you leverage Trino in your data
