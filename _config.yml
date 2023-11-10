@@ -21,7 +21,7 @@ exclude:
 
 # Custom variables
 
-trino_version: 432
+trino_version: 433
 conduct_email: conduct@trino.io
 slack_join: "https://join.slack.com/t/trinodb/shared_invite/zt-26c2w5zhf-1d147_5tPzKlS9NqM~6r8w"
 slack_fqdn: trinodb.slack.com
