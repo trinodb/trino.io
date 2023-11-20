@@ -356,6 +356,8 @@
       url: https://www.coginiti.co
     - urltext: Coginiti as enterprise SQL workspace for Trino
       url: https://www.coginiti.co/databases/trino/
+    - urltext: Interview and demo with Coginiti from Trino Community Broadcast 53
+      url: https://trino.io/episodes/53.html
 - name: Cube
   anchor: cube
   category: client
