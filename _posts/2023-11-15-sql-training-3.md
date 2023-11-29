@@ -20,7 +20,7 @@ The recording of the event allows you to watch it all as if you attended live,
 jump to specific sections as desired, or pause while you follow along with the
 demos:
 
-{% youtube  %}
+{% youtube q2uyV7mBKVc %}
 
 The full timestamps for every part of the talk are in the description on
 YouTube.
