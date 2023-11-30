@@ -40,7 +40,7 @@ Also make sure you take advantage of these additional resources:
   series]({{site.baserurl}}/assets/blog/sql-training-series-starburst-2023.pdf),
   with links to resources like our [community
   chat]({{site.baserurl}}/slack.html)
-* Slides deck for [Advanced analytics with SQL and
+* Slide deck for [Advanced analytics with SQL and
   Trino](https://trinodb.github.io/presentations/presentations/sql-adv-analytics/index.html),
   including a file with all SQL statements ready to go
 * [Trino: The Definitive Guide]({{site.baserurl}}/trino-the-definitive-guide.html)
