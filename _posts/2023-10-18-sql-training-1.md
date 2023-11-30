@@ -36,7 +36,7 @@ YouTube.
 Also make sure you take advantage of these additional resources:
 
 * [General overview slide deck for the series]({{site.baserurl}}/assets/blog/sql-training-series-starburst-2023.pdf), with links to resources like our [community chat]({{site.baserurl}}/slack.html)
-* Slides deck for [SQL and Trino concepts](https://trinodb.github.io/presentations/presentations/sql-trino/index.html)
+* Slide deck for [SQL and Trino concepts](https://trinodb.github.io/presentations/presentations/sql-trino/index.html)
 * Slide deck for [SQL basics with Trino](https://trinodb.github.io/presentations/presentations/sql-basics/index.html), including a file with all SQL statements ready to go
 * [Trino: The Definitive Guide]({{site.baserurl}}/trino-the-definitive-guide.html)
 

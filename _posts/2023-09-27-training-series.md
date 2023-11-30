@@ -69,7 +69,7 @@ Join us in one or all of the sessions on the following dates:
 * 18th of October 2023: [Getting started with Trino and SQL]({% post_url 2023-10-18-sql-training-1 %})
 * 1st of November 2023: [Advanced analytics with SQL and Trino]({% post_url 2023-11-01-sql-training-2 %})
 * 15th of November 2023: [Data management with SQL and Trino]({% post_url 2023-11-15-sql-training-3 %})
-* 29th November 2023: Functions with Trino
+* 29th November 2023: [Functions with SQL and Trino]({% post_url 2023-11-29-sql-training-4 %})
 
 We look forward to seeing you in class.
 
