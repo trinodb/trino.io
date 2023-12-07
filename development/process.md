@@ -151,6 +151,8 @@ Reviews and assistance for the contributor on a pull request can proceed as soon
 as a PR is filed and set as ready for review. A signed CLA is required for
 merging a PR. Submitted CLAs are managed by the [BDFLs](./roles.html#bdfl).
 
+Maintainers can trigger a CLA verification on a PR by adding a comment with the
+command `@cla-bot check`.
 </div>
 </div>
 </div>
