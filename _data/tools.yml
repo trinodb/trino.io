@@ -1148,6 +1148,24 @@
       url: https://www.ruby-lang.org/en/
     - urltext: trino-client-ruby
       url: https://github.com/treasure-data/trino-client-ruby
+- name: RudderStack
+  anchor: rudderstack
+  category: add-on
+  logo: /assets/images/logos/rudderstack.png
+  logosmall: /assets/images/logos/rudderstack-small.png
+  description: |
+    RudderStack provides a reverse ETL pipeline that supports Trino as a source. This
+    integration makes it easy to sync data from Trino to over 200 destinations so
+    every team can use it to drive better business outcomes. The integration
+    supports warehouse-based diffing, making it the most performant reverse ETL
+    solution for Trino.
+  links:
+    - urltext: RudderStack
+      url: https://www.rudderstack.com/
+    - urltext: Reverse ETL with Trino documentation
+      url: https://www.rudderstack.com/docs/sources/reverse-etl/trino/
+    - urltext: Annnouncement blog post
+      url: https://www.rudderstack.com/blog/feature-launch-trino-reverse-etl-source/
 - name: SingleStore
   anchor: singlestore
   category: data-source
