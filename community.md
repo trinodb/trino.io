@@ -24,17 +24,18 @@ title: Trino Community
         </div>
         <div class="slack-stats-container">
           <div class="community-stats">
-            <span>8454</span>
+            <span>11300+</span>
             Slack members
           </div>
           <div class="community-stats">
-            <span>778</span>
-            Weekly active members
+            <span>8900+</span>
+            GitHub stars
           </div>
           <div class="community-stats">
-            <span>627</span>
+            <span>750+</span>
             Contributors
           </div>
+          <!-- see https://github.com/orgs/trinodb/people -->
         </div>
       </div>
       <div class="slack-channels-top d-flex mb-3">
