@@ -274,6 +274,27 @@
       url: https://www.ea.com/
     - urltext: Electronic Arts interview at Trino meetup
       url: https://www.youtube.com/watch?v=KY5DhWSqjGg
+- name: Flippa
+  highlight: false
+  anchor: flippa
+  logo: /assets/images/logos/flippa.png
+  logosmall: /assets/images/logos/flippa-small.png
+  links:
+    - urltext: View the Flippa website
+      url: https://www.flippa.com/
+  testimonial: |
+    Flippa.com is the #1 marketplace to buy and sell online businesses such as
+    e-commerce stores, blogs, affiliate sites, SaaS businesses, apps, and more.
+    Established in 2009, we have over 15 years of historical data we are able to
+    use for baseline comparisons in our insights reports, and to power our AI
+    buyer matching functionality, among many other things. Trino sits between
+    our various data sources and our business analytics, reporting, and ML
+    infrastructure, enabling us to work at speed across vast amounts of data
+    with minimal complexity and operational overhead. Switching to Trino from
+    our old, traditional data lake solution has saved us thousands of dollars
+    per month, and we've been using Trino in production successfully since 2022.
+    We continue to double down on our usage and adoption of Trino and would
+    absolutely recommend it!
 - name: ForePaaS
   highlight: false
   anchor: forepaas
