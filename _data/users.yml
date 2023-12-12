@@ -775,6 +775,32 @@
       url: https://trino.io/blog/2022/12/09/trino-summit-2022-shopify-recap.html
     - urltext: Shopify's Path to a Faster Trino Query Execution - Infrastructure
       url: https://shopify.engineering/faster-trino-query-execution-infrastructure
+- name: Stackable
+  highlight: false
+  anchor: stackable
+  logo: /assets/images/logos/stackable.png
+  logosmall: /assets/images/logos/stackable-small.png
+  testimonial: |
+    Stackable provides you with a curated selection of the best open source data
+    apps like Apache Kafka, Apache Druid, Trino and Apache Spark. Store, process
+    and visualize your data with the latest versions. All data apps work
+    together seamlessly, and can be added or removed in no time. Based on
+    Kubernetes, it runs everywhere – on prem or in the cloud.
+
+    Use the Stackable data platform to create unique and enterprise-class data
+    architectures. For example, it supports modern data warehouses, data lakes,
+    event streaming, machine learning or data mesh use cases.
+
+    Stackable offers a Trino operator for Kubernetes to easily spin up, scale,
+    and maintain one or many Trino clusters that are configured to be secure
+    and performant out of the box.
+  links:
+    - urltext: View the Stackable website
+      url: https://stackable.tech/
+    - urltext: Stackable Operator for Trino
+      url: https://github.com/stackabletech/trino-operator
+    - urltext: Talk about Open Policy Agent and Trino from Trino Summit 2023
+      url: https://www.youtube.com/watch?v=fbqqapQbAv0
 - name: Starburst
   highlight: true
   anchor: starburst
