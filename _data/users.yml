@@ -373,6 +373,21 @@
   links:
     - urltext: View the Hudson River Trading website
       url: https://www.hudsonrivertrading.com/
+- name: Index Exchange
+  highlight: false
+  anchor: index-exchange
+  logo: /assets/images/logos/index-exchange.png
+  logosmall: /assets/images/logos/index-exchange-small.png
+  testimonial: |
+    Index Exchange is a global advertising marketplace that generates and
+    processes trillions of events per day. We are leveraging Trino to complement
+    our reporting infrastructure in a few ways self-service data analysis of
+    aggregated data, internal BI reporting, and as an access point for
+    investigation of event-level records. As the exchange grows, so too will
+    Trino as one of our critical architectural solutions.
+  links:
+    - urltext: View the Index Exchange website
+      url: https://www.indexexchange.com/
 - name: Jampp
   highlight: false
   anchor: jampp
