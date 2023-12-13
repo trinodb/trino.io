@@ -575,6 +575,23 @@
       url: https://www.quintoandar.com.br/
     - urltext: Building a SQL Engine Infrastructure at QuintoAndar
       url: https://medium.com/quintoandar-tech-blog/building-a-sql-engine-infrastructure-at-quintoandar-73540e136c4e
+- name: Peaka
+  highlight: false
+  anchor: peaka
+  logo: /assets/images/logos/peaka.png
+  logosmall: /assets/images/logos/peaka-small.png
+  testimonial: |
+    Peaka is a Zero-ETL data integration platform. It integrates more than 300
+    SaaS tools, relational and NoSQL databases, and allows users to query them.
+    Peaka includes the ability to query this variety of data sources for a
+    single source of truth without moving it out of its original location. It
+    supports caching on Iceberg, streaming ingestion and ability to create
+    instant replicas of data sources on Iceberg.
+
+    Trino is at the heart of Peaka and enables many of these features.
+  links:
+    - urltext: View the Peaka website
+      url: https://www.peaka.com/
 - name: Plural
   highlight: false
   anchor: plural
