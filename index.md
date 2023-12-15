@@ -26,8 +26,7 @@ title: Distributed SQL query engine for big data
     <img src="/assets/images/trino-summit-logo.png" class="trino-summit-logo" />
     <h3>13th-14th December, 2023</h3>
     <div class="card-deck spacer-30">
-        <a class="btn trino-summit-button" href="https://www.starburst.io/info/trinosummit2023/?utm_source=trino&utm_medium=website&utm_campaign=NORAM-FY24-Q4-EV-Trino-Summit-2023&utm_content=trino-website-banner" target="_blank">Register</a>
-        <a class="btn btn-pink" href="{% post_url 2023-09-14-trino-summit-2023-announcement %}">Learn More</a>
+        <a class="btn btn-pink" href="{% post_url 2023-12-18-trino-summit-recap %}">Learn more</a>
     </div>
     <img src="/assets/images/trino-summit-banner-peek.png" class="trino-summit-peek">
   </div>
