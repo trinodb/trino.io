@@ -21,7 +21,7 @@ the speakers and each other on chat, and we had fun with Trino trivia questions.
 We talked about the [SQL routine competition]({% post_url 2023-11-09-routines
 %}) and announced Kevin Liu from Stripe and Jan Was from Starburst as the
 winners. You can find their submissions in [the examples page for SQL
-routines]({{site.url}}/docs/current/routine/examples.html){:target="_blank"}.
+routines]({{site.url}}/docs/current/routines/examples.html){:target="_blank"}.
 
 Starburst announced their [Trino Champions
 program](https://www.starburst.io/community/trino-champions/){:target="_blank"}.
@@ -39,7 +39,7 @@ session with the presentation and further details.
 * [The mountains Trino climbed in 2023](https://www.youtube.com/watch?v=pXdZqpwgdxA){:target="_blank"}
   presented by Martin Traverso from
   [Starburst](https://www.starburst.io){:target="_blank"}.
-* [How EA Migrated 150+ Million Partitions from HMS to AWS Glue](https://www.youtube.com/watch?v=EF56Ia_hwlo){:target="_blank"}
+* [How EA migrated 150+ million partitions from HMS to AWS Glue](https://www.youtube.com/watch?v=EF56Ia_hwlo){:target="_blank"}
   presented by Yuyang Luo from
   [EA](https://www.ea.com){:target="_blank"}.
 * [Trino workload management](https://www.youtube.com/watch?v=qZejzyxT2fo){:target="_blank"}
@@ -48,10 +48,10 @@ session with the presentation and further details.
 * [Secure exchange SQL: Building a privacy-preserving data clean room service over Trino](https://www.youtube.com/watch?v=FaytoXxKXOQ){:target="_blank"}
   presented by Taro Saito from
   [Treasure Data](https://www.treasuredata.com/){:target="_blank"}.
-* [Powering Bazaar`s Business Operation Using Trino](https://www.youtube.com/watch?v=MYLepz-hIys){:target="_blank"}
+* [Powering Bazaar`s business operation using Trino](https://www.youtube.com/watch?v=MYLepz-hIys){:target="_blank"}
   presented by Umair Abro from
   [Bazaar](https://www.youtube.com/watch?v=MYLepz-hIys){:target="_blank"}.
-* [Efficient Kappa Architecture with Trino](https://www.youtube.com/watch?v=qUT-uaEE-Fk){:target="_blank"}
+* [Efficient Kappa architecture with Trino](https://www.youtube.com/watch?v=qUT-uaEE-Fk){:target="_blank"}
   presented by Sanghyun Lee at
   [SK Telecom](https://www.sktelecom.com){:target="_blank"}.
 * [Many clusters and only one gateway](https://www.youtube.com/watch?v=2qwBcKmQSn0){:target="_blank"}
@@ -91,7 +91,7 @@ session with the presentation and further details.
 * [VAST database catalog](https://www.youtube.com/watch?v=RutbCY8i22Q){:target="_blank"}
   presented by Jason Russler from
   [VAST](https://vastdata.com/){:target="_blank"}.
-* [Support for Parquet decryption and aggregate gushdown In Trino](https://www.youtube.com/watch?v=ZJExdGeC4eA){:target="_blank"}
+* [Support for Parquet decryption and aggregate pushdown In Trino](https://www.youtube.com/watch?v=ZJExdGeC4eA){:target="_blank"}
   presented by Amogh Margoor and Manish Malhotra from
   [Apple](https://www.apple.com/){:target="_blank"}.
 

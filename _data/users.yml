@@ -122,6 +122,8 @@
   links:
     - urltext: View the Bazaar Technologies website
       url: https://www.bazaar-tech.com/
+    - urltext: Powering Bazaar`s business operation using Trino from Trino Summit 2023
+      url: https://www.youtube.com/watch?v=MYLepz-hIys
 #- name: Bloomberg
 #  highlight: false
 #  anchor: bloomberg
@@ -252,7 +254,7 @@
     - urltext: Dune SQL
       url: https://dune.com/docs/query/DuneSQL-reference/
     - urltext: Dune SQL presentation at Trino Fest 2023
-      url: https://youtu.be/sCJncarnGdU
+      url: https://trino.io/blog/2023/07/14/trino-fest-2023-dune
 - name: Eventbrite
   highlight: false
   logo: /assets/images/logos/eventbrite.png
@@ -283,7 +285,7 @@
     - urltext: View the ForePaaS website
       url: https://www.forepaas.com/
     - urltext: Yu Teng from ForePaaS presenting at Trino Fest 2023
-      url: https://youtu.be/kmpO_yM8OAs
+      url: https://trino.io/blog/2023/07/12/trino-fest-2023-let-it-snow-recap
   testimonial: |
     ForePaaS leverages Trino as its main query engine technology. ForePaaS
     provides a lakehouse platform that can run on multiple open-source storage 
