@@ -719,6 +719,24 @@
       url: https://trino.io/docs/current/admin/jmx.html
     - urltext: JMX connector
       url: https://trino.io/docs/current/connector/jmx.html
+- name: jOOQ
+  anchor: jooq
+  category: add-on
+  logo: /assets/images/logos/jooq.png
+  logosmall: /assets/images/logos/jooq-small.png
+  description: |
+    jOOQ stands for jOOQ Object Oriented Querying (jOOQ). It generates Java code
+    from your database, and lets you build type safe SQL queries through its
+    fluent API.
+
+    All editions of jOOQ since the 3.19 release include support for Trino. The
+    level of support depends on the used catalog and connector, and further
+    Trino-specific enhancements are in progress.
+  links:
+    - urltext: Java Object Oriented Querying (JOOQ)
+      url: https://www.jooq.org/
+    - urltext: jOOQ 3.19 release notes
+      url: https://www.jooq.org/notes
 - name: Jupy SQL
   anchor: jupy-sql
   category: client
