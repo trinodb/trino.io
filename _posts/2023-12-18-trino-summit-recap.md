@@ -85,6 +85,7 @@ session with the presentation and further details.
 * [Unstructured data analysis using polymorphic table function in Trino](https://www.youtube.com/watch?v=LynEiteEtPk){:target="_blank"}
   presented by YongHwan Lee from
   [SK Telecom](https://www.sktelecom.com){:target="_blank"}.
+  [(Slides)]({{site.url}}/assets/blog/trino-summit-2023/polymorphic-table-function-sk-telecom.pdf)
 * [Transitioning to Trino: Evaluating Lyft’s query engine capabilities](https://www.youtube.com/watch?v=_wocf0NK6Kc){:target="_blank"}
   presented by Charles Song from
   [Lyft](https://www.lyft.com/){:target="_blank"}.
