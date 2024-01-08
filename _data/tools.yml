@@ -1166,6 +1166,21 @@
       url: https://www.ruby-lang.org/en/
     - urltext: trino-client-ruby
       url: https://github.com/treasure-data/trino-client-ruby
+- name: Rust
+  anchor: rust
+  category: client
+  logo: /assets/images/logos/rust.png
+  logosmall: /assets/images/logos/rust-small.png
+  description: |
+    Rust is a programming language empowering everyone to build reliable and
+    efficient software. Use the Prusto client library to connect a Rust
+    application to a Trino cluster and receive the results of the submitted
+    queries.
+  links:
+    - urltext: Rust
+      url: https://www.rust-lang.org/
+    - urltext: Prusto
+      url: https://github.com/nooberfsh/prusto
 - name: RudderStack
   anchor: rudderstack
   category: add-on
