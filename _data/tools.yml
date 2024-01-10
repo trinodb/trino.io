@@ -668,6 +668,23 @@
       url: https://www.ibm.com/products/cognos-analytics
     - urltext: List of supported software, including Trino versions
       url: https://www.ibm.com/support/pages/node/6966712
+- name: JavaScript
+  anchor: javascript
+  category: client
+  logo: /assets/images/logos/javascript.png
+  logosmall: /assets/images/logos/javascript-small.png
+  description: |
+    Applications using JavaScript, TypeScript, Node.js, and related
+    frameworks can use the trino-js-client, presto-client-node, or lento projects
+    to connect to a Trino cluster and receive the results of the submitted
+    queries.
+  links:
+    - urltext: trino-js-client
+      url: https://github.com/regadas/trino-js-client
+    - urltext: presto-client-node
+      url: https://github.com/tagomoris/presto-client-node
+    - urltext: lento
+      url: https://github.com/vweevers/lento
 - name: JDBC
   anchor: jdbc
   category: client
@@ -912,22 +929,6 @@
       url: https://www.mysql.com/
     - urltext: MySQL connector documentation
       url: https://trino.io/docs/current/connector/mysql.html
-- name: Node.js
-  anchor: node_js
-  category: client
-  logo: /assets/images/logos/nodejs.png
-  logosmall: /assets/images/logos/nodejs-small.png
-  description: |
-    Use the trino-js-client, presto-client-node or lento projects to connect a Node.js
-    application to Trino cluster and receive the results of the submitted
-    queries.
-  links:
-    - urltext: trino-js-client
-      url: https://github.com/regadas/trino-js-client
-    - urltext: presto-client-node
-      url: https://github.com/tagomoris/presto-client-node
-    - urltext: lento
-      url: https://github.com/vweevers/lento
 - name: ODBC
   anchor: Odbc
   category: client
