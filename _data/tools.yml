@@ -616,6 +616,23 @@
       url: https://grafana.com/
     - urltext: Trino Grafana Data Source Plugin
       url: https://github.com/trinodb/grafana-trino
+- name: Harlequin
+  anchor: Harlequin
+  category: client
+  logo: /assets/images/logos/harlequin.png
+  logosmall: /assets/images/logos/harlequin-small.png
+  description: |
+      Harlequin is a portable, powerful, colorful, easy, fast and beautiful
+      database client for the terminal. It runs on any shell, any terminal, and
+      any machine.  
+
+      It is available as free and you can download it by running pipx or pip 
+      install harlequin_trino.
+  links:
+    - urltext: Harlequin
+      url: https://harlequin.sh/
+    - urltext: Harlequin Trino Adapter
+      url: https://harlequin.sh/docs/trino/index 
 - name: Hue
   anchor: hue
   category: client
