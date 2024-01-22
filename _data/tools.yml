@@ -626,7 +626,7 @@
       database client for the terminal. It runs on any shell, any terminal, and
       any machine.  
 
-      It is available as free and you can download it by running pipx or pip 
+      Harlequin is free to download and you can do so by running pipx or pip 
       install harlequin_trino.
   links:
     - urltext: Harlequin
