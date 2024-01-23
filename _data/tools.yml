@@ -1272,12 +1272,30 @@
   logo: /assets/images/logos/tableau.png
   logosmall: /assets/images/logos/tableau-small.png
   description: |
-    Tableau is a visual analytics platform transforming the way we use data to solve problems—empowering people and organizations to make the most of their data.
+    Tableau is a visual analytics platform transforming the way we use data to
+    solve problems—empowering people and organizations to make the most of their
+    data.
   links:
     - urltext: Tableau
       url: http://www.tableau.com/
     - urltext: How to connect Tableau to Trino
       url: https://help.tableau.com/current/pro/desktop/en-us/examples_presto.htm
+- name: Testcontainers
+  anchor: testcontainers
+  category: add-on
+  logo: /assets/images/logos/testcontainers.png
+  logosmall: /assets/images/logos/testcontainers-small.png
+  description: |
+    Testcontainers is an open source framework for providing throwaway,
+    lightweight instances of databases, message brokers, web browsers, or just
+    about anything that can run in a Docker container.
+
+    Use the Trino module in your integration tests and other scenarios.
+  links:
+    - urltext: Testcontainers
+      url: https://testcontainers.com/
+    - urltext: Trino module
+      url: https://testcontainers.com/modules/trino/
 - name: TPC
   anchor: tpc
   category: data-source
