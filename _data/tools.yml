@@ -302,6 +302,8 @@
       url: https://superset.apache.org/docs/databases/trino
     - urltext: Tutorial
       url: https://docs.starburst.io/data-consumer/clients/superset.html
+    - urltext: Visualizing Trino with Apache Superset at Trino Summit 2023
+      url: https://www.youtube.com/watch?v=idk0GMxs8vE
     - urltext: Trino gets super visual with Apache Superset! from Trino
         Community Broadcast 12
       url: https://trino.io/episodes/12.html
@@ -1061,6 +1063,8 @@
       url: https://github.com/trinodb/trino-gateway
     - urltext: Trino Gateway documentation
       url: https://github.com/trinodb/trino-gateway/blob/main/README.md
+    - urltext: Many clusters and only one gateway at Trino Summit 2023
+      url: https://www.youtube.com/watch?v=2qwBcKmQSn0
     - urltext: Announcement blog post
       url: https://trino.io/blog/2023/09/28/trino-gateway
 - name: Prometheus
@@ -1312,6 +1316,8 @@
       url: https://vastdata.com/
     - urltext: VAST Trino connector
       url: https://github.com/vast-data/vast-trino-connector
+    - urltext: VAST database catalog at Trino Summit 2023
+      url: https://www.youtube.com/watch?v=RutbCY8i22Q
 - name: Workload Analyzer
   anchor: workload-analyzer
   category: add-on

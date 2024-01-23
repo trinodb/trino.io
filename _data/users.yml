@@ -36,6 +36,7 @@
   links:
     - urltext: View the Alphaa AI website
       url: https://www.alphaa.ai/
+# Not public on request from Airbnb
 #- name: Airbnb
 #  highlight: false
 #  #anchor: airbnb
@@ -44,8 +45,10 @@
 #  links:
 #    - urltext:
 #      url: https://airbnb.io/
-  # https://careers.airbnb.com/positions/4445171/
-  # https://web.archive.org/web/20220729070012/https://startup.jobs/senior-software-engineer-interactive-compute-engine-airbnb-3528132
+#    - urltext: Trino workload management at Trino Summit 2023
+#      url: https://www.youtube.com/watch?v=qZejzyxT2fo
+# https://careers.airbnb.com/positions/4445171/
+# https://web.archive.org/web/20220729070012/https://startup.jobs/senior-software-engineer-interactive-compute-engine-airbnb-3528132
 - name:  AWS
   highlight: true
   anchor: aws
@@ -122,7 +125,7 @@
   links:
     - urltext: View the Bazaar Technologies website
       url: https://www.bazaar-tech.com/
-    - urltext: Powering Bazaar`s business operation using Trino from Trino Summit 2023
+    - urltext: Powering Bazaar`s business operation using Trino at Trino Summit 2023
       url: https://www.youtube.com/watch?v=MYLepz-hIys
 #- name: Bloomberg
 #  highlight: false
@@ -274,7 +277,9 @@
   links:
     - urltext: View the Electronic Arts website
       url: https://www.ea.com/
-    - urltext: Electronic Arts interview at Trino meetup
+    - urltext: How EA migrated 150+ million partitions from HMS to AWS Glue at Trino Summit 2023
+      url: https://www.youtube.com/watch?v=EF56Ia_hwlo
+    - urltext: Electronic Arts interview at Trino meetup August 2022
       url: https://www.youtube.com/watch?v=KY5DhWSqjGg
 - name: Flippa
   highlight: false
@@ -455,6 +460,8 @@
   links:
     - urltext: View the LinkedIn website
       url: https://linkedin.com
+    - urltext: Trino upgrade at exabytes scale at Trino Summit 2023
+      url: https://www.youtube.com/watch?v=dg16M6bFN2w
     - urltext: Interview with LinkedIn engineers at Trino Community Broadcast 22
       url: https://trino.io/episodes/22.html
 - name: Lyft
@@ -466,7 +473,9 @@
   links:
     - urltext: View the Lyft website
       url: https://lyft.com
-    - urltext: Trino for large scale ETL at Lyft from Trino Summit 2022
+    - urltext: Transitioning to Trino - Evaluating Lyft’s query engine capabilities at Trino Summit 2023
+      url: https://www.youtube.com/watch?v=_wocf0NK6Kc
+    - urltext: Trino for large scale ETL at Lyft at Trino Summit 2022
       url: https://trino.io/blog/2022/12/12/trino-summit-2022-lyft-recap.html
 - name:  Microsoft Azure
   highlight: false
@@ -576,6 +585,8 @@
   links:
     - urltext: View the Pinterest website
       url: https://www.pinterest.com/
+    - urltext: Pinterest journey to achieving 2x efficiency improvement on Trino at Trino Summit 2023
+      url: https://www.youtube.com/watch?v=RC8K6pIvAtI
     - urltext: Pinterest presentation at Trino Summit 2020
       url: https://trino.io/blog/2020/07/22/presto-summit-pinterest.html
     - urltext: Presto at Pinterest
@@ -649,6 +660,8 @@
   links:
     - urltext: View the Raft website
       url: https://goraft.tech
+    - urltext: Avoiding pitfalls with query federation in data lakehouses at Trino Summit 2023
+      url: https://www.youtube.com/watch?v=6KspMwCbOfI
     - urltext: Interview with Raft engineers at Trino Community Broadcast 39
       url: https://trino.io/episodes/39.html
 - name: Rapido
@@ -866,6 +879,8 @@
   links:
     - urltext: View the Treasure Data website
       url: https://www.treasuredata.com/
+    - urltext: Secure exchange SQL - Building a privacy-preserving data clean room service over Trino at Trino Summit 2023
+      url:   https://www.youtube.com/watch?v=FaytoXxKXOQ
     - urltext: Arm Treasure Data presentation at Trino Summit 2020
       url: https://trino.io/blog/2020/07/06/presto-summit-arm-td.html
 #- name: Walmart
