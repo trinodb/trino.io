@@ -74,3 +74,12 @@ Join us in one or all of the sessions on the following dates:
 We look forward to seeing you in class.
 
 Martin, Dain, David, and Manfred
+
+**Update:**
+
+Videos, slide decks, and other resources for all classes are now available:
+
+* Getting started with Trino and SQL: [Blog post with resources and video]({% post_url 2023-10-18-sql-training-1 %}), [Video on YouTube](https://www.youtube.com/watch?v=SnvSBYhRZLg)
+* Advanced analytics with SQL and Trino: [Blog post with resources and video]({% post_url 2023-11-01-sql-training-2 %}), [Video on YouTube](https://www.youtube.com/watch?v=S-mfueDmXds)
+* Data management with SQL and Trino: [Blog post with resources and video]({% post_url 2023-11-15-sql-training-3 %}), [Video on YouTube](https://www.youtube.com/watch?v=q2uyV7mBKVc)
+* Functions with SQL and Trino: [Blog post with resources and video]({% post_url 2023-11-29-sql-training-4 %}), [Video on YouTube](https://www.youtube.com/watch?v=1siAYR6BzzY)
