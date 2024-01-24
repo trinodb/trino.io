@@ -1049,6 +1049,19 @@
       url: https://postgresql.org/
     - urltext: PostgreSQL connector documentation
       url: https://trino.io/docs/current/connector/postgresql.html
+- name: Trino-lb
+  anchor: trino-lb
+  category: add-on
+  logo: /assets/images/logos/trino-lb.png
+  logosmall: /assets/images/logos/trino-lb-small.png
+  description: |
+    Trino-lb is a load balancer with support for routing, queueing, and auto-scaling
+    for multiple Trino clusters.
+  links:
+    - urltext: Trino-lb
+      url: https://github.com/stackabletech/trino-lb
+    - urltext: Trino-lb documentation
+      url: https://github.com/stackabletech/trino-lb/blob/main/README.md
 - name: Trino Gateway
   anchor: trino-gateway
   category: add-on
