@@ -59,7 +59,7 @@ session with the presentation and further details.
   [(Slides)]({{site.url}}/assets/blog/trino-summit-2023/efficient-kappa-architecture-sk-telecom.pdf)
 * [Many clusters and only one gateway](https://www.youtube.com/watch?v=2qwBcKmQSn0){:target="_blank"}
   presented by Will Morrison ([Starburst](https://www.starburst.io/){:target="_blank"}),
-  Andy Su ([Bloomberg](https://www.bloomberg.com){:target="_blank"}), and
+  Andy Su ([Bloomberg](https://www.techatbloomberg.com/){:target="_blank"}), and
   Jaeho Yoo ([Naver](https://www.naver.com){:target="_blank"}).
 * [Trino upgrade at exabytes scale](https://www.youtube.com/watch?v=dg16M6bFN2w){:target="_blank"}
   presented by Ramanathan Ramu from
@@ -95,7 +95,7 @@ session with the presentation and further details.
   [Preset](https://preset.io/){:target="_blank"}.
 * [Trino OPA authorizer - An open source love story](https://www.youtube.com/watch?v=fbqqapQbAv0){:target="_blank"}
   presented by Sönke Liebau ([Stackable](https://stackable.tech/){:target="_blank"})
-  and Pablo Arteaga ([Bloomberg](https://www.bloomberg.com){:target="_blank"}).
+  and Pablo Arteaga ([Bloomberg](https://www.techatbloomberg.com/){:target="_blank"}).
   [(Slides)]({{site.url}}/assets/blog/trino-summit-2023/opa-trino.pdf)
 * [VAST database catalog](https://www.youtube.com/watch?v=RutbCY8i22Q){:target="_blank"}
   presented by Jason Russler from
