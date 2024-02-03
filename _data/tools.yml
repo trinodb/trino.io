@@ -981,6 +981,27 @@
       url: https://www.openapis.org/
     - urltext: Trino OpenAPI connector
       url: https://github.com/nineinchnick/trino-openapi
+- name: Open Policy Agent
+  anchor: opa
+  category: add-on
+  logo: /assets/images/logos/opa.png
+  logosmall: /assets/images/logos/opa-small.png
+  description: |
+    Open Policy Agent (OPA) is a system for policy-based control for cloud
+    native environments. It enables flexible, fine-grained control for
+    administrators across many systems and applications.
+
+    The Trino plugin enables the use of Open Policy Agent (OPA) as authorization
+    engine for access control to catalogs, schemas, tables, and other objects in
+    Trino. Policies are defined in OPA, and Trino checks access control
+    privileges in OPA.
+  links:
+    - urltext: Open Policy Agent
+      url: https://www.openpolicyagent.org/
+    - urltext: Open Policy Agent access control documentation
+      url: https://trino.io/docs/current/security/opa-access-control.html
+    - urltext: Open Policy Agent for Trino arrvived
+      url: http://trino.io/blog/2024/02/06/opa-arrived.html
 - name: OpenSearch
   anchor: opensearch
   category: data-source
