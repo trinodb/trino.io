@@ -902,6 +902,26 @@
   links:
     - urltext: Minitrino
       url: https://github.com/jefflester/minitrino
+- name: Mitzu
+  anchor: mitzu
+  category: client
+  logo: /assets/images/logos/mitzu.png
+  logosmall: /assets/images/logos/mitzu-small.png
+  description: |
+    Mitzu is a warehouse-native product analytics platform that revolutionizes
+    how companies leverage their product usage data in the data lake.
+
+    By directly connecting to Trino, Mitzu eliminates the need for traditional
+    reverse ETL processes to 3rd party applications such as Amplitude or
+    Mixpanel. Mitzu enables real-time self-served product analytics on top of
+    the existing data infrastructure with generated SQL queries.
+  links:
+    - urltext: Mitzu
+      url: https://www.mitzu.io/
+    - urltext: Setup for Trino integration to Mitzu
+      url: https://docs.mitzu.io/warehouse-integrations/trino-presto
+    - urltext: Using Mitzu With Trino blog post
+      url: https://www.mitzu.io/post/using-mitzu-with-trino-presto
 - name: Mode
   anchor: mode
   category: client
