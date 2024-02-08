@@ -410,13 +410,16 @@
       sessions, and a lot more.
 
       It is avaiable as free open source DBeaver Community and as various
-      commercially supported DBeaver PRO editions. All editions support many
-      databases, including Trino.
+      commercially supported DBeaver PRO editions. A web application version
+      called CloudBeaver is also available. All editions support many databases,
+      including Trino.
   links:
     - urltext: DBeaver Community
       url: https://dbeaver.io/
     - urltext: DBeaver PRO
       url: https://dbeaver.com/
+    - urltext: CloudBeaver
+      url: https://dbeaver.com/docs/cloudbeaver/
     - urltext: DBeaver and Trino guide
       url: https://docs.starburst.io/data-consumer/clients/dbeaver.html
 - name: dbt
