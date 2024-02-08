@@ -599,6 +599,24 @@
       url: https://grafana.com/
     - urltext: Trino Grafana Data Source Plugin
       url: https://github.com/trinodb/grafana-trino
+- name: Gravitino
+  anchor: gravitino
+  category: data-source
+  logo: /assets/images/logos/gravitino.png
+  logosmall: /assets/images/logos/gravitino-small.png
+  description: |
+    Gravitino is a high-performance, geo-distributed, and federated metadata
+    lake. It manages the metadata directly in different sources, types, and
+    regions. It also provides users with unified metadata access for data and AI
+    assets, and is available as an open source project.
+
+    Use Gravitino as a data source in Trino by configuring a catalog with the
+    Gravitino connector.
+  links:
+    - urltext: Gravitino
+      url: https://datastrato.ai/gravitino/
+    - urltext: Gravitino Trino connector documentation
+      url: https://datastrato.ai/docs/0.4.0/trino-connector/index
 - name: Great Expectations
   anchor: great-expectations
   category: client
