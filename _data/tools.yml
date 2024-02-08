@@ -582,6 +582,23 @@
       url: https://www.google.com/sheets/about/
     - urltext: Google Sheets connector documentation
       url: https://trino.io/docs/current/connector/googlesheets.html
+- name: Grafana
+  anchor: grafana
+  category: client
+  logo: /assets/images/logos/grafana.png
+  logosmall: /assets/images/logos/grafana-small.png
+  description: |
+    Grafana is a multi-platform open source analytics and interactive
+    visualization web application. It provides charts, graphs, and alerts for
+    the web when connected to supported data sources.
+
+    The Trino Grafana Data Source Plugin allows you to connect your Grafana
+    dashboards to Trino and use the configured catalogs as data source.
+  links:
+    - urltext: Grafana
+      url: https://grafana.com/
+    - urltext: Trino Grafana Data Source Plugin
+      url: https://github.com/trinodb/grafana-trino
 - name: Great Expectations
   anchor: great-expectations
   category: client
@@ -601,23 +618,6 @@
     - urltext: Make your Trino data pipelines production ready with Great 
         Expectations
       url: https://trino.io/blog/2022/08/24/data-pipelines-production-ready-great-expectations.html
-- name: Grafana
-  anchor: grafana
-  category: client
-  logo: /assets/images/logos/grafana.png
-  logosmall: /assets/images/logos/grafana-small.png
-  description: |
-    Grafana is a multi-platform open source analytics and interactive
-    visualization web application. It provides charts, graphs, and alerts for
-    the web when connected to supported data sources.
-
-    The Trino Grafana Data Source Plugin allows you to connect your Grafana
-    dashboards to Trino and use the configured catalogs as data source.
-  links:
-    - urltext: Grafana
-      url: https://grafana.com/
-    - urltext: Trino Grafana Data Source Plugin
-      url: https://github.com/trinodb/grafana-trino
 - name: Harlequin
   anchor: Harlequin
   category: client
