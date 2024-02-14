@@ -1,6 +1,30 @@
 ################################################################################
 # Data for the display on the detailed ecosystem pages
 ################################################################################
+- name: Alluxio
+  anchor: alluxio
+  category: add-on
+  logo: /assets/images/logos/alluxio.png
+  logosmall: /assets/images/logos/alluxio-small.png
+  description: |
+    Alluxio provides a single pane of glass for enterprises to manage data and
+    AI workloads across diverse infrastructure environments with ease. Alluxio
+    Data Platform has two product offerings, Alluxio Enterprise Data and Alluxio
+    Enterprise AI.
+
+    Alluxio provides an open source object storage caching solution that is the
+    base of the file system cache support in Trino. The commercial platform with
+    its distributed block-level read/write caching functionality can be used for
+    further integration.
+  links:
+    - urltext: Alluxio
+      url: https://www.alluxio.io/
+    - urltext: Interactive analytics with Trino and Alluxio product information
+      url: https://www.alluxio.io/trino/
+    - urltext: Trino file system cache documentation
+      url: https://trino.io/docs/current/object-storage/file-system-cache.html
+    - urltext: Documentation for Alluxio platform with Trino
+      url: https://docs.alluxio.io/ee/user/stable/en/compute/Trino.html
 - name: Amazon Kinesis
   anchor: amazon-kinesis
   category: data-source
