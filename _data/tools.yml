@@ -1,6 +1,18 @@
 ################################################################################
 # Data for the display on the detailed ecosystem pages
 ################################################################################
+- name: Alteryx
+  anchor: alteryx
+  category: client
+  logo: /assets/images/logos/alteryx.png
+  logosmall: /assets/images/logos/alteryx-small.png
+  description: |
+    tbd
+  links:
+    - urltext: Alteryx
+      url: https://www.alteryx.com
+    - urltext: ETL Trino data with Designer Cloud
+      url: https://www.alteryx.com/integrations/trino
 - name: Amazon Kinesis
   anchor: amazon-kinesis
   category: data-source
