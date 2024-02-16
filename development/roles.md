@@ -273,6 +273,11 @@ The following subproject repositories and subproject maintainers are configured:
   * Jan Waś [<i class="fab fa-github"></i> nineinchnick](https://github.com/nineinchnick)
 * [trino.io]({{site.github_org_url}}/trino.io)
   * Brian Olsen [<i class="fab fa-github"></i> bitsondatadev](https://github.com/bitsondatadev)
+* [trino-gateway]({{site.github_org_url}}/trino-gateway)
+  * Jaeho Yoo [<i class="fab fa-github"></i> Chaho12](https://github.com/Chaho12)
+  * Vishal Jadhav [<i class="fab fa-github"></i> vishalya](https://github.com/vishalya)
+  * Will Morrison [<i class="fab fa-github"></i> willmostly](https://github.com/willmostly)
+
 
 ## Language Lead
 
