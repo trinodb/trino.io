@@ -144,10 +144,6 @@ The following community members are Trino maintainers:
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/arhimondr">arhimondr</a></td>
-      <td>Andrii Rosa</td>
-    </tr>
-    <tr>
       <td><a href="https://github.com/dain">dain</a></td>
       <td>Dain Sundstrom</td>
     </tr>
@@ -192,16 +188,8 @@ The following community members are Trino maintainers:
       <td>James Petty</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/phd3">phd3</a></td>
-      <td>Pratham Desai</td>
-    </tr>
-    <tr>
       <td><a href="https://github.com/Praveen2112">Praveen2112</a></td>
       <td>Praveen Krishna</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/raghavsethi">raghavsethi</a></td>
-      <td>Raghav Sethi</td>
     </tr>
     <tr>
       <td><a href="https://github.com/raunaqmorarka">raunaqmorarka</a></td>
