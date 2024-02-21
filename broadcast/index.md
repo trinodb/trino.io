@@ -8,21 +8,46 @@ show_hero: true
 <div class="row spacer-60">
 <div markdown="1" class="col-lg-8">
 
-## About
+The Trino Community Broadcast is a show about the Trino project and community.
+Topics include the data sources, clients, add-ons, platforms and usages of
+Trino. We interview users, contributors, partners, and other community members
+about their connection to Trino, look at demos together, and chat about the tech
+stacks, the code, and often explain concepts along the way.
 
-With great data comes even greater access latency. Welcome to the Trino
-Community Broadcast where we transform your latency woes to fast insights. Trino
-Community Broadcast is a show where we cover events and happenings within the
-open-source Trino community and show off some cool stuff about
-Trino.
+Each episode also brings you news about the latest releases, events, and
+interesting developments in the ecosystem around Trino.
 
-Trino nation, we want to hear from you! If you have a topic, question or pull
-request that you would like us to feature on the show join the [Trino
-slack]({{site.url}}/slack) and contact us there.
+## Upcoming episodes
 
-<a class="btn btn-pink" href="../community.html#events">
-Learn about upcoming episodes in our event calendar.
-</a>
+<dl>
+<dt>22 Feb 2024: Trino Community Broadcast 56 - VAST</dt>
+<dd>Colleen Tartow and Roman Zedgev from
+<a href="../ecosystem/data-source.html#vast">VAST</a> chat with us
+about the VAST Trino connector, Trino running on VAST compute, and some really
+cool usage scenarios.</dd>
+
+<dt>14 Mar 2024: Trino Community Broadcast 57 - OpenTelemetry</dt>
+<dd>David Phillips and Matt Stephenson from Starburst join us to talk about
+their work on adding
+<a href="../ecosystem/add-on.html#opentelemetry">OpenTelemetry</a>
+support to Trino. We will run a little demo and chat about usage of the
+integration at scale for Starburst Galaxy.</dd>
+
+<dt>4 Apr 2024: Trino Community Broadcast 58 - Mitzu</dt>
+<dd>
+István Mészáros chats about his company and analytics tool
+<a href="../ecosystem/client.html#mitzu">Mitzu</a> - a friendly, no-code product
+analytics tool for warehouse-first companies that supports Trino.</dd>
+</dl>
+
+Find [more details and other events on our calendar]({{site.url}}/community.html#events).
+
+Trino users, contributors, and partners, we want to hear from you! If you have a
+topic, question or pull request that you would like us to feature on the show
+join the [Trino slack]({{site.url}}/slack) and contact us there.
+
+
+
 
 </div>
 <div markdown="1" class="col-lg-3">
