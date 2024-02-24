@@ -20,12 +20,6 @@ interesting developments in the ecosystem around Trino.
 ## Upcoming episodes
 
 <dl>
-<dt>22 Feb 2024: Trino Community Broadcast 56 - VAST</dt>
-<dd>Colleen Tartow and Roman Zedgev from
-<a href="../ecosystem/data-source.html#vast">VAST</a> chat with us
-about the VAST Trino connector, Trino running on VAST compute, and some really
-cool usage scenarios.</dd>
-
 <dt>14 Mar 2024: Trino Community Broadcast 57 - OpenTelemetry</dt>
 <dd>David Phillips and Matt Stephenson from Starburst join us to talk about
 their work on adding

@@ -38,7 +38,6 @@
   <div class="container container__episode">
     <div class="row spacer-60">
 
-  
   <div class="content width clearfix">
 
       <h2>Audio</h2>
@@ -61,10 +60,13 @@
       <ul>
           {% for section in page.sections %}
           <li>
-              {{section.title}}:
-              <a href="https://www.youtube.com/watch?v={{ page.youtube_id }}&t={{ section.time }}s" target="_blank">
-               {{ section.desc }}
-              </a>
+            <a href="https://www.youtube.com/watch?v={{ page.youtube_id }}&t={{ section.time }}s" target="_blank">
+            {% if section.desc == nil %}
+              {{section.title}} ({{ section.time }}s)
+            {% else %}
+              {{section.title}}: {{ section.desc }} ({{ section.time }}s)
+            {% endif %}
+            </a>
           </li>
           {% endfor %}
       </ul>
