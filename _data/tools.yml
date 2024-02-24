@@ -1435,6 +1435,8 @@
       url: https://github.com/vast-data/vast-trino-connector
     - urltext: VAST database catalog at Trino Summit 2023
       url: https://www.youtube.com/watch?v=RutbCY8i22Q
+    - urltext: Trino Community Broadcast 56 - The vast possibilities of VAST and Trino
+      url: /episodes/56.html
 - name: Workload Analyzer
   anchor: workload-analyzer
   category: add-on
