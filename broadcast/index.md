@@ -86,14 +86,17 @@ join the [Trino slack]({{site.url}}/slack) and contact us there.
       <h3><a class="post-link" href="{{ latestEpisode.url | relative_url }}">{{ latestEpisode.title | escape }}</a></h3>
       <span class="post-meta">{{ latestEpisode.date | date: "%b %-d, %Y" }}</span>
       <ul>
-        {% for section in latestEpisode.sections %}
+      {% for section in latestEpisode.sections %}
         <li>
-            {{section.title}}:
-            <a href="https://www.youtube.com/watch?v={{ latestEpisode.youtube_id}}&t={{ section.time }}s" target="_blank">
-            {{ section.desc }}
-            </a>
+          <a href="https://www.youtube.com/watch?v={{ latestEpisode.youtube_id }}&t={{ section.time }}s" target="_blank">
+          {% if section.desc == nil %}
+            {{section.title}} ({{ section.time }}s)
+          {% else %}
+            {{section.title}}: {{ section.desc }} ({{ section.time }}s)
+          {% endif %}
+        </a>
         </li>
-        {% endfor %}
+      {% endfor %}
       </ul>
       <a href="{{ site.baseurl }}{{ latestEpisode.url }}" style="margin-top: auto;">Listen, watch, or read the show notes...</a>
     </div>
@@ -121,14 +124,17 @@ join the [Trino slack]({{site.url}}/slack) and contact us there.
     <h5><a class="post-link" href="{{ episode.url | relative_url }}">{{ episode.title | escape }}</a></h5>
     <span class="post-meta">{{ episode.date | date: "%b %-d, %Y" }}</span>
     <ul>
-      {% for section in episode.sections limit:3 %}
+    {% for section in episode.sections limit:5 %}
       <li>
-          {{section.title}}:
-          <a href="https://www.youtube.com/watch?v={{ episode.youtube_id}}&t={{ section.time }}s" target="_blank">
-          {{ section.desc }}
-          </a>
+        <a href="https://www.youtube.com/watch?v={{ episode.youtube_id }}&t={{ section.time }}s" target="_blank">
+        {% if section.desc == nil %}
+          {{section.title}} ({{ section.time }}s)
+        {% else %}
+          {{section.title}}: {{ section.desc }} ({{ section.time }}s)
+        {% endif %}
+        </a>
       </li>
-      {% endfor %}
+    {% endfor %}
     </ul>
     <a href="{{ site.baseurl }}{{ episode.url }}">Listen, watch, or read the show notes...</a>
   </div>
