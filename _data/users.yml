@@ -799,6 +799,8 @@
       url: https://stackable.tech/
     - urltext: Stackable Operator for Trino
       url: https://github.com/stackabletech/trino-operator
+    - urltext: Trino-lb - Load balancer with support for routing, queueing and auto-scaling
+      url: https://github.com/stackabletech/trino-lb
     - urltext: Talk about Open Policy Agent and Trino from Trino Summit 2023
       url: https://www.youtube.com/watch?v=fbqqapQbAv0
 - name: Starburst
