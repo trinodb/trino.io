@@ -32,6 +32,15 @@ integration at scale for Starburst Galaxy.</dd>
 István Mészáros chats about his company and analytics tool
 <a href="../ecosystem/client.html#mitzu">Mitzu</a> - a friendly, no-code product
 analytics tool for warehouse-first companies that supports Trino.</dd>
+
+<dt>24 Apr 2024: Trino Community Broadcast 59 - jOOQ</dt>
+<dd>
+Java champion and all around geek, Lukas Eder, joins us to talk about Java,
+Trino, and his company <a href="https://www.datageekery.com/">datageekery</a>.
+We learn about their product <a href="../ecosystem/add-on.html#jooq">jOOQ</a>,
+which enables you to generates Java code from your database, including Trino,
+and lets you build type-safe SQL queries through its fluent API.</dd>
+
 </dl>
 
 Find [more details and other events on our calendar]({{site.url}}/community.html#events).
@@ -39,9 +48,6 @@ Find [more details and other events on our calendar]({{site.url}}/community.html
 Trino users, contributors, and partners, we want to hear from you! If you have a
 topic, question or pull request that you would like us to feature on the show
 join the [Trino slack]({{site.url}}/slack) and contact us there.
-
-
-
 
 </div>
 <div markdown="1" class="col-lg-3">
