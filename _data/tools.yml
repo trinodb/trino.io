@@ -1065,7 +1065,7 @@
       url: https://www.openpolicyagent.org/
     - urltext: Open Policy Agent access control documentation
       url: https://trino.io/docs/current/security/opa-access-control.html
-    - urltext: Open Policy Agent for Trino arrvived
+    - urltext: Blog post about Open Policy Agent for Trino with videos from Trino Summit 2023
       url: http://trino.io/blog/2024/02/06/opa-arrived.html
 - name: OpenSearch
   anchor: opensearch
