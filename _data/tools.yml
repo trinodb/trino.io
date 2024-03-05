@@ -1087,6 +1087,23 @@
       url: https://opensearch.org/
     - urltext: Elasticsearch connector documentation
       url: https://trino.io/docs/current/connector/elasticsearch.html
+- name: OpenTelemetry
+  anchor: opentelemetry
+  category: add-on
+  logo: /assets/images/logos/opentelemetry.png
+  logosmall: /assets/images/logos/opentelemetry-small.png
+  description: |
+    OpenTelemetry is a widely-used collection of APIs, SDKs, and tools that
+    instrument, generate, collect, and export telemetry data such as metrics,
+    logs, and traces to help you analyze application performance and behavior.
+
+    Trino exposes tracing information for observability of a running Trino
+    deployment.
+  links:
+    - urltext: OpenTelemetry
+      url: https://opentelemetry.io/
+    - urltext: Trino observability with OpenTelemetry
+      url: https://trino.io/docs/current/admin/opentelemetry.html
 - name: Oracle
   anchor: oracle
   category: data-source
