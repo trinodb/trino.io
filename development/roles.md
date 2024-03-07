@@ -280,7 +280,7 @@ The following subproject repositories and subproject maintainers are configured:
   * Will Morrison [<i class="fab fa-github"></i> willmostly](https://github.com/willmostly)
 
 
-## Language Lead
+## Language lead
 
 The language lead is the maintainer specifically responsible for maintaining the
 SQL language implementation in Trino. Trino attempts to adhere to the ANSI SQL
@@ -292,7 +292,30 @@ adherence to the SQL standard. All pull requests making changes or additions to
 Trino SQL syntax, types, and function library must have the `syntax-needs-review`
 label and be reviewed by the language lead.
 
-Martin Traverso [<i class="fab fa-github"></i> martint](https://github.com/martint)	is the language lead.
+Martin Traverso [<i class="fab fa-github"></i>
+martint](https://github.com/martint) is the language lead.
+
+## File system lead
+
+The file system lead is the maintainer specifically responsible for maintaining
+the `TrinoFileSystem` APIs for accessing files and file systems, typically used
+in the [object storage
+connectors]({{site.url}}/docs/current/object-storage.html#object-storage-connectors).
+
+The `TrinoFileSystem` APIs are carefully designed to contain only the operations
+needed by Trino, and with a goal of each operation being simple to understand,
+fully documented, and thoroughly tested. These APIs replace the legacy Hadoop
+FileSystem APIs. With the new APIs, the project improves developer productivity,
+because you can rely on the documented behavior and be confident this is
+verified by tests. Additionally, the clarity of the requirements for the APIs
+empowers developers to add support for additional file systems.
+
+To maintain this simplicity, the APIs are only changed and expanded in a very
+conservative and careful manner. Any such changes of the API and its behavior
+musted be reviewed and approved by the file system lead.
+
+David Phillips  [<i class="fab fa-github"></i>
+electrum](https://github.com/electrum) is the file system lead.
 
 ## Benevolent dictators for life <a name="bdfl"></a>
 
