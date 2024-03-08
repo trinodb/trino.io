@@ -1322,6 +1322,28 @@
       url: https://www.singlestore.com/
     - urltext: SingleStore connector documentation
       url: https://trino.io/docs/current/connector/singlestore.html
+- name: Snowflake
+  anchor: snowflake
+  category: data-source
+  logo: /assets/images/logos/snowflake.png
+  logosmall: /assets/images/logos/snowflake-small.png
+  description: |
+    Snowflake is a Data Cloud platform provider. Snowflake easily enables
+    governed access to near-infinite amounts of data, cutting-edge tools,
+    applications, and services. With the Data Cloud, you can collaborate locally
+    and globally to reveal new insights, create previously unforeseen business
+    opportunities, and identify and know your customers in the moment with
+    seamless and relevant experiences.
+
+    Use a Snowflake data cloud as a data source in Trino by configuring a
+    catalog with the Snowflake connector.
+  links:
+    - urltext: Snowflake
+      url: https://www.snowflake.com/
+    - urltext: Snowflake connector documentation
+      url: https://trino.io/docs/current/connector/snowflake.html
+    - urltext: Let it snow for Trino presentation from Trino Fest 2023
+      url: http://trino.io/blog/2023/07/12/trino-fest-2023-let-it-snow-recap.html
 - name: SQL Formatter
   anchor: workload-analyzer
   category: add-on
