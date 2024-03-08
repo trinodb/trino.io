@@ -98,7 +98,8 @@ Phillips](https://github.com/electrum), [Raunaq
 Morarka](https://github.com/raunaqmorarka), [Piotr
 Findeisen](https://github.com/findepi), [Mateusz
 Gajewski](https://github.com/wendigo), [Beinan Wang](https://github.com/beinan),
-[Amogh Margoor](https://github.com/amoghmargoor), and [Marton
+[Amogh Margoor](https://github.com/amoghmargoor), [Manish
+Malhorta](https://github.com/osscm), and [Marton
 Bod](https://github.com/marton-bod).
 
 ## Finishing
