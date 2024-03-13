@@ -20,13 +20,6 @@ interesting developments in the ecosystem around Trino.
 ## Upcoming episodes
 
 <dl>
-<dt>14 Mar 2024: Trino Community Broadcast 57 - OpenTelemetry</dt>
-<dd>David Phillips and Matt Stephenson from Starburst join us to talk about
-their work on adding
-<a href="../ecosystem/add-on.html#opentelemetry">OpenTelemetry</a>
-support to Trino. We will run a little demo and chat about usage of the
-integration at scale for Starburst Galaxy.</dd>
-
 <dt>4 Apr 2024: Trino Community Broadcast 58 - Mitzu</dt>
 <dd>
 István Mészáros chats about his company and analytics tool
