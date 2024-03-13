@@ -839,14 +839,18 @@
   logosmall: /assets/images/logos/kubernetes-small.png
   description: |
     Trino is commonly deployed on the Kubernetes platform. Use the Docker
-    container directly or with the Helm chart for your deployment.
+    container directly or with the Helm chart for your deployment. In addition,
+    numerous vendors provide custom tooling to manage Trino with their specific
+    products and integrations using Kubernetes.
   links:
     - urltext: Kubernetes
       url: https://kubernetes.io/
     - urltext: Trino Docker container documentation
       url: https://trino.io/docs/current/installation/containers.html
-    - urltext: Trino Helm charts documentation
+    - urltext: Trino Helm chart documentation
       url: https://trino.io/docs/current/installation/kubernetes.html
+    - urltext: Trino Helm chart source with more details
+      url:  https://github.com/trinodb/charts
 - name: Looker
   anchor: looker
   category: client
