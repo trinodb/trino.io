@@ -86,6 +86,8 @@
       url: https://aws.amazon.com/athena/
     - urltext: Amazon EMR
       url: https://aws.amazon.com/emr/
+    - urltext: Deploying Trino on EKS blueprint
+      url: https://awslabs.github.io/data-on-eks/docs/blueprints/distributed-databases/trino
 - name: Ampool
   highlight: false
   anchor: ampool
