@@ -189,7 +189,7 @@
       url: https://hudi.apache.org/
     - urltext: Hudi connector documentation
       url: https://trino.io/docs/current/connector/hudi.html
-    - urltext: Interview with Hudi contributors from Trino Community Broadcast 
+    - urltext: Interview with Hudi contributors from Trino Community Broadcast
         41
       url: https://trino.io/episodes/41.html
 - name: Apache Iceberg
@@ -212,7 +212,7 @@
       url: https://trino.io/docs/current/connector/iceberg.html
     - urltext: Interview with Iceberg creator from Trino Community Broadcast 40
       url: https://trino.io/episodes/40.html
-# there are lots more from Trino Fest, Trino Summot .. need to figure out how many we are happy to have.. 
+# there are lots more from Trino Fest, Trino Summot .. need to figure out how many we are happy to have..
 - name: Apache Ignite
   anchor: apache-ignite
   category: data-source
@@ -660,7 +660,7 @@
       url: https://docs.greatexpectations.io/
     - urltext: Trino guide
       url: https://docs.greatexpectations.io/docs/guides/connecting_to_your_data/database/trino/
-    - urltext: Make your Trino data pipelines production ready with Great 
+    - urltext: Make your Trino data pipelines production ready with Great
         Expectations
       url: https://trino.io/blog/2022/08/24/data-pipelines-production-ready-great-expectations.html
 - name: Harlequin
@@ -1108,6 +1108,8 @@
       url: https://opentelemetry.io/
     - urltext: Trino observability with OpenTelemetry
       url: https://trino.io/docs/current/admin/opentelemetry.html
+    - urltext: Trino Community Broadcast 57, Seeing clearly with OpenTelemetry
+      url: /episodes/57.html
 - name: Oracle
   anchor: oracle
   category: data-source
@@ -1170,11 +1172,16 @@
 
     Use a Prometheus database as a data source in Trino by configuring a catalog
     with the Prometheus connector.
+
+    Trino also supports observability with OpenTelemetry, and therefore
+    Prometheus.
   links:
     - urltext: Prometheus
       url: https://prometheus.io/docs/introduction/overview/
     - urltext: Prometheus connector documentation
       url: https://trino.io/docs/current/connector/prometheus.html
+    - urltext: OpenTelemetry integration documentation
+      url: https://trino.io/docs/current/admin/opentelemetry.html
 - name: Python
   anchor: python
   category: client
