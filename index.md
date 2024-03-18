@@ -188,7 +188,7 @@ title: Distributed SQL query engine for big data
     <div class="card mb-4">
       <div class="card-body text-center">
         <h3 class="card-header-title mb-3">Reading material</h3>
-        <p>Get a digital copy of <a href="{{ site.url }}{% post_url 2020-04-11-the-definitive-guide %}">the definitive guide about the Trino
+        <p>Get a copy of <a href="./trino-the-definitive-guide.html">the definitive guide about the Trino
         distributed query engine</a>. Useful for beginners and existing users.</p>
         <p>For technical background, read our paper: <a href="paper.html">Presto: SQL on Everything</a></p>
       </div>
