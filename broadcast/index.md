@@ -20,11 +20,6 @@ interesting developments in the ecosystem around Trino.
 ## Upcoming episodes
 
 <dl>
-<dt>4 Apr 2024: Trino Community Broadcast 58 - Mitzu</dt>
-<dd>
-István Mészáros chats about his company and analytics tool
-<a href="../ecosystem/client.html#mitzu">Mitzu</a> - a friendly, no-code product
-analytics tool for warehouse-first companies that supports Trino.</dd>
 
 <dt>24 Apr 2024: Trino Community Broadcast 59 - jOOQ</dt>
 <dd>
