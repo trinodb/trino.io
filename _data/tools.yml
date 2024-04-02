@@ -971,6 +971,8 @@
       url: https://docs.mitzu.io/warehouse-integrations/trino-presto
     - urltext: Using Mitzu With Trino blog post
       url: https://www.mitzu.io/post/using-mitzu-with-trino-presto
+    - urltext: Trino Community Broadcast 58, Understanding your users with Trino and Mitzu
+      url: /episodes/58.html
 - name: Mode
   anchor: mode
   category: client
