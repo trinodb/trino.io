@@ -262,6 +262,7 @@
       url: https://trino.io/blog/2023/07/14/trino-fest-2023-dune
 - name: Eventbrite
   highlight: false
+  anchor: event-brite
   logo: /assets/images/logos/eventbrite.png
   logosmall: /assets/images/logos/eventbrite-small.png
   links:
@@ -495,6 +496,7 @@
       url: https://azure.microsoft.com/en-us/blog/manage-your-big-data-needs-with-hdinsight-on-aks/
 - name: MoEngage
   highlight: false
+  anchor: moengage
   logo: /assets/images/logos/moengage.png
   logosmall: /assets/images/logos/moengage-small.png
   #   https://moengage.recruiterbox.com/jobs/fk0uue1/
@@ -752,6 +754,7 @@
     - urltext: Salesforce enginering blog post
       url: https://engineering.salesforce.com/big-data-big-decisions-690a00fad88d
 - name: Sentinel One
+  anchor: sentinel-one
   highlight: false
   logo: /assets/images/logos/sentinelone.png
   logosmall: /assets/images/logos/sentinelone-small.png
@@ -888,7 +891,7 @@
       url: https://www.swrve.com/
 - name: Talkdesk
   highlight: false
-  #anchor: talkdesk
+  anchor: talkdesk
   logo: /assets/images/logos/talkdesk.png
   logosmall: /assets/images/logos/talkdesk-small.png
   links:
@@ -942,6 +945,7 @@
   # https://medium.com/walmartglobaltech/custom-downscaler-for-trino-cluster-on-google-cloud-243f64112b86
 - name: Zuora
   highlight: false
+  anchor: zuora
   logo: /assets/images/logos/zuora.png
   logosmall: /assets/images/logos/zuora-small.png
   links:
