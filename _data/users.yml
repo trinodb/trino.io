@@ -316,7 +316,7 @@
       url: https://trino.io/blog/2023/07/12/trino-fest-2023-let-it-snow-recap
   testimonial: |
     ForePaaS leverages Trino as its main query engine technology. ForePaaS
-    provides a lakehouse platform that can run on multiple open-source storage 
+    provides a lakehouse platform that can run on multiple open-source storage
     engines. The Trino-powered query engine allows users to run unified
     analytics and BI at petabyte scale on their lakehouse and directly-queryable
     data sources at lightning speeds. Trino also enforces the automated data
@@ -913,6 +913,28 @@
       url:   https://www.youtube.com/watch?v=FaytoXxKXOQ
     - urltext: Arm Treasure Data presentation at Trino Summit 2020
       url: https://trino.io/blog/2020/07/06/presto-summit-arm-td.html
+- name: Valerian
+  highlight: false
+  anchor: valerian
+  logo: /assets/images/logos/valerian.png
+  logosmall: /assets/images/logos/valerian.png
+  testimonial: |
+    Valerian uses Trino as its top choice for a distributed querying engine and
+    has evolved the technology to shift seamlessly between large data
+    structures/platforms and as a replacement for standard databases such as
+    MySQL, PostgreSQL, and MongoDB. Valerian works with companies and
+    organizations to conduct applied Research and Development (R&D) and apply
+    modern technology to solve complex engineering challenges, even advancing
+    the state of the art. Using Trino, Valerian was able to reduce millions in
+    cloud spend on relational databases for clients by augmenting Trino's use to
+    function as a relational database on top of Object Storage with
+    near-infinite scalability. By using Trino as both a distributed querying
+    engine on top of a unified data lake for AI/ML and Data Analytics as well as
+    the ACID-based transactional database layer of applications, Valerian has
+    been able to harness Trino to create the future of Data Fabric solutions.
+  links:
+    - urltext: View the Valerian website
+      url: https://valeriantechnology.com
 #- name: Walmart
 #  highlight: false
 #  logo: /assets/images/logos/walmart.png
