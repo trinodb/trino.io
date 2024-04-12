@@ -24,7 +24,8 @@ This is the process we suggest for contributions.  This process is designed to
 reduce the burden on project reviewers, impact on other contributors, and to
 keep the amount of rework from the contributor to a minimum.
 
-1. Sign the [contributor license agreement]({{site.github_org_url}}/cla).
+1. Sign the [contributor license agreement]({{site.github_org_url}}/cla), and
+   proceed with the next steps while the CLA is processed.
 
 2. Start a discussion by creating a GitHub
    [issue]({{site.github_repo_url}}/issues), or asking on [Slack](/slack.html)
@@ -40,14 +41,19 @@ keep the amount of rework from the contributor to a minimum.
 
 4. Implement the change
 
-    1. If the change is large, post a draft GitHub
+    1. Create or update [your own fork of the repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks)
+       from the [Trino project](https://github.com/trinodb) that you want to
+       contribute to.
+    2. If the change is large, post a draft GitHub
        [pull request]({{site.github_repo_url}}/pulls) with the title prefixed
        with `[WIP]`, and share with collaborators.
-    2. Include tests and documentation as necessary.
+    3. Include tests and documentation as necessary.
 
 5. Create a GitHub [pull request]({{site.github_repo_url}}/pulls) (PR).
 
-    1. Make sure the pull request passes the tests in CI.
+    1. If you already have a `[WIP]` or draft PR, change it to ready for review.
+    2. Refer to the [GitHub documentation for more details about collaborating with PRs](https://docs.github.com/en/pull-requests).
+    3. Make sure the pull request passes the tests in CI.
     2. If known, request a review from an expert in the area changed. If
        unknown, ask for help on [Slack](/slack.html).
 
