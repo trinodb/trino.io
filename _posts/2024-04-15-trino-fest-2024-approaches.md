@@ -15,7 +15,7 @@ a couple months ago, and if you *have* missed it, make sure to go register to
 attend! All our speakers will be in person in downtown Boston on the 13th of
 June, with plenty of opportunities for networking and a happy hour event at the
 end of the day. But if you can't make the trip to enjoy the lovely New England
-summer, we'll also be livestreaming the event, and you can register to join us
+summer, we'll also be live-streaming the event, and you can register to join us
 virtually.
 
 <div class="card-deck spacer-30">
@@ -51,7 +51,7 @@ Thank you to our sponsors for making this event happen...
     </div>
     <div class="col-sm">
       <a href="https://www.upsolver.com/" target="_blank">
-        <img src="{{site.url}}/assets/images/logos/onehouse-small.png" title="Upsolver, event sponsor">
+        <img src="{{site.url}}/assets/images/logos/onehouse-small.png" title="Onehouse, event sponsor">
       </a>
     </div>
   </div>
@@ -62,7 +62,7 @@ Trino Fest this year!
 
 ## Lakehouses
 
-It's no secret that using Trino as part of your lakhouse has become one of its
+It's no secret that using Trino as part of your lakehouse has become one of its
 major use cases in the past few years. We're excited to say that at Trino Fest,
 we'll have representation for each of the modern big three table formats:
 Iceberg, Delta Lake, and Hudi.
