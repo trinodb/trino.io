@@ -50,7 +50,7 @@ Thank you to our sponsors for making this event happen...
       </a>
     </div>
     <div class="col-sm">
-      <a href="https://www.upsolver.com/" target="_blank">
+      <a href="https://www.onehouse.ai/" target="_blank">
         <img src="{{site.url}}/assets/images/logos/onehouse-small.png" title="Onehouse, event sponsor">
       </a>
     </div>
