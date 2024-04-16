@@ -54,6 +54,11 @@ Thank you to our sponsors for making this event happen...
         <img src="{{site.url}}/assets/images/logos/onehouse-small.png" title="Onehouse, event sponsor">
       </a>
     </div>
+    <div class="col-sm">
+      <a href="https://cloudinary.com/" target="_blank">
+        <img src="{{site.url}}/assets/images/logos/cloudinary-small.png" title="Cloudinary, event sponsor">
+      </a>
+    </div>
   </div>
 </div>
 
