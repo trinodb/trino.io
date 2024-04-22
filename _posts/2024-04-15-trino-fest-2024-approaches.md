@@ -39,14 +39,7 @@ Thank you to our sponsors for making this event happen...
   <div class="row">
     <div class="col-sm">
       <a href="https://www.starburst.io/" target="_blank">
-        <img src="{{site.url}}/assets/images/logos/starburst.png" title="Starburst, event host and organizer">
-      </a>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm">
-      <a href="https://www.upsolver.com/" target="_blank">
-        <img src="{{site.url}}/assets/images/logos/upsolver-small.png" title="Upsolver, event sponsor">
+        <img src="{{site.url}}/assets/images/logos/starburst-small.png" title="Starburst, event host and organizer">
       </a>
     </div>
     <div class="col-sm">
@@ -54,9 +47,21 @@ Thank you to our sponsors for making this event happen...
         <img src="{{site.url}}/assets/images/logos/onehouse-small.png" title="Onehouse, event sponsor">
       </a>
     </div>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+      <a href="https://www.alluxio.io/" target="_blank">
+        <img src="{{site.url}}/assets/images/logos/alluxio-small.png" title="Alluxio, event sponsor">
+      </a>
+    </div>
     <div class="col-sm">
       <a href="https://cloudinary.com/" target="_blank">
         <img src="{{site.url}}/assets/images/logos/cloudinary-small.png" title="Cloudinary, event sponsor">
+      </a>
+    </div>
+    <div class="col-sm">
+      <a href="https://www.upsolver.com/" target="_blank">
+        <img src="{{site.url}}/assets/images/logos/upsolver-small.png" title="Upsolver, event sponsor">
       </a>
     </div>
   </div>
