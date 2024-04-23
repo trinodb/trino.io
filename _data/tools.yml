@@ -818,6 +818,8 @@
       url: https://www.jooq.org/
     - urltext: jOOQ 3.19 release notes
       url: https://www.jooq.org/notes
+    - urltext: Trino Community Broadcast 59 - Querying Trino with Java and jOOQ
+      url: https://trino.io/episodes/59.html
 - name: Jupy SQL
   anchor: jupy-sql
   category: client
