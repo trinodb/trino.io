@@ -21,14 +21,8 @@ interesting developments in the ecosystem around Trino.
 
 <dl>
 
-<dt>24 Apr 2024: Trino Community Broadcast 59 - jOOQ</dt>
-<dd>
-Java champion and all around geek, Lukas Eder, joins us to talk about Java,
-Trino, and his company <a href="https://www.datageekery.com/">datageekery</a>.
-We learn about their product <a href="../ecosystem/add-on.html#jooq">jOOQ</a>,
-which enables you to generates Java code from your database, including Trino,
-and lets you build type-safe SQL queries through its fluent API.</dd>
-
+<dt>23 May 2024: Trino Community Broadcast 60</dt>
+<dd>Topic to be determined.</dd>
 </dl>
 
 Find [more details and other events on our calendar]({{site.url}}/community.html#events).
