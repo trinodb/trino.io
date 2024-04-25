@@ -16,16 +16,15 @@ show_hero: true
       <span class="post-meta">{{ episode.date | date: "%b %-d, %Y" }}
       </span>
       <ul>
-            {% for section in episode.sections %}
+            {% for section in episode.sections limit: 5 %}
             <li>
-                {{section.title}}:
                 <a href="https://www.youtube.com/watch?v={{ episode.youtube_id}}&t={{ section.time }}s" target="_blank">
-                {{ section.desc }}
+                {{section.title}}: {{ section.desc }} ({{ section.time }}s)
                 </a>
             </li>
             {% endfor %}
         </ul>
-      <a href="{{ site.baseurl }}{{ episode.url }}">Listen, watch, or read the show notes...</a>
+        <span><a href="https://www.youtube.com/watch?v={{ episode.youtube_id}}">Watch the full episode</a> | <a href="{{ site.baseurl }}{{ episode.url }}">Listen to the episode or read the show notes</a></span>
     </div>
     {% endfor %}
     <p class="rss-subscribe">
