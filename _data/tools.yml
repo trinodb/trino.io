@@ -1144,6 +1144,8 @@
       url: https://popsql.com/
     - urltext: Connecting to Trino
       url: https://docs.popsql.com/docs/connecting-to-trino
+    - urltext: Trino Community Broadcast 51 - Trino cools off with PopSQL
+      url: https://trino.io/episodes/51.html
 - name: PostgreSQL
   anchor: postgresql
   category: data-source
@@ -1201,6 +1203,8 @@
       url: https://www.python.org/
     - urltext: trino-python-client
       url: https://github.com/trinodb/trino-python-client
+    - urltext: Trino Community Broadcast 12 - Trino Python client and Apache Superset
+      url: https://trino.io/episodes/12.html
 - name: Querybook
   anchor: querybook
   category: client
