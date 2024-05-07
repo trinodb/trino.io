@@ -1469,9 +1469,7 @@
     Trino clusters behind the gateway and connect to it using standard clients.
   links:
     - urltext: Trino Gateway
-      url: https://github.com/trinodb/trino-gateway
-    - urltext: Trino Gateway documentation
-      url: https://github.com/trinodb/trino-gateway/blob/main/README.md
+      url: https://trinodb.github.io/trino-gateway
     - urltext: Many clusters and only one gateway at Trino Summit 2023
       url: https://www.youtube.com/watch?v=2qwBcKmQSn0
     - urltext: Announcement blog post
