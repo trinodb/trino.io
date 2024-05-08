@@ -133,12 +133,13 @@ queries.
 
 ### Query intelligence
 
-Marton Bod from Apple brings insights to query intelligence. He'll demonstrate
-how Apple has understood when their clusters are most utilized and who's using
-them, enabling slicing and dicing along different dimensions. Having a query
-intelligence dataset can be used for real-time cluster dashboarding,
-self-service troubleshooting, and automatic generation of recommendations for
-users, all of which can empower Trino to be better than ever.
+Marton Bod and Vinitha Gankidi from Apple bring insights to query intelligence.
+They'll demonstrate how Apple has understood when their clusters are most
+utilized and who's using them, enabling slicing and dicing along different
+dimensions. Having a query intelligence dataset can be used for real-time
+cluster dashboarding, self-service troubleshooting, and automatic generation of
+recommendations for users, all of which can empower Trino to be better than
+ever.
 
 ## And more!
 
