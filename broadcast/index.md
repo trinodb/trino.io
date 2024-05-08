@@ -21,8 +21,16 @@ interesting developments in the ecosystem around Trino.
 
 <dl>
 
-<dt>23 May 2024: Trino Community Broadcast 60</dt>
+<dt>22 May 2024: Trino Community Broadcast 60 - AI functions</dt>
+<dd><a href="https://www.linkedin.com/in/isainalcik/">Isa Inalcik</a>
+chats with us a bit about his work with Trino at
+<a href="https://www.linkedin.com/company/bestsecret/">BestSecret</a>
+before we dive into his exploration of creating Trino functions that
+use generative AI systems.</dd>
+
+<dt>20 June 2024: Trino Community Broadcast 61</dt>
 <dd>Topic to be determined.</dd>
+
 </dl>
 
 Find [more details and other events on our calendar]({{site.url}}/community.html#events).
