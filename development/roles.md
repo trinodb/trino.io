@@ -278,6 +278,10 @@ The following subproject repositories and subproject maintainers are configured:
   * Jaeho Yoo [<i class="fab fa-github"></i> Chaho12](https://github.com/Chaho12)
   * Vishal Jadhav [<i class="fab fa-github"></i> vishalya](https://github.com/vishalya)
   * Will Morrison [<i class="fab fa-github"></i> willmostly](https://github.com/willmostly)
+* [trino-go-client]({{site.github_org_url}}/trino-go-client)
+  * Jan Waś [<i class="fab fa-github"></i> nineinchnick](https://github.com/nineinchnick)
+* [charts]({{site.github_org_url}}/charts)
+  * Jan Waś [<i class="fab fa-github"></i> nineinchnick](https://github.com/nineinchnick)
 
 
 ## Language lead
