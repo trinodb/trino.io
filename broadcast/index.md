@@ -21,13 +21,6 @@ interesting developments in the ecosystem around Trino.
 
 <dl>
 
-<dt>22 May 2024: Trino Community Broadcast 60 - AI functions</dt>
-<dd><a href="https://www.linkedin.com/in/isainalcik/">Isa Inalcik</a>
-chats with us a bit about his work with Trino at
-<a href="https://bestsecret.com/">BestSecret</a> before we dive into
-his exploration of creating Trino functions that use generative AI
-systems.</dd>
-
 <dt>20 June 2024: Trino Community Broadcast 61 - Power BI client</dt>
 <dd><a href="https://www.linkedin.com/in/patrick-pichler/">Patrick Pichler</a>
 joins us to talk about his small project of a PowerBI client for Trino
