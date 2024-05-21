@@ -11,7 +11,7 @@ We gave
 [a sneak peek of the Trino Fest lineup a month ago]({{site.baseurl}}{% post_url 2024-04-15-trino-fest-2024-approaches %}),
 and we're excited to now bring you the full lineup for the event. We've got some
 major names being added, including Amazon, Microsoft, and another talk from
-Apple. With Fourkites and a joint talk with LanceDB and CharacterAI also added 
+Apple. With Fourkites and a joint talk with LanceDB and CharacterAI also added
 to the schedule, we're excited to present the
 [full lineup for Trino Fest 2024](https://www.starburst.io/info/trino-fest-2024/#agenda).
 
@@ -98,3 +98,42 @@ announced!
 [Register to attend](http://www.starburst.io/info/trino-fest-2024?utm_medium=trino&utm_source=website&utm_campaign=Global-FY25-Q2-EV-Trino-Fest-2024&utm_content=Blog-3),
 [book your hotel](https://www.hyatt.com/en-US/group-booking/BOSTO/G-STA3), and
 the Trino community is looking forward to seeing you there!
+
+Thank you to our sponsors for making this event happen...
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <a href="https://www.starburst.io/" target="_blank">
+        <img src="{{site.url}}/assets/images/logos/starburst-small.png" title="Starburst, event host and organizer">
+      </a>
+    </div>
+    <div class="col-sm">
+      <a href="https://www.onehouse.ai/" target="_blank">
+        <img src="{{site.url}}/assets/images/logos/onehouse-small.png" title="Onehouse, event sponsor">
+      </a>
+    </div>
+    <div class="col-sm">
+      <a href="https://www.startree.ai/" target="_blank">
+        <img src="{{site.url}}/assets/images/logos/startree-small.png" title="Startree, event sponsor">
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+      <a href="https://www.alluxio.io/" target="_blank">
+        <img src="{{site.url}}/assets/images/logos/alluxio-small.png" title="Alluxio, event sponsor">
+      </a>
+    </div>
+    <div class="col-sm">
+      <a href="https://cloudinary.com/" target="_blank">
+        <img src="{{site.url}}/assets/images/logos/cloudinary-small.png" title="Cloudinary, event sponsor">
+      </a>
+    </div>
+    <div class="col-sm">
+      <a href="https://www.upsolver.com/" target="_blank">
+        <img src="{{site.url}}/assets/images/logos/upsolver-small.png" title="Upsolver, event sponsor">
+      </a>
+    </div>
+  </div>
+</div>
