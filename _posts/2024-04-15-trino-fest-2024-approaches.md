@@ -47,6 +47,11 @@ Thank you to our sponsors for making this event happen...
         <img src="{{site.url}}/assets/images/logos/onehouse-small.png" title="Onehouse, event sponsor">
       </a>
     </div>
+    <div class="col-sm">
+      <a href="https://www.startree.ai/" target="_blank">
+        <img src="{{site.url}}/assets/images/logos/startree-small.png" title="Startree, event sponsor">
+      </a>
+    </div>
   </div>
   <div class="row">
     <div class="col-sm">
