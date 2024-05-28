@@ -48,6 +48,9 @@ keep the amount of rework from the contributor to a minimum.
        [pull request]({{site.github_repo_url}}/pulls) with the title prefixed
        with `[WIP]`, and share with collaborators.
     3. Include tests and documentation as necessary.
+    4. Follow the [commit message guidelines](https://chris.beams.io/posts/git-commit/)
+       and other suggestions from the
+       [Trino development guidelines](https://github.com/trinodb/trino/blob/master/.github/DEVELOPMENT.md).
 
 5. Create a GitHub [pull request]({{site.github_repo_url}}/pulls) (PR).
 
