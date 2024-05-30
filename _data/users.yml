@@ -143,6 +143,25 @@
 #      url: https://trino.io/blog/2023/07/12/trino-fest-2023-let-it-snow-recap.html
 #    - urltext: Enterprise-ready Trino at Bloomberg - One Giant Leap Toward Data Mesh! from Trino Summit 2022
 #     url: https://trino.io/blog/2022/11/30/trino-summit-2022-bloomberg-recap.html
+- name: BestSecret
+  highlight: false
+  anchor: bestsecret
+  logo: /assets/images/logos/bestsecret.png
+  logosmall: /assets/images/logos/bestsecret-small.png
+  testimonial: |
+    BestSecret is a leading European members-only online destination for premium
+    and luxury off-price fashion. It currently employs around 1,700
+    international fashion and technology enthusiasts from more than 80 nations.
+
+    Trino and Trino Gateway are part of the data platform used at BestSecret.
+  links:
+    - urltext: View the BestSecret website
+      url: https://bestsecret.com/
+    - urltext: BestSecret Tech blog
+      url: https://medium.com/bestsecret-tech
+    - urltext: Interview with Isa Inalcik from BestSecret as guest on Trino Comunity
+        Broadcast 60
+      url: https://trino.io/episodes/60.html
 - name: BlueCat
   highlight: false
   anchor: bluecat
