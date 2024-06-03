@@ -32,6 +32,18 @@ could not make it to present at Trino Fest in person, so now he will join us
 for an episode to talk about using Trino at
 <a href="https://prezi.com/">Prezi</a>.</dd>
 
+<dt>1 August 2024: Trino Community Broadcast 63</dt>
+<dd>Presenter and topic to be determined.</dd>
+
+<dt>22 August 2024: Trino Community Broadcast 64 - Control with OPA</dt>
+<dd>
+<a href="https://www.linkedin.com/in/sebastian-bernauer-622b95167/">Sebastian Bernauer</a>
+and <a href="https://www.linkedin.com/in/soenkeliebau/">Sönke Liebau</a>
+from <a href="{{site.url}}/users#stackable">Stackable</a> join us to
+talk about their experience with using
+<a href="{{site.url}}/ecosystem/add-on.html#open-policy-agent">Open Policy Agent</a>
+for access control with Trino.</dd>
+
 </dl>
 
 Find [more details and other events on our calendar]({{site.url}}/community.html#events).
