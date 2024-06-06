@@ -964,6 +964,23 @@
 #  logo: /assets/images/logos/walmart.png
 #  logosmall: /assets/images/logos/walmart-small.png
   # https://medium.com/walmartglobaltech/custom-downscaler-for-trino-cluster-on-google-cloud-243f64112b86
+- name: Upsolver
+  highlight: false
+  anchor: upsolver
+  logo: /assets/images/logos/upsolver.png
+  logosmall: /assets/images/logos/upsolver-small.png
+  testimonial: |
+    Upsolver is a lakehouse management solution used to ingest, transform, and
+    optimize Apache Iceberg and Hive tables on object stores. Upsolver is
+    closely integrated with Trino to provide the most optimal performance for
+    tables of any size over batch and streaming data.
+  links:
+    - urltext: View the Upsolver website
+      url: https://upsolver.com/
+    - urltext: Get started with Upsolver and Apache Iceberg
+      url: https://docs.upsolver.com/content/get-started/apache-iceberg
+    - urltext: Presentation at Trino Summit 2022
+      url: https://trino.io/blog/2022/12/23/trino-summit-2022-upsolver-recap.html
 - name: Zuora
   highlight: false
   anchor: zuora
