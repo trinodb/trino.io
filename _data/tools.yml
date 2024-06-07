@@ -1164,6 +1164,28 @@
       url: https://postgresql.org/
     - urltext: PostgreSQL connector documentation
       url: https://trino.io/docs/current/connector/postgresql.html
+- name: Power BI
+  anchor: power-bi
+  category: client
+  logo: /assets/images/logos/power-bi.png
+  logosmall: /assets/images/logos/power-bi-small.png
+  description: |
+    Power BI is an interactive data visualization software product suite
+    developed by Microsoft with a primary focus on business intelligence.
+
+    Power BI users can query Trino clusters using a variety of available
+    clients.
+  links:
+    - urltext: Power BI
+      url: https://powerbi.microsoft.com/
+    - urltext: Open source Power BI Trino connector
+      url: https://github.com/CreativeDataEU/PowerBITrinoConnector
+    - urltext: Commercial driver from Starburst
+      url: https://docs.starburst.io/clients/powerbi.html
+    - urltext: Azure HDInsight on AKS Trino including Power BI support
+      url: https://learn.microsoft.com/power-query/connectors/azure-hdinsight-on-aks-trino
+    - urltext: Trino Community Broadcast 61 about the open source connector project
+      url: https://trino.io/episodes/61.html
 - name: Prometheus
   anchor: prometheus
   category: data-source
