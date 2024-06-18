@@ -26,10 +26,11 @@ title: Distributed SQL query engine for big data
     <div class="col-1"></div>
     <div class="col-6" style="text-align: center;">
       <p>
-        <h1 style="color: #FFFFFF;">Trino Fest</h1>
-        <h3 style="color: #FFFFFF; padding-bottom: 1rem;">13 June, 2024</h3>
+        <h1 style="color: #FFFFFF;">Trino Fest 2024</h1>
+         <h3 style="color: #FFFFFF; padding-bottom: 1rem;">Read the recap, look at the slides, and watch video recordings:</h3>
         <div style="padding-bottom: 1rem">
-          <a class="btn btn-orange" style="display: inline-grid;" href="https://www.starburst.io/info/trino-fest-2024/?utm_medium=trino&utm_source=website&utm_campaign=Global-FY25-Q2-EV-Trino-Fest-2024&utm_content=banner" target="_blank">Register now</a>
+          <a class="btn btn-orange" style="display: inline-grid;"
+          href="{% post_url 2024-06-24-trino-fest-recap %}" target="_blank">Check it out now!</a>
         </div>
       </p>
     </div>
