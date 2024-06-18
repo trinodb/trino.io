@@ -21,11 +21,6 @@ interesting developments in the ecosystem around Trino.
 
 <dl>
 
-<dt>20 June 2024: Trino Community Broadcast 61 - Power BI client</dt>
-<dd><a href="https://www.linkedin.com/in/patrick-pichler/">Patrick Pichler</a>
-joins us to talk about his small project of a PowerBI client for Trino
-that is gaining interest across the community.</dd>
-
 <dt>11 July 2024: Trino Community Broadcast 62 - Trino at Prezi</dt>
 <dd><a href="https://www.linkedin.com/in/vincenzo-cassaro/">Vincenzo Cassaro</a>
 could not make it to present at Trino Fest in person, so now he will join us
