@@ -1054,6 +1054,25 @@
       url: https://www.openapis.org/
     - urltext: Trino OpenAPI connector
       url: https://github.com/nineinchnick/trino-openapi
+- name: OpenLineage
+  anchor: openlineage
+  category: add-on
+  logo: /assets/images/logos/openlineage.png
+  logosmall: /assets/images/logos/openlineage-small.png
+  description: |
+    OpenLineage is an open source framework for data lineage collection and analysis. 
+    OpenLineage enables consistent collection of lineage metadata, creating a deeper 
+    understanding of how data is produced and used. 
+    
+    Using the OpenLineage event listener, you can see the end to end lineage of all data
+    that are modified by Trino queries.
+  links:
+    - urltext: OpenLineage
+      url: https://openlineage.io/
+    - urltext: OpenLineage event listener documentation
+      url: https://trino.io/docs/current/admin/event-listeners-openlineage.html
+    - urltext: Enhancing data governance at Apple with OpenLineage at Trino Fest 2024
+      url: https://youtu.be/A7hj1M7IYj8
 - name: Open Policy Agent
   anchor: opa
   category: add-on
