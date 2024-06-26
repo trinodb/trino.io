@@ -471,6 +471,30 @@
       url: https://trino.io/episodes/30.html
     - urltext: Introduction to dbt and Trino from Trino Community Broadcast 21
       url: https://trino.io/episodes/21.html
+- name: DbVisualizer
+  anchor: dbvisualizer
+  category: client
+  logo: /assets/images/logos/dbvisualizer.png
+  logosmall: /assets/images/logos/dbvisualizer-small.png
+  description: |
+    DbVisualizer has a long history of being a top-performing Trino editor.
+
+    Use DbVisualizer to easily connect to and manage your Trino databases. 
+    With extended support for Trino specific object types you can enjoy the full suite 
+    of smart features that DbVisualizer has to offer.
+  links:
+    - urltext: Mastering the Trino Connection with DbVisualizer
+      url: https://www.dbvis.com/thetable/mastering-the-trino-connection-unleash-the-power-of-dbvisualizer/
+    - urltext: DbVisualizer Website
+      url: https://www.dbvis.com/
+    - urltext: DbVisualizer Docs
+      url: https://www.dbvis.com/docs/ug/
+    - urltext: DbVisualizer - Trino Overview
+      url: https://www.dbvis.com/database/trino/
+    - urltext: DbVisualizer - Trino Features
+      url: https://www.dbvis.com/database/trino/features/
+    - urltext: DbVisualizer - Trino Object Type Support
+      url: https://www.dbvis.com/database/trino/support/
 - name: Delta Lake
   anchor: delta-lake
   category: data-source
