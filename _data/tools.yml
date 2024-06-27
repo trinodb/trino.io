@@ -477,12 +477,12 @@
   logo: /assets/images/logos/dbvisualizer.png
   logosmall: /assets/images/logos/dbvisualizer-small.png
   description: |
-    DbVisualizer is a universal database tool for querying, managing, and 
-    visualizing data, with a long history of being a top-performing Trino 
+    DbVisualizer is a universal database tool for querying, managing, and
+    visualizing data, with a long history of being a top-performing Trino
     editor.
 
-    Use DbVisualizer to easily connect to and query your Trino catalogs. With 
-    extended support for Trino-specific object types, you can enjoy the full 
+    Use DbVisualizer to easily connect to and query your Trino catalogs. With
+    extended support for Trino-specific object types, you can enjoy the full
     suite of smart features that DbVisualizer has to offer.
   links:
     - urltext: DbVisualizer website
@@ -531,6 +531,28 @@
       url: https://www.elastic.co/elasticsearch/
     - urltext: Elasticsearch connector documentation
       url: https://trino.io/docs/current/connector/elasticsearch.html
+- name: Elixir
+  anchor: elixir
+  category: client
+  logo: /assets/images/logos/elixir.png
+  logosmall: /assets/images/logos/elixir-small.png
+  description: |
+    Elixir is a dynamic, functional language for building scalable and maintainable
+    applications.
+
+    Elixir runs on the Erlang VM, known for creating low-latency, distributed, and
+    fault-tolerant systems. These capabilities and Elixir tooling allow developers
+    to be productive in several domains, such as web development, embedded software,
+    machine learning, data pipelines, and multimedia processing, across a wide range
+    of industries.
+
+    Use the req_trino to connect an Elixir script or application to a Trino cluster
+    and receive the results of the submitted queries.
+  links:
+    - urltext: Elixir
+      url: https://elixir-lang.org/
+    - urltext: req_trino
+      url: https://github.com/ndrluis/req_trino
 - name: Emacs
   anchor: emacs
   category: client
