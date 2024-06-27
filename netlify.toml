@@ -1,7 +1,7 @@
 [build]
   command = "jekyll build"
   publish = "_site"
-  environment = { RUBY_VERSION = "3.2.2" }
+  environment = { RUBY_VERSION = "3.3.3" }
 
 [context.production.environment]
   JEKYLL_ENV = "production"
