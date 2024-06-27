@@ -471,6 +471,28 @@
       url: https://trino.io/episodes/30.html
     - urltext: Introduction to dbt and Trino from Trino Community Broadcast 21
       url: https://trino.io/episodes/21.html
+- name: DbVisualizer
+  anchor: dbvisualizer
+  category: client
+  logo: /assets/images/logos/dbvisualizer.png
+  logosmall: /assets/images/logos/dbvisualizer-small.png
+  description: |
+    DbVisualizer is a universal database tool for querying, managing, and 
+    visualizing data, with a long history of being a top-performing Trino 
+    editor.
+
+    Use DbVisualizer to easily connect to and query your Trino catalogs. With 
+    extended support for Trino-specific object types, you can enjoy the full 
+    suite of smart features that DbVisualizer has to offer.
+  links:
+    - urltext: DbVisualizer website
+      url: https://www.dbvis.com/
+    - urltext: DbVisualizer - Trino overview
+      url: https://www.dbvis.com/database/trino/
+    - urltext: Mastering the Trino Connection with DbVisualizer
+      url: https://www.dbvis.com/thetable/mastering-the-trino-connection-unleash-the-power-of-dbvisualizer/
+    - urltext: DbVisualizer Docs
+      url: https://www.dbvis.com/docs/ug/
 - name: Delta Lake
   anchor: delta-lake
   category: data-source
