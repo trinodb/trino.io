@@ -52,8 +52,12 @@ respective language, or to discuss regional topics around Trino.
 
 ## Trino development channels
 
-* [#dev](https://{{site.slack_fqdn}}/archives/CP1MUNEUX) - discussions about
-  Trino codebase, development, and developing extensions
+* [#dev](https://{{site.slack_fqdn}}/messages/CP1MUNEUX) - general discussion
+  about the Trino codebase, development, and developing extensions, specifically
+  in your own forks or custom plugins
+* [#core-dev](https://{{site.slack_fqdn}}/messages/C07ABNN828M) - deeply
+  technical discussion about ongoing or planned development of the Trino
+  codebase in the Trino project itself
 * [#triage](https://{{site.slack_fqdn}}/messages/CFP4810CV) - discussions and
   coordination about new issues and PRs from the community
 * [#github](https://{{site.slack_fqdn}}/messages/CFN644R4G) - feed of activity
