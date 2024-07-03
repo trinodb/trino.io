@@ -276,6 +276,7 @@ The following subproject repositories and subproject maintainers are configured:
   * Cole Bowden [<i class="fab fa-github"></i> colebow](https://github.com/colebow)
 * [trino-gateway]({{site.github_org_url}}/trino-gateway)
   * Jaeho Yoo [<i class="fab fa-github"></i> Chaho12](https://github.com/Chaho12)
+  * Star Poon [<i class="fab fa-github"></i> oneonestar](https://github.com/oneonestar)
   * Vishal Jadhav [<i class="fab fa-github"></i> vishalya](https://github.com/vishalya)
   * Will Morrison [<i class="fab fa-github"></i> willmostly](https://github.com/willmostly)
 * [trino-go-client]({{site.github_org_url}}/trino-go-client)
