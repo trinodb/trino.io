@@ -21,12 +21,6 @@ interesting developments in the ecosystem around Trino.
 
 <dl>
 
-<dt>11 July 2024: Trino Community Broadcast 62 - Trino at Prezi</dt>
-<dd><a href="https://www.linkedin.com/in/vincenzo-cassaro/">Vincenzo Cassaro</a>
-could not make it to present at Trino Fest in person, so now he will join us
-for an episode to talk about using Trino at
-<a href="https://prezi.com/">Prezi</a>.</dd>
-
 <dt>1 August 2024: Trino Community Broadcast 63</dt>
 <dd>Presenter and topic to be determined.</dd>
 
