@@ -10,13 +10,30 @@ show_pagenav: true
 
 <div markdown="1" class="leftcol widecol">
 
+## Overview
+
+The Trino project is run by volunteers in a collaborative and open way. Its
+governance is controlled by the Trino Software Foundation.
+
 The Trino Software Foundation (TSF) is an independent, non-profit organization
 with the mission of supporting a community of passionate users and developers
 devoted to the advancement of the Trino distributed SQL query engine. It is
-dedicated to preserving the
-[vision of high quality, performant, and dependable software](/development/vision.html).
-The current board members of the Trino Software Foundation are Dain Sundstrom,
+dedicated to preserving the [vision of high quality, performant, and dependable
+software](./development/vision.html).
+
+The board members of the Trino Software Foundation are Dain Sundstrom,
 David Phillips, and Martin Traverso.
+
+The Trino Software Foundation is registered as corporation with file number
+7239856 in Delaware, United States of America.
+
+Contact details:
+
+* General inquiries - [general@trino.io](mailto:general@trino.io) <br/>
+* [Corporate inquiries](./guidelines-corporate.md) or notifications about
+  [conduct violations](./individual-code-of-conduct.md) -
+  [conduct@trino.io](mailto:conduct@trino.io)<br/>
+* Security notification -  [security@trino.io](mailto:security@trino.io)<br/>
 
 ## Open community
 
@@ -26,6 +43,25 @@ participate, whether it be via code contributions, suggestions for improvements,
 or even bug reports.
 
 Everyone is invited to [join the community](./slack.html).
+
+### Commitment to open source
+
+As detailed in the our [legal notices](./legal.html) all projects use the Apache
+License 2.0. The Trino Software Foundation is committed to continue using the
+Apache License 2.0 as a liberal license to ensure the widest possible adoption
+of Trino by users and vendors alike.
+
+### Non-commercial but aware and friendly
+
+We’re happy to have third parties, including for-profit corporations, take our
+software and use it for their own purposes. However it is important in these
+cases to ensure that the third party does not misuse the brand and reputation of
+the Trino projects for its own purposes. It is important for the longevity
+and community health of Trino that the community gets the appropriate credit
+for producing freely available software.
+
+We encourage contributions from vendors with proprietary modifications to
+[sponsor and support](./sponsor.html) the Trino project.
 
 ## Responsibilities
 
@@ -45,6 +81,9 @@ Contributing to Trino requires agreeing to, signing, and submitting the
 Software Foundation is responsible for reviewing, approving, and tracking all
 signed CLAs. This ensures that all code contributed to Trino is fully under the
 Apache License.
+
+The CLA is identical to the CLA of the Apache Software Foundation. All copyright
+for contributions remains with the individual authors.
 
 ### Ownership and trademarks <a name="tm"></a>
 
