@@ -68,7 +68,7 @@ worked successfully with Dain on the code review and necessary changes, and
 helped Manfred with the documentation.
 
 Finally, with the release of Trino 438, the [Open Policy Agent access
-control]({{site.url}}docs/current/security/opa-access-control.html) is available
+control]({{site.url}}/docs/current/security/opa-access-control.html) is available
 to all Trino users.
 
 The community is already taking notice with follow up pull requests for further
