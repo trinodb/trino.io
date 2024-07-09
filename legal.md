@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Legal notices"
-show_hero: true 
+show_hero: true
 ---
 <div class="container">
 <div class="row spacer-60">
@@ -28,6 +28,8 @@ Software Foundation]({{site.url}}/foundation.html).
 Product names, other names, logos and other material used on this site are
 registered trademarks of various entities including, but not limited to, the
 following trademark owners and names:
+
+Add Trino and Commander Bun Bun
 
 <dl>
   <dt><a href="https://www.ansi.org/">American National Standards Institute</a></dt>
@@ -56,6 +58,8 @@ following trademark owners and names:
 
   <dt><a href="https://www.starburst.io/">Starburst Data</a></dt>
   <dd>Starburst, Starburst Data, and other names</dd>
+
+
 </dl>
 
 </div></div>
