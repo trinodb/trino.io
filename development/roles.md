@@ -29,7 +29,7 @@ time.
 
 The following describes the expectations and duties of the various roles.
 
-## Participants
+## Participants <a name="participant"></a>
 
 This is the most important role. Very simply put, participants are those who
 show up and join in discussions about the project. Users, developers, and
@@ -42,7 +42,7 @@ They work to make Trino better for everyone.
 
 * Be involved in discussions about features, roadmaps, architecture, and
   long-term plans.
-* Help other users on the mailing list, on GitHub issues, and on Slack.
+* Help other users on [Slack](./slack.html), on GitHub issues, and GitHub discussions.
 * Propose and discuss new features and improvements.
 * Help raise the project's quality.
 * Let everyone else know what isn't working or is confusing.
@@ -54,11 +54,11 @@ They work to make Trino better for everyone.
   others and realize that negative sounding comments are often unintentional due
   to language barriers.
 
+## Contributors <a name="contributor"></a>
 
-## Contributors
-
-A contributor submits changes to Trino. [The full contribution process is
-described here](/development/process.html).
+A contributor submits changes to the [Trino
+repositories]({{site.gihub_org_url}}) following the [contribution
+process](/development/process.html).
 
 **Expectations and duties:**
 
@@ -81,7 +81,7 @@ described here](/development/process.html).
 
 [You can view all contributors on GitHub.](https://github.com/orgs/trinodb/teams/contributors/members)
 
-## Reviewers
+## Reviewers <a name="reviewer"></a>
 
 A reviewer reads a proposed change to Trino, and assesses how well the change
 aligns with the Trino vision and guidelines. This includes everything from high
@@ -233,7 +233,7 @@ The following community members are Trino maintainers:
    expertise from all contributors. The maintainer role is retained while being
    active in the project.
 
-## Subproject maintainers
+## Subproject maintainers <a name="subproject-maintainer"></a>
 
 A subproject maintainer on the Trino project is a maintainer with limited scope
 in terms of access to specific repositories within the [trinodb GitHub
