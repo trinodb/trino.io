@@ -33,6 +33,13 @@ talk about their experience with using
 <a href="{{site.url}}/ecosystem/add-on.html#open-policy-agent">Open Policy Agent</a>
 for access control with Trino.</dd>
 
+<dt>12 September 2024: Trino Community Broadcast 65 - Blistering performance with Exasol and Trino</dt>
+<dd>
+<a href="https://github.com/kaklakariada/">Christoph Pirkl</a>
+and <a href="https://www.linkedin.com/in/thomas-bestfleisch/">Thomas Bestfleisch</a>
+from <a href="{{site.url}}/ecosystem/data-source.html#exasol">Exasol</a> join us to
+talk about advantages and scenarios of using the in-memory, column-oriented RDBMS Exasol with Trino.</dd>
+
 </dl>
 
 Find [more details and other events on our calendar]({{site.url}}/community.html#events).
