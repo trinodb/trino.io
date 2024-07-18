@@ -569,6 +569,23 @@
       url: https://www.gnu.org/software/emacs/
     - urltext: sql-trino.el
       url: https://github.com/regadas/sql-trino
+- name: Exasol
+  anchor: exasol
+  category: data-source
+  logo: /assets/images/logos/exasol.png
+  logosmall: /assets/images/logos/exasol-small.png
+  description: |
+    Exasol is an in-memory, column-oriented, relational database management
+    system known for its high performance and its usage of a massively parallel
+    processing architecture.
+
+    Use an Exasol database as a data source in Trino by configuring a catalog
+    with the Exasol connector.
+  links:
+    - urltext: Exasol
+      url: https://www.exasol.com/
+    - urltext: Exasol connector documentation
+      url: https://trino.io/docs/current/connector/exasol.html
 - name: FugueSQL
   anchor: fugue-sql
   category: client
@@ -1104,10 +1121,10 @@
   logo: /assets/images/logos/openlineage.png
   logosmall: /assets/images/logos/openlineage-small.png
   description: |
-    OpenLineage is an open source framework for data lineage collection and analysis. 
-    OpenLineage enables consistent collection of lineage metadata, creating a deeper 
-    understanding of how data is produced and used. 
-    
+    OpenLineage is an open source framework for data lineage collection and analysis.
+    OpenLineage enables consistent collection of lineage metadata, creating a deeper
+    understanding of how data is produced and used.
+
     Using the OpenLineage event listener, you can see the end to end lineage of all data
     that are modified by Trino queries.
   links:
