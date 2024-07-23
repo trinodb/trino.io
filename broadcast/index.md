@@ -21,8 +21,11 @@ interesting developments in the ecosystem around Trino.
 
 <dl>
 
-<dt>1 August 2024: Trino Community Broadcast 63</dt>
-<dd>Presenter and topic to be determined.</dd>
+<dt>1 August 2024: Trino Community Broadcast 63 - Querying with JS</dt>
+<dd><a href="https://www.linkedin.com/in/emilyasunaryo/">Emily Sunaryo</a>,
+DevRel intern at <a href="https://starburst.io">Starburst</a>, joins us to talk
+about her experience learning Trino and starting to write a web application
+with JavaScript to query data in Trino.</dd>
 
 <dt>22 August 2024: Trino Community Broadcast 64 - Control with OPA</dt>
 <dd>
