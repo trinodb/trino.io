@@ -32,10 +32,11 @@ PATH=`brew --prefix`/opt/ruby/bin:$PATH
 ```
 Run the next few commands from the root of your clone of this repo.
 
-Install bundler:
+Install bundler using the same version as specified at the end of the
+`Gemfile.lock` file in the project root:
 
 ```bash
-gem install bundler
+gem install bundler -v '=2.5.14'
 ```
 
 Install gems for site:
