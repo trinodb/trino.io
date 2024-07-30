@@ -269,6 +269,8 @@ technologies.
 
 The following subproject repositories and subproject maintainers are configured:
 
+* [charts]({{site.github_org_url}}/charts)
+  * Jan Waś [<i class="fab fa-github"></i> nineinchnick](https://github.com/nineinchnick)
 * [grafana-trino]({{site.github_org_url}}/grafana-trino)
   * Jan Waś [<i class="fab fa-github"></i> nineinchnick](https://github.com/nineinchnick)
 * [trino.io]({{site.github_org_url}}/trino.io)
@@ -283,8 +285,6 @@ The following subproject repositories and subproject maintainers are configured:
   * Jan Waś [<i class="fab fa-github"></i> nineinchnick](https://github.com/nineinchnick)
 * [trino-js-client]({{site.github_org_url}}/trino-js-client)
   * Filipe Regadas [<i class="fab fa-github"></i> regadas](https://github.com/regadas)
-* [charts]({{site.github_org_url}}/charts)
-  * Jan Waś [<i class="fab fa-github"></i> nineinchnick](https://github.com/nineinchnick)
 
 
 ## Language lead
