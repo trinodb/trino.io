@@ -281,6 +281,8 @@ The following subproject repositories and subproject maintainers are configured:
   * Will Morrison [<i class="fab fa-github"></i> willmostly](https://github.com/willmostly)
 * [trino-go-client]({{site.github_org_url}}/trino-go-client)
   * Jan Waś [<i class="fab fa-github"></i> nineinchnick](https://github.com/nineinchnick)
+* [trino-js-client]({{site.github_org_url}}/trino-js-client)
+  * Filipe Regadas [<i class="fab fa-github"></i> regadas](https://github.com/regadas)
 * [charts]({{site.github_org_url}}/charts)
   * Jan Waś [<i class="fab fa-github"></i> nineinchnick](https://github.com/nineinchnick)
 
