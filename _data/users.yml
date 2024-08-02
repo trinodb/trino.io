@@ -299,8 +299,6 @@
   links:
     - urltext: View the Electronic Arts website
       url: https://www.ea.com/
-    - urltext: How EA migrated 150+ million partitions from HMS to AWS Glue at Trino Summit 2023
-      url: https://www.youtube.com/watch?v=EF56Ia_hwlo
     - urltext: Electronic Arts interview at Trino meetup August 2022
       url: https://www.youtube.com/watch?v=KY5DhWSqjGg
 - name: Flippa

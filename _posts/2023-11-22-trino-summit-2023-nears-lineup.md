@@ -87,7 +87,7 @@ implementing a post-commit integration test suite that ensures nothing has
 broken, and creating an automated test framework that can validate the
 performance of each new Trino release before it deploys to users.
 
-## EA: Migrating 120 million HMS metadata records to AWS Glue without customer impact
+## EA: Migrating 120 million HMS metadata records without customer impact
 
 Migrating production databases is a scary task no matter who you are. It's
 scarier when you're talking about 600+ databases, 35,000+ tables, and over 120

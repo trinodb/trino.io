@@ -40,9 +40,6 @@ session with the presentation and further details.
   presented by Martin Traverso from
   [Starburst](https://www.starburst.io){:target="_blank"}.
   [(Slides)]({{site.url}}/assets/blog/trino-summit-2023/mountains-trino-climbed.pdf)
-* [How EA migrated 150+ million partitions from HMS to AWS Glue](https://www.youtube.com/watch?v=EF56Ia_hwlo){:target="_blank"}
-  presented by Yuyang Luo from
-  [EA](https://www.ea.com){:target="_blank"}.
 * [Trino workload management](https://www.youtube.com/watch?v=qZejzyxT2fo){:target="_blank"}
   presented by Jinyang Li and Tingting Ma from
   [Airbnb](https://www.airbnb.ccom){:target="_blank"}.
