@@ -21,15 +21,6 @@ interesting developments in the ecosystem around Trino.
 
 <dl>
 
-<dt>22 August 2024: Trino Community Broadcast 64 - Control with OPA</dt>
-<dd>
-<a href="https://www.linkedin.com/in/sebastian-bernauer-622b95167/">Sebastian Bernauer</a>
-and <a href="https://www.linkedin.com/in/soenkeliebau/">Sönke Liebau</a>
-from <a href="{{site.url}}/users#stackable">Stackable</a> join us to
-talk about their experience with using
-<a href="{{site.url}}/ecosystem/add-on.html#open-policy-agent">Open Policy Agent</a>
-for access control with Trino.</dd>
-
 <dt>12 September 2024: Trino Community Broadcast 65 - Blistering performance with Exasol and Trino</dt>
 <dd>
 <a href="https://github.com/kaklakariada/">Christoph Pirkl</a>
