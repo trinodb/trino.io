@@ -15,6 +15,9 @@ show_hero: true
       <h3><a class="post-link" href="{{ episode.url | relative_url }}">{{ episode.title | escape }}</a></h3>
       <span class="post-meta">{{ episode.date | date: "%b %-d, %Y" }}
       </span>
+      {% if episode.introduction != nil %}
+        <p>{{episode.introduction}}</p>
+      {% endif %}
       <ul>
             {% for section in episode.sections limit: 5 %}
             <li>

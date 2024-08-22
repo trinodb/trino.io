@@ -72,6 +72,9 @@ join the [Trino slack]({{site.url}}/slack) and contact us there.
     <div class="latest-entry-text-container">
       <h3><a class="post-link" href="{{ latestEpisode.url | relative_url }}">{{ latestEpisode.title | escape }}</a></h3>
       <span class="post-meta">{{ latestEpisode.date | date: "%b %-d, %Y" }}</span>
+      {% if latestEpisode.introduction != nil %}
+        <p>{{latestEpisode.introduction}}</p>
+      {% endif %}
       <ul>
       {% for section in latestEpisode.sections %}
         <li>
@@ -110,6 +113,9 @@ join the [Trino slack]({{site.url}}/slack) and contact us there.
   <div class="post-entry card">
     <h5><a class="post-link" href="{{ episode.url | relative_url }}">{{ episode.title | escape }}</a></h5>
     <span class="post-meta">{{ episode.date | date: "%b %-d, %Y" }}</span>
+    {% if episode.introduction != nil %}
+      <p>{{episode.introduction}}</p>
+    {% endif %}
     <ul>
     {% for section in episode.sections limit:5 %}
       <li>
