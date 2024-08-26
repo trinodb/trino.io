@@ -22,22 +22,14 @@ title: Distributed SQL query engine for big data
 </div>
 
 <div class="trino-summit-banner">
-  <div class="row">
-    <div class="col-1"></div>
-    <div class="col-6" style="text-align: center;">
-      <p>
-        <h1 style="color: #FFFFFF;">Trino Fest 2024</h1>
-         <h3 style="color: #FFFFFF; padding-bottom: 1rem;">Read the recap, look at the slides, and watch video recordings:</h3>
-        <div style="padding-bottom: 1rem">
-          <a class="btn btn-orange" style="display: inline-grid;"
-          href="{% post_url 2024-06-24-trino-fest-recap %}" target="_blank">Check it out now!</a>
-        </div>
-      </p>
+  <div class="trino-summit-content">
+    <img src="/assets/images/trino-summit-logo.png" class="trino-summit-logo" />
+    <h3>December 11th and 12th, 2024</h3>
+    <div class="card-deck spacer-30">
+        <a class="btn trino-summit-button" href="https://www.starburst.io/info/trino-summit-2024/?utm_medium=trino&utm_source=website&utm_campaign=NORAM-FY25-Q4-CM-Trino-Summit-2024-IMC-Upgrade&utm_content=Banner" target="_blank">Register</a>
+        <a class="btn btn-pink" href="{% post_url 2024-07-11-trino-summit-2024-call-for-speakers %}">Learn More</a>
     </div>
-    <div class="col-4" style="display: flex; align-items: center;">
-      <img src="/assets/blog/trino-fest-2024/trino-fest-banner-image.png" width="100%">
-    </div>
-    <div class="col-1"></div>
+    <img src="/assets/images/trino-summit-banner-peek.png" class="trino-summit-peek">
   </div>
 </div>
 
