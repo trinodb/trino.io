@@ -20,13 +20,6 @@ interesting developments in the ecosystem around Trino.
 ## Upcoming episodes
 
 <dl>
-
-<dt>12 September 2024: Trino Community Broadcast 65 - Performance boosts</dt>
-<dd>
-We chat about Trino 457, the arrival of the use of enhanced compression and 
-decompression, and the upcoming change to deactivate the Hadoop file system usage.
-</dd>
-
 <dt>3 October 2024: Trino Community Broadcast 66 - Wren AI and Trino</dt>
 
 <dd>
