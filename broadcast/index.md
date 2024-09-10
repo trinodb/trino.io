@@ -21,7 +21,21 @@ interesting developments in the ecosystem around Trino.
 
 <dl>
 
-<dt>12 September 2024: Trino Community Broadcast 65 - Blistering performance with Exasol and Trino</dt>
+<dt>12 September 2024: Trino Community Broadcast 65 - Performance boosts</dt>
+<dd>
+We chat about Trino 457, the arrival of the use of enhanced compression and 
+decompression, and the upcoming change to deactivate the Hadoop file system usage.
+</dd>
+
+<dt>3 October 2024: Trino Community Broadcast 66 - Wren AI and Trino</dt>
+
+<dd>
+William Chang, CTO of <a href="https://www.getwren.ai/">Wren AI</a> and 
+Himanshu Mendapra, <a href="https://github.com/Canner/WrenAI/pull/535">contributor
+of the Trino support</a>, join us to talk about Wren AI and using Wren AI with Trino.
+</dd>
+
+<dt>24 October 2024: Trino Community Broadcast 67 - Blistering performance with Exasol and Trino</dt>
 <dd>
 <a href="https://github.com/kaklakariada/">Christoph Pirkl</a>
 and <a href="https://www.linkedin.com/in/thomas-bestfleisch/">Thomas Bestfleisch</a>
