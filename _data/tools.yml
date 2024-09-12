@@ -1595,6 +1595,21 @@
       url: https://www.youtube.com/watch?v=RutbCY8i22Q
     - urltext: Trino Community Broadcast 56 - The vast possibilities of VAST and Trino
       url: /episodes/56.html
+- name: VSCode
+  anchor: vscode
+  category: client
+  logo: /assets/images/logos/vscode.png
+  logosmall: /assets/images/logos/vscode-small.png
+  description: |
+    Visual Studio Code (VSCode) is a free, open-source editor by Microsoft
+    with features such as syntax highlighting, IntelliSense, code navigation,
+    and built-in debugging for developers. With extensions it can also work as
+    a SQL client.
+  links:
+    - urltext: Visual Studio Code
+      url:  https://code.visualstudio.com/
+    - urltext: sqltools-trino-driver
+      url: https://github.com/regadas/sqltools-trino-driver
 - name: Workload Analyzer
   anchor: workload-analyzer
   category: add-on
@@ -1622,21 +1637,6 @@
       url:  https://www.getwren.ai/
     - urltext: Trino as Wren AI data source
       url: https://docs.getwren.ai/oss/guide/connect/trino
-- name: VSCode
-  anchor: vscode
-  category: client
-  logo: /assets/images/logos/vscode.png
-  logosmall: /assets/images/logos/vscode-small.png
-  description: |
-    Visual Studio Code (VSCode) is a free, open-source editor by Microsoft
-    with features such as syntax highlighting, IntelliSense, code navigation,
-    and built-in debugging for developers. With extensions it can also work as
-    a SQL client.
-  links:
-    - urltext: Visual Studio Code
-      url:  https://code.visualstudio.com/
-    - urltext: sqltools-trino-driver
-      url: https://github.com/regadas/sqltools-trino-driver
 - name: yanagishima
   anchor: yanagishima
   category: client
