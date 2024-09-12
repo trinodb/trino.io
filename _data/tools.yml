@@ -1609,6 +1609,19 @@
       url: https://github.com/varadaio/presto-workload-analyzer
     - urltext: Installation instructions
       url: https://github.com/varadaio/presto-workload-analyzer/blob/main/INSTALL.md
+- name: Wren AI
+  anchor: wren-ai
+  category: client
+  logo: /assets/images/logos/wren-ai.png
+  logosmall: /assets/images/logos/wren-ai-small.png
+  description: |
+    Wren AI is a SQL AI Agent for data teams to get results and insights faster by
+    asking business questions without writing SQL.
+  links:
+    - urltext: Wren AI
+      url:  https://www.getwren.ai/
+    - urltext: Trino as Wren AI data source
+      url: https://docs.getwren.ai/oss/guide/connect/trino
 - name: VSCode
   anchor: vscode
   category: client
