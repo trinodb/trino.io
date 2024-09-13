@@ -48,9 +48,9 @@ join the [Trino slack]({{site.url}}/slack) and contact us there.
 
 ## Hosts
 
-- Brian Olsen [@bitsondatadev](https://twitter.com/bitsondatadev)
-- [Cole Bowden](https://www.linkedin.com/in/cole-m-bowden)
-- Manfred Moser [@simpligility](https://twitter.com/simpligility)
+- [Manfred Moser](https://www.linkedin.com/in/manfredmoser), main organizer and host
+- Brian Olsen [bitsondatadev](https://github.com/bitsondatadev), co-host
+- [Cole Bowden](https://www.linkedin.com/in/cole-m-bowden), co-host
 
 ## Watch or listen
 
