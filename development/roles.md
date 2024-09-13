@@ -133,6 +133,12 @@ An Apache Hive committer did an excellent write up on their process and much of
 this aligns with our philosophy on maintainers.
 [Read about it](https://cwiki.apache.org/confluence/display/Hive/BecomingACommitter).
 
+Trino maintainers typically focus on the core trino repository, but many also
+work across [other projects in the trinodb
+organization](https://github.com/orgs/trinodb/repositories) and upstream projects
+such as [airlift](https://github.com/airlift/airlift), and assist with the
+[trinodb subprojects](#subprojects).
+
 The following community members are Trino maintainers:
 
 <table style="width: 30%">
