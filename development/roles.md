@@ -257,26 +257,32 @@ technologies.
 
 The following subproject repositories and subproject maintainers are configured:
 
-* [aws-proxy]({{site.github_org_url}}/aws-proxy)
-  * Cristian Osiac [<i class="fab fa-github"></i> mosiac1](https://github.com/mosiac1)
-  * Jordan Zimmerman [<i class="fab fa-github"></i> Randgalt](https://github.com/Randgalt)
-  * Pablo Arteaga [<i class="fab fa-github"></i> vagaerg](https://github.com/vagaerg)
-* [charts]({{site.github_org_url}}/charts)
-  * Jan Waś [<i class="fab fa-github"></i> nineinchnick](https://github.com/nineinchnick)
-* [grafana-trino]({{site.github_org_url}}/grafana-trino)
-  * Jan Waś [<i class="fab fa-github"></i> nineinchnick](https://github.com/nineinchnick)
-* [trino.io]({{site.github_org_url}}/trino.io)
-  * Brian Olsen [<i class="fab fa-github"></i> bitsondatadev](https://github.com/bitsondatadev)
-  * Cole Bowden [<i class="fab fa-github"></i> colebow](https://github.com/colebow)
-* [trino-gateway]({{site.github_org_url}}/trino-gateway)
-  * Jaeho Yoo [<i class="fab fa-github"></i> Chaho12](https://github.com/Chaho12)
-  * Star Poon [<i class="fab fa-github"></i> oneonestar](https://github.com/oneonestar)
-  * Vishal Jadhav [<i class="fab fa-github"></i> vishalya](https://github.com/vishalya)
-  * Will Morrison [<i class="fab fa-github"></i> willmostly](https://github.com/willmostly)
-* [trino-go-client]({{site.github_org_url}}/trino-go-client)
-  * Jan Waś [<i class="fab fa-github"></i> nineinchnick](https://github.com/nineinchnick)
-* [trino-js-client]({{site.github_org_url}}/trino-js-client)
-  * Filipe Regadas [<i class="fab fa-github"></i> regadas](https://github.com/regadas)
+[aws-proxy]({{site.github_org_url}}/aws-proxy) - Proxy for AWS S3
+* [<i class="fab fa-github"></i> mosiac1](https://github.com/mosiac1) Cristian Osiac
+* [<i class="fab fa-github"></i> Randgalt](https://github.com/Randgalt) Jordan Zimmerman
+* [<i class="fab fa-github"></i> vagaerg](https://github.com/vagaerg) Pablo Arteaga
+
+[charts]({{site.github_org_url}}/charts) - Helm charts for Trino
+* [<i class="fab fa-github"></i> nineinchnick](https://github.com/nineinchnick) Jan Waś
+
+[grafana-trino]({{site.github_org_url}}/grafana-trino) - Grafana data source plugin for Trino
+* [<i class="fab fa-github"></i> nineinchnick](https://github.com/nineinchnick) Jan Waś
+
+[trino.io]({{site.github_org_url}}/trino.io) - Trino website
+* [<i class="fab fa-github"></i> bitsondatadev](https://github.com/bitsondatadev) Brian Olsen
+*  [<i class="fab fa-github"></i> colebow](https://github.com/colebow) Cole Bowden
+
+[trino-gateway]({{site.github_org_url}}/trino-gateway) - Trino Gateway load balancer and router
+* [<i class="fab fa-github"></i> Chaho12](https://github.com/Chaho12) Jaeho Yoo
+* [<i class="fab fa-github"></i> oneonestar](https://github.com/oneonestar) Star Poon
+* [<i class="fab fa-github"></i> vishalya](https://github.com/vishalya) Vishal Jadhav
+* [<i class="fab fa-github"></i> willmostly](https://github.com/willmostly) Will Morrison
+
+[trino-go-client]({{site.github_org_url}}/trino-go-client) - Trino client fo Go
+* [<i class="fab fa-github"></i> nineinchnick](https://github.com/nineinchnick) Jan Waś
+
+[trino-js-client]({{site.github_org_url}}/trino-js-client) - Trino client for Javascript
+* [<i class="fab fa-github"></i> regadas](https://github.com/regadas) Filipe Regadas
 
 
 ## Language lead
