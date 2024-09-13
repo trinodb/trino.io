@@ -257,6 +257,10 @@ technologies.
 
 The following subproject repositories and subproject maintainers are configured:
 
+* [aws-proxy]({{site.github_org_url}}/aws-proxy)
+  * Cristian Osiac [<i class="fab fa-github"></i> mosiac1](https://github.com/mosiac1)
+  * Jordan Zimmerman [<i class="fab fa-github"></i> Randgalt](https://github.com/Randgalt)
+  * Pablo Arteaga [<i class="fab fa-github"></i> vagaerg](https://github.com/vagaerg)
 * [charts]({{site.github_org_url}}/charts)
   * Jan Waś [<i class="fab fa-github"></i> nineinchnick](https://github.com/nineinchnick)
 * [grafana-trino]({{site.github_org_url}}/grafana-trino)
