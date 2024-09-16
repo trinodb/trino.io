@@ -5,7 +5,17 @@ show_hero: true
 show_pagenav: true
 ---
 
-## Clients
+
+## Client drivers
+
+{% include_relative drivers-intro.md %}
+
+{% assign category="driver" %}
+{% include toolsgrid.html %}
+
+<br>
+
+## Client applications
 
 {% include_relative clients-intro.md %}
 
