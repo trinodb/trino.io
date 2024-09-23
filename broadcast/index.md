@@ -20,14 +20,6 @@ interesting developments in the ecosystem around Trino.
 ## Upcoming episodes
 
 <dl>
-<dt>3 October 2024: Trino Community Broadcast 66 - Wren AI and Trino</dt>
-
-<dd>
-William Chang, CTO of <a href="https://www.getwren.ai/">Wren AI</a> and 
-Himanshu Mendapra, <a href="https://github.com/Canner/WrenAI/pull/535">contributor
-of the Trino support</a>, join us to talk about Wren AI and using Wren AI with Trino.
-</dd>
-
 <dt>24 October 2024: Trino Community Broadcast 67 - Blistering performance with Exasol and Trino</dt>
 <dd>
 <a href="https://github.com/kaklakariada/">Christoph Pirkl</a>
