@@ -533,7 +533,7 @@
       url: https://trino.io/docs/current/connector/elasticsearch.html
 - name: Elixir
   anchor: elixir
-  category: client
+  category: driver
   logo: /assets/images/logos/elixir.png
   logosmall: /assets/images/logos/elixir-small.png
   description: |
@@ -625,7 +625,7 @@
       url: https://github.com/nineinchnick/trino-git
 - name: Go
   anchor: go
-  category: client
+  category: driver
   logo: /assets/images/logos/go.png
   logosmall: /assets/images/logos/go-small.png
   description: |
@@ -795,7 +795,7 @@
       url: https://www.ibm.com/support/pages/node/6966712
 - name: JavaScript
   anchor: javascript
-  category: client
+  category: driver
   logo: /assets/images/logos/javascript.png
   logosmall: /assets/images/logos/javascript-small.png
   description: |
@@ -812,7 +812,7 @@
       url: https://github.com/vweevers/lento
 - name: JDBC
   anchor: jdbc
-  category: client
+  category: driver
   logo: /assets/images/logos/jdbc.png
   logosmall: /assets/images/logos/jdbc-small.png
   description: |
@@ -1084,7 +1084,7 @@
       url: https://trino.io/docs/current/connector/mysql.html
 - name: ODBC
   anchor: Odbc
-  category: client
+  category: driver
   logo: /assets/images/logos/odbc.png
   logosmall: /assets/images/logos/odbc-small.png
   description: |
@@ -1292,7 +1292,7 @@
       url: https://trino.io/docs/current/admin/opentelemetry.html
 - name: Python
   anchor: python
-  category: client
+  category: driver
   logo: /assets/images/logos/python.png
   logosmall: /assets/images/logos/python-small.png
   description: |
@@ -1338,7 +1338,7 @@
       url: https://wix-incubator.github.io/quix/docs/presto
 - name: R
   anchor: r
-  category: client
+  category: driver_unofficial
   logo: /assets/images/logos/r.png
   logosmall: /assets/images/logos/r-small.png
   description: |
@@ -1396,7 +1396,7 @@
       url: https://github.com/treasure-data/trino-client-ruby
 - name: Rust
   anchor: rust
-  category: client
+  category: driver
   logo: /assets/images/logos/rust.png
   logosmall: /assets/images/logos/rust-small.png
   description: |
