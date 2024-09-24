@@ -7,13 +7,21 @@ show_pagenav: true
 
 
 ## Client drivers
-
 {% include_relative drivers-intro.md %}
 
 {% assign category="driver" %}
+#### Official Drivers
+Official drivers are maintained and ran with the support of official
+organizations.
 {% include toolsgrid.html %}
 
-<br>
+
+{% assign category="driver_unofficial" %}
+#### Community Drivers
+Community drivers are maintained by open source developers and volunteers.
+{% include toolsgrid.html %}
+
+
 
 ## Client applications
 

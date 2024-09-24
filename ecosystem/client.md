@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Clients
+title: Client applications
 show_hero: true
 show_pagenav: true
 ---
