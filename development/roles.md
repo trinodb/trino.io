@@ -289,6 +289,7 @@ The following subproject repositories and subproject maintainers are configured:
 
 [trino-js-client]({{site.github_org_url}}/trino-js-client) - Trino client for Javascript
 * [<i class="fab fa-github"></i> regadas](https://github.com/regadas) Filipe Regadas
+* [<i class="fab fa-github"></i> nineinchnick](https://github.com/nineinchnick) Jan Waś
 
 
 ## Language lead
