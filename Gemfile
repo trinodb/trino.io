@@ -14,7 +14,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate"
 end
 
-gem "webrick", "~> 1.8.1"
+gem "webrick", "~> 1.8.2"
 gem "csv"
 gem "base64"
 gem "bigdecimal"
