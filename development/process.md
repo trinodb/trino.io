@@ -109,45 +109,60 @@ requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-reque
 
 Pull requests are usually merged into `master` or `main` using the  [`rebase and
 merge`](https://docs.github.com/en/github/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges#rebase-and-merge-your-pull-request-commits)
-strategy.
+strategy to preserve the commits from the contributor and avoid adding empty
+merge commits.
+
+Reviews allow feedback from one or more maintainer and other community members,
+all helping the project as volunteers in addition to their own contributions. It
+is important to make these reviews as fast and efficient as possible, while at
+the same time enabling feedback and discussion about the technical approach and
+relevant details. Reviews are time consuming and it is in the best interest for
+the contributor to keep reviews as simple as possible. The following guidelines
+are designed to help contributors.
 
 A typical pull request should strive to contain a single logical change, but not
 necessarily a single commit. Unrelated changes should generally be extracted
 into their own PRs.
 
-If a pull request contains a stack of more than one commit, then popping any
-number of commits from the top of the stack, should not break the PR, meaning
-that every commit should build and pass all tests.
+If a pull request contains a stack of commits, then popping any number of
+commits from the top of the stack, should not break the PR, meaning that every
+commit should build and pass all tests.
 
 Commit messages and history are important as well, because they are used by
 other developers to keep track of the motivation behind changes. Keep logical
-diffs grouped together in separate commits and order commits in a way that
-explains by itself the evolution of the change. Rewriting and reordering commits
-is a natural part of the review process.
+changes together and order commits in a way that explains the evolution of the
+change by itself. Rewriting and reordering commits is a natural part of the
+review process.
 
 Mechanical changes like refactoring, renaming, removing duplication, extracting
 helper methods, static imports should be kept separated from logical and
-functional changes like adding a new feature or modifying code behaviour. This
-makes reviewing the code much easier and reduces the chance of introducing
-unintended changes in behavior.
+functional changes and also be broken up into separate commits. This makes
+reviewing the code much easier and reduces the chance of introducing unintended
+changes in behavior.
 
 Whenever in doubt on splitting a change into a separate commit, ask yourself the
 following question: if all other work in the PR needs to be reverted after
 merging to master for some objective reason, such as a bug has been discovered,
 is it worth keeping that commit still in master.
 
-When writing a commit message, follow the seven rules of a great commit message:
+When writing a commit message, follow the
+[seven rules of a great commit message](https://chris.beams.io/posts/git-commit/):
 
 * Separate subject from body with a blank line.
 * Limit the subject line to 50 characters.
-* Capitalize the subject line
+* Capitalize the subject line.
 * Do not end the subject line with a period.
-* Use the imperative mood in the subject line.
+* Use the [imperative mood, as used in a
+  command or request](https://en.wikipedia.org/wiki/Imperative_mood), in the subject line.
 * Wrap the body at 72 characters.
 * Use the body to explain what and why versus how.
 
 Read the [full commit message guide](https://chris.beams.io/posts/git-commit/)
 for more details and examples.
+
+The rapid evolution of the project and therefore the content of the default
+branch also means that contributors must rebase their pull request branch
+regularly and ensure no conflicts prevent merging.
 
 ## Release note guidelines <a name="release-note"></a>
 
@@ -173,9 +188,14 @@ In each section different release notes entries are sorted:
    or similar wording
 3. **Bug fixes**: Start with `Fix` or `Prevent`  or similar wording
 
-Use imperative present to describe change. When a change adds configuration, add
-the configuration details after the description of the functionality. Detail the
-property names and their types. Consider linking to new documentation.
+Use [imperative present tense, as used in a command or
+request](https://en.wikipedia.org/wiki/Imperative_mood) to describe the change.
+For example, use `Add` or `Fix` or `Improve`, not `Added` or `Fixed` or
+`Improved`.
+
+When a change adds configuration, include the configuration details after the
+description of the functionality. Detail the property names and their types.
+Consider linking to new documentation.
 
 View older release notes for example and strive for consistency with other
 release notes and release notes entries.
@@ -185,11 +205,21 @@ especially if more information is needed.
 
 Release notes entries that prevent application start up with old configuration
 or otherwise change application behavior significantly must be marked as
-breaking changes. Details vary based on the documentation system, such as Sphinx
-in Trino and mkdocs in Trino Gateway.
+breaking changes. 
+
+The specific syntax for the release notes, breaking changes, links and other
+aspects, is dependent on the used documentation system for each project. For
+example, Trino uses markdown files with Sphinx, while Trino Gateway uses
+markdown files with mkdocs. Other projects use plain markdown files in the
+repository without a documentation system.
 
 Follow the guidelines for the documentation system in terms of formatting code,
-links, or keywords.
+links, or keywords. Details are typically available in a README file or as part
+of the documentation itself.
+
+Release notes should also follow the documentation style guide used for all
+Trino documentation - the [Google developer documentation style
+guide](https://developers.google.com/style).
 
 ## Maintainer processes
 
