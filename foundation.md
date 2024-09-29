@@ -2,6 +2,7 @@
 layout: default
 title: Trino Software Foundation
 show_hero: true
+show_pagenav: true
 ---
 <div class="container">
 <div class="row spacer-60">
@@ -17,6 +18,10 @@ dedicated to preserving the
 The current board members of the Trino Software Foundation are Dain Sundstrom,
 David Phillips, and Martin Traverso.
 
+
+Add contact details, Delaware corp?, number or so, address?
+
+
 ## Open community
 
 The Trino Software Foundation supports a diverse, open, collaborative, community
@@ -25,6 +30,12 @@ participate, whether it be via code contributions, suggestions for improvements,
 or even bug reports.
 
 Everyone is invited to [join the community](./slack.html).
+
+### Commitment to Open Source
+
+stick with Apache license
+
+no relicensing ever
 
 ## Responsibilities
 
@@ -45,10 +56,14 @@ Software Foundation is responsible for reviewing, approving, and tracking all
 signed CLAs. This ensures that all code contributed to Trino is fully under the
 Apache License.
 
+Add more detail here about copyright stays with contributor, same as in Apache Software Foundation.
+
 ### Ownership
 
 The Trino brand and trademarks are owned and managed by the Trino Software
 Foundation.
+
+Also Commander Bun Bun and branding
 
 </div></div>
 </div>
