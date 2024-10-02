@@ -175,6 +175,25 @@
       url: https://trino.io/episodes/19.html
     - urltext: BlueCat interview at Trino meetup
       url: https://youtu.be/7P1qqhgzNbA
+- name: Canner
+  highlight: false
+  anchor: canner
+  logo: /assets/images/logos/canner.png
+  logosmall: /assets/images/logos/canner-small.png
+  testimonial: |
+    Canner offers their universal semantic layer to connect and govern across
+    data sources and applications in the form of the product Canner Enterprise.
+    Built on top of Trino, it bridges the gap between data and business teams.
+    
+    In addition, Canner offers Wren AI as a SQL AI solution for data teams that
+    allows you to create and run SQL queries in a simple dialog with Wren AI.
+  links:
+    - urltext: View the Canner website
+      url: https://cannerdata.com/
+    - urltext: Wren AI
+      url: https://www.getwren.ai/     
+    - urltext: Interview about Canner and Wren AI in Trino Comunity Broadcast 66
+      url: https://trino.io/episodes/66.html
 - name: Chasing Securities
   highlight: false
   anchor: chasing_securities
