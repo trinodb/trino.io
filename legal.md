@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Legal notices"
-show_hero: true 
+show_hero: true
+show_pagenav: true
 ---
 <div class="container">
 <div class="row spacer-60">
@@ -11,8 +12,8 @@ show_hero: true
 
 ## License
 
-Trino is open source software licensed under the
-[Apache License 2.0]({{site.github_repo_url}}/blob/master/LICENSE).
+Trino and related projects in the trinodb organization are open source software
+licensed under the [Apache License 2.0]({{site.github_repo_url}}/blob/master/LICENSE).
 
 ## Code
 
@@ -21,7 +22,7 @@ Source code is available at <{{site.github_org_url}}>.
 ## Governance
 
 The project is run by volunteer contributions and supported by the [Trino
-Software Foundation]({{site.url}}/foundation.html).
+Software Foundation](./foundation.html).
 
 ## Trademarks
 
@@ -56,6 +57,10 @@ following trademark owners and names:
 
   <dt><a href="https://www.starburst.io/">Starburst Data</a></dt>
   <dd>Starburst, Starburst Data, and other names</dd>
+  
+  <dt>Trino Software Foundation</dt>
+  <dd>"trino" name, "trinodb" name, logo variations, and the mascot "Commander Bun Bun" - 
+      see <a href="./foundation.html#tm">Trino Software Foundation - Ownership and trademarks</a></dd>
 </dl>
 
 </div></div>

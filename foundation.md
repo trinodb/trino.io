@@ -2,6 +2,7 @@
 layout: default
 title: Trino Software Foundation
 show_hero: true
+show_pagenav: true
 ---
 <div class="container">
 <div class="row spacer-60">
@@ -45,10 +46,22 @@ Software Foundation is responsible for reviewing, approving, and tracking all
 signed CLAs. This ensures that all code contributed to Trino is fully under the
 Apache License.
 
-### Ownership
+### Ownership and trademarks <a name="tm"></a>
 
 The Trino brand and trademarks are owned and managed by the Trino Software
-Foundation.
+Foundation. Assets includes the "trino" name, the "trinodb" name, the logo
+variations, and the name and likeness of the mascot, "Commander Bun Bun":
+
+<div>
+<img src="{{site.baseurl}}/assets/trino-og.png" height="200">
+<img src="{{site.baseurl}}/assets/trino-dark.png" height="200">
+<img src="{{site.baseurl}}/assets/images/trino-logo/cbb.svg" height="200">
+</div>
+<br />
+Further variants are available with the
+[website source code](https://github.com/trinodb/trino.io/tree/master/assets) 
+and the
+[presentations source code](https://github.com/trinodb/presentations/tree/main/assets).
 
 </div></div>
 </div>
