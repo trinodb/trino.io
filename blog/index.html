@@ -19,7 +19,7 @@ show_pagenav: false
             <div class="blog-readmore"><a href="{{ post.url }}">Read more &rarr;</a></div>
           </div>
           <div>
-            <img src="{{ post.image | default: '/assets/trino-og.png' }}">
+            <a href="{{ post.url }}"><img src="{{ post.image | default: '/assets/trino-og.png' }}"></a>
           </div>
         </div>
       {% endfor %}
