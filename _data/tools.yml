@@ -1610,6 +1610,20 @@
       url:  https://code.visualstudio.com/
     - urltext: sqltools-trino-driver
       url: https://github.com/regadas/sqltools-trino-driver
+- name: waii
+  anchor: waii
+  category: client
+  logo: /assets/images/logos/waii.png
+  logosmall: /assets/images/logos/waii-small.png
+  description: |
+    Waii helps you build more intuitive data products and applications with the
+    world's most accurate text-to-sql, text-to-chart, and conversational
+    business intelligence APIs.
+  links:
+    - urltext: waii
+      url:  https://www.waii.ai/
+    - urltext: Tutorial for using waii with Trino
+      url: https://doc.waii.ai/deployment/docs/trino-onboarding
 - name: Workload Analyzer
   anchor: workload-analyzer
   category: add-on
