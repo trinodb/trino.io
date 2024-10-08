@@ -1610,6 +1610,18 @@
       url:  https://code.visualstudio.com/
     - urltext: sqltools-trino-driver
       url: https://github.com/regadas/sqltools-trino-driver
+- name: waii
+  anchor: waii
+  category: client
+  logo: /assets/images/logos/waii.png
+  logosmall: /assets/images/logos/waii-small.png
+  description: |
+    tbd
+  links:
+    - urltext: waii
+      url:  https://www.waii.ai/
+    - urltext: Adding Trino connection to waii
+      url: https://doc.waii.ai/deployment/docs/trino-connection
 - name: Workload Analyzer
   anchor: workload-analyzer
   category: add-on
