@@ -24,15 +24,15 @@ title: Trino Community
         </div>
         <div class="slack-stats-container">
           <div class="community-stats">
-            <span>11300+</span>
+            <span>13k+</span>
             Slack members
           </div>
           <div class="community-stats">
-            <span>8900+</span>
+            <span>10k+</span>
             GitHub stars
           </div>
           <div class="community-stats">
-            <span>750+</span>
+            <span>775+</span>
             Contributors
           </div>
           <!-- see https://github.com/orgs/trinodb/people -->
