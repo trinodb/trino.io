@@ -718,13 +718,12 @@ table td {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 180px;
+  height: 260px;
   margin-bottom: 1rem;
   padding: 2rem;
   color: #ffffff;
   font-family: 'Alata', sans-serif;
   font-size: 1.5rem;
-  line-height: 1;
 }
 
 .event-third-block > div {
