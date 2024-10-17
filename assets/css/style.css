@@ -225,8 +225,13 @@ ul.blog-tags {margin:24px 0;}
 .orange-gradient { background: linear-gradient(40deg, #f8b600, #F88600) !important;}
 .btn-pink {
     color: #fff;
-    background-color: #dd00a1 !important;
+    background-color: var(--pink) !important;
 }
+.btn-yellow {
+  color: #fff;
+  background-color: var(--yellow) !important;
+}
+
 .btn.btn-md {
   font-size: 0.875rem;
 }
