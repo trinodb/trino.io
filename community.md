@@ -79,7 +79,6 @@ title: Trino Community
           </div>
         </a>
         <div class="events-thirds-container">
-          <a href="https://www.meetup.com/pro/trino-community/" class="event-third-block"></a>
           <a href="https://www.youtube.com/c/trinodb" class="event-third-block">
             <div>Watch the latest videos and past events from the Trino community</div>
             <img src="../assets/images/community/youtube.png" alt="trinodb on YouTube" />
@@ -87,7 +86,7 @@ title: Trino Community
         </div>
       </div>
       <h2>Upcoming events</h2>
-      Community events such as Trino Meetups, Trino Community Broadcasts, and other Trino
+      Community events such as Trino contributor calls, Trino Community Broadcasts, and other Trino
       gatherings you don't want to miss. To follow along, add this calendar by
       clicking on the "+ Google Calendar" icon at the bottom right.
       <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23dd00a1&amp;ctz=America%2FDetroit&amp;src=NDhibXJvaXVpZmg2NWJsZWNhOGxzNGhyNTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23D81B60&amp;mode=AGENDA&amp;showCalendars=0&amp;showTz=1&amp;showTabs=0&amp;showPrint=0" style="border:solid 1px #777; margin-bottom: 2rem;" width="100%" height="240" frameborder="0" scrolling="no"></iframe>
