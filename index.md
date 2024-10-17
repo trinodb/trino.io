@@ -15,7 +15,8 @@ title: Distributed SQL query engine for big data
         <p class="mr-5 mb-5 lead">Fast distributed SQL query engine
         for big data analytics that helps you explore your data universe.</p>
         <a class="btn btn-pink" href="./download.html">Download Trino</a>
-        <a class="btn btn-orange" href="./slack.html">Join the community</a>
+        <a class="btn btn-orange" href="./slack.html">Chat with the community</a>
+        <a class="btn btn-yellow" href="./community.html#events">Join Trino events</a>
         </div>
     </div>
   </div>
