@@ -110,11 +110,6 @@ show_hero: true
 
 * **Chat on Slack:** [{{site.slack_fqdn}}](slack.html)
 * **Issues:** [GitHub issues]({{site.github_repo_url}}/issues)
-* **Twitter:**
-  [@{{site.twitter_user}}](https://twitter.com/{{site.twitter_user}})
-  [#{{site.twitter_hashtag}}](https://twitter.com/search?q=%23{{site.twitter_hashtag}})
-  [#prestosql](https://twitter.com/search?q=%23prestosql)
-  [#prestodb](https://twitter.com/search?q=%23prestodb)
 * **Live show and podcast:** [Trino Community Broadcast](/broadcast/)
 * **YouTube:** [Trino Channel](https://www.youtube.com/c/{{site.youtube_channel}})
 

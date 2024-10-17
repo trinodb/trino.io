@@ -31,6 +31,3 @@ Andrii also gives an update on the work in progress with fault-tolerant
 execution, where we are today, and what's planned for the near future. The
 meetup wraps up a with an attendee Q&A at the end. If you'd like to learn more,
 go check out the talk!
-
-If you'd like to attend an in-person or virtual Trino meetup, go check out
-[our meetup page](https://www.meetup.com/pro/trino-community/) for more info.
