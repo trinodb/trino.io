@@ -7,18 +7,21 @@ show_pagenav: true
 
 
 ## Client drivers
+
 {% include_relative drivers-intro.md %}
 
-{% assign category="driver" %}
-#### Official Drivers
-Official drivers are maintained and ran with the support of official
-organizations.
+{% assign owner="trinodb" %}
+
+#### Official drivers
+Official drivers are maintained by the Trino project community..
+
 {% include toolsgrid.html %}
 
+{% assign owner="other" %}
 
-{% assign category="driver_unofficial" %}
-#### Community Drivers
-Community drivers are maintained by open source developers and volunteers.
+#### Other drivers
+Community drivers are developed and supported by open-source contributors.
+
 {% include toolsgrid.html %}
 
 

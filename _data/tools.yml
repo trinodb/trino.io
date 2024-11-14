@@ -625,7 +625,8 @@
       url: https://github.com/nineinchnick/trino-git
 - name: Go
   anchor: go
-  category: driver
+  category: official
+  owner: trinodb
   logo: /assets/images/logos/go.png
   logosmall: /assets/images/logos/go-small.png
   description: |
@@ -795,7 +796,8 @@
       url: https://www.ibm.com/support/pages/node/6966712
 - name: JavaScript
   anchor: javascript
-  category: driver
+  category: official
+  owner: trinodb
   logo: /assets/images/logos/javascript.png
   logosmall: /assets/images/logos/javascript-small.png
   description: |
@@ -812,7 +814,8 @@
       url: https://github.com/vweevers/lento
 - name: JDBC
   anchor: jdbc
-  category: driver
+  category: official
+  owner: trinodb
   logo: /assets/images/logos/jdbc.png
   logosmall: /assets/images/logos/jdbc-small.png
   description: |
@@ -1292,7 +1295,8 @@
       url: https://trino.io/docs/current/admin/opentelemetry.html
 - name: Python
   anchor: python
-  category: driver
+  category: official
+  owner: trinodb
   logo: /assets/images/logos/python.png
   logosmall: /assets/images/logos/python-small.png
   description: |
@@ -1338,7 +1342,8 @@
       url: https://wix-incubator.github.io/quix/docs/presto
 - name: R
   anchor: r
-  category: driver_unofficial
+  category: official
+  owner: other
   logo: /assets/images/logos/r.png
   logosmall: /assets/images/logos/r-small.png
   description: |
