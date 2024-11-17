@@ -1595,6 +1595,23 @@
       url: https://www.youtube.com/watch?v=RutbCY8i22Q
     - urltext: Trino Community Broadcast 56 - The vast possibilities of VAST and Trino
       url: /episodes/56.html
+- name: Vertica
+  anchor: vertica
+  category: data-source
+  logo: /assets/images/logos/vertica.png
+  logosmall: /assets/images/logos/vertica-small.png
+  description: |
+    Vertica, also known as the OpenText Analytics Database, is a column-oriented
+    analytic database designed to manage large, fast-growing volumes of data, with
+    fast query perfomacne for data warehouses and other query-intensive applications.
+
+    Use a Vertica database as a data source in Trino by configuring a  catalog with the 
+    Vertica connector.
+  links:
+    - urltext: Vertica
+      url:  https://www.opentext.com/products/analytics-database
+    - urltext: Vertica connector documentation
+      url: https://trino.io/docs/current/connector/vertica.html
 - name: VSCode
   anchor: vscode
   category: client
