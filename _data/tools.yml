@@ -799,17 +799,12 @@
   logo: /assets/images/logos/javascript.png
   logosmall: /assets/images/logos/javascript-small.png
   description: |
-    Applications using JavaScript, TypeScript, Node.js, and related
-    frameworks can use the trino-js-client, presto-client-node, or lento projects
-    to connect to a Trino cluster and receive the results of the submitted
-    queries.
+    Applications using JavaScript, TypeScript, Node.js, and related frameworks
+    can use the trino-js-client to connect to a Trino cluster and receive the
+    results of the submitted queries.
   links:
     - urltext: trino-js-client
-      url: https://github.com/regadas/trino-js-client
-    - urltext: presto-client-node
-      url: https://github.com/tagomoris/presto-client-node
-    - urltext: lento
-      url: https://github.com/vweevers/lento
+      url: https://github.com/trinodb/trino-js-client
 - name: JDBC
   anchor: jdbc
   category: client
