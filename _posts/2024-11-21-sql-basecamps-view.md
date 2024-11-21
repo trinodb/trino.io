@@ -58,7 +58,7 @@ If you think those two sessions were great, how about two days worth of great
 presentations at Trino Summit? 
 
 <div class="card-deck spacer-30">
-    <a class="btn btn-orange" href="https://www.starburst.io/info/sql-basecamps-before-trino-summit/?utm_medium=trino&utm_source=website&utm_campaign=NORAM-FY25-Q4-SQL-Basecamps-Before-Trino-Summit&utm_content=blog-1">
+    <a class="btn btn-orange" href="https://www.starburst.io/info/trino-summit-2024/?utm_medium=trino&utm_source=website&utm_campaign=NORAM-FY25-Q4-CM-Trino-Summit-2024&utm_content=sql-series-recap-blog">
         Register now
     </a>
 </div>
