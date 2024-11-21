@@ -20,7 +20,7 @@ interesting developments in the ecosystem around Trino.
 ## Upcoming episodes
 
 <dl>
-<dt>21 November 2024: Trino Community Broadcast 68</dt>
+<dt>Dec 2024: Trino Community Broadcast 68</dt>
 <dd>Topic to be determined - contact us if you are interested to join as a guest</dd>
 </dl>
 
