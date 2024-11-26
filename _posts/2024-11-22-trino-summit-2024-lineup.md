@@ -101,6 +101,9 @@ adoption and usage:
   [Graylog](https://graylog.org/)
 * **Empowering HugoBank's digital services through Trino** presented by Mustafa
   Mirza and Razi Moosa from [HugoBank](https://www.hugobank.com.pk)
+* **Optimizing Trino with Alluxio Caching: Lessons from Production-Scale
+  Deployments** presented by Bin Fan from
+  [Alluxio]({{site.baseurl}}/ecosystem/add-on.html#alluxio)
 * **How Trino and dbt unleashed many-to-many interoperability at Bazaar**
   presented by Shahzad Siddiqi, Siddique Ahmad, and Usman Ghani from
   [Bazaar]({{site.baseurl}}/users.html#bazaar_technologies)
