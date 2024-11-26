@@ -13,9 +13,9 @@
     Enterprise AI.
 
     Alluxio provides an open source object storage caching solution that is the
-    base of the file system cache support in Trino. The commercial platform with
-    its distributed block-level read/write caching functionality can be used for
-    further integration.
+    base of the file system cache and the Alluxio file system support in Trino.
+    The commercial platform with its distributed block-level read/write caching
+    functionality can be used for further integration.
   links:
     - urltext: Alluxio
       url: https://www.alluxio.io/
@@ -23,6 +23,8 @@
       url: https://www.alluxio.io/trino/
     - urltext: Trino file system cache documentation
       url: https://trino.io/docs/current/object-storage/file-system-cache.html
+    - urltext: Trino Alluxio file system support documentation
+      url: https://trino.io/docs/current/object-storage/file-system-alluxio.html
     - urltext: Documentation for Alluxio platform with Trino
       url: https://docs.alluxio.io/ee/user/stable/en/compute/Trino.html
 - name: Amazon Kinesis
