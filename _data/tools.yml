@@ -22,9 +22,9 @@
     - urltext: Interactive analytics with Trino and Alluxio product information
       url: https://www.alluxio.io/trino/
     - urltext: Trino file system cache documentation
-      url: https://trino.io/docs/current/object-storage/file-system-cache.html
+      url: /docs/current/object-storage/file-system-cache.html
     - urltext: Trino Alluxio file system support documentation
-      url: https://trino.io/docs/current/object-storage/file-system-alluxio.html
+      url: /docs/current/object-storage/file-system-alluxio.html
     - urltext: Documentation for Alluxio platform with Trino
       url: https://docs.alluxio.io/ee/user/stable/en/compute/Trino.html
 - name: Amazon Kinesis
@@ -45,7 +45,7 @@
     - urltext: Amazon Kinesis
       url: https://aws.amazon.com/kinesis/
     - urltext: Kinesis connector documentation
-      url: https://trino.io/docs/current/connector/kinesis.html
+      url: /docs/current/connector/kinesis.html
 - name: Amazon Redshift
   anchor: amazon-redshift
   category: data-source
@@ -63,7 +63,7 @@
     - urltext: Amazon Redshift
       url: https://aws.amazon.com/redshift/
     - urltext: Redshift connector documentation
-      url: https://trino.io/docs/current/connector/redshift.html
+      url: /docs/current/connector/redshift.html
 - name: Apache Accumulo
   anchor: apache-accumulo
   category: data-source
@@ -79,7 +79,7 @@
     - urltext: Apache Accumulo
       url: https://accumulo.apache.org/
     - urltext: Accumulo connector documentation
-      url: https://trino.io/docs/current/connector/accumulo.html
+      url: /docs/current/connector/accumulo.html
 - name: Apache Airflow
   anchor: apache-airflow
   category: client
@@ -114,7 +114,7 @@
     - urltext: Apache Cassandra
       url: https://cassandra.apache.org/
     - urltext: Cassandra connector documentation
-      url: https://trino.io/docs/current/connector/cassandra.html
+      url: /docs/current/connector/cassandra.html
 - name: Apache DolphinScheduler
   anchor: apache-dolphinscheduler
   category: client
@@ -132,7 +132,7 @@
       url: https://dolphinscheduler.apache.org/
     - urltext: Trino swimming with the DolphinScheduler from Trino Community
         Broadcast 45
-      url: https://trino.io/episodes/45.html
+      url: /episodes/45.html
 - name: Apache Druid
   anchor: apache-druid
   category: data-source
@@ -149,10 +149,10 @@
     - urltext: Apache Druid
       url: https://druid.apache.org/
     - urltext: Druid connector documentation
-      url: https://trino.io/docs/current/connector/druid.html
+      url: /docs/current/connector/druid.html
     - urltext: Make data fluid with Apache Druid from Trino Community Broadcast
         16
-      url: https://trino.io/episodes/16.html
+      url: /episodes/16.html
 - name: Apache Hive
   anchor: apache-hive
   category: data-source
@@ -169,10 +169,10 @@
     - urltext: Apache Hive
       url: https://hive.apache.org/
     - urltext: Hive connector documentation
-      url: https://trino.io/docs/current/connector/hive.html
+      url: /docs/current/connector/hive.html
     - urltext: What is Trino and the Hive connector from Trino Community
         Broadcast 29
-      url: https://trino.io/episodes/29.html
+      url: /episodes/29.html
 - name: Apache Hudi
   anchor: apache-hudi
   category: data-source
@@ -190,10 +190,10 @@
     - urltext: Apache Hudi
       url: https://hudi.apache.org/
     - urltext: Hudi connector documentation
-      url: https://trino.io/docs/current/connector/hudi.html
+      url: /docs/current/connector/hudi.html
     - urltext: Interview with Hudi contributors from Trino Community Broadcast
         41
-      url: https://trino.io/episodes/41.html
+      url: /episodes/41.html
 - name: Apache Iceberg
   anchor: apache-iceberg
   category: data-source
@@ -211,9 +211,9 @@
     - urltext: Apache Iceberg
       url: https://iceberg.apache.org/
     - urltext: Iceberg connector documentation
-      url: https://trino.io/docs/current/connector/iceberg.html
+      url: /docs/current/connector/iceberg.html
     - urltext: Interview with Iceberg creator from Trino Community Broadcast 40
-      url: https://trino.io/episodes/40.html
+      url: /episodes/40.html
 # there are lots more from Trino Fest, Trino Summot .. need to figure out how many we are happy to have..
 - name: Apache Ignite
   anchor: apache-ignite
@@ -231,10 +231,10 @@
     - urltext: Apache Ignite
       url: https://ignite.apache.org/
     - urltext: Ignite connector documentation
-      url: https://trino.io/docs/current/connector/ignite.html
+      url: /docs/current/connector/ignite.html
     - urltext: Interview about the Ignite connector from Trino Community
         Broadcast 46
-      url: https://trino.io/episodes/46.html
+      url: /episodes/46.html
 - name: Apache Kafka
   anchor: apache-kafka
   category: data-source
@@ -251,7 +251,7 @@
     - urltext: Apache Kafka
       url: https://kafka.apache.org/
     - urltext: Kafka connector documentation
-      url: https://trino.io/docs/current/connector/kafka.html
+      url: /docs/current/connector/kafka.html
 - name: Apache Kudu
   anchor: apache-kudu
   category: data-source
@@ -267,7 +267,7 @@
     - urltext: Apache Kudu
       url: https://kudu.apache.org/
     - urltext: Kudu connector documentation
-      url: https://trino.io/docs/current/connector/kudu.html
+      url: /docs/current/connector/kudu.html
 - name: Apache Phoenix
   anchor: apache-phoenix
   category: data-source
@@ -288,7 +288,7 @@
     - urltext: Apache Phoenix
       url: https://phoenix.apache.org/
     - urltext: Phoenix connector documentation
-      url: https://trino.io/docs/current/connector/phoenix.html
+      url: /docs/current/connector/phoenix.html
 - name: Apache Pinot
   anchor: apache-pinot
   category: data-source
@@ -304,9 +304,9 @@
     - urltext: Apache Pinot
       url: https://pinot.apache.org/
     - urltext: Pinot connector documentation
-      url: https://trino.io/docs/current/connector/pinot.html
+      url: /docs/current/connector/pinot.html
     - urltext: Trino takes a sip of Pinot! from Trino Community Broadcast 13
-      url: https://trino.io/episodes/13.html
+      url: /episodes/13.html
 - name: Apache Superset
   anchor: apache-superset
   category: client
@@ -332,7 +332,7 @@
       url: https://www.youtube.com/watch?v=idk0GMxs8vE
     - urltext: Trino gets super visual with Apache Superset! from Trino
         Community Broadcast 12
-      url: https://trino.io/episodes/12.html
+      url: /episodes/12.html
 - name: CLI
   anchor: cli
   category: client
@@ -345,7 +345,7 @@
     interactions.
   links:
     - urltext: Trino CLI documentation and download
-      url: https://trino.io/docs/current/client/cli.html
+      url: /docs/current/client/cli.html
     - urltext: User guide
       url: https://docs.starburst.io/data-consumer/clients/cli.html
 - name: Clickhouse
@@ -363,7 +363,7 @@
     - urltext: Clickhouse
       url: https://clickhouse.com/
     - urltext: Clickhouse connector documentation
-      url: https://trino.io/docs/current/connector/clickhouse.html
+      url: /docs/current/connector/clickhouse.html
 - name: Coginiti
   anchor: coginiti
   category: client
@@ -385,7 +385,7 @@
     - urltext: Coginiti as enterprise SQL workspace for Trino
       url: https://www.coginiti.co/databases/trino/
     - urltext: Interview and demo with Coginiti from Trino Community Broadcast 53
-      url: https://trino.io/episodes/53.html
+      url: /episodes/53.html
 - name: Cube
   anchor: cube
   category: client
@@ -470,9 +470,9 @@
     - urltext: dbt-trino plugin
       url: https://github.com/starburstdata/dbt-trino
     - urltext: Interview with dbt developers from Trino Community Broadcast 30
-      url: https://trino.io/episodes/30.html
+      url: /episodes/30.html
     - urltext: Introduction to dbt and Trino from Trino Community Broadcast 21
-      url: https://trino.io/episodes/21.html
+      url: /episodes/21.html
 - name: DbVisualizer
   anchor: dbvisualizer
   category: client
@@ -511,10 +511,10 @@
     - urltext: Delta Lake
       url: https://delta.io/
     - urltext: Delta Lake connector documentation
-      url: https://trino.io/docs/current/connector/delta-lake.html
+      url: /docs/current/connector/delta-lake.html
     - urltext: Interview about new Delta Lake connector from Trino Community
         Broadcast 34
-      url: https://trino.io/episodes/34.html
+      url: /episodes/34.html
 - name: Elasticsearch
   anchor: elasticsearch
   category: data-source
@@ -532,7 +532,7 @@
     - urltext: Elasticsearch
       url: https://www.elastic.co/elasticsearch/
     - urltext: Elasticsearch connector documentation
-      url: https://trino.io/docs/current/connector/elasticsearch.html
+      url: /docs/current/connector/elasticsearch.html
 - name: Elixir
   anchor: elixir
   category: client
@@ -587,7 +587,7 @@
     - urltext: Exasol
       url: https://www.exasol.com/
     - urltext: Exasol connector documentation
-      url: https://trino.io/docs/current/connector/exasol.html
+      url: /docs/current/connector/exasol.html
 - name: FugueSQL
   anchor: fugue-sql
   category: client
@@ -607,7 +607,7 @@
       url: https://fugue-tutorials.readthedocs.io/tutorials/integrations/warehouses/trino.html
     - urltext: Interoperable Python and Trino for interactive workloads
         from TrinoFest 2023
-      url: https://trino.io/blog/2023/07/27/trino-fest-2023-fugue-recap
+      url: /blog/2023/07/27/trino-fest-2023-fugue-recap
 - name:  Git
   anchor: git
   category: data-source
@@ -655,7 +655,7 @@
     - urltext: Google BigQuery
       url: https://cloud.google.com/bigquery/
     - urltext: BigQuery connector documentation
-      url: https://trino.io/docs/current/connector/bigquery.html
+      url: /docs/current/connector/bigquery.html
 - name: Google Sheets
   anchor: google-sheets
   category: data-source
@@ -671,7 +671,7 @@
     - urltext: Google Sheets
       url: https://www.google.com/sheets/about/
     - urltext: Google Sheets connector documentation
-      url: https://trino.io/docs/current/connector/googlesheets.html
+      url: /docs/current/connector/googlesheets.html
 - name: Grafana
   anchor: grafana
   category: client
@@ -725,7 +725,7 @@
       url: https://docs.greatexpectations.io/docs/guides/connecting_to_your_data/database/trino/
     - urltext: Make your Trino data pipelines production ready with Great
         Expectations
-      url: https://trino.io/blog/2022/08/24/data-pipelines-production-ready-great-expectations.html
+      url: /blog/2022/08/24/data-pipelines-production-ready-great-expectations.html
 - name: Harlequin
   anchor: Harlequin
   category: client
@@ -775,10 +775,10 @@
     - urltext: Trino as Ibis backend
       url: https://ibis-project.org/backends/trino/
     - urltext: Because SQL is everywhere and so is Python from TrinoFest 2023
-      url: https://trino.io/blog/2023/07/03/trino-fest-2023-ibis.html
+      url: /blog/2023/07/03/trino-fest-2023-ibis.html
     - urltext: Trino, Ibis, and wrangling Python in the SQL ecosystem from Trino
         Community Broadcast 49
-      url: https://trino.io/episodes/49.html
+      url: /episodes/49.html
 - name: IBM Cognos Analytics
   anchor: ibm-cognos-analytics
   category: client
@@ -819,7 +819,7 @@
     by your tool vendor.
   links:
     - urltext: Trino JDBC Driver documentation
-      url: https://trino.io/docs/current/client/jdbc.html
+      url: /docs/current/client/jdbc.html
 - name: JetBrains Datagrip
   anchor: jetbrains-datagriop
   category: client
@@ -855,9 +855,9 @@
     - urltext: JMX
       url: https://www.oracle.com/technical-resources/articles/javase/jmx.html
     - urltext: Monitoring with JMX
-      url: https://trino.io/docs/current/admin/jmx.html
+      url: /docs/current/admin/jmx.html
     - urltext: JMX connector
-      url: https://trino.io/docs/current/connector/jmx.html
+      url: /docs/current/connector/jmx.html
 - name: jOOQ
   anchor: jooq
   category: add-on
@@ -877,7 +877,7 @@
     - urltext: jOOQ 3.19 release notes
       url: https://www.jooq.org/notes
     - urltext: Trino Community Broadcast 59 - Querying Trino with Java and jOOQ
-      url: https://trino.io/episodes/59.html
+      url: /episodes/59.html
 - name: Jupy SQL
   anchor: jupy-sql
   category: client
@@ -906,9 +906,9 @@
     - urltext: Kubernetes
       url: https://kubernetes.io/
     - urltext: Trino Docker container documentation
-      url: https://trino.io/docs/current/installation/containers.html
+      url: /docs/current/installation/containers.html
     - urltext: Trino Helm chart documentation
-      url: https://trino.io/docs/current/installation/kubernetes.html
+      url: /docs/current/installation/kubernetes.html
     - urltext: Trino Helm chart source with more details
       url:  https://github.com/trinodb/charts
 - name: Looker
@@ -942,7 +942,7 @@
     - urltext: MariaDB
       url: https://mariadb.org/
     - urltext: MariaDB connector documentation
-      url: https://trino.io/docs/current/connector/mariadb.html
+      url: /docs/current/connector/mariadb.html
 - name: Metabase
   anchor: metabase
   category: client
@@ -961,7 +961,7 @@
     - urltext: Metabase driver
       url: https://github.com/starburstdata/metabase-driver
     - urltext: Interview about Metabase from Trino Community Broadcast 44
-      url: https://trino.io/episodes/44.html
+      url: /episodes/44.html
 - name: Microsoft SQL Server
   anchor: sql-server
   category: data-source
@@ -980,7 +980,7 @@
     - urltext: Microsoft SQL Server
       url: https://www.microsoft.com/sql-server
     - urltext: SQL Server connector documentation
-      url: https://trino.io/docs/current/connector/sqlserver.html
+      url: /docs/current/connector/sqlserver.html
 - name: Microstrategy
   anchor: microstrategy
   category: client
@@ -1062,7 +1062,7 @@
     - urltext: MongoDB
       url: https://www.mongodb.com/
     - urltext: MongoDB connector documentation
-      url: https://trino.io/docs/current/connector/mongodb.html
+      url: /docs/current/connector/mongodb.html
 - name: MySQL
   anchor: mysql
   category: data-source
@@ -1078,7 +1078,7 @@
     - urltext: MySQL
       url: https://www.mysql.com/
     - urltext: MySQL connector documentation
-      url: https://trino.io/docs/current/connector/mysql.html
+      url: /docs/current/connector/mysql.html
 - name: ODBC
   anchor: Odbc
   category: client
@@ -1128,7 +1128,7 @@
     - urltext: OpenLineage
       url: https://openlineage.io/
     - urltext: OpenLineage event listener documentation
-      url: https://trino.io/docs/current/admin/event-listeners-openlineage.html
+      url: /docs/current/admin/event-listeners-openlineage.html
     - urltext: Enhancing data governance at Apple with OpenLineage at Trino Fest 2024
       url: https://youtu.be/A7hj1M7IYj8
 - name: Open Policy Agent
@@ -1149,7 +1149,7 @@
     - urltext: Open Policy Agent
       url: https://www.openpolicyagent.org/
     - urltext: Open Policy Agent access control documentation
-      url: https://trino.io/docs/current/security/opa-access-control.html
+      url: /docs/current/security/opa-access-control.html
     - urltext: Blog post about Open Policy Agent for Trino with videos from Trino Summit 2023
       url: http://trino.io/blog/2024/02/06/opa-arrived.html
 - name: OpenSearch
@@ -1171,7 +1171,7 @@
     - urltext: OpenSearch
       url: https://opensearch.org/
     - urltext: Elasticsearch connector documentation
-      url: https://trino.io/docs/current/connector/elasticsearch.html
+      url: /docs/current/connector/elasticsearch.html
 - name: OpenTelemetry
   anchor: opentelemetry
   category: add-on
@@ -1188,7 +1188,7 @@
     - urltext: OpenTelemetry
       url: https://opentelemetry.io/
     - urltext: Trino observability with OpenTelemetry
-      url: https://trino.io/docs/current/admin/opentelemetry.html
+      url: /docs/current/admin/opentelemetry.html
     - urltext: Trino Community Broadcast 57, Seeing clearly with OpenTelemetry
       url: /episodes/57.html
 - name: Oracle
@@ -1207,7 +1207,7 @@
     - urltext: Oracle
       url: https://www.oracle.com/database/
     - urltext: Oracle connector documentation
-      url: https://trino.io/docs/current/connector/oracle.html
+      url: /docs/current/connector/oracle.html
 - name: PopSQL
   anchor: popsql
   category: client
@@ -1222,7 +1222,7 @@
     - urltext: Connecting to Trino
       url: https://docs.popsql.com/docs/connecting-to-trino
     - urltext: Trino Community Broadcast 51 - Trino cools off with PopSQL
-      url: https://trino.io/episodes/51.html
+      url: /episodes/51.html
 - name: PostgreSQL
   anchor: postgresql
   category: data-source
@@ -1240,7 +1240,7 @@
     - urltext: PostgreSQL
       url: https://postgresql.org/
     - urltext: PostgreSQL connector documentation
-      url: https://trino.io/docs/current/connector/postgresql.html
+      url: /docs/current/connector/postgresql.html
 - name: Power BI
   anchor: power-bi
   category: client
@@ -1262,7 +1262,7 @@
     - urltext: Azure HDInsight on AKS Trino including Power BI support
       url: https://learn.microsoft.com/power-query/connectors/azure-hdinsight-on-aks-trino
     - urltext: Trino Community Broadcast 61 about the open source connector project
-      url: https://trino.io/episodes/61.html
+      url: /episodes/61.html
 - name: Prometheus
   anchor: prometheus
   category: data-source
@@ -1284,9 +1284,9 @@
     - urltext: Prometheus
       url: https://prometheus.io/docs/introduction/overview/
     - urltext: Prometheus connector documentation
-      url: https://trino.io/docs/current/connector/prometheus.html
+      url: /docs/current/connector/prometheus.html
     - urltext: OpenTelemetry integration documentation
-      url: https://trino.io/docs/current/admin/opentelemetry.html
+      url: /docs/current/admin/opentelemetry.html
 - name: Python
   anchor: python
   category: client
@@ -1303,7 +1303,7 @@
     - urltext: trino-python-client
       url: https://github.com/trinodb/trino-python-client
     - urltext: Trino Community Broadcast 12 - Trino Python client and Apache Superset
-      url: https://trino.io/episodes/12.html
+      url: /episodes/12.html
 - name: Querybook
   anchor: querybook
   category: client
@@ -1375,7 +1375,7 @@
     - urltext: Redis
       url: https://redis.io/
     - urltext: MySQL connector documentation
-      url: https://trino.io/docs/current/connector/redis.html
+      url: /docs/current/connector/redis.html
 - name: Ruby
   anchor: ruby
   category: client
@@ -1439,7 +1439,7 @@
     - urltext: SingleStore
       url: https://www.singlestore.com/
     - urltext: SingleStore connector documentation
-      url: https://trino.io/docs/current/connector/singlestore.html
+      url: /docs/current/connector/singlestore.html
 - name: Snowflake
   anchor: snowflake
   category: data-source
@@ -1459,7 +1459,7 @@
     - urltext: Snowflake
       url: https://www.snowflake.com/
     - urltext: Snowflake connector documentation
-      url: https://trino.io/docs/current/connector/snowflake.html
+      url: /docs/current/connector/snowflake.html
     - urltext: Let it snow for Trino presentation from Trino Fest 2023
       url: http://trino.io/blog/2023/07/12/trino-fest-2023-let-it-snow-recap.html
 - name: SQL Formatter
@@ -1541,9 +1541,9 @@
     - urltext: TPC
       url: https://tpc.org/
     - urltext: TPC-DS connector documentation
-      url: https://trino.io/docs/current/connector/tpcds.html
+      url: /docs/current/connector/tpcds.html
     - urltext: TPC-H connector documentation
-      url: https://trino.io/docs/current/connector/tpch.html
+      url: /docs/current/connector/tpch.html
 - name: Trino-lb
   anchor: trino-lb
   category: add-on
@@ -1572,7 +1572,7 @@
     - urltext: Many clusters and only one gateway at Trino Summit 2023
       url: https://www.youtube.com/watch?v=2qwBcKmQSn0
     - urltext: Announcement blog post
-      url: https://trino.io/blog/2023/09/28/trino-gateway
+      url: /blog/2023/09/28/trino-gateway
 - name: VAST
   anchor: vast
   category: data-source
@@ -1608,7 +1608,7 @@
     - urltext: Vertica
       url:  https://www.opentext.com/products/analytics-database
     - urltext: Vertica connector documentation
-      url: https://trino.io/docs/current/connector/vertica.html
+      url: /docs/current/connector/vertica.html
 - name: VSCode
   anchor: vscode
   category: client
