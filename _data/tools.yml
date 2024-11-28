@@ -307,6 +307,26 @@
       url: /docs/current/connector/pinot.html
     - urltext: Trino takes a sip of Pinot! from Trino Community Broadcast 13
       url: /episodes/13.html
+- name: Apache Ranger
+  anchor: apache-ranger
+  category: add-on
+  logo: /assets/images/logos/apache-ranger.png
+  logosmall: /assets/images/logos/apache-ranger-small.png
+  description: |
+    Apache Ranger is a framework to enable, monitor, and manage comprehensive
+    data security across the Hadoop platform.
+
+    The Trino plugin enables the use of Apache Ranger as authorization
+    engine for access control to catalogs, schemas, tables, and other objects in
+    Trino. Policies are defined in Apache Ranger, and Trino checks access control
+    privileges in Apache Ranger.
+  links:
+    - urltext: Apache Ranger
+      url: https://ranger.apache.org/
+    - urltext: Apache Ranger access control documentation
+      url: /docs/current/security/apache-ranger-access-control.html
+    - urltext: Announcement blog post
+      url: /blog/2024/12/02/ranger.html
 - name: Apache Superset
   anchor: apache-superset
   category: client
