@@ -20,7 +20,11 @@
 <div markdown="1">{{tool.description}}</div>
 <ul>
 {% for link in tool.links %}
+  {% if link.url contains "http" or link.url contains "https" %}
   <li><a href="{{link.url}}" target="_blank">{{link.urltext}}</a></li>
+  {% else %}
+  <li><a href="{{site.baseurl}}{{link.url}}">{{link.urltext}}</a></li>
+  {% endif %}
 {% endfor %}
 </ul>
         </div>
