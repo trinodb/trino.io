@@ -17,6 +17,9 @@
         <div class="col-md-9 col-s-12">
 <div markdown="1">### {{tool.name}}
 </div>
+{% if tool.owner == "trinodb" %}
+<p><em>Integration developed and maintained by the Trino community</em></p>
+{% endif %}
 <div markdown="1">{{tool.description}}</div>
 <ul>
 {% for link in tool.links %}
