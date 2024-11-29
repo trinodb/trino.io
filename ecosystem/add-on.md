@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Add-ons 
+title: Add-ons
+pretitle: Ecosystem
 show_hero: true
 show_pagenav: true
 ---
