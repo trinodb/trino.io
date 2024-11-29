@@ -86,7 +86,7 @@
       url: /docs/current/connector/accumulo.html
 - name: Apache Airflow
   anchor: apache-airflow
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/airflow.png
   logosmall: /assets/images/logos/airflow-small.png
@@ -123,7 +123,7 @@
       url: /docs/current/connector/cassandra.html
 - name: Apache DolphinScheduler
   anchor: apache-dolphinscheduler
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/apache-dolphinscheduler.png
   logosmall: /assets/images/logos/apache-dolphinscheduler-small.png
@@ -345,7 +345,7 @@
       url: /blog/2024/12/02/ranger.html
 - name: Apache Superset
   anchor: apache-superset
-  category: client
+  category: client-application
   logo: /assets/images/logos/superset.png
   logosmall: /assets/images/logos/superset-small.png
   description: |
@@ -371,7 +371,7 @@
       url: /episodes/12.html
 - name: CLI
   anchor: cli
-  category: client
+  category: client-application
   owner: trinodb
   logo: /assets/images/logos/cli.png
   logosmall: /assets/images/logos/cli-small.png
@@ -404,7 +404,7 @@
       url: /docs/current/connector/clickhouse.html
 - name: Coginiti
   anchor: coginiti
-  category: client
+  category: client-application
   owner: other  
   logo: /assets/images/logos/coginiti.png
   logosmall: /assets/images/logos/coginiti-small.png
@@ -427,7 +427,7 @@
       url: /episodes/53.html
 - name: Cube
   anchor: cube
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/cube.png
   logosmall: /assets/images/logos/cube-small.png
@@ -463,7 +463,7 @@
       url: https://docs.datadoghq.com/integrations/trino/
 - name: DBeaver
   anchor: DBeaver
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/dbeaver.png
   logosmall: /assets/images/logos/dbeaver-small.png
@@ -492,7 +492,7 @@
       url: https://docs.starburst.io/data-consumer/clients/dbeaver.html
 - name: dbt
   anchor: dbt
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/dbt.png
   logosmall: /assets/images/logos/dbt-small.png
@@ -518,7 +518,7 @@
       url: /episodes/21.html
 - name: DbVisualizer
   anchor: dbvisualizer
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/dbvisualizer.png
   logosmall: /assets/images/logos/dbvisualizer-small.png
@@ -581,7 +581,7 @@
       url: /docs/current/connector/elasticsearch.html
 - name: Elixir
   anchor: elixir
-  category: client
+  category: client-driver
   owner: other
   logo: /assets/images/logos/elixir.png
   logosmall: /assets/images/logos/elixir-small.png
@@ -604,7 +604,7 @@
       url: https://github.com/ndrluis/req_trino
 - name: Emacs
   anchor: emacs
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/emacs.png
   logosmall: /assets/images/logos/emacs-small.png
@@ -639,7 +639,7 @@
       url: /docs/current/connector/exasol.html
 - name: FugueSQL
   anchor: fugue-sql
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/fuguesql.png
   logosmall: /assets/images/logos/fuguesql-small.png
@@ -678,7 +678,7 @@
       url: https://github.com/nineinchnick/trino-git
 - name: Go
   anchor: go
-  category: client
+  category: client-driver
   owner: trinodb
   logo: /assets/images/logos/go.png
   logosmall: /assets/images/logos/go-small.png
@@ -728,7 +728,7 @@
       url: /docs/current/connector/googlesheets.html
 - name: Grafana
   anchor: grafana
-  category: client
+  category: client-application
   owner: trinodb
   logo: /assets/images/logos/grafana.png
   logosmall: /assets/images/logos/grafana-small.png
@@ -765,7 +765,7 @@
       url: https://datastrato.ai/docs/0.4.0/trino-connector/index
 - name: Great Expectations
   anchor: great-expectations
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/great-expectations.png
   logosmall: /assets/images/logos/great-expectations-small.png
@@ -785,7 +785,7 @@
       url: /blog/2022/08/24/data-pipelines-production-ready-great-expectations.html
 - name: Harlequin
   anchor: Harlequin
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/harlequin.png
   logosmall: /assets/images/logos/harlequin-small.png
@@ -803,7 +803,7 @@
       url: https://harlequin.sh/docs/trino/index
 - name: Hue
   anchor: hue
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/hue.png
   logosmall: /assets/images/logos/hue-small.png
@@ -818,7 +818,7 @@
       url: https://docs.gethue.com/administrator/configuration/connectors/#trino
 - name: Ibis
   anchor: ibis
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/ibis.png
   logosmall: /assets/images/logos/ibis-small.png
@@ -841,7 +841,7 @@
       url: /episodes/49.html
 - name: IBM Cognos Analytics
   anchor: ibm-cognos-analytics
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/ibm-cognos-analytics.png
   logosmall: /assets/images/logos/ibm-cognos-analytics-small.png
@@ -858,7 +858,7 @@
       url: https://www.ibm.com/support/pages/node/6966712
 - name: JavaScript
   anchor: javascript
-  category: client
+  category: client-driver
   owner: trinodb
   logo: /assets/images/logos/javascript.png
   logosmall: /assets/images/logos/javascript-small.png
@@ -871,7 +871,7 @@
       url: https://github.com/trinodb/trino-js-client
 - name: JDBC
   anchor: jdbc
-  category: client
+  category: client-driver
   owner: trinodb
   logo: /assets/images/logos/jdbc.png
   logosmall: /assets/images/logos/jdbc-small.png
@@ -885,7 +885,7 @@
       url: /docs/current/client/jdbc.html
 - name: JetBrains Datagrip
   anchor: jetbrains-datagriop
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/datagrip.png
   logosmall: /assets/images/logos/datagrip-small.png
@@ -946,7 +946,7 @@
       url: /episodes/59.html
 - name: Jupy SQL
   anchor: jupy-sql
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/jupy-sql.png
   logosmall: /assets/images/logos/jupy-sql-small.png
@@ -981,7 +981,7 @@
       url:  https://github.com/trinodb/charts
 - name: Looker
   anchor: looker
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/looker.png
   logosmall: /assets/images/logos/looker-small.png
@@ -1015,7 +1015,7 @@
       url: /docs/current/connector/mariadb.html
 - name: Metabase
   anchor: metabase
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/metabase.png
   logosmall: /assets/images/logos/metabase-small.png
@@ -1055,7 +1055,7 @@
       url: /docs/current/connector/sqlserver.html
 - name: Microstrategy
   anchor: microstrategy
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/microstrategy.png
   logosmall: /assets/images/logos/microstrategy-small.png
@@ -1087,7 +1087,7 @@
       url: https://github.com/jefflester/minitrino
 - name: Mitzu
   anchor: mitzu
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/mitzu.png
   logosmall: /assets/images/logos/mitzu-small.png
@@ -1110,7 +1110,7 @@
       url: /episodes/58.html
 - name: Mode
   anchor: mode
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/mode.png
   logosmall: /assets/images/logos/mode-small.png
@@ -1159,7 +1159,7 @@
       url: /docs/current/connector/mysql.html
 - name: ODBC
   anchor: Odbc
-  category: client
+  category: client-driver
   owner: other
   logo: /assets/images/logos/odbc.png
   logosmall: /assets/images/logos/odbc-small.png
@@ -1295,7 +1295,7 @@
       url: /docs/current/connector/oracle.html
 - name: PopSQL
   anchor: popsql
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/popsql.png
   logosmall: /assets/images/logos/popsql-small.png
@@ -1330,7 +1330,7 @@
       url: /docs/current/connector/postgresql.html
 - name: Power BI
   anchor: power-bi
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/power-bi.png
   logosmall: /assets/images/logos/power-bi-small.png
@@ -1378,7 +1378,7 @@
       url: /docs/current/admin/opentelemetry.html
 - name: Python
   anchor: python
-  category: client
+  category: client-driver
   owner: trinodb
   logo: /assets/images/logos/python.png
   logosmall: /assets/images/logos/python-small.png
@@ -1396,7 +1396,7 @@
       url: /episodes/12.html
 - name: Querybook
   anchor: querybook
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/querybook.png
   logosmall: /assets/images/logos/querybook-small.png
@@ -1412,7 +1412,7 @@
       url: https://docs.starburst.io/data-consumer/clients/querybook.html
 - name: Quix
   anchor: quix
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/quix.png
   logosmall: /assets/images/logos/quix-small.png
@@ -1427,7 +1427,7 @@
       url: https://wix-incubator.github.io/quix/docs/presto
 - name: R
   anchor: r
-  category: client
+  category: client-driver
   owner: other
   logo: /assets/images/logos/r.png
   logosmall: /assets/images/logos/r-small.png
@@ -1442,7 +1442,7 @@
       url: https://github.com/prestodb/RPresto
 - name: Redash
   anchor: redash
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/redash.png
   logosmall: /assets/images/logos/redash-small.png
@@ -1473,7 +1473,7 @@
       url: /docs/current/connector/redis.html
 - name: Ruby
   anchor: ruby
-  category: client
+  category: client-driver
   owner: other
   logo: /assets/images/logos/ruby.png
   logosmall: /assets/images/logos/ruby-small.png
@@ -1489,7 +1489,7 @@
       url: https://github.com/treasure-data/trino-client-ruby
 - name: Rust
   anchor: rust
-  category: client
+  category: client-driver
   owner: other
   logo: /assets/images/logos/rust.png
   logosmall: /assets/images/logos/rust-small.png
@@ -1582,7 +1582,7 @@
       url: https://github.com/sql-formatter-org/sql-formatter/blob/master/docs/language.md
 - name: SQuirrel SQL
   anchor: squirrel-sql
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/squirrel-sql.png
   logosmall: /assets/images/logos/squirrel-sql-small.png
@@ -1599,7 +1599,7 @@
       url: https://docs.starburst.io/data-consumer/clients/squirrel-sql.html
 - name: Tableau
   anchor: tableau
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/tableau.png
   logosmall: /assets/images/logos/tableau-small.png
@@ -1720,7 +1720,7 @@
       url: /docs/current/connector/vertica.html
 - name: VSCode
   anchor: vscode
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/vscode.png
   logosmall: /assets/images/logos/vscode-small.png
@@ -1736,7 +1736,7 @@
       url: https://github.com/regadas/sqltools-trino-driver
 - name: waii
   anchor: waii
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/waii.png
   logosmall: /assets/images/logos/waii-small.png
@@ -1766,7 +1766,7 @@
       url: https://github.com/varadaio/presto-workload-analyzer/blob/main/INSTALL.md
 - name: Wren AI
   anchor: wren-ai
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/wren-ai.png
   logosmall: /assets/images/logos/wren-ai-small.png
@@ -1780,7 +1780,7 @@
       url: https://docs.getwren.ai/oss/guide/connect/trino
 - name: yanagishima
   anchor: yanagishima
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/yanagishima.png
   logosmall: /assets/images/logos/yanagishima-small.png
@@ -1794,7 +1794,7 @@
       url: https://yanagishima.github.io/yanagishima/
 - name: Zing Data
   anchor: zing-data
-  category: client
+  category: client-application
   owner: other
   logo: /assets/images/logos/zing-data.png
   logosmall: /assets/images/logos/zing-data-small.png
