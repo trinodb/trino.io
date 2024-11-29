@@ -1,7 +1,7 @@
 
 <div class="container spacer-30">
 {% for tool in site.data.tools %}
-{% if tool.category == category %}
+{% if tool.category == category and tool.owner == owner %}
 <div class="row spacer-30">
 <a name="{{tool.anchor}}"></a>
   <div class="card" style="width: 100%">
