@@ -1,10 +1,15 @@
 ---
 layout: default
-title: Client drivers, client applications, data sources, and add-ons for Trino
-pretitle: Ecosystem
+title: Ecosystem
 show_hero: true
 show_pagenav: true
 ---
+
+The ecosystem of integrations with Trino includes the [client
+drivers](#client-drivers), [client applications](#client-applications),
+connectors for [data sources](#data-sources), and [add-ons](#add-ons). They are
+developed and maintained by the Trino community as well as other communities and
+vendors.
 
 ## Client drivers
 
