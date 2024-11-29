@@ -1,15 +1,25 @@
 ---
 layout: default
-title: Clients, data sources, and add-ons for Trino
+title: Client drivers, client applications, data sources, and add-ons for Trino
+pretitle: Ecosystem
 show_hero: true
 show_pagenav: true
 ---
 
-## Clients
+## Client drivers
 
-{% include_relative clients-intro.md %}
+{% include_relative client-drivers-intro.md %}
 
-{% assign category="client" %}
+{% assign category="client-driver" %}
+{% include toolsgrid.html %}
+
+<br>
+
+## Client applications
+
+{% include_relative client-applications-intro.md %}
+
+{% assign category="client-application" %}
 {% include toolsgrid.html %}
 
 <br>
