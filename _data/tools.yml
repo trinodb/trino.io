@@ -1697,3 +1697,15 @@
       url: https://docs.getzingdata.com/docs/setting-up-a-data-source/trino_setup/
     - urltext: Zing Data with Trino tutorial
       url: https://docs.starburst.io/data-consumer/clients/zingdata.html
+- name: Gurubase
+  anchor: gurubase
+  category: add-on
+  logo: /assets/images/logos/gurubase.png
+  logosmall: /assets/images/logos/gurubase-small.png
+  description: |
+    Gurubase is an AI-based learning assistant designed to answer your questions.
+    It includes Trino Guru, which generates answers using data from the official 
+    Trino documentation.
+  links:
+    - urltext: Ask Trino Guru
+      url: https://gurubase.io/g/trino
