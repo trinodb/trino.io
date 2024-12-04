@@ -20,10 +20,6 @@ interesting developments in the ecosystem around Trino.
 ## Upcoming episodes
 
 <dl>
-<dt>16 Jan 2024: Trino Community Broadcast 68 - Year of the Snake</dt>
-<dd>David Phillips joins us to talk about the new support of user-defined
-functions written in Python. We discuss motivation, development history, dive
-into implementation details, and run some demos.</dd>
 <dt>30 Jan 2024: Trino Community Broadcast 69 - Client performance upgrade</dt>
 <dd>Mateusz Gajewski discusses the development of the new spooling mode for the
 Trino client protocol. We look at cluster configuration, client drivers, and run
