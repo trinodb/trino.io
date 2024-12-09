@@ -4,6 +4,7 @@
 - name: Alluxio
   anchor: alluxio
   category: add-on
+  owner: trinodb
   logo: /assets/images/logos/alluxio.png
   logosmall: /assets/images/logos/alluxio-small.png
   description: |
@@ -30,6 +31,7 @@
 - name: Amazon Kinesis
   anchor: amazon-kinesis
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/amazon-kinesis.png
   logosmall: /assets/images/logos/amazon-kinesis-small.png
   description: |
@@ -49,6 +51,7 @@
 - name: Amazon Redshift
   anchor: amazon-redshift
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/amazon-redshift.png
   logosmall: /assets/images/logos/amazon-redshift-small.png
   description: |
@@ -67,6 +70,7 @@
 - name: Apache Accumulo
   anchor: apache-accumulo
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/apache-accumulo.png
   logosmall: /assets/images/logos/apache-accumulo-small.png
   description: |
@@ -82,7 +86,8 @@
       url: /docs/current/connector/accumulo.html
 - name: Apache Airflow
   anchor: apache-airflow
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/airflow.png
   logosmall: /assets/images/logos/airflow-small.png
   description: |
@@ -99,6 +104,7 @@
 - name: Apache Cassandra
   anchor: apache-cassandra
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/apache-cassandra.png
   logosmall: /assets/images/logos/apache-cassandra-small.png
   description: |
@@ -117,7 +123,8 @@
       url: /docs/current/connector/cassandra.html
 - name: Apache DolphinScheduler
   anchor: apache-dolphinscheduler
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/apache-dolphinscheduler.png
   logosmall: /assets/images/logos/apache-dolphinscheduler-small.png
   description: |
@@ -136,6 +143,7 @@
 - name: Apache Druid
   anchor: apache-druid
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/apache-druid.png
   logosmall: /assets/images/logos/apache-druid-small.png
   description: |
@@ -156,6 +164,7 @@
 - name: Apache Hive
   anchor: apache-hive
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/apache-hive.png
   logosmall: /assets/images/logos/apache-hive-small.png
   description: |
@@ -176,6 +185,7 @@
 - name: Apache Hudi
   anchor: apache-hudi
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/apache-hudi.png
   logosmall: /assets/images/logos/apache-hudi-small.png
   description: |
@@ -197,6 +207,7 @@
 - name: Apache Iceberg
   anchor: apache-iceberg
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/apache-iceberg.png
   logosmall: /assets/images/logos/apache-iceberg-small.png
   description: |
@@ -218,6 +229,7 @@
 - name: Apache Ignite
   anchor: apache-ignite
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/apache-ignite.png
   logosmall: /assets/images/logos/apache-ignite-small.png
   description: |
@@ -238,6 +250,7 @@
 - name: Apache Kafka
   anchor: apache-kafka
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/apache-kafka.png
   logosmall: /assets/images/logos/apache-kafka-small.png
   description: |
@@ -255,6 +268,7 @@
 - name: Apache Kudu
   anchor: apache-kudu
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/apache-kudu.png
   logosmall: /assets/images/logos/apache-kudu-small.png
   description: |
@@ -271,6 +285,7 @@
 - name: Apache Phoenix
   anchor: apache-phoenix
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/apache-phoenix.png
   logosmall: /assets/images/logos/apache-phoenix-small.png
   description: |
@@ -292,6 +307,7 @@
 - name: Apache Pinot
   anchor: apache-pinot
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/apache-pinot.png
   logosmall: /assets/images/logos/apache-pinot-small.png
   description: |
@@ -329,7 +345,7 @@
       url: /blog/2024/12/02/ranger.html
 - name: Apache Superset
   anchor: apache-superset
-  category: client
+  category: client-application
   logo: /assets/images/logos/superset.png
   logosmall: /assets/images/logos/superset-small.png
   description: |
@@ -355,7 +371,8 @@
       url: /episodes/12.html
 - name: CLI
   anchor: cli
-  category: client
+  category: client-application
+  owner: trinodb
   logo: /assets/images/logos/cli.png
   logosmall: /assets/images/logos/cli-small.png
   description: |
@@ -371,6 +388,7 @@
 - name: Clickhouse
   anchor: clickhouse
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/clickhouse.png
   logosmall: /assets/images/logos/clickhouse-small.png
   description: |
@@ -386,7 +404,8 @@
       url: /docs/current/connector/clickhouse.html
 - name: Coginiti
   anchor: coginiti
-  category: client
+  category: client-application
+  owner: other  
   logo: /assets/images/logos/coginiti.png
   logosmall: /assets/images/logos/coginiti-small.png
   description: |
@@ -408,7 +427,8 @@
       url: /episodes/53.html
 - name: Cube
   anchor: cube
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/cube.png
   logosmall: /assets/images/logos/cube-small.png
   description: |
@@ -428,6 +448,7 @@
 - name: Datadog
   anchor: datadog
   category: add-on
+  owner: other
   logo: /assets/images/logos/datadog.png
   logosmall: /assets/images/logos/datadog-small.png
   description: |
@@ -442,7 +463,8 @@
       url: https://docs.datadoghq.com/integrations/trino/
 - name: DBeaver
   anchor: DBeaver
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/dbeaver.png
   logosmall: /assets/images/logos/dbeaver-small.png
   description: |
@@ -470,7 +492,8 @@
       url: https://docs.starburst.io/data-consumer/clients/dbeaver.html
 - name: dbt
   anchor: dbt
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/dbt.png
   logosmall: /assets/images/logos/dbt-small.png
   description: |
@@ -495,7 +518,8 @@
       url: /episodes/21.html
 - name: DbVisualizer
   anchor: dbvisualizer
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/dbvisualizer.png
   logosmall: /assets/images/logos/dbvisualizer-small.png
   description: |
@@ -518,6 +542,7 @@
 - name: Delta Lake
   anchor: delta-lake
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/delta-lake.png
   logosmall: /assets/images/logos/delta-lake-small.png
   description: |
@@ -538,6 +563,7 @@
 - name: Elasticsearch
   anchor: elasticsearch
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/elasticsearch.png
   logosmall: /assets/images/logos/elasticsearch-small.png
   description: |
@@ -555,7 +581,8 @@
       url: /docs/current/connector/elasticsearch.html
 - name: Elixir
   anchor: elixir
-  category: client
+  category: client-driver
+  owner: other
   logo: /assets/images/logos/elixir.png
   logosmall: /assets/images/logos/elixir-small.png
   description: |
@@ -577,7 +604,8 @@
       url: https://github.com/ndrluis/req_trino
 - name: Emacs
   anchor: emacs
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/emacs.png
   logosmall: /assets/images/logos/emacs-small.png
   description: |
@@ -594,6 +622,7 @@
 - name: Exasol
   anchor: exasol
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/exasol.png
   logosmall: /assets/images/logos/exasol-small.png
   description: |
@@ -610,7 +639,8 @@
       url: /docs/current/connector/exasol.html
 - name: FugueSQL
   anchor: fugue-sql
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/fuguesql.png
   logosmall: /assets/images/logos/fuguesql-small.png
   description: |
@@ -631,6 +661,7 @@
 - name:  Git
   anchor: git
   category: data-source
+  owner: other
   logo: /assets/images/logos/git.png
   logosmall: /assets/images/logos/git-small.png
   description: |
@@ -647,7 +678,8 @@
       url: https://github.com/nineinchnick/trino-git
 - name: Go
   anchor: go
-  category: client
+  category: client-driver
+  owner: trinodb
   logo: /assets/images/logos/go.png
   logosmall: /assets/images/logos/go-small.png
   description: |
@@ -662,6 +694,7 @@
 - name: Google BigQuery
   anchor: google-bigquery
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/google-bigquery.png
   logosmall: /assets/images/logos/google-bigquerye-small.png
   description: |
@@ -679,6 +712,7 @@
 - name: Google Sheets
   anchor: google-sheets
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/google-sheets.png
   logosmall: /assets/images/logos/google-sheets-small.png
   description: |
@@ -694,7 +728,8 @@
       url: /docs/current/connector/googlesheets.html
 - name: Grafana
   anchor: grafana
-  category: client
+  category: client-application
+  owner: trinodb
   logo: /assets/images/logos/grafana.png
   logosmall: /assets/images/logos/grafana-small.png
   description: |
@@ -712,6 +747,7 @@
 - name: Gravitino
   anchor: gravitino
   category: data-source
+  owner: other
   logo: /assets/images/logos/gravitino.png
   logosmall: /assets/images/logos/gravitino-small.png
   description: |
@@ -729,7 +765,8 @@
       url: https://datastrato.ai/docs/0.4.0/trino-connector/index
 - name: Great Expectations
   anchor: great-expectations
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/great-expectations.png
   logosmall: /assets/images/logos/great-expectations-small.png
   description: |
@@ -748,7 +785,8 @@
       url: /blog/2022/08/24/data-pipelines-production-ready-great-expectations.html
 - name: Harlequin
   anchor: Harlequin
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/harlequin.png
   logosmall: /assets/images/logos/harlequin-small.png
   description: |
@@ -765,7 +803,8 @@
       url: https://harlequin.sh/docs/trino/index
 - name: Hue
   anchor: hue
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/hue.png
   logosmall: /assets/images/logos/hue-small.png
   description: |
@@ -779,7 +818,8 @@
       url: https://docs.gethue.com/administrator/configuration/connectors/#trino
 - name: Ibis
   anchor: ibis
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/ibis.png
   logosmall: /assets/images/logos/ibis-small.png
   description: |
@@ -801,7 +841,8 @@
       url: /episodes/49.html
 - name: IBM Cognos Analytics
   anchor: ibm-cognos-analytics
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/ibm-cognos-analytics.png
   logosmall: /assets/images/logos/ibm-cognos-analytics-small.png
   description: |
@@ -817,7 +858,8 @@
       url: https://www.ibm.com/support/pages/node/6966712
 - name: JavaScript
   anchor: javascript
-  category: client
+  category: client-driver
+  owner: trinodb
   logo: /assets/images/logos/javascript.png
   logosmall: /assets/images/logos/javascript-small.png
   description: |
@@ -829,7 +871,8 @@
       url: https://github.com/trinodb/trino-js-client
 - name: JDBC
   anchor: jdbc
-  category: client
+  category: client-driver
+  owner: trinodb
   logo: /assets/images/logos/jdbc.png
   logosmall: /assets/images/logos/jdbc-small.png
   description: |
@@ -842,7 +885,8 @@
       url: /docs/current/client/jdbc.html
 - name: JetBrains Datagrip
   anchor: jetbrains-datagriop
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/datagrip.png
   logosmall: /assets/images/logos/datagrip-small.png
   description: |
@@ -858,6 +902,7 @@
 - name: JMX
   anchor: jmx
   category: add-on
+  owner: trinodb
   logo: /assets/images/logos/jmx.png
   logosmall: /assets/images/logos/jmx-small.png
   description: |
@@ -881,6 +926,7 @@
 - name: jOOQ
   anchor: jooq
   category: add-on
+  owner: other
   logo: /assets/images/logos/jooq.png
   logosmall: /assets/images/logos/jooq-small.png
   description: |
@@ -900,7 +946,8 @@
       url: /episodes/59.html
 - name: Jupy SQL
   anchor: jupy-sql
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/jupy-sql.png
   logosmall: /assets/images/logos/jupy-sql-small.png
   description: |
@@ -915,6 +962,7 @@
 - name: Kubernetes
   anchor: kubernetes
   category: add-on
+  owner: trinodb
   logo: /assets/images/logos/kubernetes.png
   logosmall: /assets/images/logos/kubernetes-small.png
   description: |
@@ -933,7 +981,8 @@
       url:  https://github.com/trinodb/charts
 - name: Looker
   anchor: looker
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/looker.png
   logosmall: /assets/images/logos/looker-small.png
   description: |
@@ -948,6 +997,7 @@
 - name: MariaDB
   anchor: mariadb
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/mariadb.png
   logosmall: /assets/images/logos/mariadb-small.png
   description: |
@@ -965,7 +1015,8 @@
       url: /docs/current/connector/mariadb.html
 - name: Metabase
   anchor: metabase
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/metabase.png
   logosmall: /assets/images/logos/metabase-small.png
   description: |
@@ -985,6 +1036,7 @@
 - name: Microsoft SQL Server
   anchor: sql-server
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/microsoft-sql-server.png
   logosmall: /assets/images/logos/microsoft-sql-server-small.png
   description: |
@@ -1003,7 +1055,8 @@
       url: /docs/current/connector/sqlserver.html
 - name: Microstrategy
   anchor: microstrategy
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/microstrategy.png
   logosmall: /assets/images/logos/microstrategy-small.png
   description: |
@@ -1021,6 +1074,7 @@
 - name: Minitrino
   anchor: minitrino
   category: add-on
+  owner: other
   logo: /assets/images/logos/minitrino.png
   logosmall: /assets/images/logos/minitrino-small.png
   description: |
@@ -1033,7 +1087,8 @@
       url: https://github.com/jefflester/minitrino
 - name: Mitzu
   anchor: mitzu
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/mitzu.png
   logosmall: /assets/images/logos/mitzu-small.png
   description: |
@@ -1055,7 +1110,8 @@
       url: /episodes/58.html
 - name: Mode
   anchor: mode
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/mode.png
   logosmall: /assets/images/logos/mode-small.png
   description: |
@@ -1069,6 +1125,7 @@
 - name: MongoDB
   anchor: mongodb
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/mongodb.png
   logosmall: /assets/images/logos/mongodb-small.png
   description: |
@@ -1086,6 +1143,7 @@
 - name: MySQL
   anchor: mysql
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/mysql.png
   logosmall: /assets/images/logos/mysql-small.png
   description: |
@@ -1101,7 +1159,8 @@
       url: /docs/current/connector/mysql.html
 - name: ODBC
   anchor: Odbc
-  category: client
+  category: client-driver
+  owner: other
   logo: /assets/images/logos/odbc.png
   logosmall: /assets/images/logos/odbc-small.png
   description: |
@@ -1118,6 +1177,7 @@
 - name: OpenAPI
   anchor: openapi
   category: data-source
+  owner: other
   logo: /assets/images/logos/openapi.png
   logosmall: /assets/images/logos/openapi-small.png
   description: |
@@ -1135,6 +1195,7 @@
 - name: OpenLineage
   anchor: openlineage
   category: add-on
+  owner: trinodb
   logo: /assets/images/logos/openlineage.png
   logosmall: /assets/images/logos/openlineage-small.png
   description: |
@@ -1154,6 +1215,7 @@
 - name: Open Policy Agent
   anchor: opa
   category: add-on
+  owner: trinodb
   logo: /assets/images/logos/opa.png
   logosmall: /assets/images/logos/opa-small.png
   description: |
@@ -1175,6 +1237,7 @@
 - name: OpenSearch
   anchor: opensearch
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/opensearch.png
   logosmall: /assets/images/logos/opensearch-small.png
   description: |
@@ -1195,6 +1258,7 @@
 - name: OpenTelemetry
   anchor: opentelemetry
   category: add-on
+  owner: trinodb
   logo: /assets/images/logos/opentelemetry.png
   logosmall: /assets/images/logos/opentelemetry-small.png
   description: |
@@ -1214,6 +1278,7 @@
 - name: Oracle
   anchor: oracle
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/oracle.png
   logosmall: /assets/images/logos/oracle-small.png
   description: |
@@ -1230,7 +1295,8 @@
       url: /docs/current/connector/oracle.html
 - name: PopSQL
   anchor: popsql
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/popsql.png
   logosmall: /assets/images/logos/popsql-small.png
   description: |
@@ -1246,6 +1312,7 @@
 - name: PostgreSQL
   anchor: postgresql
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/postgresql.png
   logosmall: /assets/images/logos/postgresql-small.png
   description: |
@@ -1263,7 +1330,8 @@
       url: /docs/current/connector/postgresql.html
 - name: Power BI
   anchor: power-bi
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/power-bi.png
   logosmall: /assets/images/logos/power-bi-small.png
   description: |
@@ -1286,6 +1354,7 @@
 - name: Prometheus
   anchor: prometheus
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/prometheus.png
   logosmall: /assets/images/logos/prometheus-small.png
   description: |
@@ -1309,7 +1378,8 @@
       url: /docs/current/admin/opentelemetry.html
 - name: Python
   anchor: python
-  category: client
+  category: client-driver
+  owner: trinodb
   logo: /assets/images/logos/python.png
   logosmall: /assets/images/logos/python-small.png
   description: |
@@ -1326,7 +1396,8 @@
       url: /episodes/12.html
 - name: Querybook
   anchor: querybook
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/querybook.png
   logosmall: /assets/images/logos/querybook-small.png
   description: |
@@ -1341,7 +1412,8 @@
       url: https://docs.starburst.io/data-consumer/clients/querybook.html
 - name: Quix
   anchor: quix
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/quix.png
   logosmall: /assets/images/logos/quix-small.png
   description: |
@@ -1355,7 +1427,8 @@
       url: https://wix-incubator.github.io/quix/docs/presto
 - name: R
   anchor: r
-  category: client
+  category: client-driver
+  owner: other
   logo: /assets/images/logos/r.png
   logosmall: /assets/images/logos/r-small.png
   description: |
@@ -1369,7 +1442,8 @@
       url: https://github.com/prestodb/RPresto
 - name: Redash
   anchor: redash
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/redash.png
   logosmall: /assets/images/logos/redash-small.png
   description: |
@@ -1383,6 +1457,7 @@
 - name: Redis
   anchor: redis
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/redis.png
   logosmall: /assets/images/logos/redis-small.png
   description: |
@@ -1398,7 +1473,8 @@
       url: /docs/current/connector/redis.html
 - name: Ruby
   anchor: ruby
-  category: client
+  category: client-driver
+  owner: other
   logo: /assets/images/logos/ruby.png
   logosmall: /assets/images/logos/ruby-small.png
   description: |
@@ -1413,7 +1489,8 @@
       url: https://github.com/treasure-data/trino-client-ruby
 - name: Rust
   anchor: rust
-  category: client
+  category: client-driver
+  owner: other
   logo: /assets/images/logos/rust.png
   logosmall: /assets/images/logos/rust-small.png
   description: |
@@ -1429,6 +1506,7 @@
 - name: RudderStack
   anchor: rudderstack
   category: add-on
+  owner: other
   logo: /assets/images/logos/rudderstack.png
   logosmall: /assets/images/logos/rudderstack-small.png
   description: |
@@ -1447,6 +1525,7 @@
 - name: SingleStore
   anchor: singlestore
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/singlestore.png
   logosmall: /assets/images/logos/singlestore-small.png
   description: |
@@ -1463,6 +1542,7 @@
 - name: Snowflake
   anchor: snowflake
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/snowflake.png
   logosmall: /assets/images/logos/snowflake-small.png
   description: |
@@ -1485,6 +1565,7 @@
 - name: SQL Formatter
   anchor: workload-analyzer
   category: add-on
+  owner: other
   logo: /assets/images/logos/sql-formatter.png
   logosmall: /assets/images/logos/sql-formatter-small.png
   description: |
@@ -1501,7 +1582,8 @@
       url: https://github.com/sql-formatter-org/sql-formatter/blob/master/docs/language.md
 - name: SQuirrel SQL
   anchor: squirrel-sql
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/squirrel-sql.png
   logosmall: /assets/images/logos/squirrel-sql-small.png
   description: |
@@ -1517,7 +1599,8 @@
       url: https://docs.starburst.io/data-consumer/clients/squirrel-sql.html
 - name: Tableau
   anchor: tableau
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/tableau.png
   logosmall: /assets/images/logos/tableau-small.png
   description: |
@@ -1532,6 +1615,7 @@
 - name: Testcontainers
   anchor: testcontainers
   category: add-on
+  owner: other
   logo: /assets/images/logos/testcontainers.png
   logosmall: /assets/images/logos/testcontainers-small.png
   description: |
@@ -1548,6 +1632,7 @@
 - name: TPC
   anchor: tpc
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/tpc.png
   logosmall: /assets/images/logos/tpc-small.png
   description: |
@@ -1567,6 +1652,7 @@
 - name: Trino-lb
   anchor: trino-lb
   category: add-on
+  owner: other
   logo: /assets/images/logos/trino-lb.png
   logosmall: /assets/images/logos/trino-lb-small.png
   description: |
@@ -1580,6 +1666,7 @@
 - name: Trino Gateway
   anchor: trino-gateway
   category: add-on
+  owner: trinodb
   logo: /assets/images/logos/trino-gateway.png
   logosmall: /assets/images/logos/trino-gateway-small.png
   description: |
@@ -1596,6 +1683,7 @@
 - name: VAST
   anchor: vast
   category: data-source
+  owner: other
   logo: /assets/images/logos/vast.png
   logosmall: /assets/images/logos/vast-small.png
   description: |
@@ -1615,6 +1703,7 @@
 - name: Vertica
   anchor: vertica
   category: data-source
+  owner: trinodb
   logo: /assets/images/logos/vertica.png
   logosmall: /assets/images/logos/vertica-small.png
   description: |
@@ -1631,7 +1720,8 @@
       url: /docs/current/connector/vertica.html
 - name: VSCode
   anchor: vscode
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/vscode.png
   logosmall: /assets/images/logos/vscode-small.png
   description: |
@@ -1646,7 +1736,8 @@
       url: https://github.com/regadas/sqltools-trino-driver
 - name: waii
   anchor: waii
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/waii.png
   logosmall: /assets/images/logos/waii-small.png
   description: |
@@ -1661,6 +1752,7 @@
 - name: Workload Analyzer
   anchor: workload-analyzer
   category: add-on
+  owner: other
   logo: /assets/images/logos/workload-analyzer.png
   logosmall: /assets/images/logos/workload-analyzer-small.png
   description: |
@@ -1674,7 +1766,8 @@
       url: https://github.com/varadaio/presto-workload-analyzer/blob/main/INSTALL.md
 - name: Wren AI
   anchor: wren-ai
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/wren-ai.png
   logosmall: /assets/images/logos/wren-ai-small.png
   description: |
@@ -1687,7 +1780,8 @@
       url: https://docs.getwren.ai/oss/guide/connect/trino
 - name: yanagishima
   anchor: yanagishima
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/yanagishima.png
   logosmall: /assets/images/logos/yanagishima-small.png
   description: |
@@ -1700,7 +1794,8 @@
       url: https://yanagishima.github.io/yanagishima/
 - name: Zing Data
   anchor: zing-data
-  category: client
+  category: client-application
+  owner: other
   logo: /assets/images/logos/zing-data.png
   logosmall: /assets/images/logos/zing-data-small.png
   description: |

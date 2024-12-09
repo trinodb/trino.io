@@ -1,15 +1,30 @@
 ---
 layout: default
-title: Clients, data sources, and add-ons for Trino
+title: Ecosystem
 show_hero: true
 show_pagenav: true
 ---
 
-## Clients
+The ecosystem of integrations with Trino includes the [client
+drivers](#client-drivers), [client applications](#client-applications),
+connectors for [data sources](#data-sources), and [add-ons](#add-ons). They are
+developed and maintained by the Trino community as well as other communities and
+vendors.
 
-{% include_relative clients-intro.md %}
+## Client drivers
 
-{% assign category="client" %}
+{% include_relative client-drivers-intro.md %}
+
+{% assign category="client-driver" %}
+{% include toolsgrid.html %}
+
+<br>
+
+## Client applications
+
+{% include_relative client-applications-intro.md %}
+
+{% assign category="client-application" %}
 {% include toolsgrid.html %}
 
 <br>
