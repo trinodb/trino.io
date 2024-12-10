@@ -15,7 +15,16 @@ vendors.
 
 {% include_relative client-drivers-intro.md %}
 
+### Official client drivers
+
 {% assign category="client-driver" %}
+{% assign owner="trinodb" %}
+{% include toolsgrid.html %}
+
+### Other client drivers
+
+{% assign category="client-driver" %}
+{% assign owner="other" %}
 {% include toolsgrid.html %}
 
 <br>
@@ -24,7 +33,16 @@ vendors.
 
 {% include_relative client-applications-intro.md %}
 
+### Official client applications
+
 {% assign category="client-application" %}
+{% assign owner="trinodb" %}
+{% include toolsgrid.html %}
+
+### Other client applications
+
+{% assign category="client-application" %}
+{% assign owner="other" %}
 {% include toolsgrid.html %}
 
 <br>
@@ -33,7 +51,16 @@ vendors.
 
 {% include_relative data-sources-intro.md %}
 
+### Official data sources
+
 {% assign category="data-source" %}
+{% assign owner="trinodb" %}
+{% include toolsgrid.html %}
+
+### Other data sources
+
+{% assign category="data-source" %}
+{% assign owner="other" %}
 {% include toolsgrid.html %}
 
 <br>
@@ -42,5 +69,14 @@ vendors.
 
 {% include_relative add-ons-intro.md %}
 
+### Official add-ons
+
 {% assign category="add-on" %}
-{%- include toolsgrid.html -%}
+{% assign owner="trinodb" %}
+{% include toolsgrid.html %}
+
+### Other add-ons
+
+{% assign category="add-on" %}
+{% assign owner="other" %}
+{% include toolsgrid.html %}
