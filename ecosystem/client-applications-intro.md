@@ -8,8 +8,9 @@ interactive SQL query authoring with editors, rich user interfaces for graphical
 query creation, query running and result rendering, visualizations with charts
 and graphs, reporting, and dashboard creation.
 
-Client applications can process the returned data from Trino for use in data
-pipelines across catalogs and from other data sources to Trino catalogs.
+You can use client applications for data pipelines in Trino including across
+catalog. Client applications that support other data sources can be used in data
+pipelines connecting them with Trino catalogs.
 
 Client applications use [client
 drivers]({{site.baseurl}}/ecosystem/client-driver.html) as wrappers around the
