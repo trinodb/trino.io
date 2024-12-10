@@ -1,6 +1,6 @@
 <div class="tool-logos-container spacer-50">
   {% for tool in site.data.tools %}
-    {% if tool.category == category %}
+    {% if tool.category == category and tool.owner == owner %}
     <div class="tool-logo-item">
       {% if tool.anchor == nil %}
         <a href="./{{tool.category}}.html">
