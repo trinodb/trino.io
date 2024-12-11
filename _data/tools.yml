@@ -783,6 +783,19 @@
     - urltext: Make your Trino data pipelines production ready with Great
         Expectations
       url: /blog/2022/08/24/data-pipelines-production-ready-great-expectations.html
+- name: Gurubase
+  anchor: gurubase
+  category: add-on
+  owner: other
+  logo: /assets/images/logos/gurubase.png
+  logosmall: /assets/images/logos/gurubase-small.png
+  description: |
+    Gurubase is an AI-based learning assistant designed to answer your questions.
+    It includes Trino Guru, which generates answers using data from the official 
+    Trino documentation.
+  links:
+    - urltext: Ask Trino Guru
+      url: https://gurubase.io/g/trino
 - name: Harlequin
   anchor: Harlequin
   category: client-application
