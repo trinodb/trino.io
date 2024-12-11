@@ -38,3 +38,7 @@
 [[redirects]]
   from = "/ecosystem/client"
   to = "/ecosystem/index.html"
+  
+[[redirects]]
+  from = "/ecosystem/client.html"
+  to = "/ecosystem/index.html"
