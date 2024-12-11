@@ -74,7 +74,7 @@ their topic:
 * **Data Lake at Wise powered by Trino and Iceberg** presented by Peter
   Kosztolanyi and Abdallah Alkhawatrah from [Wise](https://wise.com)
 * **Hassle-free dynamic policy enforcement in Trino** presented by Ramanathan
-  Ramu from [LinkedIn]({{site.baseurl}}/users.html#linkedin)
+  Ramu and Pratham Desai from [LinkedIn]({{site.baseurl}}/users.html#linkedin)
 * **Empowering self-serve data analytics with a text-to-SQL assistant at
   LinkedIn** presented by Gaurav Ahlawat, Albert Chen, and Manas Bundele from
   [LinkedIn]({{site.baseurl}}/users.html#linkedin)
@@ -101,9 +101,6 @@ adoption and usage:
   [Graylog](https://graylog.org/)
 * **Empowering HugoBank's digital services through Trino** presented by Mustafa
   Mirza and Razi Moosa from [HugoBank](https://www.hugobank.com.pk)
-* **Optimizing Trino with Alluxio Caching: Lessons from Production-Scale
-  Deployments** presented by Bin Fan from
-  [Alluxio]({{site.baseurl}}/ecosystem/add-on.html#alluxio)
 * **How Trino and dbt unleashed many-to-many interoperability at Bazaar**
   presented by Shahzad Siddiqi, Siddique Ahmad, and Usman Ghani from
   [Bazaar]({{site.baseurl}}/users.html#bazaar_technologies)
