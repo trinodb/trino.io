@@ -182,7 +182,7 @@ For those new to Airflow, DAG (Directed Acyclic Graph) is a core Airflow
 concept, a collection of tasks with dependencies and relationships that indicate
 to Airflow how they should be executed. DAGs are written in Python.
 
-```
+```python
 from airflow.models.baseoperator import BaseOperator
 from airflow.utils.decorators import apply_defaults
 from airflow.providers.trino.hooks.trino import TrinoHook
@@ -256,7 +256,7 @@ directory you created earlier.
 
 Create a file called `my_first_trino_dag.py` with the following code, and save it in the `airflow/dags` directory.
 
-```
+```python
 import pendulum
 
 from airflow import DAG
@@ -298,7 +298,7 @@ with DAG(
     task3 = TrinoOperator(
       task_id='task_3',
       trino_conn_id='trino_connection',
-      sql="select {{ task_instance.xcom_pull(task_ids='task_1',key='return_value')[0] }}")
+      sql="select { { task_instance.xcom_pull(task_ids='task_1',key='return_value')[0] } }")
 
     ## Task 4 demonstrates how you can run multiple statements in a single session.  
     ## Best practice is to run a single statement per task however statements that change session 
