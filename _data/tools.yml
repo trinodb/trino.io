@@ -369,6 +369,22 @@
     - urltext: Trino gets super visual with Apache Superset! from Trino
         Community Broadcast 12
       url: /episodes/12.html
+- name: C# and ADO.NET
+  anchor: c-sharp
+  category: client-driver
+  owner: trinodb
+  logo: /assets/images/logos/dotnet.png
+  logosmall: /assets/images/logos/dotnet-small.png
+  description: |
+    The Trino C# client project provides a streaming client library with ADO.NET
+    interfaces for usage on the .NET platform. It enables applications using the
+    .NET platform and running on Windows and other supported operating systems
+    to connect and query Trino catalogs and process the results.
+  links:
+    - urltext: Trino C# client project
+      url: https://github.com/trinodb/trino-csharp-client
+    - urltext: Project introduction at Trino Summit 2024
+      url: https://youtu.be/x2rF6IEjFK0
 - name: CLI
   anchor: cli
   category: client-application
