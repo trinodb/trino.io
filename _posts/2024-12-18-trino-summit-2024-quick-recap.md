@@ -53,6 +53,7 @@ and beyond to enjoy the presentations and recordings at their leisure.
 <br>&nbsp;&nbsp;&nbsp;Presented by Gaurav Ahlawat, Albert Chen, and Manas Bundele from
 [LinkedIn]({{site.baseurl}}/users.html#linkedin)
 <br>&nbsp;&nbsp;&nbsp;<i class="fab fa-youtube" style="color: red;"></i> [Video recording](https://youtu.be/rl4GLNEVkjo){:target="_blank"}
+| [Slides]({{site.url}}/assets/blog/trino-summit-2024/trino-summit-2024-linkedin-ai.pdf){:target="_blank"}
 
 ---
 
