@@ -66,7 +66,7 @@ their topic:
 
 * **Optimizing Trino on Kubernetes: Helm chart enhancements for resilience and
   security** presented by Sebastian Daberdaku from
-  [CardioAI](https://cardio.ai/) and Jan Waś from
+  [CardoAI](https://cardoai.com/) and Jan Waś from
   [Starburst]({{site.baseurl}}/users.html#starburst)
 * **Trino for Observability at Intuit** presented by Ujjwal Sharma and Riya John
   from [Intuit](https://www.intuit.com/)
