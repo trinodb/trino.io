@@ -26,6 +26,7 @@ and beyond to enjoy the presentations and recordings at their leisure.
 **Running Trino as exabyte-scale data warehouse**
 <br>&nbsp;&nbsp;&nbsp;Presented by Alagappan Maruthappan from [Netflix]({{site.baseurl}}/users.html#netflix)
 <br>&nbsp;&nbsp;&nbsp;<i class="fab fa-youtube" style="color: red;"></i> [Video recording](https://youtu.be/WuUS73QPuZE){:target="_blank"}
+| [Slides]({{site.url}}/assets/blog/trino-summit-2024/trino-summit-2024-netflix.pdf){:target="_blank"}
 
 ---
 
