@@ -421,6 +421,7 @@
   highlight: false
   anchor: hugobank
   logo: /assets/images/logos/hugobank.png
+  logosmall: /assets/images/logos/hugobank-small.png
   testimonial: |
     HugoBank uses the power of Trino for secure, efficient, and optimized
     access to deliver a seamless digital experience enhanced by data-driven
