@@ -423,12 +423,16 @@
   logo: /assets/images/logos/hugobank.png
   logosmall: /assets/images/logos/hugobank-small.png
   testimonial: |
-    HugoBank uses the power of Trino for secure, efficient, and optimized
-    access to deliver a seamless digital experience enhanced by data-driven
-    insights. 
+    HugoBank is the first digital bank in Pakistan looking to empasize
+    efficiency, speed, and compliance. Using Trino as their unified query
+    engine, the near-real time and high performance queries power regulatory
+    reporting, machine learning, and product analytics. Through a combination of
+    Trino, dbt, and Apache Ranger, HugoBank has built a data lakehouse capable
+    of creating self-service analytics empowering downstream consumers to make
+    informed data driven decisions.
   links:
     - urltext: View the HugoBank website
-      url: https://www.hugobank.com.pk/  
+      url: https://www.hugobank.com.pk/
     - urltext: HugoBank presentation at Trino Summit 2024
       url: https://www.youtube.com/watch?v=51JVd25behQ
 - name: Index Exchange
