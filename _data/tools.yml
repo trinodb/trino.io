@@ -1762,6 +1762,8 @@
       url:  https://www.waii.ai/
     - urltext: Tutorial for using waii with Trino
       url: https://doc.waii.ai/deployment/docs/trino-onboarding
+    - urltext: Waii participating in AI panel at Trino Summit 2024
+      url: https://www.youtube.com/watch?v=gobl6PhIWeE
 - name: Workload Analyzer
   anchor: workload-analyzer
   category: add-on
@@ -1791,6 +1793,8 @@
       url:  https://www.getwren.ai/
     - urltext: Trino as Wren AI data source
       url: https://docs.getwren.ai/oss/guide/connect/trino
+    - urltext: Wren AI participating in AI panel at Trino Summit 2024
+      url: https://www.youtube.com/watch?v=gobl6PhIWeE
 - name: yanagishima
   anchor: yanagishima
   category: client-application

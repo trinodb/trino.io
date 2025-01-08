@@ -678,6 +678,8 @@
       url: https://www.peaka.com/
     - urltext: Trino Community Broadcast 55, Commander Bun Bun peeks at Peaka
       url: /episodes/55.html
+    - urltext: Peaka participating in AI panel at Trino Summit 2024
+      url: https://www.youtube.com/watch?v=gobl6PhIWeE
 - name: Plural
   highlight: false
   anchor: plural
