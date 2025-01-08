@@ -879,8 +879,11 @@
     organize, and consume data without the need for time-consuming and costly
     migrations. It supports the lake as the center of gravity, and additionally
     accesses data outside the lake when needed. Starburst founders and employess
-    include the Trino co-creators, numerous maintainers, contributors and other
-    experts, ready to support you.
+    include the Trino co-creators, numerous maintainers and subproject
+    maintainers, contributors and other experts, ready to support you. Starburst
+    is also a sponsor of Trino-related events such as Trino Summit, Trino Fest,
+    Trino Community Broadcast and others and involved in many presentations and
+    sessions.
 
     **Starburst Galaxy** is a fully managed data lake analytics platform
     designed for large and complex data sets in and around your cloud data lake.
