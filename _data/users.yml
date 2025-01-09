@@ -127,6 +127,8 @@
   links:
     - urltext: View the Bazaar Technologies website
       url: https://www.bazaar-tech.com/
+    - urltext: How Trino & dbt unleashed many-to-many interoperability at Trino Summit 2024
+      url: https://www.youtube.com/watch?v=G9jafHdH8FY
     - urltext: Powering Bazaar`s business operation using Trino at Trino Summit 2023
       url: https://www.youtube.com/watch?v=MYLepz-hIys
 #- name: Bloomberg
@@ -517,6 +519,10 @@
   links:
     - urltext: View the LinkedIn website
       url: https://linkedin.com
+    - urltext: Hassle-free dynamic policy enforcement in Trino at Trino Summit 2024
+      url: https://youtu.be/GAudNEmbvsc
+    - urltext: Empowering self-serve data analytics with a text-to-SQL assistant at LinkedIn at Trino Summit 2024
+      url: https://youtu.be/rl4GLNEVkjo
     - urltext: Trino upgrade at exabytes scale at Trino Summit 2023
       url: https://www.youtube.com/watch?v=dg16M6bFN2w
     - urltext: Interview with LinkedIn engineers at Trino Community Broadcast 22
@@ -600,6 +606,8 @@
   links:
     - urltext: View the Neflix website
       url: https://www.netflix.com
+    - urltext: Running Trino at exabyte-scale data warehouse at Trino Summit 2024
+      url: https://youtu.be/WuUS73QPuZE
     - urltext: Interview with Netflix engineer about views at Trino Community
         Broadcast 18
       url: https://trino.io/episodes/18.html
