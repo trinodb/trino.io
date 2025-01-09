@@ -92,12 +92,12 @@ join the [Trino slack]({{site.url}}/slack) and contact us there.
   </div>
 </div>
 
-<div markdown="1" class="previous-episode-header">
-
-## Previous episodes
-
-<a href="/broadcast/episodes.html">See all episodes</a>
+<div class="previous-episode-header">
+<h2>Previous episodes</h2>
+<a class="btn btn-pink" style="margin-left: 10em;"
+  href="{{site.baseurl}}/broadcast/episodes.html">or see all episodes</a>
 </div>
+
 <div class="episode-grid">
 {% assign offsetNumber = site.episodes.size | minus: 10 %}
 {% for episode in site.episodes reversed offset:offsetNumber %}
@@ -127,6 +127,8 @@ join the [Trino slack]({{site.url}}/slack) and contact us there.
   </div>
 {% endif %}
 {% endfor %}
+
+<a class="btn btn-pink" href="{{site.baseurl}}/broadcast/episodes.html">See all episodes</a>
 </div>
 
 </div>
