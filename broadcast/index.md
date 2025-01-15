@@ -20,19 +20,17 @@ interesting developments in the ecosystem around Trino.
 ## Upcoming episodes
 
 <dl>
-<dt>30 Jan 2024: Trino Community Broadcast 69 - Client performance upgrade</dt>
-<dd><a href="https://github.com/wendigo">Mateusz Gajewski</a> discusses the
-development of the new spooling mode for the Trino client protocol. We look at
-cluster configuration, client drivers, and run some demos.</dd>
 <dt>13 Feb 2024: Trino Community Broadcast 70 - Previewing a new UI</dt>
 <dd><a href="https://github.com/koszti">Peter Kosztolanyi</a> joins us to talk 
 about the origins, current status, and future of the new Preview Web UI for
 Trino, before we play around with it in a demo. </dd>
 <dt>27 Feb 2024: Trino Community Broadcast 71 - Fake it real good</dt>
 <dd><a href="https://github.com/nineinchnick">Jan Waś</a> teaches us about the
-new Faker connector and how you can use it to emulate data that does exist on
+new Faker connector and how you can use it to emulate data that does not exist on
 any storage, how you can shape it as you need, and how you can then learn real
 SQL, build real reports, and make some real charts -  all with fake data.</dd>
+<dt>13 Mar 2024: Trino Community Broadcast 72</dt>
+<dd>Guest and topic to be determined.</dd>
 </dl>
 
 Find [more details and other events on our calendar]({{site.url}}/community.html#events).
