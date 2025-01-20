@@ -21,10 +21,14 @@ interesting developments in the ecosystem around Trino.
 
 <dl>
 <dt>30 Jan 2024: Trino Community Broadcast 69 - Client performance upgrade</dt>
-<dd>Mateusz Gajewski discusses the development of the new spooling mode for the
-Trino client protocol. We look at cluster configuration, client drivers, and run
-some demos.</dd>
-<dt>Feb 2024: Trino Community Broadcast 70</dt>
+<dd><a href="https://github.com/wendigo">Mateusz Gajewski</a> discusses the
+development of the new spooling mode for the Trino client protocol. We look at
+cluster configuration, client drivers, and run some demos.</dd>
+<dt>13 Feb 2024: Trino Community Broadcast 70 - Previewing a new UI</dt>
+<dd><a href="https://github.com/koszti">Peter Kosztolanyi</a> joins us to talk 
+about the origins, current status, and future of the new Preview Web UI for
+Trino, before we play around with it in a demo. </dd>
+<dt>Feb 2024: Trino Community Broadcast 71</dt>
 <dd>Date, topic, and guest to be determined.</dd>
 </dl>
 
