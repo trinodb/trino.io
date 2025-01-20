@@ -70,10 +70,14 @@
 - name: Apache Accumulo
   anchor: apache-accumulo
   category: data-source
-  owner: trinodb
+  owner: other
   logo: /assets/images/logos/apache-accumulo.png
   logosmall: /assets/images/logos/apache-accumulo-small.png
   description: |
+    Note that the Accumulo connector is removed from Trino 464 and later, and no
+    longer maintained. Users must retrieve and update the code from the source
+    code repository, or use an old Trino version.
+
     Apache Accumulo® is a sorted, distributed key-value store that provides
     robust, scalable data storage and retrieval.
 
@@ -82,8 +86,8 @@
   links:
     - urltext: Apache Accumulo
       url: https://accumulo.apache.org/
-    - urltext: Accumulo connector documentation
-      url: /docs/current/connector/accumulo.html
+    - urltext: Legacy Accumulo connector documentation
+      url: https://trino.io/docs/463/connector/accumulo.html
 - name: Apache Airflow
   anchor: apache-airflow
   category: client-application
