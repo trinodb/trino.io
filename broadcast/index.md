@@ -39,7 +39,7 @@ topic, question or pull request that you would like us to feature on the show
 join the [Trino slack]({{site.url}}/slack) and contact us there.
 
 </div>
-<div markdown="1" class="col-lg-3">
+<div markdown="1" class="col-lg-4">
 
 ## Hosts
 
@@ -47,20 +47,38 @@ join the [Trino slack]({{site.url}}/slack) and contact us there.
 - Brian Olsen [bitsondatadev](https://github.com/bitsondatadev), co-host
 - [Cole Bowden](https://www.linkedin.com/in/cole-m-bowden), co-host
 
-## Watch or listen
+## Watch
 
-- Watch:
 <a href="https://www.youtube.com/playlist?list=PLFnr63che7war_NzC7CJQjFuUKLYC7nYh" target="_blank">
-  <i class="fab fa-youtube watch-listen-icon" title="Youtube"></i>
+  <i class="fab fa-youtube fa-3x fa-fw watch-listen-icon" title="Youtube"></i>
 </a>
 <a href="https://www.twitch.tv/trinodb" target="_blank">
-  <i class="fab fa-twitch watch-listen-icon" title="Twitch"></i>
+  <i class="fab fa-twitch fa-3x fa-fw watch-listen-icon" title="Twitch"></i>
 </a>
-- Listen:
+<a href="https://www.linkedin.com/company/trino-software-foundation/events/" target="_blank">
+  <i class="fab fa-linkedin fa-3x fa-fw watch-listen-icon" title="LinkedIn"></i>
+</a>
+
+## Listen
+
+<a href="https://open.spotify.com/show/52YXvNXAgf7xlW6FqTR29f" target="_blank">
+  <i class="fab fa-spotify fa-3x fa-fw watch-listen-icon" title="Spotify"></i>
+</a>
 <a href="https://podcasts.apple.com/us/podcast/trino-community-broadcast/id1533484786" target="_blank">
-  <i class="fab fa-apple watch-listen-icon" title="Apple"></i>
+  <i class="fab fa-apple fa-3x fa-fw watch-listen-icon" title="Apple"></i>
 </a>
-- <a href="{{ '/broadcast/feed.xml' | relative_url }}">Subscribe via RSS</a>
+
+## Subscribe
+
+<a href="{{site.baseurl}}/community.html#events">
+  <i class="fa fa-calendar fa-3x fa-fw watch-listen-icon" title="Calendar"></i>
+</a>
+<a href="{{site.baseurl}}/broadcast/feed.xml" target="_blank">
+  <i class="fa fa-rss fa-3x fa-fw watch-listen-icon" title="RSS feed"></i>
+</a>
+<a href="https://www.linkedin.com/company/trino-software-foundation/events/" target="_blank">
+  <i class="fab fa-linkedin fa-3x fa-fw watch-listen-icon" title="LinkedIn events"></i> 
+</a>
 
 </div>
 <div markdown="1" class="col-md-12">
