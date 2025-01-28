@@ -28,8 +28,11 @@ cluster configuration, client drivers, and run some demos.</dd>
 <dd><a href="https://github.com/koszti">Peter Kosztolanyi</a> joins us to talk 
 about the origins, current status, and future of the new Preview Web UI for
 Trino, before we play around with it in a demo. </dd>
-<dt>Feb 2024: Trino Community Broadcast 71</dt>
-<dd>Date, topic, and guest to be determined.</dd>
+<dt>27 Feb 2024: Trino Community Broadcast 71 - Fake it real good</dt>
+<dd><a href="https://github.com/nineinchnick">Jan Waś</a> teaches us about the
+new Faker connector and how you can use it to emulate data that does exist on
+any storage, how you can shape it as you need, and how you can then learn real
+SQL, build real reports, and make some real charts -  all with fake data.</dd>
 </dl>
 
 Find [more details and other events on our calendar]({{site.url}}/community.html#events).
