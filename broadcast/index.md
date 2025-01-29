@@ -58,6 +58,8 @@ join the [Trino slack]({{site.url}}/slack) and contact us there.
   <i class="fab fa-linkedin fa-3x fa-fw watch-listen-icon" title="LinkedIn"></i>
 </a>
 
+Watch live on any platform to ask questions.
+
 ## Listen
 
 <a href="https://open.spotify.com/show/52YXvNXAgf7xlW6FqTR29f" target="_blank">
