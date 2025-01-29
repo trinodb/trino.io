@@ -1203,8 +1203,8 @@
     from Magnitude. Starburst customers receive an ODBC driver suitable for
     Starburst Enterprise and Starburst Galaxy.
   links:
-    - urltext: Magnitiude ODBC driver
-      url: https://www.magnitude.com/drivers/trino-odbc-jdbc
+    - urltext: Simba ODBC driver from insightsoftware
+      url: https://insightsoftware.com/drivers/trino-odbc-jdbc/
     - urltext: Starburst ODBC driver
       url: https://docs.starburst.io/data-consumer/clients/odbc.html
 - name: OpenAPI
