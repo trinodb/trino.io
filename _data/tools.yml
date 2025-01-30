@@ -31,10 +31,14 @@
 - name: Amazon Kinesis
   anchor: amazon-kinesis
   category: data-source
-  owner: trinodb
+  owner: other
   logo: /assets/images/logos/amazon-kinesis.png
   logosmall: /assets/images/logos/amazon-kinesis-small.png
   description: |
+    Note that the Kinesis connector is removed from Trino 470 and later, and no
+    longer maintained. Users must retrieve and update the code from the source
+    code repository, or use an old Trino version.
+
     Amazon Kinesis cost-effectively processes and analyzes streaming data at any
     scale as a fully managed service. With Kinesis, you can ingest real-time
     data, such as video, audio, application logs, website clickstreams, and IoT
@@ -47,7 +51,7 @@
     - urltext: Amazon Kinesis
       url: https://aws.amazon.com/kinesis/
     - urltext: Kinesis connector documentation
-      url: /docs/current/connector/kinesis.html
+      url: /docs/469/connector/kinesis.html
 - name: Amazon Redshift
   anchor: amazon-redshift
   category: data-source
