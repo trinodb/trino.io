@@ -20,10 +20,6 @@ interesting developments in the ecosystem around Trino.
 ## Upcoming episodes
 
 <dl>
-<dt>13 Feb 2024: Trino Community Broadcast 70 - Previewing a new UI</dt>
-<dd><a href="https://github.com/koszti">Peter Kosztolanyi</a> joins us to talk 
-about the origins, current status, and future of the new Preview Web UI for
-Trino, before we play around with it in a demo. </dd>
 <dt>27 Feb 2024: Trino Community Broadcast 71 - Fake it real good</dt>
 <dd><a href="https://github.com/nineinchnick">Jan Waś</a> teaches us about the
 new Faker connector and how you can use it to emulate data that does not exist on
