@@ -29,8 +29,13 @@ Trino, before we play around with it in a demo. </dd>
 new Faker connector and how you can use it to emulate data that does not exist on
 any storage, how you can shape it as you need, and how you can then learn real
 SQL, build real reports, and make some real charts -  all with fake data.</dd>
-<dt>13 Mar 2024: Trino Community Broadcast 72</dt>
-<dd>Guest and topic to be determined.</dd>
+<dt>13 Mar 2024: Trino Community Broadcast 72 - Keeping the lake clean</dt>
+<dd><a href="https://www.linkedin.com/in/viktor-kessler/">Viktor Kessler</a> and
+<a href="https://www.linkedin.com/in/thielc/">Christian Thiel</a> from Vakamo
+introduce us to their new metastore solution 
+<a href="https://lakekeeper.io/">Lakekeeper</a>. It is an Iceberg REST 
+catalog-compatible lakehouse metastore with big plans for additional features
+and support for Trino. We dive into the details and have a look at a demo.</dd>
 </dl>
 
 Find [more details and other events on our calendar]({{site.url}}/community.html#events).
