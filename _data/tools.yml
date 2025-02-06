@@ -1819,6 +1819,8 @@
       url: https://docs.getwren.ai/oss/guide/connect/trino
     - urltext: Wren AI participating in AI panel at Trino Summit 2024
       url: https://www.youtube.com/watch?v=gobl6PhIWeE
+    - urltext: Trino Community Broadcast 66 about Wren AI and Trino
+      url: /episodes/66.html
 - name: yanagishima
   anchor: yanagishima
   category: client-application
