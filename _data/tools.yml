@@ -3,7 +3,7 @@
 ################################################################################
 - name: Alluxio
   anchor: alluxio
-  category: add-on
+  category: data-lake
   owner: trinodb
   logo: /assets/images/logos/alluxio.png
   logosmall: /assets/images/logos/alluxio-small.png
