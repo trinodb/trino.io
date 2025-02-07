@@ -331,6 +331,26 @@
       url: /docs/current/connector/pinot.html
     - urltext: Trino takes a sip of Pinot! from Trino Community Broadcast 13
       url: /episodes/13.html
+- name: Apache Polaris
+  anchor: apache-polaris
+  category: data-lake
+  owner: trinodb
+  logo: /assets/images/logos/apache-polaris.png
+  logosmall: /assets/images/logos/apache-polaris-small.png
+  description: |
+    Apache Polaris is an open-source, fully-featured catalog for Apache
+    Iceberg™. It implements Iceberg's REST API, enabling seamless multi-engine
+    interoperability across a wide range of platforms,
+
+    Use Lakekeeper with the Trino Iceberg connector and the configuration for a
+    Iceberg REST catalog.
+  links:
+    - urltext: Apache Polaris
+      url: https://polaris.apache.org/
+    - urltext: Iceberg connector documentation
+      url: /docs/current/connector/iceberg.html
+    - urltext: Iceberg REST catalog configuration
+      url: /docs/current/connector/iceberg.html#rest-catalog
 - name: Apache Ranger
   anchor: apache-ranger
   category: add-on
