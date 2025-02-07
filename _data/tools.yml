@@ -290,6 +290,25 @@
       url: https://kudu.apache.org/
     - urltext: Kudu connector documentation
       url: /docs/current/connector/kudu.html
+- name: Apache Parquet
+  anchor: apache-parquet
+  category: data-lake
+  owner: trinodb
+  logo: /assets/images/logos/apache-parquet.png
+  logosmall: /assets/images/logos/apache-parquet-small.png
+  description: |
+    Apache Parquet Apache Parquet is an open source, column-oriented data file
+    format designed for efficient data storage and retrieval. It provides high
+    performance compression and encoding schemes to handle complex data in bulk
+    and is supported in many programming language and analytics tools...
+
+    Access ORC files from Trino with the built-in readers and writers used by
+    the Delta Lake, Hive, Hudi or Iceberg connectors.
+  links:
+    - urltext: Apache Parquet
+      url: https://parquet.apache.org/
+    - urltext: Trino Parquet configuration properties
+      url: /docs/current/object-storage/file-formats.html#parquet-format-configuration-properties
 - name: Apache Phoenix
   anchor: apache-phoenix
   category: data-source
