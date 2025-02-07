@@ -1785,6 +1785,26 @@
       url: https://www.youtube.com/watch?v=2qwBcKmQSn0
     - urltext: Announcement blog post
       url: /blog/2023/09/28/trino-gateway
+- name: Unity Catalog
+  anchor: unity-catalog
+  category: data-lake
+  owner: trinodb
+  logo: /assets/images/logos/unity-catalog.png
+  logosmall: /assets/images/logos/unity-catalog-small.png
+  description: |
+    Unity Catalog is a unified governance solution for data and AI assets in the
+    cloud. It provides a centralized metadata store, fine-grained access
+    controls, and audit logging to help manage and secure your data. Unity
+    Catalog simplifies data discovery, access, and sharing across your
+    organization, ensuring compliance and enhancing collaboration.
+
+    Use Unity Catalog with the Trino Delta Lake, Hive, or Iceberg connectors and
+    the configuration for a Thrift metastore.
+  links:
+    - urltext: Unity Catalog
+      url: https://www.unitycatalog.io/
+    - urltext: Thrift metastore configuration properties
+      url: /docs/current/object-storage/metastores.html#thrift-metastore-configuration-properties
 - name: VAST
   anchor: vast
   category: data-source
