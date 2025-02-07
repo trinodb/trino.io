@@ -459,6 +459,28 @@
     - urltext: Trino gets super visual with Apache Superset! from Trino
         Community Broadcast 12
       url: /episodes/12.html
+- name: Azure Storage
+  anchor: azure-storage
+  category: data-lake
+  owner: trinodb
+  logo: /assets/images/logos/microsoft-azure.png
+  logosmall: /assets/images/logos/microsoft-azure-small.png
+  description: |
+    Azure Storage is a scalable, durable, and secure cloud storage solution from
+    Microsoft. It offers a variety of storage options, including Blob Storage,
+    which is ideal for data lakes and lakehouses. Azure Storage provides high
+    availability, strong consistency, and disaster recovery capabilities, making
+    it suitable for storing and managing large volumes of unstructured data.
+    With Azure Storage, you can easily integrate with other Azure services and
+    third-party tools to build comprehensive data solutions.
+
+    Use Azure Storage with the Delta Lake, Hive, Hudi, or Iceberg connectors to access data in Azure Storage.
+
+  links:
+    - urltext: Azure Storage
+      url: https://learn.microsoft.com/en-us/azure/storage/
+    - urltext: Azure Storage file system support documentation
+      url: /docs/current/object-storage/file-system-azure.html
 - name: C# and ADO.NET
   anchor: c-sharp
   category: client-driver
