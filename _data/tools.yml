@@ -1057,6 +1057,33 @@
       url: /docs/current/installation/kubernetes.html
     - urltext: Trino Helm chart source with more details
       url:  https://github.com/trinodb/charts
+- name: Lakekeeper
+  anchor: lakekeeper
+  category: data-lake
+  owner: other
+  logo: /assets/images/logos/Lakekeeper.png
+  logosmall: /assets/images/logos/lakekeeper-small.png
+  description: |
+    Lakekeeper is an Apache-Licensed, secure, fast, and easy-to-use Apache
+    Iceberg REST Catalog written in Rust. It provides a scalable solution for
+    managingLakehouses with enterprise-grade governance. Key features include
+    Kubernetes and OpenID integration, fine-grained access control, and
+    multi-tenancy. Designed for interoperability, it supports major cloud
+    providers as well as on-premise deployments. Lakekeeper emits change events,
+    ensures high availability, and offers a lightweight, easily deployable
+    architecture. Prioritizing ecosystem-wide compatibility, it empowers
+    organizations to manage their Lakehouse infrastructure without vendor
+    lock-in.
+
+    Use Lakekeeper with the Trino Iceberg connector and the configuration for a
+    Iceberg REST catalog.
+  links:
+    - urltext: Lakekeeper
+      url: https://lakekeeper.io/
+    - urltext: Iceberg connector documentation
+      url: /docs/current/connector/iceberg.html
+    - urltext: Iceberg REST catalog documentation
+      url: /docs/current/object-storage/metastores.html#rest-catalog
 - name: Looker
   anchor: looker
   category: client-application
