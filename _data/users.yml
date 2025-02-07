@@ -102,16 +102,6 @@
   links:
     - urltext: View the Ampool website
       url: https://www.ampool-inc.com/
-- name: Backblaze
-  highlight: false
-  anchor: backblaze
-  logo: /assets/images/logos/backblaze.png
-  logosmall: /assets/images/logos/backblaze-small.png
-  links:
-    - urltext: View the Backblaze website
-      url: https://www.backblaze.com/
-    - urltext: Storing and Querying Analytical Data in Backblaze B2 and Trino
-      url: https://www.backblaze.com/blog/storing-and-querying-analytical-data-in-backblaze-b2/
 - name: Bazaar Technologies
   highlight: false
   anchor: bazaar_technologies

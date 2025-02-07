@@ -474,13 +474,36 @@
     With Azure Storage, you can easily integrate with other Azure services and
     third-party tools to build comprehensive data solutions.
 
-    Use Azure Storage with the Delta Lake, Hive, Hudi, or Iceberg connectors to access data in Azure Storage.
-
+    Use Azure Storage with the Delta Lake, Hive, Hudi, or Iceberg connectors to
+    access data in Azure Storage.
   links:
     - urltext: Azure Storage
       url: https://learn.microsoft.com/en-us/azure/storage/
     - urltext: Azure Storage file system support documentation
       url: /docs/current/object-storage/file-system-azure.html
+- name: Backblaze
+  anchor: backblaze
+  category: data-lake
+  owner: other
+  logo: /assets/images/logos/backblaze.png
+  logosmall: /assets/images/logos/backblaze-small.png
+  description: |
+    Backblaze B2 Cloud Storage is a scalable and cost-effective cloud storage
+    solution designed for storing and managing large amounts of data. It offers
+    high durability, availability, and performance, making it suitable for a
+    wide range of use cases, including backups, data archiving, and serving
+    media files. Backblaze B2 provides easy integration with various tools and
+    services, allowing seamless data access and management.
+
+    Use the Trino S3 file system support with the Delta Lake, Hive, Hudi, or
+    Iceberg connectors to access data in Backblaze B2.
+  links:
+    - urltext: Backblaze
+      url: https://www.backblaze.com/
+    - urltext: Storing and Querying Analytical Data in Backblaze B2 and Trino
+      url: https://www.backblaze.com/blog/storing-and-querying-analytical-data-in-backblaze-b2/
+    - urltext: S3 file system support documentation
+      url: /docs/current/object-storage/file-system-s3.html
 - name: C# and ADO.NET
   anchor: c-sharp
   category: client-driver
