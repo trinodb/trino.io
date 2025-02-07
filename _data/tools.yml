@@ -840,6 +840,28 @@
       url: https://go.dev/
     - urltext: Trino Go client source code and documentation
       url: https://github.com/trinodb/trino-go-client
+- name: Google Cloud Storage
+  anchor: google-cloud-storage
+  category: data-lake
+  owner: trinodb
+  logo: /assets/images/logos/google-cloud-storage.png
+  logosmall: /assets/images/logos/google-cloud-storage-small.png
+  description: |
+    Google Cloud Storage is a scalable, secure, and durable object storage
+    service provided by Google Cloud. It offers high availability and
+    performance, making it suitable for a wide range of use cases, including
+    data lakes and lakehouses. Google Cloud Storage integrates seamlessly with
+    other Google Cloud services and third-party tools, providing a comprehensive
+    solution for storing, managing, and analyzing large volumes of unstructured
+    data.
+
+    Use the Trino Google Cloud Storage file system support with the Delta Lake,
+    Hive, Hudi, or Iceberg connectors to access data in Google Cloud Storage.
+  links:
+    - urltext: Google Cloud Storage
+      url: https://cloud.google.com/storage
+    - urltext: Google Cloud Storage file system support documentation
+      url: /docs/current/object-storage/file-system-gcs.html
 - name: Google BigQuery
   anchor: google-bigquery
   category: data-source
