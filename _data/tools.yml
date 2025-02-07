@@ -1282,6 +1282,28 @@
       url: https://www.microstrategy.com/en
     - urltext: Microstrategy with Trino tutorial
       url: https://docs.starburst.io/data-consumer/clients/microstrategy.html
+- name: MinIO
+  anchor: minio
+  category: data-lake
+  owner: trinodb
+  logo: /assets/images/logos/minio.png
+  logosmall: /assets/images/logos/minio-small.png
+  description: |
+    MinIO is a high-performance, distributed object storage system designed for
+    data lake and lakehouse use cases. It is compatible with the Amazon S3 API,
+    making it easy to integrate with existing applications and tools that
+    support S3. MinIO is optimized for large-scale data storage and retrieval,
+    providing high availability, durability, and performance.
+
+    Use the Trino S3 file system support with the Delta Lake, Hive, Hudi, or
+    Iceberg connectors to access data in MinIO.
+  links:
+    - urltext: MinIO
+      url: https://min.io/
+    - urltext: MinIO for modern datalakes
+      url: https://min.io/solutions/modern-data-lakes-lakehouses
+    - urltext: S3 file system support documentation
+      url: /docs/current/object-storage/file-system-s3.html      
 - name: Minitrino
   anchor: minitrino
   category: add-on
