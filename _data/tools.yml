@@ -290,6 +290,26 @@
       url: https://kudu.apache.org/
     - urltext: Kudu connector documentation
       url: /docs/current/connector/kudu.html
+- name: Apache ORC
+  anchor: apache-orc
+  category: data-lake
+  owner: trinodb
+  logo: /assets/images/logos/apache-orc.png
+  logosmall: /assets/images/logos/apache-orc-small.png
+  description: |
+    Apache ORC is a self-describing type-aware columnar file format designed
+    for Hadoop workloads. It is optimized for large streaming reads, but with
+    integrated support for finding required rows quickly. Storing data in a
+    columnar format lets the reader read, decompress, and process only the
+    values that are required for the current query.
+
+    Access ORC files from Trino with the built-in readers and writers used by
+    the Hive or Iceberg connector.
+  links:
+    - urltext: Apache ORC
+      url: https://orc.apache.org/
+    - urltext: Trino ORC configuration properties
+      url: /docs/current/object-storage/file-formats.html#orc-format-configuration-properties
 - name: Apache Parquet
   anchor: apache-parquet
   category: data-lake
