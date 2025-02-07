@@ -171,7 +171,7 @@
       url: /episodes/16.html
 - name: Apache Hive
   anchor: apache-hive
-  category: data-source
+  category: data-lake
   owner: trinodb
   logo: /assets/images/logos/apache-hive.png
   logosmall: /assets/images/logos/apache-hive-small.png
@@ -192,7 +192,7 @@
       url: /episodes/29.html
 - name: Apache Hudi
   anchor: apache-hudi
-  category: data-source
+  category: data-lake
   owner: trinodb
   logo: /assets/images/logos/apache-hudi.png
   logosmall: /assets/images/logos/apache-hudi-small.png
@@ -214,7 +214,7 @@
       url: /episodes/41.html
 - name: Apache Iceberg
   anchor: apache-iceberg
-  category: data-source
+  category: data-lake
   owner: trinodb
   logo: /assets/images/logos/apache-iceberg.png
   logosmall: /assets/images/logos/apache-iceberg-small.png
@@ -586,7 +586,7 @@
       url: https://www.dbvis.com/docs/ug/
 - name: Delta Lake
   anchor: delta-lake
-  category: data-source
+  category: data-lake
   owner: trinodb
   logo: /assets/images/logos/delta-lake.png
   logosmall: /assets/images/logos/delta-lake-small.png
@@ -791,7 +791,7 @@
       url: https://github.com/trinodb/grafana-trino
 - name: Gravitino
   anchor: gravitino
-  category: data-source
+  category: data-lake
   owner: other
   logo: /assets/images/logos/gravitino.png
   logosmall: /assets/images/logos/gravitino-small.png
