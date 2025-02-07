@@ -47,7 +47,28 @@ vendors.
 
 <br>
 
-## Data sources
+## Data lake components
+
+{% include_relative data-lake-intro.md %}
+
+### Official data lake components
+
+{% assign category="data-lake" %}
+{% assign owner="trinodb" %}
+{% include toolsgrid.html %}
+
+### Other data lake components
+
+{% assign category="data-lake" %}
+{% assign owner="other" %}
+{% include toolsgrid.html %}
+
+<br>
+
+
+<br>
+
+## Other data sources
 
 {% include_relative data-sources-intro.md %}
 
