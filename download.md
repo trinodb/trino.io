@@ -64,12 +64,12 @@ show_hero: true
             <div class="card-body text-center">
                 <h3 class="card-header-title mb-3">Server packages</h3>
                 <p class="card-text">
-                  Utilize the <code>.tar.gz</code> package to manually deploy. 
-                  See <a href="docs/current/installation/rpm.html">RPM Deployment</a> for the <code>.rpm</code> package.
+                  Use the container <code>trinodb/trino:{{ site.trino_version }}</code>,
+                  the tarball, or have a look at
+                  <a href="https://github.com/trinodb/trino-packages">trino-packages</a>
                 </p>
                 <!-- Download button -->
                 {% download trino-server .tar.gz %}
-                {% download trino-server-rpm .rpm %}
             </div>
         </div>
         <div class="card mb-4">
