@@ -209,5 +209,9 @@ title: Distributed SQL query engine for big data
       </div>
      </div>
    </div>
+   <hr class="spacer-30"/>
+  <div class="row text-center spacer-60">
+    <div class="col-md-12"><h2><strong>Sponsored by</strong></h2></div>
+  </div>
 {%- include sponsorsline.html -%}
 </div>
