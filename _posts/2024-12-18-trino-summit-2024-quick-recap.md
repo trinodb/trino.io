@@ -151,6 +151,7 @@ Jan Waś from [Starburst]({{site.baseurl}}/users.html#starburst)
 **Connecting to Trino with C# and ADO.net** 
 <br>&nbsp;&nbsp;&nbsp;Presented by George Fischer from [Microsoft](https://www.microsoft.com)
 <br>&nbsp;&nbsp;&nbsp;<i class="fab fa-youtube" style="color: red;"></i> [Video recording](https://youtu.be/x2rF6IEjFK0){:target="_blank"}
+| [Slides]({{site.url}}/assets/blog/trino-summit-2024/trino-summit-2024-csharp-client.pdf){:target="_blank"}
 
 Our thanks go out to all our speakers as well as our event sponsor:
   
