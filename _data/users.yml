@@ -343,24 +343,6 @@
     per month, and we've been using Trino in production successfully since 2022.
     We continue to double down on our usage and adoption of Trino and would
     absolutely recommend it!
-- name: ForePaaS
-  highlight: false
-  anchor: forepaas
-  logo: /assets/images/logos/forepaas.png
-  logosmall: /assets/images/logos/forepaas-small.png
-  links:
-    - urltext: View the ForePaaS website
-      url: https://www.forepaas.com/
-    - urltext: Yu Teng from ForePaaS presenting at Trino Fest 2023
-      url: https://trino.io/blog/2023/07/12/trino-fest-2023-let-it-snow-recap
-  testimonial: |
-    ForePaaS leverages Trino as its main query engine technology. ForePaaS
-    provides a lakehouse platform that can run on multiple open-source storage
-    engines. The Trino-powered query engine allows users to run unified
-    analytics and BI at petabyte scale on their lakehouse and directly-queryable
-    data sources at lightning speeds. Trino also enforces the automated data
-    access control so that analytics end-users only see the data relevant to
-    them.
 - name: Gett
   highlight: true
   anchor: gett
@@ -643,6 +625,31 @@
   links:
     - urltext: View the NTT Communications website
       url: https://www.ntt.com/en/index.html
+- name: OVHcloud
+  highlight: false
+  anchor: ovhcloud
+  logo: /assets/images/logos/ovhcloud.png
+  logosmall: /assets/images/logos/ovhcloud-small.png
+  links:
+    - urltext: View OVHcloud Data Platform website
+      url: https://www.ovhcloud.com/en-ie/public-cloud/data-platform/
+    - urltext: Yu Teng from OVHcloud presenting at Trino Fest 2023
+      url: https://trino.io/blog/2023/07/12/trino-fest-2023-let-it-snow-recap
+  testimonial: |
+    OVHcloud is a global cloud player and the leading European cloud provider of 
+    public cloud, private cloud, and web hosting services with 43 data centers 
+    across 4 continents to reach 1,6 million customers in over 140 countries. 
+    OVHcloud offers customers the latest-generation IaaS and PaaS solutions 
+    combining performance, predictable pricing, and complete data sovereignty to 
+    support their unfettered growth.
+   
+    OVHcloud offers an end-to-end data platform service leveraging Trino as its 
+    main query engine technology. OVHcloud Data Platform (previously known as 
+    ForePaaS platform) provides a lakehouse running on object storage and Apache 
+    Iceberg. The Trino-powered query engine allows users to run unified analytics 
+    and BI at petabyte scale on their lakehouse and directly-queryable data sources 
+    at lightning speeds. Trino also enforces the automated data access control so 
+    that analytics end-users only see the data relevant to them.
 - name: Pinterest
   highlight: true
   anchor: pinterest
