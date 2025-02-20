@@ -72,7 +72,7 @@ from the presentations and the experience and knowledge of our speakers.
   Julien Ruaux from [Redis](https://redis.com/).
 * [Let it SNOW for Trino]({% post_url 2023-07-12-trino-fest-2023-let-it-snow-recap %})
   presented by Erik Anderson from [Bloomberg](https://www.bloomberg.com/company/values/tech-at-bloomberg/open-source/projects/)
-  and Yu Teng from [ForePaaS](https://www.forepaas.com/).
+  and Yu Teng from [ForePaaS](https://www.ovhcloud.com/en-ie/public-cloud/data-platform/).
 * [DuneSQL, a query engine for blockchain data]({% post_url
   2023-07-14-trino-fest-2023-dune %}) presented by Miguel Filipe and Jonas
   Irgens Kylling from [Dune](https://dune.com/).
