@@ -485,6 +485,24 @@
       url: https://www.datadoghq.com/
     - urltext: Documentation for Trino integration
       url: https://docs.datadoghq.com/integrations/trino/
+- name: Datafaker
+  anchor: datafaker
+  category: data-source
+  owner: trinodb
+  logo: /assets/images/logos/datafaker.png
+  logosmall: /assets/images/logos/datafaker-small.png
+  description: |
+    Datafaker is a library to generate fake data. This can be very helpful
+    when generating test data to fill a database, to generate data for a
+    stress test, or anonymize data from production services.
+
+    Use Datafaker as a data source in Trino by configuring a catalog with
+    the Faker connector.
+  links:
+    - urltext: Datafaker
+      url: https://www.datafaker.net/
+    - urltext: Faker connector documentation
+      url: /docs/current/connector/faker.html
 - name: DBeaver
   anchor: DBeaver
   category: client-application
