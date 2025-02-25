@@ -503,6 +503,9 @@
       url: https://www.datafaker.net/
     - urltext: Faker connector documentation
       url: /docs/current/connector/faker.html
+    - urltext: Interview and demo with the Faker connector author Jan Waś in 
+        Trino Community Broadcast 71
+      url: /episodes/71.html
 - name: DBeaver
   anchor: DBeaver
   category: client-application
