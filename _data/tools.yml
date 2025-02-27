@@ -201,15 +201,25 @@
   description: |
     Apache Hive is a distributed, fault-tolerant data warehouse system that
     enables analytics at a massive scale and facilitates reading, writing, and
-    managing petabytes of data residing in distributed storage using SQL.
+    managing petabytes of data residing in distributed storage using SQL. It is
+    part of the larger Apache Hadoop project.
 
     Use an Apache Hive data warehouse as a data source in Trino by configuring a
-    catalog with the Hive connector.
+    catalog with the Hive connector. Use the Hive metastore service as a
+    metastore with the Delta Lake, Hive, Hudi, and Iceberg connectors. Use the
+    Hadoop Distributed File System (HDFS) file system support as file system
+    with the Delta Lake, Hive, Hudi, and Iceberg connectors.
   links:
     - urltext: Apache Hive
       url: https://hive.apache.org/
+    - urltext: Apache Hadoop
+      url: https://hadoop.apache.org/
     - urltext: Hive connector documentation
       url: /docs/current/connector/hive.html
+    - urltext: Hive Thrift metastore documentation
+      url: /docs/current/object-storage/metastores.html
+    - urltext: HDFS file system support
+      url: /docs/current/object-storage/file-system-hdfs.html
     - urltext: What is Trino and the Hive connector from Trino Community
         Broadcast 29
       url: /episodes/29.html
