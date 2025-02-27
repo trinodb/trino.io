@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data sources
+title: Other data sources
 pretitle: Ecosystem
 show_hero: true
 show_pagenav: true

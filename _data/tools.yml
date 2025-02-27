@@ -3,7 +3,7 @@
 ################################################################################
 - name: Alluxio
   anchor: alluxio
-  category: add-on
+  category: data-lake
   owner: trinodb
   logo: /assets/images/logos/alluxio.png
   logosmall: /assets/images/logos/alluxio-small.png
@@ -71,6 +71,29 @@
       url: https://aws.amazon.com/redshift/
     - urltext: Redshift connector documentation
       url: /docs/current/connector/redshift.html
+- name: Amazon S3
+  anchor: amazon-s3
+  category: data-lake
+  owner: trinodb
+  logo: /assets/images/logos/amazon-s3.png
+  logosmall: /assets/images/logos/amazon-s3-small.png
+  description: |
+    Amazon Simple Storage Service (Amazon S3) is an object storage service
+    offering industry-leading scalability, data availability, security, and
+    performance. Millions of customers of all sizes and industries store,
+    manage, analyze, and protect any amount of data for virtually any use case,
+    such as data lakes, cloud-native applications, and mobile apps. With
+    cost-effective storage classes and easy-to-use management features, you can
+    optimize costs, organize and analyze data, and configure fine-tuned access
+    controls to meet specific business and compliance requirements.
+
+    Use the S3 file system support with the Delta Lake, Hive, Hudi or Iceberg
+    connectors to access data in S3.
+  links:
+    - urltext: Amazon S3
+      url: https://aws.amazon.com/s3/
+    - urltext: S3 file system support documentation
+      url: /docs/current/object-storage/file-system-s3.html
 - name: Apache Accumulo
   anchor: apache-accumulo
   category: data-source
@@ -171,7 +194,7 @@
       url: /episodes/16.html
 - name: Apache Hive
   anchor: apache-hive
-  category: data-source
+  category: data-lake
   owner: trinodb
   logo: /assets/images/logos/apache-hive.png
   logosmall: /assets/images/logos/apache-hive-small.png
@@ -192,7 +215,7 @@
       url: /episodes/29.html
 - name: Apache Hudi
   anchor: apache-hudi
-  category: data-source
+  category: data-lake
   owner: trinodb
   logo: /assets/images/logos/apache-hudi.png
   logosmall: /assets/images/logos/apache-hudi-small.png
@@ -214,7 +237,7 @@
       url: /episodes/41.html
 - name: Apache Iceberg
   anchor: apache-iceberg
-  category: data-source
+  category: data-lake
   owner: trinodb
   logo: /assets/images/logos/apache-iceberg.png
   logosmall: /assets/images/logos/apache-iceberg-small.png
@@ -290,6 +313,45 @@
       url: https://kudu.apache.org/
     - urltext: Kudu connector documentation
       url: /docs/current/connector/kudu.html
+- name: Apache ORC
+  anchor: apache-orc
+  category: data-lake
+  owner: trinodb
+  logo: /assets/images/logos/apache-orc.png
+  logosmall: /assets/images/logos/apache-orc-small.png
+  description: |
+    Apache ORC is a self-describing type-aware columnar file format designed
+    for Hadoop workloads. It is optimized for large streaming reads, but with
+    integrated support for finding required rows quickly. Storing data in a
+    columnar format lets the reader read, decompress, and process only the
+    values that are required for the current query.
+
+    Access ORC files from Trino with the built-in readers and writers used by
+    the Hive or Iceberg connector.
+  links:
+    - urltext: Apache ORC
+      url: https://orc.apache.org/
+    - urltext: Trino ORC configuration properties
+      url: /docs/current/object-storage/file-formats.html#orc-format-configuration-properties
+- name: Apache Parquet
+  anchor: apache-parquet
+  category: data-lake
+  owner: trinodb
+  logo: /assets/images/logos/apache-parquet.png
+  logosmall: /assets/images/logos/apache-parquet-small.png
+  description: |
+    Apache Parquet Apache Parquet is an open source, column-oriented data file
+    format designed for efficient data storage and retrieval. It provides high
+    performance compression and encoding schemes to handle complex data in bulk
+    and is supported in many programming language and analytics tools...
+
+    Access ORC files from Trino with the built-in readers and writers used by
+    the Delta Lake, Hive, Hudi or Iceberg connectors.
+  links:
+    - urltext: Apache Parquet
+      url: https://parquet.apache.org/
+    - urltext: Trino Parquet configuration properties
+      url: /docs/current/object-storage/file-formats.html#parquet-format-configuration-properties
 - name: Apache Phoenix
   anchor: apache-phoenix
   category: data-source
@@ -331,6 +393,26 @@
       url: /docs/current/connector/pinot.html
     - urltext: Trino takes a sip of Pinot! from Trino Community Broadcast 13
       url: /episodes/13.html
+- name: Apache Polaris
+  anchor: apache-polaris
+  category: data-lake
+  owner: trinodb
+  logo: /assets/images/logos/apache-polaris.png
+  logosmall: /assets/images/logos/apache-polaris-small.png
+  description: |
+    Apache Polaris is an open-source, fully-featured catalog for Apache
+    Iceberg™. It implements Iceberg's REST API, enabling seamless multi-engine
+    interoperability across a wide range of platforms,
+
+    Use Lakekeeper with the Trino Iceberg connector and the configuration for a
+    Iceberg REST catalog.
+  links:
+    - urltext: Apache Polaris
+      url: https://polaris.apache.org/
+    - urltext: Iceberg connector documentation
+      url: /docs/current/connector/iceberg.html
+    - urltext: Iceberg REST catalog configuration
+      url: /docs/current/connector/iceberg.html#rest-catalog
 - name: Apache Ranger
   anchor: apache-ranger
   category: add-on
@@ -377,6 +459,51 @@
     - urltext: Trino gets super visual with Apache Superset! from Trino
         Community Broadcast 12
       url: /episodes/12.html
+- name: Azure Storage
+  anchor: azure-storage
+  category: data-lake
+  owner: trinodb
+  logo: /assets/images/logos/microsoft-azure.png
+  logosmall: /assets/images/logos/microsoft-azure-small.png
+  description: |
+    Azure Storage is a scalable, durable, and secure cloud storage solution from
+    Microsoft. It offers a variety of storage options, including Blob Storage,
+    which is ideal for data lakes and lakehouses. Azure Storage provides high
+    availability, strong consistency, and disaster recovery capabilities, making
+    it suitable for storing and managing large volumes of unstructured data.
+    With Azure Storage, you can easily integrate with other Azure services and
+    third-party tools to build comprehensive data solutions.
+
+    Use Azure Storage with the Delta Lake, Hive, Hudi, or Iceberg connectors to
+    access data in Azure Storage.
+  links:
+    - urltext: Azure Storage
+      url: https://learn.microsoft.com/en-us/azure/storage/
+    - urltext: Azure Storage file system support documentation
+      url: /docs/current/object-storage/file-system-azure.html
+- name: Backblaze
+  anchor: backblaze
+  category: data-lake
+  owner: other
+  logo: /assets/images/logos/backblaze.png
+  logosmall: /assets/images/logos/backblaze-small.png
+  description: |
+    Backblaze B2 Cloud Storage is a scalable and cost-effective cloud storage
+    solution designed for storing and managing large amounts of data. It offers
+    high durability, availability, and performance, making it suitable for a
+    wide range of use cases, including backups, data archiving, and serving
+    media files. Backblaze B2 provides easy integration with various tools and
+    services, allowing seamless data access and management.
+
+    Use the Trino S3 file system support with the Delta Lake, Hive, Hudi, or
+    Iceberg connectors to access data in Backblaze B2.
+  links:
+    - urltext: Backblaze
+      url: https://www.backblaze.com/
+    - urltext: Storing and Querying Analytical Data in Backblaze B2 and Trino
+      url: https://www.backblaze.com/blog/storing-and-querying-analytical-data-in-backblaze-b2/
+    - urltext: S3 file system support documentation
+      url: /docs/current/object-storage/file-system-s3.html
 - name: C# and ADO.NET
   anchor: c-sharp
   category: client-driver
@@ -583,7 +710,7 @@
       url: https://www.dbvis.com/docs/ug/
 - name: Delta Lake
   anchor: delta-lake
-  category: data-source
+  category: data-lake
   owner: trinodb
   logo: /assets/images/logos/delta-lake.png
   logosmall: /assets/images/logos/delta-lake-small.png
@@ -733,6 +860,28 @@
       url: https://go.dev/
     - urltext: Trino Go client source code and documentation
       url: https://github.com/trinodb/trino-go-client
+- name: Google Cloud Storage
+  anchor: google-cloud-storage
+  category: data-lake
+  owner: trinodb
+  logo: /assets/images/logos/google-cloud-storage.png
+  logosmall: /assets/images/logos/google-cloud-storage-small.png
+  description: |
+    Google Cloud Storage is a scalable, secure, and durable object storage
+    service provided by Google Cloud. It offers high availability and
+    performance, making it suitable for a wide range of use cases, including
+    data lakes and lakehouses. Google Cloud Storage integrates seamlessly with
+    other Google Cloud services and third-party tools, providing a comprehensive
+    solution for storing, managing, and analyzing large volumes of unstructured
+    data.
+
+    Use the Trino Google Cloud Storage file system support with the Delta Lake,
+    Hive, Hudi, or Iceberg connectors to access data in Google Cloud Storage.
+  links:
+    - urltext: Google Cloud Storage
+      url: https://cloud.google.com/storage
+    - urltext: Google Cloud Storage file system support documentation
+      url: /docs/current/object-storage/file-system-gcs.html
 - name: Google BigQuery
   anchor: google-bigquery
   category: data-source
@@ -788,7 +937,7 @@
       url: https://github.com/trinodb/grafana-trino
 - name: Gravitino
   anchor: gravitino
-  category: data-source
+  category: data-lake
   owner: other
   logo: /assets/images/logos/gravitino.png
   logosmall: /assets/images/logos/gravitino-small.png
@@ -1034,6 +1183,33 @@
       url: /docs/current/installation/kubernetes.html
     - urltext: Trino Helm chart source with more details
       url:  https://github.com/trinodb/charts
+- name: Lakekeeper
+  anchor: lakekeeper
+  category: data-lake
+  owner: other
+  logo: /assets/images/logos/Lakekeeper.png
+  logosmall: /assets/images/logos/lakekeeper-small.png
+  description: |
+    Lakekeeper is an Apache-Licensed, secure, fast, and easy-to-use Apache
+    Iceberg REST Catalog written in Rust. It provides a scalable solution for
+    managingLakehouses with enterprise-grade governance. Key features include
+    Kubernetes and OpenID integration, fine-grained access control, and
+    multi-tenancy. Designed for interoperability, it supports major cloud
+    providers as well as on-premise deployments. Lakekeeper emits change events,
+    ensures high availability, and offers a lightweight, easily deployable
+    architecture. Prioritizing ecosystem-wide compatibility, it empowers
+    organizations to manage their Lakehouse infrastructure without vendor
+    lock-in.
+
+    Use Lakekeeper with the Trino Iceberg connector and the configuration for a
+    Iceberg REST catalog.
+  links:
+    - urltext: Lakekeeper
+      url: https://lakekeeper.io/
+    - urltext: Iceberg connector documentation
+      url: /docs/current/connector/iceberg.html
+    - urltext: Iceberg REST catalog documentation
+      url: /docs/current/object-storage/metastores.html#rest-catalog
 - name: Looker
   anchor: looker
   category: client-application
@@ -1126,6 +1302,28 @@
       url: https://www.microstrategy.com/en
     - urltext: Microstrategy with Trino tutorial
       url: https://docs.starburst.io/data-consumer/clients/microstrategy.html
+- name: MinIO
+  anchor: minio
+  category: data-lake
+  owner: trinodb
+  logo: /assets/images/logos/minio.png
+  logosmall: /assets/images/logos/minio-small.png
+  description: |
+    MinIO is a high-performance, distributed object storage system designed for
+    data lake and lakehouse use cases. It is compatible with the Amazon S3 API,
+    making it easy to integrate with existing applications and tools that
+    support S3. MinIO is optimized for large-scale data storage and retrieval,
+    providing high availability, durability, and performance.
+
+    Use the Trino S3 file system support with the Delta Lake, Hive, Hudi, or
+    Iceberg connectors to access data in MinIO.
+  links:
+    - urltext: MinIO
+      url: https://min.io/
+    - urltext: MinIO for modern datalakes
+      url: https://min.io/solutions/modern-data-lakes-lakehouses
+    - urltext: S3 file system support documentation
+      url: /docs/current/object-storage/file-system-s3.html      
 - name: Minitrino
   anchor: minitrino
   category: add-on
@@ -1735,6 +1933,26 @@
       url: https://www.youtube.com/watch?v=2qwBcKmQSn0
     - urltext: Announcement blog post
       url: /blog/2023/09/28/trino-gateway
+- name: Unity Catalog
+  anchor: unity-catalog
+  category: data-lake
+  owner: trinodb
+  logo: /assets/images/logos/unity-catalog.png
+  logosmall: /assets/images/logos/unity-catalog-small.png
+  description: |
+    Unity Catalog is a unified governance solution for data and AI assets in the
+    cloud. It provides a centralized metadata store, fine-grained access
+    controls, and audit logging to help manage and secure your data. Unity
+    Catalog simplifies data discovery, access, and sharing across your
+    organization, ensuring compliance and enhancing collaboration.
+
+    Use Unity Catalog with the Trino Delta Lake, Hive, or Iceberg connectors and
+    the configuration for a Thrift metastore.
+  links:
+    - urltext: Unity Catalog
+      url: https://www.unitycatalog.io/
+    - urltext: Thrift metastore configuration properties
+      url: /docs/current/object-storage/metastores.html#thrift-metastore-configuration-properties
 - name: VAST
   anchor: vast
   category: data-source
