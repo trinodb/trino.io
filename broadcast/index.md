@@ -20,11 +20,6 @@ interesting developments in the ecosystem around Trino.
 ## Upcoming episodes
 
 <dl>
-<dt>27 Feb 2025: Trino Community Broadcast 71 - Fake it real good</dt>
-<dd><a href="https://github.com/nineinchnick">Jan Waś</a> teaches us about the
-new Faker connector and how you can use it to emulate data that does not exist on
-any storage, how you can shape it as you need, and how you can then learn real
-SQL, build real reports, and make some real charts -  all with fake data.</dd>
 <dt>13 Mar 2025: Trino Community Broadcast 72 - Keeping the lake clean</dt>
 <dd><a href="https://www.linkedin.com/in/viktor-kessler/">Viktor Kessler</a> and
 <a href="https://www.linkedin.com/in/thielc/">Christian Thiel</a> from Vakamo
