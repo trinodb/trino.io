@@ -365,10 +365,14 @@
 - name: Apache Phoenix
   anchor: apache-phoenix
   category: data-source
-  owner: trinodb
+  owner: other
   logo: /assets/images/logos/apache-phoenix.png
   logosmall: /assets/images/logos/apache-phoenix-small.png
   description: |
+    Note that the Phoenix connector is removed from Trino 473 and later, and no
+    longer maintained. Users must retrieve and update the code from the source
+    code repository, or use an old Trino version.
+
     Apache Phoenix enables OLTP and operational analytics in Hadoop for low
     latency applications by combining the best of both worlds:
 
@@ -383,7 +387,7 @@
     - urltext: Apache Phoenix
       url: https://phoenix.apache.org/
     - urltext: Phoenix connector documentation
-      url: /docs/current/connector/phoenix.html
+      url: /docs/472/connector/phoenix.html
 - name: Apache Pinot
   anchor: apache-pinot
   category: data-source
