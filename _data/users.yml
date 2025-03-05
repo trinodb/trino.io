@@ -88,20 +88,6 @@
       url: https://aws.amazon.com/emr/
     - urltext: Deploying Trino on EKS blueprint
       url: https://awslabs.github.io/data-on-eks/docs/blueprints/distributed-databases/trino
-- name: Ampool
-  highlight: false
-  anchor: ampool
-  logo: /assets/images/logos/ampool.png
-  logosmall: /assets/images/logos/ampool-small.png
-  testimonial: |
-    Ampool is powered by Trino to provide SQL query federation across 200+ data
-    sources. Combined with Ampool’s high-performance in-memory distributed
-    caching engine, a turbocharged Trino query engine can speedup BI & ad-hoc
-    analytical workloads by an order of magnitude. Ampool is built from the
-    ground up to operate seamlessly in hybrid and multi-cloud environments.
-  links:
-    - urltext: View the Ampool website
-      url: https://www.ampool-inc.com/
 - name: Bazaar Technologies
   highlight: false
   anchor: bazaar_technologies
