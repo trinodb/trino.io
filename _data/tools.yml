@@ -309,10 +309,14 @@
 - name: Apache Kudu
   anchor: apache-kudu
   category: data-source
-  owner: trinodb
+  owner: other
   logo: /assets/images/logos/apache-kudu.png
   logosmall: /assets/images/logos/apache-kudu-small.png
   description: |
+    Note that the Kudu connector is removed from Trino 473 and later, and no
+    longer maintained. Users must retrieve and update the code from the source
+    code repository, or use an old Trino version.
+
     Apache Kudu is an open source distributed data storage engine that makes
     fast analytics on fast and changing data easy.
 
@@ -322,7 +326,7 @@
     - urltext: Apache Kudu
       url: https://kudu.apache.org/
     - urltext: Kudu connector documentation
-      url: /docs/current/connector/kudu.html
+      url: /docs/472/connector/kudu.html
 - name: Apache ORC
   anchor: apache-orc
   category: data-lake
