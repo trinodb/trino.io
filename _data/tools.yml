@@ -1205,7 +1205,7 @@
   description: |
     Lakekeeper is an Apache-Licensed, secure, fast, and easy-to-use Apache
     Iceberg REST Catalog written in Rust. It provides a scalable solution for
-    managingLakehouses with enterprise-grade governance. Key features include
+    managing Lakehouses with enterprise-grade governance. Key features include
     Kubernetes and OpenID integration, fine-grained access control, and
     multi-tenancy. Designed for interoperability, it supports major cloud
     providers as well as on-premise deployments. Lakekeeper emits change events,

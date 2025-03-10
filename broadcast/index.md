@@ -21,12 +21,7 @@ interesting developments in the ecosystem around Trino.
 
 <dl>
 <dt>13 Mar 2025: Trino Community Broadcast 72 - Keeping the lake clean</dt>
-<dd><a href="https://www.linkedin.com/in/viktor-kessler/">Viktor Kessler</a> and
-<a href="https://www.linkedin.com/in/thielc/">Christian Thiel</a> from Vakamo
-introduce us to their new metastore solution 
-<a href="https://lakekeeper.io/">Lakekeeper</a>. It is an Iceberg REST 
-catalog-compatible lakehouse metastore with big plans for additional features
-and support for Trino. We dive into the details and have a look at a demo.</dd>
+
 <dt>27 Mar 2025: Trino Community Broadcast 73 - Wrapping Trino packages with a bow</dt>
 <dd><a href="https://www.linkedin.com/in/manfredmoser">Manfred Moser</a> talks
 about his recent work to improve Trino packaging and demos how to create your 
