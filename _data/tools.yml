@@ -419,6 +419,10 @@
   links:
     - urltext: Apache Polaris
       url: https://polaris.apache.org/
+    - urltext: Example project with Trino and OPA
+      url: https://github.com/lakekeeper/lakekeeper/tree/main/examples/trino-opa)
+    - urltext: Trino Community Broadcast 72 with the Lakekeeper team
+      url: /episodes/72.html
     - urltext: Iceberg connector documentation
       url: /docs/current/connector/iceberg.html
     - urltext: Iceberg REST catalog configuration
@@ -1205,7 +1209,7 @@
   description: |
     Lakekeeper is an Apache-Licensed, secure, fast, and easy-to-use Apache
     Iceberg REST Catalog written in Rust. It provides a scalable solution for
-    managingLakehouses with enterprise-grade governance. Key features include
+    managing Lakehouses with enterprise-grade governance. Key features include
     Kubernetes and OpenID integration, fine-grained access control, and
     multi-tenancy. Designed for interoperability, it supports major cloud
     providers as well as on-premise deployments. Lakekeeper emits change events,
