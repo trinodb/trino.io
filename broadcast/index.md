@@ -31,7 +31,12 @@ and support for Trino. We dive into the details and have a look at a demo.</dd>
 <dd><a href="https://www.linkedin.com/in/manfredmoser">Manfred Moser</a> talks
 about his recent work to improve Trino packaging and demos how to create your 
 own RPM, tarball, and container image.</dd>
-
+<dt>6 May 2025: Trino Community Broadcast 74 - One tool to proxy them all</dt>
+<dd><a href="https://www.linkedin.com/in/jordanzimmerman/">Jordan Zimmermann</a>, 
+<a href="https://www.linkedin.com/in/pablo-arteaga-20b547101/">Pablo Arteaga</a>,
+and <a href="https://www.linkedin.com/in/cristian-osiac/">Cristian Osiac</a>
+introduce us to a new Trino subproject and its use cases with AWS and other
+storage systems, metastores, and query engines - aws-proxy.</dd>
 </dl>
 
 Find [more details and other events on our calendar]({{site.url}}/community.html#events).
