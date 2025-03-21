@@ -59,6 +59,7 @@
           </li>
           {% endfor %}
       </ul>
+      {% if page.wistia_id != nil %}
       <h2>Audio</h2>
       <script
               src="https://fast.wistia.com/embed/medias/{{ page.wistia_id }}.jsonp" async>
@@ -69,6 +70,7 @@
       <div class="wistia_embed wistia_async_{{ page.wistia_id }} seo=false"
            style="width:50%;height:100px;position:relative">&nbsp;
       </div>
+      {% endif %}
 
       {{ content }}
   </div> </div> </div>
