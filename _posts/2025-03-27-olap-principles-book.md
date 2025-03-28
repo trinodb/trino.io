@@ -44,8 +44,12 @@ So now it is time to get the book, or read on for a walk through of the content:
 
 <div class="card-deck spacer-30">
     <a class="btn btn-pink" target="_blank"
+    href="https://product.dangdang.com/11974653727.html">
+        Get the book from dangdang.com
+    </a>
+    <a class="btn btn-pink" target="_blank"
     href="https://item.m.jd.com/product/10136949561522.html">
-          Core Principles and Design Practices of OLAP Engines
+        Get the book from jd.com
     </a>
 </div>
 
@@ -155,9 +159,15 @@ following the Trino project when it emerged in late 2020.
 
 ## Get your copy
 
+Now it is time for you to get your copy of **Core Principles and Design Practices of OLAP Engines**:
+
 <div class="card-deck spacer-30">
     <a class="btn btn-pink" target="_blank"
+    href="https://product.dangdang.com/11974653727.html">
+        Get the book from dangdang.com
+    </a>
+    <a class="btn btn-pink" target="_blank"
     href="https://item.m.jd.com/product/10136949561522.html">
-        Get the book - Core Principles and Design Practices of OLAP Engines
+        Get the book from jd.com
     </a>
 </div>
