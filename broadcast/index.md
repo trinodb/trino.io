@@ -20,10 +20,6 @@ interesting developments in the ecosystem around Trino.
 ## Upcoming episodes
 
 <dl>
-<dt>9 Apr Mar 2025: Trino Community Broadcast 73 - Wrapping Trino packages with a bow</dt>
-<dd><a href="https://www.linkedin.com/in/manfredmoser">Manfred Moser</a> talks
-about his recent work to improve Trino packaging and demos how to create your 
-own RPM, tarball, and container image.</dd>
 <dt>6 May 2025: Trino Community Broadcast 74 - One tool to proxy them all</dt>
 <dd><a href="https://www.linkedin.com/in/jordanzimmerman/">Jordan Zimmermann</a>, 
 <a href="https://www.linkedin.com/in/pablo-arteaga-20b547101/">Pablo Arteaga</a>,
