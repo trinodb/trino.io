@@ -1961,23 +1961,30 @@
 - name: Unity Catalog
   anchor: unity-catalog
   category: data-lake
-  owner: trinodb
+  owner: other
   logo: /assets/images/logos/unity-catalog.png
   logosmall: /assets/images/logos/unity-catalog-small.png
   description: |
+    Note that the support for Unity Catalog via the HTTP protocol is deprecated
+    by Unity Catalog and is removed from Trino 473 and later. Users must
+    retrieve and update the code from the source code repository, use an old
+    Trino version, or provide an implementation for a new Unity Catalog
+    integration. The Iceberg REST catalog support can be used with the Iceberg
+    connector.
+
     Unity Catalog is a unified governance solution for data and AI assets in the
     cloud. It provides a centralized metadata store, fine-grained access
     controls, and audit logging to help manage and secure your data. Unity
     Catalog simplifies data discovery, access, and sharing across your
     organization, ensuring compliance and enhancing collaboration.
 
-    Use Unity Catalog with the Trino Delta Lake, Hive, or Iceberg connectors and
-    the configuration for a Thrift metastore.
+    Use Unity Catalog with the Trino Iceberg connector and the configuration for
+    a Iceberg REST catalog with Trino.
   links:
     - urltext: Unity Catalog
       url: https://www.unitycatalog.io/
-    - urltext: Thrift metastore configuration properties
-      url: /docs/current/object-storage/metastores.html#thrift-metastore-configuration-properties
+    - urltext: Iceberg REST catalog configuration
+      url: /docs/current/object-storage/metastores.html#rest-catalog
 - name: VAST
   anchor: vast
   category: data-source
