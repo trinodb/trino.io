@@ -1112,6 +1112,23 @@
   links:
     - urltext: Trino JDBC Driver documentation
       url: /docs/current/client/jdbc.html
+- name: Simba JDBC Driver
+  anchor: simba-jdbc
+  category: client-driver
+  owner: other
+  logo: /assets/images/logos/jdbc.png
+  logosmall: /assets/images/logos/jdbc-small.png
+  description: |
+    Simba JDBC Driver for Trino is a commercial driver maintained by 
+    insightsoftware. It offers enterprise-grade support, SLAs, and compatibility
+    for users requiring a robust alternative to the open source driver. While 
+    functionally similar in many respects, the Simba driver is aimed at 
+    customers seeking production-ready stability, direct support channels, 
+    and custom feature enhancements over time. The driver supports common use
+    cases and works across a broad set of connectors.
+  links:
+    - urltext: Simba JDBC driver from insightsoftware
+      url: https://www.insightsoftware.com/simba/drivers/trino-jdbc-driver/
 - name: JetBrains Datagrip
   anchor: jetbrains-datagriop
   category: client-application
