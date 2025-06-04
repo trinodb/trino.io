@@ -20,10 +20,6 @@ interesting developments in the ecosystem around Trino.
 ## Upcoming episodes
 
 <dl>
-<dt>3 Jun 2025: Trino Community Broadcast 74 - Insights from a Norse god</dt>
-<dd><a href="https://github.com/jeschkies/">Karsten Jeschkies</a> 
-from Grafana Labs introduces us to the powerful, multi-tenant log management
-system Loki, some of the use cases, and his work on the Trino Loki connector.</dd>
 <dt>Date not yet set: Trino Community Broadcast 75 - One tool to proxy them all</dt>
 <dd><a href="https://www.linkedin.com/in/jordanzimmerman/">Jordan Zimmermann</a>, 
 <a href="https://www.linkedin.com/in/pablo-arteaga-20b547101/">Pablo Arteaga</a>,
