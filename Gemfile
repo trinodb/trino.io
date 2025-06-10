@@ -5,7 +5,7 @@ source "https://rubygems.org"
 #
 #     bundle exec jekyll serve
 
-gem "jekyll", "~> 4.4.1"
+gem "jekyll", "~> 4.3.3"
 
 group :jekyll_plugins do
   gem "jekyll-sitemap"

@@ -36,7 +36,7 @@ Install bundler using the same version as specified at the end of the
 `Gemfile.lock` file in the project root:
 
 ```bash
-gem install bundler -v '=2.6.9'
+gem install bundler -v '=2.5.14'
 ```
 
 Install gems for site:
@@ -53,19 +53,7 @@ brew install netlify-cli
 
 ### Run server
 
-Run the server with script:
-
-```bash
-./jekyllRun.sh
-```
-
-Also supports for flags to passed to Jekyll:
-
-```bash
-./jekyllRun.sh --future
-```
-
-Alternatively, run the server using Netlify Dev:
+Run server using Netlify Dev:
 
 ```bash
 netlify dev
