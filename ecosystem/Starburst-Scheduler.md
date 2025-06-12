@@ -1,4 +1,9 @@
 ---
+Title: "Starburst Scheduler: Python Pip Package to Automate Starburst.io SQL Queries"
+
+Description: "Automate Starburst.io SQL queries using the Starburst Scheduler Python package."
+
+---
 
 ```markdown
 # Starburst Scheduler: Python Pip Package to Automate Starburst.io SQL Queries
@@ -201,5 +206,3 @@ In the future, I plan to add Slack/Mattermost integrations, advanced scheduling,
 If you use Starburst and want a lightweight scheduling tool — give **Starburst Scheduler** a try.
 
 GitHub: [https://github.com/karranikhilreddy99/starburst\_scheduler](https://github.com/karranikhilreddy99/starburst_scheduler)
-
----
