@@ -53,7 +53,20 @@ brew install netlify-cli
 
 ### Run server
 
-Run server using Netlify Dev:
+Run the server with the helper script and Jekyll directly.
+
+```bash
+./jekyllRun.sh
+```
+
+The script also installs the necessary packages with bundler and support flags
+to pass to Jekyll:
+
+```bash
+./jekyllRun.sh --future
+```
+
+Alternatively, run the server using Netlify Dev to simulate production:
 
 ```bash
 netlify dev
