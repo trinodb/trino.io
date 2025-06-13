@@ -36,7 +36,7 @@ Install bundler using the same version as specified at the end of the
 `Gemfile.lock` file in the project root:
 
 ```bash
-gem install bundler -v '=2.5.14'
+gem install bundler -v '=2.6.9'
 ```
 
 Install gems for site:
