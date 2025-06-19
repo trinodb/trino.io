@@ -1122,7 +1122,7 @@
     Simba JDBC Driver for Trino is a commercial driver maintained by 
     insightsoftware. It offers enterprise-grade support, SLAs, and compatibility
     for users requiring an alternative to the open source driver. 
-    functionally similar in many respects, the Simba driver is aimed at 
+    The Simba driver is aimed at 
     customers seeking production-ready stability, direct support channels, 
     and custom feature enhancements over time. The driver supports common use
     cases and works across a broad set of connectors.
