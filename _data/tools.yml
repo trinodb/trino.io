@@ -578,7 +578,7 @@
 - name: Coginiti
   anchor: coginiti
   category: client-application
-  owner: other  
+  owner: other
   logo: /assets/images/logos/coginiti.png
   logosmall: /assets/images/logos/coginiti-small.png
   description: |
@@ -652,7 +652,7 @@
       url: https://www.datafaker.net/
     - urltext: Faker connector documentation
       url: /docs/current/connector/faker.html
-    - urltext: Interview and demo with the Faker connector author Jan Waś in 
+    - urltext: Interview and demo with the Faker connector author Jan Waś in
         Trino Community Broadcast 71
       url: /episodes/71.html
 - name: DBeaver
@@ -662,19 +662,19 @@
   logo: /assets/images/logos/dbeaver.png
   logosmall: /assets/images/logos/dbeaver-small.png
   description: |
-      DBeaver is a cross-platform database tool for developers, database
-      administrators, analysts, and everyone working with data. With DBeaver you
-      are able to manipulate with your data like in a regular spreadsheet,
-      create analytical reports based on records from different data storages,
-      export information in an appropriate format. For advanced database users
-      DBeaver suggests a powerful SQL-editor, plenty of administration features,
-      abilities of data and schema migration, monitoring database connection
-      sessions, and a lot more.
+    DBeaver is a cross-platform database tool for developers, database
+    administrators, analysts, and everyone working with data. With DBeaver you
+    are able to manipulate with your data like in a regular spreadsheet,
+    create analytical reports based on records from different data storages,
+    export information in an appropriate format. For advanced database users
+    DBeaver suggests a powerful SQL-editor, plenty of administration features,
+    abilities of data and schema migration, monitoring database connection
+    sessions, and a lot more.
 
-      It is avaiable as free open source DBeaver Community and as various
-      commercially supported DBeaver PRO editions. A web application version
-      called CloudBeaver is also available. All editions support many databases,
-      including Trino.
+    It is avaiable as free open source DBeaver Community and as various
+    commercially supported DBeaver PRO editions. A web application version
+    called CloudBeaver is also available. All editions support many databases,
+    including Trino.
   links:
     - urltext: DBeaver Community
       url: https://dbeaver.io/
@@ -852,7 +852,7 @@
     - urltext: Interoperable Python and Trino for interactive workloads
         from TrinoFest 2023
       url: /blog/2023/07/27/trino-fest-2023-fugue-recap
-- name:  Git
+- name: Git
   anchor: git
   category: data-source
   owner: other
@@ -1019,12 +1019,12 @@
   logo: /assets/images/logos/harlequin.png
   logosmall: /assets/images/logos/harlequin-small.png
   description: |
-      Harlequin is a portable, powerful, colorful, easy, fast, and beautiful
-      database client for the terminal. It runs on any shell, any terminal, and
-      any machine.
+    Harlequin is a portable, powerful, colorful, easy, fast, and beautiful
+    database client for the terminal. It runs on any shell, any terminal, and
+    any machine.
 
-      Harlequin is free to download and you install it with `pipx` or `pip` and
-      the command `install harlequin_trino`.
+    Harlequin is free to download and you install it with `pipx` or `pip` and
+    the command `install harlequin_trino`.
   links:
     - urltext: Harlequin
       url: https://harlequin.sh/
@@ -1112,6 +1112,23 @@
   links:
     - urltext: Trino JDBC Driver documentation
       url: /docs/current/client/jdbc.html
+- name: Simba JDBC Driver
+  anchor: simba-jdbc
+  category: client-driver
+  owner: other
+  logo: /assets/images/logos/jdbc.png
+  logosmall: /assets/images/logos/jdbc-small.png
+  description: |
+    Simba JDBC Driver for Trino is a commercial driver maintained by 
+    insightsoftware. It offers enterprise-grade support, SLAs, and compatibility
+    for users requiring an alternative to the open source driver. 
+    The Simba driver is aimed at 
+    customers seeking production-ready stability, direct support channels, 
+    and custom feature enhancements over time. The driver supports common use
+    cases and works across a broad set of connectors.
+  links:
+    - urltext: Simba JDBC driver from insightsoftware
+      url: https://www.insightsoftware.com/simba/drivers/trino-jdbc-driver/
 - name: JetBrains Datagrip
   anchor: jetbrains-datagriop
   category: client-application
@@ -1207,7 +1224,7 @@
     - urltext: Trino Helm chart documentation
       url: /docs/current/installation/kubernetes.html
     - urltext: Trino Helm chart source with more details
-      url:  https://github.com/trinodb/charts
+      url: https://github.com/trinodb/charts
 - name: Lakekeeper
   anchor: lakekeeper
   category: data-lake
@@ -1348,7 +1365,7 @@
     - urltext: MinIO for modern datalakes
       url: https://min.io/solutions/modern-data-lakes-lakehouses
     - urltext: S3 file system support documentation
-      url: /docs/current/object-storage/file-system-s3.html      
+      url: /docs/current/object-storage/file-system-s3.html
 - name: Minitrino
   anchor: minitrino
   category: add-on
@@ -1445,7 +1462,7 @@
     Open Database Connectivity (ODBC) enables applications to connect and query
     databases. Use an ODBC driver with your own custom application, or with any
     other application that supports ODBC. ODBC drivers for Trino are available
-    from Magnitude. Starburst customers receive an ODBC driver suitable for
+    from insightsoftware. Starburst customers receive an ODBC driver suitable for
     Starburst Enterprise and Starburst Galaxy.
   links:
     - urltext: Simba ODBC driver from insightsoftware
@@ -2020,7 +2037,7 @@
     Vertica connector.
   links:
     - urltext: Vertica
-      url:  https://www.opentext.com/products/analytics-database
+      url: https://www.opentext.com/products/analytics-database
     - urltext: Vertica connector documentation
       url: /docs/current/connector/vertica.html
 - name: VSCode
@@ -2036,7 +2053,7 @@
     a SQL client.
   links:
     - urltext: Visual Studio Code
-      url:  https://code.visualstudio.com/
+      url: https://code.visualstudio.com/
     - urltext: sqltools-trino-driver
       url: https://github.com/regadas/sqltools-trino-driver
 - name: waii
@@ -2051,7 +2068,7 @@
     business intelligence APIs.
   links:
     - urltext: waii
-      url:  https://www.waii.ai/
+      url: https://www.waii.ai/
     - urltext: Tutorial for using waii with Trino
       url: https://doc.waii.ai/deployment/docs/trino-onboarding
     - urltext: Waii participating in AI panel at Trino Summit 2024
@@ -2082,7 +2099,7 @@
     asking business questions without writing SQL.
   links:
     - urltext: Wren AI
-      url:  https://www.getwren.ai/
+      url: https://www.getwren.ai/
     - urltext: Trino as Wren AI data source
       url: https://docs.getwren.ai/oss/guide/connect/trino
     - urltext: Wren AI participating in AI panel at Trino Summit 2024
