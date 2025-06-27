@@ -221,6 +221,29 @@ Release notes should also follow the documentation style guide used for all
 Trino documentation - the [Google developer documentation style
 guide](https://developers.google.com/style).
 
+### Trino and Trino Gateway release notes process
+
+The release notes for Trino and Trino Gateway are assembled by a contributor
+during the development cycle for each release with the following process:
+
+* After a release is shipped a new pull request for the release notes is
+  created. It uses the description of a prior release notes pull request. Trino
+  includes a template file to start the new release notes. Trino Gateway adds a
+  new section on the same page. Follow the PRs for
+  [Trino 472](https://github.com/trinodb/trino/pull/25101) and 
+  [Trino Gateway 14](https://github.com/trinodb/trino-gateway/pull/589) as
+  examples.
+* Every merged pull request is reviewed for a suitable release notes entry and
+  sufficient documentation. If necessary, further clarification and
+  documentation is requested from the contributor and the merging maintainer.
+* The release notes pull request is updated daily with the relevant details.
+* The release date is set in the PR and closer to the release date further
+  reviews from maintainers are requested. Trino releases weekly, Trino Gateway
+  every four weeks.
+* On the day of the release everything is finalized with the release manager and
+  upon approval the PR is merged. After the release is cut the process starts
+  again with the same or a different contributor.
+
 ## Maintainer processes
 
 [Maintainers](./roles.html#maintainer) support the contributions from the
