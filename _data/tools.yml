@@ -1975,6 +1975,18 @@
       url: https://www.youtube.com/watch?v=2qwBcKmQSn0
     - urltext: Announcement blog post
       url: /blog/2023/09/28/trino-gateway
+- name: Trino Scheduler
+  category: addons
+  owner: community
+  logo: /assets/images/logos/trino-scheduler.png
+  description: |
+    Trino Scheduler is a Python command line tool to automate and
+    schedule Trino queries. Works with Trino, Starburst Enterprise, and
+    Starburst Galaxy. Supports multi-cluster usage and Mattermost alert
+    integration.
+  links:
+    - urltext: GitHub Repository
+      url: https://github.com/karranikhilreddy99/starburst_scheduler
 - name: Unity Catalog
   anchor: unity-catalog
   category: data-lake
