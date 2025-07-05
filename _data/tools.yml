@@ -1252,6 +1252,26 @@
       url: /docs/current/connector/iceberg.html
     - urltext: Iceberg REST catalog documentation
       url: /docs/current/object-storage/metastores.html#rest-catalog
+- name: Logi Symphony
+  anchor: logi-symphony
+  category: client-application
+  owner: other
+  logo: /assets/images/logos/logi-symphony.png
+  logosmall: /assets/images/logos/logi-symphony.png
+  description: |
+    Logi Symphony puts analytics, dashboards, and intelligent insights right
+    inside your product or tools. You control the experience, data, and
+    deployment with full AI capabilities in the cloud, on-premises, or both.
+    With Logi Symphony, you can connect to a wide array of data sources,
+    including Trino, enabling real-time data exploration and visualization.
+    This integration empowers users to create interactive dashboards, perform
+    in-depth analyses, and make informed decisions directly within their
+    existing workflows.
+  links:
+    - urltext: Logi Symphony
+      url: https://insightsoftware.com/logi-symphony/
+    - urltext: Chat with Logi team at Trino Community Broadcast 75
+      url: /broadcast/episodes/75.html
 - name: Looker
   anchor: looker
   category: client-application
