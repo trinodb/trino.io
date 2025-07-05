@@ -266,7 +266,7 @@
       url: /docs/current/connector/iceberg.html
     - urltext: Interview with Iceberg creator from Trino Community Broadcast 40
       url: /episodes/40.html
-# there are lots more from Trino Fest, Trino Summot .. need to figure out how many we are happy to have..
+# there are lots more from Trino Fest, Trino Summit .. need to figure out how many we are happy to have..
 - name: Apache Ignite
   anchor: apache-ignite
   category: data-source
@@ -1116,19 +1116,21 @@
   anchor: simba-jdbc
   category: client-driver
   owner: other
-  logo: /assets/images/logos/jdbc.png
-  logosmall: /assets/images/logos/jdbc-small.png
+  logo: /assets/images/logos/simba.png
+  logosmall: /assets/images/logos/simba-small.png
   description: |
-    Simba JDBC Driver for Trino is a commercial driver maintained by 
-    insightsoftware. It offers enterprise-grade support, SLAs, and compatibility
-    for users requiring an alternative to the open source driver. 
-    The Simba driver is aimed at 
-    customers seeking production-ready stability, direct support channels, 
-    and custom feature enhancements over time. The driver supports common use
-    cases and works across a broad set of connectors.
+    The Simba data connectivity includes a JDBC Driver for Trino as a commercial
+    driver maintained by insightsoftware. It offers enterprise-grade support,
+    SLAs, and compatibility for users requiring an alternative to the open
+    source driver. The Simba driver is aimed at customers seeking
+    production-ready stability, direct support channels, and custom feature
+    enhancements over time. The driver supports common use cases and works
+    across a broad set of connectors.
   links:
     - urltext: Simba JDBC driver from insightsoftware
       url: https://www.insightsoftware.com/simba/drivers/trino-jdbc-driver/
+    - urltext: Chat about Simba data connectivity at Trino Community Broadcast 75
+      url: /broadcast/episodes/75.html
 - name: JetBrains Datagrip
   anchor: jetbrains-datagriop
   category: client-application
@@ -1252,6 +1254,24 @@
       url: /docs/current/connector/iceberg.html
     - urltext: Iceberg REST catalog documentation
       url: /docs/current/object-storage/metastores.html#rest-catalog
+- name: Logi Symphony
+  anchor: logi-symphony
+  category: client-application
+  owner: other
+  logo: /assets/images/logos/logi-symphony.png
+  logosmall: /assets/images/logos/logi-symphony.png
+  description: |
+    Logi Symphony puts analytics, dashboards, and intelligent insights right
+    inside your product or tools. You control the experience, data, and
+    deployment with full AI capabilities in the cloud, on-premises, or both.
+    With Logi Symphony, you can connect to a wide array of data sources,
+    including Trino, enabling real-time data exploration and visualization.
+    This integration empowers users to create interactive dashboards, perform
+    in-depth analyses, and make informed decisions directly within their
+    existing workflows.
+  links:
+    - urltext: Logi Symphony
+      url: https://insightsoftware.com/logi-symphony/
 - name: Looker
   anchor: looker
   category: client-application
@@ -1462,11 +1482,14 @@
     Open Database Connectivity (ODBC) enables applications to connect and query
     databases. Use an ODBC driver with your own custom application, or with any
     other application that supports ODBC. ODBC drivers for Trino are available
-    from insightsoftware. Starburst customers receive an ODBC driver suitable for
-    Starburst Enterprise and Starburst Galaxy.
+    from insightsoftware as part of Simba data connectivity for Trino. Starburst
+    customers receive an ODBC driver suitable for Starburst Enterprise and
+    Starburst Galaxy.
   links:
     - urltext: Simba ODBC driver from insightsoftware
       url: https://insightsoftware.com/drivers/trino-odbc-jdbc/
+    - urltext: Chat about Simba data connectivity at Trino Community Broadcast 75
+      url: /broadcast/episodes/75.html
     - urltext: Starburst ODBC driver
       url: https://docs.starburst.io/data-consumer/clients/odbc.html
 - name: OpenAPI

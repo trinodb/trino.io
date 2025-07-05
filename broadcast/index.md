@@ -20,12 +20,6 @@ interesting developments in the ecosystem around Trino.
 ## Upcoming episodes
 
 <dl>
-<dt>9 Jul 2025: Trino Community Broadcast 75 - Your app sees clearly into Trino</dt>
-<dd><a href="https://www.linkedin.com/in/trevor-denning/">Trevor Denning</a>,
-from insightsoftware joins us to talk about their
-<a href="https://insightsoftware.com/logi-analytics/">Logi Analytics platform</a>
-for application developers and their ODBC and JDBC drivers for Trino.</dd>
-
 <dt>Date not yet set: Trino Community Broadcast 76 - One tool to proxy them all</dt>
 <dd><a href="https://www.linkedin.com/in/jordanzimmerman/">Jordan Zimmermann</a>, 
 <a href="https://www.linkedin.com/in/pablo-arteaga-20b547101/">Pablo Arteaga</a>,
