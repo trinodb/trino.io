@@ -153,6 +153,27 @@
       url: https://trino.io/episodes/19.html
     - urltext: BlueCat interview at Trino meetup
       url: https://youtu.be/7P1qqhgzNbA
+- name: CADDi
+  highlight: false
+  anchor: caddi
+  logo: /assets/images/logos/caddi.png
+  logosmall: /assets/images/logos/caddi-small.png
+  testimonial: |
+    CADDi is developing and providing the Manufacturing AI Data Platform CADDi
+    with the mission of unleashing the potential of the manufacturing industry.
+    As the foundation of this service, we have built a data platform that combines
+    Trino and Apache Iceberg to accumulate and utilize a vast amount of
+    drawings and pricing data. By introducing Trino, we have enabled high-speed
+    querying across a wide variety of data sources, including parsing CSV files
+    uploaded by users and batch processing of drawing analysis results. This
+    prevents data silos and accelerates company-wide data-driven decision-making.
+  links:
+    - urltext: Manufacturing AI Data Platform CADDi
+      url: https://caddi.com/
+    - urltext: "CADDi Tech Blog: Piercing the Iceberg – Ingesting Massive Data into Apache Iceberg"
+      url: https://caddi.tech/2025/03/31/114754
+    - urltext: "CADDi Tech Blog: Revamping the Data Platform with Trino + Iceberg and the Road Ahead"
+      url: https://caddi.tech/2025/03/18/164347
 - name: Canner
   highlight: false
   anchor: canner

@@ -38,7 +38,9 @@
               or page.url contains '/broadcast'
               or page.url contains '/users.html'
               or page.url contains '/individual-code-of-conduct.html'
-              or page.url contains '/guidelines-corporate.html' %}active{% endif %}">
+              or page.url contains '/guidelines-corporate.html'
+              or page.url contains '/foundation'
+              or page.url contains '/sponsor' %}active{% endif %}">
             <a class="nav-link dropdown-toggle" href="/community.html">Community</a>
             <div class="dropdown-menu dropdown-block">
               <a class="dropdown-item" href="/slack.html">Slack</a>
@@ -48,6 +50,8 @@
               <a class="dropdown-item" href="/community.html#contributors">Contributors</a>
               <a class="dropdown-item" href="/individual-code-of-conduct.html">Code of conduct</a>
               <a class="dropdown-item" href="/guidelines-corporate.html">Corporate guidelines</a>
+              <a class="dropdown-item" href="/foundation.html">Trino Software Foundation</a>
+              <a class="dropdown-item" href="/sponsor.html">Sponsor and support</a>
             </div>
           </li>
           <li class="nav-item dropdown {% if page.url contains '/development' %}active{% endif %}">
