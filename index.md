@@ -22,18 +22,6 @@ title: Distributed SQL query engine for big data
   </div>
 </div>
 
-<div class="trino-summit-banner">
-  <div class="trino-summit-content">
-     <h1 style="color: #FFFFFF;">Trino Summit 2024</h1>
-      <h3 style="color: #FFFFFF; padding-bottom: 1rem;">Read the recap, look at the slides, and watch video recordings:</h3>
-      <div style="padding-bottom: 1rem">
-        <a class="btn btn-orange" style="display: inline-grid;"
-          href="{% post_url 2024-12-18-trino-summit-2024-quick-recap %}" target="_blank">Check it out now!</a>
-      </div>
-      <img src="/assets/images/trino-summit-banner-peek.png" class="trino-summit-peek">
-  </div>
-</div>
-
 <div class="container">
   <div class="col-md-12 text-center spacer-60">
     <h2><strong>Join the fastest growing open-source analytics project</strong></h2>
