@@ -275,7 +275,6 @@ The following subproject repositories and subproject maintainers are configured:
 * [<i class="fab fa-github"></i> nineinchnick](https://github.com/nineinchnick) Jan Waś
 
 [trino.io]({{site.github_org_url}}/trino.io) - Trino website
-* [<i class="fab fa-github"></i> bitsondatadev](https://github.com/bitsondatadev) Brian Olsen
 *  [<i class="fab fa-github"></i> colebow](https://github.com/colebow) Cole Bowden
 
 [trino-gateway]({{site.github_org_url}}/trino-gateway) - Trino Gateway load balancer and router
