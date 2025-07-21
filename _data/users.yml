@@ -297,6 +297,22 @@
       url: https://dune.com/docs/query/DuneSQL-reference/
     - urltext: Dune SQL presentation at Trino Fest 2023
       url: https://trino.io/blog/2023/07/14/trino-fest-2023-dune
+- name: Dream 11
+  highlight: false
+  anchor: dream11
+  logo: /assets/images/logos/dream11.png
+  logosmall: /assets/images/logos/dream11-small.png
+  testimonial: |
+    Dream11, the flagship brand of Dream Sports, is the world’s largest fantasy
+    sports platform. With over 260 million users across cricket, football,
+    basketball, and hockey, as a homegrown Indian brand, Dream11 enables Indian
+    sports fans to engage with real-life sports, showcasing their knowledge.
+
+    Dream 11 built a data platform with open lakehouse tools including Trino to
+    provide fine-grained access to over 9PB of data with about 24k tables.
+  links:
+    - urltext: Dream 11
+      url: https://www.dreamsports.group/
 - name: Eventbrite
   highlight: false
   anchor: event-brite
