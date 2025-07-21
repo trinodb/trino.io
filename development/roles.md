@@ -282,7 +282,6 @@ The following subproject repositories and subproject maintainers are configured:
 * [<i class="fab fa-github"></i> Chaho12](https://github.com/Chaho12) Jaeho Yoo
 * [<i class="fab fa-github"></i> oneonestar](https://github.com/oneonestar) Star Poon
 * [<i class="fab fa-github"></i> vishalya](https://github.com/vishalya) Vishal Jadhav
-* [<i class="fab fa-github"></i> willmostly](https://github.com/willmostly) Will Morrison
 
 [trino-go-client]({{site.github_org_url}}/trino-go-client) - Trino client fo Go
 * [<i class="fab fa-github"></i> nineinchnick](https://github.com/nineinchnick) Jan Waś
