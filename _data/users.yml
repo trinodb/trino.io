@@ -734,6 +734,29 @@
     - urltext: Installing Trino with Plural
       url: https://docs.plural.sh/applications/trino
   # supplied by developer advocate https://github.com/avaidyanatha
+- name: Quora
+  highlight: false
+  anchor: quora
+  logo: /assets/images/logos/quora.png
+  logosmall: /assets/images/logos/quora-small.png
+  testimonial: |
+    Quora is a leading question-and-answer platform where millions of users
+    worldwide share knowledge and insights across diverse topics. To power
+    data-driven product decisions over a petabyte-scale dataset, we rely on
+    Trino as a cornerstone of our data infrastructure.
+
+    Trino serves four critical roles at Quora: enabling ad-hoc data analysis,
+    running ETL pipelines, and powering our internal dashboards and A/B testing
+    framework. We operate multiple autoscaling Trino clusters on AWS Graviton
+    instances, strategically using the Fault-Tolerant Execution mode to optimize
+    our Trino environment for both reliability and cost.
+  links:
+    - urltext: Migrating a decade of Redshift usages to Trino at Quora
+      url: https://quoraengineering.quora.com/Migrating-a-decade-of-Redshift-usages-to-Trino-at-Quora
+    - urltext: Adopting Trino's Fault-tolerant Execution mode at Trino Summit 2023
+      url: https://www.youtube.com/watch?v=rmotnvBWXv4
+    - urltext:  Trino at Quora - Speed Cost, Reliability Challenges and Tips at Trino Summit 2022
+      url: https://www.youtube.com/watch?v=Q03DzL_fm-I
 - name: Raft
   highlight: false
   anchor: raft
