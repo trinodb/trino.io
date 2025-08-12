@@ -756,7 +756,7 @@
     - urltext: Adopting Trino's Fault-tolerant Execution mode at Trino Summit 2023
       url: https://www.youtube.com/watch?v=rmotnvBWXv4
     - urltext:  Trino at Quora - Speed Cost, Reliability Challenges and Tips at Trino Summit 2022
-      url: https://www.youtube.com/watch?v=Q03DzL_fm-I
+      url: https://trino.io/blog/2022/12/16/trino-summit-2022-quora-recap.html
 - name: Raft
   highlight: false
   anchor: raft
