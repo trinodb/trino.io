@@ -118,9 +118,9 @@
 #    - urltext: View the Bloomberg open source website
 #      url: https://www.bloomberg.com/company/values/tech-at-bloomberg/open-source/projects/
 #    - urltext: Let it snow for Trino from Trino Fest 2023
-#      url: https://trino.io/blog/2023/07/12/trino-fest-2023-let-it-snow-recap.html
+#      url: /blog/2023/07/12/trino-fest-2023-let-it-snow-recap.html
 #    - urltext: Enterprise-ready Trino at Bloomberg - One Giant Leap Toward Data Mesh! from Trino Summit 2022
-#     url: https://trino.io/blog/2022/11/30/trino-summit-2022-bloomberg-recap.html
+#     url: /blog/2022/11/30/trino-summit-2022-bloomberg-recap.html
 - name: BestSecret
   highlight: false
   anchor: bestsecret
@@ -139,7 +139,7 @@
       url: https://medium.com/bestsecret-tech
     - urltext: Interview with Isa Inalcik from BestSecret as guest on Trino Comunity
         Broadcast 60
-      url: https://trino.io/episodes/60.html
+      url: /episodes/60.html
 - name: BlueCat
   highlight: false
   anchor: bluecat
@@ -150,7 +150,7 @@
       url: https://bluecatnetworks.com/
     - urltext: Interview with Cory Darby from BlueCat as guest on Trino Comunity
         Broadcast 19
-      url: https://trino.io/episodes/19.html
+      url: /episodes/19.html
     - urltext: BlueCat interview at Trino meetup
       url: https://youtu.be/7P1qqhgzNbA
 - name: CADDi
@@ -192,7 +192,7 @@
     - urltext: Wren AI
       url: https://www.getwren.ai/     
     - urltext: Interview about Canner and Wren AI in Trino Comunity Broadcast 66
-      url: https://trino.io/episodes/66.html
+      url: /episodes/66.html
 - name: Chasing Securities
   highlight: false
   anchor: chasing_securities
@@ -296,7 +296,7 @@
     - urltext: Dune SQL
       url: https://dune.com/docs/query/DuneSQL-reference/
     - urltext: Dune SQL presentation at Trino Fest 2023
-      url: https://trino.io/blog/2023/07/14/trino-fest-2023-dune
+      url: /blog/2023/07/14/trino-fest-2023-dune
 - name: Dream 11
   highlight: false
   anchor: dream11
@@ -380,7 +380,7 @@
     - urltext: Goldman Sachs blog post about Trino usage
       url: https://developer.gs.com/blog/posts/enabling-highly-available-trino-clusters-at-goldman-sachs
     - urltext: Leveraging Trino to power data at Goldman Sachs at Trino Summit 2022
-      url: https://trino.io/blog/2022/12/05/trino-summit-2022-goldman-sachs-recap.html
+      url: /blog/2022/12/05/trino-summit-2022-goldman-sachs-recap.html
 - name: Google Cloud
   highlight: false
   anchor: google-cloud
@@ -521,7 +521,7 @@
     - urltext: Trino upgrade at exabytes scale at Trino Summit 2023
       url: https://www.youtube.com/watch?v=dg16M6bFN2w
     - urltext: Interview with LinkedIn engineers at Trino Community Broadcast 22
-      url: https://trino.io/episodes/22.html
+      url: /episodes/22.html
 - name: Lyft
   highlight: true
   anchor: lyft
@@ -534,7 +534,7 @@
     - urltext: Transitioning to Trino - Evaluating Lyft’s query engine capabilities at Trino Summit 2023
       url: https://www.youtube.com/watch?v=_wocf0NK6Kc
     - urltext: Trino for large scale ETL at Lyft at Trino Summit 2022
-      url: https://trino.io/blog/2022/12/12/trino-summit-2022-lyft-recap.html
+      url: /blog/2022/12/12/trino-summit-2022-lyft-recap.html
 - name:  Microsoft Azure
   highlight: false
   anchor: microsoft-azure
@@ -605,10 +605,10 @@
       url: https://youtu.be/WuUS73QPuZE
     - urltext: Interview with Netflix engineer about views at Trino Community
         Broadcast 18
-      url: https://trino.io/episodes/18.html
+      url: /episodes/18.html
     - urltext: Interview with Netflix engineers about Apache Druid at Trino
         Community Broadcast 16
-      url: https://trino.io/episodes/16.html
+      url: /episodes/16.html
   #   https://netflixtechblog.com/using-presto-in-our-big-data-platform-on-aws-938035909fd4
 - name: Nielsen
   highlight: true
@@ -647,7 +647,7 @@
     - urltext: View OVHcloud Data Platform website
       url: https://www.ovhcloud.com/en-ie/public-cloud/data-platform/
     - urltext: Yu Teng from OVHcloud presenting at Trino Fest 2023
-      url: https://trino.io/blog/2023/07/12/trino-fest-2023-let-it-snow-recap
+      url: /blog/2023/07/12/trino-fest-2023-let-it-snow-recap
   testimonial: |
     OVHcloud is a global cloud player and the leading European cloud provider of 
     public cloud, private cloud, and web hosting services with 43 data centers 
@@ -674,7 +674,7 @@
     - urltext: Pinterest journey to achieving 2x efficiency improvement on Trino at Trino Summit 2023
       url: https://www.youtube.com/watch?v=RC8K6pIvAtI
     - urltext: Pinterest presentation at Trino Summit 2020
-      url: https://trino.io/blog/2020/07/22/presto-summit-pinterest.html
+      url: /blog/2020/07/22/presto-summit-pinterest.html
     - urltext: Presto at Pinterest
       url: https://medium.com/pinterest-engineering/presto-at-pinterest-a8bda7515e52
 - name: QuintoAndar
@@ -756,7 +756,7 @@
     - urltext: Adopting Trino's Fault-tolerant Execution mode at Trino Summit 2023
       url: https://www.youtube.com/watch?v=rmotnvBWXv4
     - urltext:  Trino at Quora - Speed Cost, Reliability Challenges and Tips at Trino Summit 2022
-      url: https://trino.io/blog/2022/12/16/trino-summit-2022-quora-recap.html
+      url: /blog/2022/12/16/trino-summit-2022-quora-recap.html
 - name: Raft
   highlight: false
   anchor: raft
@@ -776,7 +776,7 @@
     - urltext: Avoiding pitfalls with query federation in data lakehouses at Trino Summit 2023
       url: https://www.youtube.com/watch?v=6KspMwCbOfI
     - urltext: Interview with Raft engineers at Trino Community Broadcast 39
-      url: https://trino.io/episodes/39.html
+      url: /episodes/39.html
 - name: Rapido
   highlight: false
   anchor: rapido
@@ -837,7 +837,7 @@
     - urltext: View the Resurface website
       url: https://resurface.io/
     - urltext: Interview with Resurface engineers at Trino Community Broadcast 39
-      url: https://trino.io/episodes/17.html
+      url: /episodes/17.html
 - name: Robinhood
   highlight: false
   anchor: robinhood
@@ -847,7 +847,7 @@
     - urltext: View the Robinhood website
       url: https://robinhood.com/
     - urltext: Interview with Robinhood engineer at Trino Community Broadcast 41
-      url: https://trino.io/episodes/41.html
+      url: /episodes/41.html
     - urltext: Robinhood engineering blog post
       url: https://robinhood.engineering/author-balaji-varadarajan-e3f496815ebf
 - name: Salesforce
@@ -859,7 +859,7 @@
     - urltext: View the Salesforce website
       url: https://salesforce.com/
     - urltext: Anomaly detection for Salesforce’s production data using Trino from Trino Fest 2023
-      url: https://trino.io/blog/2023/06/26/trino-fest-2023-salesforce.html
+      url: /blog/2023/06/26/trino-fest-2023-salesforce.html
     - urltext: Salesforce enginering blog post
       url: https://engineering.salesforce.com/big-data-big-decisions-690a00fad88d
 - name: Sentinel One
@@ -886,7 +886,7 @@
     - urltext: View the Shopify engineering website
       url: https://shopify.engineering/topics/data-science-engineering
     - urltext: Presentation from Shopify engineer at Trino Summit 2022
-      url: https://trino.io/blog/2022/12/09/trino-summit-2022-shopify-recap.html
+      url: /blog/2022/12/09/trino-summit-2022-shopify-recap.html
     - urltext: Shopify's Path to a Faster Trino Query Execution - Infrastructure
       url: https://shopify.engineering/faster-trino-query-execution-infrastructure
 - name: Stackable
@@ -916,7 +916,7 @@
     - urltext: Trino-lb - Load balancer with support for routing, queueing and auto-scaling
       url: https://github.com/stackabletech/trino-lb
     - urltext: Trino Community Broadcast 64 - Control with OPA, also including some trino-lb discussion
-      url: https://trino.io/episodes/64.html    
+      url: /episodes/64.html    
     - urltext: Talk about Open Policy Agent and Trino from Trino Summit 2023
       url: https://www.youtube.com/watch?v=fbqqapQbAv0
 - name: Starburst
@@ -987,7 +987,7 @@
     - urltext: View the Stripe website
       url: https://stripe.com/
     - urltext: Inspecting Trino on Ice from Stripe engineer at Trino Fest 2023
-      url: https://trino.io/blog/2023/07/19/trino-fest-2023-stripe.html
+      url: /blog/2023/07/19/trino-fest-2023-stripe.html
 - name: Swrve
   highlight: false
   anchor: swrve
@@ -1029,7 +1029,7 @@
     - urltext: Secure exchange SQL - Building a privacy-preserving data clean room service over Trino at Trino Summit 2023
       url:   https://www.youtube.com/watch?v=FaytoXxKXOQ
     - urltext: Arm Treasure Data presentation at Trino Summit 2020
-      url: https://trino.io/blog/2020/07/06/presto-summit-arm-td.html
+      url: /blog/2020/07/06/presto-summit-arm-td.html
 - name: Valerian
   highlight: false
   anchor: valerian
@@ -1073,7 +1073,7 @@
     - urltext: Get started with Upsolver and Apache Iceberg
       url: https://docs.upsolver.com/content/get-started/apache-iceberg
     - urltext: Presentation at Trino Summit 2022
-      url: https://trino.io/blog/2022/12/23/trino-summit-2022-upsolver-recap.html
+      url: /blog/2022/12/23/trino-summit-2022-upsolver-recap.html
 - name: Zuora
   highlight: false
   anchor: zuora
@@ -1083,4 +1083,4 @@
     - urltext: View the Zuora website
       url: https://zuora.com/
     - urltext: Presentation at Trino Summit 2020
-      url: https://trino.io/blog/2020/06/16/presto-summit-zuora.html
+      url: /blog/2020/06/16/presto-summit-zuora.html
