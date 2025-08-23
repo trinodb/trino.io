@@ -8,9 +8,9 @@ module Jekyll
 
     def render(context)
       version = context['site']['trino_version']
-      base = 'https://repo1.maven.org/maven2/io/trino'
+      base = 'https://github.com/trinodb/trino/releases/download'
       file = "#{@name}-#{version}#{@suffix}"
-      url = "#{base}/#{@name}/#{version}/#{file}"
+      url = "#{base}/#{version}/#{file}"
       %Q[<a class="btn btn-pink btn-md" href="#{url}">#{file}</a>]
     end
   end
