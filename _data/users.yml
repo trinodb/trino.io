@@ -708,6 +708,27 @@
       url: /episodes/55.html
     - urltext: Peaka participating in AI panel at Trino Summit 2024
       url: https://www.youtube.com/watch?v=gobl6PhIWeE
+- name: Playsimple Games
+  highlight: false
+  anchor: playsimple-games
+  logo: /assets/images/logos/playsimple.png
+  logosmall: /assets/images/logos/playsimple-small.png
+  testimonial: |
+    Playsimple Games is a mobile game studio creating and publishing titles 
+    for the global market.
+    
+    Trino has been a game-changer for our data platform. As our 
+    player base and data volume grew, we needed a query engine that could 
+    scale seamlessly, deliver fast performance, and keep costs under control. 
+    With Trino, we unified ad-hoc and scheduled analytics on a single query layer, 
+    scaled workloads 4x, and cut costs by 30-40% annually—without sacrificing reliability. 
+    Trino enables our teams to unlock insights faster and deliver better gaming experiences 
+    to millions of players worldwide.
+  links:
+    - urltext: View the Playsimple Games website
+      url: https://www.playsimple.in/
+    - urltext: Trino at Playsimple - Inside Our Journey to a Unified, Scalable Query Layer with Trino
+      url: https://medium.com/playsimple-engineering-blog/inside-our-journey-to-a-unified-scalable-query-layer-with-trino-de91d439ae4b
 - name: Plural
   highlight: false
   anchor: plural
