@@ -20,13 +20,6 @@ interesting developments in the ecosystem around Trino.
 ## Upcoming episodes
 
 <dl>
-<dt>26 September 2025: Trino Community Broadcast 76 - Triple Platform Treat</dt>
-<dd><a href="https://www.linkedin.com/in/jo-perez-data/">Jo Perez</a> and
-<a href="https://www.linkedin.com/in/shawn-gordon-37b9916/">Shawn Gordon</a> 
-from <a href="www.getcollate.io">Collate</a> join us to talk about the
-combination of Trino, Collate, and Apache Ranger to build a data platform that 
-delivers what every data team needs — fast queries, trusted data, and 
-bulletproof security, all in one cohesive stack.</dd>
 <dt>October 2025: Trino Community Broadcast 77 - One tool to proxy them all</dt>
 <dd><a href="https://www.linkedin.com/in/jordanzimmerman/">Jordan Zimmermann</a> and 
 <a href="https://www.linkedin.com/in/pablo-arteaga-20b547101/">Pablo Arteaga</a>,
