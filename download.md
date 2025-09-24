@@ -79,7 +79,7 @@ show_hero: true
                   <a href="docs/current/client/cli.html"> command line interface</a>.
                 </p>
                 <!-- Download button -->
-                {% download trino-cli -executable.jar %}
+                {% download trino-cli %}
             </div>
         </div>
         <div class="card mb-4">
