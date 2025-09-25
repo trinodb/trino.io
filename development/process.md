@@ -7,7 +7,6 @@ show_hero: true
 show_pagenav: true
 ---
 
-
 <div class="container container__development">
 
   <div class="row spacer-60">
@@ -20,7 +19,7 @@ following sections:
 
 ## Contribution process
 
-This is the process we suggest for contributions.  This process is designed to
+This is the process we suggest for contributions. This process is designed to
 reduce the burden on project reviewers, impact on other contributors, and to
 keep the amount of rework from the contributor to a minimum.
 
@@ -58,7 +57,7 @@ keep the amount of rework from the contributor to a minimum.
     1. If you already have a `[WIP]` or draft PR, change it to ready for review.
     2. Refer to the [GitHub documentation for more details about collaborating with PRs](https://docs.github.com/en/pull-requests).
     3. Make sure the pull request passes the tests in CI.
-    2. If known, request a review from an expert in the area changed. If
+    4. If known, request a review from an expert in the area changed. If
        unknown, ask for help on [Slack](/slack.html).
 
    There are some tests that use external services, like Google BigQuery, and
@@ -102,12 +101,21 @@ keep the amount of rework from the contributor to a minimum.
       website are updated.
     * Finally the release is announced.
 
+## Code style
+
+All contributions must follow the project's code style guidelines to ensure
+consistency and readability. For Java code, follow the [Trino Java code style guide](https://github.com/trinodb/trino/blob/master/.github/DEVELOPMENT.md#code-style).
+For SQL and documentation, refer to the respective sections in the [development guide](https://github.com/trinodb/trino/blob/master/.github/DEVELOPMENT.md).
+
+Before submitting a pull request, please format your code and check for style issues.  
+Consistent code style helps reviewers and maintainers focus on the logic and quality of your contribution.
+
 ## Pull request and commit guidelines <a name="commit"></a>
 
 Contributions to Trino projects are managed as [collaboration with pull
 requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests).
 
-Pull requests are usually merged into `master` or `main` using the  [`rebase and
+Pull requests are usually merged into `master` or `main` using the [`rebase and
 merge`](https://docs.github.com/en/github/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges#rebase-and-merge-your-pull-request-commits)
 strategy to preserve the commits from the contributor and avoid adding empty
 merge commits.
@@ -186,7 +194,7 @@ In each section different release notes entries are sorted:
 1. **New features**: Start with `Add` or `Add support for` or similar wording
 2. **Performance improvements**: Start with `Improve` or `Improve performance`
    or similar wording
-3. **Bug fixes**: Start with `Fix` or `Prevent`  or similar wording
+3. **Bug fixes**: Start with `Fix` or `Prevent` or similar wording
 
 Use [imperative present tense, as used in a command or
 request](https://en.wikipedia.org/wiki/Imperative_mood) to describe the change.
@@ -205,7 +213,7 @@ especially if more information is needed.
 
 Release notes entries that prevent application start up with old configuration
 or otherwise change application behavior significantly must be marked as
-breaking changes. 
+breaking changes.
 
 The specific syntax for the release notes, breaking changes, links and other
 aspects, is dependent on the used documentation system for each project. For
@@ -271,7 +279,7 @@ The following aspects apply for reviewing pull requests.
   understand and assess the security implications of running the test suite on
   the external service and ensure that no malicious code is run.
 
-### Pull request review and  merge
+### Pull request review and merge
 
 The following criteria and aspects apply for merging pull requests.
 
