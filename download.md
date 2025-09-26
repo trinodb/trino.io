@@ -69,7 +69,7 @@ show_hero: true
                   <a href="https://github.com/trinodb/trino-packages">trino-packages</a>
                 </p>
                 <!-- Download button -->
-                {% download trino-server .tar.gz %}
+                {% downloadGH trino-server .tar.gz %}
             </div>
         </div>
         <div class="card mb-4">
@@ -79,7 +79,7 @@ show_hero: true
                   <a href="docs/current/client/cli.html"> command line interface</a>.
                 </p>
                 <!-- Download button -->
-                {% download trino-cli %}
+                {% downloadGH trino-cli %}
             </div>
         </div>
         <div class="card mb-4">
@@ -89,7 +89,7 @@ show_hero: true
                 JDBC driver</a>, which is available in
                 <a href="https://search.maven.org/artifact/io.trino/trino-jdbc/{{ site.trino_version }}/jar">Maven Central</a>.</p>
                 <!-- Download button -->
-                {% download trino-jdbc .jar %}
+                {% downloadMC trino-jdbc .jar %}
             </div>
         </div>
     <!-- Card -->
