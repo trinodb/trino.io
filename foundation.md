@@ -80,7 +80,7 @@ all administrative oversight for the Trino project. For example, this includes
 accounting, legal concerns, and trademarks. The TSF also manages the source code
 repositories and any other infrastructure.
 
-### CLA management <a name="cla"></a>
+### CLA management<a name="cla"></a>
 
 Contributing to Trino requires agreeing to, signing, and submitting the
 [Contributor License Agreement](https://github.com/trinodb/cla). The Trino
@@ -91,7 +91,7 @@ Apache License.
 The CLA is identical to the CLA of the Apache Software Foundation. All copyright
 for contributions remains with the individual authors.
 
-### Ownership and trademarks <a name="tm"></a>
+### Ownership and trademarks<a name="tm"></a>
 
 The Trino brand and trademarks are owned and managed by the Trino Software
 Foundation. Use of the brand and trademarks by other entities is not permitted,
