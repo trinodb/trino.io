@@ -29,7 +29,7 @@ time.
 
 The following describes the expectations and duties of the various roles.
 
-## Participants <a name="participant"></a>
+## Participants<a name="participant"></a>
 
 This is the most important role. Very simply put, participants are those who
 show up and join in discussions about the project. Users, developers, and
@@ -54,7 +54,7 @@ They work to make Trino better for everyone.
   others and realize that negative sounding comments are often unintentional due
   to language barriers.
 
-## Contributors <a name="contributor"></a>
+## Contributors<a name="contributor"></a>
 
 A contributor submits changes to the [Trino
 repositories]({{site.gihub_org_url}}) following the [contribution
@@ -81,7 +81,7 @@ process](/development/process.html).
 
 [You can view all contributors on GitHub.](https://github.com/orgs/trinodb/teams/contributors/members)
 
-## Reviewers <a name="reviewer"></a>
+## Reviewers<a name="reviewer"></a>
 
 A reviewer reads a proposed change to Trino, and assesses how well the change
 aligns with the Trino vision and guidelines. This includes everything from high
@@ -104,7 +104,7 @@ to review others' contributions -- you don't need to be a maintainer for that.
 * Point out deviations from the code conventions and style guidelines.
 * Ask for help reviewing areas you don't understand.
 
-## Maintainers <a name="maintainer"></a>
+## Maintainers<a name="maintainer"></a>
 
 In Trino, maintainer is an active role. A maintainer is responsible for merging
 code only after ensuring it has been reviewed thoroughly and aligns with the
@@ -233,7 +233,7 @@ The following community members are Trino maintainers:
    expertise from all contributors. The maintainer role is retained while being
    active in the project.
 
-## Subproject maintainers <a name="subproject-maintainer"></a>
+## Subproject maintainers<a name="subproject-maintainer"></a>
 
 A subproject maintainer on the Trino project is a maintainer with limited scope
 in terms of access to specific repositories within the [trinodb GitHub
@@ -327,7 +327,7 @@ musted be reviewed and approved by the file system lead.
 David Phillips  [<i class="fab fa-github"></i>
 electrum](https://github.com/electrum) is the file system lead.
 
-## Benevolent dictators for life <a name="bdfl"></a>
+## Benevolent dictators for life<a name="bdfl"></a>
 
 Common [among other open source projects](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life),
 the role of benevolent dictator for life (BDFL) empowers particularly esteemed

@@ -102,7 +102,7 @@ keep the amount of rework from the contributor to a minimum.
       website are updated.
     * Finally the release is announced.
 
-## Pull request and commit guidelines <a name="commit"></a>
+## Pull request and commit guidelines<a name="commit"></a>
 
 Contributions to Trino projects are managed as [collaboration with pull
 requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests).
@@ -164,7 +164,7 @@ The rapid evolution of the project and therefore the content of the default
 branch also means that contributors must rebase their pull request branch
 regularly and ensure no conflicts prevent merging.
 
-## Release note guidelines <a name="release-note"></a>
+## Release note guidelines<a name="release-note"></a>
 
 Release notes should communicate the user-facing aspects of all change with a
 specific version. As a results internal refactoring or improvements, such as
@@ -271,7 +271,7 @@ The following aspects apply for reviewing pull requests.
   understand and assess the security implications of running the test suite on
   the external service and ensure that no malicious code is run.
 
-### Pull request review and  merge
+### Pull request review and merge
 
 The following criteria and aspects apply for merging pull requests.
 
