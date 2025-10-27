@@ -102,12 +102,20 @@ keep the amount of rework from the contributor to a minimum.
       website are updated.
     * Finally the release is announced.
 
+## Code style
+
+All contributions must follow the project's code style guidelines to ensure
+consistency and readability. For Java code, follow the [Trino Java code style guide](https://github.com/trinodb/trino/blob/master/.github/DEVELOPMENT.md#code-style).
+
+Code formatting and style compliance is required for all pull requests.
+Consistent code style helps reviewers and maintainers focus on the logic and quality of your contribution.
+
 ## Pull request and commit guidelines<a name="commit"></a>
 
 Contributions to Trino projects are managed as [collaboration with pull
 requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests).
 
-Pull requests are usually merged into `master` or `main` using the  [`rebase and
+Pull requests are usually merged into `master` or `main` using the [`rebase and
 merge`](https://docs.github.com/en/github/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges#rebase-and-merge-your-pull-request-commits)
 strategy to preserve the commits from the contributor and avoid adding empty
 merge commits.
