@@ -20,13 +20,8 @@ interesting developments in the ecosystem around Trino.
 ## Upcoming episodes
 
 <dl>
-<dt>29 October 2025: Trino Community Broadcast 77 - One tool to proxy them all</dt>
-<dd><a href="https://www.linkedin.com/in/jordanzimmerman/">Jordan Zimmermann</a> and 
-<a href="https://www.linkedin.com/in/pablo-arteaga-20b547101/">Pablo Arteaga</a>,
-introduce us to a new Trino subproject and its use cases with AWS S3 and other
-storage systems, metastores, and query engines - aws-proxy. Live stream events on 
-<a href="https://www.youtube.com/live/aQ5ehjuOcdc"><i class="fab fa-youtube" style="color: red;"></i> YouTube</a>, and 
-<a href="https://www.linkedin.com/events/7379375716167159808/"><i class="fab fa-linkedin" style="color: blue;"></i> LinkedIn</a></dd>
+<dt>November 2025: Trino Community Broadcast 78 - Topic to be determined</dt>
+<dd>Contact us if you are interested in joining us as guest,</dd>
 </dl>
 
 Find [more details and other events on our calendar]({{site.url}}/community.html#events).
