@@ -58,7 +58,7 @@ Trino with the following steps:
   [contributors](#contributors), and [maintainers](#maintainers).
 * Recognize and rewards employee involvement in Trino and other open source
   projects.
-* Agree to be listed as [Trino users](./users.html).
+* Agree to be listed as a [Trino user](./users.html).
 * Sponsor and host events related to Trino.
 * Provide infrastructure for the project and become an official sponsor.
 * Donate and become an official sponsor.
