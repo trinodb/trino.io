@@ -35,7 +35,7 @@ All individuals are encouraged to follow the [code of
 conducts](./individual-code-of-conduct.html) and support Trino with the
 following additional steps:
 
-* [Star or GitHub repositories]({{site.github_repo_url}}).
+* [Star our GitHub repositories]({{site.github_repo_url}}).
 * Talk and write about using Trino and tell others.
 * Attend and maybe even organize [events about Trino](./community.html#events).
 * Present about Trino and your usage of Trino at Trino Fest, Trino Summit,
@@ -58,7 +58,7 @@ Trino with the following steps:
   [contributors](#contributors), and [maintainers](#maintainers).
 * Recognize and rewards employee involvement in Trino and other open source
   projects.
-* Agree to be listed as [Trino user](./users.html).
+* Agree to be listed as a [Trino user](./users.html).
 * Sponsor and host events related to Trino.
 * Provide infrastructure for the project and become an official sponsor.
 * Donate and become an official sponsor.
