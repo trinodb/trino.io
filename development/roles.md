@@ -288,6 +288,9 @@ The following subproject repositories and subproject maintainers are configured:
 * [<i class="fab fa-github"></i> regadas](https://github.com/regadas) Filipe Regadas
 * [<i class="fab fa-github"></i> nineinchnick](https://github.com/nineinchnick) Jan Waś
 
+[trino-odbc]({{site.github_org_url}}/trino-odbc) - Trino ODBC driver
+* [<i class="fab fa-github"></i> dprophet](https://github.com/dprophet) Erik Anderson
+* [<i class="fab fa-github"></i> rileymcdowell](https://github.com/rileymcdowell) Riley McDowell
 
 ## Language lead
 
