@@ -264,7 +264,6 @@ technologies.
 The following subproject repositories and subproject maintainers are configured:
 
 [aws-proxy]({{site.github_org_url}}/aws-proxy) - Proxy for AWS S3
-* [<i class="fab fa-github"></i> mosiac1](https://github.com/mosiac1) Cristian Osiac
 * [<i class="fab fa-github"></i> Randgalt](https://github.com/Randgalt) Jordan Zimmerman
 * [<i class="fab fa-github"></i> vagaerg](https://github.com/vagaerg) Pablo Arteaga
 
