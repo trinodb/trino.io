@@ -20,8 +20,21 @@ interesting developments in the ecosystem around Trino.
 ## Upcoming episodes
 
 <dl>
-<dt>November 2025: Trino Community Broadcast 78 - Topic to be determined</dt>
-<dd>Contact us if you are interested in joining us as guest,</dd>
+<dt>16 January 2025: Trino Community Broadcast 78 - A view with a view with a view</dt>
+<dd>Long-time Trino user and expert 
+<a href="https://www.linkedin.com/in/robfromboulder/">Rob Dickinson</a> joins
+Manfred and Cole to chat about his continued work on virtual view hierarchies,
+which he first introduced at
+<a href="{{site.url}}/blog/2024/12/18/trino-summit-2024-quick-recap">Trino
+Summit 2024</a>. We talk about using AI and agents for development in general,
+and his deep knowledge and experience from working on ViewZoo, ViewMapper, and 
+other projects.
+
+Live stream events on
+<a href="https://www.youtube.com/watch?v=ovtTaYKIrQ8"><i class="fab fa-youtube" style="color: red;"></i> YouTube</a>,
+<a href="https://www.linkedin.com/events/7379375716167159808/"><i class="fab fa-linkedin" style="color: blue;"></i> LinkedIn</a> and
+<a href="https://www.twitch.tv/simpligility"><i class="fab fa-twitch" style="color: blue;"></i> Twitch</a>.
+</dd>
 </dl>
 
 Find [more details and other events on our calendar]({{site.url}}/community.html#events).
