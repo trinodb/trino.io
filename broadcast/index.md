@@ -20,7 +20,7 @@ interesting developments in the ecosystem around Trino.
 ## Upcoming episodes
 
 <dl>
-<dt>16 January 2025: Trino Community Broadcast 78 - A view with a view with a view</dt>
+<dt>16 January 2026: Trino Community Broadcast 78 - A view with a view with a view</dt>
 <dd>Long-time Trino user and expert 
 <a href="https://www.linkedin.com/in/robfromboulder/">Rob Dickinson</a> joins
 Manfred and Cole to chat about his continued work on virtual view hierarchies,
