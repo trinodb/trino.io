@@ -150,6 +150,10 @@ The following community members are Trino maintainers:
   </thead>
   <tbody>
     <tr>
+      <td><a href="https://github.com/chenjian2664">chenjian2664</a></td>
+      <td>Chen Jian</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/dain">dain</a></td>
       <td>Dain Sundstrom</td>
     </tr>
