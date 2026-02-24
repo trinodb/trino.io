@@ -75,11 +75,7 @@ title: Trino Community
       <ul>
       <li>Regular Trino Community Broadcasts as live show with news and guests from the Trino community</li>
       <li>Monthly Trino contributor calls</li>
-      <li>Monthly Trino maintainer calls</li>
       <li>Regular contributor sync meetings for subprojects like Trino Gateway</li>
-      <li>Yearly Trino Fest conference in the earlier half of each year</li>
-      <li>Yearly Trino Summit conference in the later half of each year</li>
-      <li>Trino Contributor Congregation whenever we run in person conferences</li>
       </ul>
       <p>Other community members present at conferences, run local user meetings,
       and organize other events. We add them as long as they are related to Trino
@@ -87,6 +83,8 @@ title: Trino Community
       <p>You can find them all in the Trino events calendar, and often recordings
       on our YouTube channel. Add the calendar to your own application by clicking
       on the "+ Google Calendar" icon at the bottom right.</p>
+      <br>
+      <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23dd00a1&amp;ctz=America%2FDetroit&amp;src=NDhibXJvaXVpZmg2NWJsZWNhOGxzNGhyNTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23D81B60&amp;mode=AGENDA&amp;showCalendars=0&amp;showTz=1&amp;showTabs=0&amp;showPrint=0" style="border:solid 1px #777; margin-bottom: 1rem;" width="100%" height="240" frameborder="0" scrolling="no"></iframe>
       <div class="community-content-container">
         <a href="./broadcast" class="community-broadcast-block">
           <div class="community-broadcast-image-wrapper">
@@ -100,8 +98,6 @@ title: Trino Community
           </a>
         </div>
       </div>
-<br>
-      <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23dd00a1&amp;ctz=America%2FDetroit&amp;src=NDhibXJvaXVpZmg2NWJsZWNhOGxzNGhyNTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23D81B60&amp;mode=AGENDA&amp;showCalendars=0&amp;showTz=1&amp;showTabs=0&amp;showPrint=0" style="border:solid 1px #777; margin-bottom: 1rem;" width="100%" height="240" frameborder="0" scrolling="no"></iframe>
     </div>
     <div class="community-content-section">
       <h2>Contribute</h2>
