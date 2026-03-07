@@ -107,7 +107,7 @@ title: Trino Community
             <a class="github-button" href="https://github.com/trinodb" data-size="large" aria-label="Follow @trinodb on GitHub">Follow @trinodb</a>
             <a class="github-button" href="https://github.com/trinodb/trino" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star trinodb/trino on GitHub">Star</a>
           </div>
-          <p>Help build the next generation of fast, distributed SQL query engines for big data analytics. Trino is maintained by hundreds of people around the globe. Over the years, the Trino project has developed an extensive vision of the software and a strong development philosophy.</p>
+         <p>Help build the next generation of fast, distributed SQL query engine for big data analytics. Trino is maintained by hundreds of people around the globe. Over the years, the Trino project has developed an extensive vision of the software and a strong development philosophy.</p>
           <p>Understanding these helps you get up to speed on the software and how the project works quickly.</p>
           <p><a href="../development/vision.html">Read more about the project vision and development philosophy.</a></p>
         </div>
@@ -128,7 +128,7 @@ title: Trino Community
             </div>
             <div>
               <h3>Write documentation</h3>
-              <p>Contributions are not just about code. Help the community understand how to use our distributed SQL engines by adding to <a href="../docs/current/">our docs</a>. See our <a href="https://github.com/trinodb/trino/tree/master/docs">README</a> for more information.</p>
+            <p>Contributions are not just about code. Help the community understand how to use our distributed SQL engine by adding to <a href="../docs/current/">our docs</a>. See our <a href="https://github.com/trinodb/trino/tree/master/docs">README</a> for more information.</p>
             </div>
           </div>
           <div class="contribute-thirds-container">
