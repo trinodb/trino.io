@@ -2048,10 +2048,14 @@
 - name: Vertica
   anchor: vertica
   category: data-source
-  owner: trinodb
+  owner: other
   logo: /assets/images/logos/vertica.png
   logosmall: /assets/images/logos/vertica-small.png
   description: |
+    Note that the Vertica connector is removed from Trino 480 and later, and no
+    longer maintained. Users must retrieve and update the code from the source
+    code repository, or use an old Trino version.
+
     Vertica, also known as the OpenText Analytics Database, is a column-oriented
     analytic database designed to manage large, fast-growing volumes of data, with
     fast query perfomacne for data warehouses and other query-intensive applications.
@@ -2062,7 +2066,7 @@
     - urltext: Vertica
       url: https://www.opentext.com/products/analytics-database
     - urltext: Vertica connector documentation
-      url: /docs/current/connector/vertica.html
+      url: /docs/479/connector/vertica.html
 - name: VSCode
   anchor: vscode
   category: client-application
