@@ -190,10 +190,11 @@ For example, Trino release are ordered following the
 
 In each section different release notes entries are sorted:
 
-1. **New features**: Start with `Add` or `Add support for` or similar wording
-2. **Performance improvements**: Start with `Improve` or `Improve performance`
+1. **Breaking changes**: Start with `{{breaking}}`
+2. **New features**: Start with `Add` or `Add support for` or similar wording
+3. **Performance improvements**: Start with `Improve` or `Improve performance`
    or similar wording
-3. **Bug fixes**: Start with `Fix` or `Prevent` or similar wording
+4. **Bug fixes**: Start with `Fix` or `Prevent` or similar wording
 
 Use [imperative present tense, as used in a command or
 request](https://en.wikipedia.org/wiki/Imperative_mood) to describe the change.
