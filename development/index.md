@@ -44,9 +44,10 @@ members of the community, and spend a significant amount of time reviewing commu
 The Trino code base uses consistent style. It is documented [in
 the development
 instructions](https://github.com/trinodb/trino/blob/master/.github/DEVELOPMENT.md#code-style).
-The style is documented for Java code in the [Airlift code style
-project](https://github.com/airlift/codestyle), which includes a configuration
-file to use with IntelliJ.
+The style for Java code is enforced by the
+[Airstyle](https://github.com/airlift/airstyle) formatter,
+which includes a configuration file to use with IntelliJ.
+Run `mvn airstyle:format` to fix any style errors.
 
 For all other languages, it is expected that new code matches the style used for
 existing code in that language.
