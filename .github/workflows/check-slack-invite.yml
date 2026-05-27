@@ -1,13 +1,9 @@
 name: Check Slack invite
 
 on:
-  push:
-    branches:
-      - pr-836
   schedule:
     - cron: "0 12 * * *"
   workflow_dispatch:
-
 
 permissions:
   contents: read
