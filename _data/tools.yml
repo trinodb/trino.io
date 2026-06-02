@@ -421,16 +421,13 @@
     Apache Polaris is an open-source, fully-featured catalog for Apache
     Iceberg™. It implements Iceberg's REST API, enabling seamless multi-engine
     interoperability across a wide range of platforms,
-
-    Use Lakekeeper with the Trino Iceberg connector and the configuration for a
-    Iceberg REST catalog.
   links:
     - urltext: Apache Polaris
       url: https://polaris.apache.org/
-    - urltext: Example project with Trino and OPA
-      url: https://github.com/lakekeeper/lakekeeper/tree/main/examples/trino-opa)
-    - urltext: Trino Community Broadcast 72 with the Lakekeeper team
-      url: /episodes/72.html
+    - urltext: Quilckstart Polaris + Trino
+      url: https://polaris.apache.org/releases/1.5.0/getting-started/using-polaris/#connecting-with-trino
+    - urltext: Quickstart docker compose deployment
+      url: https://github.com/apache/polaris/blob/main/site/content/guides/jdbc/docker-compose.yml
     - urltext: Iceberg connector documentation
       url: /docs/current/connector/iceberg.html
     - urltext: Iceberg REST catalog configuration
