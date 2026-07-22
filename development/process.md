@@ -167,6 +167,10 @@ When writing a commit message, follow the
 Read the [full commit message guide](https://chris.beams.io/posts/git-commit/)
 for more details and examples.
 
+Do not add AI tool, AI provider, or AI model attribution, such `Co-authored-by:`
+or `Assisted-by:` footers or any other descriptive text about your tool use to
+Trino commit messages.
+
 The rapid evolution of the project and therefore the content of the default
 branch also means that contributors must rebase their pull request branch
 regularly and ensure no conflicts prevent merging.
