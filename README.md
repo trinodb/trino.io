@@ -10,7 +10,7 @@ It is hosted on [Netlify](https://www.netlify.com/).
 
 ## Build and run locally
 
-In general, you need Ruby, gems, Bundler, Jekyll,
+In general, you need Ruby 4.x, gems, Bundler, Jekyll,
 and [Netlify Dev](https://www.netlify.com/products/dev/).
 
 Detailed steps for macOS follow below.

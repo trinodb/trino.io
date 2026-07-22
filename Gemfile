@@ -5,7 +5,7 @@ source "https://rubygems.org"
 #
 #     bundle exec jekyll serve
 
-gem "jekyll", "~> 4.3.3"
+gem "jekyll", "~> 4.4.1"
 
 group :jekyll_plugins do
   gem "jekyll-sitemap"
@@ -18,3 +18,4 @@ gem "webrick", "~> 1.8.2"
 gem "csv"
 gem "base64"
 gem "bigdecimal"
+gem "logger"
