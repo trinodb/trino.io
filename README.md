@@ -36,7 +36,7 @@ Install bundler using the same version as specified at the end of the
 `Gemfile.lock` file in the project root:
 
 ```bash
-gem install bundler -v '=2.6.9'
+gem install bundler -v '=4.0.17'
 ```
 
 Install gems for site:
@@ -95,3 +95,12 @@ Jekyll invocation to add the `--future` option to see these.
 ```bash
 netlify dev -c 'bundle exec jekyll serve --future'
 ```
+
+### Update dependencies
+
+Update the declared dependencies in the `Gemfile`. Then delete the
+`Gemfile.lock` file, and run `bundle install` to recreate the lock file with
+newer dependencies. Note the bundler version in the lock file and update the
+preceding bundler version if it is a newer version.
+
+Test the site locally, and send a pull request.
