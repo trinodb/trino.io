@@ -1837,6 +1837,31 @@
       url: https://www.rudderstack.com/docs/sources/reverse-etl/trino/
     - urltext: Annnouncement blog post
       url: https://www.rudderstack.com/blog/feature-launch-trino-reverse-etl-source/
+- name: SeaweedFS
+  anchor: seaweedfs
+  category: data-lake
+  owner: other
+  logo: /assets/images/logos/seaweedfs.png
+  logosmall: /assets/images/logos/seaweedfs-small.png
+  description: |
+    SeaweedFS is an open source distributed storage system for blobs, objects,
+    files, and tables. It provides an S3-compatible API for object storage, and
+    its table buckets expose an Iceberg REST catalog that manages table
+    metadata and stores table data behind the same S3 endpoint.
+
+    Use SeaweedFS as object storage with the S3 file system support and the
+    Delta Lake, Hive, Hudi, or Iceberg connectors. Alternatively, connect the
+    Iceberg connector to a SeaweedFS table bucket with the configuration for an
+    Iceberg REST catalog.
+  links:
+    - urltext: SeaweedFS
+      url: https://seaweedfs.com/
+    - urltext: S3 file system support documentation
+      url: /docs/current/object-storage/file-system-s3.html
+    - urltext: Iceberg REST catalog documentation
+      url: /docs/current/object-storage/metastores.html#rest-catalog
+    - urltext: Trino integration test suite in SeaweedFS
+      url: https://github.com/seaweedfs/seaweedfs/tree/master/test/s3tables/catalog_trino
 - name: SingleStore
   anchor: singlestore
   category: data-source
