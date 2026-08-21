@@ -1251,6 +1251,40 @@
       url: /docs/current/connector/iceberg.html
     - urltext: Iceberg REST catalog documentation
       url: /docs/current/object-storage/metastores.html#rest-catalog
+- name: LibreDB Studio
+  anchor: libredb-studio
+  category: client-application
+  owner: other
+  logo: /assets/images/logos/libredb-studio.png
+  logosmall: /assets/images/logos/libredb-studio-small.png
+  description: |
+    LibreDB Studio is an MIT licensed SQL IDE that runs in a browser and is
+    deployed next to the database instead of being installed on a workstation.
+    It ships as a container, a Helm chart, an OpenShift operator, or an npm
+    package embedded in another application.
+
+    It connects to Trino over the Trino client protocol. Each statement is the
+    body of a POST to /v1/statement and the result is read by following the
+    nextUri chain, so no JDBC driver or client library is installed. The editor
+    is based on Monaco with schema aware autocomplete. The same connection
+    serves the catalog and schema tree, table statistics from SHOW STATS, the
+    JSON EXPLAIN plan, and the cluster overview, the statements in flight and
+    the recent query history read from system.runtime.
+
+    Three limits are worth knowing before connecting. A jdbc:trino:// URL is not
+    accepted, so a connection is entered as host, port and catalog fields.
+    EXPLAIN is the planning form only, because EXPLAIN ANALYZE would run the
+    statement. The object tree needs a catalog pinned on the connection, since
+    without one there is no cluster wide table list to read.
+
+    Verified against Trino 476.
+  links:
+    - urltext: Website
+      url: https://libredb.org/
+    - urltext: Source
+      url: https://github.com/libredb/libredb-studio
+    - urltext: Trino support reference
+      url: https://github.com/libredb/libredb-studio/blob/main/docs/providers/trino.md
 - name: Logi Symphony
   anchor: logi-symphony
   category: client-application
