@@ -523,6 +523,24 @@
       url: https://www.backblaze.com/blog/storing-and-querying-analytical-data-in-backblaze-b2/
     - urltext: S3 file system support documentation
       url: /docs/current/object-storage/file-system-s3.html
+- name: Beekeeper Studio
+  anchor: Beekeeper-Studio
+  category: client-application
+  owner: other
+  logo: /assets/images/logos/beekeeper-studio.png
+  logosmall: /assets/images/logos/beekeeper-studio-small.png
+  description: |
+    Beekeeper Studio is a free, open-source SQL editor and database manager
+    with support for MySQL, Postgres, SQLite, SQL Server, Trino, and more.
+    It offers a modern interface for writing and running queries, browsing
+    schemas, and managing connections across many database types.
+  links:
+    - urltext: Beekeeper Studio
+      url: https://www.beekeeperstudio.io/
+    - urltext: Beekeeper Studio and Trino guide
+      url: https://docs.beekeeperstudio.io/user_guide/connecting/trino/
+    - urltext: GitHub
+      url: https://github.com/beekeeper-studio/beekeeper-studio
 - name: C# and ADO.NET
   anchor: c-sharp
   category: client-driver
