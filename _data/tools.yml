@@ -524,7 +524,7 @@
     - urltext: S3 file system support documentation
       url: /docs/current/object-storage/file-system-s3.html
 - name: Beekeeper Studio
-  anchor: Beekeeper-Studio
+  anchor: beekeeper-studio
   category: client-application
   owner: other
   logo: /assets/images/logos/beekeeper-studio.png
