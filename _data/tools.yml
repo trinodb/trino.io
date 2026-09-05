@@ -670,6 +670,17 @@
     - urltext: Interview and demo with the Faker connector author Jan Waś in
         Trino Community Broadcast 71
       url: /episodes/71.html
+- name: LibreDB Studio
+  anchor: LibreDBStudio
+  category: client-application
+  owner: other
+  logo: /assets/images/logos/libredb-studio.png
+  logosmall: /assets/images/logos/libredb-studio-small.png
+  description: |
+    LibreDB Studio is an open source, MIT-licensed, self-hosted database IDE
+    that runs in the browser. It connects to Trino over HTTP alongside fifteen
+    other engines, with a Monaco based SQL editor, schema browsing, and EXPLAIN
+    rendered as the native query plan.
 - name: DBeaver
   anchor: DBeaver
   category: client-application
