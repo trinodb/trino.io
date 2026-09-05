@@ -1269,6 +1269,26 @@
       url: /docs/current/connector/iceberg.html
     - urltext: Iceberg REST catalog documentation
       url: /docs/current/object-storage/metastores.html#rest-catalog
+- name: LibreDB Studio
+  anchor: libredb-studio
+  category: client-application
+  owner: other
+  logo: /assets/images/logos/libredb-studio.png
+  logosmall: /assets/images/logos/libredb-studio-small.png
+  description: |
+    LibreDB Studio is an MIT licensed SQL IDE that runs in a browser and is
+    deployed next to the database instead of being installed on a workstation.
+
+    It connects to Trino over the Trino client protocol, with a Monaco based
+    SQL editor, schema browsing, table statistics, and cluster and query
+    monitoring built in.
+  links:
+    - urltext: Website
+      url: https://libredb.org/
+    - urltext: Source
+      url: https://github.com/libredb/libredb-studio
+    - urltext: Trino support reference
+      url: https://github.com/libredb/libredb-studio/blob/main/docs/providers/trino.md
 - name: Logi Symphony
   anchor: logi-symphony
   category: client-application
