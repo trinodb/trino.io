@@ -638,6 +638,24 @@
   links:
     - urltext: View the NTT Communications website
       url: https://www.ntt.com/en/index.html
+- name: OpenAI
+  highlight: true
+  anchor: openai
+  logo: /assets/images/logos/openai.png
+  logosmall: /assets/images/logos/openai-small.png
+  # Added following contributions to Trino from OpenAI
+  # https://github.com/trinodb/trino/pull/30343
+  # Info supplied by @erichwang
+  testimonial: |
+    OpenAI is an AI research and deployment company. Our mission is to ensure
+    that artificial general intelligence benefits all of humanity.
+
+    OpenAI uses Trino to power interactive data lake analytics at massive scale.
+    It enables both people and AI agents to explore data and answer analytical
+    questions.
+  links:
+    - urltext: View the OpenAI website
+      url: https://openai.com/
 - name: OVHcloud
   highlight: false
   anchor: ovhcloud
