@@ -235,6 +235,32 @@
   links:
     - urltext: View the Cloud Kitchens website
       url: https://cloudkitchens.com/
+- name: Datadog
+  highlight: false
+  anchor: datadog
+  logo: /assets/images/logos/datadog.png
+  logosmall: /assets/images/logos/datadog-small.png
+  # Added following contributions to Trino from Datadog
+  # https://github.com/trinodb/trino/pull/30987
+  # Confirmed by @alexjo2144
+  testimonial: |
+    Datadog is the observability and security platform for cloud applications.
+    Teams of every size use it to monitor their infrastructure, applications,
+    and logs, and to secure them end to end.
+
+    Trino is one of the query engines behind our Apache Iceberg data lake. It
+    gives our engineering and product teams interactive SQL access to very
+    large datasets, and we contribute the improvements we need back to the
+    project, including work on the Iceberg connector.
+
+    We also maintain a Datadog integration for Trino. It collects the JMX
+    metrics from a Trino cluster, so you can track query activity, execution
+    time, and memory and CPU usage next to the rest of your stack.
+  links:
+    - urltext: View the Datadog website
+      url: https://www.datadoghq.com/
+    - urltext: Datadog integration for monitoring Trino
+      url: /ecosystem/add-on.html#datadog
 - name: Datappeal
   highlight: false
   anchor: datappeal
