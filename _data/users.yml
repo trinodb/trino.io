@@ -140,6 +140,21 @@
     - urltext: Interview with Isa Inalcik from BestSecret as guest on Trino Comunity
         Broadcast 60
       url: /episodes/60.html
+- name: Blinkit
+  highlight: false
+  anchor: blinkit
+  logo: /assets/images/logos/blinkit.png
+  logosmall: /assets/images/logos/blinkit-small.png
+  testimonial: |
+    Blinkit is India's leading quick commerce platform, delivering groceries and
+    everyday essentials to millions of customers in minutes. Trino powers
+    interactive analytics and ad hoc exploration across Blinkit's data lake,
+    including Apache Iceberg, Hive, and Hudi tables on object storage. Teams
+    across data engineering, analytics, and product rely on Trino for fast,
+    federated SQL at scale to drive operational insights and decision making.
+  links:
+    - urltext: View the Blinkit website
+      url: https://blinkit.com/
 - name: BlueCat
   highlight: false
   anchor: bluecat
