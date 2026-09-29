@@ -639,7 +639,7 @@
     - urltext: View the NTT Communications website
       url: https://www.ntt.com/en/index.html
 - name: OpenAI
-  highlight: true
+  highlight: false
   anchor: openai
   logo: /assets/images/logos/openai.png
   logosmall: /assets/images/logos/openai-small.png
