@@ -20,8 +20,16 @@ interesting developments in the ecosystem around Trino.
 ## Upcoming episodes
 
 <dl>
-<dt>February 2026: Trino Community Broadcast 79 - to be determined</dt>
-<dd></dd>
+<dt>7 Oct 2026: Trino Community Broadcast 79 - Going for 1.0.0</dt>
+<dd><a href="https://github.com/nineinchnick">Jan Waś</a> 
+joins us to talk more about the amazing work on
+<a href="https://github.com/trinodb/trino-go-client">the trino-go-client</a>
+that led to the recent 1.0.0 release. We learn about the rich feature set,
+collaborators, how we got here, performance, and next steps.
+Live stream events on
+<a href="https://www.youtube.com/watch?v=LcpqaaidKWs"><i class="fab fa-youtube" style="color: red;"></i> YouTube</a>, and 
+<a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7512908391711916032/"><i class="fab fa-linkedin" style="color: blue;"></i> LinkedIn</a>
+</dd>
 </dl>
 
 Find [more details and other events on our calendar]({{site.url}}/community.html#events).
