@@ -1,0 +1,86 @@
+name: Check Slack invite
+
+on:
+  schedule:
+    - cron: "0 12 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check-slack-invite:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Check Slack invite
+        id: check
+        run: |
+          url=$(ruby -ryaml -e 'puts YAML.load_file("_config.yml").fetch("slack_join")')
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+
+          body=$(mktemp)
+          http_code=$(curl --location --silent --show-error \
+            --user-agent "Mozilla/5.0 (compatible; TrinoSlackInviteChecker/1.0)" \
+            --connect-timeout 10 \
+            --max-time 30 \
+            --output "$body" \
+            --write-out "%{http_code}" \
+            "$url")
+          echo "Slack invite returned HTTP $http_code."
+
+          if [ "$http_code" -lt 200 ] || [ "$http_code" -ge 400 ]; then
+            echo "::error::Slack invite URL returned HTTP $http_code"
+            exit 1
+          fi
+
+          if grep -qiE "isSharedInviteError(&quot;|\"):[[:space:]]*true|This link is no longer active|invite link.*(expired|no longer)|could not find your invite|ask the person who originally invited you" "$body"; then
+            echo "expired=true" >> "$GITHUB_OUTPUT"
+            echo "::error::Slack invite appears to be expired"
+            exit 1
+          fi
+
+          echo "Slack invite appears valid."
+
+      - name: Create issue for expired invite
+        if: failure() && steps.check.outputs.expired == 'true'
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const title = 'Slack invite link has expired';
+            const marker = '<!-- slack-invite-expired-check -->';
+            const headers = {'X-GitHub-Api-Version': '2026-03-10'};
+            const {owner, repo} = context.repo;
+            const existing = await github.paginate(github.rest.issues.listForRepo, {
+              owner,
+              repo,
+              state: 'open',
+              per_page: 100,
+              headers,
+            });
+            const duplicate = existing.find((issue) =>
+              issue.title === title && issue.body?.includes(marker));
+            if (duplicate) {
+              core.info(`Existing issue found: #${duplicate.number}`);
+              return;
+            }
+
+            await github.rest.issues.create({
+              owner,
+              repo,
+              title,
+              headers,
+              body: [
+                marker,
+                'The Slack invite configured in `_config.yml` appears to be expired.',
+                '',
+                'Config key: `slack_join`',
+                'Checked URL: ${{ steps.check.outputs.url }}',
+                '',
+                'A Slack admin needs to create a new public invite link and update `slack_join` in `_config.yml`.',
+              ].join('\n'),
+            });
