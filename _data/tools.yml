@@ -2127,6 +2127,22 @@
       url: https://www.opentext.com/products/analytics-database
     - urltext: Vertica connector documentation
       url: /docs/479/connector/vertica.html
+- name: VisuaLeaf
+  anchor: visualeaf
+  category: client-application
+  owner: other
+  logo: /assets/images/logos/visualeaf.png
+  logosmall: /assets/images/logos/visualeaf-small.png
+  description: |
+    VisuaLeaf is a cross-platform desktop database client for Windows, macOS,
+    and Linux with support for Trino, PostgreSQL, MySQL, SQL Server, MongoDB,
+    and more. It offers a SQL editor, a visual query builder, ER diagrams, and
+    charts built from query results.
+  links:
+    - urltext: VisuaLeaf
+      url: https://visualeaf.com/
+    - urltext: Download VisuaLeaf
+      url: https://visualeaf.com/download
 - name: VSCode
   anchor: vscode
   category: client-application
