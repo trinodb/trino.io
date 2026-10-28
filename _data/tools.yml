@@ -1990,6 +1990,28 @@
       url: http://www.tableau.com/
     - urltext: How to connect Tableau to Trino
       url: https://help.tableau.com/current/pro/desktop/en-us/examples_presto.htm
+- name: Tabularis
+  anchor: tabularis
+  category: client-application
+  owner: other
+  logo: /assets/images/logos/tabularis.png
+  logosmall: /assets/images/logos/tabularis-small.png
+  description: |
+    Tabularis is a free, open-source desktop database client for Windows,
+    macOS, and Linux, licensed under Apache 2.0. Its installable Trino plugin
+    connects through the Trino HTTP client protocol and supports browsing
+    catalogs, schemas, tables, and views, as well as running SQL queries in
+    the editor and SQL notebooks.
+
+    The Trino integration is read-only and supports query cancellation,
+    HTTPS, and HTTP Basic authentication over HTTPS.
+  links:
+    - urltext: Tabularis
+      url: https://tabularis.dev/
+    - urltext: Source code
+      url: https://github.com/TabularisDB/tabularis
+    - urltext: Trino plugin and connection instructions
+      url: https://github.com/TabularisDB/tabularis-trino-plugin
 - name: Testcontainers
   anchor: testcontainers
   category: add-on
