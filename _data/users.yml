@@ -1154,6 +1154,21 @@
       url: https://docs.upsolver.com/content/get-started/apache-iceberg
     - urltext: Presentation at Trino Summit 2022
       url: /blog/2022/12/23/trino-summit-2022-upsolver-recap.html
+- name: Wordfully
+  highlight: false
+  anchor: wordfully
+  logo: /assets/images/logos/wordfully.png
+  logosmall: /assets/images/logos/wordfully-small.png
+  testimonial: |
+    Wordfully's ML team uses Trino to query large-scale model-evaluation datasets,
+    including offline benchmark scores and live telemetry stored as Parquet on
+    Amazon S3. These queries compare model precision head-to-head with baseline
+    checkpoints.
+  links:
+    - urltext: Wordfully
+      url: https://wordfully.ai
+    - urltext: Wordfully Ray 2.0
+      url: https://www.wordfully.ai/wordfully-ray-2-0
 - name: Zuora
   highlight: false
   anchor: zuora
