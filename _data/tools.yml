@@ -1527,6 +1527,34 @@
       url: /broadcast/episodes/75.html
     - urltext: Starburst ODBC driver
       url: https://docs.starburst.io/data-consumer/clients/odbc.html
+- name: OLake Go
+  anchor: olake-go
+  category: client-application
+  owner: other
+  logo: /assets/images/logos/olake.png
+  logosmall: /assets/images/logos/olake-small.png
+  description: |
+    OLake Go is a high-performance, open-source EL (Extract-Load) platform
+    that bridges operational databases and open lakehouse storage, writing
+    Apache Iceberg tables or Parquet files on Amazon S3, enabling
+    organizations to replicate data at scale with minimal overhead.
+    Supporting Incremental Sync, Change Data Capture (CDC), and stateful,
+    resumable syncs, OLake Go ensures your tables remain fresh, organized,
+    and optimized for analytics.
+
+    Use Trino to query the Iceberg tables that OLake Go writes to a REST,
+    AWS Glue, Hive or JDBC catalog.
+  links:
+    - urltext: OLake
+      url: https://olake.io/
+    - urltext: OLake documentation
+      url: https://olake.io/docs
+    - urltext: OLake source code
+      url: https://github.com/datazip-inc/olake
+    - urltext: OLake compatibility with Trino
+      url: https://olake.io/docs/understanding/compatibility-engines/
+    - urltext: Example of OLake with Trino, Iceberg REST catalog and MinIO
+      url: https://github.com/datazip-inc/olake/tree/master/examples/trino-tablurarest-minio-mysql
 - name: OpenAPI
   anchor: openapi
   category: data-source
