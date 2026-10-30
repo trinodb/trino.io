@@ -699,6 +699,24 @@
       url: https://dbeaver.com/docs/cloudbeaver/
     - urltext: DBeaver and Trino guide
       url: https://docs.starburst.io/data-consumer/clients/dbeaver.html
+- name: DBine
+  anchor: dbine
+  category: client-application
+  owner: other
+  logo: /assets/images/logos/dbine.png
+  logosmall: /assets/images/logos/dbine-small.png
+  description: |
+    DBine is a free, open-source desktop database manager for Windows, macOS,
+    and Linux. It connects to Trino over the client REST API, browses catalogs,
+    schemas, and tables, and runs SQL with autocompletion, next to 130+ other
+    databases and cloud services in the same window.
+  links:
+    - urltext: DBine
+      url: https://dbine.com/
+    - urltext: GitHub
+      url: https://github.com/addlayer-io/dbine
+    - urltext: DBine and Trino guide
+      url: https://dbine.com/en/engines/trino
 - name: dbt
   anchor: dbt
   category: client-application
