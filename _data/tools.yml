@@ -715,6 +715,8 @@
       url: https://dbine.com/
     - urltext: GitHub
       url: https://github.com/addlayer-io/dbine
+    - urltext: DBine and Trino guide
+      url: https://dbine.com/en/engines/trino
 - name: dbt
   anchor: dbt
   category: client-application
