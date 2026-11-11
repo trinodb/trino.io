@@ -250,6 +250,26 @@
   links:
     - urltext: View the Cloud Kitchens website
       url: https://cloudkitchens.com/
+- name: Databasin
+  highlight: false
+  anchor: databasin
+  logo: /assets/images/logos/databasin.png
+  logosmall: /assets/images/logos/databasin-small.png
+  testimonial: |
+    Databasin is a data platform for hospitals, academic medical centers and
+    universities. It brings data from sources such as Epic Clarity and Workday
+    into an Apache Iceberg lakehouse that the customer owns.
+
+    Trino is one of the query engines in every Databasin lakehouse. Teams pick
+    it in the SQL editor to query the same Iceberg tables our Spark-compatible
+    engine writes, without copying data. Trino can also host live
+    connections, so teams can query a source database next to their lakehouse
+    tables with plain SQL.
+  links:
+    - urltext: View the Databasin website
+      url: https://databasin.ai/
+    - urltext: Trino in the Databasin lakehouse
+      url: https://databasin.ai/docs/lakehouse/multi-engine/
 - name: Datadog
   highlight: false
   anchor: datadog
