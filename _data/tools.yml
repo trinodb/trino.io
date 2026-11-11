@@ -1536,25 +1536,24 @@
   description: |
     OLake Go is a high-performance, open-source EL (Extract-Load) platform
     that bridges operational databases and open lakehouse storage, writing
-    Apache Iceberg tables or Parquet files on Amazon S3, enabling
-    organizations to replicate data at scale with minimal overhead.
-    Supporting Incremental Sync, Change Data Capture (CDC), and stateful,
-    resumable syncs, OLake Go ensures your tables remain fresh, organized,
-    and optimized for analytics.
-
-    Use Trino to query the Iceberg tables that OLake Go writes to a REST,
-    AWS Glue, Hive or JDBC catalog.
+    Apache Iceberg tables or Parquet files to S3-compatible storage, enabling
+    organizations to replicate data at scale with minimal overhead. OLake Go
+    also documents writing Iceberg data to Azure Data Lake Storage Gen2 and
+    Parquet files to Azure Blob Storage.
+    Supported sources include PostgreSQL, MySQL, MongoDB, Oracle Database,
+    Apache Kafka, DB2, MSSQL, and S3. Supported sync modes vary by source:
+    Full Refresh, Full Refresh + Incremental, Full Refresh + CDC, and CDC
+    Only. For Iceberg, OLake Go supports catalog integrations including
+    AWS Glue Data Catalog, Apache Hive Metastore, REST catalogs, and JDBC.
   links:
-    - urltext: OLake
+    - urltext: OLake Go
       url: https://olake.io/
-    - urltext: OLake documentation
+    - urltext: OLake Go documentation
       url: https://olake.io/docs
-    - urltext: OLake source code
+    - urltext: OLake Go source code
       url: https://github.com/datazip-inc/olake
-    - urltext: OLake compatibility with Trino
-      url: https://olake.io/docs/understanding/compatibility-engines/
-    - urltext: Example of OLake with Trino, Iceberg REST catalog and MinIO
-      url: https://github.com/datazip-inc/olake/tree/master/examples/trino-tablurarest-minio-mysql
+    - urltext: OLake Go playground with Trino
+      url: https://olake.io/docs/getting-started/playground/?engine=trino
 - name: OpenAPI
   anchor: openapi
   category: data-source
