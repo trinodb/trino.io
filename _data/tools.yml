@@ -1,6 +1,22 @@
 ################################################################################
 # Data for the display on the detailed ecosystem pages
 ################################################################################
+- name: ADBC
+  anchor: adbc
+  category: client-driver
+  owner: other
+  logo: /assets/images/logos/adbc.png
+  logosmall: /assets/images/logos/adbc-small.png
+  description: |
+    Arrow Database Connectivity (ADBC) is an API standard for fast, Arrow-native
+    database access. Use the Trino ADBC driver to connect applications to a
+    Trino cluster and receive the results of the submitted queries in Arrow
+    format.
+  links:
+    - urltext: ADBC
+      url: https://arrow.apache.org/adbc/current/index.html
+    - urltext: Trino ADBC driver documentation
+      url: https://adbc-drivers.org/drivers/trino/
 - name: Alluxio
   anchor: alluxio
   category: data-lake
