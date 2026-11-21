@@ -76,11 +76,13 @@ keep the amount of rework from the contributor to a minimum.
 
 7. Address concerns and update the pull request.
 
-    1. Comments are addressed to each individual commit in the pull request, and
-       changes should be addressed in a new
+    1. Address the comments in the commits they belong to. Amend the commits
+       and force-push the branch, unless a reviewer has already reviewed the
+       code and wants to see what changed since their last review. In that
+       case, add a
        [`fixup!` commit](https://git-scm.com/docs/git-commit#Documentation/git-commit.txt---fixupamendrewordltcommitgt)
-       placed after each commit. This is to make it easier for the reviewer to
-       see what was updated.
+       after each commit, and squash the fixup commits before the pull request
+       is merged.
     2. After pushing the changes, add a comment to the pull-request, mentioning
        the reviewers by name, stating that the review comments have been
        addressed. This is the only way that a reviewer is notified that you are
