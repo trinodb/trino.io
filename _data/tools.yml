@@ -633,6 +633,30 @@
       url: https://cube.dev/integrations/Trino-Data-API
     - urltext: Announcement blog post
       url: https://cube.dev/blog/cube-integration-with-trino-sql-query-engine-for-big-data
+- name: Databasin
+  anchor: databasin
+  category: client-application
+  owner: other
+  logo: /assets/images/logos/databasin.png
+  logosmall: /assets/images/logos/databasin-small.png
+  description: |
+    Databasin is a data and AI platform. Trino is one of the native query
+    engines in a Databasin lakehouse, next to Databasin Sail and DuckDB, and
+    reads the same Apache Iceberg tables the other engines write. Databasin
+    runs the Trino clusters and puts them to sleep when idle.
+
+    The Databasin SQL editor runs queries on Trino and streams the results, and
+    its AI SQL Assistant writes Trino SQL when Trino is the selected engine.
+    Federated queries join lakehouse tables with outside databases such as
+    Snowflake and Oracle. Where a project runs live sources on Trino, they
+    appear under the `live` catalog and are queried in place.
+  links:
+    - urltext: Databasin
+      url: https://www.databasin.ai/
+    - urltext: Multi-engine SQL with Trino in Databasin
+      url: https://www.databasin.ai/docs/lakehouse/multi-engine/
+    - urltext: Trino clusters in Databasin
+      url: https://www.databasin.ai/docs/lakehouse/clusters/
 - name: Datadog
   anchor: datadog
   category: add-on
