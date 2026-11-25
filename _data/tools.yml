@@ -17,6 +17,29 @@
       url: https://arrow.apache.org/adbc/current/index.html
     - urltext: Trino ADBC driver documentation
       url: https://adbc-drivers.org/drivers/trino/
+- name: akko-mcp-trino
+  anchor: akko-mcp-trino
+  category: client-application
+  owner: other
+  logo: /assets/images/logos/akko-mcp-trino.png
+  logosmall: /assets/images/logos/akko-mcp-trino-small.png
+  description: |
+    akko-mcp-trino is a read-only Model Context Protocol (MCP) server for
+    Trino, licensed under Apache 2.0. It lets AI agents and MCP hosts such as
+    Claude Desktop, Cursor, or VS Code list catalogs, schemas, and tables,
+    describe them, and run or explain queries.
+
+    By default, each query runs as the verified user through OAuth 2.0 Token
+    Exchange, so Trino's own access control (OPA, Ranger, or file-based rules)
+    decides what the agent sees. Writes are refused on the parsed SQL tree,
+    and statements, rows, answer size, and time are bounded.
+  links:
+    - urltext: Source code
+      url: https://github.com/AKKO-p/akko-mcp-trino
+    - urltext: Quickstart with a local Trino, Keycloak, and OPA
+      url: https://github.com/AKKO-p/akko-sandbox
+    - urltext: Connect an MCP host
+      url: https://github.com/AKKO-p/akko-mcp-trino/blob/main/docs/en/hosts.md
 - name: Alluxio
   anchor: alluxio
   category: data-lake
