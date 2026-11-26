@@ -2021,7 +2021,7 @@
     - urltext: Let it snow for Trino presentation from Trino Fest 2023
       url: http://trino.io/blog/2023/07/12/trino-fest-2023-let-it-snow-recap.html
 - name: SQL Formatter
-  anchor: workload-analyzer
+  anchor: sql-formatter
   category: add-on
   owner: other
   logo: /assets/images/logos/sql-formatter.png
