@@ -957,6 +957,24 @@
       url: https://go.dev/
     - urltext: Trino Go client source code and documentation
       url: https://github.com/trinodb/trino-go-client
+- name: Google BigQuery
+  anchor: google-bigquery
+  category: data-source
+  owner: trinodb
+  logo: /assets/images/logos/google-bigquery.png
+  logosmall: /assets/images/logos/google-bigquerye-small.png
+  description: |
+    BigQuery is a serverless and cost-effective enterprise data warehouse that
+    works across clouds and scales with your data. Use built-in ML/AI and BI for
+    insights at scale.
+
+    Use a Google BigQuery data warehouse as a data source in Trino by
+    configuring a catalog with the BigQuery connector.
+  links:
+    - urltext: Google BigQuery
+      url: https://cloud.google.com/bigquery/
+    - urltext: BigQuery connector documentation
+      url: /docs/current/connector/bigquery.html
 - name: Google Cloud Storage
   anchor: google-cloud-storage
   category: data-lake
@@ -979,24 +997,6 @@
       url: https://cloud.google.com/storage
     - urltext: Google Cloud Storage file system support documentation
       url: /docs/current/object-storage/file-system-gcs.html
-- name: Google BigQuery
-  anchor: google-bigquery
-  category: data-source
-  owner: trinodb
-  logo: /assets/images/logos/google-bigquery.png
-  logosmall: /assets/images/logos/google-bigquerye-small.png
-  description: |
-    BigQuery is a serverless and cost-effective enterprise data warehouse that
-    works across clouds and scales with your data. Use built-in ML/AI and BI for
-    insights at scale.
-
-    Use a Google BigQuery data warehouse as a data source in Trino by
-    configuring a catalog with the BigQuery connector.
-  links:
-    - urltext: Google BigQuery
-      url: https://cloud.google.com/bigquery/
-    - urltext: BigQuery connector documentation
-      url: /docs/current/connector/bigquery.html
 - name: Google Sheets
   anchor: google-sheets
   category: data-source
@@ -1184,25 +1184,6 @@
   links:
     - urltext: Trino JDBC Driver documentation
       url: /docs/current/client/jdbc.html
-- name: Simba JDBC Driver
-  anchor: simba-jdbc
-  category: client-driver
-  owner: other
-  logo: /assets/images/logos/simba.png
-  logosmall: /assets/images/logos/simba-small.png
-  description: |
-    The Simba data connectivity includes a JDBC Driver for Trino as a commercial
-    driver maintained by insightsoftware. It offers enterprise-grade support,
-    SLAs, and compatibility for users requiring an alternative to the open
-    source driver. The Simba driver is aimed at customers seeking
-    production-ready stability, direct support channels, and custom feature
-    enhancements over time. The driver supports common use cases and works
-    across a broad set of connectors.
-  links:
-    - urltext: Simba JDBC driver from insightsoftware
-      url: https://www.insightsoftware.com/simba/drivers/trino-jdbc-driver/
-    - urltext: Chat about Simba data connectivity at Trino Community Broadcast 75
-      url: /broadcast/episodes/75.html
 - name: JetBrains Datagrip
   anchor: jetbrains-datagriop
   category: client-application
@@ -1607,6 +1588,28 @@
       url: https://github.com/datazip-inc/olake-go
     - urltext: OLake Go playground with Trino
       url: https://olake.io/docs/getting-started/playground/?engine=trino
+- name: Open Policy Agent
+  anchor: opa
+  category: add-on
+  owner: trinodb
+  logo: /assets/images/logos/opa.png
+  logosmall: /assets/images/logos/opa-small.png
+  description: |
+    Open Policy Agent (OPA) is a system for policy-based control for cloud
+    native environments. It enables flexible, fine-grained control for
+    administrators across many systems and applications.
+
+    The Trino plugin enables the use of Open Policy Agent (OPA) as authorization
+    engine for access control to catalogs, schemas, tables, and other objects in
+    Trino. Policies are defined in OPA, and Trino checks access control
+    privileges in OPA.
+  links:
+    - urltext: Open Policy Agent
+      url: https://www.openpolicyagent.org/
+    - urltext: Open Policy Agent access control documentation
+      url: /docs/current/security/opa-access-control.html
+    - urltext: Blog post about Open Policy Agent for Trino with videos from Trino Summit 2023
+      url: http://trino.io/blog/2024/02/06/opa-arrived.html
 - name: OpenAPI
   anchor: openapi
   category: data-source
@@ -1645,28 +1648,6 @@
       url: /docs/current/admin/event-listeners-openlineage.html
     - urltext: Enhancing data governance at Apple with OpenLineage at Trino Fest 2024
       url: https://youtu.be/A7hj1M7IYj8
-- name: Open Policy Agent
-  anchor: opa
-  category: add-on
-  owner: trinodb
-  logo: /assets/images/logos/opa.png
-  logosmall: /assets/images/logos/opa-small.png
-  description: |
-    Open Policy Agent (OPA) is a system for policy-based control for cloud
-    native environments. It enables flexible, fine-grained control for
-    administrators across many systems and applications.
-
-    The Trino plugin enables the use of Open Policy Agent (OPA) as authorization
-    engine for access control to catalogs, schemas, tables, and other objects in
-    Trino. Policies are defined in OPA, and Trino checks access control
-    privileges in OPA.
-  links:
-    - urltext: Open Policy Agent
-      url: https://www.openpolicyagent.org/
-    - urltext: Open Policy Agent access control documentation
-      url: /docs/current/security/opa-access-control.html
-    - urltext: Blog post about Open Policy Agent for Trino with videos from Trino Summit 2023
-      url: http://trino.io/blog/2024/02/06/opa-arrived.html
 - name: OpenSearch
   anchor: opensearch
   category: data-source
@@ -1920,22 +1901,6 @@
       url: https://www.ruby-lang.org/en/
     - urltext: trino-client-ruby
       url: https://github.com/treasure-data/trino-client-ruby
-- name: Rust
-  anchor: rust
-  category: client-driver
-  owner: other
-  logo: /assets/images/logos/rust.png
-  logosmall: /assets/images/logos/rust-small.png
-  description: |
-    Rust is a programming language empowering everyone to build reliable and
-    efficient software. Use the Prusto client library to connect a Rust
-    application to a Trino cluster and receive the results of the submitted
-    queries.
-  links:
-    - urltext: Rust
-      url: https://www.rust-lang.org/
-    - urltext: Prusto
-      url: https://github.com/nooberfsh/prusto
 - name: RudderStack
   anchor: rudderstack
   category: add-on
@@ -1955,6 +1920,22 @@
       url: https://www.rudderstack.com/docs/sources/reverse-etl/trino/
     - urltext: Annnouncement blog post
       url: https://www.rudderstack.com/blog/feature-launch-trino-reverse-etl-source/
+- name: Rust
+  anchor: rust
+  category: client-driver
+  owner: other
+  logo: /assets/images/logos/rust.png
+  logosmall: /assets/images/logos/rust-small.png
+  description: |
+    Rust is a programming language empowering everyone to build reliable and
+    efficient software. Use the Prusto client library to connect a Rust
+    application to a Trino cluster and receive the results of the submitted
+    queries.
+  links:
+    - urltext: Rust
+      url: https://www.rust-lang.org/
+    - urltext: Prusto
+      url: https://github.com/nooberfsh/prusto
 - name: SeaweedFS
   anchor: seaweedfs
   category: data-lake
@@ -1980,6 +1961,25 @@
       url: /docs/current/object-storage/metastores.html#rest-catalog
     - urltext: Trino integration test suite in SeaweedFS
       url: https://github.com/seaweedfs/seaweedfs/tree/master/test/s3tables/catalog_trino
+- name: Simba JDBC Driver
+  anchor: simba-jdbc
+  category: client-driver
+  owner: other
+  logo: /assets/images/logos/simba.png
+  logosmall: /assets/images/logos/simba-small.png
+  description: |
+    The Simba data connectivity includes a JDBC Driver for Trino as a commercial
+    driver maintained by insightsoftware. It offers enterprise-grade support,
+    SLAs, and compatibility for users requiring an alternative to the open
+    source driver. The Simba driver is aimed at customers seeking
+    production-ready stability, direct support channels, and custom feature
+    enhancements over time. The driver supports common use cases and works
+    across a broad set of connectors.
+  links:
+    - urltext: Simba JDBC driver from insightsoftware
+      url: https://www.insightsoftware.com/simba/drivers/trino-jdbc-driver/
+    - urltext: Chat about Simba data connectivity at Trino Community Broadcast 75
+      url: /broadcast/episodes/75.html
 - name: SingleStore
   anchor: singlestore
   category: data-source
@@ -2129,20 +2129,6 @@
       url: /docs/current/connector/tpcds.html
     - urltext: TPC-H connector documentation
       url: /docs/current/connector/tpch.html
-- name: Trino-lb
-  anchor: trino-lb
-  category: add-on
-  owner: other
-  logo: /assets/images/logos/trino-lb.png
-  logosmall: /assets/images/logos/trino-lb-small.png
-  description: |
-    Trino-lb is a load balancer with support for routing, queueing, and auto-scaling
-    for multiple Trino clusters.
-  links:
-    - urltext: Trino-lb
-      url: https://github.com/stackabletech/trino-lb
-    - urltext: Trino-lb documentation
-      url: https://github.com/stackabletech/trino-lb/blob/main/README.md
 - name: Trino Gateway
   anchor: trino-gateway
   category: add-on
@@ -2160,6 +2146,20 @@
       url: https://www.youtube.com/watch?v=2qwBcKmQSn0
     - urltext: Announcement blog post
       url: /blog/2023/09/28/trino-gateway
+- name: Trino-lb
+  anchor: trino-lb
+  category: add-on
+  owner: other
+  logo: /assets/images/logos/trino-lb.png
+  logosmall: /assets/images/logos/trino-lb-small.png
+  description: |
+    Trino-lb is a load balancer with support for routing, queueing, and auto-scaling
+    for multiple Trino clusters.
+  links:
+    - urltext: Trino-lb
+      url: https://github.com/stackabletech/trino-lb
+    - urltext: Trino-lb documentation
+      url: https://github.com/stackabletech/trino-lb/blob/main/README.md
 - name: Unity Catalog
   anchor: unity-catalog
   category: data-lake
